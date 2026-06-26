@@ -828,6 +828,9 @@ function pickCrossItems(items, maxPicks = 8) {
     const url = it.url || "";
     if (!url.startsWith("http")) continue;
 
+    // 跳过明显的工具页/常青内容（标题含"一键""快速""引爆""先机""功能"等CTA词）
+    if (/一键|快速理清|引爆.*先机|功能：|开店即用|免费试用/i.test(title)) continue;
+
     const key = extractEventKey(title);
     if (!key || key === "|") continue; // 无法归类的跳过
 
