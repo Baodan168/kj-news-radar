@@ -222,6 +222,17 @@ input:focus, select:focus, button:focus-visible {
   font-weight: 700;
 }
 
+/* ===== Pills ===== */
+.site-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill {
+  border: 1px solid var(--line);
+  background: var(--surface-soft);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 6px 11px;
+  cursor: pointer;
+  font-size: 12px;
+}
 .pill.active {
   background: rgba(18, 106, 115, 0.11);
   border-color: rgba(18, 106, 115, 0.5);
@@ -560,7 +571,8 @@ input:focus, select:focus, button:focus-visible {
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
   .coverage-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  @media (max-width: 640px) {
+}
+@media (max-width: 640px) {
   .shell { padding: 14px 10px 36px; }
   .hero { grid-template-columns: 1fr; gap: 12px; }
   .hero h1 { font-size: 26px; }
@@ -568,6 +580,7 @@ input:focus, select:focus, button:focus-visible {
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .stat .v { font-size: 18px; }
   .coverage-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
   
 /* ===== Loading / Empty ===== */
 .loading, .empty { color: var(--muted); font-size: 13px; padding: 20px; text-align: center; }
