@@ -621,29 +621,6 @@ def fetch_ecombrainly(session: requests.Session, now: datetime) -> list[RawItem]
     return items[:25]
 
 
-def fetch_novadata(session: requests.Session, now: datetime) -> list[RawItem]:
-    """NovaData — 卖家新闻，直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://novadata.io/resources/news", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 10 or not href.startswith("http"):
-                continue
-            if "novadata.io" not in href:
-                continue
-            items.append(RawItem(
-                site_id="novadata", site_name="NovaData", source="卖家新闻",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] NovaData fetch failed: {e}")
-    return items[:25]
-
 
 def fetch_seller_policy_watch(session: requests.Session, now: datetime) -> list[RawItem]:
     """Seller Policy Watch — 政策变动监控，直接HTML解析。"""
@@ -692,11 +669,6 @@ def fetch_ecomengine(session: requests.Session, now: datetime) -> list[RawItem]:
         print(f"  [WARN] EcomEngine fetch failed: {e}")
     return items[:20]
 
-
-def fetch_ecommercebytes(session: requests.Session, now: datetime) -> list[RawItem]:
-    """EcommerceBytes — 电商行业新闻。"""
-    return fetch_rss(session, "https://www.ecommercebytes.com/feed/",
-                     "ecommercebytes", "EcommerceBytes", "电商行业")
 
 
 def fetch_practical_ecommerce(session: requests.Session, now: datetime) -> list[RawItem]:

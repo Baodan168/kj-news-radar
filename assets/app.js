@@ -202,7 +202,9 @@ function setStats() {
 
   const ai = state.totalAi;
   const raw = state.totalRaw;
-  const sites = state.statsAi.length;
+  const sites = state.sourceStatus && Array.isArray(state.sourceStatus.sites)
+    ? state.sourceStatus.sites.filter(s => s.ok === true).length
+    : 0;
   const filtered = state.mode === "cross" ? ai : (state.allDedup ? state.itemsAll.length : state.totalAllMode);
 
   el.innerHTML = `
@@ -231,23 +233,7 @@ function setStats() {
  * 渲染数据源健康状态条
  */
 function renderCoverageStrip() {
-  const el = $("sourceHealth");
-  if (!el || !state.sourceStatus) return;
-
-  const sources = state.sourceStatus;
-  const total = Object.keys(sources).length;
-  const ok = Object.values(sources).filter(s => s.status === "ok").length;
-
-  let html = `<div class="coverage-strip"><span class="coverage-badge">${ok}/${total} 来源在线</span>`;
-
-  for (const [id, info] of Object.entries(sources)) {
-    const cls = info.status === "ok" ? "cov-ok" : "cov-err";
-    const tip = `${sourceLabel(id)}: ${info.status}${info.last_item_at ? " · 最近 " + timeAgo(info.last_item_at) : ""}`;
-    html += `<span class="cov-dot ${cls}" title="${esc(tip)}"></span>`;
-  }
-
-  html += `</div>`;
-  el.innerHTML = html;
+  return;
 }
 
 /* ========== 来源筛选栏 ========== */
@@ -716,7 +702,7 @@ function extractEventKey(title) {
  */
 function pickCrossItems(items, maxPicks = 8) {
   // 内容质量黑名单 — 工具/营销/软文/常青内容
-  const BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sellerboard|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具|利润分析|分析工具|亚马逊.*工具|沃尔玛.*工具|选品工具|广告工具|erp工具|超精准|高时效|定制化|系统性|专属顾问|成长服务|卖家服务|官方服务|爆单秘籍|独家揭秘|必看攻略|一键|快速理清|引爆.*先机|功能：|开店即用|免费试用/i;
+  const BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sellerboard|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具|利润分析|分析工具|亚马逊.*工具|沃尔玛.*工具|选品工具|广告工具|erp工具|超精准|高时效|定制化|系统性|专属顾问|成长服务|卖家服务|官方服务|爆单秘籍|独家揭秘|必看攻略|一键|快速理清|引爆.*先机|功能：|开店即用|免费试用|跨境电商365.*Agent|Agent.*亚马逊/i;
 
   // 按事件 key 分组
   const clusters = new Map();
@@ -761,10 +747,10 @@ function pickCrossItems(items, maxPicks = 8) {
     }))
     .filter(c => c.sourceCount >= 1) // 至少1个不同来源
     .sort((a, b) => {
-      // 多源优先
-      if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
-      // 分数
+      // 分数优先
       if (Math.abs(b.maxScore - a.maxScore) > 0.01) return b.maxScore - a.maxScore;
+      // 同分时多源优先
+      if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
       // 时间
       return b.latestTime - a.latestTime;
     })
@@ -943,21 +929,7 @@ function bindSearchBtn() {
 
 /* ========== 去重开关绑定 ========== */
 
-function bindDedupeToggle() {
-  const toggle = $("allDedupeToggle");
-  const label = $("allDedupeLabel");
-  if (!toggle) return;
 
-  toggle.checked = state.allDedup;
-  if (label) label.textContent = state.allDedup ? "已去重" : "显示全部";
-
-  toggle.addEventListener("change", () => {
-    state.allDedup = toggle.checked;
-    if (label) label.textContent = state.allDedup ? "已去重" : "显示全部";
-    renderList();
-    setStats();
-  });
-}
 
 /* ========== 综合渲染 ========== */
 
