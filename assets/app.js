@@ -715,8 +715,8 @@ function extractEventKey(title) {
  * @returns {Array} 聚类后的事件数组
  */
 function pickCrossItems(items, maxPicks = 8) {
-  // 工具/推广/软文黑名单 — 精选不允许出现
-  const TOOL_BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sellerboard|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具|利润分析|分析工具|亚马逊.*工具|沃尔玛.*工具|选品工具|广告工具|erp工具/i;
+  // 内容质量黑名单 — 工具/营销/软文/常青内容
+  const BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sellerboard|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具|利润分析|分析工具|亚马逊.*工具|沃尔玛.*工具|选品工具|广告工具|erp工具|超精准|高时效|定制化|系统性|专属顾问|成长服务|卖家服务|官方服务|爆单秘籍|独家揭秘|必看攻略|一键|快速理清|引爆.*先机|功能：|开店即用|免费试用/i;
 
   // 按事件 key 分组
   const clusters = new Map();
@@ -725,10 +725,7 @@ function pickCrossItems(items, maxPicks = 8) {
     const title = (it.title || "").trim();
 
     // 跳过工具推荐/软文
-    if (TOOL_BLACKLIST.test(title)) continue;
-
-    // 跳过过于简短的标题（<15字符，信息量不足或是品类名）
-    if (title.length < 15) continue;
+    if (BLACKLIST.test(title)) continue;
 
     // 跳过没有URL或URL指向非文章页
     const url = it.url || "";
@@ -736,9 +733,6 @@ function pickCrossItems(items, maxPicks = 8) {
 
     // 影响维度过滤
     if (state.impactFilter && it.cross_label !== state.impactFilter) continue;
-
-    // 跳过明显的工具页/常青内容（标题含"一键""快速""引爆""先机""功能"等CTA词）
-    if (/一键|快速理清|引爆.*先机|功能：|开店即用|免费试用/i.test(title)) continue;
 
     const key = extractEventKey(title);
     if (!key || key === "|") continue; // 无法归类的跳过
