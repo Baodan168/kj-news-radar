@@ -495,7 +495,7 @@ function getFilteredItems() {
 /* ========== 新闻列表渲染 ========== */
 
 /**
- * 渲染新闻列表
+ * 渲染新闻列表 — 按站点→来源分组（对齐 AI News Radar）
  */
 function renderList() {
   const listEl = $("newsList");
@@ -505,41 +505,106 @@ function renderList() {
 
   const items = getFilteredItems();
 
-  if (countEl) countEl.textContent = `${items.length} 条`;
-  if (titleEl) titleEl.textContent = state.mode === "cross" ? "AI 跨境信号" : "全量信号";
+  if (countEl) countEl.textContent = `${fmtNumber(items.length)} 条`;
+  if (titleEl) titleEl.textContent = state.mode === "cross" ? "跨境信号流" : "全量信号";
 
-  if (items.length === 0) {
-    listEl.innerHTML = `<div class="empty-state">暂无匹配的信号，请调整筛选条件</div>`;
+  listEl.innerHTML = "";
+  if (!items.length) {
+    listEl.innerHTML = `<div class="empty">当前筛选条件下没有结果。</div>`;
     return;
   }
 
-  let html = "";
-  for (const it of items) {
-    const urg = urgencyOf(it.cross_score || 0);
-    const label = LABELS[it.cross_label] || "行业资讯";
-    const labelEmoji = LABEL_EMOJI[it.cross_label] || "📰";
-    const signals = (it.cross_signals || []).map(s => `<span class="signal-tag">${esc(s)}</span>`).join("");
-    const reason = it.cross_relevance_reason ? `<div class="item-reason">${esc(it.cross_relevance_reason)}</div>` : "";
-    const toneCls = sourceTone(it.site_id);
-
-    html += `
-    <article class="news-item" data-id="${esc(it.id)}">
-      <div class="item-header">
-        <span class="urgency-dot" title="${urg.label}">${urg.emoji}</span>
-        <span class="label-badge label-${esc(it.cross_label || 'general')}">${labelEmoji} ${esc(label)}</span>
-        <span class="source-badge tone-${toneCls}">${esc(it.site_name || sourceLabel(it.site_id))}</span>
-        <span class="item-score" title="跨境相关性分数">${((it.cross_score || 0) * 100).toFixed(0)}%</span>
-        <span class="item-time" title="${esc(it.published_at)}">${timeAgo(it.published_at)}</span>
-      </div>
-      <h3 class="item-title">
-        <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
-      </h3>
-      ${reason}
-      ${signals ? `<div class="item-signals">${signals}</div>` : ""}
-    </article>`;
+  if (state.siteFilter) {
+    // 站点筛选激活时 → 按来源分组
+    renderGroupedBySource(items, listEl);
+  } else {
+    // 默认 → 按站点分组，站点内按来源分组
+    renderGroupedBySiteAndSource(items, listEl);
   }
+}
 
-  listEl.innerHTML = html;
+/** 按来源分组 */
+function renderGroupedBySource(items, container) {
+  const groupMap = new Map();
+  items.forEach(it => {
+    const key = it.source || "未分区";
+    if (!groupMap.has(key)) groupMap.set(key, []);
+    groupMap.get(key).push(it);
+  });
+  const groups = [...groupMap.entries()].sort((a, b) => b[1].length - a[1].length);
+  const frag = document.createDocumentFragment();
+  groups.forEach(([source, groupItems]) => {
+    frag.appendChild(buildSourceGroupNode(source, groupItems));
+  });
+  container.appendChild(frag);
+}
+
+/** 按站点→来源分组 */
+function renderGroupedBySiteAndSource(items, container) {
+  const siteMap = new Map();
+  items.forEach(it => {
+    if (!siteMap.has(it.site_id)) siteMap.set(it.site_id, { name: it.site_name || it.site_id, items: [] });
+    siteMap.get(it.site_id).items.push(it);
+  });
+  const sites = [...siteMap.entries()].sort((a, b) => b[1].items.length - a[1].items.length);
+  const frag = document.createDocumentFragment();
+  sites.forEach(([, site]) => {
+    const section = document.createElement("section");
+    section.className = "site-group";
+    const header = document.createElement("header");
+    header.className = "site-group-head";
+    header.innerHTML = `<h3>${esc(site.name)}</h3><span>${fmtNumber(site.items.length)} 条</span>`;
+    const list = document.createElement("div");
+    list.className = "site-group-list";
+    section.append(header, list);
+
+    // 站点内按来源分组
+    const sourceMap = new Map();
+    site.items.forEach(it => {
+      const key = it.source || "未分区";
+      if (!sourceMap.has(key)) sourceMap.set(key, []);
+      sourceMap.get(key).push(it);
+    });
+    const sourceGroups = [...sourceMap.entries()].sort((a, b) => b[1].length - a[1].length);
+    sourceGroups.forEach(([source, groupItems]) => {
+      list.appendChild(buildSourceGroupNode(source, groupItems));
+    });
+    frag.appendChild(section);
+  });
+  container.appendChild(frag);
+}
+
+/** 构建来源分组节点 */
+function buildSourceGroupNode(source, items) {
+  const section = document.createElement("section");
+  section.className = "source-group";
+  const header = document.createElement("header");
+  header.className = "source-group-head";
+  header.innerHTML = `<h3>${esc(source)}</h3><span>${fmtNumber(items.length)} 条</span>`;
+  const list = document.createElement("div");
+  list.className = "source-group-list";
+  section.append(header, list);
+  items.forEach(it => list.appendChild(renderItemNode(it)));
+  return section;
+}
+
+/** 构建单条新闻卡片 */
+function renderItemNode(it) {
+  const tpl = document.getElementById("itemTpl");
+  const node = tpl.content.firstElementChild.cloneNode(true);
+  const kind = SOURCE_KINDS[it.site_id] || { label: "来源", tone: "default" };
+
+  node.querySelector(".site").textContent = it.site_name || sourceLabel(it.site_id);
+  const catEl = node.querySelector(".category");
+  catEl.textContent = `${LABEL_EMOJI[it.cross_label] || "📰"} ${LABELS[it.cross_label] || "行业资讯"}`;
+  catEl.className = `category kind-${kind.tone}`;
+  node.querySelector(".source").textContent = it.source || "";
+  node.querySelector(".time").textContent = timeAgo(it.published_at) || fmtTime(it.published_at);
+
+  const titleEl = node.querySelector(".title");
+  titleEl.textContent = it.title || "";
+  titleEl.href = it.url || "#";
+  return node;
 }
 
 /* ========== 事件聚类（精选推荐） ========== */
@@ -670,34 +735,34 @@ function renderCrossPicks() {
     return;
   }
 
-  let html = "";
-  for (const pick of picks) {
+  let html = '<div class="cross-compact-list">';
+  picks.forEach((pick, idx) => {
     const urg = urgencyOf(pick.cross_score || 0);
     const label = LABELS[pick.cross_label] || "行业资讯";
-    const labelEmoji = LABEL_EMOJI[pick.cross_label] || "📰";
-    const reason = pick.cross_relevance_reason ? `<div class="pick-reason">${esc(pick.cross_relevance_reason)}</div>` : "";
+    const score = Math.round((pick.cross_score || 0) * 100);
 
-    // 聚类来源标签
-    const sourceTags = (pick._allItems || [])
+    const sourceHits = (pick._allItems || [])
       .map(i => i.site_name || sourceLabel(i.site_id))
-      .filter((v, idx, arr) => arr.indexOf(v) === idx)
-      .map(name => `<span class="cluster-source">${esc(name)}</span>`)
+      .filter((v, i, a) => a.indexOf(v) === i)
+      .map(name => `<span class="pick-source-hit">${esc(name)}</span>`)
       .join("");
 
     html += `
-    <div class="pick-card">
-      <div class="pick-header">
-        <span class="urgency-dot">${urg.emoji}</span>
-        <span class="label-badge label-${esc(pick.cross_label || 'general')}">${labelEmoji} ${esc(label)}</span>
-        <span class="cluster-badge" title="跨源事件 · ${pick._sourceCount} 个不同来源">${pick._sourceCount} 源</span>
-      </div>
-      <h3 class="pick-title">
-        <a href="${esc(pick.url)}" target="_blank" rel="noopener">${esc(pick.title)}</a>
-      </h3>
-      ${reason}
-      <div class="pick-sources">${sourceTags}</div>
-    </div>`;
-  }
+      <a class="pick-row" href="${esc(pick.url)}" target="_blank" rel="noopener noreferrer">
+        <div class="pick-row-time">${timeAgo(pick.published_at) || fmtTime(pick.published_at)}</div>
+        <div class="pick-row-body">
+          <div class="pick-row-meta">
+            <span>#${idx + 1}</span>
+            <span>${esc(label)}</span>
+            <span>${pick._sourceCount} 个来源</span>
+            <strong>${score} 分</strong>
+            ${sourceHits}
+          </div>
+          <div class="pick-row-title">${esc(pick.title)}</div>
+        </div>
+      </a>`;
+  });
+  html += "</div>";
 
   listEl.innerHTML = html;
 }
