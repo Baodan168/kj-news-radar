@@ -201,29 +201,13 @@ function setStats() {
   if (!el) return;
 
   const ai = state.totalAi;
-  const raw = state.totalRaw;
   const sites = state.sourceStatus && Array.isArray(state.sourceStatus.sites)
     ? state.sourceStatus.sites.filter(s => s.ok === true).length
     : 0;
-  const filtered = state.mode === "cross" ? ai : (state.allDedup ? state.itemsAll.length : state.totalAllMode);
 
   el.innerHTML = `
-    <div class="stat-card">
-      <div class="stat-num">${fmtNumber(filtered)}</div>
-      <div class="stat-label">${state.mode === "cross" ? "AI筛选信号" : "全量信号"}</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">${fmtNumber(raw)}</div>
-      <div class="stat-label">原始采集量</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">${fmtNumber(sites)}</div>
-      <div class="stat-label">活跃来源</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">${state.generatedAt ? fmtTime(state.generatedAt) : "—"}</div>
-      <div class="stat-label">数据更新</div>
-    </div>
+    <span class="stat-pill"><span class="v">${fmtNumber(ai)}</span><span class="k">信号</span></span>
+    <span class="stat-pill"><span class="v">${fmtNumber(sites)}</span><span class="k">源</span></span>
   `;
 }
 
