@@ -716,7 +716,7 @@ function extractEventKey(title) {
  */
 function pickCrossItems(items, maxPicks = 8) {
   // 工具/推广/软文黑名单 — 精选不允许出现
-  const TOOL_BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具/i;
+  const TOOL_BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sellerboard|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具|利润分析|分析工具|亚马逊.*工具|沃尔玛.*工具|选品工具|广告工具|erp工具/i;
 
   // 按事件 key 分组
   const clusters = new Map();
