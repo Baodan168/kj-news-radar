@@ -961,10 +961,6 @@ function renderAdvancedSummary() {
   const parts = [];
   if (state.siteFilter) parts.push(`来源: ${sourceLabel(state.siteFilter)}`);
   if (state.impactFilter) parts.push(`维度: ${LABELS[state.impactFilter] || state.impactFilter}`);
-  if (state.urgencyFilter) {
-    const map = { high: "🔴高影响", mid: "🟡中影响", low: "🟢低影响" };
-    parts.push(`等级: ${map[state.urgencyFilter] || state.urgencyFilter}`);
-  }
   if (state.query) parts.push(`搜索: "${state.query}"`);
 
   el.textContent = parts.length > 0 ? parts.join(" · ") : "";
