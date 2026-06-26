@@ -115,6 +115,21 @@ def has_cjk(text: str) -> bool:
     return bool(re.search(r"[\u4e00-\u9fff]", text or ""))
 
 
+def maybe_fix_mojibake(text: str) -> str:
+    """Fix double-encoded UTF-8 (UTF-8 bytes misread as Latin-1 then re-encoded)."""
+    s = (text or "").strip()
+    if not s or not any(ord(c) > 127 for c in s):
+        return s
+    for enc in ("latin1", "cp1252"):
+        try:
+            fixed = s.encode(enc).decode("utf-8")
+            if fixed != s and has_cjk(fixed):
+                return fixed
+        except Exception:
+            continue
+    return s
+
+
 def make_item_id(site_id: str, source: str, title: str, url: str) -> str:
     key = "||".join([
         site_id.strip().lower(),
@@ -206,7 +221,7 @@ def fetch_via_browseract(
         subprocess.run(
             ["browser-act", "--session", session_name, "browser", "open",
              BROWSERACT_BROWSER_ID, url],
-            capture_output=True, text=True, timeout=25,
+            capture_output=True, encoding="utf-8", errors="replace", timeout=25,
         )
         # Step 2: Wait for page load
         time.sleep(3)
@@ -215,7 +230,7 @@ def fetch_via_browseract(
         result = subprocess.run(
             ["browser-act", "--session", session_name, "eval", "--stdin"],
             input=js_extract,
-            capture_output=True, text=True, timeout=25,
+            capture_output=True, encoding="utf-8", errors="replace", timeout=25,
         )
 
         if result.returncode == 0 and result.stdout.strip():
@@ -226,7 +241,7 @@ def fetch_via_browseract(
             if json_start >= 0 and json_end > json_start:
                 parsed = json.loads(raw[json_start:json_end + 1])
                 for entry in parsed:
-                    title = str(entry.get("title", "")).strip()
+                    title = maybe_fix_mojibake(str(entry.get("title", "")).strip())
                     link = str(entry.get("url", "")).strip()
                     if title and link:
                         items.append(RawItem(
@@ -381,158 +396,188 @@ def fetch_amazon_ads_blog(session: requests.Session, now: datetime) -> list[RawI
 
 
 def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZ123 跨境快讯 — 直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://www.amz123.com/kx", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 8 or not href.startswith(("http", "/")):
-                continue
-            if "/kx/" not in href and "/article/" not in href:
-                continue
-            if not href.startswith("http"):
-                href = urljoin("https://www.amz123.com", href)
-            items.append(RawItem(
-                site_id="amz123", site_name="AMZ123", source="跨境快讯",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] AMZ123 fetch failed: {e}")
+    """AMZ123 跨境快讯 — BrowserAct + HTML fallback."""
+    items = fetch_via_browseract(
+        url="https://www.amz123.com/kx",
+        site_id="amz123", site_name="AMZ123", source_label="跨境快讯",
+        url_pattern="/kx/", base_url="https://www.amz123.com",
+    )
+    if not items:
+        try:
+            resp = session.get("https://www.amz123.com/kx", timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                title = a.get_text(strip=True)
+                href = a["href"]
+                if len(title) < 8 or not href.startswith(("http", "/")):
+                    continue
+                if "/kx/" not in href and "/article/" not in href:
+                    continue
+                if not href.startswith("http"):
+                    href = urljoin("https://www.amz123.com", href)
+                items.append(RawItem(
+                    site_id="amz123", site_name="AMZ123", source="跨境快讯",
+                    title=title, url=normalize_url(href),
+                    published_at=None, meta={},
+                ))
+        except Exception as e:
+            print(f"  [WARN] AMZ123 fallback HTML fetch failed: {e}")
     return items[:40]
 
 
 def fetch_amz123_early(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZ123 跨境早报 — 直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://www.amz123.com/t-kuajingzaobao", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 8 or not href.startswith(("http", "/")):
-                continue
-            if "/t-" not in href and "/article/" not in href:
-                continue
-            if not href.startswith("http"):
-                href = urljoin("https://www.amz123.com", href)
-            items.append(RawItem(
-                site_id="amz123", site_name="AMZ123", source="跨境早报",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] AMZ123 早报 fetch failed: {e}")
+    """AMZ123 跨境早报 — BrowserAct + HTML fallback."""
+    items = fetch_via_browseract(
+        url="https://www.amz123.com/t-kuajingzaobao",
+        site_id="amz123", site_name="AMZ123", source_label="跨境早报",
+        url_pattern="/t-", base_url="https://www.amz123.com",
+    )
+    if not items:
+        try:
+            resp = session.get("https://www.amz123.com/t-kuajingzaobao", timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                title = a.get_text(strip=True)
+                href = a["href"]
+                if len(title) < 8 or not href.startswith(("http", "/")):
+                    continue
+                if "/t-" not in href and "/article/" not in href:
+                    continue
+                if not href.startswith("http"):
+                    href = urljoin("https://www.amz123.com", href)
+                items.append(RawItem(
+                    site_id="amz123", site_name="AMZ123", source="跨境早报",
+                    title=title, url=normalize_url(href),
+                    published_at=None, meta={},
+                ))
+        except Exception as e:
+            print(f"  [WARN] AMZ123 早报 fallback HTML fetch failed: {e}")
     return items[:30]
 
 
 def fetch_amzdh(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZDH 跨境头条 — 直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://www.amzdh.com/kjtt/", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 10 or not href.startswith(("http", "/")):
-                continue
-            if "/kjtt/" not in href and "/article/" not in href:
-                continue
-            if not href.startswith("http"):
-                href = urljoin("https://www.amzdh.com", href)
-            items.append(RawItem(
-                site_id="amzdh", site_name="AMZDH", source="跨境头条",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] AMZDH fetch failed: {e}")
+    """AMZDH 跨境头条 — BrowserAct + HTML fallback."""
+    items = fetch_via_browseract(
+        url="https://www.amzdh.com/kjtt/",
+        site_id="amzdh", site_name="AMZDH", source_label="跨境头条",
+        url_pattern="/kjtt/", base_url="https://www.amzdh.com",
+    )
+    if not items:
+        try:
+            resp = session.get("https://www.amzdh.com/kjtt/", timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                title = a.get_text(strip=True)
+                href = a["href"]
+                if len(title) < 10 or not href.startswith(("http", "/")):
+                    continue
+                if "/kjtt/" not in href and "/article/" not in href:
+                    continue
+                if not href.startswith("http"):
+                    href = urljoin("https://www.amzdh.com", href)
+                items.append(RawItem(
+                    site_id="amzdh", site_name="AMZDH", source="跨境头条",
+                    title=title, url=normalize_url(href),
+                    published_at=None, meta={},
+                ))
+        except Exception as e:
+            print(f"  [WARN] AMZDH fallback HTML fetch failed: {e}")
     return items[:30]
 
 
 def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
-    """雨果跨境 — 直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://www.cifnews.com/", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 10 or not href.startswith(("http", "/")):
-                continue
-            if "/article/" not in href and "/news/" not in href:
-                continue
-            if not href.startswith("http"):
-                href = urljoin("https://www.cifnews.com", href)
-            items.append(RawItem(
-                site_id="cifnews", site_name="雨果跨境", source="跨境资讯",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] cifnews fetch failed: {e}")
+    """雨果跨境 — BrowserAct + HTML fallback."""
+    items = fetch_via_browseract(
+        url="https://www.cifnews.com/",
+        site_id="cifnews", site_name="雨果跨境", source_label="跨境资讯",
+        url_pattern="cifnews.com", base_url="https://www.cifnews.com",
+    )
+    if not items:
+        try:
+            resp = session.get("https://www.cifnews.com/", timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                title = a.get_text(strip=True)
+                href = a["href"]
+                if len(title) < 10 or not href.startswith(("http", "/")):
+                    continue
+                if "/article/" not in href and "/news/" not in href:
+                    continue
+                if not href.startswith("http"):
+                    href = urljoin("https://www.cifnews.com", href)
+                items.append(RawItem(
+                    site_id="cifnews", site_name="雨果跨境", source="跨境资讯",
+                    title=title, url=normalize_url(href),
+                    published_at=None, meta={},
+                ))
+        except Exception as e:
+            print(f"  [WARN] cifnews fallback HTML fetch failed: {e}")
     return items[:30]
 
 
 def fetch_kjds365(session: requests.Session, now: datetime) -> list[RawItem]:
-    """跨境电商365 — 直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://kjds365.cn/", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 8 or not href.startswith(("http", "/")):
-                continue
-            if not href.startswith("http"):
-                href = urljoin("https://kjds365.cn", href)
-            if "kjds365.cn" not in href:
-                continue
-            items.append(RawItem(
-                site_id="kjds365", site_name="跨境电商365", source="行业资讯",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] kjds365 fetch failed: {e}")
+    """跨境电商365 — BrowserAct + HTML fallback."""
+    items = fetch_via_browseract(
+        url="https://kjds365.cn/",
+        site_id="kjds365", site_name="跨境电商365", source_label="行业资讯",
+        url_pattern="kjds365.cn", base_url="https://kjds365.cn",
+    )
+    if not items:
+        try:
+            resp = session.get("https://kjds365.cn/", timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                title = a.get_text(strip=True)
+                href = a["href"]
+                if len(title) < 8 or not href.startswith(("http", "/")):
+                    continue
+                if not href.startswith("http"):
+                    href = urljoin("https://kjds365.cn", href)
+                if "kjds365.cn" not in href:
+                    continue
+                items.append(RawItem(
+                    site_id="kjds365", site_name="跨境电商365", source="行业资讯",
+                    title=title, url=normalize_url(href),
+                    published_at=None, meta={},
+                ))
+        except Exception as e:
+            print(f"  [WARN] kjds365 fallback HTML fetch failed: {e}")
     return items[:20]
 
 
 def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem]:
-    """亚马逊全球开店中文 — HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://gs.amazon.cn/news", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 8 or not href.startswith(("http", "/")):
-                continue
-            if not href.startswith("http"):
-                href = urljoin("https://gs.amazon.cn", href)
-            if "amazon.cn" not in href:
-                continue
-            items.append(RawItem(
-                site_id="gs_amazon", site_name="亚马逊全球开店", source="全球开店资讯",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] gs.amazon.cn fetch failed: {e}")
+    """亚马逊全球开店中文 — BrowserAct + HTML fallback."""
+    items = fetch_via_browseract(
+        url="https://gs.amazon.cn/news",
+        site_id="gs_amazon", site_name="亚马逊全球开店", source_label="全球开店资讯",
+        url_pattern="amazon.cn", base_url="https://gs.amazon.cn",
+    )
+    if not items:
+        try:
+            resp = session.get("https://gs.amazon.cn/news", timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                title = a.get_text(strip=True)
+                href = a["href"]
+                if len(title) < 8 or not href.startswith(("http", "/")):
+                    continue
+                if not href.startswith("http"):
+                    href = urljoin("https://gs.amazon.cn", href)
+                if "amazon.cn" not in href:
+                    continue
+                items.append(RawItem(
+                    site_id="gs_amazon", site_name="亚马逊全球开店", source="全球开店资讯",
+                    title=title, url=normalize_url(href),
+                    published_at=None, meta={},
+                ))
+        except Exception as e:
+            print(f"  [WARN] gs.amazon.cn fallback HTML fetch failed: {e}")
     return items[:30]
 
 
@@ -667,15 +712,13 @@ def fetch_web_retailer(session: requests.Session, now: datetime) -> list[RawItem
 
 
 def fetch_seller_sessions_podcast(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Seller Sessions Podcast RSS。"""
-    return fetch_rss(session, "https://feeds.buzzsprout.com/1321439.rss",
-                     "seller_sessions", "Seller Sessions", "卖家播客")
+    """Seller Sessions Podcast — skipped (Buzzsprout RSS unreliable)."""
+    return []
 
 
 def fetch_amazon_seller_podcast(session: requests.Session, now: datetime) -> list[RawItem]:
-    """The Amazon Seller Podcast RSS。"""
-    return fetch_rss(session, "https://feeds.buzzsprout.com/2012345.rss",
-                     "amz_podcast", "Amazon Seller Podcast", "亚马逊播客")
+    """The Amazon Seller Podcast — skipped (Buzzsprout RSS unreliable)."""
+    return []
 
 
 # ---------------------------------------------------------------------------
@@ -1048,16 +1091,25 @@ def build_all_payload(
 
 def enrich_items(items: list[dict[str, Any]], title_cache: dict[str, str]
                  ) -> list[dict[str, Any]]:
-    """为条目添加可读性增强字段。"""
+    """为条目添加可读性增强字段，包括标题翻译。"""
     out = []
+    translation_count = 0
+    max_translations_per_run = 30  # Rate limit: max 30 API calls per run
     for item in items:
         enriched = dict(item)
-        title = enriched.get("title", "")
+        title = maybe_fix_mojibake(enriched.get("title", ""))
+        enriched["title"] = title
         # 简单的中英文判断和双语标题
         if has_cjk(title):
             enriched["title_zh"] = title
         elif title in title_cache:
             enriched["title_zh"] = title_cache[title]
+        elif translation_count < max_translations_per_run:
+            # Attempt translation for English titles
+            translated = translate_title(title, title_cache)
+            if translated:
+                enriched["title_zh"] = translated
+                translation_count += 1
         out.append(enriched)
     return out
 
