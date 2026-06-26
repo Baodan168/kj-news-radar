@@ -16,13 +16,11 @@ CROSS_KEYWORDS = [
     "跨境电商",
     "跨境",
     "海外仓",
-    "海外仓",
     "保税仓",
     "保税区",
     "出口电商",
     "进口电商",
     "跨境支付",
-    "跨境物流",
     "跨境物流",
     "国际贸易",
     "外贸",
@@ -225,6 +223,29 @@ SELLER_ACTION_KEYWORDS = [
 ]
 
 # ──────────────────────────────────────────────────────────────
+# Seller-relevance keywords (penalize if platform mentioned but none of these)
+# ──────────────────────────────────────────────────────────────
+SELLER_RELEVANCE_KEYWORDS = [
+    "卖家", "seller", "listing", "asin", "fba", "fbm", "mcf",
+    "prime", "review", "rating", "feedback", "退货", "退款",
+    "广告", "ppc", "acos", "sponsored", "bid",
+    "库存", "inventory", "补货", "发货",
+    "费用", "fee", "佣金", "commission", "费率",
+    "政策", "policy", "合规", "compliance", "规则",
+    "封号", "冻结", "受限", "suspension", "appeal",
+    "选品", "上架", "品牌", "brand", "备案",
+    "物流", "shipping", "配送", "仓储", "海外仓",
+    "vat", "关税", "tariff", "tax", "epr", "gpsr",
+]
+
+# Platform names that can appear in general corporate news
+PLATFORM_KEYWORDS = [
+    "amazon", "亚马逊", "temu", "shein", "tiktok shop",
+    "shopee", "lazada", "ebay", "etsy", "wish", "shopify",
+    "aliexpress", "速卖通",
+]
+
+# ──────────────────────────────────────────────────────────────
 # Noise keywords (reduce relevance)
 # ──────────────────────────────────────────────────────────────
 NOISE_KEYWORDS = [
@@ -332,16 +353,12 @@ CROSS_DEFAULT_SOURCES = {
 # Labels
 # ──────────────────────────────────────────────────────────────
 LABEL_KEYWORDS = [
-    ("policy_update", POLICY_KEYWORDS),
-    ("fee_logistics", LOGISTICS_KEYWORDS),
-    ("advertising", ADVERTISING_KEYWORDS),
-    ("listing_product", [
-        "listing", "产品", "选品", "上架", "优化", "关键词",
-        "bullet point", "description", "image", "图片",
-        "a+", "a+content", "品牌故事",
-    ]),
-    ("platform_trend", PLATFORM_TREND_KEYWORDS),
-    ("seller_action", SELLER_ACTION_KEYWORDS),
+    ("policy_update", ["政策", "policy", "规则", "法规", "合规", "compliance", "新规", "变更"]),
+    ("fee_logistics", ["费用", "fee", "物流", "logistics", "配送", "仓储", "海外仓", "fba费"]),
+    ("advertising", ["广告", "ppc", "acos", "sponsored", "cpc", "bid", "投放"]),
+    ("listing_product", ["listing", "asin", "选品", "上架", "产品", "品牌", "review"]),
+    ("platform_trend", ["趋势", "增长", "市场", "份额", "prime day", "旺季", "黑五"]),
+    ("seller_action", ["封号", "冻结", "受限", "紧急", "截止", "倒计时", "注意"]),
 ]
 
 CROSS_RELEVANCE_THRESHOLD = 0.65
@@ -456,6 +473,10 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     has_ecommerce = contains_any_keyword(text, ECOMMERCE_KEYWORDS)
     has_en_signal = EN_SIGNAL_RE.search(text) is not None
 
+    # Seller-relevance penalty: if platform keyword present but no seller-relevance keyword
+    has_platform = contains_any_keyword(text, PLATFORM_KEYWORDS)
+    has_seller_relevance = contains_any_keyword(text, SELLER_RELEVANCE_KEYWORDS)
+
     # ── No signal at all ───────────────────────────────────────
     if not (has_cross or has_ecommerce or has_en_signal):
         return _result(
@@ -506,8 +527,11 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
 
     # Penalty for noise (capped)
     noise_penalty = min(0.15, 0.03 * len(noise)) if noise else 0.0
-
     score = source_prior + base + signal_bonus - noise_penalty
+
+    # Penalize platform news without seller-relevance keywords
+    if has_platform and not has_seller_relevance:
+        score -= 0.15
 
     # Ensure threshold for strong signals
     if has_cross:

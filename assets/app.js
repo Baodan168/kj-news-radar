@@ -371,9 +371,11 @@ function renderModeSwitch() {
   }
 
   if (hint) {
+    const filtered = state.mode === "cross" ? state.itemsAi.length : (state.allDedup ? state.itemsAll.length : state.itemsAllRaw.length);
+    const dedupStatus = state.mode === "all" ? (state.allDedup ? "去重" : "未去重") : "";
     hint.textContent = state.mode === "cross"
-      ? "仅展示 AI 跨境相关性筛选后的信号"
-      : "展示所有采集到的信号（含本地资讯）";
+      ? `跨境相关 · ${filtered} 条 · 阈值 0.65`
+      : `全量 · ${dedupStatus} · ${filtered} 条`;
   }
 
   // 全量模式下显示去重开关
@@ -596,13 +598,29 @@ function renderItemNode(it) {
 
   node.querySelector(".site").textContent = it.site_name || sourceLabel(it.site_id);
   const catEl = node.querySelector(".category");
-  catEl.textContent = `${LABEL_EMOJI[it.cross_label] || "📰"} ${LABELS[it.cross_label] || "行业资讯"}`;
+  const label = LABELS[it.cross_label] || "行业资讯";
+  const labelEmoji = LABEL_EMOJI[it.cross_label] || "📰";
+  const score = Math.round((it.cross_score || 0) * 100);
+  catEl.textContent = `${labelEmoji} ${label} · ${score}分`;
   catEl.className = `category kind-${kind.tone}`;
   node.querySelector(".source").textContent = it.source || "";
   node.querySelector(".time").textContent = timeAgo(it.published_at) || fmtTime(it.published_at);
 
   const titleEl = node.querySelector(".title");
-  titleEl.textContent = it.title || "";
+  // Show bilingual title if available
+  const zh = (it.title_zh || "").trim();
+  const en = (it.title || "").trim();
+  if (zh && en && zh !== en) {
+    titleEl.textContent = "";
+    const primary = document.createElement("span");
+    primary.textContent = zh;
+    const sub = document.createElement("span");
+    sub.className = "title-sub";
+    sub.textContent = en;
+    titleEl.append(primary, sub);
+  } else {
+    titleEl.textContent = it.title || zh || "";
+  }
   titleEl.href = it.url || "#";
   return node;
 }
@@ -693,7 +711,7 @@ function pickCrossItems(items, maxPicks = 8) {
     .filter(c => c.sourceCount >= 1) // 至少1个不同来源
     .sort((a, b) => {
       // 多源优先
-      const sd = b.sourceCount - a.sourceSourceCount;
+      const sd = b.sourceCount - a.sourceCount;
       if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
       // 分数
       if (Math.abs(b.maxScore - a.maxScore) > 0.01) return b.maxScore - a.maxScore;

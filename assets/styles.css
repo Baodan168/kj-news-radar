@@ -502,6 +502,24 @@ input:focus, select:focus, button:focus-visible, summary:focus-visible {
 .urgency-medium { background: rgba(154, 103, 0, 0.1); color: var(--warn); }
 .urgency-low { background: rgba(31, 122, 77, 0.1); color: var(--good); }
 
+/* ===== Footer ===== */
+.site-footer {
+  margin-top: 24px;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.footer-inner a { color: var(--accent); text-decoration: none; }
+.footer-inner a:hover { text-decoration: underline; }
+
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
   .coverage-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }

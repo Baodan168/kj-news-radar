@@ -10,7 +10,9 @@ import json
 import os
 import random
 import re
+import subprocess
 import time
+import uuid
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
@@ -42,6 +44,7 @@ BROWSER_UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
 # JINA_PREFIX no longer used — direct HTML parsing preferred
+BROWSERACT_BROWSER_ID = "chrome_local_103642719185797272"
 
 # ---------------------------------------------------------------------------
 # 工具函数
@@ -155,6 +158,138 @@ class RawItem:
 
 
 # ---------------------------------------------------------------------------
+# BrowserAct 通用采集器（用于 JS 渲染的中文站点）
+# ---------------------------------------------------------------------------
+
+def fetch_via_browseract(
+    url: str,
+    site_id: str,
+    site_name: str,
+    source_label: str,
+    url_pattern: str,
+    base_url: str,
+    max_items: int = 40,
+) -> list[RawItem]:
+    """Fetch articles from a JS-rendered page using BrowserAct CLI.
+
+    Falls back to empty list if BrowserAct is unavailable or fails.
+    """
+    session_name = f"fetch-{uuid.uuid4().hex[:8]}"
+    items: list[RawItem] = []
+
+    # Build JS extraction script
+    js_extract = (
+        "(function() {"
+        "var links = document.querySelectorAll('a[href]');"
+        "var results = [];"
+        "var seen = {};"
+        "for (var i = 0; i < links.length; i++) {"
+        "  var a = links[i];"
+        "  var href = a.href || '';"
+        "  var title = (a.textContent || '').trim().replace(/\\s+/g, ' ');"
+        "  if (title.length < 8) continue;"
+        "  if (!href.startsWith('http')) continue;"
+        f"  if (href.indexOf('{url_pattern}') === -1) continue;"
+        "  var key = title + '||' + href;"
+        "  if (seen[key]) continue;"
+        "  seen[key] = true;"
+        "  results.push({title: title, url: href});"
+        f"  if (results.length >= {max_items}) break;"
+        "}"
+        "return JSON.stringify(results);"
+        "})();"
+    )
+    js_path = f"/tmp/ba_extract_{session_name}.js"
+
+    try:
+        # Step 1: Open browser and navigate
+        subprocess.run(
+            ["browser-act", "--session", session_name, "browser", "open",
+             BROWSERACT_BROWSER_ID, url],
+            capture_output=True, text=True, timeout=25,
+        )
+        # Step 2: Wait for page load
+        time.sleep(3)
+
+        # Step 3: Run JS extraction via stdin
+        result = subprocess.run(
+            ["browser-act", "--session", session_name, "eval", "--stdin"],
+            input=js_extract,
+            capture_output=True, text=True, timeout=25,
+        )
+
+        if result.returncode == 0 and result.stdout.strip():
+            raw = result.stdout.strip()
+            # Try to parse JSON from output (may have leading/trailing text)
+            json_start = raw.find("[")
+            json_end = raw.rfind("]")
+            if json_start >= 0 and json_end > json_start:
+                parsed = json.loads(raw[json_start:json_end + 1])
+                for entry in parsed:
+                    title = str(entry.get("title", "")).strip()
+                    link = str(entry.get("url", "")).strip()
+                    if title and link:
+                        items.append(RawItem(
+                            site_id=site_id, site_name=site_name,
+                            source=source_label, title=title,
+                            url=normalize_url(link),
+                            published_at=None, meta={},
+                        ))
+    except subprocess.TimeoutExpired:
+        print(f"  [WARN] BrowserAct timeout for {site_name}")
+    except Exception as e:
+        print(f"  [WARN] BrowserAct failed for {site_name}: {e}")
+    finally:
+        # Cleanup session
+        try:
+            subprocess.run(
+                ["browser-act", "session", "close", session_name],
+                capture_output=True, text=True, timeout=10,
+            )
+        except Exception:
+            pass
+        try:
+            Path(js_path).unlink(missing_ok=True)
+        except Exception:
+            pass
+
+    return items
+
+
+# ---------------------------------------------------------------------------
+# 标题翻译
+# ---------------------------------------------------------------------------
+
+def translate_title(title: str, title_cache: dict[str, str]) -> str:
+    """Translate an English title to Chinese using MyMemory free API.
+
+    - Skips if title already contains CJK characters
+    - Uses cache to avoid duplicate API calls
+    - Rate-limited to 1 request per second
+    - Returns translated title or empty string if translation fails
+    """
+    if not title or has_cjk(title):
+        return ""
+    if title in title_cache:
+        return title_cache[title]
+    try:
+        from urllib.parse import quote
+        encoded = quote(title[:500])
+        api_url = f"https://api.mymemory.translated.net/get?q={encoded}&langpair=en|zh"
+        resp = requests.get(api_url, timeout=8, headers={"User-Agent": BROWSER_UA})
+        if resp.status_code == 200:
+            data = resp.json()
+            translated = data.get("responseData", {}).get("translatedText", "")
+            if translated and translated != title and has_cjk(translated):
+                title_cache[title] = translated
+                time.sleep(1)  # Rate limit
+                return translated
+    except Exception:
+        pass
+    return ""
+
+
+# ---------------------------------------------------------------------------
 # RSS/Atom 通用解析
 # ---------------------------------------------------------------------------
 
@@ -236,7 +371,7 @@ def fetch_amazon_newsroom(session: requests.Session, now: datetime) -> list[RawI
 def fetch_sp_api_changelog(session: requests.Session, now: datetime) -> list[RawItem]:
     """SP-API 变更日志。"""
     return fetch_rss(session, "https://developer-docs.amazon.com/sp-api/changelog.rss",
-                     "sp_api", "SP-API Changelog", "SP-API变更")
+                     "sp_api", "SP-API Changelog", "SP-API变更", max_age_hours=168)
 
 
 def fetch_amazon_ads_blog(session: requests.Session, now: datetime) -> list[RawItem]:
