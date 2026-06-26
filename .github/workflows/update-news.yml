@@ -3,7 +3,7 @@ name: Update Cross-Border News Snapshot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"   # 每天北京时间 09:00 (UTC 01:00)
+    - cron: "40 0 * * *"   # 每天北京时间 08:40 (UTC 00:40)
 
 concurrency:
   group: update-crossborder-${{ github.ref }}
