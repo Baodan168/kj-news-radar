@@ -810,7 +810,7 @@ function extractEventKey(title) {
  */
 function pickCrossItems(items, maxPicks = 8) {
   // 工具/推广/软文黑名单 — 精选不允许出现
-  const TOOL_BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|sif[,，]|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate/i;
+  const TOOL_BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具/i;
 
   // 按事件 key 分组
   const clusters = new Map();
@@ -821,8 +821,8 @@ function pickCrossItems(items, maxPicks = 8) {
     // 跳过工具推荐/软文
     if (TOOL_BLACKLIST.test(title)) continue;
 
-    // 跳过过于简短的标题（<10字符，信息量不足）
-    if (title.length < 10) continue;
+    // 跳过过于简短的标题（<15字符，信息量不足或是品类名）
+    if (title.length < 15) continue;
 
     // 跳过没有URL或URL指向非文章页
     const url = it.url || "";
