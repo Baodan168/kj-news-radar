@@ -240,10 +240,23 @@ SELLER_RELEVANCE_KEYWORDS = [
 
 # Platform names that can appear in general corporate news
 PLATFORM_KEYWORDS = [
-    "amazon", "亚马逊", "temu", "shein", "tiktok shop",
-    "shopee", "lazada", "ebay", "etsy", "wish", "shopify",
-    "aliexpress", "速卖通",
+    "amazon", "亚马逊", "fba", "fbm", "prime",
+    "temu", "tiktok shop", "tiktok电商",
+    "shein", "shopee", "lazada", "速卖通", "aliexpress",
+    "ebay", "etsy", "walmart", "shopify", "独立站",
+    "ozon", "wildberries", "jumia", "mercadolibre",
+    "美客多", "乐天", "rakuten",
 ]
+
+# Site/region detection
+SITE_KEYWORDS = {
+    "us": ["美国站", "amazon.com", "us站", "美区", "美国"],
+    "uk": ["英国站", "amazon.co.uk", "uk站", "英区", "英国", "英代"],
+    "eu": ["欧洲站", "amazon.de", "amazon.fr", "amazon.it", "amazon.es", "eu站", "欧区", "欧洲", "德国站", "法国站", "意大利站", "西班牙站"],
+    "jp": ["日本站", "amazon.co.jp", "jp站", "日区", "日本"],
+    "au": ["澳洲站", "amazon.com.au", "au站", "澳大利亚"],
+    "ca": ["加拿大站", "amazon.ca", "ca站"],
+}
 
 # ──────────────────────────────────────────────────────────────
 # Noise keywords (reduce relevance)
@@ -280,6 +293,50 @@ DOMESTIC_ECOMMERCE_NOISE = [
     "社区团购",
     "同城配送",
     "外卖",
+]
+
+# Promotional / non-news content noise
+PROMOTION_NOISE = [
+    "免费领取",
+    "招商会",
+    "招商峰会",
+    "招商经理",
+    "报名",
+    "门票",
+    "限时优惠",
+    "折扣码",
+    "优惠券",
+    "团购",
+    "知识星球",
+    "课程",
+    "培训",
+    "陪跑",
+    "社群",
+    "私域",
+    "找物流",
+    "找海外仓",
+    "找服务",
+    "找活动",
+    "查测评",
+    "工具箱",
+    "插件",
+    "免费试用",
+    "注册链接",
+    "邀请码",
+    "affiliate",
+    "西柚找词",
+    "sif",
+    "卖家精灵",
+    "keepa",
+    "helium10",
+    "jungle scout",
+    "pacvue",
+    "sellics",
+    "perpetua",
+    "aini",
+    "tool4seller",
+    "uaalim",
+    "brand analytics",
 ]
 
 # ──────────────────────────────────────────────────────────────
@@ -454,7 +511,7 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     logistics_signals = matched_keywords(text, LOGISTICS_KEYWORDS)
     all_good_signals = cross_signals + ecommerce_signals + policy_signals + logistics_signals
 
-    noise = matched_keywords(text, NOISE_KEYWORDS) + matched_keywords(text, DOMESTIC_ECOMMERCE_NOISE)
+    noise = matched_keywords(text, NOISE_KEYWORDS) + matched_keywords(text, DOMESTIC_ECOMMERCE_NOISE) + matched_keywords(text, PROMOTION_NOISE)
     source_prior = SOURCE_PRIORS.get(site_id, 0.0)
 
     # ── Trusted sources: default keep ──────────────────────────
@@ -568,6 +625,8 @@ def add_cross_relevance_fields(record: dict[str, Any]) -> dict[str, Any]:
         - cross_label: str
         - cross_relevance_reason: str
         - cross_signals: list[str]
+        - cross_platforms: list[str]
+        - cross_sites: list[str]
     """
     relevance = score_cross_relevance(record)
     out = dict(record)
@@ -576,4 +635,20 @@ def add_cross_relevance_fields(record: dict[str, Any]) -> dict[str, Any]:
     out["cross_label"] = relevance["label"]
     out["cross_relevance_reason"] = relevance["reason"]
     out["cross_signals"] = relevance["signals"]
+
+    # Platform detection
+    text = f"{out.get('title','')} {out.get('source','')} {out.get('site_name','')}".lower()
+    platforms = []
+    for pk in PLATFORM_KEYWORDS:
+        if pk in text:
+            platforms.append(pk)
+    out["cross_platforms"] = list(set(platforms))
+
+    # Site/region detection
+    sites = []
+    for site_key, site_kws in SITE_KEYWORDS.items():
+        if any(kw in text for kw in site_kws):
+            sites.append(site_key)
+    out["cross_sites"] = sites
+
     return out

@@ -25,7 +25,11 @@ const SOURCE_KINDS = {
   helium10:           { label: "Helium10",  tone: "industry" },
   sellerpolicywatch:  { label: "政策监控",  tone: "official" },
   ecomengine:         { label: "EcomEngine", tone: "industry" },
-  wearesellers:       { label: "WeAreSellers", tone: "community" },
+  amazon_seller_news: { label: "卖家新闻", tone: "official" },
+  amazon_seller_blog: { label: "Amazon博客", tone: "official" },
+  wearesellers:       { label: "知无不言", tone: "community" },
+  kjds365:            { label: "跨境365", tone: "aggregate" },
+  tophub:             { label: "TopHub", tone: "aggregate" },
   podcasts:           { label: "播客",      tone: "media" },
   opmlrss:            { label: "OPML",      tone: "private" },
 };
@@ -69,6 +73,7 @@ const state = {
   siteFilter: "",
   impactFilter: "",      // 影响维度筛选
   urgencyFilter: "",     // 紧急程度筛选
+  platformFilter: "",    // 平台维度筛选
   query: "",
   mode: "cross",         // 'cross' | 'all'
   policyData: null,
@@ -350,6 +355,111 @@ function renderUrgencyFilter() {
   };
 }
 
+/* ========== 平台筛选 ========== */
+
+/**
+ * 渲染平台筛选按钮
+ */
+function renderPlatformFilter() {
+  const wrap = $("platformPills");
+  if (!wrap) return;
+  
+  // Count platforms from items
+  const platMap = new Map();
+  const items = state.mode === "cross" ? state.itemsAi : (state.allDedup ? state.itemsAll : state.itemsAllRaw);
+  items.forEach(it => {
+    (it.cross_platforms || []).forEach(p => {
+      platMap.set(p, (platMap.get(p) || 0) + 1);
+    });
+  });
+  
+  wrap.innerHTML = "";
+  const allBtn = document.createElement("button");
+  allBtn.className = `pill ${state.platformFilter === "" ? "active" : ""}`;
+  allBtn.textContent = "全部";
+  allBtn.onclick = () => { state.platformFilter = ""; renderPlatformFilter(); renderList(); };
+  wrap.appendChild(allBtn);
+  
+  [...platMap.entries()].sort((a,b) => b[1]-a[1]).slice(0, 10).forEach(([plat, count]) => {
+    const btn = document.createElement("button");
+    btn.className = `pill ${state.platformFilter === plat ? "active" : ""}`;
+    btn.textContent = `${plat} ${count}`;
+    btn.onclick = () => { state.platformFilter = plat; renderPlatformFilter(); renderList(); };
+    wrap.appendChild(btn);
+  });
+}
+
+/* ========== 行动清单 ========== */
+
+/**
+ * 渲染行动清单
+ */
+function renderActionItems() {
+  const listEl = $("actionList");
+  const metaEl = $("actionMeta");
+  if (!listEl) return;
+  
+  // Build action items from policy calendar + high-score signals
+  const actions = [];
+  const now = Date.now();
+  
+  // From policy calendar
+  (state.policyData || []).forEach(p => {
+    const deadline = new Date(p.effective_date);
+    const daysLeft = Math.ceil((deadline - now) / 86400000);
+    if (daysLeft > 60) return; // Skip far-future
+    
+    const urgency = daysLeft <= 0 ? "done" : daysLeft <= 7 ? "high" : daysLeft <= 30 ? "medium" : "low";
+    if (urgency === "done") return;
+    
+    actions.push({
+      title: p.title,
+      detail: p.description || "",
+      deadline: `${p.effective_date}（${daysLeft}天后）`,
+      urgency: urgency,
+      type: "policy",
+    });
+  });
+  
+  // From high-score signals with deadline or seller_action
+  (state.itemsAi || []).filter(it => it.cross_score >= 0.80).forEach(it => {
+    if (it.cross_label === "seller_action" || (it.impact_summary && it.impact_summary.urgency === "立即行动")) {
+      actions.push({
+        title: (it.title || "").substring(0, 80),
+        detail: it.impact_summary ? `${it.impact_summary.who || "卖家"} · ${it.impact_summary.urgency}` : "高影响信号",
+        deadline: it.impact_summary && it.impact_summary.deadline ? it.impact_summary.deadline : "",
+        urgency: "high",
+        type: "signal",
+        url: it.url,
+      });
+    }
+  });
+  
+  // Sort: high first, then by deadline
+  actions.sort((a, b) => {
+    const urgOrder = { high: 0, medium: 1, low: 2 };
+    return (urgOrder[a.urgency] || 9) - (urgOrder[b.urgency] || 9);
+  });
+  
+  if (metaEl) metaEl.textContent = `${actions.length} 项待跟进`;
+  
+  if (!actions.length) {
+    listEl.innerHTML = "<div class='empty'>暂无紧急行动项</div>";
+    return;
+  }
+  
+  listEl.innerHTML = actions.slice(0, 8).map(a => `
+    <div class="action-item">
+      <div class="action-urgency ${a.urgency}">${a.urgency === 'high' ? '🔴' : a.urgency === 'medium' ? '🟡' : '🟢'}</div>
+      <div class="action-body">
+        <div class="action-title">${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>` : esc(a.title)}</div>
+        <div class="action-detail">${esc(a.detail)}</div>
+        ${a.deadline ? `<span class="action-deadline ${a.urgency === 'high' ? 'urgent' : a.urgency === 'medium' ? 'warn' : 'ok'}">⏰ ${esc(a.deadline)}</span>` : ""}
+      </div>
+    </div>
+  `).join("");
+}
+
 /* ========== 视图模式切换 ========== */
 
 /**
@@ -394,6 +504,7 @@ function switchMode(mode) {
   state.siteFilter = "";
   state.impactFilter = "";
   state.urgencyFilter = "";
+  state.platformFilter = "";
   state.query = "";
 
   const searchInput = $("searchInput");
@@ -473,6 +584,11 @@ function getFilteredItems() {
       const u = urgencyOf(it.cross_score || 0).level;
       return u === state.urgencyFilter;
     });
+  }
+
+  // 平台筛选
+  if (state.platformFilter) {
+    items = items.filter(it => (it.cross_platforms || []).includes(state.platformFilter));
   }
 
   // 关键词搜索
@@ -605,6 +721,16 @@ function renderItemNode(it) {
   catEl.className = `category kind-${kind.tone}`;
   node.querySelector(".source").textContent = it.source || "";
   node.querySelector(".time").textContent = timeAgo(it.published_at) || fmtTime(it.published_at);
+
+  // Add platform tags
+  const platformTags = (it.cross_platforms || []).map(p => `<span class="platform-tag">${esc(p)}</span>`).join("");
+  if (platformTags) {
+    const metaRow = node.querySelector(".meta-row");
+    const timeEl = node.querySelector(".time");
+    const platformSpan = document.createElement("span");
+    platformSpan.innerHTML = platformTags;
+    metaRow.insertBefore(platformSpan, timeEl);
+  }
 
   const titleEl = node.querySelector(".title");
   // Show bilingual title if available
@@ -916,9 +1042,11 @@ function renderAll() {
   renderSiteFilters();
   renderImpactFilter();
   renderUrgencyFilter();
+  renderPlatformFilter();
   renderList();
   renderCrossPicks();
   renderPolicyCalendar();
+  renderActionItems();
   renderAdvancedSummary();
   renderUpdatedAt();
 }

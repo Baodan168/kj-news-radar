@@ -751,6 +751,32 @@ def fetch_tophub_crossborder(session: requests.Session, now: datetime) -> list[R
     return items[:20]
 
 
+def fetch_amazon_seller_blog(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Amazon Seller Blog (sell.amazon.com) — 官方卖家公告。"""
+    return fetch_via_browseract(
+        url="https://sell.amazon.com/blog/announcements",
+        site_id="amazon_seller_blog",
+        site_name="Amazon卖家博客",
+        source_label="官方公告",
+        url_pattern="/blog/announcements/",
+        base_url="https://sell.amazon.com",
+        max_items=25,
+    )
+
+
+def fetch_wearesellers(session: requests.Session, now: datetime) -> list[RawItem]:
+    """知无不言论坛 — 中国亚马逊卖家最活跃的社区。"""
+    return fetch_via_browseract(
+        url="https://www.wearesellers.com/",
+        site_id="wearesellers",
+        site_name="知无不言",
+        source_label="卖家社区",
+        url_pattern="/question/",
+        base_url="https://www.wearesellers.com",
+        max_items=25,
+    )
+
+
 # ---------------------------------------------------------------------------
 # OPML RSS 支持
 # ---------------------------------------------------------------------------
@@ -922,6 +948,8 @@ BUILTIN_SOURCES: list[dict[str, Any]] = [
     {"func": "fetch_seller_sessions_podcast", "site_id": "seller_sessions", "site_name": "Seller Sessions", "kind": "media"},
     {"func": "fetch_amazon_seller_podcast", "site_id": "amz_podcast", "site_name": "Amazon Seller Podcast", "kind": "media"},
     {"func": "fetch_tophub_crossborder", "site_id": "tophub", "site_name": "TopHub", "kind": "aggregate"},
+    {"func": "fetch_amazon_seller_blog", "site_id": "amazon_seller_blog", "site_name": "Amazon卖家博客", "kind": "official"},
+    {"func": "fetch_wearesellers", "site_id": "wearesellers", "site_name": "知无不言", "kind": "community"},
 ]
 
 FETCH_FUNC_MAP: dict[str, Any] = {
@@ -946,6 +974,8 @@ FETCH_FUNC_MAP: dict[str, Any] = {
     "fetch_seller_sessions_podcast": fetch_seller_sessions_podcast,
     "fetch_amazon_seller_podcast": fetch_amazon_seller_podcast,
     "fetch_tophub_crossborder": fetch_tophub_crossborder,
+    "fetch_amazon_seller_blog": fetch_amazon_seller_blog,
+    "fetch_wearesellers": fetch_wearesellers,
 }
 
 

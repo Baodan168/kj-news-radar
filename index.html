@@ -10,7 +10,7 @@
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/styles.css?v=3">
+  <link rel="stylesheet" href="./assets/styles.css?v=4">
 </head>
 <body>
   <main class="shell">
@@ -82,6 +82,24 @@
       <div id="urgencyPills" class="site-pills"></div>
     </section>
 
+    <!-- 平台筛选 -->
+    <section class="filter-row" id="platformFilter">
+      <span class="filter-label">平台</span>
+      <div id="platformPills" class="site-pills"></div>
+    </section>
+
+    <!-- 今日行动清单 -->
+    <section class="action-wrap" aria-label="今日行动清单">
+      <div class="action-head">
+        <div>
+          <p class="section-eyebrow">ACTION ITEMS</p>
+          <h2>今日行动清单</h2>
+        </div>
+        <span id="actionMeta">基于政策日历和高影响信号</span>
+      </div>
+      <div id="actionList" class="action-list"></div>
+    </section>
+
     <!-- 跨境精选 -->
     <section class="cross-picks-wrap" aria-label="跨境精选">
       <div class="cross-picks-head">
@@ -120,8 +138,9 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <span>跨境雷达 — 24小时跨境电商更新雷达</span>
-      <span>数据来源：AMZ123 · 雨果跨境 · Amazon Newsroom · Helium10 等 20+ 信息源</span>
+      <span>跨境雷达 — 团队共享跨境电商情报中心</span>
+      <span>每日09:00自动更新 · 收藏此页即可访问 · 无需登录</span>
+      <span>数据来源：AMZ123 · 雨果跨境 · Amazon Newsroom · 知无不言 等 20+ 信息源</span>
       <span><a href="https://github.com/liyuhong168/kj-news-radar" target="_blank">GitHub</a></span>
     </div>
   </footer>
@@ -138,6 +157,6 @@
     </article>
   </template>
 
-  <script src="./assets/app.js?v=3" defer></script>
+  <script src="./assets/app.js?v=4" defer></script>
 </body>
 </html>
