@@ -949,22 +949,6 @@ function renderPolicyCalendar() {
   listEl.innerHTML = html;
 }
 
-/* ========== 高级摘要 ========== */
-
-/**
- * 渲染高级筛选摘要
- */
-function renderAdvancedSummary() {
-  const el = $("advancedSummary");
-  if (!el) return;
-
-  const parts = [];
-  if (state.siteFilter) parts.push(`来源: ${sourceLabel(state.siteFilter)}`);
-  if (state.impactFilter) parts.push(`维度: ${LABELS[state.impactFilter] || state.impactFilter}`);
-  if (state.query) parts.push(`搜索: "${state.query}"`);
-
-  el.textContent = parts.length > 0 ? parts.join(" · ") : "";
-}
 
 /* ========== 更新时间 ========== */
 
@@ -989,8 +973,29 @@ function bindSearch() {
     timer = setTimeout(() => {
       state.query = input.value.trim();
       renderList();
-      renderAdvancedSummary();
     }, 200);
+  });
+
+  // Enter键也触发搜索+跳转
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      state.query = input.value.trim();
+      renderList();
+      const target = $("sectionSignal");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  });
+}
+
+function bindSearchBtn() {
+  const btn = $("searchBtn");
+  if (!btn) return;
+  btn.addEventListener("click", () => {
+    const input = $("searchInput");
+    if (input) state.query = input.value.trim();
+    renderList();
+    const target = $("sectionSignal");
+    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
 
@@ -1028,7 +1033,6 @@ function renderAll() {
   renderCrossPicks();
   renderPolicyCalendar();
   renderActionItems();
-  renderAdvancedSummary();
   renderUpdatedAt();
 }
 
@@ -1135,7 +1139,7 @@ async function init() {
 
     // 绑定交互
     bindSearch();
-    bindDedupeToggle();
+    bindSearchBtn();
     bindBackToTop();
     bindFilterScroll();
 

@@ -10,7 +10,7 @@
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/styles.css?v=6">
+  <link rel="stylesheet" href="./assets/styles.css?v=7">
 </head>
 <body>
   <main class="shell">
@@ -34,63 +34,37 @@
       <section class="coverage-strip" id="coverageStrip" aria-label="信息源覆盖状态"></section>
     </header>
 
+    <!-- 搜索框 + 视图切换 -->
     <section class="primary-controls">
-      <input id="searchInput" type="search" placeholder="搜索跨境信号 / 来源">
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="搜索跨境信号 / 来源">
+        <button id="searchBtn" class="search-btn" type="button" title="搜索">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="6.5" cy="6.5" r="5.5" stroke="currentColor" stroke-width="1.5"/><line x1="10.5" y1="10.5" x2="15" y2="15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+      </div>
       <div class="mode-hint" id="modeHint">跨境相关</div>
     </section>
 
-    <details class="advanced-panel">
-      <summary>
-        <span>高级筛选与源状态</span>
-        <span class="advanced-summary" id="advancedSummary">加载中...</span>
-      </summary>
-      <div class="advanced-content">
-        <div class="advanced-controls">
-          <label class="field">
-            <span>站点</span>
-            <select id="siteSelect">
-              <option value="">全部站点</option>
-            </select>
-          </label>
-          <div class="field">
-            <span>视图</span>
-            <div class="mode-switch">
-              <button id="modeCrossBtn" class="mode-btn active" type="button">跨境相关</button>
-              <button id="modeAllBtn" class="mode-btn" type="button">全量</button>
-            </div>
-          </div>
-          <label id="allDedupeWrap" class="all-dedupe" for="allDedupeToggle">
-            <input id="allDedupeToggle" type="checkbox" checked>
-            <span class="all-dedupe-dot"></span>
-            <span id="allDedupeLabel">去重开</span>
-          </label>
-        </div>
-        <div class="source-health" id="sourceHealth">源状态加载中...</div>
-        <section class="site-pills" id="sitePills"></section>
+    <!-- 来源筛选（扁平展示） -->
+    <section class="filter-row" id="sourceFilter">
+      <span class="filter-label">来源</span>
+      <div id="sitePills" class="site-pills"></div>
+      <div class="mode-switch-inline">
+        <button id="modeCrossBtn" class="mode-btn active" type="button">跨境</button>
+        <button id="modeAllBtn" class="mode-btn" type="button">全量</button>
       </div>
-    </details>
+    </section>
 
     <!-- 影响维度筛选 -->
     <section class="filter-row" id="impactFilter">
       <span class="filter-label">影响维度</span>
       <div id="impactPills" class="site-pills"></div>
     </section>
+
     <!-- 平台筛选 -->
     <section class="filter-row" id="platformFilter">
       <span class="filter-label">平台</span>
       <div id="platformPills" class="site-pills"></div>
-    </section>
-
-    <!-- 今日行动清单 -->
-    <section class="action-wrap" id="sectionActions" aria-label="今日行动清单">
-      <div class="action-head">
-        <div>
-          <p class="section-eyebrow">ACTION ITEMS</p>
-          <h2>今日行动清单</h2>
-        </div>
-        <span id="actionMeta">基于政策日历和高影响信号</span>
-      </div>
-      <div id="actionList" class="action-list"></div>
     </section>
 
     <!-- 跨境精选 -->
@@ -104,6 +78,18 @@
       </div>
       <div class="cross-picks-sub">从24小时信号池里挑出更值得先看的更新，展示发布时间线、评分和命中理由。</div>
       <div id="crossPicksList" class="cross-board"></div>
+    </section>
+
+    <!-- 今日行动清单（精选之后） -->
+    <section class="action-wrap" id="sectionActions" aria-label="今日行动清单">
+      <div class="action-head">
+        <div>
+          <p class="section-eyebrow">ACTION ITEMS</p>
+          <h2>今日行动清单</h2>
+        </div>
+        <span id="actionMeta">基于政策日历和高影响信号</span>
+      </div>
+      <div id="actionList" class="action-list"></div>
     </section>
 
     <!-- 政策日历 -->
@@ -157,6 +143,6 @@
     </article>
   </template>
 
-  <script src="./assets/app.js?v=6" defer></script>
+  <script src="./assets/app.js?v=7" defer></script>
 </body>
 </html>
