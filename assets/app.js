@@ -72,7 +72,6 @@ const state = {
   allDataPromise: null,
   siteFilter: "",
   impactFilter: "",      // 影响维度筛选
-  urgencyFilter: "",     // 紧急程度筛选
   platformFilter: "",    // 平台维度筛选
   query: "",
   mode: "cross",         // 'cross' | 'all'
@@ -292,6 +291,9 @@ function renderSiteFilters() {
     state.siteFilter = btn.dataset.site;
     renderSiteFilters();
     renderList();
+    // 跳到信号流
+    const target = $("sectionSignal");
+    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 }
 
@@ -319,41 +321,10 @@ function renderImpactFilter() {
     state.impactFilter = btn.dataset.impact;
     renderImpactFilter();
     renderList();
+    renderCrossPicks(); // 精选也按维度过滤
   };
 }
 
-/* ========== 紧急程度筛选 ========== */
-
-/**
- * 渲染紧急程度筛选按钮
- */
-function renderUrgencyFilter() {
-  const wrap = $("urgencyPills");
-  if (!wrap) return;
-
-  const levels = [
-    { key: "",    emoji: "",   label: "全部等级" },
-    { key: "high", emoji: "🔴", label: "高影响" },
-    { key: "mid",  emoji: "🟡", label: "中影响" },
-    { key: "low",  emoji: "🟢", label: "低影响" },
-  ];
-
-  let html = "";
-  for (const lv of levels) {
-    const active = state.urgencyFilter === lv.key ? "pill-active" : "";
-    html += `<button class="pill ${active}" data-urgency="${esc(lv.key)}">${lv.emoji} ${esc(lv.label)}</button>`;
-  }
-
-  wrap.innerHTML = html;
-
-  wrap.onclick = (e) => {
-    const btn = e.target.closest("[data-urgency]");
-    if (!btn) return;
-    state.urgencyFilter = btn.dataset.urgency;
-    renderUrgencyFilter();
-    renderList();
-  };
-}
 
 /* ========== 平台筛选 ========== */
 
@@ -503,7 +474,6 @@ function switchMode(mode) {
   state.mode = mode;
   state.siteFilter = "";
   state.impactFilter = "";
-  state.urgencyFilter = "";
   state.platformFilter = "";
   state.query = "";
 
@@ -576,14 +546,6 @@ function getFilteredItems() {
   // 影响维度筛选
   if (state.impactFilter) {
     items = items.filter(it => it.cross_label === state.impactFilter);
-  }
-
-  // 紧急程度筛选
-  if (state.urgencyFilter) {
-    items = items.filter(it => {
-      const u = urgencyOf(it.cross_score || 0).level;
-      return u === state.urgencyFilter;
-    });
   }
 
   // 平台筛选
@@ -827,6 +789,9 @@ function pickCrossItems(items, maxPicks = 8) {
     // 跳过没有URL或URL指向非文章页
     const url = it.url || "";
     if (!url.startsWith("http")) continue;
+
+    // 影响维度过滤
+    if (state.impactFilter && it.cross_label !== state.impactFilter) continue;
 
     // 跳过明显的工具页/常青内容（标题含"一键""快速""引爆""先机""功能"等CTA词）
     if (/一键|快速理清|引爆.*先机|功能：|开店即用|免费试用/i.test(title)) continue;
