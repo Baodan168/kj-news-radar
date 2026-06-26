@@ -21,7 +21,6 @@ const SOURCE_KINDS = {
   amzdh:              { label: "AMZDH",     tone: "aggregate" },
   cifnews:            { label: "雨果跨境",  tone: "aggregate" },
   ecombrainly:        { label: "EcomBrainly", tone: "blogs" },
-  novadata:           { label: "NovaData",  tone: "blogs" },
   helium10:           { label: "Helium10",  tone: "industry" },
   sellerpolicywatch:  { label: "政策监控",  tone: "official" },
   ecomengine:         { label: "EcomEngine", tone: "industry" },
@@ -275,7 +274,7 @@ function renderSiteFilters() {
   // 按数量降序
   const sorted = [...siteMap.entries()].sort((a, b) => b[1].count - a[1].count);
 
-  let html = `<button class="pill ${state.siteFilter === '' ? 'pill-active' : ''}" data-site="">全部来源</button>`;
+  let html = `<button class="pill ${state.siteFilter === '' ? 'active' : ''}" data-site="">全部来源</button>`;
   for (const [sid, info] of sorted) {
     const active = state.siteFilter === sid ? "pill-active" : "";
     const tone = sourceTone(sid);
@@ -306,7 +305,7 @@ function renderImpactFilter() {
   const wrap = $("impactPills");
   if (!wrap) return;
 
-  let html = `<button class="pill ${state.impactFilter === '' ? 'pill-active' : ''}" data-impact="">全部维度</button>`;
+  let html = `<button class="pill ${state.impactFilter === '' ? 'active' : ''}" data-impact="">全部维度</button>`;
   for (const [key, label] of Object.entries(LABELS)) {
     const active = state.impactFilter === key ? "pill-active" : "";
     const emoji = LABEL_EMOJI[key] || "";
@@ -431,62 +430,7 @@ function renderActionItems() {
   `).join("");
 }
 
-/* ========== 视图模式切换 ========== */
 
-/**
- * 渲染 cross / all 模式切换按钮
- */
-function renderModeSwitch() {
-  const crossBtn = $("modeCrossBtn");
-  const allBtn = $("modeAllBtn");
-  const hint = $("modeHint");
-  const dedupeWrap = $("allDedupeWrap");
-
-  if (crossBtn) {
-    crossBtn.classList.toggle("mode-active", state.mode === "cross");
-    crossBtn.onclick = () => switchMode("cross");
-  }
-  if (allBtn) {
-    allBtn.classList.toggle("mode-active", state.mode === "all");
-    allBtn.onclick = () => switchMode("all");
-  }
-
-  if (hint) {
-    const filtered = state.mode === "cross" ? state.itemsAi.length : (state.allDedup ? state.itemsAll.length : state.itemsAllRaw.length);
-    const dedupStatus = state.mode === "all" ? (state.allDedup ? "去重" : "未去重") : "";
-    hint.textContent = state.mode === "cross"
-      ? `跨境相关 · ${filtered} 条 · 阈值 0.65`
-      : `全量 · ${dedupStatus} · ${filtered} 条`;
-  }
-
-  // 全量模式下显示去重开关
-  if (dedupeWrap) {
-    dedupeWrap.style.display = state.mode === "all" ? "" : "none";
-  }
-}
-
-/**
- * 切换视图模式
- * @param {"cross"|"all"} mode
- */
-function switchMode(mode) {
-  if (state.mode === mode) return;
-  state.mode = mode;
-  state.siteFilter = "";
-  state.impactFilter = "";
-  state.platformFilter = "";
-  state.query = "";
-
-  const searchInput = $("searchInput");
-  if (searchInput) searchInput.value = "";
-
-  // 全量模式 → 懒加载数据
-  if (mode === "all" && !state.allDataLoaded) {
-    loadAllData();
-  }
-
-  renderAll();
-}
 
 /**
  * 懒加载全量数据
@@ -1025,7 +969,6 @@ function bindDedupeToggle() {
 function renderAll() {
   setStats();
   renderCoverageStrip();
-  renderModeSwitch();
   renderSiteFilters();
   renderImpactFilter();
   renderPlatformFilter();
