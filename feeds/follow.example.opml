@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>跨境电商 RSS 订阅源示例</title>
+  </head>
+  <body>
+    <!-- 亚马逊官方 -->
+    <outline text="Amazon Newsroom" title="Amazon Newsroom" xmlUrl="https://www.aboutamazon.com/news/feed" htmlUrl="https://www.aboutamazon.com/news"/>
+    <outline text="SP-API Changelog" title="SP-API Changelog" xmlUrl="https://developer-docs.amazon.com/sp-api/changelog.rss" htmlUrl="https://developer-docs.amazon.com/sp-api/changelog"/>
+    <outline text="Amazon Ads Blog" title="Amazon Ads Blog" xmlUrl="https://advertising.amazon.com/blog/feed" htmlUrl="https://advertising.amazon.com/blog"/>
+
+    <!-- 英文跨境博客 -->
+    <outline text="Helium 10 Blog" title="Helium 10 Blog" xmlUrl="https://www.helium10.com/blog/feed/" htmlUrl="https://www.helium10.com/blog/"/>
+    <outline text="Jungle Scout Blog" title="Jungle Scout Blog" xmlUrl="https://www.junglescout.com/blog/feed/" htmlUrl="https://www.junglescout.com/blog/"/>
+    <outline text="EcommerceBytes" title="EcommerceBytes" xmlUrl="https://www.ecommercebytes.com/feed/" htmlUrl="https://www.ecommercebytes.com/"/>
+    <outline text="Web Retailer" title="Web Retailer" xmlUrl="https://www.webretailer.com/feed/" htmlUrl="https://www.webretailer.com/"/>
+
+    <!-- 播客 -->
+    <outline text="Seller Sessions Podcast" title="Seller Sessions Podcast" xmlUrl="https://feeds.buzzsprout.com/1321439.rss" htmlUrl="https://www.sellersessions.com/"/>
+  </body>
+</opml>

@@ -1,0 +1,64 @@
+name: Update Cross-Border News Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"   # 每天北京时间 09:00 (UTC 01:00)
+
+concurrency:
+  group: update-crossborder-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Prepare OPML
+        env:
+          FOLLOW_OPML_B64: ${{ secrets.FOLLOW_OPML_B64 }}
+        run: |
+          mkdir -p feeds
+          if [ -n "$FOLLOW_OPML_B64" ]; then
+            echo "$FOLLOW_OPML_B64" | base64 --decode > feeds/follow.opml
+            echo "Loaded feeds/follow.opml from secret"
+          elif [ -f feeds/follow.example.opml ]; then
+            cp feeds/follow.example.opml feeds/follow.opml
+            echo "Loaded example OPML"
+          else
+            echo "No OPML file; RSS is optional"
+          fi
+
+      - name: Update data
+        run: |
+          python scripts/update_crossborder.py --output-dir data --window-hours 24
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data/ || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update news snapshot $(date -u '+%Y-%m-%d %H:%M')"
+            git push
+          fi

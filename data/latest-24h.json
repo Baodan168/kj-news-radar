@@ -1,0 +1,142 @@
+{
+"generated_at": "2026-06-26T03:17:03.833255Z",
+"window_hours": 24,
+"total_items": 6,
+"total_items_cross_raw": 6,
+"total_items_raw": 6,
+"total_items_all_mode": 6,
+"topic_filter": "cross_relevance_scoring_v1_0",
+"cross_relevance_threshold": 0.65,
+"archive_total": 7,
+"site_count": 20,
+"source_count": 2,
+"site_stats": [
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 4,
+"raw_count": 4
+},
+{
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"count": 2,
+"raw_count": 2
+}
+],
+"items": [
+{
+"id": "70f73c2cd01179909ea5adeac7e4929da5c5729d",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"source": "电商行业",
+"title": "eBay Glitch Forces Sellers to Manually Request Their Funds",
+"url": "https://www.ecommercebytes.com/2026/06/25/ebay-glitch-forces-sellers-to-manually-request-their-funds",
+"published_at": "2026-06-26T02:12:42Z",
+"first_seen_at": "2026-06-26T03:17:03.833255Z",
+"last_seen_at": "2026-06-26T03:17:03.833255Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "seller_action",
+"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_signals": [
+"ebay",
+"ecommerce",
+"电商"
+]
+},
+{
+"id": "344df36d1e2c01995267c20b8c1d65fb013ed638",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"source": "电商行业",
+"title": "eBay Advises Sellers on July 4th Holiday Protections",
+"url": "https://www.ecommercebytes.com/2026/06/25/ebay-advises-sellers-on-july-4th-holiday-protections",
+"published_at": "2026-06-25T21:04:00Z",
+"first_seen_at": "2026-06-26T03:17:03.833255Z",
+"last_seen_at": "2026-06-26T03:17:03.833255Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "seller_action",
+"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_signals": [
+"ebay",
+"ecommerce",
+"电商"
+]
+},
+{
+"id": "02cb77a22e9562c0dc350370bc8f393e62b6b900",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "185+ of the Best Prime Day 2026 Deals to Shop on Day 3",
+"url": "https://www.aboutamazon.com/news/retail/best-prime-day-deals-2026",
+"published_at": "2026-06-25T14:03:00Z",
+"first_seen_at": "2026-06-26T03:17:03.833255Z",
+"last_seen_at": "2026-06-26T03:17:03.833255Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"amazon"
+]
+},
+{
+"id": "68a04e1102f00547c011559b6e2cfd776c6b72a4",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon announces partnership with a new coalition to develop the workforce for the AI era",
+"url": "https://www.aboutamazon.com/news/policy-new-views/amazon-joins-raise-us-ai-workforce",
+"published_at": "2026-06-25T09:18:52Z",
+"first_seen_at": "2026-06-26T03:17:03.833255Z",
+"last_seen_at": "2026-06-26T03:17:03.833255Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"amazon"
+]
+},
+{
+"id": "0139da36cd861f044ce9034a6e5cec25a3554496",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon announces it will invest $48 billion in India by 2030",
+"url": "https://www.aboutamazon.com/news/company-news/amazon-india-investment",
+"published_at": "2026-06-25T08:03:12Z",
+"first_seen_at": "2026-06-26T03:17:03.833255Z",
+"last_seen_at": "2026-06-26T03:17:03.833255Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"amazon"
+]
+},
+{
+"id": "03752315764874837912b688f1d761cb456dc875",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "How Amazon is preparing for the energy needs of the future",
+"url": "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-updates",
+"published_at": "2026-06-25T07:28:00Z",
+"first_seen_at": "2026-06-26T03:17:03.833255Z",
+"last_seen_at": "2026-06-26T03:17:03.833255Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"amazon"
+]
+}
+],
+"all_mode_data_url": "data/latest-24h-all.json"
+}

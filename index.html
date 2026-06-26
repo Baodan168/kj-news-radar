@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>跨境雷达｜24小时跨境电商更新雷达</title>
+  <meta name="description" content="自动整理过去24小时值得看的跨境电商、亚马逊、Temu、TikTok Shop等平台更新；政策变动、费用调整、运营趋势一目了然。">
+  <meta property="og:title" content="跨境雷达｜24小时跨境电商更新雷达">
+  <meta property="og:description" content="自动整理过去24小时值得看的跨境电商更新。">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/styles.css?v=1">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="hero-main">
+        <div class="hero-headline">
+          <img class="hero-logo" src="./assets/logo.svg" alt="跨境雷达">
+          <div>
+            <p class="hero-tag">CROSS-BORDER RADAR</p>
+            <h1>24小时跨境电商更新雷达</h1>
+          </div>
+        </div>
+        <p class="hero-sub">过去24小时值得看的跨境电商更新；跨境精选按时间轴和评分挑出重点信号。</p>
+      </div>
+      <div class="hero-meta">
+        <span class="updated-label">更新时间</span>
+        <span class="updated" id="updatedAt">加载中...</span>
+      </div>
+
+      <section class="stats" id="stats"></section>
+      <section class="coverage-strip" id="coverageStrip" aria-label="信息源覆盖状态"></section>
+    </header>
+
+    <section class="primary-controls">
+      <input id="searchInput" type="search" placeholder="搜索跨境信号 / 来源">
+      <div class="mode-hint" id="modeHint">跨境相关</div>
+    </section>
+
+    <details class="advanced-panel">
+      <summary>
+        <span>高级筛选与源状态</span>
+        <span class="advanced-summary" id="advancedSummary">加载中...</span>
+      </summary>
+      <div class="advanced-content">
+        <div class="advanced-controls">
+          <label class="field">
+            <span>站点</span>
+            <select id="siteSelect">
+              <option value="">全部站点</option>
+            </select>
+          </label>
+          <div class="field">
+            <span>视图</span>
+            <div class="mode-switch">
+              <button id="modeCrossBtn" class="mode-btn active" type="button">跨境相关</button>
+              <button id="modeAllBtn" class="mode-btn" type="button">全量</button>
+            </div>
+          </div>
+          <label id="allDedupeWrap" class="all-dedupe" for="allDedupeToggle">
+            <input id="allDedupeToggle" type="checkbox" checked>
+            <span class="all-dedupe-dot"></span>
+            <span id="allDedupeLabel">去重开</span>
+          </label>
+        </div>
+        <div class="source-health" id="sourceHealth">源状态加载中...</div>
+        <section class="site-pills" id="sitePills"></section>
+      </div>
+    </details>
+
+    <!-- 影响维度筛选 -->
+    <section class="filter-row" id="impactFilter">
+      <span class="filter-label">影响维度</span>
+      <div id="impactPills" class="site-pills"></div>
+    </section>
+
+    <!-- 紧急度筛选 -->
+    <section class="filter-row" id="urgencyFilter">
+      <span class="filter-label">紧急度</span>
+      <div id="urgencyPills" class="site-pills"></div>
+    </section>
+
+    <!-- 跨境精选 -->
+    <section class="cross-picks-wrap" aria-label="跨境精选">
+      <div class="cross-picks-head">
+        <div>
+          <p class="section-eyebrow">CROSS-BORDER PICKS</p>
+          <h2>跨境精选</h2>
+        </div>
+        <span id="crossPicksMeta">按评分排序</span>
+      </div>
+      <div class="cross-picks-sub">从24小时信号池里挑出更值得先看的更新，展示发布时间线、评分和命中理由。</div>
+      <div id="crossPicksList" class="cross-board"></div>
+    </section>
+
+    <!-- 政策日历 -->
+    <section class="policy-wrap" aria-label="政策日历">
+      <div class="policy-head">
+        <div>
+          <p class="section-eyebrow">POLICY CALENDAR</p>
+          <h2>政策日历</h2>
+        </div>
+        <span id="policyCalendarMeta">即将生效的政策变动</span>
+      </div>
+      <div id="policyCalendarList" class="policy-list"></div>
+    </section>
+
+    <!-- 信号流 -->
+    <section class="list-wrap">
+      <div class="list-head">
+        <h2 id="listTitle">跨境信号流</h2>
+        <span id="resultCount">0 条</span>
+      </div>
+      <div id="newsList" class="news-list"></div>
+    </section>
+
+  </main>
+
+  <template id="itemTpl">
+    <article class="news-card">
+      <div class="meta-row">
+        <span class="site"></span>
+        <span class="category"></span>
+        <span class="source"></span>
+        <time class="time"></time>
+      </div>
+      <a class="title" target="_blank" rel="noopener noreferrer"></a>
+    </article>
+  </template>
+
+  <script src="./assets/app.js?v=1" defer></script>
+</body>
+</html>
