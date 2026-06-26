@@ -1077,6 +1077,55 @@ function renderAll() {
 /**
  * 应用入口：加载数据并渲染
  */
+/* ========== 回到顶部按钮 ========== */
+
+function bindBackToTop() {
+  const btn = $("backToTop");
+  if (!btn) return;
+  let ticking = false;
+  window.addEventListener("scroll", () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        btn.classList.toggle("visible", window.scrollY > 400);
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+/* ========== 筛选标签点击跳转 ========== */
+
+function bindFilterScroll() {
+  // 影响维度 → 跳到精选区
+  const impactWrap = $("impactPills");
+  if (impactWrap) {
+    impactWrap.addEventListener("click", () => {
+      const target = $("sectionPicks") || $("sectionSignal");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+  // 紧急度 → 跳到行动清单
+  const urgencyWrap = $("urgencyPills");
+  if (urgencyWrap) {
+    urgencyWrap.addEventListener("click", () => {
+      const target = $("sectionActions") || $("sectionSignal");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+  // 平台 → 跳到信号流
+  const platformWrap = $("platformPills");
+  if (platformWrap) {
+    platformWrap.addEventListener("click", () => {
+      const target = $("sectionSignal");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+}
+
 async function init() {
   try {
     // 并行加载 AI 数据、来源状态、政策日历
@@ -1127,6 +1176,8 @@ async function init() {
     // 绑定交互
     bindSearch();
     bindDedupeToggle();
+    bindBackToTop();
+    bindFilterScroll();
 
     // 预加载全量数据（后台，不阻塞）
     setTimeout(() => loadAllData(), 3000);

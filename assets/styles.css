@@ -579,6 +579,36 @@ input:focus, select:focus, button:focus-visible, summary:focus-visible {
 .footer-inner a { color: var(--accent); text-decoration: none; }
 .footer-inner a:hover { text-decoration: underline; }
 
+/* ===== Back to Top Button ===== */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s, background 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 100;
+}
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.back-to-top:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
   .coverage-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }

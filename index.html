@@ -10,11 +10,11 @@
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/styles.css?v=4">
+  <link rel="stylesheet" href="./assets/styles.css?v=5">
 </head>
 <body>
   <main class="shell">
-    <header class="hero">
+    <header class="hero" id="sectionTop">
       <div class="hero-main">
         <div class="hero-headline">
           <img class="hero-logo" src="./assets/logo.svg" alt="跨境雷达">
@@ -89,7 +89,7 @@
     </section>
 
     <!-- 今日行动清单 -->
-    <section class="action-wrap" aria-label="今日行动清单">
+    <section class="action-wrap" id="sectionActions" aria-label="今日行动清单">
       <div class="action-head">
         <div>
           <p class="section-eyebrow">ACTION ITEMS</p>
@@ -101,7 +101,7 @@
     </section>
 
     <!-- 跨境精选 -->
-    <section class="cross-picks-wrap" aria-label="跨境精选">
+    <section class="cross-picks-wrap" id="sectionPicks" aria-label="跨境精选">
       <div class="cross-picks-head">
         <div>
           <p class="section-eyebrow">CROSS-BORDER PICKS</p>
@@ -114,7 +114,7 @@
     </section>
 
     <!-- 政策日历 -->
-    <section class="policy-wrap" aria-label="政策日历">
+    <section class="policy-wrap" id="sectionPolicy" aria-label="政策日历">
       <div class="policy-head">
         <div>
           <p class="section-eyebrow">POLICY CALENDAR</p>
@@ -126,7 +126,7 @@
     </section>
 
     <!-- 信号流 -->
-    <section class="list-wrap">
+    <section class="list-wrap" id="sectionSignal">
       <div class="list-head">
         <h2 id="listTitle">跨境信号流</h2>
         <span id="resultCount">0 条</span>
@@ -145,6 +145,13 @@
     </div>
   </footer>
 
+  <!-- 回到顶部按钮 -->
+  <button id="backToTop" class="back-to-top" title="回到顶部" aria-label="回到顶部">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+      <path d="M10 16V4M10 4L4 10M10 4L16 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
   <template id="itemTpl">
     <article class="news-card">
       <div class="meta-row">
@@ -157,6 +164,6 @@
     </article>
   </template>
 
-  <script src="./assets/app.js?v=4" defer></script>
+  <script src="./assets/app.js?v=5" defer></script>
 </body>
 </html>
