@@ -727,6 +727,10 @@ function pickCrossItems(items, maxPicks = 8) {
     // 跳过工具推荐/软文
     if (BLACKLIST.test(title)) continue;
 
+    // 跳过纯品类名/常青标题（无动作词、无数字、无具体事件）
+    const HAS_ACTION = /发布|调整|生效|禁止|截止|要求|更新|新规|变更|推出|上线|启动|关闭|取消|增加|降低|提高|限制|打击|整治|严查|罚款|下架|封号|暴涨|暴跌|飙升|增长|下降|观察|分析|解读|获悉|获悉|报告|调查|警告|提醒|注意|影响|冲击|利好|利空|\d{4}|\d+[%亿万元]|prime|day|黑五|网一/i;
+    if (title.length < 20 && !HAS_ACTION.test(title)) continue;
+
     // 跳过没有URL或URL指向非文章页
     const url = it.url || "";
     if (!url.startsWith("http")) continue;
