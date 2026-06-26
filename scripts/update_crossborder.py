@@ -41,7 +41,7 @@ BROWSER_UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
-JINA_PREFIX = "https://r.jina.ai/"
+# JINA_PREFIX no longer used — direct HTML parsing preferred
 
 # ---------------------------------------------------------------------------
 # 工具函数
@@ -245,57 +245,26 @@ def fetch_amazon_ads_blog(session: requests.Session, now: datetime) -> list[RawI
                      "amazon_ads", "Amazon Ads Blog", "亚马逊广告")
 
 
-def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem]:
-    """亚马逊全球开店中文 — 政策/资讯。"""
-    items: list[RawItem] = []
-    try:
-        url = JINA_PREFIX + "https://gs.amazon.cn/news"
-        resp = session.get(url, timeout=10)
-        resp.raise_for_status()
-        text = resp.text
-        # 从 markdown 中提取标题和链接
-        for m in re.finditer(r'\[([^\]]{8,120})\]\((https?://[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
-            if any(skip in title.lower() for skip in ["登录", "注册", "首页", "导航"]):
-                continue
-            items.append(RawItem(
-                site_id="gs_amazon",
-                site_name="亚马逊全球开店",
-                source="全球开店资讯",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] gs.amazon.cn fetch failed: {e}")
-    return items[:30]
-
-
-# ---------------------------------------------------------------------------
-# 中文跨境聚合源
-# ---------------------------------------------------------------------------
-
 def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZ123 跨境快讯。"""
+    """AMZ123 跨境快讯 — 直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://www.amz123.com/kx"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://www.amz123.com/kx", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://(?:www\.)?amz123\.com/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 8 or not href.startswith(("http", "/")):
+                continue
+            if "/kx/" not in href and "/article/" not in href:
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://www.amz123.com", href)
             items.append(RawItem(
-                site_id="amz123",
-                site_name="AMZ123",
-                source="跨境快讯",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="amz123", site_name="AMZ123", source="跨境快讯",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] AMZ123 fetch failed: {e}")
@@ -303,24 +272,25 @@ def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
 
 
 def fetch_amz123_early(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZ123 跨境早报。"""
+    """AMZ123 跨境早报 — 直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://www.amz123.com/t-kuajingzaobao"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://www.amz123.com/t-kuajingzaobao", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://(?:www\.)?amz123\.com/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 8 or not href.startswith(("http", "/")):
+                continue
+            if "/t-" not in href and "/article/" not in href:
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://www.amz123.com", href)
             items.append(RawItem(
-                site_id="amz123",
-                site_name="AMZ123",
-                source="跨境早报",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="amz123", site_name="AMZ123", source="跨境早报",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] AMZ123 早报 fetch failed: {e}")
@@ -328,24 +298,25 @@ def fetch_amz123_early(session: requests.Session, now: datetime) -> list[RawItem
 
 
 def fetch_amzdh(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZDH 跨境头条。"""
+    """AMZDH 跨境头条 — 直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://www.amzdh.com/kjtt/"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://www.amzdh.com/kjtt/", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://(?:www\.)?amzdh\.com/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 10 or not href.startswith(("http", "/")):
+                continue
+            if "/kjtt/" not in href and "/article/" not in href:
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://www.amzdh.com", href)
             items.append(RawItem(
-                site_id="amzdh",
-                site_name="AMZDH",
-                source="跨境头条",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="amzdh", site_name="AMZDH", source="跨境头条",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] AMZDH fetch failed: {e}")
@@ -353,24 +324,25 @@ def fetch_amzdh(session: requests.Session, now: datetime) -> list[RawItem]:
 
 
 def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
-    """雨果跨境。"""
+    """雨果跨境 — 直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://www.cifnews.com/"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://www.cifnews.com/", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://(?:www\.)?cifnews\.com/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 10 or not href.startswith(("http", "/")):
+                continue
+            if "/article/" not in href and "/news/" not in href:
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://www.cifnews.com", href)
             items.append(RawItem(
-                site_id="cifnews",
-                site_name="雨果跨境",
-                source="跨境资讯",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="cifnews", site_name="雨果跨境", source="跨境资讯",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] cifnews fetch failed: {e}")
@@ -378,28 +350,55 @@ def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
 
 
 def fetch_kjds365(session: requests.Session, now: datetime) -> list[RawItem]:
-    """跨境电商365。"""
+    """跨境电商365 — 直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://kjds365.cn/"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://kjds365.cn/", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://kjds365\.cn/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 8 or not href.startswith(("http", "/")):
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://kjds365.cn", href)
+            if "kjds365.cn" not in href:
+                continue
             items.append(RawItem(
-                site_id="kjds365",
-                site_name="跨境电商365",
-                source="行业资讯",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="kjds365", site_name="跨境电商365", source="行业资讯",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] kjds365 fetch failed: {e}")
     return items[:20]
+
+
+def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem]:
+    """亚马逊全球开店中文 — HTML解析。"""
+    items: list[RawItem] = []
+    try:
+        resp = session.get("https://gs.amazon.cn/news", timeout=15)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 8 or not href.startswith(("http", "/")):
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://gs.amazon.cn", href)
+            if "amazon.cn" not in href:
+                continue
+            items.append(RawItem(
+                site_id="gs_amazon", site_name="亚马逊全球开店", source="全球开店资讯",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
+            ))
+    except Exception as e:
+        print(f"  [WARN] gs.amazon.cn fetch failed: {e}")
+    return items[:30]
 
 
 # ---------------------------------------------------------------------------
@@ -419,24 +418,23 @@ def fetch_junglescout_blog(session: requests.Session, now: datetime) -> list[Raw
 
 
 def fetch_ecombrainly(session: requests.Session, now: datetime) -> list[RawItem]:
-    """EcomBrainly — 亚马逊政策更新。"""
+    """EcomBrainly — 亚马逊政策更新，直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://ecombrainly.com/amazon-marketplace-policy-updates/"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://ecombrainly.com/amazon-marketplace-policy-updates/", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://ecombrainly\.com/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 10 or not href.startswith("http"):
+                continue
+            if "ecombrainly.com" not in href:
+                continue
             items.append(RawItem(
-                site_id="ecombrainly",
-                site_name="EcomBrainly",
-                source="政策更新",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="ecombrainly", site_name="EcomBrainly", source="政策更新",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] EcomBrainly fetch failed: {e}")
@@ -444,24 +442,23 @@ def fetch_ecombrainly(session: requests.Session, now: datetime) -> list[RawItem]
 
 
 def fetch_novadata(session: requests.Session, now: datetime) -> list[RawItem]:
-    """NovaData — 卖家新闻。"""
+    """NovaData — 卖家新闻，直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://novadata.io/resources/news"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://novadata.io/resources/news", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://novadata\.io/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 10 or not href.startswith("http"):
+                continue
+            if "novadata.io" not in href:
+                continue
             items.append(RawItem(
-                site_id="novadata",
-                site_name="NovaData",
-                source="卖家新闻",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="novadata", site_name="NovaData", source="卖家新闻",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] NovaData fetch failed: {e}")
@@ -469,24 +466,23 @@ def fetch_novadata(session: requests.Session, now: datetime) -> list[RawItem]:
 
 
 def fetch_seller_policy_watch(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Seller Policy Watch — 政策变动监控。"""
+    """Seller Policy Watch — 政策变动监控，直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://sellerpolicywatch.com/"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://sellerpolicywatch.com/", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://sellerpolicywatch\.com/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 10 or not href.startswith("http"):
+                continue
+            if "sellerpolicywatch.com" not in href:
+                continue
             items.append(RawItem(
-                site_id="sellerpolicywatch",
-                site_name="Seller Policy Watch",
-                source="政策监控",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="sellerpolicywatch", site_name="Seller Policy Watch", source="政策监控",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] SellerPolicyWatch fetch failed: {e}")
@@ -494,24 +490,23 @@ def fetch_seller_policy_watch(session: requests.Session, now: datetime) -> list[
 
 
 def fetch_ecomengine(session: requests.Session, now: datetime) -> list[RawItem]:
-    """EcomEngine — 卖家新闻。"""
+    """EcomEngine — 卖家新闻，直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://www.ecomengine.com/amazon-seller-news"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://www.ecomengine.com/amazon-seller-news", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://(?:www\.)?ecomengine\.com/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 10 or not href.startswith("http"):
+                continue
+            if "ecomengine.com" not in href:
+                continue
             items.append(RawItem(
-                site_id="ecomengine",
-                site_name="EcomEngine",
-                source="卖家新闻",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="ecomengine", site_name="EcomEngine", source="卖家新闻",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] EcomEngine fetch failed: {e}")
@@ -553,25 +548,25 @@ def fetch_amazon_seller_podcast(session: requests.Session, now: datetime) -> lis
 # ---------------------------------------------------------------------------
 
 def fetch_tophub_crossborder(session: requests.Session, now: datetime) -> list[RawItem]:
-    """TopHub — 跨境电商相关热榜。"""
+    """TopHub — 跨境电商相关热榜，直接HTML解析。"""
     items: list[RawItem] = []
     try:
-        url = JINA_PREFIX + "https://tophub.today/"
-        resp = session.get(url, timeout=10)
+        resp = session.get("https://tophub.today/", timeout=15)
         resp.raise_for_status()
-        text = resp.text
-        # Look for cross-border related content
-        for m in re.finditer(r'\[([^\]]{8,200})\]\((https?://tophub\.today/n/[^\)]+)\)', text):
-            title = m.group(1).strip()
-            link = m.group(2).strip()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 8 or not href.startswith(("http", "/")):
+                continue
+            if "/n/" not in href:
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://tophub.today", href)
             items.append(RawItem(
-                site_id="tophub",
-                site_name="TopHub",
-                source="热榜",
-                title=title,
-                url=normalize_url(link),
-                published_at=None,
-                meta={},
+                site_id="tophub", site_name="TopHub", source="热榜",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] TopHub fetch failed: {e}")
