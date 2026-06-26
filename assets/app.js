@@ -809,11 +809,26 @@ function extractEventKey(title) {
  * @returns {Array} 聚类后的事件数组
  */
 function pickCrossItems(items, maxPicks = 8) {
+  // 工具/推广/软文黑名单 — 精选不允许出现
+  const TOOL_BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|sif[,，]|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate/i;
+
   // 按事件 key 分组
   const clusters = new Map();
 
   for (const it of items) {
-    const key = extractEventKey(it.title);
+    const title = (it.title || "").trim();
+
+    // 跳过工具推荐/软文
+    if (TOOL_BLACKLIST.test(title)) continue;
+
+    // 跳过过于简短的标题（<10字符，信息量不足）
+    if (title.length < 10) continue;
+
+    // 跳过没有URL或URL指向非文章页
+    const url = it.url || "";
+    if (!url.startsWith("http")) continue;
+
+    const key = extractEventKey(title);
     if (!key || key === "|") continue; // 无法归类的跳过
 
     if (!clusters.has(key)) {
@@ -837,7 +852,6 @@ function pickCrossItems(items, maxPicks = 8) {
     .filter(c => c.sourceCount >= 1) // 至少1个不同来源
     .sort((a, b) => {
       // 多源优先
-      const sd = b.sourceCount - a.sourceCount;
       if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
       // 分数
       if (Math.abs(b.maxScore - a.maxScore) > 0.01) return b.maxScore - a.maxScore;
@@ -846,9 +860,13 @@ function pickCrossItems(items, maxPicks = 8) {
     })
     .slice(0, maxPicks);
 
-  // 为每个 cluster 选择代表性条目（分数最高的）
+  // 为每个 cluster 选择代表性条目（分数最高 + 标题最长）
   return sorted.map(c => {
-    const representative = c.items.sort((a, b) => (b.cross_score || 0) - (a.cross_score || 0))[0];
+    const representative = c.items.sort((a, b) => {
+      const scoreDiff = (b.cross_score || 0) - (a.cross_score || 0);
+      if (Math.abs(scoreDiff) > 0.01) return scoreDiff;
+      return (b.title || "").length - (a.title || "").length; // 标题长的信息量更大
+    })[0];
     return {
       ...representative,
       _clusterSize: c.items.length,
