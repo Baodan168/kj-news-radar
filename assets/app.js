@@ -276,7 +276,7 @@ function renderSiteFilters() {
 
   let html = `<button class="pill ${state.siteFilter === '' ? 'active' : ''}" data-site="">全部来源</button>`;
   for (const [sid, info] of sorted) {
-    const active = state.siteFilter === sid ? "pill-active" : "";
+    const active = state.siteFilter === sid ? "active" : "";
     const tone = sourceTone(sid);
     html += `<button class="pill pill-${tone} ${active}" data-site="${esc(sid)}">${esc(info.name)} <span class="pill-count">${info.count}</span></button>`;
   }
@@ -307,7 +307,7 @@ function renderImpactFilter() {
 
   let html = `<button class="pill ${state.impactFilter === '' ? 'active' : ''}" data-impact="">全部维度</button>`;
   for (const [key, label] of Object.entries(LABELS)) {
-    const active = state.impactFilter === key ? "pill-active" : "";
+    const active = state.impactFilter === key ? "active" : "";
     const emoji = LABEL_EMOJI[key] || "";
     html += `<button class="pill ${active}" data-impact="${esc(key)}">${emoji} ${esc(label)}</button>`;
   }
