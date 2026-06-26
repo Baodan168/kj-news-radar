@@ -67,6 +67,13 @@ button { cursor: pointer; }
 }
 .updated-label { color: var(--muted); font-size: 12px; }
 .updated { color: var(--ink); font-size: 13px; font-weight: 700; }
+.hero-stats {
+  display: flex;
+  gap: 12px;
+  padding-top: 8px;
+  margin-top: 6px;
+  border-top: 1px solid var(--line);
+}
 
 /* ===== Hero Aside (更新时间 + 统计) ===== */
 .hero-aside {
