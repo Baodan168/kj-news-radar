@@ -1023,7 +1023,6 @@ function renderAll() {
   renderModeSwitch();
   renderSiteFilters();
   renderImpactFilter();
-  renderUrgencyFilter();
   renderPlatformFilter();
   renderList();
   renderCrossPicks();
