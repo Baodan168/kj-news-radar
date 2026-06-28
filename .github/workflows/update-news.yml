@@ -32,12 +32,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install BrowserAct CLI
+      - name: Install BrowserAct CLI (optional)
         run: |
           pip install --retries 3 browser-act-cli 2>/dev/null || echo "WARN: browser-act-cli install skipped"
           browser-act --version 2>/dev/null || echo "INFO: BrowserAct CLI not available; script will skip browser-dependent sources"
 
-      - name: Install Google Chrome
+      - name: Install Google Chrome (optional)
+        continue-on-error: true
         run: |
           wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg
           echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
@@ -46,6 +47,7 @@ jobs:
           google-chrome-stable --version
 
       - name: Setup BrowserAct
+        continue-on-error: true
         run: |
           browser-act get-skills core --skill-version 2.0.2 || true
           browser-act browser create --type chrome --name "ci-browser" --desc "CI browser for news scraping" || true
