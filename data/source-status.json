@@ -1,68 +1,68 @@
 {
-"generated_at": "2026-06-28T05:03:26.904420Z",
+"generated_at": "2026-06-28T05:07:38.429246Z",
 "sites": [
 {
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
 "ok": true,
 "item_count": 0,
-"duration_ms": 144
+"duration_ms": 166
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "ok": true,
 "item_count": 2,
-"duration_ms": 229
-},
-{
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads Blog",
-"ok": true,
-"item_count": 0,
-"duration_ms": 348
+"duration_ms": 276
 },
 {
 "site_id": "helium10",
 "site_name": "Helium10",
 "ok": true,
 "item_count": 0,
-"duration_ms": 122
-},
-{
-"site_id": "junglescout",
-"site_name": "Jungle Scout",
-"ok": true,
-"item_count": 0,
-"duration_ms": 57
+"duration_ms": 227
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "ok": true,
 "item_count": 30,
-"duration_ms": 686
+"duration_ms": 564
 },
 {
-"site_id": "sellerpolicywatch",
-"site_name": "政策监控",
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads Blog",
 "ok": true,
 "item_count": 0,
-"duration_ms": 300
+"duration_ms": 571
+},
+{
+"site_id": "junglescout",
+"site_name": "Jungle Scout",
+"ok": true,
+"item_count": 0,
+"duration_ms": 161
 },
 {
 "site_id": "ecombrainly",
 "site_name": "EcomBrainly",
 "ok": true,
 "item_count": 2,
-"duration_ms": 393
+"duration_ms": 268
 },
 {
-"site_id": "web_retailer",
-"site_name": "Web Retailer",
+"site_id": "sellerpolicywatch",
+"site_name": "政策监控",
 "ok": true,
 "item_count": 0,
-"duration_ms": 116
+"duration_ms": 287
+},
+{
+"site_id": "ecomengine",
+"site_name": "EcomEngine",
+"ok": true,
+"item_count": 20,
+"duration_ms": 325
 },
 {
 "site_id": "seller_sessions",
@@ -83,70 +83,70 @@
 "site_name": "Practical Ecommerce",
 "ok": true,
 "item_count": 0,
-"duration_ms": 166
+"duration_ms": 297
 },
 {
 "site_id": "amazon_seller_blog",
 "site_name": "Amazon卖家博客",
 "ok": true,
 "item_count": 0,
-"duration_ms": 1
+"duration_ms": 0
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "ok": true,
 "item_count": 0,
-"duration_ms": 1
+"duration_ms": 0
 },
 {
-"site_id": "ecomengine",
-"site_name": "EcomEngine",
-"ok": true,
-"item_count": 20,
-"duration_ms": 267
-},
-{
-"site_id": "tophub",
-"site_name": "TopHub",
-"ok": true,
-"item_count": 20,
-"duration_ms": 1280
-},
-{
-"site_id": "amz123",
-"site_name": "AMZ123早报",
+"site_id": "web_retailer",
+"site_name": "Web Retailer",
 "ok": true,
 "item_count": 0,
-"duration_ms": 2159
-},
-{
-"site_id": "kjds365",
-"site_name": "跨境电商365",
-"ok": true,
-"item_count": 20,
-"duration_ms": 2531
-},
-{
-"site_id": "gs_amazon",
-"site_name": "全球开店",
-"ok": true,
-"item_count": 30,
-"duration_ms": 3447
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"ok": true,
-"item_count": 25,
-"duration_ms": 3817
+"duration_ms": 338
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "ok": true,
 "item_count": 40,
-"duration_ms": 4020
+"duration_ms": 1861
+},
+{
+"site_id": "tophub",
+"site_name": "TopHub",
+"ok": true,
+"item_count": 20,
+"duration_ms": 1226
+},
+{
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"ok": true,
+"item_count": 20,
+"duration_ms": 2204
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123早报",
+"ok": true,
+"item_count": 0,
+"duration_ms": 2547
+},
+{
+"site_id": "gs_amazon",
+"site_name": "全球开店",
+"ok": true,
+"item_count": 30,
+"duration_ms": 3397
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"ok": true,
+"item_count": 25,
+"duration_ms": 3489
 }
 ],
 "failed_sites": [],
