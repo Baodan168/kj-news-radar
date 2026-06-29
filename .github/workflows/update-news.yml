@@ -33,6 +33,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Install BrowserAct CLI (optional)
+        continue-on-error: true
         run: |
           pip install --retries 3 browser-act-cli 2>/dev/null || echo "WARN: browser-act-cli install skipped"
           browser-act --version 2>/dev/null || echo "INFO: BrowserAct CLI not available; script will skip browser-dependent sources"
