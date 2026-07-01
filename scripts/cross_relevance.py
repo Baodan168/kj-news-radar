@@ -370,6 +370,13 @@ MEANINGFUL_EN_SIGNAL_RE = re.compile(
 )
 
 # ──────────────────────────────────────────────────────────────
+# Past-year detection: penalty for titles referencing previous years
+# ──────────────────────────────────────────────────────────────
+from datetime import date
+_PAST_YEAR_STALE_RE = re.compile(r"(?<!\d)(20[2-9]\d)(?:\s*年|(?![-\d]))")
+_CURRENT_YEAR = date.today().year
+
+# ──────────────────────────────────────────────────────────────
 # Source priors: base scores for trusted sources
 # ──────────────────────────────────────────────────────────────
 SOURCE_PRIORS = {
@@ -584,7 +591,22 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
 
     # Penalty for noise (capped)
     noise_penalty = min(0.15, 0.03 * len(noise)) if noise else 0.0
-    score = source_prior + base + signal_bonus - noise_penalty
+
+    # Penalty for titles referencing a past year (stale evergreen content)
+    year_penalty = 0.0
+    title = str(record.get("title") or "")
+    year_matches = _PAST_YEAR_STALE_RE.findall(title)
+    for ym in year_matches:
+        try:
+            y = int(ym)
+            if y < _CURRENT_YEAR - 1:
+                year_penalty = max(year_penalty, 0.25)  # 2+ years old → heavy penalty
+            elif y < _CURRENT_YEAR:
+                year_penalty = max(year_penalty, 0.15)  # 1 year old → moderate penalty
+        except ValueError:
+            pass
+
+    score = source_prior + base + signal_bonus - noise_penalty - year_penalty
 
     # Penalize platform news without seller-relevance keywords
     if has_platform and not has_seller_relevance:
