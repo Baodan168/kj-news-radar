@@ -1,21 +1,21 @@
 {
-"generated_at": "2026-07-05T00:41:01.480244Z",
+"generated_at": "2026-07-06T00:40:50.682340Z",
 "window_hours": 24,
-"total_items": 2,
-"total_items_cross_raw": 2,
-"total_items_raw": 10,
-"total_items_all_mode": 10,
+"total_items": 3,
+"total_items_cross_raw": 3,
+"total_items_raw": 19,
+"total_items_all_mode": 19,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.65,
-"archive_total": 567,
+"archive_total": 576,
 "site_count": 20,
 "source_count": 3,
 "site_stats": [
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 1,
-"raw_count": 1
+"count": 2,
+"raw_count": 2
 },
 {
 "site_id": "amz123",
@@ -27,10 +27,31 @@
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 8
+"raw_count": 16
 }
 ],
 "items": [
+{
+"id": "746444c9bb72d82ecf8991dfb4f1beef7868230b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "这几类卖家快自查！海外爆款IP成下架重灾区",
+"url": "https://www.cifnews.com/article/187297",
+"published_at": null,
+"first_seen_at": "2026-07-06T00:40:50.682340Z",
+"last_seen_at": "2026-07-06T00:40:50.682340Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "这几类卖家快自查！海外爆款IP成下架重灾区"
+},
 {
 "id": "13aa292ad110ee8b9df3c354ef1e535beeca8a24",
 "site_id": "cifnews",
@@ -40,7 +61,7 @@
 "url": "https://www.cifnews.com/article/187296",
 "published_at": null,
 "first_seen_at": "2026-07-05T00:41:01.480244Z",
-"last_seen_at": "2026-07-05T00:41:01.480244Z",
+"last_seen_at": "2026-07-06T00:40:50.682340Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -61,7 +82,7 @@
 "url": "https://www.amz123.com/kx/TV3AT2yu",
 "published_at": null,
 "first_seen_at": "2026-07-05T00:41:01.480244Z",
-"last_seen_at": "2026-07-05T00:41:01.480244Z",
+"last_seen_at": "2026-07-06T00:40:50.682340Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
