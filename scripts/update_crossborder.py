@@ -597,6 +597,8 @@ def fetch_channelx(session: requests.Session, now: datetime) -> list[RawItem]:
 def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[RawItem]:
     """Marketplace Pulse — 数据驱动的电商市场分析，HTML解析articles页面。"""
     items: list[RawItem] = []
+    nav_titles = {"contact us", "privacy policy", "terms of use", "advertise with us",
+                  "about", "careers", "press", "sign up", "subscribe", "login", "search"}
     try:
         resp = session.get("https://marketplacepulse.com/articles", timeout=15)
         resp.raise_for_status()
@@ -604,11 +606,13 @@ def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[Ra
         for a in soup.find_all("a", href=True):
             title = a.get_text(strip=True)
             href = a["href"]
-            if len(title) < 10 or not href.startswith(("http", "/")):
+            if len(title) < 10 or title.lower().strip() in nav_titles:
+                continue
+            if not href.startswith(("http", "/")):
                 continue
             if not href.startswith("http"):
                 href = urljoin("https://marketplacepulse.com", href)
-            if "marketplacepulse.com" not in href and "/articles/" not in href:
+            if "marketplacepulse.com" not in href or "/articles/" not in href:
                 continue
             items.append(RawItem(
                 site_id="marketplace_pulse", site_name="Marketplace Pulse", source="市场分析",
