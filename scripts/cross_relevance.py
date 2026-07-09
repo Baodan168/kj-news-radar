@@ -641,7 +641,8 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
         score += 0.05
 
     # eBay/非Amazon平台降权（非核心平台）
-    non_amazon_platforms = ["ebay", "shopee", "lazada", "walmart", "wildberries", "jumia"]
+    non_amazon_platforms = ["ebay", "shopee", "lazada", "walmart", "wildberries", "jumia",
+                            "美客多", "mercadolibre", "depop", "ozon"]
     if any(k in text for k in non_amazon_platforms) and not any(k in text for k in amazon_keywords):
         score -= 0.15
 
