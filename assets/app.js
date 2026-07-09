@@ -361,8 +361,14 @@ function renderActionItems() {
     });
   });
   
-  // From high-score signals with deadline or seller_action
+  // From high-score seller_action signals (official sources only)
+  const OFFICIAL_AGGREGATORS = ["amz123", "amzdh", "cifnews", "kjds365", "ennews", "tophub",
+    "ecommercebytes", "channelx", "marketplace_pulse", "ecomengine",
+    "wearesellers", "ecombrainly", "helium10"];
   (state.itemsAi || []).filter(it => it.cross_score >= 0.80).forEach(it => {
+    const tone = sourceTone(it.site_id);
+    const isAggregator = OFFICIAL_AGGREGATORS.includes(it.site_id);
+    if (tone !== "official" || isAggregator) return;
     if (it.cross_label === "seller_action" || (it.impact_summary && it.impact_summary.urgency === "立即行动")) {
       actions.push({
         title: (it.title || "").substring(0, 80),
@@ -800,7 +806,7 @@ function renderCrossPicks() {
             <strong>${score} 分</strong>
             ${sourceHits}
           </div>
-          <div class="pick-row-title">${esc(pick.title)}</div>
+          <div class="pick-row-title">${esc(pick.title_zh || pick.title)}</div>
         </div>
       </a>`;
   });
