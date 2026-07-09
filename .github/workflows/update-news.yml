@@ -2,6 +2,8 @@ name: Update Cross-Border News Snapshot
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
 
 concurrency:
   group: update-crossborder-${{ github.ref }}

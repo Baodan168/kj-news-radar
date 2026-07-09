@@ -426,37 +426,6 @@ def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
     return items[:40]
 
 
-def fetch_amz123_early(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZ123 跨境早报 — BrowserAct + HTML fallback."""
-    items = fetch_via_browseract(
-        url="https://www.amz123.com/t-kuajingzaobao",
-        site_id="amz123", site_name="AMZ123", source_label="跨境早报",
-        url_pattern="/t-", base_url="https://www.amz123.com",
-    )
-    if not items:
-        try:
-            resp = session.get("https://www.amz123.com/t-kuajingzaobao", timeout=15)
-            resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
-            for a in soup.find_all("a", href=True):
-                title = a.get_text(strip=True)
-                href = a["href"]
-                if len(title) < 8 or not href.startswith(("http", "/")):
-                    continue
-                if "/t-" not in href and "/article/" not in href:
-                    continue
-                if not href.startswith("http"):
-                    href = urljoin("https://www.amz123.com", href)
-                items.append(RawItem(
-                    site_id="amz123", site_name="AMZ123", source="跨境早报",
-                    title=title, url=normalize_url(href),
-                    published_at=None, meta={},
-                ))
-        except Exception as e:
-            print(f"  [WARN] AMZ123 早报 fallback HTML fetch failed: {e}")
-    return items[:30]
-
-
 def fetch_amzdh(session: requests.Session, now: datetime) -> list[RawItem]:
     """AMZDH 跨境头条 — BrowserAct + HTML fallback."""
     items = fetch_via_browseract(
@@ -585,67 +554,6 @@ def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem
 # 英文跨境源
 # ---------------------------------------------------------------------------
 
-def fetch_helium10_blog(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Helium 10 博客 — 亚马逊卖家工具头部品牌。"""
-    return fetch_rss(session, "https://www.helium10.com/blog/feed/",
-                     "helium10", "Helium10 Blog", "Helium10")
-
-
-def fetch_junglescout_blog(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Jungle Scout 博客。"""
-    return fetch_rss(session, "https://www.junglescout.com/blog/feed/",
-                     "junglescout", "Jungle Scout Blog", "Jungle Scout")
-
-
-def fetch_ecombrainly(session: requests.Session, now: datetime) -> list[RawItem]:
-    """EcomBrainly — 亚马逊政策更新，直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://ecombrainly.com/amazon-marketplace-policy-updates/", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 10 or not href.startswith("http"):
-                continue
-            if "ecombrainly.com" not in href:
-                continue
-            items.append(RawItem(
-                site_id="ecombrainly", site_name="EcomBrainly", source="政策更新",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] EcomBrainly fetch failed: {e}")
-    return items[:25]
-
-
-
-def fetch_seller_policy_watch(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Seller Policy Watch — 政策变动监控，直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://sellerpolicywatch.com/", timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 10 or not href.startswith("http"):
-                continue
-            if "sellerpolicywatch.com" not in href:
-                continue
-            items.append(RawItem(
-                site_id="sellerpolicywatch", site_name="Seller Policy Watch", source="政策监控",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] SellerPolicyWatch fetch failed: {e}")
-    return items[:20]
-
-
 def fetch_ecomengine(session: requests.Session, now: datetime) -> list[RawItem]:
     """EcomEngine — 卖家新闻，直接HTML解析。"""
     items: list[RawItem] = []
@@ -670,27 +578,52 @@ def fetch_ecomengine(session: requests.Session, now: datetime) -> list[RawItem]:
     return items[:20]
 
 
+# ---------------------------------------------------------------------------
+# 新增：英文卖家平台源
+# ---------------------------------------------------------------------------
 
-def fetch_practical_ecommerce(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Practical Ecommerce。"""
-    return fetch_rss(session, "https://pec-ly.com/feed",
-                     "practical_ecommerce", "Practical Ecommerce", "电商实践")
-
-
-def fetch_web_retailer(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Web Retailer — 亚马逊/电商深度分析。"""
-    return fetch_rss(session, "https://www.webretailer.com/feed/",
-                     "web_retailer", "Web Retailer", "电商分析")
+def fetch_ecommercebytes(session: requests.Session, now: datetime) -> list[RawItem]:
+    """EcommerceBytes — 独立卖家新闻，2005年创刊，日更亚马逊/ebay/Etsy/Walmart卖家新闻。"""
+    return fetch_rss(session, "https://www.ecommercebytes.com/feed/",
+                     "ecommercebytes", "EcommerceBytes", "卖家新闻")
 
 
-def fetch_seller_sessions_podcast(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Seller Sessions Podcast — skipped (Buzzsprout RSS unreliable)."""
-    return []
+def fetch_channelx(session: requests.Session, now: datetime) -> list[RawItem]:
+    """ChannelX — 全球Marketplace新闻，覆盖Temu/TikTok/Walmart/eBay等平台。"""
+    return fetch_rss(session, "https://channelx.world/feed/",
+                     "channelx", "ChannelX", "平台新闻")
 
 
-def fetch_amazon_seller_podcast(session: requests.Session, now: datetime) -> list[RawItem]:
-    """The Amazon Seller Podcast — skipped (Buzzsprout RSS unreliable)."""
-    return []
+def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Marketplace Pulse — 数据驱动的电商市场分析，HTML解析articles页面。"""
+    items: list[RawItem] = []
+    try:
+        resp = session.get("https://marketplacepulse.com/articles", timeout=15)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            title = a.get_text(strip=True)
+            href = a["href"]
+            if len(title) < 10 or not href.startswith(("http", "/")):
+                continue
+            if not href.startswith("http"):
+                href = urljoin("https://marketplacepulse.com", href)
+            if "marketplacepulse.com" not in href and "/articles/" not in href:
+                continue
+            items.append(RawItem(
+                site_id="marketplace_pulse", site_name="Marketplace Pulse", source="市场分析",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
+            ))
+    except Exception as e:
+        print(f"  [WARN] Marketplace Pulse fetch failed: {e}")
+    return items[:15]
+
+
+def fetch_ennews(session: requests.Session, now: datetime) -> list[RawItem]:
+    """亿恩网 — 中文跨境行业头部媒体，日更5-10篇，直接RSS采集。"""
+    return fetch_rss(session, "https://www.ennews.com/rss.xml",
+                     "ennews", "亿恩网", "跨境资讯")
 
 
 # ---------------------------------------------------------------------------
@@ -904,22 +837,17 @@ BUILTIN_SOURCES: list[dict[str, Any]] = [
     {"func": "fetch_amazon_ads_blog", "site_id": "amazon_ads", "site_name": "Amazon Ads Blog", "kind": "official"},
     {"func": "fetch_gs_amazon_cn", "site_id": "gs_amazon", "site_name": "全球开店", "kind": "official"},
     {"func": "fetch_amz123", "site_id": "amz123", "site_name": "AMZ123", "kind": "aggregate"},
-    {"func": "fetch_amz123_early", "site_id": "amz123", "site_name": "AMZ123早报", "kind": "aggregate"},
     {"func": "fetch_amzdh", "site_id": "amzdh", "site_name": "AMZDH", "kind": "aggregate"},
     {"func": "fetch_cifnews", "site_id": "cifnews", "site_name": "雨果跨境", "kind": "aggregate"},
     {"func": "fetch_kjds365", "site_id": "kjds365", "site_name": "跨境电商365", "kind": "aggregate"},
-    {"func": "fetch_helium10_blog", "site_id": "helium10", "site_name": "Helium10", "kind": "industry"},
-    {"func": "fetch_junglescout_blog", "site_id": "junglescout", "site_name": "Jungle Scout", "kind": "industry"},
-    {"func": "fetch_ecombrainly", "site_id": "ecombrainly", "site_name": "EcomBrainly", "kind": "blogs"},
-    {"func": "fetch_seller_policy_watch", "site_id": "sellerpolicywatch", "site_name": "政策监控", "kind": "official"},
     {"func": "fetch_ecomengine", "site_id": "ecomengine", "site_name": "EcomEngine", "kind": "industry"},
-    {"func": "fetch_practical_ecommerce", "site_id": "practical_ecommerce", "site_name": "Practical Ecommerce", "kind": "blogs"},
-    {"func": "fetch_web_retailer", "site_id": "web_retailer", "site_name": "Web Retailer", "kind": "blogs"},
-    {"func": "fetch_seller_sessions_podcast", "site_id": "seller_sessions", "site_name": "Seller Sessions", "kind": "media"},
-    {"func": "fetch_amazon_seller_podcast", "site_id": "amz_podcast", "site_name": "Amazon Seller Podcast", "kind": "media"},
+    {"func": "fetch_ecommercebytes", "site_id": "ecommercebytes", "site_name": "EcommerceBytes", "kind": "industry"},
+    {"func": "fetch_channelx", "site_id": "channelx", "site_name": "ChannelX", "kind": "industry"},
+    {"func": "fetch_marketplace_pulse", "site_id": "marketplace_pulse", "site_name": "Marketplace Pulse", "kind": "industry"},
     {"func": "fetch_tophub_crossborder", "site_id": "tophub", "site_name": "TopHub", "kind": "aggregate"},
     {"func": "fetch_amazon_seller_blog", "site_id": "amazon_seller_blog", "site_name": "Amazon卖家博客", "kind": "official"},
     {"func": "fetch_wearesellers", "site_id": "wearesellers", "site_name": "知无不言", "kind": "community"},
+    {"func": "fetch_ennews", "site_id": "ennews", "site_name": "亿恩网", "kind": "aggregate"},
 ]
 
 FETCH_FUNC_MAP: dict[str, Any] = {
@@ -928,22 +856,17 @@ FETCH_FUNC_MAP: dict[str, Any] = {
     "fetch_amazon_ads_blog": fetch_amazon_ads_blog,
     "fetch_gs_amazon_cn": fetch_gs_amazon_cn,
     "fetch_amz123": fetch_amz123,
-    "fetch_amz123_early": fetch_amz123_early,
     "fetch_amzdh": fetch_amzdh,
     "fetch_cifnews": fetch_cifnews,
     "fetch_kjds365": fetch_kjds365,
-    "fetch_helium10_blog": fetch_helium10_blog,
-    "fetch_junglescout_blog": fetch_junglescout_blog,
-    "fetch_ecombrainly": fetch_ecombrainly,
-    "fetch_seller_policy_watch": fetch_seller_policy_watch,
     "fetch_ecomengine": fetch_ecomengine,
-    "fetch_practical_ecommerce": fetch_practical_ecommerce,
-    "fetch_web_retailer": fetch_web_retailer,
-    "fetch_seller_sessions_podcast": fetch_seller_sessions_podcast,
-    "fetch_amazon_seller_podcast": fetch_amazon_seller_podcast,
+    "fetch_ecommercebytes": fetch_ecommercebytes,
+    "fetch_channelx": fetch_channelx,
+    "fetch_marketplace_pulse": fetch_marketplace_pulse,
     "fetch_tophub_crossborder": fetch_tophub_crossborder,
     "fetch_amazon_seller_blog": fetch_amazon_seller_blog,
     "fetch_wearesellers": fetch_wearesellers,
+    "fetch_ennews": fetch_ennews,
 }
 
 

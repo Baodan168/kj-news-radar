@@ -388,11 +388,10 @@ SOURCE_PRIORS = {
     "amazon_ads": 0.35,
     "marketplace_pulse": 0.35,
     "ecommercebytes": 0.35,
-    "practicalecommerce": 0.30,
-    "oberlo": 0.30,
-    "oberlo_blog": 0.30,
-    "junglescout": 0.30,
-    "helium10": 0.30,
+    "channelx": 0.35,
+    "ennews": 0.35,
+    "ecomengine": 0.30,
+    "tophub": 0.25,
     "seller_central": 0.30,
     "payoneer": 0.25,
     "worldfirst": 0.25,
@@ -406,23 +405,30 @@ SOURCE_PRIORS = {
 # Sources that are always cross-border relevant by default
 CROSS_DEFAULT_SOURCES = {
     "amazon_news",
+    "amazon_newsroom",
     "shopee_news",
     "lazada_news",
     "temu_news",
     "marketplace_pulse",
     "ecommercebytes",
+    "channelx",
+    "ennews",
 }
 
 # ──────────────────────────────────────────────────────────────
 # Labels
 # ──────────────────────────────────────────────────────────────
 LABEL_KEYWORDS = [
-    ("policy_update", ["政策", "policy", "规则", "法规", "合规", "compliance", "新规", "变更"]),
-    ("fee_logistics", ["费用", "fee", "物流", "logistics", "配送", "仓储", "海外仓", "fba费"]),
-    ("advertising", ["广告", "ppc", "acos", "sponsored", "cpc", "bid", "投放"]),
-    ("listing_product", ["listing", "asin", "选品", "上架", "产品", "品牌", "review"]),
-    ("platform_trend", ["趋势", "增长", "市场", "份额", "prime day", "旺季", "黑五"]),
-    ("seller_action", ["封号", "冻结", "受限", "紧急", "截止", "倒计时", "注意"]),
+    ("policy_update", ["政策", "policy", "规则", "法规", "合规", "compliance", "新规", "变更", "截止", "deadline", "欧盟", "eu", "gpsr", "epr", "ppwr", "deleg", "vat", "关税"]),
+    ("fee_logistics", ["费用", "fee", "物流", "logistics", "配送", "仓储", "海外仓", "fba费", "fba fee", "配送费", "仓储费", "物流费"]),
+    ("advertising", ["广告", "ppc", "acos", "sponsored", "cpc", "bid", "投放", "prime day", "黑五", "网一", "大促", "促销"]),
+    ("listing_product", ["listing", "asin", "选品", "上架", "产品", "品牌", "review", "rating", "退货", "退款"]),
+    ("platform_trend", ["趋势", "增长", "市场", "份额", "prime day", "旺季", "黑五", "季度", "财报", "报告"]),
+    ("seller_action", ["封号", "冻结", "受限", "紧急", "截止", "倒计时", "注意", "警告", "suspension", "appeal"]),
+    ("compliance_deadline", ["注册", "备案", "申报", "截止日期", "deadline", "最后", "限期", "合规截止"]),
+    ("temu", ["temu", "拼多多跨境"]),
+    ("tiktok", ["tiktok shop", "tiktok电商", "tiktok"]),
+    ("walmart", ["walmart", "沃尔玛"]),
 ]
 
 CROSS_RELEVANCE_THRESHOLD = 0.65
