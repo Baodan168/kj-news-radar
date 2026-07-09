@@ -60,6 +60,25 @@ CROSS_KEYWORDS = [
     "worldfirst",
     "airwallex",
     "xtransfer",
+    # Missing e-commerce platform keywords
+    "walmart",
+    "沃尔玛",
+    "美客多",
+    "mercadolibre",
+    "ozon",
+    "wildberries",
+    # E-commerce ecosystem
+    "marketplace",
+    "卖家",
+    "seller",
+    # FBA logistics
+    "fbm",
+    "mcf",
+    "epr",
+    "gpsr",
+    "vat",
+    "deleg",
+    "ppwr",
 ]
 
 # ──────────────────────────────────────────────────────────────
@@ -202,27 +221,6 @@ PLATFORM_TREND_KEYWORDS = [
 ]
 
 # ──────────────────────────────────────────────────────────────
-# Seller action keywords
-# ──────────────────────────────────────────────────────────────
-SELLER_ACTION_KEYWORDS = [
-    "运营",
-    "打法",
-    "策略",
-    "技巧",
-    "经验",
-    "案例",
-    "实战",
-    "教程",
-    "入门",
-    "进阶",
-    "优化",
-    "提升",
-    "增长",
-    "爆单",
-    "出单",
-]
-
-# ──────────────────────────────────────────────────────────────
 # Seller-relevance keywords (penalize if platform mentioned but none of these)
 # ──────────────────────────────────────────────────────────────
 SELLER_RELEVANCE_KEYWORDS = [
@@ -277,6 +275,17 @@ NOISE_KEYWORDS = [
     "电视剧",
     "电影",
     "音乐",
+    # Streaming / entertainment (Amazon Newsroom noise)
+    "prime video",
+    "mgm studios",
+    "emmy",
+    "艾美奖",
+    "预告片",
+    "trailer",
+    "teaser trailer",
+    "streaming",
+    "new romance",
+    "debut",
 ]
 
 # Domestic e-commerce noise (not cross-border focused)
@@ -380,40 +389,40 @@ _CURRENT_YEAR = date.today().year
 # Source priors: base scores for trusted sources
 # ──────────────────────────────────────────────────────────────
 SOURCE_PRIORS = {
-    "amazon_news": 0.40,
-    "shopee_news": 0.40,
-    "lazada_news": 0.40,
-    "temu_news": 0.40,
-    "shopify_blog": 0.35,
-    "amazon_ads": 0.35,
-    "marketplace_pulse": 0.35,
-    "ecommercebytes": 0.35,
-    "channelx": 0.35,
-    "ennews": 0.35,
-    "ecomengine": 0.30,
-    "tophub": 0.25,
-    "seller_central": 0.30,
-    "payoneer": 0.25,
-    "worldfirst": 0.25,
-    "pingpong": 0.25,
-    "crossborder_ebay": 0.25,
-    "walmart_seller": 0.25,
-    "google_shopping": 0.20,
-    "meta_ads": 0.20,
+    # Official / platform sources (high credibility, focused content)
+    "amazon_news": 0.35,
+    "amazon_newsroom": 0.35,
+    "shopee_news": 0.30,
+    "lazada_news": 0.30,
+    "temu_news": 0.30,
+    "amazon_ads": 0.30,
+    "shopify_blog": 0.25,
+    "seller_central": 0.25,
+    # Industry analysis (high quality, original insights)
+    "marketplace_pulse": 0.20,
+    "ecommercebytes": 0.20,
+    "channelx": 0.20,
+    # Aggregators / curated news
+    "amz123": 0.15,
+    "cifnews": 0.10,
+    "ennews": 0.10,
+    "tophub": 0.10,
+    "ecomengine": 0.10,
+    # Community / user-generated (lowest prior)
+    "wearesellers": 0.05,
+    "kjds365": 0.05,
+    # Remaining (low volume / niche)
+    "payoneer": 0.15,
+    "worldfirst": 0.15,
+    "pingpong": 0.10,
+    "crossborder_ebay": 0.15,
+    "walmart_seller": 0.15,
+    "google_shopping": 0.10,
+    "meta_ads": 0.10,
 }
 
 # Sources that are always cross-border relevant by default
-CROSS_DEFAULT_SOURCES = {
-    "amazon_news",
-    "amazon_newsroom",
-    "shopee_news",
-    "lazada_news",
-    "temu_news",
-    "marketplace_pulse",
-    "ecommercebytes",
-    "channelx",
-    "ennews",
-}
+# NOTE: Removed — all sources now go through unified keyword scoring.
 
 # ──────────────────────────────────────────────────────────────
 # Labels
@@ -459,6 +468,9 @@ def contains_meaningful_cross_signal(haystack: str) -> bool:
     strong_signals = [
         "跨境电商", "跨境", "海外仓", "保税仓", "出口电商",
         "进口电商", "速卖通", "独立站", "全球开店",
+        "walmart", "沃尔玛", "美客多", "mercadolibre", "ozon", "wildberries",
+        "temu", "shein", "tiktok shop", "tiktok电商",
+        "epr", "gpsr", "vat", "deleg", "ppwr",
     ]
     return any(k in h for k in strong_signals)
 
@@ -526,17 +538,6 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
 
     noise = matched_keywords(text, NOISE_KEYWORDS) + matched_keywords(text, DOMESTIC_ECOMMERCE_NOISE) + matched_keywords(text, PROMOTION_NOISE)
     source_prior = SOURCE_PRIORS.get(site_id, 0.0)
-
-    # ── Trusted sources: default keep ──────────────────────────
-    if site_id in CROSS_DEFAULT_SOURCES:
-        return _result(
-            is_cross_related=True,
-            score=max(CROSS_RELEVANCE_THRESHOLD, 0.72 + source_prior),
-            label=_label_for_text(text, bool(ecommerce_signals)),
-            reason="trusted_cross_source_default_keep",
-            signals=all_good_signals or [site_id],
-            noise=noise,
-        )
 
     # ── Analyze signal strength ────────────────────────────────
     has_cross = contains_meaningful_cross_signal(text)

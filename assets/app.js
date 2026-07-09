@@ -364,7 +364,7 @@ function renderActionItems() {
   // From high-score seller_action signals (official sources only)
   const OFFICIAL_AGGREGATORS = ["amz123", "amzdh", "cifnews", "kjds365", "ennews", "tophub",
     "ecommercebytes", "channelx", "marketplace_pulse", "ecomengine",
-    "wearesellers", "ecombrainly", "helium10"];
+    "wearesellers"];
   (state.itemsAi || []).filter(it => it.cross_score >= 0.80).forEach(it => {
     const tone = sourceTone(it.site_id);
     const isAggregator = OFFICIAL_AGGREGATORS.includes(it.site_id);
@@ -735,7 +735,7 @@ function pickCrossItems(items, maxPicks = 8) {
       maxScore: cluster.maxScore,
       latestTime: Math.max(...cluster.items.map(i => new Date(i.published_at || 0).getTime())),
     }))
-    .filter(c => c.sourceCount >= 1) // 至少1个不同来源
+    .filter(c => c.sourceCount >= 2 || c.maxScore >= 0.85) // 多源优先，单源需高分(≥0.85)
     .sort((a, b) => {
       // 分数优先
       if (Math.abs(b.maxScore - a.maxScore) > 0.01) return b.maxScore - a.maxScore;
