@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-07-09T11:10:43.606889Z",
+"generated_at": "2026-07-09T13:03:02.666051Z",
 "window_hours": 24,
-"total_items": 135,
-"total_items_cross_raw": 135,
-"total_items_raw": 146,
-"total_items_all_mode": 146,
+"total_items": 129,
+"total_items_cross_raw": 129,
+"total_items_raw": 149,
+"total_items_all_mode": 149,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.65,
-"archive_total": 830,
+"archive_total": 835,
 "site_count": 16,
 "source_count": 8,
 "site_stats": [
@@ -32,14 +32,14 @@
 {
 "site_id": "marketplace_pulse",
 "site_name": "Marketplace Pulse",
-"count": 10,
+"count": 7,
 "raw_count": 10
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 4,
-"raw_count": 4
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 1,
+"raw_count": 3
 },
 {
 "site_id": "sp_api",
@@ -54,10 +54,10 @@
 "raw_count": 1
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
 "count": 1,
-"raw_count": 1
+"raw_count": 5
 },
 {
 "site_id": "tophub",
@@ -76,11 +76,11 @@
 "url": "http://www.en.com/news-139082.html",
 "published_at": "2028-07-09T17:30:06Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "shopee",
 "跨境"
@@ -100,11 +100,11 @@
 "url": "http://www.en.com/news-139081.html",
 "published_at": "2028-07-09T17:09:28Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -121,11 +121,11 @@
 "url": "http://www.en.com/news-139080.html",
 "published_at": "2028-07-09T17:09:25Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -142,11 +142,11 @@
 "url": "http://www.en.com/news-139079.html",
 "published_at": "2028-07-09T16:58:29Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -163,11 +163,11 @@
 "url": "http://www.en.com/news-139078.html",
 "published_at": "2028-07-09T16:54:26Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -184,11 +184,11 @@
 "url": "http://www.en.com/news-139077.html",
 "published_at": "2028-07-09T16:52:51Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -205,11 +205,11 @@
 "url": "http://www.en.com/news-139076.html",
 "published_at": "2028-07-09T16:50:13Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -226,11 +226,11 @@
 "url": "http://www.en.com/news-139075.html",
 "published_at": "2028-07-09T16:45:53Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境",
 "电商"
@@ -248,11 +248,11 @@
 "url": "http://www.en.com/news-139074.html",
 "published_at": "2028-07-09T16:38:33Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -269,11 +269,11 @@
 "url": "http://www.en.com/news-139073.html",
 "published_at": "2028-07-09T16:38:04Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -290,11 +290,11 @@
 "url": "http://www.en.com/news-139072.html",
 "published_at": "2028-07-09T16:35:56Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -311,11 +311,11 @@
 "url": "http://www.en.com/news-139071.html",
 "published_at": "2028-07-09T16:29:29Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "policy_update",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "关税",
 "跨境",
@@ -334,11 +334,11 @@
 "url": "http://www.en.com/news-139069.html",
 "published_at": "2028-07-09T16:17:15Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -355,11 +355,11 @@
 "url": "http://www.en.com/news-139070.html",
 "published_at": "2028-07-09T16:14:05Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -376,11 +376,11 @@
 "url": "http://www.en.com/news-139067.html",
 "published_at": "2028-07-09T16:11:38Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "listing_product",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -397,11 +397,11 @@
 "url": "http://www.en.com/news-139068.html",
 "published_at": "2028-07-09T16:06:24Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -418,11 +418,11 @@
 "url": "http://www.en.com/news-139065.html",
 "published_at": "2028-07-09T16:06:21Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -439,11 +439,11 @@
 "url": "http://www.en.com/news-139066.html",
 "published_at": "2028-07-09T16:02:24Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -460,11 +460,11 @@
 "url": "http://www.en.com/news-139064.html",
 "published_at": "2028-07-09T15:58:27Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -481,11 +481,11 @@
 "url": "http://www.en.com/news-139063.html",
 "published_at": "2028-07-09T15:54:01Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "policy_update",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "关税",
 "跨境",
@@ -504,11 +504,11 @@
 "url": "http://www.en.com/article-31739-1.html",
 "published_at": "2028-07-09T14:34:54Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -525,11 +525,11 @@
 "url": "http://www.en.com/article-31738-1.html",
 "published_at": "2028-07-09T11:04:29Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "seller_action",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境",
 "店铺"
@@ -547,11 +547,11 @@
 "url": "http://www.en.com/article-31727-1.html",
 "published_at": "2028-07-09T09:38:42Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -568,12 +568,13 @@
 "url": "http://www.en.com/article-31737-1.html",
 "published_at": "2028-07-08T10:05:33Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "seller_action",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -592,12 +593,13 @@
 "url": "http://www.en.com/article-31736-1.html",
 "published_at": "2028-07-07T11:25:55Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "seller_action",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -614,11 +616,11 @@
 "url": "http://www.en.com/article-31735-1.html",
 "published_at": "2028-07-07T10:45:15Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
@@ -635,12 +637,13 @@
 "url": "http://www.en.com/article-31734-1.html",
 "published_at": "2028-07-06T12:18:40Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "seller_action",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -657,12 +660,13 @@
 "url": "http://www.en.com/article-31733-1.html",
 "published_at": "2028-07-06T08:57:24Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.72,
 "cross_label": "seller_action",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "卖家",
 "流量"
@@ -680,13 +684,14 @@
 "url": "http://www.en.com/article-31732-1.html",
 "published_at": "2028-07-06T08:53:50Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.8,
 "cross_label": "seller_action",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -705,11 +710,11 @@
 "url": "http://www.en.com/article-31731-1.html",
 "published_at": "2027-07-04T11:30:17Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "fee_logistics",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "海外仓",
 "跨境"
@@ -717,6 +722,30 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "美西海外仓暴雷后续！涉事方最新回应来了"
+},
+{
+"id": "a1805a9128f2969bc388a0154c19c69cb6421ed6",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "2026 Leaders Interview – Christina Fontana – SHEIN Marketplace",
+"url": "https://channelx.world/2026/07/2026-leaders-interview-christina-fontana-shein-marketplace",
+"published_at": "2026-07-09T12:00:25Z",
+"first_seen_at": "2026-07-09T13:03:02.666051Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"marketplace",
+"shein"
+],
+"cross_platforms": [
+"shein"
+],
+"cross_sites": [],
+"title_zh": "2026年领导者访谈– Christina Fontana – SHEIN Marketplace"
 },
 {
 "id": "362b118e1fec4b0574db7b8bb191ebcc60ad221d",
@@ -727,7 +756,7 @@
 "url": "https://www.cifnews.com/article/187403",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -748,7 +777,7 @@
 "url": "https://www.cifnews.com/article/187402",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "tiktok",
@@ -772,7 +801,7 @@
 "url": "https://www.cifnews.com/article/187401",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -793,7 +822,7 @@
 "url": "https://www.cifnews.com/article/187400",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -814,7 +843,7 @@
 "url": "https://www.cifnews.com/article/187399",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -835,7 +864,7 @@
 "url": "https://www.cifnews.com/article/187398",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -856,7 +885,7 @@
 "url": "https://www.cifnews.com/article/187397",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -877,7 +906,7 @@
 "url": "https://www.cifnews.com/article/187394",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -898,7 +927,7 @@
 "url": "https://www.cifnews.com/article/187393",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -919,7 +948,7 @@
 "url": "https://www.cifnews.com/article/187392",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -940,12 +969,13 @@
 "url": "https://marketplacepulse.com/articles/tiktok-shop-sells-personal-transformation",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"marketplace",
 "tiktok shop"
 ],
 "cross_platforms": [
@@ -963,12 +993,14 @@
 "url": "https://marketplacepulse.com/articles/on-tiktok-shop-1-of-sellers-drive-60-of-gmv",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.82,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"marketplace",
+"seller",
 "tiktok shop"
 ],
 "cross_platforms": [
@@ -986,13 +1018,14 @@
 "url": "https://marketplacepulse.com/articles/walmart-marketplace-growth-reaches-fastest-pace-in-years",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.65,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"marketplace_pulse"
+"marketplace",
+"walmart"
 ],
 "cross_platforms": [
 "walmart"
@@ -1009,12 +1042,13 @@
 "url": "https://marketplacepulse.com/articles/e-commerces-10-quarter-was-weaker-than-it-looked",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.68,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
+"marketplace",
 "e-commerce"
 ],
 "cross_platforms": [],
@@ -1030,40 +1064,20 @@
 "url": "https://marketplacepulse.com/articles/amazons-least-competitive-marketplace-is-now-everywhere",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.61,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"amazon"
+"amazon",
+"marketplace"
 ],
 "cross_platforms": [
 "amazon"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊竞争最激烈的市场现在无处不在"
-},
-{
-"id": "4cf6b493575e97c9ee24ed06e1ddac794e2c9907",
-"site_id": "marketplace_pulse",
-"site_name": "Marketplace Pulse",
-"source": "市场分析",
-"title": "Rufus, ChatGPT, and the Agentic Ad Convergence",
-"url": "https://marketplacepulse.com/articles/rufus-chatgpt-and-the-agentic-ad-convergence",
-"published_at": null,
-"first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
-"cross_signals": [
-"marketplace_pulse"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Rufus、ChatGPT和Agentic Ad Convergence"
 },
 {
 "id": "4759678cfe15638bdbc4a47a4ee48a236c6b3d91",
@@ -1074,40 +1088,20 @@
 "url": "https://marketplacepulse.com/articles/amazon-is-regaining-1p-unit-share",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.58,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"amazon"
+"amazon",
+"marketplace"
 ],
 "cross_platforms": [
 "amazon"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊正在重新获得1P单位份额"
-},
-{
-"id": "e5a24456f6f98025e4b9a1dcfbf9a3f93634030c",
-"site_id": "marketplace_pulse",
-"site_name": "Marketplace Pulse",
-"source": "市场分析",
-"title": "How Marketplace Sellers Are Using AI",
-"url": "https://marketplacepulse.com/articles/how-marketplace-sellers-are-using-ai",
-"published_at": null,
-"first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
-"cross_signals": [
-"marketplace_pulse"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "市场卖家如何使用人工智能"
 },
 {
 "id": "1a78de983ad4f16e02d35c1b3b8cd6c2031833fe",
@@ -1118,40 +1112,21 @@
 "url": "https://marketplacepulse.com/articles/the-paradoxical-dependence-of-amazon-its-sellers",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.8,
 "cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"amazon"
+"amazon",
+"marketplace",
+"seller"
 ],
 "cross_platforms": [
 "amazon"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊及其卖家的矛盾依赖"
-},
-{
-"id": "b28f71bd4dc7ce1307490d4e406730795f89667b",
-"site_id": "marketplace_pulse",
-"site_name": "Marketplace Pulse",
-"source": "市场分析",
-"title": "The Marketplace Pulse Seller Index Results (2026)",
-"url": "https://marketplacepulse.com/articles/the-marketplace-pulse-seller-index-results-2026",
-"published_at": null,
-"first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
-"cross_signals": [
-"marketplace_pulse"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "市场脉搏卖家指数结果（ 2026年）"
 },
 {
 "id": "808bba7f1a9c18b22b096ffa6363b3e49e2b09db",
@@ -1162,13 +1137,14 @@
 "url": "https://www.amz123.com/kx/1yaEUQpk",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.7,
+"cross_score": 0.85,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -1187,9 +1163,9 @@
 "url": "https://www.amz123.com/kx/RkUvZPFw",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.89,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1199,8 +1175,8 @@
 "库存"
 ],
 "cross_platforms": [
-"亚马逊",
-"fba"
+"fba",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊FBA新费政生效：超龄库存附加费大幅上涨"
@@ -1214,12 +1190,13 @@
 "url": "https://www.amz123.com/kx/8Z1EibA3",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -1238,9 +1215,9 @@
 "url": "https://www.amz123.com/kx/fzMtVQcV",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1260,9 +1237,9 @@
 "url": "https://www.amz123.com/kx/zLiZfeJO",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1281,9 +1258,9 @@
 "url": "https://www.amz123.com/kx/FAA0fzAg",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1303,13 +1280,14 @@
 "url": "https://www.amz123.com/kx/tRGIzSos",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.67,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "shopee",
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -1328,7 +1306,7 @@
 "url": "https://www.amz123.com/kx/RjtAFn1b",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -1352,7 +1330,7 @@
 "url": "https://www.amz123.com/kx/dKYkDOQr",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "temu",
@@ -1377,9 +1355,9 @@
 "url": "https://www.amz123.com/kx/WRWyelgG",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1399,12 +1377,13 @@
 "url": "https://www.amz123.com/kx/GTjCocPx",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.77,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"美客多",
 "跨境",
 "仓储"
 ],
@@ -1423,9 +1402,9 @@
 "url": "https://www.amz123.com/kx/JnyJc2Qb",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1444,7 +1423,7 @@
 "url": "https://www.amz123.com/kx/hhpsZC3I",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -1468,9 +1447,9 @@
 "url": "https://www.amz123.com/kx/0lFvQ87y",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1489,9 +1468,9 @@
 "url": "https://www.amz123.com/kx/Z41hYKeJ",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "tiktok",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1512,9 +1491,9 @@
 "url": "https://www.amz123.com/kx/PdPdhCl8",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1533,9 +1512,9 @@
 "url": "https://www.amz123.com/kx/CTIcZyo3",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1554,9 +1533,9 @@
 "url": "https://www.amz123.com/kx/GqOZV1Pg",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.66,
 "cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1577,9 +1556,9 @@
 "url": "https://www.amz123.com/kx/m2mnoEpY",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.66,
 "cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1598,9 +1577,9 @@
 "url": "https://www.amz123.com/kx/VoyMkRWf",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1619,12 +1598,13 @@
 "url": "https://www.amz123.com/kx/STDpU037",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"美客多",
 "跨境"
 ],
 "cross_platforms": [
@@ -1642,7 +1622,7 @@
 "url": "https://www.amz123.com/kx/hcSilBrh",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -1663,9 +1643,9 @@
 "url": "https://www.amz123.com/kx/T0mvrsFM",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1684,13 +1664,14 @@
 "url": "https://www.amz123.com/kx/1Vx119Is",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.67,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "ebay",
+"卖家",
 "跨境",
 "卖家"
 ],
@@ -1709,9 +1690,9 @@
 "url": "https://www.amz123.com/kx/0Q5G2E5J",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1731,9 +1712,9 @@
 "url": "https://www.amz123.com/kx/E7h77E2s",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1752,9 +1733,9 @@
 "url": "https://www.amz123.com/kx/n6JUuMeU",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1774,9 +1755,9 @@
 "url": "https://www.amz123.com/kx/gAXqmnv6",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1797,9 +1778,9 @@
 "url": "https://www.amz123.com/kx/v9qj0Rz1",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1819,9 +1800,9 @@
 "url": "https://www.amz123.com/kx/0wA8VyEo",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1841,9 +1822,9 @@
 "url": "https://www.amz123.com/kx/8pgNvZxP",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1865,12 +1846,13 @@
 "url": "https://www.amz123.com/kx/viJU1Fed",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.77,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "买家",
 "卖家"
@@ -1890,9 +1872,9 @@
 "url": "https://www.amz123.com/kx/zvEcEqZ6",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1912,9 +1894,9 @@
 "url": "https://www.amz123.com/kx/3ftmnHXX",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.7,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1938,7 +1920,7 @@
 "url": "https://www.amz123.com/kx/s3LynT6h",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "seller_action",
@@ -1963,9 +1945,9 @@
 "url": "https://www.amz123.com/kx/weArjzZr",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -1984,9 +1966,9 @@
 "url": "https://www.amz123.com/kx/dOdImCIv",
 "published_at": null,
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2005,7 +1987,7 @@
 "url": "https://www.cifnews.com/article/187391",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -2026,7 +2008,7 @@
 "url": "https://www.cifnews.com/article/187389",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -2047,7 +2029,7 @@
 "url": "https://www.cifnews.com/article/187386",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -2068,9 +2050,9 @@
 "url": "https://www.cifnews.com/article/187384",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.68,
 "cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2090,7 +2072,7 @@
 "url": "https://www.cifnews.com/article/187382",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -2111,7 +2093,7 @@
 "url": "https://www.cifnews.com/article/187380",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -2132,7 +2114,7 @@
 "url": "https://www.cifnews.com/article/187378",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "general",
@@ -2155,7 +2137,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.66,
+"cross_score": 0.81,
 "cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2180,10 +2162,11 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.77,
 "cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"美客多",
 "跨境",
 "物流"
 ],
@@ -2204,7 +2187,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2228,7 +2211,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2299,7 +2282,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2345,7 +2328,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2366,7 +2349,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2387,9 +2370,9 @@
 "url": "https://www.amz123.com/kx/8TW1eBIB",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2413,7 +2396,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2434,7 +2417,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2456,7 +2439,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.77,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2481,7 +2464,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2502,10 +2485,11 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.77,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "卖家",
 "流量"
@@ -2525,7 +2509,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2546,7 +2530,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2568,7 +2552,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2591,7 +2575,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2612,7 +2596,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2633,7 +2617,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2654,7 +2638,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2675,10 +2659,11 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.77,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
 "卖家",
 "电商"
@@ -2696,9 +2681,9 @@
 "url": "https://www.amz123.com/kx/6e6j3cqE",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.77,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2723,7 +2708,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2745,7 +2730,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2767,7 +2752,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2787,9 +2772,9 @@
 "url": "https://www.amz123.com/kx/atvnBBTO",
 "published_at": null,
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.66,
+"cross_score": 0.81,
 "cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2814,7 +2799,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2860,7 +2845,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2884,7 +2869,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2905,7 +2890,7 @@
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
 "last_seen_at": "2026-07-09T00:40:27.105549Z",
 "cross_is_related": true,
-"cross_score": 0.65,
+"cross_score": 0.73,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -2925,13 +2910,14 @@
 "url": "https://developer-docs.amazon/sp-api/changelog/sp-api-updates-invoice-by-amazon-expansion-for-vcs-lite-sellers-and-new-cancellation-xml-for-brazil-store",
 "published_at": "2026-07-08T22:28:10Z",
 "first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 0.52,
+"cross_score": 0.56,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"amazon"
+"amazon",
+"seller"
 ],
 "cross_platforms": [
 "amazon"
@@ -2948,13 +2934,14 @@
 "url": "https://www.ecommercebytes.com/2026/07/08/amazon-opens-holiday-deal-submissions-on-july-8",
 "published_at": "2026-07-08T19:44:03Z",
 "first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.8,
 "cross_label": "seller_action",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
 "amazon",
+"卖家",
 "ecommerce",
 "卖家"
 ],
@@ -2965,54 +2952,6 @@
 "title_zh": "亚马逊于7月8日开放假日优惠提交"
 },
 {
-"id": "63302a2aee8a418ca2c06fac23a100ab38b86c64",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon MGM Studios and Prime Video earn 68 Emmy Award nominations for \"Spider-Noir,\" 'Fallout,' and more",
-"url": "https://www.aboutamazon.com/news/entertainment/emmys-amazon-mgm-studios-prime-video",
-"published_at": "2026-07-08T17:23:25Z",
-"first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "Amazon MGM Studios和Prime Video凭借《黑蜘蛛》、《辐射》等获得68项艾美奖提名"
-},
-{
-"id": "c6097bf1ef1bb592937a0907553f0e9174092f12",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "A first look at ‘Campus Drivers,’ Prime Video’s adaptation of the best-selling novels coming November 2026",
-"url": "https://www.aboutamazon.com/news/entertainment/campus-drivers-prime-video",
-"published_at": "2026-07-08T16:34:46Z",
-"first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "《校园驱动因素》， Prime Video改编自2026年11月上映的畅销小说"
-},
-{
 "id": "c415f6d226da253177c8c538e20d5d2ccd2a38f4",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -3021,11 +2960,11 @@
 "url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news",
 "published_at": "2026-07-08T15:00:00Z",
 "first_seen_at": "2026-07-08T00:41:17.100357Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
+"last_seen_at": "2026-07-09T13:03:02.666051Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
 "amazon"
 ],
@@ -3034,53 +2973,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊数据中心社区：以下是美国各地数据中心附近发生的事情"
-},
-{
-"id": "cba9ac94e0d4b28c942cd07de8458fe085ada907",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Watch the teaser trailer for ‘You+Me – Against the World,’ Prime Video’s new romantic drama adaptation coming September 18",
-"url": "https://www.aboutamazon.com/news/entertainment/you-me-toi-moi-prime-video",
-"published_at": "2026-07-08T13:58:50Z",
-"first_seen_at": "2026-07-09T00:40:27.105549Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "general",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "观看“You + Me – Against the World”的预告片， Prime Video的新浪漫剧改编将于9月18日上映"
-},
-{
-"id": "419ba939b0103ff6c5190efb88c558255e437e62",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "TikTok Shop UK books category sees 250% growth",
-"url": "https://channelx.world/2026/07/tiktok-shop-uk-books-category-sees-250-growth",
-"published_at": "2026-07-08T12:25:00Z",
-"first_seen_at": "2026-07-09T11:10:43.606889Z",
-"last_seen_at": "2026-07-09T11:10:43.606889Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "tiktok",
-"cross_relevance_reason": "trusted_cross_source_default_keep",
-"cross_signals": [
-"tiktok shop"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop英国图书类别增长250%"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
