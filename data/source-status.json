@@ -1,47 +1,47 @@
 {
-"generated_at": "2026-07-09T13:40:17.899645Z",
+"generated_at": "2026-07-09T13:51:22.527057Z",
 "sites": [
-{
-"site_id": "sp_api",
-"site_name": "SP-API Changelog",
-"ok": true,
-"item_count": 1,
-"duration_ms": 178
-},
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "ok": true,
 "item_count": 8,
-"duration_ms": 309
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"ok": true,
-"item_count": 30,
-"duration_ms": 485
-},
-{
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads Blog",
-"ok": true,
-"item_count": 0,
-"duration_ms": 488
+"duration_ms": 190
 },
 {
 "site_id": "ecomengine",
 "site_name": "EcomEngine",
 "ok": true,
 "item_count": 20,
-"duration_ms": 395
+"duration_ms": 302
+},
+{
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads Blog",
+"ok": true,
+"item_count": 0,
+"duration_ms": 587
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"ok": true,
+"item_count": 30,
+"duration_ms": 665
+},
+{
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"ok": true,
+"item_count": 1,
+"duration_ms": 678
 },
 {
 "site_id": "ecommercebytes",
 "site_name": "EcommerceBytes",
 "ok": true,
 "item_count": 2,
-"duration_ms": 348
+"duration_ms": 591
 },
 {
 "site_id": "amazon_seller_blog",
@@ -62,34 +62,27 @@
 "site_name": "Marketplace Pulse",
 "ok": true,
 "item_count": 10,
-"duration_ms": 247
+"duration_ms": 426
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "ok": true,
 "item_count": 6,
-"duration_ms": 866
+"duration_ms": 914
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "ok": true,
 "item_count": 20,
-"duration_ms": 1197
+"duration_ms": 973
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "ok": true,
 "item_count": 40,
-"duration_ms": 2197
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"ok": true,
-"item_count": 30,
 "duration_ms": 1786
 },
 {
@@ -97,21 +90,28 @@
 "site_name": "跨境电商365",
 "ok": true,
 "item_count": 20,
-"duration_ms": 2500
+"duration_ms": 2106
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"ok": true,
+"item_count": 30,
+"duration_ms": 2098
 },
 {
 "site_id": "gs_amazon",
 "site_name": "全球开店",
 "ok": true,
 "item_count": 30,
-"duration_ms": 2558
+"duration_ms": 4207
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "ok": true,
 "item_count": 25,
-"duration_ms": 9304
+"duration_ms": 5492
 }
 ],
 "failed_sites": [],
