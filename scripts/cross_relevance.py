@@ -286,6 +286,11 @@ NOISE_KEYWORDS = [
     "streaming",
     "new romance",
     "debut",
+    "premiere",
+    "romantic drama",
+    "tv series",
+    "特辑",
+    "好莱坞",
 ]
 
 # Domestic e-commerce noise (not cross-border focused)
@@ -390,11 +395,11 @@ _CURRENT_YEAR = date.today().year
 # ──────────────────────────────────────────────────────────────
 SOURCE_PRIORS = {
     # Official / platform sources (high credibility, focused content)
-    "amazon_news": 0.35,
-    "amazon_newsroom": 0.35,
-    "shopee_news": 0.30,
-    "lazada_news": 0.30,
-    "temu_news": 0.30,
+    "amazon_news": 0.20,
+    "amazon_newsroom": 0.20,
+    "shopee_news": 0.20,
+    "lazada_news": 0.20,
+    "temu_news": 0.20,
     "amazon_ads": 0.30,
     "shopify_blog": 0.25,
     "seller_central": 0.25,
