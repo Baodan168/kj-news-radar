@@ -624,15 +624,26 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     if has_platform and not has_seller_relevance:
         score -= 0.15
 
+    # ── Amazon UK boost (最高优先级 - 英国站卖家) ──────────────
+    uk_keywords = ["英国站", "uk站", "amazon.co.uk", "英区", "英代", "英国"]
+    has_uk = any(k in text for k in uk_keywords)
+    if has_uk:
+        score += 0.12
+
     # Amazon platform boost (核心平台优先)
     amazon_keywords = ["亚马逊", "amazon", "fba", "fbm", "prime", "seller central"]
     if any(k in text for k in amazon_keywords):
         score += 0.08
 
+    # UK/EU compliance boost (合规政策对于英国站卖家是高优先级)
+    compliance_keywords = ["ppwr", "gpsr", "epr", "ukca", "ce marking", "英代", "欧代"]
+    if any(k in text for k in compliance_keywords):
+        score += 0.05
+
     # eBay/非Amazon平台降权（非核心平台）
     non_amazon_platforms = ["ebay", "shopee", "lazada", "walmart", "wildberries", "jumia"]
     if any(k in text for k in non_amazon_platforms) and not any(k in text for k in amazon_keywords):
-        score -= 0.10
+        score -= 0.15
 
     # Ensure threshold for strong signals
     if has_cross:
