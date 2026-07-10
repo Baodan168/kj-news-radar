@@ -1087,6 +1087,10 @@ def main() -> int:
     policy_path = output_dir / "policy-calendar.json"
 
     archive = load_archive(archive_path)
+    # 迁移修复：亿恩网RSS返回的URL域名有误（www.en.com），统一修复
+    for item in archive.values():
+        if item.get("site_id") == "ennews" and "www.en.com" in (item.get("url") or ""):
+            item["url"] = item["url"].replace("www.en.com", "www.ennews.com").replace("http://", "https://")
     title_cache = load_title_cache(title_cache_path)
 
     session = create_session()
