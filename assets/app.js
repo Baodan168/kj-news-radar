@@ -735,7 +735,7 @@ function pickCrossItems(items, maxPicks = 8) {
       maxScore: cluster.maxScore,
       latestTime: Math.max(...cluster.items.map(i => new Date(i.published_at || 0).getTime())),
     }))
-    .filter(c => c.sourceCount >= 2 || c.maxScore >= 0.70) // 多源优先，单源需高分(≥0.70)
+    .filter(c => c.sourceCount >= 2 || c.maxScore >= 0.60) // 多源优先，单源需高分(≥0.60)
     .sort((a, b) => {
       // 分数优先
       if (Math.abs(b.maxScore - a.maxScore) > 0.01) return b.maxScore - a.maxScore;
