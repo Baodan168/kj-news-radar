@@ -653,28 +653,74 @@ function normalizeTitle(title) {
 }
 
 /**
- * 从标题中提取事件实体 key（平台 + 政策关键词）
+ * 从标题中提取事件实体 key（平台 + 关键词组合）
+ * 扩展了平台和关键词列表以覆盖更多跨境新闻类型
  * @param {string} title
  * @returns {string}
  */
 function extractEventKey(title) {
   const t = (title || "").toLowerCase();
 
-  // 平台实体
-  const platforms = ["amazon", "亚马逊", "temu", "shein", "tiktok", "walmart", "ebay", "shopee", "lazada", "速卖通", "aliexpress"];
+  // 平台实体（扩展）
+  const platforms = [
+    "amazon", "亚马逊",
+    "temu", "shein",
+    "tiktok", "tiktok shop",
+    "walmart", "沃尔玛",
+    "ebay",
+    "shopee",
+    "lazada",
+    "速卖通", "aliexpress",
+    "美客多", "mercadolibre",
+    "ozon",
+    "depop",
+    "flipkart",
+    "拼多多", "pinduoduo",
+    "京东", "joybuy",
+    "etsy",
+    "shopify",
+    "谷歌", "google",
+    "meta", "facebook",
+  ];
   let platform = "";
   for (const p of platforms) {
     if (t.includes(p)) { platform = p; break; }
   }
 
-  // 关键词实体
+  // 关键词实体（扩展覆盖物流/税务/政策/运营等多维度）
   const keywords = [
-    "政策", "policy", "费率", "fee", "佣金", "commission",
-    "仓储", "fba", "物流", "logistics", "配送",
+    // 政策合规
+    "政策", "policy", "新规", "法规", "regulation",
+    "合规", "compliance", "禁止", "ban", "禁售",
+    "截止", "deadline", "生效", "强制", "要求",
+    // 税务
+    "关税", "tariff", "duty", "税率", "tax", "征税",
+    "增值税", "vat", "退税", "免税",
+    // 物流仓储
+    "物流", "logistics", "配送", "delivery", "运费",
+    "仓储", "warehouse", "fba", "fbm", "海外仓",
+    "货运", "shipping", "海关", "customs",
+    // 费用佣金
+    "费率", "fee", "佣金", "commission", "涨价",
+    "降价", "费用", "附加费", "补贴",
+    // 广告运营
     "广告", "advertising", "ppc", "广告费",
+    "运营", "流量", "权重", "转化", "销量",
+    // 平台规则
     "上架", "listing", "选品", "产品",
-    "封号", "冻结", "审核", "compliance",
+    "封号", "冻结", "审核", "suspension",
+    "buy box", "购物车",
+    // 市场趋势
     "旺季", "prime", "黑五", "black friday",
+    "网一", "大促", "增长", "下降", "飙升", "暴跌",
+    "趋势", "报告", "数据",
+    // 跨境专属
+    "跨境", "跨境电商", "卖家的", "卖家",
+    "出口", "进口",
+    // 行业事件
+    "破产", "倒闭", "裁员", "收购", "投资",
+    "查获", "查扣", "扣留", "维权", "起诉",
+    "专利", "侵权", "infringement",
   ];
   let keyword = "";
   for (const k of keywords) {
@@ -690,9 +736,10 @@ function extractEventKey(title) {
  * @param {number} maxPicks - 最多挑选数
  * @returns {Array} 聚类后的事件数组
  */
-function pickCrossItems(items, maxPicks = 8) {
+function pickCrossItems(items, maxPicks = 10) {
   // 内容质量黑名单 — 工具/营销/软文/常青内容
-  const BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sellerboard|sif|Sif|招商会|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具|利润分析|分析工具|亚马逊.*工具|沃尔玛.*工具|选品工具|广告工具|erp工具|超精准|高时效|定制化|系统性|专属顾问|成长服务|卖家服务|官方服务|爆单秘籍|独家揭秘|必看攻略|一键|快速理清|引爆.*先机|功能：|开店即用|免费试用|跨境电商365.*Agent|Agent.*亚马逊|选品分析|补货周期|周期表|安全补货|FBA补货|FBA周期|利润计算器|费用计算器|成本计算器/i;
+  // 注意：不要过度过滤，避免误杀合法新闻
+  const BLACKLIST = /西柚找词|卖家精灵|keepa|helium.?10|jungle.?scout|pacvue|sellics|perpetua|tool4seller|uaalim|优麦云|H10H10|领星|积加|赛盈|马帮|店小秘|通途|易仓|sellerboard|sif|Sif|招商峰会|免费领取|知识星球|课程培训|陪跑社群|邀请码|注册链接|affiliate|ERP利润|选品运营工具|关键词反查|运营工具|利润分析|分析工具|亚马逊.*工具|沃尔玛.*工具|选品工具|广告工具|erp工具|超精准|高时效|定制化|系统性|专属顾问|成长服务|卖家服务|官方服务|爆单秘籍|独家揭秘|必看攻略|快速理清|引爆.*先机|开店即用|跨境电商365.*Agent|Agent.*亚马逊|选品分析|补货周期|周期表|安全补货|FBA补货|FBA周期|利润计算器|费用计算器|成本计算器/i;
 
   // 按事件 key 分组
   const clusters = new Map();
@@ -704,8 +751,9 @@ function pickCrossItems(items, maxPicks = 8) {
     if (BLACKLIST.test(title)) continue;
 
     // 跳过纯品类名/常青标题（无动作词、无数字、无具体事件）
-    const HAS_ACTION = /发布|调整|生效|禁止|截止|要求|更新|新规|变更|推出|上线|启动|关闭|取消|增加|降低|提高|限制|打击|整治|严查|罚款|下架|封号|暴涨|暴跌|飙升|增长|下降|观察|分析|解读|获悉|获悉|报告|调查|警告|提醒|注意|影响|冲击|利好|利空|\d{4}|\d+[%亿万元]|prime|day|黑五|网一/i;
-    if (title.length < 20 && !HAS_ACTION.test(title)) continue;
+    // 放宽到标题<15字（原来20）才检查
+    const HAS_ACTION = /发布|调整|生效|禁止|截止|要求|更新|新规|变更|推出|上线|启动|关闭|取消|增加|降低|提高|限制|打击|整治|严查|罚款|下架|封号|暴涨|暴跌|飙升|增长|下降|观察|分析|解读|获悉|报告|调查|警告|提醒|注意|影响|冲击|利好|利空|关闭|暂停|停止|恢复|开放|扩张|投资|合作|收购|起诉|维权|查获|查扣|征收|加征|加税|免签|开通|新增|升级|布局|发力|爆单|震荡|崩了|暴雷|噩梦|倒闭|欠薪|裁员|\d{4}|\d+[%亿万元]|prime|day|黑五|网一/i;
+    if (title.length < 15 && !HAS_ACTION.test(title)) continue;
 
     // 跳过没有URL或URL指向非文章页
     const url = it.url || "";
@@ -714,8 +762,9 @@ function pickCrossItems(items, maxPicks = 8) {
     // 影响维度过滤
     if (state.impactFilter && it.cross_label !== state.impactFilter) continue;
 
+    // 提取事件key — 放宽要求，平台或关键词有一即可，不再强制两者都有
     const key = extractEventKey(title);
-    if (!key || key === "|") continue; // 无法归类的跳过
+    if (!key || key === "|") continue;
 
     if (!clusters.has(key)) {
       clusters.set(key, { items: [], sources: new Set(), maxScore: 0 });
