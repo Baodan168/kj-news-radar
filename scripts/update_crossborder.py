@@ -625,9 +625,15 @@ def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[Ra
 
 
 def fetch_ennews(session: requests.Session, now: datetime) -> list[RawItem]:
-    """亿恩网 — 中文跨境行业头部媒体，日更5-10篇，直接RSS采集。"""
-    return fetch_rss(session, "https://www.ennews.com/rss.xml",
+    """亿恩网 — 中文跨境行业头部媒体，日更5-10篇，直接RSS采集。
+    RSS源返回的URL域名有误（www.en.com），需要修复为正确域名（www.ennews.com）。
+    """
+    items = fetch_rss(session, "https://www.ennews.com/rss.xml",
                      "ennews", "亿恩网", "跨境资讯")
+    for it in items:
+        if it.url and "www.en.com" in it.url:
+            it.url = it.url.replace("www.en.com", "www.ennews.com").replace("http://", "https://")
+    return items
 
 
 # ---------------------------------------------------------------------------
@@ -991,7 +997,7 @@ def build_latest_payload(
         "total_items_raw": len(items_all_raw),
         "total_items_all_mode": len(items_all),
         "topic_filter": "cross_relevance_scoring_v1_0",
-        "cross_relevance_threshold": 0.65,
+        "cross_relevance_threshold": 0.60,
         "archive_total": archive_total,
         "site_count": unique_sites,
         "source_count": unique_sources,
