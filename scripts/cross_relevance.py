@@ -445,7 +445,7 @@ LABEL_KEYWORDS = [
     ("walmart", ["walmart", "沃尔玛"]),
 ]
 
-CROSS_RELEVANCE_THRESHOLD = 0.65
+CROSS_RELEVANCE_THRESHOLD = 0.60  # 2026-07-10 从0.65降至0.60以扩大入选范围
 
 # ──────────────────────────────────────────────────────────────
 # Helper functions
@@ -473,6 +473,8 @@ def contains_meaningful_cross_signal(haystack: str) -> bool:
     strong_signals = [
         "跨境电商", "跨境", "海外仓", "保税仓", "出口电商",
         "进口电商", "速卖通", "独立站", "全球开店",
+        "亚马逊", "amazon", "fba", "fbm", "prime",
+        "卖家", "seller",
         "walmart", "沃尔玛", "美客多", "mercadolibre", "ozon", "wildberries",
         "temu", "shein", "tiktok shop", "tiktok电商",
         "epr", "gpsr", "vat", "deleg", "ppwr",
@@ -624,26 +626,49 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     if has_platform and not has_seller_relevance:
         score -= 0.15
 
-    # ── Amazon UK boost (最高优先级 - 英国站卖家) ──────────────
-    uk_keywords = ["英国站", "uk站", "amazon.co.uk", "英区", "英代", "英国"]
+    # ── UK/EU 市场加分（英国站卖家核心市场）────────────────
+    uk_keywords = ["英国站", "uk站", "amazon.co.uk", "英区", "英代", "英国",
+                   "欧英站", "英欧站", ".co.uk"]
     has_uk = any(k in text for k in uk_keywords)
-    if has_uk:
-        score += 0.12
+    eu_keywords = ["欧洲站", "欧洲", "欧盟", "欧元", "欧区",
+                   "德国站", "法国站", "意大利站", "西班牙站", "荷兰站"]
+    has_eu = any(k in text for k in eu_keywords)
 
-    # Amazon platform boost (核心平台优先)
+    if has_uk:
+        score += 0.12  # UK-specific: 最高优先级
+    elif has_eu:
+        score += 0.08  # EU: 高优先级（政策法规直接影响英国站卖家）
+
+    # Amazon platform boost (亚马逊是核心平台)
     amazon_keywords = ["亚马逊", "amazon", "fba", "fbm", "prime", "seller central"]
-    if any(k in text for k in amazon_keywords):
+    has_amazon = any(k in text for k in amazon_keywords)
+    if has_amazon:
         score += 0.08
+        if has_uk:
+            score += 0.05  # Amazon UK 叠加：同时提及"英国"+"亚马逊"额外加分
 
     # UK/EU compliance boost (合规政策对于英国站卖家是高优先级)
     compliance_keywords = ["ppwr", "gpsr", "epr", "ukca", "ce marking", "英代", "欧代"]
     if any(k in text for k in compliance_keywords):
         score += 0.05
 
-    # eBay/非Amazon平台降权（非核心平台）
-    non_amazon_platforms = ["ebay", "shopee", "lazada", "walmart", "wildberries", "jumia",
-                            "美客多", "mercadolibre", "depop", "ozon"]
-    if any(k in text for k in non_amazon_platforms) and not any(k in text for k in amazon_keywords):
+    # 非目标市场降权（避免印度/俄罗斯/中东等非相关市场占据精选）
+    non_target_market_keywords = [
+        "印度", "印度站", "india",
+        "俄罗斯", "ozon", "wildberries",
+        "中东", "noon", "迪拜", "沙特", "阿联酋",
+        "日本站", "澳洲站", "加拿大站",
+    ]
+    has_non_target = any(k in text for k in non_target_market_keywords)
+    if has_non_target and not (has_uk or has_eu):
+        score -= 0.10  # 非目标市场且无UK/EU关联 → 降权
+        if not has_amazon:
+            score -= 0.05  # 非Amazon的非目标市场 → 额外降权
+
+    # 非Amazon平台降权（非核心平台，不与上面重复计算）
+    non_amazon_platforms = ["ebay", "shopee", "lazada", "walmart", "jumia",
+                            "美客多", "mercadolibre", "depop"]
+    if any(k in text for k in non_amazon_platforms) and not has_amazon:
         score -= 0.15
 
     # Ensure threshold for strong signals
