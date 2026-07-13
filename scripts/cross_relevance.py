@@ -655,7 +655,7 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     # 非目标市场降权（避免印度/俄罗斯/中东等非相关市场占据精选）
     non_target_market_keywords = [
         "印度", "印度站", "india",
-        "俄罗斯", "ozon", "wildberries",
+        "俄罗斯", "俄", "ozon", "wildberries",
         "中东", "noon", "迪拜", "沙特", "阿联酋",
         "日本站", "澳洲站", "加拿大站",
     ]
