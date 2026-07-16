@@ -32,7 +32,7 @@ button { cursor: pointer; }
 .shell {
   max-width: 1120px;
   margin:0 auto;
-  padding:24px 16px 48px;
+  padding:16px 16px 48px;
 }
 
 /* ===== Hero ===== */
@@ -621,7 +621,7 @@ input:focus, select:focus, button:focus-visible {
 }
   
 /* ===== Loading / Empty ===== */
-.loading, .empty { color: var(--muted); font-size: var(--oa-font-size-body); padding:20px; text-align: center; }
+.loading, .empty { color: var(--muted); font-size: var(--oa-font-size-body); padding:16px; text-align: center; }
 .empty-state { color: var(--muted); font-size: var(--oa-font-size-body); padding:40px 20px; text-align: center; }
 
 /* ===== Source / Site Grouping (信号流分组) ===== */
@@ -681,7 +681,7 @@ input:focus, select:focus, button:focus-visible {
   position: relative;
   display: grid;
   grid-template-columns: 68px minmax(0, 1fr);
-  gap:24px;
+  gap:12px;
   align-items: stretch;
   color: var(--ink);
   text-decoration: none;
