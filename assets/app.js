@@ -998,18 +998,17 @@ function renderAll() {
 function bindBackToTop() {
   const btn = $("backToTop");
   if (!btn) return;
-  let ticking = false;
-  window.addEventListener("scroll", () => {
-    if (!ticking) {
-      requestAnimationFrame(() => {
-        btn.classList.toggle("visible", window.scrollY > 400);
-        ticking = false;
-      });
-      ticking = true;
+  function findScroller() {
+    const sc = document.scrollingElement || document.documentElement;
+    if (sc.scrollHeight > sc.clientHeight + 50) return sc;
+    const els = document.querySelectorAll('.oa-content-wrap, .content-wrap, [class*="scroll"], main, body');
+    for (let i = 0; i < els.length; i++) {
+      if (els[i].scrollHeight > els[i].clientHeight + 50) return els[i];
     }
-  }, { passive: true });
+    return sc;
+  }
   btn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    findScroller().scrollTo({ top: 0, behavior: "smooth" });
   });
 }
 

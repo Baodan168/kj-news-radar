@@ -562,7 +562,7 @@ input:focus, select:focus, button:focus-visible {
 .footer-inner a { color: var(--accent); text-decoration: none; }
 .footer-inner a:hover { text-decoration: underline; }
 
-/* ===== Back to Top Button ===== */
+/* ===== Back to Top Button (固定显示) ===== */
 .back-to-top {
   position: fixed;
   bottom: 24px;
@@ -576,15 +576,11 @@ input:focus, select:focus, button:focus-visible {
   cursor: pointer;
   display: grid;
   place-items: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.2s, visibility 0.2s, background 0.15s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  z-index: 100;
-}
-.back-to-top.visible {
   opacity: 1;
   visibility: visible;
+  transition: background 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 100;
 }
 .back-to-top:hover {
   background: var(--accent);
