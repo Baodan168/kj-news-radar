@@ -3,7 +3,7 @@ name: Bug Report
 about: Report a broken news source, incorrect data, or unexpected behavior
 title: "[Bug] "
 labels: bug
-assignees: liyuhong168
+assignees: Baodan168
 ---
 
 **Describe the bug**

@@ -3,7 +3,7 @@ name: Feature Request
 about: Suggest a new news source, feature, or improvement
 title: "[Feature] "
 labels: enhancement
-assignees: liyuhong168
+assignees: Baodan168
 ---
 
 **Is your feature request related to a problem?**

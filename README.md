@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-auto--update-brightgreen)](https://github.com/liyuhong168/kj-news-radar/actions)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-auto--update-brightgreen)](https://github.com/Baodan168/kj-news-radar/actions)
 
 **跨境雷达 (KJ News Radar)** 自动聚合过去 24 小时值得看的跨境电商、亚马逊、Temu、TikTok Shop 等平台更新，专为跨境电商卖家设计。
 
@@ -35,12 +35,12 @@
 
 ### 直接访问
 
-打开 [kj-news-radar](https://liyuhong168.github.io/kj-news-radar/) 即可查看最新资讯。
+打开 [kj-news-radar](https://Baodan168.github.io/kj-news-radar/) 即可查看最新资讯。
 
 ### 本地运行
 
 ```bash
-git clone https://github.com/liyuhong168/kj-news-radar.git
+git clone https://github.com/Baodan168/kj-news-radar.git
 cd kj-news-radar
 python3 -m venv .venv
 source .venv/bin/activate

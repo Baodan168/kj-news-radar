@@ -85,7 +85,7 @@ def main():
                 lines.append(f"• {p['title']} — {days}天后生效")
             lines.append("")
 
-    lines.append(f"🔗 完整数据：https://liyuhong168.github.io/kj-news-radar/")
+    lines.append(f"🔗 完整数据：https://Baodan168.github.io/kj-news-radar/")
     lines.append(f"⏰ 更新时间：{latest.get('generated_at', '—')}")
 
     print("\n".join(lines))
