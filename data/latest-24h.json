@@ -1,15 +1,15 @@
 {
-"generated_at": "2026-08-01T04:14:47.156953Z",
+"generated_at": "2026-08-02T02:03:40.129757Z",
 "window_hours": 24,
-"total_items": 731,
-"total_items_cross_raw": 731,
-"total_items_raw": 733,
-"total_items_all_mode": 733,
+"total_items": 684,
+"total_items_cross_raw": 684,
+"total_items_raw": 685,
+"total_items_all_mode": 685,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1924,
+"archive_total": 1923,
 "site_count": 16,
-"source_count": 7,
+"source_count": 3,
 "site_stats": [
 {
 "site_id": "ennews",
@@ -20,38 +20,8 @@
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 45,
-"raw_count": 45
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 8,
-"raw_count": 8
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 3,
-"raw_count": 3
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 2,
-"raw_count": 2
-},
-{
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"count": 1,
-"raw_count": 1
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 0,
-"raw_count": 1
+"count": 12,
+"raw_count": 12
 },
 {
 "site_id": "tophub",
@@ -70,7 +40,7 @@
 "url": "https://www.ennews.com/news-140845.html",
 "published_at": "2031-07-31T17:29:46Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -92,7 +62,7 @@
 "url": "https://www.ennews.com/news-140844.html",
 "published_at": "2031-07-31T17:25:12Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "general",
@@ -115,7 +85,7 @@
 "url": "https://www.ennews.com/news-140843.html",
 "published_at": "2031-07-31T17:13:09Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -136,7 +106,7 @@
 "url": "https://www.ennews.com/news-140842.html",
 "published_at": "2031-07-31T17:06:34Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -157,7 +127,7 @@
 "url": "https://www.ennews.com/news-140841.html",
 "published_at": "2031-07-31T16:53:29Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -178,7 +148,7 @@
 "url": "https://www.ennews.com/news-140840.html",
 "published_at": "2031-07-31T16:47:49Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "policy_update",
@@ -200,7 +170,7 @@
 "url": "https://www.ennews.com/news-140839.html",
 "published_at": "2031-07-31T16:35:19Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -221,7 +191,7 @@
 "url": "https://www.ennews.com/news-140838.html",
 "published_at": "2031-07-31T16:35:16Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "compliance_deadline",
@@ -243,7 +213,7 @@
 "url": "https://www.ennews.com/news-140837.html",
 "published_at": "2031-07-31T16:28:07Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -264,7 +234,7 @@
 "url": "https://www.ennews.com/news-140836.html",
 "published_at": "2031-07-31T16:20:33Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -287,7 +257,7 @@
 "url": "https://www.ennews.com/news-140835.html",
 "published_at": "2031-07-31T16:14:59Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -308,7 +278,7 @@
 "url": "https://www.ennews.com/news-140834.html",
 "published_at": "2031-07-31T16:11:59Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -329,7 +299,7 @@
 "url": "https://www.ennews.com/news-140833.html",
 "published_at": "2031-07-31T16:11:57Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -350,7 +320,7 @@
 "url": "https://www.ennews.com/news-140832.html",
 "published_at": "2031-07-31T16:03:15Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -371,7 +341,7 @@
 "url": "https://www.ennews.com/news-140831.html",
 "published_at": "2031-07-31T15:55:34Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -392,7 +362,7 @@
 "url": "https://www.ennews.com/news-140830.html",
 "published_at": "2031-07-31T15:51:47Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -415,7 +385,7 @@
 "url": "https://www.ennews.com/news-140829.html",
 "published_at": "2031-07-31T15:45:23Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "general",
@@ -439,7 +409,7 @@
 "url": "https://www.ennews.com/news-140828.html",
 "published_at": "2031-07-31T15:44:07Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "policy_update",
@@ -460,7 +430,7 @@
 "url": "https://www.ennews.com/news-140826.html",
 "published_at": "2031-07-31T15:41:21Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -481,7 +451,7 @@
 "url": "https://www.ennews.com/news-140825.html",
 "published_at": "2031-07-31T15:38:51Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -503,7 +473,7 @@
 "url": "https://www.ennews.com/article-31783-1.html",
 "published_at": "2031-07-31T13:13:24Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -545,7 +515,7 @@
 "url": "https://www.ennews.com/article-31782-1.html",
 "published_at": "2031-07-31T11:23:41Z",
 "first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -1429,7 +1399,7 @@
 "url": "https://www.ennews.com/article-31781-1.html",
 "published_at": "2031-07-30T13:13:45Z",
 "first_seen_at": "2026-07-31T00:41:11.413544Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "policy_update",
@@ -1456,7 +1426,7 @@
 "url": "https://www.ennews.com/article-31780-1.html",
 "published_at": "2031-07-30T11:54:34Z",
 "first_seen_at": "2026-07-31T00:41:11.413544Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -2360,7 +2330,7 @@
 "url": "https://www.ennews.com/article-31779-1.html",
 "published_at": "2031-07-29T13:04:34Z",
 "first_seen_at": "2026-07-30T00:40:24.629815Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "general",
@@ -2384,7 +2354,7 @@
 "url": "https://www.ennews.com/article-31778-1.html",
 "published_at": "2031-07-29T12:06:51Z",
 "first_seen_at": "2026-07-30T00:40:24.629815Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "general",
@@ -3547,8 +3517,8 @@
 "跨境"
 ],
 "cross_platforms": [
-"亚马逊",
-"fbm"
+"fbm",
+"亚马逊"
 ],
 "cross_sites": [
 "uk"
@@ -3804,7 +3774,7 @@
 "url": "https://www.ennews.com/article-31777-1.html",
 "published_at": "2031-07-27T17:26:34Z",
 "first_seen_at": "2026-07-28T00:40:43.796799Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "listing_product",
@@ -3836,9 +3806,9 @@
 "跨境"
 ],
 "cross_platforms": [
+"prime",
 "亚马逊",
-"tiktok shop",
-"prime"
+"tiktok shop"
 ],
 "cross_sites": [],
 "title_zh": "TikTok Shop内测Plus会员制，对标亚马逊Prime"
@@ -4182,7 +4152,7 @@
 "url": "https://www.ennews.com/article-31776-1.html",
 "published_at": "2031-07-27T15:48:00Z",
 "first_seen_at": "2026-07-30T00:40:24.629815Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -4245,7 +4215,7 @@
 "url": "https://www.ennews.com/article-31775-1.html",
 "published_at": "2031-07-27T10:48:17Z",
 "first_seen_at": "2026-07-28T00:40:43.796799Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
@@ -4268,7 +4238,7 @@
 "url": "https://www.ennews.com/article-31774-1.html",
 "published_at": "2031-07-27T10:46:07Z",
 "first_seen_at": "2026-07-28T00:40:43.796799Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "fee_logistics",
@@ -9155,8 +9125,8 @@
 "采购"
 ],
 "cross_platforms": [
-"亚马逊",
-"prime"
+"prime",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊升级西班牙企业Prime采购功能"
@@ -13891,8 +13861,8 @@
 "跨境"
 ],
 "cross_platforms": [
-"亚马逊",
-"prime"
+"prime",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊印度Prime Day：即时配送驱动增长，二三线城市消费升级明显"
@@ -14938,6 +14908,49 @@
 "title_zh": "流量权重崩了？大批卖家订单腰斩"
 },
 {
+"id": "7786aac5ff48588ad12b2c8ae7278cbec742cd7a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南药管局撤回313个化妆品备案号，资生堂无印良品乐敦在列",
+"url": "https://www.amz123.com/kx/GnQnTxsI",
+"published_at": null,
+"first_seen_at": "2026-08-02T02:03:40.129757Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南药管局撤回313个化妆品备案号，资生堂无印良品乐敦在列"
+},
+{
+"id": "7eed9f0d68dbcba88839f1e9821dc82589a4652a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "新加坡直播带货正在重塑本地零售",
+"url": "https://www.amz123.com/kx/8aLUUDbh",
+"published_at": null,
+"first_seen_at": "2026-08-02T02:03:40.129757Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"直播带货"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "新加坡直播带货正在重塑本地零售"
+},
+{
 "id": "6138c796fb3242173e555f51811be4f5bdb5ffee",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -14946,7 +14959,7 @@
 "url": "https://www.amz123.com/kx/cV0RpGQw",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -14968,7 +14981,7 @@
 "url": "https://www.amz123.com/kx/IKPNuIgo",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -14992,7 +15005,7 @@
 "url": "https://www.amz123.com/kx/zF1otRK2",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -15013,7 +15026,7 @@
 "url": "https://www.amz123.com/kx/tplyzRSn",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -15034,7 +15047,7 @@
 "url": "https://www.amz123.com/kx/H8ts2651",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -15055,7 +15068,7 @@
 "url": "https://www.amz123.com/kx/09cwo5fJ",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -15079,7 +15092,7 @@
 "url": "https://www.amz123.com/kx/2ygl4Ves",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "temu",
@@ -15103,7 +15116,7 @@
 "url": "https://www.amz123.com/kx/98ysMGlX",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "seller_action",
@@ -15126,7 +15139,7 @@
 "url": "https://www.amz123.com/kx/jKkw6wPl",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -15147,7 +15160,7 @@
 "url": "https://www.amz123.com/kx/FuZAxsw0",
 "published_at": null,
 "first_seen_at": "2026-08-01T04:14:47.156953Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
+"last_seen_at": "2026-08-02T02:03:40.129757Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "seller_action",
@@ -15164,1143 +15177,6 @@
 ],
 "cross_sites": [],
 "title_zh": "Shopee马来西亚站调整本土Marketplace卖家佣金费率"
-},
-{
-"id": "4137e15d1560783428ddffceeb0020f729d06817",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "卖家注意！多个货代紧急通知，大批货物恐受影响",
-"url": "https://www.cifnews.com/article/187865",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "卖家注意！多个货代紧急通知，大批货物恐受影响"
-},
-{
-"id": "d68b03c3a01e604a41db8157ee6cb5d8e03f2ad3",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "突发！亚马逊后台又崩了",
-"url": "https://www.cifnews.com/article/187862",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "突发！亚马逊后台又崩了"
-},
-{
-"id": "184326e37bf143a9f12d4c41a51b823d991f68d5",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop英国直播销售额同比增长55% 超30万中小商家入驻",
-"url": "https://www.amz123.com/kx/EICXTMY0",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"跨境"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "TikTok Shop英国直播销售额同比增长55% 超30万中小商家入驻"
-},
-{
-"id": "c17cc1e965f0251162c7ad2a3b2fcfb27758bc0d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "印尼BTN银行加速布局BNPL业务",
-"url": "https://www.amz123.com/kx/C2pbswOh",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "印尼BTN银行加速布局BNPL业务"
-},
-{
-"id": "1445f0350d12d247db73fd81b5ae700a1df9c1fb",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "eBay以12亿美元收购Depop 加码Z世代二手时尚市场",
-"url": "https://www.amz123.com/kx/aAFLhdBb",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ebay",
-"跨境"
-],
-"cross_platforms": [
-"ebay"
-],
-"cross_sites": [],
-"title_zh": "eBay以12亿美元收购Depop 加码Z世代二手时尚市场"
-},
-{
-"id": "f4269b4bbe8a601c39d888bf79c9cddb830e8a81",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Shopee新加坡本土店要求8月24日前完成子账户权限核查",
-"url": "https://www.amz123.com/kx/PMCvNvZ9",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee",
-"跨境"
-],
-"cross_platforms": [
-"shopee"
-],
-"cross_sites": [],
-"title_zh": "Shopee新加坡本土店要求8月24日前完成子账户权限核查"
-},
-{
-"id": "e0bf6bc7e1cb275a91af40fa158416ac5d7b12d3",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Shopee中国台湾站调整服饰类目补货周期及库存考核规则",
-"url": "https://www.amz123.com/kx/Ay1TOWXq",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee",
-"跨境",
-"库存"
-],
-"cross_platforms": [
-"shopee"
-],
-"cross_sites": [],
-"title_zh": "Shopee中国台湾站调整服饰类目补货周期及库存考核规则"
-},
-{
-"id": "fbff42e66cc4510d2932d1d93aed38f3819cf968",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries推广账户7月14日起切换人民币计价 1积分=1元取代1卢布",
-"url": "https://www.amz123.com/kx/7qUGwHNr",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"跨境"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries推广账户7月14日起切换人民币计价 1积分=1元取代1卢布"
-},
-{
-"id": "080adf83e75cac292b2797cbd0d870526ceebfe1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "FCC将中国逆变器与先进机器人列入覆盖清单 商务部称将坚决反制",
-"url": "https://www.amz123.com/kx/zKCLZCxb",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"商务部"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "FCC将中国逆变器与先进机器人列入覆盖清单 商务部称将坚决反制"
-},
-{
-"id": "157118c588a2bdac51f419e60d49e6655bee7d14",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊NSP计划将于7月30日进行重大升级",
-"url": "https://www.amz123.com/kx/4ifaih3a",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"跨境"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊NSP计划将于7月30日进行重大升级"
-},
-{
-"id": "2f03afbef43822a50d0774b9fbeb66dcb099c61a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Hsia-Bras牛油果色5合1挂脖内衣9个月销售额突破1100万元",
-"url": "https://www.amz123.com/kx/NHhRifg1",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Hsia-Bras牛油果色5合1挂脖内衣9个月销售额突破1100万元"
-},
-{
-"id": "3998b61cc4df09abcf4d67833ebeee3c8e376d7f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "双台风影响持续发酵 中国六大集装箱港口全面陷入严重中断",
-"url": "https://www.amz123.com/kx/mkc5EkwY",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "双台风影响持续发酵 中国六大集装箱港口全面陷入严重中断"
-},
-{
-"id": "2c82efe74fc6d52d74ace15741ec8ea63ee2b6bc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "深圳海关查获整柜瞒报出口香烟，申报“连接线”实为200万支",
-"url": "https://www.amz123.com/kx/mK4nNn4u",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"海关",
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "深圳海关查获整柜瞒报出口香烟，申报“连接线”实为200万支"
-},
-{
-"id": "ebac4d5e91d3e742116d26747acc137ca95fbb30",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美国站后台7月31日突然崩溃",
-"url": "https://www.amz123.com/kx/lWrR1Tws",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"跨境"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国站后台7月31日突然崩溃"
-},
-{
-"id": "96b92e97bb0d79e4035066d2b7d924a39dd7c49f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon被列为潜在袭击目标，下诺夫哥罗德物流中心采取避险措施",
-"url": "https://www.amz123.com/kx/H6B7Cv4R",
-"published_at": null,
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"跨境",
-"物流"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon被列为潜在袭击目标，下诺夫哥罗德物流中心采取避险措施"
-},
-{
-"id": "bb155641cabba8f3e195f4f8b6096171aa846279",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "How Amazon became one of the world’s top chip companies in a decade",
-"url": "https://www.aboutamazon.com/news/aws/amazon-ai-chips-business-history",
-"published_at": "2026-07-31T19:55:28Z",
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊如何在十年内成为全球顶级芯片公司之一"
-},
-{
-"id": "c0b07405d248e67abbda548db7d4ce6df6a13488",
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"source": "卖家新闻",
-"title": "Amazon North American Sales Grow 16% in Second Quarter 2026",
-"url": "https://www.ecommercebytes.com/2026/07/31/amazon-north-american-sales-grow-16-in-second-quarter-2026",
-"published_at": "2026-07-31T19:21:39Z",
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.9,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"卖家",
-"ecommerce",
-"卖家"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "2026年第二季度亚马逊北美销售额增长16%"
-},
-{
-"id": "ca295ca27526c9f97f6e9d3cbf56ddba22af786e",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "What’s new on Prime Video in August 2026, including ‘Reacher,’ ‘Sterling Point,’ and live sports",
-"url": "https://www.aboutamazon.com/news/entertainment/prime-video-august-movies-shows-music-sports-2026",
-"published_at": "2026-07-31T13:00:17Z",
-"first_seen_at": "2026-08-01T00:40:42.630583Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "2026年8月Prime Video的新功能，包括“Reacher”、“Sterling Point”和现场体育赛事"
-},
-{
-"id": "7e56060b8e60d6cc71d30660c1c58833d88d01d9",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "107家店铺被告！这3张Patrik Lovrin闪粉肌理图已发案！",
-"url": "https://www.cifnews.com/article/187860",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "107家店铺被告！这3张Patrik Lovrin闪粉肌理图已发案！"
-},
-{
-"id": "0f0fbdb859b0e1cdca22cd84b6d32c79d33c80fa",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "特斯拉拟出售或分拆中国业务",
-"url": "https://www.amz123.com/kx/GE9wPD3y",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "特斯拉拟出售或分拆中国业务"
-},
-{
-"id": "3480a29a21a834b012a461d643e030033e9d4182",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯时尚市场上半年销量下滑10%，均价上涨7%",
-"url": "https://www.amz123.com/kx/KraSNoyO",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯时尚市场上半年销量下滑10%，均价上涨7%"
-},
-{
-"id": "2e693761f4deb19906bbe6cebd50ca9c29cf4a3a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon Q2净利润增至101亿卢布",
-"url": "https://www.amz123.com/kx/dFGOHxiY",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"跨境"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon Q2净利润增至101亿卢布"
-},
-{
-"id": "da5a188a8eb90a8bb6e6ac337916331f8f2fcb56",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "DHL与Vinted深化德国市场合作",
-"url": "https://www.amz123.com/kx/TloO9sDc",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"dhl"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "DHL与Vinted深化德国市场合作"
-},
-{
-"id": "4809fc56039a14d49efae6021db675d8db5cdab0",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Blibli上半年净营收同比增长55%至14.8万亿印尼盾",
-"url": "https://www.amz123.com/kx/b9J69Cyz",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Blibli上半年净营收同比增长55%至14.8万亿印尼盾"
-},
-{
-"id": "af229c6893d0c77d9b07df36d05e219843eadbeb",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "乌克兰Brave1 Market缩短前线补给交付周期 6月无人机订单额达1.11亿美元",
-"url": "https://www.amz123.com/kx/NbFy8yiN",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "乌克兰Brave1 Market缩短前线补给交付周期 6月无人机订单额达1.11亿美元"
-},
-{
-"id": "e257223b66831f91d5217018187d3c05ff3a6aa6",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "墨已从建立消费者信任转向持续维护信任。",
-"url": "https://www.amz123.com/kx/i4tmg9QD",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "墨已从建立消费者信任转向持续维护信任。"
-},
-{
-"id": "6430b8a6fddb0828904ffe81da335ead38349d73",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Magnit Market将于9月6日起暂停主站运营",
-"url": "https://www.amz123.com/kx/Mdh8JXXj",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Magnit Market将于9月6日起暂停主站运营"
-},
-{
-"id": "109b64b081486e72c0d86bf5586b05644154ceee",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "HMM暂缓10艘1.3万TEU双燃料集装箱船订单",
-"url": "https://www.amz123.com/kx/WPNqOm7N",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "HMM暂缓10艘1.3万TEU双燃料集装箱船订单"
-},
-{
-"id": "44f04df7b1344be0034ad7594fa2bff4dc62a3a5",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Anthropic曝出模型安全事件，配置误解导致Claude模型越权连接真实系统",
-"url": "https://www.amz123.com/kx/gOMAFKmt",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Anthropic曝出模型安全事件，配置误解导致Claude模型越权连接真实系统"
-},
-{
-"id": "92e1b37d809850bed076cdf8a3a9cd43e20832a9",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "泰国警方查获1.8万件假冒美妆产品 逮捕中国籍涉案人员",
-"url": "https://www.amz123.com/kx/4HIqBjrM",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "泰国警方查获1.8万件假冒美妆产品 逮捕中国籍涉案人员"
-},
-{
-"id": "29bbb5c9715a97897bbf474753407bdfc1523d4a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop新加坡GMV同比增长1.7倍",
-"url": "https://www.amz123.com/kx/NZ1RdMJv",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"跨境"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop新加坡GMV同比增长1.7倍"
-},
-{
-"id": "46b35ee840da4de3c656b07e36af7281fc3cb4d7",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "联邦快递8月1日起提升中国至中东南亚快件时效",
-"url": "https://www.amz123.com/kx/YcQFo0zP",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"快递"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "联邦快递8月1日起提升中国至中东南亚快件时效"
-},
-{
-"id": "123b9d86d2f14067b926f7cb2b8b9cfaf9aae820",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "顺丰国际上线TikTok Shop欧洲12国3PL国内直发服务",
-"url": "https://www.amz123.com/kx/1EZ0do9L",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"跨境"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "顺丰国际上线TikTok Shop欧洲12国3PL国内直发服务"
-},
-{
-"id": "4f237dc32c2bdbcee400d40e6e8f15c7490c8d35",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "户外家具企业正特布局欧美宠物用品市场",
-"url": "https://www.amz123.com/kx/Mgj2Nc3x",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "户外家具企业正特布局欧美宠物用品市场"
-},
-{
-"id": "f2cc21716ce0c1c9e38164194af1730bc085fa0f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "宇树科技上半年营收预计增长超35%至11.28亿元",
-"url": "https://www.amz123.com/kx/eDt5H2xc",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "宇树科技上半年营收预计增长超35%至11.28亿元"
-},
-{
-"id": "174151f4bf7df4f8957ec6bdc717ec180d8f30ff",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop美区家装Q3Q4节庆备货方向明确",
-"url": "https://www.amz123.com/kx/mD8a8fbF",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"跨境"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "TikTok Shop美区家装Q3Q4节庆备货方向明确"
-},
-{
-"id": "f2ab09ced4c89b8138086b45c0ba2d0d6c46cecd",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Etsy广东卖家5年销售8.6万单，宠物抱枕单品利润率达80%",
-"url": "https://www.amz123.com/kx/hwhBhRGj",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T00:40:42.630583Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"etsy",
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [
-"etsy"
-],
-"cross_sites": [],
-"title_zh": "Etsy广东卖家5年销售8.6万单，宠物抱枕单品利润率达80%"
-},
-{
-"id": "1619b7175446fd364b1290528bfb86d44c726c49",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊全球活跃卖家降至165万 创出清高峰",
-"url": "https://www.amz123.com/kx/X2gbTQDN",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T00:40:42.630583Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊全球活跃卖家降至165万 创出清高峰"
-},
-{
-"id": "f9c83c845805fbc5befb2f49ad50435f85c0b022",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊Q2净销售额突破2000亿美元",
-"url": "https://www.amz123.com/kx/H9T1r5uY",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T00:40:42.630583Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"跨境"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊Q2净销售额突破2000亿美元"
-},
-{
-"id": "293e5fb6a545ab0be6d21255fe69282798b2ea24",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "6月中国对俄乘用车轮胎出口创十年新高",
-"url": "https://www.amz123.com/kx/E5cbcaU2",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T00:40:42.630583Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "6月中国对俄乘用车轮胎出口创十年新高"
-},
-{
-"id": "2044e9f58587f53f04fa0bf430e72beec2cd0605",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美线8月运价大幅上涨 美东突破1万美元 美西冲高至9000美元以上",
-"url": "https://www.amz123.com/kx/G1P4r117",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T00:40:42.630583Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "美线8月运价大幅上涨 美东突破1万美元 美西冲高至9000美元以上"
-},
-{
-"id": "c85c910daa034f189f806ba5ee965fb86b634ee1",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "四年跑掉75万卖家，亚马逊正在变成“品牌商的内场",
-"url": "https://www.amzdh.com/kjtt/10228.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "四年跑掉75万卖家，亚马逊正在变成“品牌商的内场"
-},
-{
-"id": "cabf38508f2ab3f84cca5bae09ab1464ed962b36",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，一组来自Marketplace Pulse与SmartScout的交叉数据，把亚马逊第三方生态的“大出清”摊在了桌面上：🔺图源：www.marketplacepulse.com全球活跃卖家：从2021年峰值240万，跌到2025年底约165万，四年净流失...AMZDH获悉，一组来自Marketplace Pulse与SmartScout的交叉数据，把亚马逊第三方生态的“大出清”摊在了桌面上：🔺图源：www.marketplacepulse.com全球活跃卖家：从2021年峰值240万，跌到2025年底约165万，四年净流失...",
-"url": "https://www.amzdh.com/kjtt/10228.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"marketplace",
-"亚马逊",
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，一组来自Marketplace Pulse与SmartScout的交叉数据，把亚马逊第三方生态的“大出清”摊在了桌面上：🔺图源：www.marketplacepulse.com全球活跃卖家：从2021年峰值240万，跌到2025年底约165万，四年净流失...AMZDH获悉，一组来自Marketplace Pulse与SmartScout的交叉数据，把亚马逊第三方生态的“大出清”摊在了桌面上：🔺图源：www.marketplacepulse.com全球活跃卖家：从2021年峰值240万，跌到2025年底约165万，四年净流失..."
-},
-{
-"id": "68509bd69d7352f017b48eec25e73506ebf3cc64",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Kaufland 平台介绍及入驻指南",
-"url": "https://www.amzdh.com/kjtt/10227.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Kaufland 平台介绍及入驻指南"
-},
-{
-"id": "136a61975f246d5547130da88e77ec58291b439e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "01平台基础概况Kaufland Global Marketplace，欧洲头部本土综合电商平台，隶属于德国施瓦茨集团（Schwarz Gruppe，也是 Lidl 超市母公司）。前身是real.de，2021 年正式更名上线电商平台，依托数千家线下大型商超，拥...01平台基础概况Kaufland Global Marketplace，欧洲头部本土综合电商平台，隶属于德国施瓦茨集团（Schwarz Gruppe，也是 Lidl 超市母公司）。前身是real.de，2021 年正式更名上线电商平台，依托数千家线下大型商超，拥...",
-"url": "https://www.amzdh.com/kjtt/10227.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"marketplace",
-"跨境",
-"电商",
-"电商平台"
-],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "01平台基础概况Kaufland Global Marketplace，欧洲头部本土综合电商平台，隶属于德国施瓦茨集团（Schwarz Gruppe，也是 Lidl 超市母公司）。前身是real.de，2021 年正式更名上线电商平台，依托数千家线下大型商超，拥...01平台基础概况Kaufland Global Marketplace，欧洲头部本土综合电商平台，隶属于德国施瓦茨集团（Schwarz Gruppe，也是 Lidl 超市母公司）。前身是real.de，2021 年正式更名上线电商平台，依托数千家线下大型商超，拥..."
-},
-{
-"id": "ec8f87925866e6b8fe12d35c575fcefb17c3c281",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "增速 60%！TikTok Shop 跃升英国第二大美妆零售商",
-"url": "https://www.amzdh.com/kjtt/10225.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"跨境"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "增速 60%！TikTok Shop 跃升英国第二大美妆零售商"
-},
-{
-"id": "eba6700f0fd08b6c9af2f906e6215d9e6fd95a20",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "相信很多人都没想到，如今的TikTok Shop，已经成为英国第二大美妆零售商。AMZDH获悉，根据平台委托的Public First研究，TikTok Shop美妆销售额同比大涨60%，增长速度碾压一众传统电商和线下专柜。以前的TikTok只是大...相信很多人都没想到，如今的TikTok Shop，已经成为英国第二大美妆零售商。AMZDH获悉，根据平台委托的Public First研究，TikTok Shop美妆销售额同比大涨60%，增长速度碾压一众传统电商和线下专柜。以前的TikTok只是大...",
-"url": "https://www.amzdh.com/kjtt/10225.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"跨境",
-"电商"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "相信很多人都没想到，如今的TikTok Shop，已经成为英国第二大美妆零售商。AMZDH获悉，根据平台委托的Public First研究，TikTok Shop美妆销售额同比大涨60%，增长速度碾压一众传统电商和线下专柜。以前的TikTok只是大...相信很多人都没想到，如今的TikTok Shop，已经成为英国第二大美妆零售商。AMZDH获悉，根据平台委托的Public First研究，TikTok Shop美妆销售额同比大涨60%，增长速度碾压一众传统电商和线下专柜。以前的TikTok只是大..."
-},
-{
-"id": "85cb8d90cee32a81adaad329f2cde69ae9ad1ba9",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Temu 大调整！国内关仓、海外大举建仓，跨境低价直邮时代落幕",
-"url": "https://www.amzdh.com/kjtt/10224.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"跨境"
-],
-"cross_platforms": [
-"temu"
-],
-"cross_sites": [],
-"title_zh": "Temu 大调整！国内关仓、海外大举建仓，跨境低价直邮时代落幕"
-},
-{
-"id": "9a5cc6cfbd66dd92d53f56bb1e67f5a5fecc2ee7",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，最近跨境圈都在热议Temu新一轮重大布局：平台陆续关停广东多处国内仓库，收缩国内直发链路；另一边加速在德国、波兰落地十多个自营仓，美国自建仓项目也在加快推进。国内收缩、海外重仓建仓，Temu 本土化...AMZDH获悉，最近跨境圈都在热议Temu新一轮重大布局：平台陆续关停广东多处国内仓库，收缩国内直发链路；另一边加速在德国、波兰落地十多个自营仓，美国自建仓项目也在加快推进。国内收缩、海外重仓建仓，Temu 本土化...",
-"url": "https://www.amzdh.com/kjtt/10224.html",
-"published_at": null,
-"first_seen_at": "2026-07-31T04:15:26.295403Z",
-"last_seen_at": "2026-08-01T04:14:47.156953Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"跨境"
-],
-"cross_platforms": [
-"temu"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "AMZDH获悉，最近跨境圈都在热议Temu新一轮重大布局：平台陆续关停广东多处国内仓库，收缩国内直发链路；另一边加速在德国、波兰落地十多个自营仓，美国自建仓项目也在加快推进。国内收缩、海外重仓建仓，Temu 本土化...AMZDH获悉，最近跨境圈都在热议Temu新一轮重大布局：平台陆续关停广东多处国内仓库，收缩国内直发链路；另一边加速在德国、波兰落地十多个自营仓，美国自建仓项目也在加快推进。国内收缩、海外重仓建仓，Temu 本土化..."
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
