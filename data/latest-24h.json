@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-08-04T01:16:39.365232Z",
+"generated_at": "2026-08-04T01:18:17.435574Z",
 "window_hours": 24,
-"total_items": 21,
-"total_items_cross_raw": 34,
-"total_items_raw": 55,
-"total_items_all_mode": 55,
+"total_items": 22,
+"total_items_cross_raw": 35,
+"total_items_raw": 58,
+"total_items_all_mode": 58,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1213,
+"archive_total": 1216,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
@@ -20,8 +20,8 @@
 {
 "site_id": "ennews",
 "site_name": "亿恩网",
-"count": 2,
-"raw_count": 10
+"count": 3,
+"raw_count": 13
 },
 {
 "site_id": "channelx",
@@ -64,7 +64,7 @@
 "url": "https://www.amzdh.com/kjtt/10243.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:16:39.365232Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -88,7 +88,7 @@
 "url": "https://www.amzdh.com/kjtt/10243.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:16:39.365232Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "listing_product",
@@ -116,7 +116,7 @@
 "url": "https://www.amzdh.com/kjtt/10242.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:13:18.819794Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "tiktok",
@@ -141,7 +141,7 @@
 "url": "https://www.amzdh.com/kjtt/10242.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:13:18.819794Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -167,7 +167,7 @@
 "url": "https://www.amzdh.com/kjtt/10241.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -193,7 +193,7 @@
 "url": "https://www.amzdh.com/kjtt/10240.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -208,8 +208,8 @@
 "政策"
 ],
 "cross_platforms": [
-"shopee",
-"lazada"
+"lazada",
+"shopee"
 ],
 "cross_sites": [],
 "title_zh": "AMZDH获悉，自2026年8月1日开始，印尼 Shopee、Tokopedia、Lazada、Blibli 四大主流电商平台，正式实施PPh 22 第 22 条所得税平台代扣政策。简单来说：平台会直接从卖家总营业额里扣除0.5% 作为所得税。划重点：这笔...AMZDH获悉，自2026年8月1日开始，印尼 Shopee、Tokopedia、Lazada、Blibli 四大主流电商平台，正式实施PPh 22 第 22 条所得税平台代扣政策。简单来说：平台会直接从卖家总营业额里扣除0.5% 作为所得税。划重点：这笔..."
@@ -223,7 +223,7 @@
 "url": "https://www.ennews.com/news-140958.html",
 "published_at": "2026-08-04T00:00:00Z",
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "tiktok",
@@ -248,7 +248,7 @@
 "url": "https://www.ennews.com/news-140957.html",
 "published_at": "2026-08-04T00:00:00Z",
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -262,6 +262,27 @@
 "title_zh": "Myntra发力西孟加拉邦，拟吸纳400家本土卖家"
 },
 {
+"id": "b95be60962cb71944d103dbb2f663ba17eec72e9",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "跨境“假发第一股”瑞贝卡爆雷，因财务造假被ST",
+"url": "https://www.ennews.com/news-140967.html",
+"published_at": "2026-08-04T00:00:00Z",
+"first_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境“假发第一股”瑞贝卡爆雷，因财务造假被ST"
+},
+{
 "id": "3183f5935ba4d4bd05fc1b78ff6863be9061ed18",
 "site_id": "channelx",
 "site_name": "ChannelX",
@@ -270,7 +291,7 @@
 "url": "https://channelx.world/2026/08/argos-marketplace-goes-live-with-80-sellers",
 "published_at": "2026-08-03T10:52:39Z",
 "first_seen_at": "2026-08-04T00:40:28.408089Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -291,7 +312,7 @@
 "url": "https://www.amzdh.com/kjtt/10239.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -301,8 +322,8 @@
 "亚马逊"
 ],
 "cross_platforms": [
-"亚马逊",
-"amazon"
+"amazon",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "重磅，亚马逊跟卖入口或将取消，Amazon跟卖入口灰度测试"
@@ -316,7 +337,7 @@
 "url": "https://www.amzdh.com/kjtt/10239.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "listing_product",
@@ -329,8 +350,8 @@
 "卖家"
 ],
 "cross_platforms": [
-"亚马逊",
-"amazon"
+"amazon",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。...AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。..."
@@ -344,7 +365,7 @@
 "url": "https://www.amzdh.com/kjtt/10238.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -367,7 +388,7 @@
 "url": "https://www.amzdh.com/kjtt/10237.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -391,7 +412,7 @@
 "url": "https://www.amzdh.com/kjtt/10236.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -416,7 +437,7 @@
 "url": "https://www.amzdh.com/kjtt/10236.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -441,7 +462,7 @@
 "url": "https://www.amzdh.com/kjtt/10235.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -465,7 +486,7 @@
 "url": "https://www.amzdh.com/kjtt/10234.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "temu",
@@ -488,7 +509,7 @@
 "url": "https://www.amzdh.com/kjtt/10234.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:16:39.365232Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
