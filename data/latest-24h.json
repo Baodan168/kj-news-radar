@@ -1,22 +1,16 @@
 {
-"generated_at": "2026-08-04T02:34:46.826944Z",
+"generated_at": "2026-08-04T02:06:11.515496Z",
 "window_hours": 24,
-"total_items": 22,
-"total_items_cross_raw": 68,
-"total_items_raw": 116,
-"total_items_all_mode": 107,
+"total_items": 12,
+"total_items_cross_raw": 37,
+"total_items_raw": 78,
+"total_items_all_mode": 78,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1274,
+"archive_total": 1236,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 39
-},
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -26,14 +20,20 @@
 {
 "site_id": "ennews",
 "site_name": "亿恩网",
-"count": 5,
-"raw_count": 41
+"count": 3,
+"raw_count": 33
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 1,
 "raw_count": 3
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 0,
+"raw_count": 9
 },
 {
 "site_id": "amazon_newsroom",
@@ -56,151 +56,6 @@
 ],
 "items": [
 {
-"id": "8736a355824c0a201def69ed849f6693297936d9",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "关于卖家对标题新规的疑惑，亚马逊做了答复",
-"url": "https://www.cifnews.com/article/187853",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "关于卖家对标题新规的疑惑，亚马逊做了答复"
-},
-{
-"id": "f5c822082279d075b296a45bca2bd9b797b70d65",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "欧盟新规来袭！跨境卖家常用AI玩法，将迎来大变天",
-"url": "https://www.cifnews.com/article/187855",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟新规来袭！跨境卖家常用AI玩法，将迎来大变天"
-},
-{
-"id": "a4dcf932063821cc746bcd8ae84b252292bd9119",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "4年技术慢跑，1年登顶亚马逊第一，昂听ELEHEAR的出海“快慢”哲学|“新”卖家故事⑧",
-"url": "https://www.cifnews.com/article/187653",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "4年技术慢跑，1年登顶亚马逊第一，昂听ELEHEAR的出海“快慢”哲学|“新”卖家故事⑧"
-},
-{
-"id": "f29b0a514653f674ecc308284c4f65bae65218fc",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊官宣：“标杆新卖家孵化计划”重磅上线，要批量培养亿级新大卖",
-"url": "https://www.cifnews.com/article/187856",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊官宣：“标杆新卖家孵化计划”重磅上线，要批量培养亿级新大卖"
-},
-{
-"id": "3d6764c1b1114e39fd451fd5d9ab6c3ca1c065de",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "现金流预警！亚马逊8月1日新规即将生效",
-"url": "https://www.cifnews.com/article/187848",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "现金流预警！亚马逊8月1日新规即将生效"
-},
-{
-"id": "633eef8948907b8fe6fd230019e77d994fc1a87a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "发布“亚马逊全球开店华西产业带联合赋能计划”，推动“四川经验”辐射西部十省市",
-"url": "https://www.cifnews.com/article/187851",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.65,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"全球开店"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "发布“亚马逊全球开店华西产业带联合赋能计划”，推动“四川经验”辐射西部十省市"
-},
-{
 "id": "bd34ec7c7618a1dc2630605fe948fcccadb0b4a6",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -209,7 +64,7 @@
 "url": "https://www.amzdh.com/kjtt/10241.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -227,27 +82,6 @@
 "title_zh": "AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完...AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完..."
 },
 {
-"id": "7102a32fb0de098a3dd0d84f2e42943971f5fcfc",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "华人海外仓又被查！超5万件商品被扣",
-"url": "https://www.cifnews.com/article/187883",
-"published_at": null,
-"first_seen_at": "2026-08-04T00:40:28.408089Z",
-"last_seen_at": "2026-08-04T02:06:11.515496Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"海外仓"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "华人海外仓又被查！超5万件商品被扣"
-},
-{
 "id": "69029aa5ed7980d98867366ce2205751ac7428c5",
 "site_id": "ennews",
 "site_name": "亿恩网",
@@ -256,7 +90,7 @@
 "url": "https://www.ennews.com/news-140979.html",
 "published_at": "2026-08-04T00:00:00Z",
 "first_seen_at": "2026-08-04T02:06:11.515496Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "seller_action",
@@ -270,30 +104,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "泰国拟推平台连带责任新政，电商平台须为卖家行为“买单”"
-},
-{
-"id": "a6d690c8e95c9fb7eef9dfe1bab0d9a4092e1023",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊、沃尔玛被指产品原产地标签造假，但未主动处理",
-"url": "https://www.ennews.com/news-140998.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"沃尔玛"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊、沃尔玛被指产品原产地标签造假，但未主动处理"
 },
 {
 "id": "ed710db1b424c0a2cdf7846e5ca1df0dc2e6b9c0",
@@ -339,29 +149,6 @@
 "title_zh": "跨境“假发第一股”瑞贝卡爆雷，因财务造假被ST"
 },
 {
-"id": "fad00e8c70563ec2adc0c47ee334f4a63b6cf8f4",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "家乐福入驻亚马逊巴西站上线1300款商品",
-"url": "https://www.ennews.com/news-140996.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T02:34:46.826944Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "家乐福入驻亚马逊巴西站上线1300款商品"
-},
-{
 "id": "3183f5935ba4d4bd05fc1b78ff6863be9061ed18",
 "site_id": "channelx",
 "site_name": "ChannelX",
@@ -370,7 +157,7 @@
 "url": "https://channelx.world/2026/08/argos-marketplace-goes-live-with-80-sellers",
 "published_at": "2026-08-03T10:52:39Z",
 "first_seen_at": "2026-08-04T00:40:28.408089Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -421,7 +208,7 @@
 "url": "https://www.amzdh.com/kjtt/10239.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "listing_product",
@@ -441,28 +228,6 @@
 "title_zh": "AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。...AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。..."
 },
 {
-"id": "698fd79105e155b88a58582f2068bfc3356e30f9",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "上架即出单，首周即售罄：两个中国卖家的eMAG\"开张\"故事",
-"url": "https://www.cifnews.com/article/187871",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T02:06:11.515496Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "上架即出单，首周即售罄：两个中国卖家的eMAG\"开张\"故事"
-},
-{
 "id": "94f5b506eeb737ddd9f9dab690ae2e29292a63af",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -471,7 +236,7 @@
 "url": "https://www.amzdh.com/kjtt/10239.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "general",
@@ -496,7 +261,7 @@
 "url": "https://www.amzdh.com/kjtt/10237.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -520,7 +285,7 @@
 "url": "https://www.amzdh.com/kjtt/10235.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -544,7 +309,7 @@
 "url": "https://www.amzdh.com/kjtt/10236.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
