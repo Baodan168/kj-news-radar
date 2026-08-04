@@ -1,39 +1,39 @@
 {
-"generated_at": "2026-08-04T01:18:17.435574Z",
+"generated_at": "2026-08-04T02:34:46.826944Z",
 "window_hours": 24,
 "total_items": 22,
-"total_items_cross_raw": 35,
-"total_items_raw": 58,
-"total_items_all_mode": 58,
+"total_items_cross_raw": 68,
+"total_items_raw": 116,
+"total_items_all_mode": 107,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1216,
+"archive_total": 1274,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
 {
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 39
+},
+{
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 18,
+"count": 8,
 "raw_count": 28
 },
 {
 "site_id": "ennews",
 "site_name": "亿恩网",
-"count": 3,
-"raw_count": 13
+"count": 5,
+"raw_count": 41
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 1,
 "raw_count": 3
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 0,
-"raw_count": 9
 },
 {
 "site_id": "amazon_newsroom",
@@ -56,107 +56,149 @@
 ],
 "items": [
 {
-"id": "9c446c935b5c946ff66a6c79c912126f4aa12afa",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Shopee跨境十周年快闪展落地厦门",
-"url": "https://www.amzdh.com/kjtt/10243.html",
+"id": "8736a355824c0a201def69ed849f6693297936d9",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "关于卖家对标题新规的疑惑，亚马逊做了答复",
+"url": "https://www.cifnews.com/article/187853",
 "published_at": null,
-"first_seen_at": "2026-08-04T01:16:39.365232Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
+"cross_score": 0.88,
+"cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"shopee",
-"跨境"
-],
-"cross_platforms": [
-"shopee"
-],
-"cross_sites": [],
-"title_zh": "Shopee跨境十周年快闪展落地厦门"
-},
-{
-"id": "0a2377280e6525c4b37e7968e7a4f8851084a929",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，8月3日至9日，Shopee跨境十周年快闪展在厦门跨境电商产业园亮相。这不是一场普通的品牌秀，而是Shopee把“运营中心+产业带+本地化服务”三层能力，一次性摊开给福建及周边卖家看。 对做东南亚、拉美市场的...AMZDH获悉，8月3日至9日，Shopee跨境十周年快闪展在厦门跨境电商产业园亮相。这不是一场普通的品牌秀，而是Shopee把“运营中心+产业带+本地化服务”三层能力，一次性摊开给福建及周边卖家看。 对做东南亚、拉美市场的...",
-"url": "https://www.amzdh.com/kjtt/10243.html",
-"published_at": null,
-"first_seen_at": "2026-08-04T01:16:39.365232Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee",
-"卖家",
-"跨境",
-"跨境电商",
-"卖家",
-"电商"
-],
-"cross_platforms": [
-"shopee"
-],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，8月3日至9日，Shopee跨境十周年快闪展在厦门跨境电商产业园亮相。这不是一场普通的品牌秀，而是Shopee把“运营中心+产业带+本地化服务”三层能力，一次性摊开给福建及周边卖家看。 对做东南亚、拉美市场的...AMZDH获悉，8月3日至9日，Shopee跨境十周年快闪展在厦门跨境电商产业园亮相。这不是一场普通的品牌秀，而是Shopee把“运营中心+产业带+本地化服务”三层能力，一次性摊开给福建及周边卖家看。 对做东南亚、拉美市场的..."
-},
-{
-"id": "a0c10f30e7dd6bc66ca4ef6ef0bd1e33dd3079ac",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "重磅！TikTok Shop 泰国本土店新政：个人卖家禁止售卖二手商品！",
-"url": "https://www.amzdh.com/kjtt/10242.html",
-"published_at": null,
-"first_seen_at": "2026-08-04T01:13:18.819794Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
+"亚马逊",
 "卖家",
 "卖家"
 ],
 "cross_platforms": [
-"tiktok shop"
+"亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "重磅！TikTok Shop 泰国本土店新政：个人卖家禁止售卖二手商品！"
+"title_zh": "关于卖家对标题新规的疑惑，亚马逊做了答复"
 },
 {
-"id": "9b1e264860cc8d7f20e9572eb301cec4df26da63",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，做TikTok Shop泰国本土二手生意的卖家注意！平台新政已经落地，自 2026年7月31日正式执行。简单一句话总结：二手商品不再允许个人卖家经营，只开放给企业法人店铺。还在用个人店卖二手包、手表、二手数码...AMZDH获悉，做TikTok Shop泰国本土二手生意的卖家注意！平台新政已经落地，自 2026年7月31日正式执行。简单一句话总结：二手商品不再允许个人卖家经营，只开放给企业法人店铺。还在用个人店卖二手包、手表、二手数码...",
-"url": "https://www.amzdh.com/kjtt/10242.html",
+"id": "f5c822082279d075b296a45bca2bd9b797b70d65",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "欧盟新规来袭！跨境卖家常用AI玩法，将迎来大变天",
+"url": "https://www.cifnews.com/article/187855",
 "published_at": null,
-"first_seen_at": "2026-08-04T01:13:18.819794Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
-"cross_score": 0.62,
+"cross_score": 0.84,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "欧盟新规来袭！跨境卖家常用AI玩法，将迎来大变天"
+},
+{
+"id": "a4dcf932063821cc746bcd8ae84b252292bd9119",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "4年技术慢跑，1年登顶亚马逊第一，昂听ELEHEAR的出海“快慢”哲学|“新”卖家故事⑧",
+"url": "https://www.cifnews.com/article/187653",
+"published_at": null,
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"cross_is_related": true,
+"cross_score": 0.8,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"tiktok shop",
+"亚马逊",
 "卖家",
-"卖家",
-"店铺"
+"卖家"
 ],
 "cross_platforms": [
-"tiktok shop"
+"亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "AMZDH获悉，做TikTok Shop泰国本土二手生意的卖家注意！平台新政已经落地，自 2026年7月31日正式执行。简单一句话总结：二手商品不再允许个人卖家经营，只开放给企业法人店铺。还在用个人店卖二手包、手表、二手数码...AMZDH获悉，做TikTok Shop泰国本土二手生意的卖家注意！平台新政已经落地，自 2026年7月31日正式执行。简单一句话总结：二手商品不再允许个人卖家经营，只开放给企业法人店铺。还在用个人店卖二手包、手表、二手数码..."
+"title_zh": "4年技术慢跑，1年登顶亚马逊第一，昂听ELEHEAR的出海“快慢”哲学|“新”卖家故事⑧"
+},
+{
+"id": "f29b0a514653f674ecc308284c4f65bae65218fc",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊官宣：“标杆新卖家孵化计划”重磅上线，要批量培养亿级新大卖",
+"url": "https://www.cifnews.com/article/187856",
+"published_at": null,
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊官宣：“标杆新卖家孵化计划”重磅上线，要批量培养亿级新大卖"
+},
+{
+"id": "3d6764c1b1114e39fd451fd5d9ab6c3ca1c065de",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "现金流预警！亚马逊8月1日新规即将生效",
+"url": "https://www.cifnews.com/article/187848",
+"published_at": null,
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "现金流预警！亚马逊8月1日新规即将生效"
+},
+{
+"id": "633eef8948907b8fe6fd230019e77d994fc1a87a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "发布“亚马逊全球开店华西产业带联合赋能计划”，推动“四川经验”辐射西部十省市",
+"url": "https://www.cifnews.com/article/187851",
+"published_at": null,
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"全球开店"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "发布“亚马逊全球开店华西产业带联合赋能计划”，推动“四川经验”辐射西部十省市"
 },
 {
 "id": "bd34ec7c7618a1dc2630605fe948fcccadb0b4a6",
@@ -167,7 +209,7 @@
 "url": "https://www.amzdh.com/kjtt/10241.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -185,59 +227,73 @@
 "title_zh": "AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完...AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完..."
 },
 {
-"id": "718eeaaecb8de684f205a3b0aefdd8ef12938457",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，自2026年8月1日开始，印尼 Shopee、Tokopedia、Lazada、Blibli 四大主流电商平台，正式实施PPh 22 第 22 条所得税平台代扣政策。简单来说：平台会直接从卖家总营业额里扣除0.5% 作为所得税。划重点：这笔...AMZDH获悉，自2026年8月1日开始，印尼 Shopee、Tokopedia、Lazada、Blibli 四大主流电商平台，正式实施PPh 22 第 22 条所得税平台代扣政策。简单来说：平台会直接从卖家总营业额里扣除0.5% 作为所得税。划重点：这笔...",
-"url": "https://www.amzdh.com/kjtt/10240.html",
+"id": "7102a32fb0de098a3dd0d84f2e42943971f5fcfc",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "华人海外仓又被查！超5万件商品被扣",
+"url": "https://www.cifnews.com/article/187883",
 "published_at": null,
-"first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"first_seen_at": "2026-08-04T00:40:28.408089Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
+"cross_score": 0.64,
+"cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"lazada",
-"shopee",
-"卖家",
-"卖家",
-"电商",
-"电商平台",
-"政策"
+"海外仓"
 ],
-"cross_platforms": [
-"lazada",
-"shopee"
-],
+"cross_platforms": [],
 "cross_sites": [],
-"title_zh": "AMZDH获悉，自2026年8月1日开始，印尼 Shopee、Tokopedia、Lazada、Blibli 四大主流电商平台，正式实施PPh 22 第 22 条所得税平台代扣政策。简单来说：平台会直接从卖家总营业额里扣除0.5% 作为所得税。划重点：这笔...AMZDH获悉，自2026年8月1日开始，印尼 Shopee、Tokopedia、Lazada、Blibli 四大主流电商平台，正式实施PPh 22 第 22 条所得税平台代扣政策。简单来说：平台会直接从卖家总营业额里扣除0.5% 作为所得税。划重点：这笔..."
+"title_zh": "华人海外仓又被查！超5万件商品被扣"
 },
 {
-"id": "c920f3971fa5ad9fed6bfd0addde7a71027b6521",
+"id": "69029aa5ed7980d98867366ce2205751ac7428c5",
 "site_id": "ennews",
 "site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "TikTok Shop日本推\"SOAR Together\"计划",
-"url": "https://www.ennews.com/news-140958.html",
+"title": "泰国拟推平台连带责任新政，电商平台须为卖家行为“买单”",
+"url": "https://www.ennews.com/news-140979.html",
 "published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"first_seen_at": "2026-08-04T02:06:11.515496Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "tiktok",
+"cross_score": 0.75,
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"tiktok shop"
+"卖家",
+"卖家",
+"电商",
+"电商平台"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "泰国拟推平台连带责任新政，电商平台须为卖家行为“买单”"
+},
+{
+"id": "a6d690c8e95c9fb7eef9dfe1bab0d9a4092e1023",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊、沃尔玛被指产品原产地标签造假，但未主动处理",
+"url": "https://www.ennews.com/news-140998.html",
+"published_at": "2026-08-04T00:00:00Z",
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"沃尔玛"
 ],
 "cross_platforms": [
-"tiktok shop"
+"亚马逊"
 ],
-"cross_sites": [
-"jp"
-],
-"title_zh": "TikTok Shop日本推\"SOAR Together\"计划"
+"cross_sites": [],
+"title_zh": "亚马逊、沃尔玛被指产品原产地标签造假，但未主动处理"
 },
 {
 "id": "ed710db1b424c0a2cdf7846e5ca1df0dc2e6b9c0",
@@ -250,7 +306,7 @@
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
 "last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
-"cross_score": 0.64,
+"cross_score": 0.67,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -272,7 +328,7 @@
 "first_seen_at": "2026-08-04T01:18:17.435574Z",
 "last_seen_at": "2026-08-04T01:18:17.435574Z",
 "cross_is_related": true,
-"cross_score": 0.64,
+"cross_score": 0.67,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -283,6 +339,29 @@
 "title_zh": "跨境“假发第一股”瑞贝卡爆雷，因财务造假被ST"
 },
 {
+"id": "fad00e8c70563ec2adc0c47ee334f4a63b6cf8f4",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "家乐福入驻亚马逊巴西站上线1300款商品",
+"url": "https://www.ennews.com/news-140996.html",
+"published_at": "2026-08-04T00:00:00Z",
+"first_seen_at": "2026-08-04T02:34:46.826944Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "家乐福入驻亚马逊巴西站上线1300款商品"
+},
+{
 "id": "3183f5935ba4d4bd05fc1b78ff6863be9061ed18",
 "site_id": "channelx",
 "site_name": "ChannelX",
@@ -291,7 +370,7 @@
 "url": "https://channelx.world/2026/08/argos-marketplace-goes-live-with-80-sellers",
 "published_at": "2026-08-03T10:52:39Z",
 "first_seen_at": "2026-08-04T00:40:28.408089Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -304,29 +383,34 @@
 "title_zh": "Argos Marketplace上线，有80个卖家"
 },
 {
-"id": "94f5b506eeb737ddd9f9dab690ae2e29292a63af",
+"id": "8da5a8eee2131595fb9f4da2e3475516b596510e",
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "source": "跨境头条",
-"title": "重磅，亚马逊跟卖入口或将取消，Amazon跟卖入口灰度测试",
-"url": "https://www.amzdh.com/kjtt/10239.html",
+"title": "不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...",
+"url": "https://www.amzdh.com/kjtt/10231.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T00:40:28.408089Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
+"cross_score": 0.9,
+"cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"amazon",
-"亚马逊"
+"fba",
+"亚马逊",
+"卖家",
+"卖家",
+"退货",
+"仓储",
+"物流"
 ],
 "cross_platforms": [
-"amazon",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [],
-"title_zh": "重磅，亚马逊跟卖入口或将取消，Amazon跟卖入口灰度测试"
+"title_zh": "不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级..."
 },
 {
 "id": "a066a187d52e843387d980f62087d52b18ee36eb",
@@ -337,9 +421,9 @@
 "url": "https://www.amzdh.com/kjtt/10239.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.78,
 "cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -350,34 +434,58 @@
 "卖家"
 ],
 "cross_platforms": [
-"amazon",
-"亚马逊"
+"亚马逊",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。...AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。..."
 },
 {
-"id": "082cdb6f1e7ab44b94738d19345ec9e5d9f397ae",
+"id": "698fd79105e155b88a58582f2068bfc3356e30f9",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "上架即出单，首周即售罄：两个中国卖家的eMAG\"开张\"故事",
+"url": "https://www.cifnews.com/article/187871",
+"published_at": null,
+"first_seen_at": "2026-08-03T04:22:33.668996Z",
+"last_seen_at": "2026-08-04T02:06:11.515496Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "上架即出单，首周即售罄：两个中国卖家的eMAG\"开张\"故事"
+},
+{
+"id": "94f5b506eeb737ddd9f9dab690ae2e29292a63af",
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "source": "跨境头条",
-"title": "SHEIN第三方平台业务占比已达14.3%，2025年净收入达321亿美元",
-"url": "https://www.amzdh.com/kjtt/10238.html",
+"title": "重磅，亚马逊跟卖入口或将取消，Amazon跟卖入口灰度测试",
+"url": "https://www.amzdh.com/kjtt/10239.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.63,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"shein"
+"amazon",
+"亚马逊"
 ],
 "cross_platforms": [
-"shein"
+"亚马逊",
+"amazon"
 ],
 "cross_sites": [],
-"title_zh": "SHEIN第三方平台业务占比已达14.3%，2025年净收入达321亿美元"
+"title_zh": "重磅，亚马逊跟卖入口或将取消，Amazon跟卖入口灰度测试"
 },
 {
 "id": "047cbda318b1df792200b7b2a30eb41ec3fa7285",
@@ -388,7 +496,7 @@
 "url": "https://www.amzdh.com/kjtt/10237.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -404,56 +512,6 @@
 "title_zh": "Facebook Marketplace拆出独立卖家App“Seller”"
 },
 {
-"id": "30135809f6e25e8b31aaa261f3d99ec8ac36dd1c",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Shopee硬刚亚马逊：巴西1亿网购用户，决战“送货快慢”",
-"url": "https://www.amzdh.com/kjtt/10236.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee",
-"亚马逊"
-],
-"cross_platforms": [
-"shopee",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "Shopee硬刚亚马逊：巴西1亿网购用户，决战“送货快慢”"
-},
-{
-"id": "09fe30a03052f309630a9bea798113065adb68af",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "巴西有2亿人口、近1亿网购用户，是拉美最大电商市场。以前大家抢这块蛋糕，靠的是低价、发券、买流量。现在规则变了——谁送货快、谁履约稳，谁拿用户。一、Shopee在巴西猛建仓 2026年，Shopee在巴西要新开10个配送中...巴西有2亿人口、近1亿网购用户，是拉美最大电商市场。以前大家抢这块蛋糕，靠的是低价、发券、买流量。现在规则变了——谁送货快、谁履约稳，谁拿用户。一、Shopee在巴西猛建仓 2026年，Shopee在巴西要新开10个配送中...",
-"url": "https://www.amzdh.com/kjtt/10236.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee",
-"流量",
-"电商"
-],
-"cross_platforms": [
-"shopee"
-],
-"cross_sites": [],
-"title_zh": "巴西有2亿人口、近1亿网购用户，是拉美最大电商市场。以前大家抢这块蛋糕，靠的是低价、发券、买流量。现在规则变了——谁送货快、谁履约稳，谁拿用户。一、Shopee在巴西猛建仓 2026年，Shopee在巴西要新开10个配送中...巴西有2亿人口、近1亿网购用户，是拉美最大电商市场。以前大家抢这块蛋糕，靠的是低价、发券、买流量。现在规则变了——谁送货快、谁履约稳，谁拿用户。一、Shopee在巴西猛建仓 2026年，Shopee在巴西要新开10个配送中..."
-},
-{
 "id": "c99942ef479f00c26854ae0fd9979aa8753d435f",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -462,7 +520,7 @@
 "url": "https://www.amzdh.com/kjtt/10235.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -478,52 +536,29 @@
 "title_zh": "过去，一件深圳生产的蓝牙耳机卖到加德满都，要过进口商、批发商、分销商三四道手，价格翻一倍、到货看运气。7月29日，尼泊尔跨境圈发生了一件值得中国卖家盯紧的事——Chynabazar.com 在加德满都谷地正式上线，打出...过去，一件深圳生产的蓝牙耳机卖到加德满都，要过进口商、批发商、分销商三四道手，价格翻一倍、到货看运气。7月29日，尼泊尔跨境圈发生了一件值得中国卖家盯紧的事——Chynabazar.com 在加德满都谷地正式上线，打出..."
 },
 {
-"id": "5a8a719ef724649d7b1bda62812d1bea97126e74",
+"id": "30135809f6e25e8b31aaa261f3d99ec8ac36dd1c",
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "source": "跨境头条",
-"title": "美集体诉讼炸锅：谷歌被控把用户数据“喂”给Temu、百度",
-"url": "https://www.amzdh.com/kjtt/10234.html",
+"title": "Shopee硬刚亚马逊：巴西1亿网购用户，决战“送货快慢”",
+"url": "https://www.amzdh.com/kjtt/10236.html",
 "published_at": null,
 "first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
+"last_seen_at": "2026-08-04T02:34:46.826944Z",
 "cross_is_related": true,
 "cross_score": 0.6,
-"cross_label": "temu",
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"temu"
+"shopee",
+"亚马逊"
 ],
 "cross_platforms": [
-"temu"
+"亚马逊",
+"shopee"
 ],
 "cross_sites": [],
-"title_zh": "美集体诉讼炸锅：谷歌被控把用户数据“喂”给Temu、百度"
-},
-{
-"id": "a1f5e900ada8b4cc7c26f62902d3bb54e2a13b5a",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "美国消费者在加州发起集体诉讼，指控Google 通过广告技术栈，把美国用户的 IP、设备 ID、浏览参数等数据，传给了 Temu（拼多多系）和百度（MediaGo）等中国背景平台，涉嫌违反美国《批量敏感数据规则》（BSDR）与加州...美国消费者在加州发起集体诉讼，指控Google 通过广告技术栈，把美国用户的 IP、设备 ID、浏览参数等数据，传给了 Temu（拼多多系）和百度（MediaGo）等中国背景平台，涉嫌违反美国《批量敏感数据规则》（BSDR）与加州...",
-"url": "https://www.amzdh.com/kjtt/10234.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu"
-],
-"cross_platforms": [
-"temu"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国消费者在加州发起集体诉讼，指控Google 通过广告技术栈，把美国用户的 IP、设备 ID、浏览参数等数据，传给了 Temu（拼多多系）和百度（MediaGo）等中国背景平台，涉嫌违反美国《批量敏感数据规则》（BSDR）与加州...美国消费者在加州发起集体诉讼，指控Google 通过广告技术栈，把美国用户的 IP、设备 ID、浏览参数等数据，传给了 Temu（拼多多系）和百度（MediaGo）等中国背景平台，涉嫌违反美国《批量敏感数据规则》（BSDR）与加州..."
+"title_zh": "Shopee硬刚亚马逊：巴西1亿网购用户，决战“送货快慢”"
 },
 {
 "id": "87942f654c3cee166e72ee9a9081655121e5c038",
@@ -548,59 +583,6 @@
 ],
 "cross_sites": [],
 "title_zh": "7月18日深夜，Wildberries（WB/野莓）莫斯科州埃列克特罗斯塔利（25万㎡）与坦波夫州科托夫斯克（10.8万㎡）两座超级物流仓被无人机击中起火，燃烧超48小时。8死86伤，约7%物流产能短期瘫痪，仓内损毁商品估值各界测...7月18日深夜，Wildberries（WB/野莓）莫斯科州埃列克特罗斯塔利（25万㎡）与坦波夫州科托夫斯克（10.8万㎡）两座超级物流仓被无人机击中起火，燃烧超48小时。8死86伤，约7%物流产能短期瘫痪，仓内损毁商品估值各界测..."
-},
-{
-"id": "0dd668441c7e1d65ff2d57bc78ad1d4b6b94b26d",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "重磅提醒｜亚马逊NSP新品计划史上最大升级！",
-"url": "https://www.amzdh.com/kjtt/10231.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T00:40:28.408089Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "重磅提醒｜亚马逊NSP新品计划史上最大升级！"
-},
-{
-"id": "8da5a8eee2131595fb9f4da2e3475516b596510e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...",
-"url": "https://www.amzdh.com/kjtt/10231.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T00:40:28.408089Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊",
-"卖家",
-"卖家",
-"退货",
-"仓储",
-"物流"
-],
-"cross_platforms": [
-"fba",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级..."
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"

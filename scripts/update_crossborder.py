@@ -147,6 +147,20 @@ def maybe_fix_mojibake(text: str) -> str:
     return s
 
 
+def parse_html(resp: requests.Response) -> BeautifulSoup:
+    """按响应字节的真实编码解析HTML，避免中文乱码。
+
+    某些站点（如 cifnews 雨果跨境）响应头不带 charset，requests 默认按
+    ISO-8859-1 解码 resp.text，导致中文标题乱码（UTF-8 被双读），
+    进而影响打分关键词匹配。用 resp.content + apparent_encoding 修复。
+    """
+    encoding = resp.apparent_encoding or "utf-8"
+    try:
+        return BeautifulSoup(resp.content, "html.parser", from_encoding=encoding)
+    except Exception:
+        return BeautifulSoup(resp.text, "html.parser")
+
+
 def make_item_id(site_id: str, source: str, title: str, url: str) -> str:
     key = "||".join([
         site_id.strip().lower(),
@@ -423,7 +437,7 @@ def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
         try:
             resp = session.get("https://www.amz123.com/kx", timeout=15)
             resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
+            soup = parse_html(resp)
             for a in soup.find_all("a", href=True):
                 title = a.get_text(strip=True)
                 href = a["href"]
@@ -454,7 +468,7 @@ def fetch_amzdh(session: requests.Session, now: datetime) -> list[RawItem]:
         try:
             resp = session.get("https://www.amzdh.com/kjtt/", timeout=15)
             resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
+            soup = parse_html(resp)
             for a in soup.find_all("a", href=True):
                 title = a.get_text(strip=True)
                 href = a["href"]
@@ -485,7 +499,7 @@ def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
         try:
             resp = session.get("https://www.cifnews.com/", timeout=15)
             resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
+            soup = parse_html(resp)
             for a in soup.find_all("a", href=True):
                 title = a.get_text(strip=True)
                 href = a["href"]
@@ -516,7 +530,7 @@ def fetch_kjds365(session: requests.Session, now: datetime) -> list[RawItem]:
         try:
             resp = session.get("https://kjds365.cn/", timeout=15)
             resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
+            soup = parse_html(resp)
             for a in soup.find_all("a", href=True):
                 title = a.get_text(strip=True)
                 href = a["href"]
@@ -547,7 +561,7 @@ def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem
         try:
             resp = session.get("https://gs.amazon.cn/news", timeout=15)
             resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
+            soup = parse_html(resp)
             for a in soup.find_all("a", href=True):
                 title = a.get_text(strip=True)
                 href = a["href"]
@@ -577,7 +591,7 @@ def fetch_ecomengine(session: requests.Session, now: datetime) -> list[RawItem]:
     try:
         resp = session.get("https://www.ecomengine.com/amazon-seller-news", timeout=15)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = parse_html(resp)
         for a in soup.find_all("a", href=True):
             title = a.get_text(strip=True)
             href = a["href"]
@@ -619,7 +633,7 @@ def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[Ra
     try:
         resp = session.get("https://marketplacepulse.com/articles", timeout=15)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = parse_html(resp)
         for a in soup.find_all("a", href=True):
             title = a.get_text(strip=True)
             href = a["href"]
@@ -663,7 +677,7 @@ def fetch_tophub_crossborder(session: requests.Session, now: datetime) -> list[R
     try:
         resp = session.get("https://tophub.today/", timeout=15)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = parse_html(resp)
         for a in soup.find_all("a", href=True):
             title = a.get_text(strip=True)
             href = a["href"]
