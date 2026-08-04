@@ -1183,6 +1183,20 @@ def main() -> int:
         item for item in scored_all
         if item.get("cross_is_related") and item.get("cross_score", 0) >= 0.60
     ]
+    # 单源上限：每个源最多贡献 N 条（2026-08-04新增，防聚合站垄断精选）
+    # 普通源 8 条；community 类源（知无不言等UGC论坛）限 5 条——求助帖非新闻，控制占比
+    items_cross.sort(key=lambda x: x.get("cross_score", 0), reverse=True)
+    community_site_ids = {s["site_id"] for s in BUILTIN_SOURCES if s.get("kind") == "community"}
+    per_site_count: dict[str, int] = {}
+    capped: list[dict[str, Any]] = []
+    for item in items_cross:
+        sid = str(item.get("site_id") or "unknown")
+        limit = 5 if sid in community_site_ids else 8
+        if per_site_count.get(sid, 0) >= limit:
+            continue
+        per_site_count[sid] = per_site_count.get(sid, 0) + 1
+        capped.append(item)
+    items_cross = capped
     items_all = dedupe_items(scored_all)
     items_cross_deduped = dedupe_items(items_cross)
 

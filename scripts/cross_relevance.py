@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import re
+from datetime import date, datetime, timezone
 from typing import Any
 
 # ──────────────────────────────────────────────────────────────
@@ -236,6 +237,17 @@ SELLER_RELEVANCE_KEYWORDS = [
     "vat", "关税", "tariff", "tax", "epr", "gpsr",
 ]
 
+# 运营卖家词：宏观新闻豁免/行动类加分的判断基准
+# （"关税/政策"这类词不算——特朗普关税诉讼不是运营内容）
+OPERATIONAL_SELLER_WORDS = [
+    "卖家", "seller", "listing", "asin", "fba", "fbm", "mcf",
+    "prime", "review", "feedback", "退货", "退款", "广告", "ppc",
+    "acos", "sponsored", "库存", "inventory", "补货", "发货",
+    "封号", "冻结", "受限", "suspension", "appeal", "申诉",
+    "选品", "上架", "品牌", "brand", "备案", "跟卖",
+    "配送费", "仓储费", "物流费", "佣金",
+]
+
 # Platform names that can appear in general corporate news
 PLATFORM_KEYWORDS = [
     "amazon", "亚马逊", "fba", "fbm", "prime",
@@ -297,6 +309,13 @@ NOISE_KEYWORDS = [
     "esg", "净零", "零碳", "生物多样", "社区服务",
 ]
 
+# 标题党/震惊体（聚合站标题党 ≠ 信息量大，命中则禁止保底抬分）
+CLICKBAIT_NOISE = [
+    "重磅", "炸了", "震惊", "慌了", "吓人", "恐怖",
+    "突发！", "紧急！", "注意！", "警惕", "小心", "避坑",
+    "卖家圈", "刷屏", "炸锅",
+]
+
 # 企业CSR内容（独立列表：命中且无卖家上下文 → 与宏观新闻同等级重罚）
 CSR_NOISE_KEYWORDS = [
     "节水", "补水", "水资源", "碳中和", "碳排放", "可持续发展",
@@ -318,7 +337,10 @@ MACRO_NOISE_KEYWORDS = [
     "集装箱吞吐", "港口吞吐", "货运量", "贸易额",
     "去工业化", "产业危机", "工业危机", "经济衰退",
     "自动驾驶", "新能源车", "智能驾驶",
-]
+    # 海外政治/诉讼（对卖家无操作价值，如特朗普关税诉讼）
+    "特朗普", "白宫", "国会", "大选", "联邦法院", "州政府",
+    "诉讼", "起诉", "集体诉讼", "投诉至", "抗议", "罢工",
+    ]
 
 # 企业财务/资本新闻（如"亚马逊市值破3万亿"，对卖家决策价值低，即使含平台词也降权）
 CORPORATE_FINANCE_NOISE = [
@@ -711,7 +733,8 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     # 注意：裸"英国/欧洲"不算卖家上下文——空客新闻含"英国"但对卖家无用
     macro_penalty = 0.0
     if matched_keywords(text, MACRO_NOISE_KEYWORDS):
-        has_seller_ctx = has_seller_relevance or has_platform or has_amazon
+        has_seller_ctx = (contains_any_keyword(text, OPERATIONAL_SELLER_WORDS)
+                          or has_platform or has_amazon)
         if not has_seller_ctx:
             macro_penalty = 0.30
 
@@ -733,9 +756,58 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
         score += 0.08 if not macro_penalty else 0.04  # EU: 高优先级（政策法规直接影响英国站卖家）
 
     if has_amazon:
-        score += 0.08
+        score += 0.12  # Amazon 是核心平台，权重最高（2026-08-04 从0.08提升）
         if has_uk:
             score += 0.05  # Amazon UK 叠加：同时提及"英国"+"亚马逊"额外加分
+
+    # 纯竞品平台降权：Temu/Shopee/SHEIN/TikTok Shop等竞品平台，无Amazon词 → -0.10
+    # （英国站Amazon卖家不关注竞品平台的泛新闻）
+    competitor_platforms = ["temu", "拼多多跨境", "shopee", "虾皮", "shein", "希音",
+                            "tiktok shop", "tiktok电商", "lazada", "速卖通",
+                            "aliexpress", "ebay", "walmart", "沃尔玛"]
+    if any(k in text for k in competitor_platforms) and not has_amazon:
+        score -= 0.10
+
+    # 决策价值分层：L1行动类内容（政策/合规截止/卖家行动）保底额外加分
+    # 对卖家：政策变更/合规截止/费用调整/封号冻结直接影响运营，必须置顶
+    l1_action_keywords = [
+        "政策", "政策变更", "新规", "规则", "合规", "compliance", "法规",
+        "截止", "deadline", "最后期限", "限期", "生效", "变更",
+        "费用", "费", "涨价", "上调", "调整", "佣金", "费率",
+        "封号", "冻结", "受限", "suspension", "appeal", "申诉",
+        "禁止", "取消", "收紧", "严查", "审核",
+        "ppwr", "gpsr", "epr", "ukca", "英代", "欧代",
+        "vat", "关税", "tariff", "tax",
+    ]
+    l1_hits = matched_keywords(text, l1_action_keywords)
+    l1_action = bool(l1_hits) and (contains_any_keyword(text, OPERATIONAL_SELLER_WORDS) or has_amazon)
+    if l1_action:
+        score += 0.08  # 行动类内容加权（2026-08-04新增：决策价值分层）
+
+    # 时效微调：24h窗口内 <6h 的新闻额外 +0.03（新闻雷达价值在"新"）
+    try:
+        pub = record.get("published_at")
+        pub_dt = None
+        if isinstance(pub, datetime):
+            pub_dt = pub
+        elif isinstance(pub, str) and pub:
+            for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d %H:%M:%S%z",
+                        "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"):
+                try:
+                    pub_dt = datetime.strptime(pub, fmt)
+                    break
+                except ValueError:
+                    continue
+        if pub_dt is not None and pub_dt.tzinfo is None:
+            pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+        if pub_dt is not None:
+            age_hours = (datetime.now(timezone.utc) - pub_dt).total_seconds() / 3600
+            if 0 <= age_hours < 6:
+                score += 0.03
+            elif age_hours >= 24:
+                score -= 0.05  # 超24h旧闻微降权
+    except Exception:
+        pass
 
     # 宏观新闻/企业CSR/财务新闻惩罚统一应用（在全部加分后扣减，避免被保底逻辑抵消）
     score -= (macro_penalty + csr_penalty + corp_penalty)
@@ -765,9 +837,13 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
         score -= 0.15
 
     # Ensure threshold for strong signals
-    # 注意：命中宏观/CSR/财务噪音或推广内容的条目不享受保底抬分（否则惩罚会被max()抵消）
+    # 注意：命中宏观/CSR/财务噪音、推广内容、标题党或竞品平台的条目不享受保底抬分
+    # （否则惩罚会被max()抵消）
     promo_hits = matched_keywords(text, PROMOTION_NOISE)
-    if macro_penalty == 0.0 and csr_penalty == 0.0 and corp_penalty == 0.0 and not promo_hits:
+    clickbait_hits = matched_keywords(text, CLICKBAIT_NOISE)
+    has_competitor = (any(k in text for k in competitor_platforms) and not has_amazon)
+    if (macro_penalty == 0.0 and csr_penalty == 0.0 and corp_penalty == 0.0
+            and not promo_hits and not clickbait_hits and not has_competitor):
         if has_cross:
             score = max(score, CROSS_RELEVANCE_THRESHOLD)
         elif has_en_signal and has_ecommerce:
