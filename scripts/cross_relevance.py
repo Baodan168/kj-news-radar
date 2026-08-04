@@ -291,6 +291,40 @@ NOISE_KEYWORDS = [
     "tv series",
     "特辑",
     "好莱坞",
+    # 企业CSR/泛商业内容（对卖家无决策价值，如亚马逊节水补水）
+    "节水", "补水", "水资源", "碳中和", "碳排放", "可持续发展",
+    "公益", "慈善", "员工福利", "企业文化", "环保奖", "绿色环保",
+    "esg", "净零", "零碳", "生物多样", "社区服务",
+]
+
+# 企业CSR内容（独立列表：命中且无卖家上下文 → 与宏观新闻同等级重罚）
+CSR_NOISE_KEYWORDS = [
+    "节水", "补水", "水资源", "碳中和", "碳排放", "可持续发展",
+    "公益", "慈善", "员工福利", "企业文化", "环保奖", "绿色环保",
+    "esg", "净零", "零碳", "生物多样", "社区服务",
+    # 英文标题（Amazon Newsroom等官方源用英文发布）
+    "water conservation", "replenishment", "sustainability",
+    "carbon neutral", "net zero", "wildfire", "communities",
+    "charitable", "philanthropy", "donation", "volunteer",
+    "climate", "environmental", "renewable energy",
+]
+
+# 宏观贸易/产业新闻（泛宏观，非卖家直接相关，命中则重罚）
+MACRO_NOISE_KEYWORDS = [
+    "贸易战", "关税战", "反倾销", "出口管制", "制裁",
+    "中欧贸易", "中美贸易", "逆差", "顺差",
+    "空客", "波音", "钢铁", "中钢协", "汽车产业", "工业产值",
+    "GDP", "通胀", "央行", "利率", "汇率", "股市", "美股",
+    "集装箱吞吐", "港口吞吐", "货运量", "贸易额",
+    "去工业化", "产业危机", "工业危机", "经济衰退",
+    "自动驾驶", "新能源车", "智能驾驶",
+]
+
+# 企业财务/资本新闻（如"亚马逊市值破3万亿"，对卖家决策价值低，即使含平台词也降权）
+CORPORATE_FINANCE_NOISE = [
+"市值", "财报", "营收", "利润", "股价", "估值",
+"上市", "IPO", "港交所", "纳斯达克", "纽交所",
+"融资", "并购", "收购", "募资", "融资额",
 ]
 
 # Domestic e-commerce noise (not cross-border focused)
@@ -453,15 +487,42 @@ CROSS_RELEVANCE_THRESHOLD = 0.60  # 2026-07-10 从0.65降至0.60以扩大入选�
 
 
 def contains_any_keyword(haystack: str, keywords: list[str]) -> bool:
-    """Check if any keyword appears in the haystack (case-insensitive)."""
+    """Check if any keyword appears in the haystack (case-insensitive).
+
+    英文纯字母关键词用词边界匹配（避免 vat 误匹配 conservation 等子串）。
+    """
     h = haystack.lower()
-    return any(k in h for k in keywords)
+    for k in keywords:
+        kl = k.lower()
+        if not kl:
+            continue
+        if kl.isascii() and kl.replace(" ", "").isalpha():
+            if re.search(rf"(?<![a-z0-9]){re.escape(kl)}(?![a-z0-9])", h):
+                return True
+        elif kl in h:
+            return True
+    return False
 
 
 def matched_keywords(haystack: str, keywords: list[str]) -> list[str]:
-    """Return sorted list of unique keywords found in haystack."""
+    """Return sorted list of unique keywords found in haystack.
+
+    英文纯字母关键词用词边界匹配（避免 vat 误匹配 conservation 等子串），
+    中文/含空格短语用子串匹配。
+    """
     h = haystack.lower()
-    return sorted({k for k in keywords if k in h})
+    found = set()
+    for k in keywords:
+        kl = k.lower()
+        if not kl:
+            continue
+        if kl.isascii() and kl.replace(" ", "").isalpha():
+            # 英文词：词边界匹配（"vat" 不匹配 "conservation"）
+            if re.search(rf"(?<![a-z0-9]){re.escape(kl)}(?![a-z0-9])", h):
+                found.add(k)
+        elif kl in h:
+            found.add(k)
+    return sorted(found)
 
 
 def contains_meaningful_cross_signal(haystack: str) -> bool:
@@ -534,7 +595,9 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     source = str(record.get("source") or "")
     site_name = str(record.get("site_name") or "")
     url = str(record.get("url") or "")
-    text = f"{title} {source} {site_name} {url}".lower()
+    # 打分只基于标题！source/site_name 是来源元数据（如"跨境资讯"/"亿恩网"），
+    # 混入会导致所有条目自带"跨境"强信号+0.60保底（2026-08-04修复）
+    text = title.lower()
 
     # Gather signals
     cross_signals = matched_keywords(text, CROSS_KEYWORDS)
@@ -544,19 +607,22 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     all_good_signals = cross_signals + ecommerce_signals + policy_signals + logistics_signals
 
     noise = matched_keywords(text, NOISE_KEYWORDS) + matched_keywords(text, DOMESTIC_ECOMMERCE_NOISE) + matched_keywords(text, PROMOTION_NOISE)
+    macro_noise = matched_keywords(text, MACRO_NOISE_KEYWORDS) + matched_keywords(text, CSR_NOISE_KEYWORDS)
     source_prior = SOURCE_PRIORS.get(site_id, 0.0)
 
     # ── Analyze signal strength ────────────────────────────────
     has_cross = contains_meaningful_cross_signal(text)
     has_ecommerce = contains_any_keyword(text, ECOMMERCE_KEYWORDS)
     has_en_signal = EN_SIGNAL_RE.search(text) is not None
+    # 政策/物流信号（关税/邮政/法规等对卖家有直接影响的词）
+    has_policy_logistics = bool(policy_signals or logistics_signals)
 
     # Seller-relevance penalty: if platform keyword present but no seller-relevance keyword
     has_platform = contains_any_keyword(text, PLATFORM_KEYWORDS)
     has_seller_relevance = contains_any_keyword(text, SELLER_RELEVANCE_KEYWORDS)
 
     # ── No signal at all ───────────────────────────────────────
-    if not (has_cross or has_ecommerce or has_en_signal):
+    if not (has_cross or has_ecommerce or has_en_signal or has_policy_logistics):
         return _result(
             is_cross_related=False,
             score=source_prior + (0.15 if has_ecommerce else 0.0),
@@ -594,6 +660,8 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     # Base score from signal type
     if has_cross:
         base = 0.50
+    elif has_policy_logistics:
+        base = 0.35  # 政策/物流信号（关税/邮政/法规等）中等基础分
     elif has_en_signal:
         base = 0.40
     else:
@@ -634,18 +702,43 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
                    "德国站", "法国站", "意大利站", "西班牙站", "荷兰站"]
     has_eu = any(k in text for k in eu_keywords)
 
-    if has_uk:
-        score += 0.12  # UK-specific: 最高优先级
-    elif has_eu:
-        score += 0.08  # EU: 高优先级（政策法规直接影响英国站卖家）
-
-    # Amazon platform boost (亚马逊是核心平台)
+    # Amazon platform boost (亚马逊是核心平台) — 提前定义供宏观惩罚判断
     amazon_keywords = ["亚马逊", "amazon", "fba", "fbm", "prime", "seller central"]
     has_amazon = any(k in text for k in amazon_keywords)
+
+    # 宏观新闻/企业CSR重罚：命中宏观词 且 无卖家/平台/Amazon上下文 → -0.30
+    # （如空客和解/中欧贸易战/去工业化等对卖家无决策价值的宏观新闻）
+    # 注意：裸"英国/欧洲"不算卖家上下文——空客新闻含"英国"但对卖家无用
+    macro_penalty = 0.0
+    if matched_keywords(text, MACRO_NOISE_KEYWORDS):
+        has_seller_ctx = has_seller_relevance or has_platform or has_amazon
+        if not has_seller_ctx:
+            macro_penalty = 0.30
+
+    # 企业CSR内容：即使含平台词（如"亚马逊节水补水"）也重罚，除非有卖家词
+    csr_penalty = 0.0
+    if matched_keywords(text, CSR_NOISE_KEYWORDS) and not has_seller_relevance:
+        csr_penalty = 0.30
+
+    # 企业财务/资本新闻（市值/财报/IPO等）：即使含平台词也降权，除非有卖家词
+    # 例："亚马逊市值首次突破3万亿美元"——含"亚马逊"但非卖家决策内容
+    corp_penalty = 0.0
+    if matched_keywords(text, CORPORATE_FINANCE_NOISE) and not has_seller_relevance:
+        corp_penalty = 0.15
+
+    # 宏观新闻背景下 UK/EU boost 减半（"中欧贸易战重创欧洲工业"不该靠"欧洲"拿高分）
+    if has_uk:
+        score += 0.12 if not macro_penalty else 0.06  # UK-specific: 最高优先级
+    elif has_eu:
+        score += 0.08 if not macro_penalty else 0.04  # EU: 高优先级（政策法规直接影响英国站卖家）
+
     if has_amazon:
         score += 0.08
         if has_uk:
             score += 0.05  # Amazon UK 叠加：同时提及"英国"+"亚马逊"额外加分
+
+    # 宏观新闻/企业CSR/财务新闻惩罚统一应用（在全部加分后扣减，避免被保底逻辑抵消）
+    score -= (macro_penalty + csr_penalty + corp_penalty)
 
     # UK/EU compliance boost (合规政策对于英国站卖家是高优先级)
     compliance_keywords = ["ppwr", "gpsr", "epr", "ukca", "ce marking", "英代", "欧代"]
@@ -672,10 +765,16 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
         score -= 0.15
 
     # Ensure threshold for strong signals
-    if has_cross:
-        score = max(score, CROSS_RELEVANCE_THRESHOLD)
-    elif has_en_signal and has_ecommerce:
-        score = max(score, CROSS_RELEVANCE_THRESHOLD)
+    # 注意：命中宏观/CSR/财务噪音或推广内容的条目不享受保底抬分（否则惩罚会被max()抵消）
+    promo_hits = matched_keywords(text, PROMOTION_NOISE)
+    if macro_penalty == 0.0 and csr_penalty == 0.0 and corp_penalty == 0.0 and not promo_hits:
+        if has_cross:
+            score = max(score, CROSS_RELEVANCE_THRESHOLD)
+        elif has_en_signal and has_ecommerce:
+            score = max(score, CROSS_RELEVANCE_THRESHOLD)
+        elif has_policy_logistics and (has_uk or has_eu):
+            # 政策/物流信号 + UK/EU上下文 → 允许过线（如皇家邮政关税提醒）
+            score = max(score, CROSS_RELEVANCE_THRESHOLD)
 
     return _result(
         is_cross_related=True,

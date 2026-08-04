@@ -69,7 +69,24 @@ def parse_iso(dt_str: str | None) -> datetime | None:
         return None
     if not dt.tzinfo:
         dt = dt.replace(tzinfo=UTC)
-    return dt.astimezone(UTC)
+    dt = dt.astimezone(UTC)
+    # 防御：源RSS pubDate格式异常（如 ennews "32, 04 Aug 2026" 被dateutil解析为2032年）
+    # 未来时间戳会让24h窗口过滤失效，archive历史条目每天全量复活
+    if dt.year > utc_now().year:
+        # 尝试提取 "04 Aug 2026" 标准部分重新解析
+        m = re.search(r"\b(\d{1,2})\s+([A-Za-z]{3,9})\s+(\d{4})\b", dt_str)
+        if m:
+            try:
+                dt2 = dtparser.parse(f"{m.group(1)} {m.group(2)} {m.group(3)}")
+                if not dt2.tzinfo:
+                    dt2 = dt2.replace(tzinfo=UTC)
+                dt2 = dt2.astimezone(UTC)
+                if dt2.year <= utc_now().year:
+                    return dt2
+            except Exception:
+                pass
+        return None
+    return dt
 
 
 def normalize_url(raw_url: str) -> str:
@@ -1160,7 +1177,12 @@ def main() -> int:
 
     # 打分
     scored_all = [add_cross_relevance_fields(item) for item in latest_items_all_raw]
-    items_cross = [item for item in scored_all if item.get("cross_is_related")]
+    # 过滤：跨境相关 且 分数达到阈值（is_cross_related 布尔 ≠ 分数达标，
+    # 2026-08-04修复：此前只过滤布尔导致0.42/0.49等低分条目混入数据流）
+    items_cross = [
+        item for item in scored_all
+        if item.get("cross_is_related") and item.get("cross_score", 0) >= 0.60
+    ]
     items_all = dedupe_items(scored_all)
     items_cross_deduped = dedupe_items(items_cross)
 
