@@ -1,27 +1,33 @@
 {
-"generated_at": "2026-08-05T00:40:37.764701Z",
+"generated_at": "2026-08-05T03:51:24.289149Z",
 "window_hours": 24,
-"total_items": 9,
-"total_items_cross_raw": 41,
-"total_items_raw": 57,
-"total_items_all_mode": 57,
+"total_items": 12,
+"total_items_cross_raw": 28,
+"total_items_raw": 50,
+"total_items_all_mode": 50,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1303,
+"archive_total": 1258,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "count": 8,
-"raw_count": 45
+"raw_count": 20
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 1,
-"raw_count": 8
+"count": 2,
+"raw_count": 10
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 2,
+"raw_count": 16
 },
 {
 "site_id": "amazon_newsroom",
@@ -44,218 +50,287 @@
 ],
 "items": [
 {
-"id": "8736a355824c0a201def69ed849f6693297936d9",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "关于卖家对标题新规的疑惑，亚马逊做了答复",
-"url": "https://www.cifnews.com/article/187853",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "关于卖家对标题新规的疑惑，亚马逊做了答复"
-},
-{
-"id": "f5c822082279d075b296a45bca2bd9b797b70d65",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "欧盟新规来袭！跨境卖家常用AI玩法，将迎来大变天",
-"url": "https://www.cifnews.com/article/187855",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟新规来袭！跨境卖家常用AI玩法，将迎来大变天"
-},
-{
-"id": "a4dcf932063821cc746bcd8ae84b252292bd9119",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "4年技术慢跑，1年登顶亚马逊第一，昂听ELEHEAR的出海“快慢”哲学|“新”卖家故事⑧",
-"url": "https://www.cifnews.com/article/187653",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-05T00:40:37.764701Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "4年技术慢跑，1年登顶亚马逊第一，昂听ELEHEAR的出海“快慢”哲学|“新”卖家故事⑧"
-},
-{
-"id": "f29b0a514653f674ecc308284c4f65bae65218fc",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊官宣：“标杆新卖家孵化计划”重磅上线，要批量培养亿级新大卖",
-"url": "https://www.cifnews.com/article/187856",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊官宣：“标杆新卖家孵化计划”重磅上线，要批量培养亿级新大卖"
-},
-{
-"id": "3d6764c1b1114e39fd451fd5d9ab6c3ca1c065de",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "现金流预警！亚马逊8月1日新规即将生效",
-"url": "https://www.cifnews.com/article/187848",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "现金流预警！亚马逊8月1日新规即将生效"
-},
-{
-"id": "633eef8948907b8fe6fd230019e77d994fc1a87a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "发布“亚马逊全球开店华西产业带联合赋能计划”，推动“四川经验”辐射西部十省市",
-"url": "https://www.cifnews.com/article/187851",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.65,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"全球开店"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "发布“亚马逊全球开店华西产业带联合赋能计划”，推动“四川经验”辐射西部十省市"
-},
-{
-"id": "8f489b2332cae1f2d7fcdfb0bfa1dac3bef2398f",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "二手奢侈品出海，从一条朋友圈开始……丨“新”卖家故事③",
-"url": "https://www.cifnews.com/article/187335",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-05T00:40:37.764701Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "二手奢侈品出海，从一条朋友圈开始……丨“新”卖家故事③"
-},
-{
-"id": "60527e1325e058053851e4ba6e586d5c72b5a154",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "华人海外仓又被查！超5万件商品被扣",
-"url": "https://www.cifnews.com/article/187883",
-"published_at": null,
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-05T00:40:37.764701Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"海外仓"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "华人海外仓又被查！超5万件商品被扣"
-},
-{
-"id": "bd34ec7c7618a1dc2630605fe948fcccadb0b4a6",
+"id": "606136f5e3e8ecb424785fd99deb9f660dda9516",
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "source": "跨境头条",
-"title": "AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完...AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完...",
-"url": "https://www.amzdh.com/kjtt/10241.html",
+"title": "AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚...AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚...",
+"url": "https://www.amzdh.com/kjtt/10245.html",
 "published_at": null,
-"first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-05T00:40:37.764701Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
+"cross_score": 0.7,
+"cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"wildberries",
-"卖家",
 "跨境",
-"卖家"
+"跨境物流",
+"快递",
+"物流",
+"货运"
+],
+"cross_platforms": [],
+"cross_sites": [
+"au"
+],
+"title_zh": "AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚...AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚..."
+},
+{
+"id": "94b0090be218edfac9585ef5c922019044276f9d",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "直降95%！野莓Wildberries入驻费砍到500元",
+"url": "https://www.amzdh.com/kjtt/10246.html",
+"published_at": null,
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
 ],
 "cross_platforms": [
 "wildberries"
 ],
 "cross_sites": [],
-"title_zh": "AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完...AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完..."
+"title_zh": "直降95%！野莓Wildberries入驻费砍到500元"
+},
+{
+"id": "e2951405c4388530b1a9717efe735159a9ad2439",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "深圳工厂卖智能眼镜，出货100万副、干到亚马逊第一",
+"url": "https://www.cifnews.com/article/187896",
+"published_at": null,
+"first_seen_at": "2026-08-05T00:40:37.764701Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "深圳工厂卖智能眼镜，出货100万副、干到亚马逊第一"
+},
+{
+"id": "4a37da918dae49c26210253ea4c2d1103bd4a482",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "3欧元关税掏空30%利润！低价冲量的时代还能撑多久？",
+"url": "https://www.cifnews.com/article/187901",
+"published_at": null,
+"first_seen_at": "2026-08-05T00:40:37.764701Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"关税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "3欧元关税掏空30%利润！低价冲量的时代还能撑多久？"
+},
+{
+"id": "721d6104166c0c17ff81447c1da3fcfa8aec05cf",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊推出AI图片翻译功能，自动转换商品图片文字",
+"url": "https://www.ennews.com/news-141117.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊推出AI图片翻译功能，自动转换商品图片文字"
+},
+{
+"id": "d0552974aa5130cac375c2ea072068f30428c688",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊加速美国网络扩张，纽约与德州新设施落地",
+"url": "https://www.ennews.com/news-141105.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊加速美国网络扩张，纽约与德州新设施落地"
+},
+{
+"id": "f84db850086f41a10d33eba13c60514db82be3e2",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "美国上诉法院推翻禁令，Perplexity购物代理获准重返亚马逊",
+"url": "https://www.ennews.com/news-141106.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国上诉法院推翻禁令，Perplexity购物代理获准重返亚马逊"
+},
+{
+"id": "ba18c332b27f5622d957a4a6623fc4e527cb1f8d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon白俄罗斯启动格罗德诺分拣中心",
+"url": "https://www.ennews.com/news-141113.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon白俄罗斯启动格罗德诺分拣中心"
+},
+{
+"id": "791ab5899666ac82842c8b913568672453fc0cdc",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon调整高价值商品配送策略以降低风险并平衡成本",
+"url": "https://www.ennews.com/news-141112.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon调整高价值商品配送策略以降低风险并平衡成本"
+},
+{
+"id": "50a0f623bb8a9ee82c5f3e986fe18462d335bdcf",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon数据：俄罗斯紧身服饰需求大涨",
+"url": "https://www.ennews.com/news-141111.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon数据：俄罗斯紧身服饰需求大涨"
+},
+{
+"id": "608fa46b756daa151b38fd3b567c6c8ae0ea7c7d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon推出AI购物助手，个性化推荐提升体验",
+"url": "https://www.ennews.com/news-141110.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon推出AI购物助手，个性化推荐提升体验"
+},
+{
+"id": "f5650740b78ffc6ea5fafd07384fbc273bd6d743",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "俄拟推税收延期及保险新政支持Wildberries受损商家",
+"url": "https://www.ennews.com/news-141109.html",
+"published_at": "2026-08-05T00:00:00Z",
+"first_seen_at": "2026-08-05T03:51:24.289149Z",
+"last_seen_at": "2026-08-05T03:51:24.289149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "俄拟推税收延期及保险新政支持Wildberries受损商家"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
