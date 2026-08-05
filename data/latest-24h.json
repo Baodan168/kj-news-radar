@@ -1,55 +1,43 @@
 {
-"generated_at": "2026-08-04T03:56:40.272287Z",
+"generated_at": "2026-08-05T00:40:37.764701Z",
 "window_hours": 24,
-"total_items": 25,
-"total_items_cross_raw": 70,
-"total_items_raw": 136,
-"total_items_all_mode": 136,
+"total_items": 9,
+"total_items_cross_raw": 41,
+"total_items_raw": 57,
+"total_items_all_mode": 57,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1263,
+"archive_total": 1303,
 "site_count": 16,
-"source_count": 6,
+"source_count": 5,
 "site_stats": [
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 39
+"raw_count": 45
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 8,
-"raw_count": 28
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 8,
-"raw_count": 61
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
 "count": 1,
-"raw_count": 3
+"raw_count": 8
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
+"count": 0,
+"raw_count": 1
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
 "count": 0,
 "raw_count": 2
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
-"count": 0,
-"raw_count": 2
-},
-{
-"site_id": "kjds365",
-"site_name": "跨境电商365",
 "count": 0,
 "raw_count": 1
 }
@@ -112,7 +100,7 @@
 "url": "https://www.cifnews.com/article/187653",
 "published_at": null,
 "first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
+"last_seen_at": "2026-08-05T00:40:37.764701Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -209,7 +197,7 @@
 "url": "https://www.cifnews.com/article/187335",
 "published_at": null,
 "first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
+"last_seen_at": "2026-08-05T00:40:37.764701Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -231,7 +219,7 @@
 "url": "https://www.cifnews.com/article/187883",
 "published_at": null,
 "first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
+"last_seen_at": "2026-08-05T00:40:37.764701Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "fee_logistics",
@@ -252,7 +240,7 @@
 "url": "https://www.amzdh.com/kjtt/10241.html",
 "published_at": null,
 "first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
+"last_seen_at": "2026-08-05T00:40:37.764701Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -268,388 +256,6 @@
 ],
 "cross_sites": [],
 "title_zh": "AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完...AMZDH获悉， 近期 Wildberries 多个仓库接连遭遇无人机袭击，不少跨境卖家、本土商家存放的货物受损，损失难以追偿。针对这一系列难题，俄罗斯电子商业联盟（ECU）正式出手，向俄工贸部与 Wildberries 平台递交一套完..."
-},
-{
-"id": "69029aa5ed7980d98867366ce2205751ac7428c5",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "泰国拟推平台连带责任新政，电商平台须为卖家行为“买单”",
-"url": "https://www.ennews.com/news-140979.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T02:06:11.515496Z",
-"last_seen_at": "2026-08-04T02:06:11.515496Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"电商平台"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "泰国拟推平台连带责任新政，电商平台须为卖家行为“买单”"
-},
-{
-"id": "edef6106999ef20f82fb108fd551ad8e1ac6b97e",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "2026年上半年义乌跨境电商总额达3240.93亿元",
-"url": "https://www.ennews.com/news-140999.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "2026年上半年义乌跨境电商总额达3240.93亿元"
-},
-{
-"id": "a6d690c8e95c9fb7eef9dfe1bab0d9a4092e1023",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊、沃尔玛被指产品原产地标签造假，但未主动处理",
-"url": "https://www.ennews.com/news-140998.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T02:38:38.613559Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"沃尔玛"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊、沃尔玛被指产品原产地标签造假，但未主动处理"
-},
-{
-"id": "ed710db1b424c0a2cdf7846e5ca1df0dc2e6b9c0",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Myntra发力西孟加拉邦，拟吸纳400家本土卖家",
-"url": "https://www.ennews.com/news-140957.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T01:08:38.162120Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Myntra发力西孟加拉邦，拟吸纳400家本土卖家"
-},
-{
-"id": "b95be60962cb71944d103dbb2f663ba17eec72e9",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "跨境“假发第一股”瑞贝卡爆雷，因财务造假被ST",
-"url": "https://www.ennews.com/news-140967.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T01:18:17.435574Z",
-"last_seen_at": "2026-08-04T01:18:17.435574Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨境“假发第一股”瑞贝卡爆雷，因财务造假被ST"
-},
-{
-"id": "fad00e8c70563ec2adc0c47ee334f4a63b6cf8f4",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "家乐福入驻亚马逊巴西站上线1300款商品",
-"url": "https://www.ennews.com/news-140996.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T02:38:38.613559Z",
-"last_seen_at": "2026-08-04T02:38:38.613559Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "家乐福入驻亚马逊巴西站上线1300款商品"
-},
-{
-"id": "5f274072319c76c7a134c12485b8ba2c81427f67",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Yandex Market 扩大退货政策",
-"url": "https://www.ennews.com/news-141016.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T03:56:40.272287Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"退货",
-"政策"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Yandex Market 扩大退货政策"
-},
-{
-"id": "54d710c4142444d4464b59af2c22625ed19f60ff",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "俄跨境网购占比仅3.4%，低价优势明显但面临增值税调整",
-"url": "https://www.ennews.com/news-141011.html",
-"published_at": "2026-08-04T00:00:00Z",
-"first_seen_at": "2026-08-04T03:56:40.272287Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"增值税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄跨境网购占比仅3.4%，低价优势明显但面临增值税调整"
-},
-{
-"id": "3183f5935ba4d4bd05fc1b78ff6863be9061ed18",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Argos Marketplace goes live with 80 sellers",
-"url": "https://channelx.world/2026/08/argos-marketplace-goes-live-with-80-sellers",
-"published_at": "2026-08-03T10:52:39Z",
-"first_seen_at": "2026-08-04T00:40:28.408089Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"marketplace"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Argos Marketplace上线，有80个卖家"
-},
-{
-"id": "8da5a8eee2131595fb9f4da2e3475516b596510e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...",
-"url": "https://www.amzdh.com/kjtt/10231.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T00:40:28.408089Z",
-"cross_is_related": true,
-"cross_score": 0.9,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊",
-"卖家",
-"卖家",
-"退货",
-"仓储",
-"物流"
-],
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [],
-"title_zh": "不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级...不少亚马逊卖家上新都有同款烦恼：新品刚发 FBA，仓储费、退货费、佣金、推广费接踵而来，试错 3 个月轻松烧掉上万美金，测款压力巨大。现在机会来了！AMZDH获悉，亚马逊物流新品入仓优惠计划（NSP）迎来史上最大升级..."
-},
-{
-"id": "a066a187d52e843387d980f62087d52b18ee36eb",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。...AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。...",
-"url": "https://www.amzdh.com/kjtt/10239.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"亚马逊",
-"卖家",
-"asin",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。...AMZDH获悉，最近几天，亚马逊卖家圈又炸了。不少卖家反馈：明明同一个 ASIN下还有多个第三方卖家在售，但商品详情页“加入购物车”下方那块熟悉的「Other Sellers on Amazon（亚马逊上的其他卖家）」，突然不显示了。..."
-},
-{
-"id": "94f5b506eeb737ddd9f9dab690ae2e29292a63af",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "重磅，亚马逊跟卖入口或将取消，Amazon跟卖入口灰度测试",
-"url": "https://www.amzdh.com/kjtt/10239.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "重磅，亚马逊跟卖入口或将取消，Amazon跟卖入口灰度测试"
-},
-{
-"id": "047cbda318b1df792200b7b2a30eb41ec3fa7285",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Facebook Marketplace拆出独立卖家App“Seller”",
-"url": "https://www.amzdh.com/kjtt/10237.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"marketplace",
-"seller",
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Facebook Marketplace拆出独立卖家App“Seller”"
-},
-{
-"id": "c99942ef479f00c26854ae0fd9979aa8753d435f",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "过去，一件深圳生产的蓝牙耳机卖到加德满都，要过进口商、批发商、分销商三四道手，价格翻一倍、到货看运气。7月29日，尼泊尔跨境圈发生了一件值得中国卖家盯紧的事——Chynabazar.com 在加德满都谷地正式上线，打出...过去，一件深圳生产的蓝牙耳机卖到加德满都，要过进口商、批发商、分销商三四道手，价格翻一倍、到货看运气。7月29日，尼泊尔跨境圈发生了一件值得中国卖家盯紧的事——Chynabazar.com 在加德满都谷地正式上线，打出...",
-"url": "https://www.amzdh.com/kjtt/10235.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家",
-"批发"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "过去，一件深圳生产的蓝牙耳机卖到加德满都，要过进口商、批发商、分销商三四道手，价格翻一倍、到货看运气。7月29日，尼泊尔跨境圈发生了一件值得中国卖家盯紧的事——Chynabazar.com 在加德满都谷地正式上线，打出...过去，一件深圳生产的蓝牙耳机卖到加德满都，要过进口商、批发商、分销商三四道手，价格翻一倍、到货看运气。7月29日，尼泊尔跨境圈发生了一件值得中国卖家盯紧的事——Chynabazar.com 在加德满都谷地正式上线，打出..."
-},
-{
-"id": "30135809f6e25e8b31aaa261f3d99ec8ac36dd1c",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Shopee硬刚亚马逊：巴西1亿网购用户，决战“送货快慢”",
-"url": "https://www.amzdh.com/kjtt/10236.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T03:56:40.272287Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee",
-"亚马逊"
-],
-"cross_platforms": [
-"shopee",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "Shopee硬刚亚马逊：巴西1亿网购用户，决战“送货快慢”"
-},
-{
-"id": "87942f654c3cee166e72ee9a9081655121e5c038",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "7月18日深夜，Wildberries（WB/野莓）莫斯科州埃列克特罗斯塔利（25万㎡）与坦波夫州科托夫斯克（10.8万㎡）两座超级物流仓被无人机击中起火，燃烧超48小时。8死86伤，约7%物流产能短期瘫痪，仓内损毁商品估值各界测...7月18日深夜，Wildberries（WB/野莓）莫斯科州埃列克特罗斯塔利（25万㎡）与坦波夫州科托夫斯克（10.8万㎡）两座超级物流仓被无人机击中起火，燃烧超48小时。8死86伤，约7%物流产能短期瘫痪，仓内损毁商品估值各界测...",
-"url": "https://www.amzdh.com/kjtt/10233.html",
-"published_at": null,
-"first_seen_at": "2026-08-03T04:22:33.668996Z",
-"last_seen_at": "2026-08-04T01:15:15.497160Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"物流"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "7月18日深夜，Wildberries（WB/野莓）莫斯科州埃列克特罗斯塔利（25万㎡）与坦波夫州科托夫斯克（10.8万㎡）两座超级物流仓被无人机击中起火，燃烧超48小时。8死86伤，约7%物流产能短期瘫痪，仓内损毁商品估值各界测...7月18日深夜，Wildberries（WB/野莓）莫斯科州埃列克特罗斯塔利（25万㎡）与坦波夫州科托夫斯克（10.8万㎡）两座超级物流仓被无人机击中起火，燃烧超48小时。8死86伤，约7%物流产能短期瘫痪，仓内损毁商品估值各界测..."
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
