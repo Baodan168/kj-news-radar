@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-08-06T00:41:13.075344Z",
+"generated_at": "2026-08-06T03:56:29.377901Z",
 "window_hours": 24,
-"total_items": 14,
-"total_items_cross_raw": 36,
-"total_items_raw": 61,
-"total_items_all_mode": 61,
+"total_items": 25,
+"total_items_cross_raw": 60,
+"total_items_raw": 99,
+"total_items_all_mode": 99,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1293,
+"archive_total": 1302,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
@@ -15,19 +15,25 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 39
+"raw_count": 56
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 2,
-"raw_count": 5
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 7,
+"raw_count": 20
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 2,
+"count": 4,
 "raw_count": 10
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 4,
+"raw_count": 6
 },
 {
 "site_id": "sp_api",
@@ -50,6 +56,273 @@
 ],
 "items": [
 {
+"id": "17c675e8c5940d7a33f64fe3d9f0c14d9d29a2da",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "跨境卖家务必及时自查，避免客诉与合规风险！做亚马逊欧洲站的卖家注意，AMZDH获悉，平台退货政策迎来重大调整，2026 年 9 月 1 日正式生效，不少类目退货时间从 30 天变为 14 天，FBA 和自配送全部受影响，千万别踩...跨境卖家务必及时自查，避免客诉与合规风险！做亚马逊欧洲站的卖家注意，AMZDH获悉，平台退货政策迎来重大调整，2026 年 9 月 1 日正式生效，不少类目退货时间从 30 天变为 14 天，FBA 和自配送全部受影响，千万别踩...",
+"url": "https://www.amzdh.com/kjtt/10251.html",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.98,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊",
+"卖家",
+"跨境",
+"卖家",
+"退货",
+"合规",
+"政策"
+],
+"cross_platforms": [
+"亚马逊",
+"fba"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "跨境卖家务必及时自查，避免客诉与合规风险！做亚马逊欧洲站的卖家注意，AMZDH获悉，平台退货政策迎来重大调整，2026 年 9 月 1 日正式生效，不少类目退货时间从 30 天变为 14 天，FBA 和自配送全部受影响，千万别踩...跨境卖家务必及时自查，避免客诉与合规风险！做亚马逊欧洲站的卖家注意，AMZDH获悉，平台退货政策迎来重大调整，2026 年 9 月 1 日正式生效，不少类目退货时间从 30 天变为 14 天，FBA 和自配送全部受影响，千万别踩..."
+},
+{
+"id": "4b0db50029acb10e6deab341ca6a4633c11fc68d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊卖家遭遇“银狐”木马钓鱼攻击 假冒律所邮件威胁店铺资金安全",
+"url": "https://www.amz123.com/kx/GKiifIWI",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家遭遇“银狐”木马钓鱼攻击 假冒律所邮件威胁店铺资金安全"
+},
+{
+"id": "a0ddab4fdc8022433f782e62f2d8071ceb0fb58d",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "做亚马逊跨境的卖家，多少都被图片本地化折腾过。同一个产品，要做多国站点，图片上的参数、提示文字，都要改成对应国家的语言。找人翻译、PS 改图，费时又费钱，稍有出错还会影响买家理解。AMZDH获悉，现在亚马逊直...做亚马逊跨境的卖家，多少都被图片本地化折腾过。同一个产品，要做多国站点，图片上的参数、提示文字，都要改成对应国家的语言。找人翻译、PS 改图，费时又费钱，稍有出错还会影响买家理解。AMZDH获悉，现在亚马逊直...",
+"url": "https://www.amzdh.com/kjtt/10249.html",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.86,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"跨境",
+"买家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "做亚马逊跨境的卖家，多少都被图片本地化折腾过。同一个产品，要做多国站点，图片上的参数、提示文字，都要改成对应国家的语言。找人翻译、PS 改图，费时又费钱，稍有出错还会影响买家理解。AMZDH获悉，现在亚马逊直...做亚马逊跨境的卖家，多少都被图片本地化折腾过。同一个产品，要做多国站点，图片上的参数、提示文字，都要改成对应国家的语言。找人翻译、PS 改图，费时又费钱，稍有出错还会影响买家理解。AMZDH获悉，现在亚马逊直..."
+},
+{
+"id": "82ddea43504e922cb9f120d1072e23451a4914c1",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Argos第三方市场正式上线 近80家可信卖家入驻英国流量入口",
+"url": "https://www.amz123.com/kx/A8EhE8hS",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"流量"
+],
+"cross_platforms": [],
+"cross_sites": [
+"uk"
+],
+"title_zh": "Argos第三方市场正式上线 近80家可信卖家入驻英国流量入口"
+},
+{
+"id": "0d646e53bf541de47cb1d0dd8d64d51b27817dec",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TCCT开通投诉通道 泰国电商卖家关注平台佣金调整与联盟营销问题",
+"url": "https://www.amz123.com/kx/ii65IQde",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"联盟营销"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "TCCT开通投诉通道 泰国电商卖家关注平台佣金调整与联盟营销问题"
+},
+{
+"id": "4ec6a5dac3948f7282ff7ff6a987cbd00e3c515d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "印尼财长暂缓8月1日电商卖家0.5%代扣税政策",
+"url": "https://www.amz123.com/kx/CZk3xNRU",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"政策"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "印尼财长暂缓8月1日电商卖家0.5%代扣税政策"
+},
+{
+"id": "9d8f309df2d6f815a1d95a77d8450dd46343dad6",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "重磅｜亚马逊欧洲站退货大改！9月1日起，多个类目缩短至14天退货期",
+"url": "https://www.amzdh.com/kjtt/10251.html",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "重磅｜亚马逊欧洲站退货大改！9月1日起，多个类目缩短至14天退货期"
+},
+{
+"id": "47bc60b11f6583ccc8c739497909f7e177c27650",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "公司营业执照被冒用开设TikTok Shop、亚马逊跨境电商店铺涉税纠纷法律维权指引",
+"url": "https://www.cifnews.com/article/187935",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"亚马逊",
+"跨境",
+"跨境电商",
+"店铺",
+"电商"
+],
+"cross_platforms": [
+"tiktok shop",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "公司营业执照被冒用开设TikTok Shop、亚马逊跨境电商店铺涉税纠纷法律维权指引"
+},
+{
+"id": "e0b1cec0e548a6aaa121ffddcd2578a2b4f0740d",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "TikTok Shop英国卖家破30万：直播电商出海走到哪一步了",
+"url": "https://www.cifnews.com/article/187938",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"卖家",
+"卖家",
+"电商"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "TikTok Shop英国卖家破30万：直播电商出海走到哪一步了"
+},
+{
+"id": "4980bad6a6502fe5e82f39e46ecfdf6ecce55e4d",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "亚马逊上新AI神器！商品图片可以自动翻译，卖家又省一大事",
+"url": "https://www.amzdh.com/kjtt/10249.html",
+"published_at": null,
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊上新AI神器！商品图片可以自动翻译，卖家又省一大事"
+},
+{
 "id": "2934629d3b88888c0566962103c2a8bd6049457a",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -58,7 +331,7 @@
 "url": "https://www.amz123.com/kx/KzlNFjAq",
 "published_at": null,
 "first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "listing_product",
@@ -82,7 +355,7 @@
 "url": "https://www.amz123.com/kx/lADJn1c1",
 "published_at": null,
 "first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "general",
@@ -95,8 +368,8 @@
 "报关"
 ],
 "cross_platforms": [
-"fba",
-"amazon"
+"amazon",
+"fba"
 ],
 "cross_sites": [],
 "title_zh": "0110报关监管趋严：境外收货人不得填写Amazon或FBA仓名"
@@ -110,7 +383,7 @@
 "url": "https://www.cifnews.com/article/187930",
 "published_at": null,
 "first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "seller_action",
@@ -185,7 +458,7 @@
 "url": "https://www.cifnews.com/article/187932",
 "published_at": null,
 "first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "seller_action",
@@ -201,97 +474,169 @@
 "title_zh": "菜鸟发布\"全球三日达\"，跨境电商迈入\"72小时达"
 },
 {
-"id": "1bb70d3309ebf8d6777f2099dac707b40f5b3714",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊上线AI商品图片自动翻译功能",
-"url": "https://www.amz123.com/kx/GAonkF8c",
-"published_at": null,
-"first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"id": "5da5fd2dcfa4cefb81d14e0276c39e3458178219",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "“银狐”木马借侵权钓鱼邮件袭击亚马逊卖家",
+"url": "https://www.ennews.com/news-141228.html",
+"published_at": "2026-08-06T00:00:00Z",
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
+"cross_score": 0.83,
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"亚马逊",
+"卖家",
+"卖家"
 ],
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊上线AI商品图片自动翻译功能"
+"title_zh": "“银狐”木马借侵权钓鱼邮件袭击亚马逊卖家"
 },
 {
-"id": "abee3b09ab91569cebed18e7c8f952cd3c8eb0bc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries俄境内物流设施接连遭袭 21处仓储节点受影响",
-"url": "https://www.amz123.com/kx/3QKnTrJu",
-"published_at": null,
-"first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"id": "ebf3b4d6f7743e20b59569adb0b4679028e7589d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon推“雅罗斯拉夫尔制造”专区",
+"url": "https://www.ennews.com/news-141225.html",
+"published_at": "2026-08-06T00:00:00Z",
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
-"cross_score": 0.62,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon推“雅罗斯拉夫尔制造”专区"
+},
+{
+"id": "d3e7914d988c0cd4b51b0c02ecc107fc540d023a",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries白俄罗斯物流中心加速建设，明斯克旁14万平米仓库提前投运",
+"url": "https://www.ennews.com/news-141222.html",
+"published_at": "2026-08-06T00:00:00Z",
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.6,
 "cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "wildberries",
-"仓储",
 "物流"
 ],
 "cross_platforms": [
 "wildberries"
 ],
 "cross_sites": [],
-"title_zh": "Wildberries俄境内物流设施接连遭袭 21处仓储节点受影响"
+"title_zh": "Wildberries白俄罗斯物流中心加速建设，明斯克旁14万平米仓库提前投运"
 },
 {
-"id": "79a6d43f988526244d6c727878a74f1f4518f940",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄政府拟推税延新政纾困 8.5万WB卖家迎来救助窗口",
-"url": "https://www.amz123.com/kx/r0QntqVN",
-"published_at": null,
-"first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"id": "b57afbf11e3acd81ec9119fb15e1fa216c62aa52",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries与伊万诺沃州企业家会面，应对挑战共商对策",
+"url": "https://www.ennews.com/news-141221.html",
+"published_at": "2026-08-06T00:00:00Z",
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
 "cross_score": 0.6,
-"cross_label": "seller_action",
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄政府拟推税延新政纾困 8.5万WB卖家迎来救助窗口"
-},
-{
-"id": "aa3d25c4fc78edf07fe80254babb9ad7585d2133",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon半年报：俄罗斯时尚消费趋势转向 贴身剪裁女装销量最高增长翻番",
-"url": "https://www.amz123.com/kx/f4TUUJVp",
-"published_at": null,
-"first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
+"wildberries"
 ],
 "cross_platforms": [
-"ozon"
+"wildberries"
 ],
 "cross_sites": [],
-"title_zh": "Ozon半年报：俄罗斯时尚消费趋势转向 贴身剪裁女装销量最高增长翻番"
+"title_zh": "Wildberries与伊万诺沃州企业家会面，应对挑战共商对策"
+},
+{
+"id": "22e6b3b5e4f7b3177fe7a307a3bea090ca5dcc3f",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries 辟谣：未将核心物流设施迁至海外",
+"url": "https://www.ennews.com/news-141220.html",
+"published_at": "2026-08-06T00:00:00Z",
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"物流"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries 辟谣：未将核心物流设施迁至海外"
+},
+{
+"id": "27b856ef89e9b3b67f3aacd5d18d0248aef3522a",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries取货点陷入困境：租金承压、收入大跳水",
+"url": "https://www.ennews.com/news-141219.html",
+"published_at": "2026-08-06T00:00:00Z",
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries取货点陷入困境：租金承压、收入大跳水"
+},
+{
+"id": "0f85338ef7ce41d9c8c92ab58ca64f2bff8b47a8",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries图拉州分拣中心遭无人机袭击，火灾已扑灭",
+"url": "https://www.ennews.com/news-141218.html",
+"published_at": "2026-08-06T00:00:00Z",
+"first_seen_at": "2026-08-06T03:56:29.377901Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries图拉州分拣中心遭无人机袭击，火灾已扑灭"
 },
 {
 "id": "b9c9c4419fd1ec745e85dc639b6e7f46f6842ebc",
@@ -302,7 +647,7 @@
 "url": "https://developer-docs.amazon/sp-api/changelog/sp-api-updates-delivery-shipment-invoice-api-changes-and-listings_item_issues_change-v-10-deprecation",
 "published_at": "2026-08-05T20:04:02Z",
 "first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -321,7 +666,7 @@
 "url": "https://channelx.world/2026/08/amazon-ai-generated-people-image-and-video-rules",
 "published_at": "2026-08-05T07:09:19Z",
 "first_seen_at": "2026-08-06T00:41:13.075344Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
+"last_seen_at": "2026-08-06T03:56:29.377901Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -334,56 +679,6 @@
 ],
 "cross_sites": [],
 "title_zh": "Amazon AI生成的人员图像和视频规则"
-},
-{
-"id": "606136f5e3e8ecb424785fd99deb9f660dda9516",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚...AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚...",
-"url": "https://www.amzdh.com/kjtt/10245.html",
-"published_at": null,
-"first_seen_at": "2026-08-05T03:51:24.289149Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境物流",
-"快递",
-"物流",
-"货运"
-],
-"cross_platforms": [],
-"cross_sites": [
-"au"
-],
-"title_zh": "AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚...AMZDH获悉，为进一步提升亚洲至澳大利亚的跨境物流效率，联邦快递全新开通广州亚太区转运中心—澳大利亚悉尼直飞货运航线，打通中澳货运快速通道，让跨境发货更快、更稳、更省心！此次新航线落地，大幅优化了澳大利亚..."
-},
-{
-"id": "94b0090be218edfac9585ef5c922019044276f9d",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "直降95%！野莓Wildberries入驻费砍到500元",
-"url": "https://www.amzdh.com/kjtt/10246.html",
-"published_at": null,
-"first_seen_at": "2026-08-05T03:51:24.289149Z",
-"last_seen_at": "2026-08-06T00:41:13.075344Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "直降95%！野莓Wildberries入驻费砍到500元"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
