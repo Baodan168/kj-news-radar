@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-08-07T00:41:14.138160Z",
+"generated_at": "2026-08-07T03:42:35.126852Z",
 "window_hours": 24,
-"total_items": 22,
-"total_items_cross_raw": 48,
-"total_items_raw": 68,
-"total_items_all_mode": 68,
+"total_items": 28,
+"total_items_cross_raw": 77,
+"total_items_raw": 121,
+"total_items_all_mode": 121,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1333,
+"archive_total": 1386,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
@@ -15,19 +15,25 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 44
+"raw_count": 66
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 9
+"raw_count": 11
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 4,
-"raw_count": 10
+"count": 8,
+"raw_count": 18
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
+"raw_count": 20
 },
 {
 "site_id": "amazon_newsroom",
@@ -39,7 +45,7 @@
 "site_id": "ecommercebytes",
 "site_name": "EcommerceBytes",
 "count": 0,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "tophub",
@@ -50,6 +56,209 @@
 ],
 "items": [
 {
+"id": "b6dc2cdaf4751b5896b334cb9a0408a1e15e2f40",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊Pan-EU规则收紧：9月3日前未同步荷兰站商品将回退EFN配送",
+"url": "https://www.amz123.com/kx/2JAvGJln",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.97,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊Pan-EU规则收紧：9月3日前未同步荷兰站商品将回退EFN配送"
+},
+{
+"id": "543ce10d4e1d468df97206af1c666e9dc7189175",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊MCF针对TikTok美区订单推出12个月配送费优惠",
+"url": "https://www.amz123.com/kx/DnF6ULws",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"mcf",
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊MCF针对TikTok美区订单推出12个月配送费优惠"
+},
+{
+"id": "92f25b16fe52ad4e8cbd1ffe1f9bceab36a43e29",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "TikTok Shop美区订单使用亚马逊MCF配送，配送费立减35%！",
+"url": "https://www.cifnews.com/article/187962",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"mcf",
+"tiktok shop",
+"亚马逊"
+],
+"cross_platforms": [
+"tiktok shop",
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "TikTok Shop美区订单使用亚马逊MCF配送，配送费立减35%！"
+},
+{
+"id": "980ccfc716dca2dfec47708738416faa10b93113",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊欧英站加强营业地址核查，9月15日前未完成验证或面临账户限制",
+"url": "https://www.amz123.com/kx/vKrRF1tt",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊欧英站加强营业地址核查，9月15日前未完成验证或面临账户限制"
+},
+{
+"id": "808f07fba166920815d764cdc0c5f6a835627023",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A...跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A...",
+"url": "https://www.amzdh.com/kjtt/10257.html",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"跨境",
+"卖家",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A...跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A..."
+},
+{
+"id": "5d531d09b2e14fdb171a7c330eea59002c087364",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "亚马逊卖家紧急预警！“银狐” 木马钓鱼来袭，多家店铺已中招！",
+"url": "https://www.amzdh.com/kjtt/10257.html",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家紧急预警！“银狐” 木马钓鱼来袭，多家店铺已中招！"
+},
+{
+"id": "bfbfac096586ef178e4572fef343d25305923c8e",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "美客多墨西哥站RFC一致性验证新规！拒件、秒拒、扣点异常这样处理",
+"url": "https://www.amzdh.com/kjtt/10255.html",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"美客多"
+],
+"cross_platforms": [
+"美客多"
+],
+"cross_sites": [],
+"title_zh": "美客多墨西哥站RFC一致性验证新规！拒件、秒拒、扣点异常这样处理"
+},
+{
+"id": "dbe164cdad71b867e6d287a5872dfbe28d9be4be",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺...AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺...",
+"url": "https://www.amzdh.com/kjtt/10255.html",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"美客多",
+"跨境",
+"卖家",
+"店铺"
+],
+"cross_platforms": [
+"美客多"
+],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺...AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺..."
+},
+{
 "id": "453a4d69ff06d5d0e739cee16635630ea6bc13ea",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -58,7 +267,7 @@
 "url": "https://www.amz123.com/kx/JJ9cePe6",
 "published_at": null,
 "first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "seller_action",
@@ -83,7 +292,7 @@
 "url": "https://www.cifnews.com/article/187958",
 "published_at": null,
 "first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -108,7 +317,7 @@
 "url": "https://www.cifnews.com/article/187957",
 "published_at": null,
 "first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -133,7 +342,7 @@
 "url": "https://www.cifnews.com/article/187953",
 "published_at": null,
 "first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -158,7 +367,7 @@
 "url": "https://www.cifnews.com/article/187956",
 "published_at": null,
 "first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "platform_trend",
@@ -181,7 +390,7 @@
 "url": "https://www.cifnews.com/article/187954",
 "published_at": null,
 "first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "platform_trend",
@@ -195,68 +404,53 @@
 "title_zh": "港口拥堵加剧、落箱费涨10倍！卖家旺季压力暴增"
 },
 {
-"id": "95cc1b2d5e76d0736d7db8f5a42a757b1a3ddd06",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "潮州家居企业借力Wayfair跨境沙龙探索北美市场机遇",
-"url": "https://www.amz123.com/kx/LfiQNZim",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "潮州家居企业借力Wayfair跨境沙龙探索北美市场机遇"
-},
-{
-"id": "c99bf1b54e9e4f74c7d5f9eaa3c3b62e2e656171",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "潮州家居企业布局北美市场 Wayfair跨境沙龙助力开拓新机遇",
-"url": "https://www.amz123.com/kx/r8OmnyYq",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "潮州家居企业布局北美市场 Wayfair跨境沙龙助力开拓新机遇"
-},
-{
-"id": "85df3c6266ed58e2e250cee59b41dc439f58a28c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"id": "6f0c9006628bdd436bea2a59c51888b397416106",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "急招中国卖家！这个平台黑五单日卖15.9亿，国内卖家不到10%",
-"url": "https://www.cifnews.com/article/187955",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"title": "海关总署：截至目前已对63个国家实施了零关税政策",
+"url": "https://www.ennews.com/news-141332.html",
+"published_at": "2026-08-07T00:00:00Z",
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.64,
-"cross_label": "advertising",
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"海关",
+"关税",
+"政策",
+"海关总署"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "海关总署：截至目前已对63个国家实施了零关税政策"
+},
+{
+"id": "a02f5f034fc9ecabcb3adc96803bcddc9d0c2f65",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "俄电商物流市场结构性重构：小卖家退出，大卖家扩仓",
+"url": "https://www.ennews.com/news-141345.html",
+"published_at": "2026-08-07T00:00:00Z",
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "卖家",
-"卖家"
+"卖家",
+"电商",
+"物流"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "急招中国卖家！这个平台黑五单日卖15.9亿，国内卖家不到10%"
+"title_zh": "俄电商物流市场结构性重构：小卖家退出，大卖家扩仓"
 },
 {
 "id": "7fecfc6cd5c310468dc9d842b77b706132f8acbc",
@@ -312,7 +506,7 @@
 "url": "https://www.amzdh.com/kjtt/10251.html",
 "published_at": null,
 "first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.98,
 "cross_label": "policy_update",
@@ -345,7 +539,7 @@
 "url": "https://www.amz123.com/kx/GKiifIWI",
 "published_at": null,
 "first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "seller_action",
@@ -371,7 +565,7 @@
 "url": "https://www.amzdh.com/kjtt/10249.html",
 "published_at": null,
 "first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.86,
 "cross_label": "listing_product",
@@ -471,7 +665,7 @@
 "url": "https://www.amzdh.com/kjtt/10251.html",
 "published_at": null,
 "first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "listing_product",
@@ -497,7 +691,7 @@
 "url": "https://www.cifnews.com/article/187935",
 "published_at": null,
 "first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "tiktok",
@@ -526,7 +720,7 @@
 "url": "https://www.cifnews.com/article/187938",
 "published_at": null,
 "first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "tiktok",
@@ -546,32 +740,6 @@
 "title_zh": "TikTok Shop英国卖家破30万：直播电商出海走到哪一步了"
 },
 {
-"id": "62b5a1a6a16c9750f24e9b1c21db3fbf1af6836e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "一加清库存收缩北美业务 美国拟对中国多晶硅供应链加征超50%关税",
-"url": "https://www.amz123.com/kx/fQK4042P",
-"published_at": null,
-"first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-06T03:56:29.377901Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"关税",
-"供应链",
-"库存",
-"关税"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "一加清库存收缩北美业务 美国拟对中国多晶硅供应链加征超50%关税"
-},
-{
 "id": "4980bad6a6502fe5e82f39e46ecfdf6ecce55e4d",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -580,7 +748,7 @@
 "url": "https://www.amzdh.com/kjtt/10249.html",
 "published_at": null,
 "first_seen_at": "2026-08-06T03:56:29.377901Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
+"last_seen_at": "2026-08-07T03:42:35.126852Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
