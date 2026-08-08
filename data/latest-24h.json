@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-08-08T00:40:38.054283Z",
+"generated_at": "2026-08-08T02:47:55.950196Z",
 "window_hours": 24,
-"total_items": 21,
-"total_items_cross_raw": 62,
-"total_items_raw": 102,
-"total_items_all_mode": 102,
+"total_items": 17,
+"total_items_cross_raw": 42,
+"total_items_raw": 79,
+"total_items_all_mode": 79,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1418,
+"archive_total": 1431,
 "site_count": 16,
 "source_count": 7,
 "site_stats": [
@@ -15,13 +15,7 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 70
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 16
+"raw_count": 55
 },
 {
 "site_id": "amzdh",
@@ -30,21 +24,21 @@
 "raw_count": 9
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 1,
-"raw_count": 1
-},
-{
-"site_id": "tophub",
-"site_name": "TopHub",
-"count": 0,
-"raw_count": 4
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 3,
+"raw_count": 10
 },
 {
 "site_id": "ecommercebytes",
 "site_name": "EcommerceBytes",
-"count": 0,
+"count": 1,
+"raw_count": 1
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
 "raw_count": 1
 },
 {
@@ -52,9 +46,62 @@
 "site_name": "ChannelX",
 "count": 0,
 "raw_count": 1
+},
+{
+"site_id": "tophub",
+"site_name": "TopHub",
+"count": 0,
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "3441f7c07294edef8085a7caffb1c2d0d55c0f30",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "武汉卖家3D蝙蝠灯登陆TikTok美区 10天销售8971件",
+"url": "https://www.amz123.com/kx/3idVOMrE",
+"published_at": null,
+"first_seen_at": "2026-08-08T02:47:55.950196Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "武汉卖家3D蝙蝠灯登陆TikTok美区 10天销售8971件"
+},
+{
+"id": "f4550ee6a646f6409ee8b8781b19610e0f75c72b",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"source": "卖家新闻",
+"title": "Amazon’s New Product Title Policy Also Applies to Its Own Listings",
+"url": "https://www.ecommercebytes.com/2026/08/07/amazons-new-product-title-policy-also-applies-to-its-listings",
+"published_at": "2026-08-08T02:41:48Z",
+"first_seen_at": "2026-08-08T02:47:55.950196Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊的新产品标题政策也适用于自己的房源"
+},
 {
 "id": "8238e56a41d2658a8c48589c91c119882c52c84e",
 "site_id": "amz123",
@@ -64,7 +111,7 @@
 "url": "https://www.amz123.com/kx/FIRvubYs",
 "published_at": null,
 "first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "policy_update",
@@ -90,7 +137,7 @@
 "url": "https://www.cifnews.com/article/165830?themeid=448",
 "published_at": null,
 "first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "compliance_deadline",
@@ -107,6 +154,54 @@
 "title_zh": "来了！2025 亚马逊新卖家入驻全攻略！注册流程详细解析，开店一步到位！"
 },
 {
+"id": "78dc1996730524e7e598f5d375afaeaf5b87df28",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯电商物流市场加速重构，小卖家退出大卖家扩张",
+"url": "https://www.amz123.com/kx/azndDgMh",
+"published_at": null,
+"first_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯电商物流市场加速重构，小卖家退出大卖家扩张"
+},
+{
+"id": "2999523b27272d0c6823e671008f882e124502ea",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "如何准备2025年亚马逊Prime Day？",
+"url": "https://www.cifnews.com/article/175199?themeid=438",
+"published_at": null,
+"first_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "如何准备2025年亚马逊Prime Day？"
+},
+{
 "id": "3ca370d8e4a52882b87d5836075b265177ff7771",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -115,7 +210,7 @@
 "url": "https://www.aboutamazon.com/news/transportation/amazon-drone-prime-air-uk",
 "published_at": "2026-08-07T05:55:38Z",
 "first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -238,7 +333,7 @@
 "url": "https://www.amzdh.com/kjtt/10257.html",
 "published_at": null,
 "first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "platform_trend",
@@ -265,7 +360,7 @@
 "url": "https://www.amzdh.com/kjtt/10257.html",
 "published_at": null,
 "first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "seller_action",
@@ -304,6 +399,29 @@
 "title_zh": "泰国警方两日内查获两处涉华海外仓，5万件仿牌商品被扣"
 },
 {
+"id": "dfb51444016c0ec6f1f8937118d04dd0c7f05379",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊遭Universal Electronics起诉，被指侵犯智能设备专利",
+"url": "https://www.amz123.com/kx/lTVfrj9y",
+"published_at": null,
+"first_seen_at": "2026-08-07T03:42:35.126852Z",
+"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊遭Universal Electronics起诉，被指侵犯智能设备专利"
+},
+{
 "id": "bfbfac096586ef178e4572fef343d25305923c8e",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -312,7 +430,7 @@
 "url": "https://www.amzdh.com/kjtt/10255.html",
 "published_at": null,
 "first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -335,7 +453,7 @@
 "url": "https://www.amzdh.com/kjtt/10255.html",
 "published_at": null,
 "first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
+"last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -352,215 +470,6 @@
 ],
 "cross_sites": [],
 "title_zh": "AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺...AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺..."
-},
-{
-"id": "453a4d69ff06d5d0e739cee16635630ea6bc13ea",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊AI卖家助手新增Buy Box诊断功能",
-"url": "https://www.amz123.com/kx/JJ9cePe6",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊AI卖家助手新增Buy Box诊断功能"
-},
-{
-"id": "6ca840a642c893d23dff2517199a58c7354232fa",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊突然查“身份”！一批卖家收到亚马逊邮件，你收到了吗？",
-"url": "https://www.cifnews.com/article/187958",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊突然查“身份”！一批卖家收到亚马逊邮件，你收到了吗？"
-},
-{
-"id": "b754cf6710f73d92314b0ed1c0dbf0908f5c27d9",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "五组数据还原欧洲税改对跨境电商的真实影响",
-"url": "https://www.cifnews.com/article/187957",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "五组数据还原欧洲税改对跨境电商的真实影响"
-},
-{
-"id": "631688709e5eb94ef7a9d0d1c514a1e76cb96f51",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "卖出去不等于拿到钱，亚马逊卖家开始重算“资金时间差”",
-"url": "https://www.cifnews.com/article/187953",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "卖出去不等于拿到钱，亚马逊卖家开始重算“资金时间差”"
-},
-{
-"id": "91c0837876804996fc37bcc92d4dda9d8bd6960f",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "市场观察：重庆是跨境电商下一个蓝海",
-"url": "https://www.cifnews.com/article/187956",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "市场观察：重庆是跨境电商下一个蓝海"
-},
-{
-"id": "78a33a01697ab14aa950ad9cb44f263ff5030404",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "港口拥堵加剧、落箱费涨10倍！卖家旺季压力暴增",
-"url": "https://www.cifnews.com/article/187954",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "港口拥堵加剧、落箱费涨10倍！卖家旺季压力暴增"
-},
-{
-"id": "95cc1b2d5e76d0736d7db8f5a42a757b1a3ddd06",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "潮州家居企业借力Wayfair跨境沙龙探索北美市场机遇",
-"url": "https://www.amz123.com/kx/LfiQNZim",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "潮州家居企业借力Wayfair跨境沙龙探索北美市场机遇"
-},
-{
-"id": "c99bf1b54e9e4f74c7d5f9eaa3c3b62e2e656171",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "潮州家居企业布局北美市场 Wayfair跨境沙龙助力开拓新机遇",
-"url": "https://www.amz123.com/kx/r8OmnyYq",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T00:41:14.138160Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "潮州家居企业布局北美市场 Wayfair跨境沙龙助力开拓新机遇"
-},
-{
-"id": "85df3c6266ed58e2e250cee59b41dc439f58a28c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "急招中国卖家！这个平台黑五单日卖15.9亿，国内卖家不到10%",
-"url": "https://www.cifnews.com/article/187955",
-"published_at": null,
-"first_seen_at": "2026-08-07T00:41:14.138160Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "急招中国卖家！这个平台黑五单日卖15.9亿，国内卖家不到10%"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
