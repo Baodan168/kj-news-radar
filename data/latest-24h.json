@@ -1,15 +1,15 @@
 {
-"generated_at": "2026-08-08T02:47:55.950196Z",
+"generated_at": "2026-08-09T00:40:33.270709Z",
 "window_hours": 24,
-"total_items": 17,
-"total_items_cross_raw": 42,
-"total_items_raw": 79,
-"total_items_all_mode": 79,
+"total_items": 11,
+"total_items_cross_raw": 30,
+"total_items_raw": 68,
+"total_items_all_mode": 68,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1431,
+"archive_total": 1444,
 "site_count": 16,
-"source_count": 7,
+"source_count": 5,
 "site_stats": [
 {
 "site_id": "amz123",
@@ -18,16 +18,10 @@
 "raw_count": 55
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 4,
-"raw_count": 9
-},
-{
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 3,
-"raw_count": 10
+"count": 2,
+"raw_count": 8
 },
 {
 "site_id": "ecommercebytes",
@@ -36,25 +30,108 @@
 "raw_count": 1
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 1,
-"raw_count": 1
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 0,
-"raw_count": 1
-},
-{
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 2
+"raw_count": 3
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 0,
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "fcd141996de320b6af20a28a723c486bd88bd3a4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德国协会呼吁暂停PPWR实施",
+"url": "https://www.amz123.com/kx/Tkfgn5xQ",
+"published_at": null,
+"first_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ppwr"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国协会呼吁暂停PPWR实施"
+},
+{
+"id": "f2624771a7db3288c37556c7439bf79092bbecd5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊8月6日起关停社交媒体促销码功能",
+"url": "https://www.amz123.com/kx/wYam42GT",
+"published_at": null,
+"first_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊8月6日起关停社交媒体促销码功能"
+},
+{
+"id": "63d452688984225a01f6d12c738dfe5dbc923377",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "京东产发携手深跨协 共建2800万平方米全球仓网助力3800家跨境企业",
+"url": "https://www.amz123.com/kx/d15Dx4vB",
+"published_at": null,
+"first_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "京东产发携手深跨协 共建2800万平方米全球仓网助力3800家跨境企业"
+},
+{
+"id": "97fc1da46474c759021ca231ec1b4b9741b2817a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop东南亚上线内容授权工具，3天响应机制助力非原创内容合规处理",
+"url": "https://www.amz123.com/kx/NLuHNvNn",
+"published_at": null,
+"first_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"合规"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop东南亚上线内容授权工具，3天响应机制助力非原创内容合规处理"
+},
 {
 "id": "3441f7c07294edef8085a7caffb1c2d0d55c0f30",
 "site_id": "amz123",
@@ -64,7 +141,7 @@
 "url": "https://www.amz123.com/kx/3idVOMrE",
 "published_at": null,
 "first_seen_at": "2026-08-08T02:47:55.950196Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "tiktok",
@@ -88,9 +165,9 @@
 "url": "https://www.ecommercebytes.com/2026/08/07/amazons-new-product-title-policy-also-applies-to-its-listings",
 "published_at": "2026-08-08T02:41:48Z",
 "first_seen_at": "2026-08-08T02:47:55.950196Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
 "cross_is_related": true,
-"cross_score": 0.89,
+"cross_score": 0.86,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -137,7 +214,7 @@
 "url": "https://www.cifnews.com/article/165830?themeid=448",
 "published_at": null,
 "first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
 "cross_is_related": true,
 "cross_score": 0.65,
 "cross_label": "compliance_deadline",
@@ -186,7 +263,7 @@
 "url": "https://www.cifnews.com/article/175199?themeid=438",
 "published_at": null,
 "first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"last_seen_at": "2026-08-09T00:40:33.270709Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "advertising",
@@ -202,274 +279,27 @@
 "title_zh": "如何准备2025年亚马逊Prime Day？"
 },
 {
-"id": "3ca370d8e4a52882b87d5836075b265177ff7771",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Inside Amazon's first-ever drone delivery site in the UK",
-"url": "https://www.aboutamazon.com/news/transportation/amazon-drone-prime-air-uk",
-"published_at": "2026-08-07T05:55:38Z",
+"id": "77caa7295b8f358e431ee9ca15490ffa38df0d99",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries推广账户上线“统一账户”机制 支持人民币计价管理",
+"url": "https://www.amz123.com/kx/ZFpJ4grc",
+"published_at": null,
 "first_seen_at": "2026-08-08T00:40:38.054283Z",
 "last_seen_at": "2026-08-08T02:47:55.950196Z",
 "cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "进入亚马逊在英国的首个无人机送货点"
-},
-{
-"id": "b6dc2cdaf4751b5896b334cb9a0408a1e15e2f40",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊Pan-EU规则收紧：9月3日前未同步荷兰站商品将回退EFN配送",
-"url": "https://www.amz123.com/kx/2JAvGJln",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.97,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊Pan-EU规则收紧：9月3日前未同步荷兰站商品将回退EFN配送"
-},
-{
-"id": "543ce10d4e1d468df97206af1c666e9dc7189175",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊MCF针对TikTok美区订单推出12个月配送费优惠",
-"url": "https://www.amz123.com/kx/DnF6ULws",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
-"cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"mcf",
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊MCF针对TikTok美区订单推出12个月配送费优惠"
-},
-{
-"id": "92f25b16fe52ad4e8cbd1ffe1f9bceab36a43e29",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "TikTok Shop美区订单使用亚马逊MCF配送，配送费立减35%！",
-"url": "https://www.cifnews.com/article/187962",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.92,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"mcf",
-"tiktok shop",
-"亚马逊"
-],
-"cross_platforms": [
-"tiktok shop",
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "TikTok Shop美区订单使用亚马逊MCF配送，配送费立减35%！"
-},
-{
-"id": "980ccfc716dca2dfec47708738416faa10b93113",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊欧英站加强营业地址核查，9月15日前未完成验证或面临账户限制",
-"url": "https://www.amz123.com/kx/vKrRF1tt",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊欧英站加强营业地址核查，9月15日前未完成验证或面临账户限制"
-},
-{
-"id": "808f07fba166920815d764cdc0c5f6a835627023",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A...跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A...",
-"url": "https://www.amzdh.com/kjtt/10257.html",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"跨境",
-"卖家",
-"店铺"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A...跨境卖家注意！AMZDH获悉，近期跨境圈爆出“银狐” 木马钓鱼攻击，不少亚马逊卖家已经踩坑，老店铺被盗号、改手机号，收款账户岌岌可危，旺季来临一定要擦亮眼睛！到底是什么骗局？骗子伪装成德国律所，发送标题为 A..."
-},
-{
-"id": "5d531d09b2e14fdb171a7c330eea59002c087364",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊卖家紧急预警！“银狐” 木马钓鱼来袭，多家店铺已中招！",
-"url": "https://www.amzdh.com/kjtt/10257.html",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"店铺"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊卖家紧急预警！“银狐” 木马钓鱼来袭，多家店铺已中招！"
-},
-{
-"id": "61d65851a53e025ffe2c920890006bcb09747d4c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "泰国警方两日内查获两处涉华海外仓，5万件仿牌商品被扣",
-"url": "https://www.amz123.com/kx/ACwJfyrd",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-07T03:42:35.126852Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"海外仓"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "泰国警方两日内查获两处涉华海外仓，5万件仿牌商品被扣"
-},
-{
-"id": "dfb51444016c0ec6f1f8937118d04dd0c7f05379",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊遭Universal Electronics起诉，被指侵犯智能设备专利",
-"url": "https://www.amz123.com/kx/lTVfrj9y",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T00:40:38.054283Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊遭Universal Electronics起诉，被指侵犯智能设备专利"
-},
-{
-"id": "bfbfac096586ef178e4572fef343d25305923c8e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "美客多墨西哥站RFC一致性验证新规！拒件、秒拒、扣点异常这样处理",
-"url": "https://www.amzdh.com/kjtt/10255.html",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
-"cross_is_related": true,
 "cross_score": 0.6,
-"cross_label": "policy_update",
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"美客多"
+"wildberries"
 ],
 "cross_platforms": [
-"美客多"
+"wildberries"
 ],
 "cross_sites": [],
-"title_zh": "美客多墨西哥站RFC一致性验证新规！拒件、秒拒、扣点异常这样处理"
-},
-{
-"id": "dbe164cdad71b867e6d287a5872dfbe28d9be4be",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺...AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺...",
-"url": "https://www.amzdh.com/kjtt/10255.html",
-"published_at": null,
-"first_seen_at": "2026-08-07T03:42:35.126852Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"美客多",
-"跨境",
-"卖家",
-"店铺"
-],
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺...AMZDH获悉，美客多墨西哥站税号审核再次收紧，不少跨境卖家在 RFC 一致性验证时踩坑。平台现已上线 FAQ+AI 自助查询工具，不用苦等人工工单，很多问题可以自助搞定。01什么情况要做 RFC 一致性验证？如果你的跨境店铺..."
+"title_zh": "Wildberries推广账户上线“统一账户”机制 支持人民币计价管理"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
