@@ -1,43 +1,25 @@
 {
-"generated_at": "2026-08-09T00:40:33.270709Z",
+"generated_at": "2026-08-09T02:55:29.489236Z",
 "window_hours": 24,
-"total_items": 11,
-"total_items_cross_raw": 30,
-"total_items_raw": 68,
-"total_items_all_mode": 68,
+"total_items": 5,
+"total_items_cross_raw": 10,
+"total_items_raw": 23,
+"total_items_all_mode": 23,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1444,
+"archive_total": 1440,
 "site_count": 16,
-"source_count": 5,
+"source_count": 2,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 8,
-"raw_count": 55
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 2,
-"raw_count": 8
-},
-{
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"count": 1,
-"raw_count": 1
+"count": 5,
+"raw_count": 22
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
-"count": 0,
-"raw_count": 3
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
 "count": 0,
 "raw_count": 1
 }
@@ -52,7 +34,7 @@
 "url": "https://www.amz123.com/kx/Tkfgn5xQ",
 "published_at": null,
 "first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T02:55:29.489236Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "policy_update",
@@ -73,7 +55,7 @@
 "url": "https://www.amz123.com/kx/wYam42GT",
 "published_at": null,
 "first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T02:55:29.489236Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "advertising",
@@ -96,7 +78,7 @@
 "url": "https://www.amz123.com/kx/d15Dx4vB",
 "published_at": null,
 "first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T02:55:29.489236Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -117,7 +99,7 @@
 "url": "https://www.amz123.com/kx/NLuHNvNn",
 "published_at": null,
 "first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T02:55:29.489236Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "policy_update",
@@ -133,173 +115,28 @@
 "title_zh": "TikTok Shop东南亚上线内容授权工具，3天响应机制助力非原创内容合规处理"
 },
 {
-"id": "3441f7c07294edef8085a7caffb1c2d0d55c0f30",
+"id": "6efeb047e944a724a43c48a4e4f5c1c3bf7c254a",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "武汉卖家3D蝙蝠灯登陆TikTok美区 10天销售8971件",
-"url": "https://www.amz123.com/kx/3idVOMrE",
+"title": "Wildberries仓库遭袭致图书供应链受影响",
+"url": "https://www.amz123.com/kx/Z0hHmiQR",
 "published_at": null,
-"first_seen_at": "2026-08-08T02:47:55.950196Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "武汉卖家3D蝙蝠灯登陆TikTok美区 10天销售8971件"
-},
-{
-"id": "f4550ee6a646f6409ee8b8781b19610e0f75c72b",
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"source": "卖家新闻",
-"title": "Amazon’s New Product Title Policy Also Applies to Its Own Listings",
-"url": "https://www.ecommercebytes.com/2026/08/07/amazons-new-product-title-policy-also-applies-to-its-listings",
-"published_at": "2026-08-08T02:41:48Z",
-"first_seen_at": "2026-08-08T02:47:55.950196Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊的新产品标题政策也适用于自己的房源"
-},
-{
-"id": "8238e56a41d2658a8c48589c91c119882c52c84e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美元跌破6.75，跨境卖家面临汇率与关税双重压力",
-"url": "https://www.amz123.com/kx/FIRvubYs",
-"published_at": null,
-"first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"关税",
-"卖家",
-"跨境",
-"卖家",
-"关税",
-"汇率"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "美元跌破6.75，跨境卖家面临汇率与关税双重压力"
-},
-{
-"id": "d91ccd13ecc8abf85208a2aaff46ba4f595d466d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "来了！2025 亚马逊新卖家入驻全攻略！注册流程详细解析，开店一步到位！",
-"url": "https://www.cifnews.com/article/165830?themeid=448",
-"published_at": null,
-"first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
-"cross_is_related": true,
-"cross_score": 0.65,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "来了！2025 亚马逊新卖家入驻全攻略！注册流程详细解析，开店一步到位！"
-},
-{
-"id": "78dc1996730524e7e598f5d375afaeaf5b87df28",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯电商物流市场加速重构，小卖家退出大卖家扩张",
-"url": "https://www.amz123.com/kx/azndDgMh",
-"published_at": null,
-"first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯电商物流市场加速重构，小卖家退出大卖家扩张"
-},
-{
-"id": "2999523b27272d0c6823e671008f882e124502ea",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "如何准备2025年亚马逊Prime Day？",
-"url": "https://www.cifnews.com/article/175199?themeid=438",
-"published_at": null,
-"first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-09T00:40:33.270709Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"prime",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "如何准备2025年亚马逊Prime Day？"
-},
-{
-"id": "77caa7295b8f358e431ee9ca15490ffa38df0d99",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries推广账户上线“统一账户”机制 支持人民币计价管理",
-"url": "https://www.amz123.com/kx/ZFpJ4grc",
-"published_at": null,
-"first_seen_at": "2026-08-08T00:40:38.054283Z",
-"last_seen_at": "2026-08-08T02:47:55.950196Z",
+"first_seen_at": "2026-08-09T00:40:33.270709Z",
+"last_seen_at": "2026-08-09T02:55:29.489236Z",
 "cross_is_related": true,
 "cross_score": 0.6,
-"cross_label": "general",
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"wildberries"
+"wildberries",
+"供应链"
 ],
 "cross_platforms": [
 "wildberries"
 ],
 "cross_sites": [],
-"title_zh": "Wildberries推广账户上线“统一账户”机制 支持人民币计价管理"
+"title_zh": "Wildberries仓库遭袭致图书供应链受影响"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
