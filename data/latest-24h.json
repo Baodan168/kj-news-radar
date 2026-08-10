@@ -1,22 +1,16 @@
 {
-"generated_at": "2026-08-09T02:55:29.489236Z",
+"generated_at": "2026-08-10T00:41:13.712515Z",
 "window_hours": 24,
-"total_items": 5,
-"total_items_cross_raw": 10,
-"total_items_raw": 23,
-"total_items_all_mode": 23,
+"total_items": 0,
+"total_items_cross_raw": 0,
+"total_items_raw": 1,
+"total_items_all_mode": 1,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1440,
+"archive_total": 1396,
 "site_count": 16,
-"source_count": 2,
+"source_count": 1,
 "site_stats": [
-{
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 5,
-"raw_count": 22
-},
 {
 "site_id": "tophub",
 "site_name": "TopHub",
@@ -24,120 +18,6 @@
 "raw_count": 1
 }
 ],
-"items": [
-{
-"id": "fcd141996de320b6af20a28a723c486bd88bd3a4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德国协会呼吁暂停PPWR实施",
-"url": "https://www.amz123.com/kx/Tkfgn5xQ",
-"published_at": null,
-"first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T02:55:29.489236Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ppwr"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德国协会呼吁暂停PPWR实施"
-},
-{
-"id": "f2624771a7db3288c37556c7439bf79092bbecd5",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊8月6日起关停社交媒体促销码功能",
-"url": "https://www.amz123.com/kx/wYam42GT",
-"published_at": null,
-"first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T02:55:29.489236Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊8月6日起关停社交媒体促销码功能"
-},
-{
-"id": "63d452688984225a01f6d12c738dfe5dbc923377",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "京东产发携手深跨协 共建2800万平方米全球仓网助力3800家跨境企业",
-"url": "https://www.amz123.com/kx/d15Dx4vB",
-"published_at": null,
-"first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T02:55:29.489236Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "京东产发携手深跨协 共建2800万平方米全球仓网助力3800家跨境企业"
-},
-{
-"id": "97fc1da46474c759021ca231ec1b4b9741b2817a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop东南亚上线内容授权工具，3天响应机制助力非原创内容合规处理",
-"url": "https://www.amz123.com/kx/NLuHNvNn",
-"published_at": null,
-"first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T02:55:29.489236Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"合规"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop东南亚上线内容授权工具，3天响应机制助力非原创内容合规处理"
-},
-{
-"id": "6efeb047e944a724a43c48a4e4f5c1c3bf7c254a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries仓库遭袭致图书供应链受影响",
-"url": "https://www.amz123.com/kx/Z0hHmiQR",
-"published_at": null,
-"first_seen_at": "2026-08-09T00:40:33.270709Z",
-"last_seen_at": "2026-08-09T02:55:29.489236Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"供应链"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries仓库遭袭致图书供应链受影响"
-}
-],
+"items": [],
 "all_mode_data_url": "data/latest-24h-all.json"
 }
