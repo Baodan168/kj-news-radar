@@ -1,16 +1,34 @@
 {
-"generated_at": "2026-08-10T00:41:13.712515Z",
+"generated_at": "2026-08-10T03:04:36.444858Z",
 "window_hours": 24,
-"total_items": 0,
-"total_items_cross_raw": 0,
-"total_items_raw": 1,
-"total_items_all_mode": 1,
+"total_items": 10,
+"total_items_cross_raw": 21,
+"total_items_raw": 45,
+"total_items_all_mode": 45,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1396,
+"archive_total": 1399,
 "site_count": 16,
-"source_count": 1,
+"source_count": 4,
 "site_stats": [
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 4,
+"raw_count": 8
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 3,
+"raw_count": 16
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 3,
+"raw_count": 20
+},
 {
 "site_id": "tophub",
 "site_name": "TopHub",
@@ -18,6 +36,257 @@
 "raw_count": 1
 }
 ],
-"items": [],
+"items": [
+{
+"id": "18511b21ef62465280500f09e14695f9a4076df6",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊FBM Ship+备货时间放宽至2天 更多中日欧澳卖家可参与返现",
+"url": "https://www.amz123.com/kx/3qqMvNtY",
+"published_at": null,
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fbm",
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊",
+"fbm"
+],
+"cross_sites": [],
+"title_zh": "亚马逊FBM Ship+备货时间放宽至2天 更多中日欧澳卖家可参与返现"
+},
+{
+"id": "2cc630325dfcabc596c80ab8624847118df027fa",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon订单取消率升至20%以上，跨境卖家面临退货成本压力",
+"url": "https://www.amz123.com/kx/aYTMWyYT",
+"published_at": null,
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"跨境",
+"卖家",
+"退货"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon订单取消率升至20%以上，跨境卖家面临退货成本压力"
+},
+{
+"id": "728f1b07d8e15525cc2f8d83ef187aeb55ebe624",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美国千亿美元关税退款落地，多数中国外贸企业难以受益",
+"url": "https://www.amz123.com/kx/7G5GYK2t",
+"published_at": null,
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"外贸",
+"退款",
+"关税"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国千亿美元关税退款落地，多数中国外贸企业难以受益"
+},
+{
+"id": "b1c184858e3ad452bd33bda28cb982c8678d9583",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "汇率破6.75：美区跨境卖家打响“利润保卫战”",
+"url": "https://www.amzdh.com/kjtt/10264.html",
+"published_at": null,
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"汇率"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "汇率破6.75：美区跨境卖家打响“利润保卫战”"
+},
+{
+"id": "6f9ac34e30795e870aacbf89b6d287d8b176bd64",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "8月7日上午，美元兑人民币即期汇率报6.7477，7月31日已跌破6.75关口，创2023年2月以来新低；年初至今美元兑人民币累计贬值超2%。 过去靠“美元核算、人民币结算”顺手吃结汇收益的跨境卖家，这次真的被反向咬了一口—...8月7日上午，美元兑人民币即期汇率报6.7477，7月31日已跌破6.75关口，创2023年2月以来新低；年初至今美元兑人民币累计贬值超2%。 过去靠“美元核算、人民币结算”顺手吃结汇收益的跨境卖家，这次真的被反向咬了一口—...",
+"url": "https://www.amzdh.com/kjtt/10264.html",
+"published_at": null,
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"汇率"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "8月7日上午，美元兑人民币即期汇率报6.7477，7月31日已跌破6.75关口，创2023年2月以来新低；年初至今美元兑人民币累计贬值超2%。 过去靠“美元核算、人民币结算”顺手吃结汇收益的跨境卖家，这次真的被反向咬了一口—...8月7日上午，美元兑人民币即期汇率报6.7477，7月31日已跌破6.75关口，创2023年2月以来新低；年初至今美元兑人民币累计贬值超2%。 过去靠“美元核算、人民币结算”顺手吃结汇收益的跨境卖家，这次真的被反向咬了一口—..."
+},
+{
+"id": "8a7e7dffcd5feef82aaa2fadcb273b3de70d1142",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "杀入欧洲六国！京东跨境 Joybuy，把国内电商模式搬去海外",
+"url": "https://www.amzdh.com/kjtt/10261.html",
+"published_at": null,
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "杀入欧洲六国！京东跨境 Joybuy，把国内电商模式搬去海外"
+},
+{
+"id": "9248ec2f02dc1df12cc6e88823aa1e92ceb9a8a4",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，最近，京东旗下跨境电商平台 Joybuy，正在欧洲市场大步快跑。目前 Joybuy 已经落地英国、德国、法国、荷兰、比利时、卢森堡六大欧洲国家。为了扎根欧洲本地，京东砸下约 25 亿美元收购了德国 Ceconomy，直...AMZDH获悉，最近，京东旗下跨境电商平台 Joybuy，正在欧洲市场大步快跑。目前 Joybuy 已经落地英国、德国、法国、荷兰、比利时、卢森堡六大欧洲国家。为了扎根欧洲本地，京东砸下约 25 亿美元收购了德国 Ceconomy，直...",
+"url": "https://www.amzdh.com/kjtt/10261.html",
+"published_at": null,
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商",
+"电商平台"
+],
+"cross_platforms": [],
+"cross_sites": [
+"uk",
+"eu"
+],
+"title_zh": "AMZDH获悉，最近，京东旗下跨境电商平台 Joybuy，正在欧洲市场大步快跑。目前 Joybuy 已经落地英国、德国、法国、荷兰、比利时、卢森堡六大欧洲国家。为了扎根欧洲本地，京东砸下约 25 亿美元收购了德国 Ceconomy，直...AMZDH获悉，最近，京东旗下跨境电商平台 Joybuy，正在欧洲市场大步快跑。目前 Joybuy 已经落地英国、德国、法国、荷兰、比利时、卢森堡六大欧洲国家。为了扎根欧洲本地，京东砸下约 25 亿美元收购了德国 Ceconomy，直..."
+},
+{
+"id": "64b9dd75842fdff00b22907cf89abfbb358de1f7",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊DSP推全球统一账户，广告主可跨34国一站式管理",
+"url": "https://www.ennews.com/news-141435.html",
+"published_at": "2026-08-10T00:00:00Z",
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊DSP推全球统一账户，广告主可跨34国一站式管理"
+},
+{
+"id": "f509b6b66734a1858dba8081b80166d111966515",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "港珠澳大桥澳门跨境货物转运站三年服务逾8万车次",
+"url": "https://www.ennews.com/news-141431.html",
+"published_at": "2026-08-10T00:00:00Z",
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "港珠澳大桥澳门跨境货物转运站三年服务逾8万车次"
+},
+{
+"id": "c4ccf1af4347af9d0a2bf418e7d81c880ded4816",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "美客多本土账号服务商疑暴雷，大量卖家受波及",
+"url": "https://www.ennews.com/news-141426.html",
+"published_at": "2026-08-10T00:00:00Z",
+"first_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"美客多",
+"卖家"
+],
+"cross_platforms": [
+"美客多"
+],
+"cross_sites": [],
+"title_zh": "美客多本土账号服务商疑暴雷，大量卖家受波及"
+}
+],
 "all_mode_data_url": "data/latest-24h-all.json"
 }
