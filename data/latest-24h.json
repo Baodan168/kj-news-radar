@@ -1,42 +1,412 @@
 {
-"generated_at": "2026-08-10T03:04:36.444858Z",
+"generated_at": "2026-08-11T00:40:27.059013Z",
 "window_hours": 24,
-"total_items": 10,
-"total_items_cross_raw": 21,
-"total_items_raw": 45,
-"total_items_all_mode": 45,
+"total_items": 22,
+"total_items_cross_raw": 50,
+"total_items_raw": 80,
+"total_items_all_mode": 80,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1399,
+"archive_total": 1459,
 "site_count": 16,
 "source_count": 4,
 "site_stats": [
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 4,
-"raw_count": 8
-},
-{
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 3,
+"count": 8,
+"raw_count": 48
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 8,
 "raw_count": 16
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 3,
-"raw_count": 20
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 6,
+"raw_count": 14
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 1
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "ddbee14f371fdc553ba0c09601128ab873ab6a4b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊Prime Air首次拓展海外市场 英国达灵顿启用MK30无人机配送服务",
+"url": "https://www.amz123.com/kx/9Z4s0Vg3",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.98,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "亚马逊Prime Air首次拓展海外市场 英国达灵顿启用MK30无人机配送服务"
+},
+{
+"id": "ac225f0faf3aa5cb92ce1f61623da3b518c187f1",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊上线免费选品模拟器 利用官方数据辅助卖家决策",
+"url": "https://www.amz123.com/kx/56kNhhDy",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.97,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"选品"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊上线免费选品模拟器 利用官方数据辅助卖家决策"
+},
+{
+"id": "29fc9874c5a4c5a820d3b8753b329e5a836e39a0",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊欧洲站重要提醒！错过关键时间冻结账户和资金",
+"url": "https://www.cifnews.com/article/188051",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊欧洲站重要提醒！错过关键时间冻结账户和资金"
+},
+{
+"id": "e2000802cfc5f202983e604656a4931f4a823dcd",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，小红书跨境电商项目Redshop已于2026年7月正式上线，并重启定向邀约。首期覆盖美国、英国、澳大利亚、新加坡、马来西亚、中国香港、中国澳门等9个核心市场，采用“0前置仓储+AI全链路翻译+低佣金+首月流量...AMZDH获悉，小红书跨境电商项目Redshop已于2026年7月正式上线，并重启定向邀约。首期覆盖美国、英国、澳大利亚、新加坡、马来西亚、中国香港、中国澳门等9个核心市场，采用“0前置仓储+AI全链路翻译+低佣金+首月流量...",
+"url": "https://www.amzdh.com/kjtt/10277.html",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.9,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"流量",
+"电商",
+"仓储"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us",
+"uk",
+"au"
+],
+"title_zh": "AMZDH获悉，小红书跨境电商项目Redshop已于2026年7月正式上线，并重启定向邀约。首期覆盖美国、英国、澳大利亚、新加坡、马来西亚、中国香港、中国澳门等9个核心市场，采用“0前置仓储+AI全链路翻译+低佣金+首月流量...AMZDH获悉，小红书跨境电商项目Redshop已于2026年7月正式上线，并重启定向邀约。首期覆盖美国、英国、澳大利亚、新加坡、马来西亚、中国香港、中国澳门等9个核心市场，采用“0前置仓储+AI全链路翻译+低佣金+首月流量..."
+},
+{
+"id": "cf037a5febe3ff99f674f8ac28039574e15c62bb",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊AI新规来了！不合规将面临处罚",
+"url": "https://www.cifnews.com/article/188041",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"合规"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊AI新规来了！不合规将面临处罚"
+},
+{
+"id": "1cd8446e30ebe361a30fb1d06d5b7c058f6bc5a9",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊测试AI驱动新功能，广告、购物与评论版面迎来升级",
+"url": "https://www.amz123.com/kx/VFIC1uh3",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊测试AI驱动新功能，广告、购物与评论版面迎来升级"
+},
+{
+"id": "ef3a2a170f34c791c06e7f1317e1676123c677bd",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "从30天到14天！亚马逊这一站点退货期限大缩水",
+"url": "https://www.cifnews.com/article/188046",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "从30天到14天！亚马逊这一站点退货期限大缩水"
+},
+{
+"id": "d131cd7ecdba7e5c88ec6f82ab674ab53790d230",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊FAQ解读标题新规：75字符标题+125字符亮点搜索权重一致",
+"url": "https://www.amz123.com/kx/yz2oDjES",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊FAQ解读标题新规：75字符标题+125字符亮点搜索权重一致"
+},
+{
+"id": "c6829d0b5d0573784f7171809a19006b3db6d2cc",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "深圳TikTok服务商布*跨境被曝涉近3000万元资金纠纷",
+"url": "https://www.amz123.com/kx/Ljif9uce",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "深圳TikTok服务商布*跨境被曝涉近3000万元资金纠纷"
+},
+{
+"id": "d76ae175739034795a5346d0e33f668858040106",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "纽约全面禁售这一类目！跨境卖家快避险",
+"url": "https://www.cifnews.com/article/188060",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "纽约全面禁售这一类目！跨境卖家快避险"
+},
+{
+"id": "8a0f64287d4bd9545d6cb4db2cd66a62e3fd308e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊、Shopify押注“AI货架”，下一个万亿入口不再属于搜索",
+"url": "https://www.cifnews.com/article/188057",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shopify",
+"亚马逊"
+],
+"cross_platforms": [
+"shopify",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊、Shopify押注“AI货架”，下一个万亿入口不再属于搜索"
+},
+{
+"id": "5bcf27e44ab679351470774e0a0bbdc22c1b36a6",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "一批美客多本土号突然被封！卖家：子账号全挂",
+"url": "https://www.cifnews.com/article/187980",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"美客多",
+"卖家"
+],
+"cross_platforms": [
+"美客多"
+],
+"cross_sites": [],
+"title_zh": "一批美客多本土号突然被封！卖家：子账号全挂"
+},
+{
+"id": "f98bd83f3896c1d11fb261a50adc777d3fd7a986",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "Wildberries入驻门槛大降！500元开店还送广告费，秒下店！",
+"url": "https://www.amzdh.com/kjtt/10275.html",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries入驻门槛大降！500元开店还送广告费，秒下店！"
+},
+{
+"id": "75b9a30b4fe239bba8416e78a5572c45834c54d6",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "Ozon订单取消率升至20%以上，跨境卖家面临退货压力",
+"url": "https://www.amzdh.com/kjtt/10273.html",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"跨境",
+"卖家",
+"退货"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon订单取消率升至20%以上，跨境卖家面临退货压力"
+},
+{
+"id": "8f4f842b43134d521025248f990fc5fac312190f",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "做Ozon的朋友最近应该都感觉到了：单量没少，钱却越赚越薄。最新数据很刺眼——2026年4月起Ozon全平台“已送达-取消率”持续爬升，6月达到16.7%，部分KA头部卖家自测甚至突破20%。过去俄区跨境是“高增长蓝海”，现在...做Ozon的朋友最近应该都感觉到了：单量没少，钱却越赚越薄。最新数据很刺眼——2026年4月起Ozon全平台“已送达-取消率”持续爬升，6月达到16.7%，部分KA头部卖家自测甚至突破20%。过去俄区跨境是“高增长蓝海”，现在...",
+"url": "https://www.amzdh.com/kjtt/10273.html",
+"published_at": null,
+"first_seen_at": "2026-08-11T00:40:27.059013Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "做Ozon的朋友最近应该都感觉到了：单量没少，钱却越赚越薄。最新数据很刺眼——2026年4月起Ozon全平台“已送达-取消率”持续爬升，6月达到16.7%，部分KA头部卖家自测甚至突破20%。过去俄区跨境是“高增长蓝海”，现在...做Ozon的朋友最近应该都感觉到了：单量没少，钱却越赚越薄。最新数据很刺眼——2026年4月起Ozon全平台“已送达-取消率”持续爬升，6月达到16.7%，部分KA头部卖家自测甚至突破20%。过去俄区跨境是“高增长蓝海”，现在..."
+},
 {
 "id": "18511b21ef62465280500f09e14695f9a4076df6",
 "site_id": "amz123",
@@ -126,7 +496,7 @@
 "url": "https://www.amzdh.com/kjtt/10264.html",
 "published_at": null,
 "first_seen_at": "2026-08-10T03:04:36.444858Z",
-"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -152,7 +522,7 @@
 "url": "https://www.amzdh.com/kjtt/10264.html",
 "published_at": null,
 "first_seen_at": "2026-08-10T03:04:36.444858Z",
-"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -176,7 +546,7 @@
 "url": "https://www.amzdh.com/kjtt/10261.html",
 "published_at": null,
 "first_seen_at": "2026-08-10T03:04:36.444858Z",
-"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -200,7 +570,7 @@
 "url": "https://www.amzdh.com/kjtt/10261.html",
 "published_at": null,
 "first_seen_at": "2026-08-10T03:04:36.444858Z",
-"last_seen_at": "2026-08-10T03:04:36.444858Z",
+"last_seen_at": "2026-08-11T00:40:27.059013Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -217,75 +587,6 @@
 "eu"
 ],
 "title_zh": "AMZDH获悉，最近，京东旗下跨境电商平台 Joybuy，正在欧洲市场大步快跑。目前 Joybuy 已经落地英国、德国、法国、荷兰、比利时、卢森堡六大欧洲国家。为了扎根欧洲本地，京东砸下约 25 亿美元收购了德国 Ceconomy，直...AMZDH获悉，最近，京东旗下跨境电商平台 Joybuy，正在欧洲市场大步快跑。目前 Joybuy 已经落地英国、德国、法国、荷兰、比利时、卢森堡六大欧洲国家。为了扎根欧洲本地，京东砸下约 25 亿美元收购了德国 Ceconomy，直..."
-},
-{
-"id": "64b9dd75842fdff00b22907cf89abfbb358de1f7",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊DSP推全球统一账户，广告主可跨34国一站式管理",
-"url": "https://www.ennews.com/news-141435.html",
-"published_at": "2026-08-10T00:00:00Z",
-"first_seen_at": "2026-08-10T03:04:36.444858Z",
-"last_seen_at": "2026-08-10T03:04:36.444858Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊DSP推全球统一账户，广告主可跨34国一站式管理"
-},
-{
-"id": "f509b6b66734a1858dba8081b80166d111966515",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "港珠澳大桥澳门跨境货物转运站三年服务逾8万车次",
-"url": "https://www.ennews.com/news-141431.html",
-"published_at": "2026-08-10T00:00:00Z",
-"first_seen_at": "2026-08-10T03:04:36.444858Z",
-"last_seen_at": "2026-08-10T03:04:36.444858Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "港珠澳大桥澳门跨境货物转运站三年服务逾8万车次"
-},
-{
-"id": "c4ccf1af4347af9d0a2bf418e7d81c880ded4816",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "美客多本土账号服务商疑暴雷，大量卖家受波及",
-"url": "https://www.ennews.com/news-141426.html",
-"published_at": "2026-08-10T00:00:00Z",
-"first_seen_at": "2026-08-10T03:04:36.444858Z",
-"last_seen_at": "2026-08-10T03:04:36.444858Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"美客多",
-"卖家"
-],
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "美客多本土账号服务商疑暴雷，大量卖家受波及"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
