@@ -1,33 +1,33 @@
 {
-"generated_at": "2026-08-12T00:41:14.494988Z",
+"generated_at": "2026-08-12T03:16:43.771667Z",
 "window_hours": 24,
-"total_items": 15,
-"total_items_cross_raw": 32,
-"total_items_raw": 50,
-"total_items_all_mode": 50,
+"total_items": 18,
+"total_items_cross_raw": 47,
+"total_items_raw": 70,
+"total_items_all_mode": 70,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1463,
+"archive_total": 1501,
 "site_count": 16,
-"source_count": 6,
+"source_count": 5,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 31
+"raw_count": 38
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 6,
+"raw_count": 20
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 4,
-"raw_count": 6
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 3,
-"raw_count": 8
+"raw_count": 7
 },
 {
 "site_id": "amazon_newsroom",
@@ -50,6 +50,97 @@
 ],
 "items": [
 {
+"id": "6fd6656cdcf0a94b82492ff903f8f2e1b9fba259",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Google Ads跨境电商领航者峰会8月28日将在厦门举办",
+"url": "https://www.amz123.com/kx/tP88rgTg",
+"published_at": null,
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Google Ads跨境电商领航者峰会8月28日将在厦门举办"
+},
+{
+"id": "046e9050f66b85108c10393259e6583473515a3e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "京东物流开通越南至美国跨境小包专线",
+"url": "https://www.amz123.com/kx/lfXzHuqt",
+"published_at": null,
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "京东物流开通越南至美国跨境小包专线"
+},
+{
+"id": "885ac089134b9d5845a4cabfd4e8b9ef7cac7f31",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "上半年海关总署审核通过知识产权海关保护备案1.5万件",
+"url": "https://www.amz123.com/kx/coRHgENe",
+"published_at": null,
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"海关",
+"海关总署"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "上半年海关总署审核通过知识产权海关保护备案1.5万件"
+},
+{
+"id": "d9207216b75c4948ae536c5ad342836318b51f6d",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "上架就出单！这个新兴平台，中国卖家只有1成",
+"url": "https://www.cifnews.com/article/188142",
+"published_at": null,
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "上架就出单！这个新兴平台，中国卖家只有1成"
+},
+{
 "id": "12c026810edbbb5cc5709e5789e5496c18a9f6bf",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -58,7 +149,7 @@
 "url": "https://www.cifnews.com/article/188135",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -83,7 +174,7 @@
 "url": "https://www.amz123.com/kx/Iop2ioNZ",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "temu",
@@ -94,8 +185,8 @@
 "电商"
 ],
 "cross_platforms": [
-"temu",
-"亚马逊"
+"亚马逊",
+"temu"
 ],
 "cross_sites": [],
 "title_zh": "6月全球电商Top10访问量达75.54亿次 亚马逊稳居首位Temu位列第二"
@@ -132,7 +223,7 @@
 "url": "https://www.cifnews.com/article/188071",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -155,7 +246,7 @@
 "url": "https://www.amz123.com/kx/NeTdgSuo",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "general",
@@ -179,7 +270,7 @@
 "url": "https://www.amz123.com/kx/57XZryUK",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
 "cross_score": 0.67,
 "cross_label": "fee_logistics",
@@ -204,7 +295,7 @@
 "url": "https://www.amz123.com/kx/tLl2cI3A",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -227,7 +318,7 @@
 "url": "https://www.cifnews.com/article/188083",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -241,99 +332,86 @@
 "title_zh": "国人宠物卖家突袭！Puppy Pads宠物尿垫图维权！"
 },
 {
-"id": "3ae7debb5aa210849578170b0127f593245487d6",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，现在亚马逊商机探测器上新选品模拟器，美国站、欧洲五国（英、法、德、意、西）直接免费使用，用平台官方真实数据，帮大家在产品开发前期就评估市场机会，少踩大坑。01工具入口在哪里？卖家平台路径：商品...AMZDH获悉，现在亚马逊商机探测器上新选品模拟器，美国站、欧洲五国（英、法、德、意、西）直接免费使用，用平台官方真实数据，帮大家在产品开发前期就评估市场机会，少踩大坑。01工具入口在哪里？卖家平台路径：商品...",
-"url": "https://www.amzdh.com/kjtt/10279.html",
-"published_at": null,
-"first_seen_at": "2026-08-11T02:57:43.131196Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"id": "e6242dee354be012c404bfe7d47f4027dbd53938",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊肯特机器人履约中心日处理百万包裹",
+"url": "https://www.ennews.com/news-141642.html",
+"published_at": "2026-08-12T00:00:00Z",
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
-"cross_score": 0.9,
-"cross_label": "listing_product",
+"cross_score": 0.68,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
-"卖家",
-"卖家",
-"选品"
+"包裹"
 ],
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [
-"us",
-"eu"
-],
-"title_zh": "AMZDH获悉，现在亚马逊商机探测器上新选品模拟器，美国站、欧洲五国（英、法、德、意、西）直接免费使用，用平台官方真实数据，帮大家在产品开发前期就评估市场机会，少踩大坑。01工具入口在哪里？卖家平台路径：商品...AMZDH获悉，现在亚马逊商机探测器上新选品模拟器，美国站、欧洲五国（英、法、德、意、西）直接免费使用，用平台官方真实数据，帮大家在产品开发前期就评估市场机会，少踩大坑。01工具入口在哪里？卖家平台路径：商品..."
+"cross_sites": [],
+"title_zh": "亚马逊肯特机器人履约中心日处理百万包裹"
 },
 {
-"id": "0ba18bea71a92d9ee1d38a71fbf741ae98b70436",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "各位做越南市场的外贸、跨境卖家注意！AMZDH获悉，越南政府一项新政策第 31/2026/QĐ‑TTg 决定，将于 2026 年 8 月 14 日正式生效，12 类进口商品报关模式直接改规则，对家电、酒水、汽配、跨境电商备货影响很大，一...各位做越南市场的外贸、跨境卖家注意！AMZDH获悉，越南政府一项新政策第 31/2026/QĐ‑TTg 决定，将于 2026 年 8 月 14 日正式生效，12 类进口商品报关模式直接改规则，对家电、酒水、汽配、跨境电商备货影响很大，一...",
-"url": "https://www.amzdh.com/kjtt/10280.html",
-"published_at": null,
-"first_seen_at": "2026-08-11T02:57:43.131196Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"id": "908f4237575442aa52f34d1a60dcbb639bd95999",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "上半年海关总署审核通过知识产权海关保护备案 1.5 万件",
+"url": "https://www.ennews.com/news-141654.html",
+"published_at": "2026-08-12T00:00:00Z",
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
+"cross_score": 0.64,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"卖家",
-"外贸",
-"报关",
-"跨境",
-"跨境电商",
-"卖家",
-"电商",
-"政策",
-"报关"
+"海关",
+"海关总署"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "各位做越南市场的外贸、跨境卖家注意！AMZDH获悉，越南政府一项新政策第 31/2026/QĐ‑TTg 决定，将于 2026 年 8 月 14 日正式生效，12 类进口商品报关模式直接改规则，对家电、酒水、汽配、跨境电商备货影响很大，一...各位做越南市场的外贸、跨境卖家注意！AMZDH获悉，越南政府一项新政策第 31/2026/QĐ‑TTg 决定，将于 2026 年 8 月 14 日正式生效，12 类进口商品报关模式直接改规则，对家电、酒水、汽配、跨境电商备货影响很大，一..."
+"title_zh": "上半年海关总署审核通过知识产权海关保护备案 1.5 万件"
 },
 {
-"id": "94f1bf52ae353cc2e40133321fdf4e6fd21f19de",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊免费新工具上线！商机探测器「选品模拟器」来了",
-"url": "https://www.amzdh.com/kjtt/10279.html",
-"published_at": null,
-"first_seen_at": "2026-08-11T02:57:43.131196Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"id": "b0401c675e3cfd3b677100e6cb5c1eb6c3d69463",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries沃罗涅日仓库遭无人机袭击后火势扑灭",
+"url": "https://www.ennews.com/news-141652.html",
+"published_at": "2026-08-12T00:00:00Z",
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "listing_product",
+"cross_score": 0.6,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"选品"
+"wildberries"
 ],
 "cross_platforms": [
-"亚马逊"
+"wildberries"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊免费新工具上线！商机探测器「选品模拟器」来了"
+"title_zh": "Wildberries沃罗涅日仓库遭无人机袭击后火势扑灭"
 },
 {
-"id": "094b48a39eaa08ed783a892749fd6bf6fd674489",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "WB超16%仓完全报废，卖家联盟请愿降佣金",
-"url": "https://www.amz123.com/kx/84GE58Jq",
-"published_at": null,
-"first_seen_at": "2026-08-11T02:57:43.131196Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"id": "8a963a7c82d077f3fec2deff7dfdacbb5e4f32de",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "俄卖家联盟请愿政府干预，要求平台降佣金取消强制折扣",
+"url": "https://www.ennews.com/news-141650.html",
+"published_at": "2026-08-12T00:00:00Z",
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
-"cross_score": 0.77,
+"cross_score": 0.6,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -342,76 +420,55 @@
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "WB超16%仓完全报废，卖家联盟请愿降佣金"
+"title_zh": "俄卖家联盟请愿政府干预，要求平台降佣金取消强制折扣"
 },
 {
-"id": "8605cc4e50d15496bcc022c5dc7d924c9ed32468",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"id": "6c1721dc8edbac5e36057a1eb3c56249d6ec7bb3",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "突然！深圳大卖官宣，关停跨境电商业务",
-"url": "https://www.cifnews.com/article/188071",
-"published_at": null,
-"first_seen_at": "2026-08-11T02:57:43.131196Z",
-"last_seen_at": "2026-08-11T02:57:43.131196Z",
+"title": "Wildberries延长对受乌军袭击影响卖家的支持措施至2027年2月",
+"url": "https://www.ennews.com/news-141648.html",
+"published_at": "2026-08-12T00:00:00Z",
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
-"cross_score": 0.72,
+"cross_score": 0.6,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "突然！深圳大卖官宣，关停跨境电商业务"
-},
-{
-"id": "7aaf8d109580ebaa7b87b9f619c2bb8166e06aee",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "树脂蝴蝶墙饰月销超900件，亚马逊复古仿金属设计凭溢价打开市场",
-"url": "https://www.amz123.com/kx/aSkdZEhe",
-"published_at": null,
-"first_seen_at": "2026-08-11T02:57:43.131196Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
+"wildberries",
+"卖家",
+"卖家"
 ],
 "cross_platforms": [
-"亚马逊"
+"wildberries"
 ],
 "cross_sites": [],
-"title_zh": "树脂蝴蝶墙饰月销超900件，亚马逊复古仿金属设计凭溢价打开市场"
+"title_zh": "Wildberries延长对受乌军袭击影响卖家的支持措施至2027年2月"
 },
 {
-"id": "fa199652acc9a8a22e613b298a15ff0a5aa5d868",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "97天月销400+ 亚马逊水龟晒台产品拆解：小众刚需市场增长空间有限",
-"url": "https://www.amz123.com/kx/3U24vp4r",
-"published_at": null,
-"first_seen_at": "2026-08-11T02:57:43.131196Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
+"id": "865ca348e146b67e6afefd4319d720222ec45632",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries仓库遭袭，损失或达50亿美元",
+"url": "https://www.ennews.com/news-141646.html",
+"published_at": "2026-08-12T00:00:00Z",
+"first_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-12T03:16:43.771667Z",
 "cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "listing_product",
+"cross_score": 0.6,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"wildberries"
 ],
 "cross_platforms": [
-"亚马逊"
+"wildberries"
 ],
 "cross_sites": [],
-"title_zh": "97天月销400+ 亚马逊水龟晒台产品拆解：小众刚需市场增长空间有限"
+"title_zh": "Wildberries仓库遭袭，损失或达50亿美元"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
