@@ -1,27 +1,39 @@
 {
-"generated_at": "2026-08-13T00:40:17.949873Z",
+"generated_at": "2026-08-13T03:21:17.101533Z",
 "window_hours": 24,
-"total_items": 13,
-"total_items_cross_raw": 45,
-"total_items_raw": 88,
-"total_items_all_mode": 88,
+"total_items": 28,
+"total_items_cross_raw": 53,
+"total_items_raw": 104,
+"total_items_all_mode": 104,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1524,
+"archive_total": 1559,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
 {
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 24
+},
+{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 67
+"raw_count": 45
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 4,
-"raw_count": 11
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 6,
+"raw_count": 20
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 5,
+"raw_count": 10
 },
 {
 "site_id": "amazon_newsroom",
@@ -30,25 +42,430 @@
 "raw_count": 1
 },
 {
-"site_id": "tophub",
-"site_name": "TopHub",
-"count": 0,
-"raw_count": 6
-},
-{
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
 "count": 0,
 "raw_count": 1
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
+"site_id": "tophub",
+"site_name": "TopHub",
 "count": 0,
-"raw_count": 2
+"raw_count": 3
 }
 ],
 "items": [
+{
+"id": "24ce86086de98958ed808f200b994212ac7d947a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊AI图片新规落地，哪些素材必须标记？卖家最常见问题一次说明",
+"url": "https://www.cifnews.com/article/188179",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊AI图片新规落地，哪些素材必须标记？卖家最常见问题一次说明"
+},
+{
+"id": "0bbdaad8da8a627e86ad397b1127315d6700df41",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊乱封号要终结？美国新法案来了！",
+"url": "https://www.cifnews.com/article/188177",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊乱封号要终结？美国新法案来了！"
+},
+{
+"id": "d270d5dde90e934783b7d30249b665bb560d7efb",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展...各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展...",
+"url": "https://www.amzdh.com/kjtt/10287.html",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"合规"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展...各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展..."
+},
+{
+"id": "65ab2a3855d2cf1d278d001f8f4008cbeee79794",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "紧急！亚马逊锂电家电8月30日强制下架，未完成TIC验证的ASIN将直接消失",
+"url": "https://www.cifnews.com/article/188185",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"asin"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "紧急！亚马逊锂电家电8月30日强制下架，未完成TIC验证的ASIN将直接消失"
+},
+{
+"id": "9464da46fcc126f08dc84879b14bf082b423fe90",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊卖家警惕！收到律师函可能是钓鱼诈骗！",
+"url": "https://www.cifnews.com/article/188172",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家警惕！收到律师函可能是钓鱼诈骗！"
+},
+{
+"id": "3eac9f2c2abc266da9f81f5b0c290bb51f898e94",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "26-cv-25411｜洗肠器引爆专利战：宁波企业赴美起诉跨境卖家，账户冻结+三倍赔偿",
+"url": "https://www.cifnews.com/article/188167",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "26-cv-25411｜洗肠器引爆专利战：宁波企业赴美起诉跨境卖家，账户冻结+三倍赔偿"
+},
+{
+"id": "6fd7ea625087755687b36f3677b2b515d8fd4aed",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊近期新规汇总，不调整影响店铺！",
+"url": "https://www.cifnews.com/article/188183",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊近期新规汇总，不调整影响店铺！"
+},
+{
+"id": "db078b92c38e55a6a133d16698c41f322f986495",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "每期一家跨境电商公司：智能锁全球大卖 凯迪仕",
+"url": "https://www.cifnews.com/article/188180",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "每期一家跨境电商公司：智能锁全球大卖 凯迪仕"
+},
+{
+"id": "884f6f31ae6d4e8b147596fffd68cfa4c6a1410f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊整合航空、陆运及分拣团队强化中段运输管理",
+"url": "https://www.amz123.com/kx/Md9WvB6j",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊整合航空、陆运及分拣团队强化中段运输管理"
+},
+{
+"id": "d4089d88c5a2b8e11bbca4439c3cc62821e18753",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧美高温烫手方向盘遮阳罩亚马逊新品榜前十",
+"url": "https://www.amz123.com/kx/nWE9ceN3",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "欧美高温烫手方向盘遮阳罩亚马逊新品榜前十"
+},
+{
+"id": "c0fb859ccbb8a86943a30715c71e7c1caa6f4d71",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "买卖亚马逊店铺的罪与罚——基于现行司法裁判的实务研究【001】",
+"url": "https://www.cifnews.com/article/188169",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "买卖亚马逊店铺的罪与罚——基于现行司法裁判的实务研究【001】"
+},
+{
+"id": "7346b39d659a8505d81d69f2d971cdbd45ce2d82",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "eBay英国推出国际航运服务 卖家国内发货即可完成跨境履约",
+"url": "https://www.amz123.com/kx/IDnhmvP6",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ebay",
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [
+"ebay"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "eBay英国推出国际航运服务 卖家国内发货即可完成跨境履约"
+},
+{
+"id": "d5bb9ced362773953422209561ce3f5ef8f1006e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "SHEIN加码巴西逆向物流布局",
+"url": "https://www.amz123.com/kx/KVOyMF60",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shein",
+"物流"
+],
+"cross_platforms": [
+"shein"
+],
+"cross_sites": [],
+"title_zh": "SHEIN加码巴西逆向物流布局"
+},
+{
+"id": "06c1d044e6c8b3046c65b08a4cefad0b6be0ecce",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持...不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持...",
+"url": "https://www.amzdh.com/kjtt/10286.html",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"跨境物流",
+"卖家",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持...不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持..."
+},
+{
+"id": "a6b85a1aaf4aafd55924ad3550ab77f50ed088aa",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "从“配送时效争议”看 Takealot：南非电商老大，为什么还是中国卖家的首选？",
+"url": "https://www.amzdh.com/kjtt/10289.html",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "从“配送时效争议”看 Takealot：南非电商老大，为什么还是中国卖家的首选？"
+},
+{
+"id": "96db2f3961f692b91292a2bb0283bf8897335f6e",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会...AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会...",
+"url": "https://www.amzdh.com/kjtt/10289.html",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会...AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会..."
+},
+{
+"id": "a8c363f1ad893c28c328877b2324f3a311ff2497",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "紧急预警｜亚马逊8月15日强制执行 AI 图片新规",
+"url": "https://www.amzdh.com/kjtt/10287.html",
+"published_at": null,
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "紧急预警｜亚马逊8月15日强制执行 AI 图片新规"
+},
 {
 "id": "a710f3e97a7c19f0c57fce675c582b8457335865",
 "site_id": "amz123",
@@ -58,7 +475,7 @@
 "url": "https://www.amz123.com/kx/WCqpQfWg",
 "published_at": null,
 "first_seen_at": "2026-08-13T00:40:17.949873Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "policy_update",
@@ -81,7 +498,7 @@
 "url": "https://www.amz123.com/kx/Mbq9k90Q",
 "published_at": null,
 "first_seen_at": "2026-08-13T00:40:17.949873Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "general",
@@ -95,6 +512,201 @@
 "title_zh": "泰国海关一日查扣两起跨境违规案件：日货漏税320万泰铢 海贼王卡牌遭拦截"
 },
 {
+"id": "bb9110289c2b50912fbc89fca0ca397a11f94ff0",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries将于8月12日重算3—6月物流费用",
+"url": "https://www.amz123.com/kx/EuGNsaUa",
+"published_at": null,
+"first_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"物流"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries将于8月12日重算3—6月物流费用"
+},
+{
+"id": "8bc092f3122ba5001c89809c3d6849dd5e138405",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美国校园储物柜网络扩展至500所高校750个取件点",
+"url": "https://www.amz123.com/kx/5u6HdDmy",
+"published_at": null,
+"first_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国校园储物柜网络扩展至500所高校750个取件点"
+},
+{
+"id": "4547487e5ecb5d3eb7ed61b2997d906a7cc7a82b",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "俄电商平台严查下架含西布曲明保健品，违规卖家面临封禁",
+"url": "https://www.ennews.com/news-141770.html",
+"published_at": "2026-08-13T00:00:00Z",
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"电商平台"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄电商平台严查下架含西布曲明保健品，违规卖家面临封禁"
+},
+{
+"id": "d83d9ff8b563cd089a6249d15d383c0e44a70b5d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries延长FBS卖家支持政策至2027年",
+"url": "https://www.ennews.com/news-141771.html",
+"published_at": "2026-08-13T00:00:00Z",
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家",
+"政策"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries延长FBS卖家支持政策至2027年"
+},
+{
+"id": "2f34c7212a7f1e7f09d754db6b2394889e034770",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon银行应用遭Google Play下架，俄境内业务未受欧盟制裁影响",
+"url": "https://www.ennews.com/news-141774.html",
+"published_at": "2026-08-13T00:00:00Z",
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"制裁"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon银行应用遭Google Play下架，俄境内业务未受欧盟制裁影响"
+},
+{
+"id": "a4b1b20deb1b5d6a45439796e721d1f6f8eec08c",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon升级B2B采购平台实现统一结算",
+"url": "https://www.ennews.com/news-141775.html",
+"published_at": "2026-08-13T00:00:00Z",
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"采购"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon升级B2B采购平台实现统一结算"
+},
+{
+"id": "7769a2c5462b57cbaa663cfb8897255d66083d2a",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon租赁14万平米新仓，应对订单量增长",
+"url": "https://www.ennews.com/news-141773.html",
+"published_at": "2026-08-13T00:00:00Z",
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon租赁14万平米新仓，应对订单量增长"
+},
+{
+"id": "5ccfc537cbcad7ae3dab6c4a27524470706134aa",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries应用将重返美国App Store",
+"url": "https://www.ennews.com/news-141772.html",
+"published_at": "2026-08-13T00:00:00Z",
+"first_seen_at": "2026-08-13T03:21:17.101533Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "Wildberries应用将重返美国App Store"
+},
+{
 "id": "630e7b7f8305e4bee087f1c905888be0a952cd3b",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -103,7 +715,7 @@
 "url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-learn-and-be-curious-podcast",
 "published_at": "2026-08-12T16:55:18Z",
 "first_seen_at": "2026-08-13T00:40:17.949873Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T03:21:17.101533Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -116,243 +728,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊的人工智能购物助手如何让数以亿计的产品感受到个性化"
-},
-{
-"id": "6fd6656cdcf0a94b82492ff903f8f2e1b9fba259",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Google Ads跨境电商领航者峰会8月28日将在厦门举办",
-"url": "https://www.amz123.com/kx/tP88rgTg",
-"published_at": null,
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Google Ads跨境电商领航者峰会8月28日将在厦门举办"
-},
-{
-"id": "046e9050f66b85108c10393259e6583473515a3e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "京东物流开通越南至美国跨境小包专线",
-"url": "https://www.amz123.com/kx/lfXzHuqt",
-"published_at": null,
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "京东物流开通越南至美国跨境小包专线"
-},
-{
-"id": "d9207216b75c4948ae536c5ad342836318b51f6d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "上架就出单！这个新兴平台，中国卖家只有1成",
-"url": "https://www.cifnews.com/article/188142",
-"published_at": null,
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "上架就出单！这个新兴平台，中国卖家只有1成"
-},
-{
-"id": "12c026810edbbb5cc5709e5789e5496c18a9f6bf",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "对话工厂型卖家：代工30年，却在亚马逊上重新学做产品",
-"url": "https://www.cifnews.com/article/188135",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "对话工厂型卖家：代工30年，却在亚马逊上重新学做产品"
-},
-{
-"id": "36af5e757d5613ad5bdc1d8276e3f0417f9a322f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "6月全球电商Top10访问量达75.54亿次 亚马逊稳居首位Temu位列第二",
-"url": "https://www.amz123.com/kx/Iop2ioNZ",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"亚马逊",
-"电商"
-],
-"cross_platforms": [
-"temu",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "6月全球电商Top10访问量达75.54亿次 亚马逊稳居首位Temu位列第二"
-},
-{
-"id": "c460937ab8bdfb22952d54b44c633821b6e751e3",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Bauhaus引入百余名卖家新增10万SKU",
-"url": "https://www.amz123.com/kx/Dwd60VZw",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T00:41:14.494988Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"sku",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Bauhaus引入百余名卖家新增10万SKU"
-},
-{
-"id": "8f46e3390b68f2e7c8931332e729dbb470b03440",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "突发！深圳大卖官宣，关停跨境电商业务",
-"url": "https://www.cifnews.com/article/188071",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "突发！深圳大卖官宣，关停跨境电商业务"
-},
-{
-"id": "f05fa9e90585278978560b771a8b5bb51688ef7d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊全球开店正式发布“华北产业带联合赋能计划”",
-"url": "https://www.amz123.com/kx/NeTdgSuo",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"全球开店"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊全球开店正式发布“华北产业带联合赋能计划”"
-},
-{
-"id": "0e7aa86a5050e2a8de6a4d82919152e2cca035c6",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "SHEIN在巴西布局4000个线下退货点，逆向物流成本降低20%",
-"url": "https://www.amz123.com/kx/57XZryUK",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shein",
-"退货",
-"物流"
-],
-"cross_platforms": [
-"shein"
-],
-"cross_sites": [],
-"title_zh": "SHEIN在巴西布局4000个线下退货点，逆向物流成本降低20%"
-},
-{
-"id": "e079b5865719087284c271f6d32e165617f1305d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "国人宠物卖家突袭！Puppy Pads宠物尿垫图维权！",
-"url": "https://www.cifnews.com/article/188083",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-13T00:40:17.949873Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "国人宠物卖家突袭！Puppy Pads宠物尿垫图维权！"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
