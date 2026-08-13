@@ -1,54 +1,122 @@
 {
-"generated_at": "2026-08-12T03:16:43.771667Z",
+"generated_at": "2026-08-13T00:40:17.949873Z",
 "window_hours": 24,
-"total_items": 18,
-"total_items_cross_raw": 47,
-"total_items_raw": 70,
-"total_items_all_mode": 70,
+"total_items": 13,
+"total_items_cross_raw": 45,
+"total_items_raw": 88,
+"total_items_all_mode": 88,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1501,
+"archive_total": 1524,
 "site_count": 16,
-"source_count": 5,
+"source_count": 6,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 38
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 6,
-"raw_count": 20
+"raw_count": 67
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 4,
-"raw_count": 7
+"raw_count": 11
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
-"count": 0,
-"raw_count": 1
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 0,
+"count": 1,
 "raw_count": 1
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
+"raw_count": 6
+},
+{
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"count": 0,
+"raw_count": 1
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 0,
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "a710f3e97a7c19f0c57fce675c582b8457335865",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊8月15日起强制执行AI人像元数据披露规则",
+"url": "https://www.amz123.com/kx/WCqpQfWg",
+"published_at": null,
+"first_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊8月15日起强制执行AI人像元数据披露规则"
+},
+{
+"id": "281e2b2825d8a0feec1daa8e4ab56a01fe4ec8df",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "泰国海关一日查扣两起跨境违规案件：日货漏税320万泰铢 海贼王卡牌遭拦截",
+"url": "https://www.amz123.com/kx/Mbq9k90Q",
+"published_at": null,
+"first_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"海关",
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "泰国海关一日查扣两起跨境违规案件：日货漏税320万泰铢 海贼王卡牌遭拦截"
+},
+{
+"id": "630e7b7f8305e4bee087f1c905888be0a952cd3b",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "How Amazon's AI shopping assistant makes hundreds of millions of products feel personal",
+"url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-learn-and-be-curious-podcast",
+"published_at": "2026-08-12T16:55:18Z",
+"first_seen_at": "2026-08-13T00:40:17.949873Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊的人工智能购物助手如何让数以亿计的产品感受到个性化"
+},
 {
 "id": "6fd6656cdcf0a94b82492ff903f8f2e1b9fba259",
 "site_id": "amz123",
@@ -97,28 +165,6 @@
 "title_zh": "京东物流开通越南至美国跨境小包专线"
 },
 {
-"id": "885ac089134b9d5845a4cabfd4e8b9ef7cac7f31",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "上半年海关总署审核通过知识产权海关保护备案1.5万件",
-"url": "https://www.amz123.com/kx/coRHgENe",
-"published_at": null,
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"海关",
-"海关总署"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "上半年海关总署审核通过知识产权海关保护备案1.5万件"
-},
-{
 "id": "d9207216b75c4948ae536c5ad342836318b51f6d",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -127,7 +173,7 @@
 "url": "https://www.cifnews.com/article/188142",
 "published_at": null,
 "first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "listing_product",
@@ -149,7 +195,7 @@
 "url": "https://www.cifnews.com/article/188135",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -174,7 +220,7 @@
 "url": "https://www.amz123.com/kx/Iop2ioNZ",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "temu",
@@ -185,8 +231,8 @@
 "电商"
 ],
 "cross_platforms": [
-"亚马逊",
-"temu"
+"temu",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "6月全球电商Top10访问量达75.54亿次 亚马逊稳居首位Temu位列第二"
@@ -223,7 +269,7 @@
 "url": "https://www.cifnews.com/article/188071",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -246,7 +292,7 @@
 "url": "https://www.amz123.com/kx/NeTdgSuo",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "general",
@@ -287,29 +333,6 @@
 "title_zh": "SHEIN在巴西布局4000个线下退货点，逆向物流成本降低20%"
 },
 {
-"id": "5cbe915080ad53da7b23b71eb3489ae1cab6dde8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊德州建设7.65吉瓦燃气电厂 为AI数据中心提供专属电力",
-"url": "https://www.amz123.com/kx/tLl2cI3A",
-"published_at": null,
-"first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊德州建设7.65吉瓦燃气电厂 为AI数据中心提供专属电力"
-},
-{
 "id": "e079b5865719087284c271f6d32e165617f1305d",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -318,7 +341,7 @@
 "url": "https://www.cifnews.com/article/188083",
 "published_at": null,
 "first_seen_at": "2026-08-12T00:41:14.494988Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
+"last_seen_at": "2026-08-13T00:40:17.949873Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -330,145 +353,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "国人宠物卖家突袭！Puppy Pads宠物尿垫图维权！"
-},
-{
-"id": "e6242dee354be012c404bfe7d47f4027dbd53938",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊肯特机器人履约中心日处理百万包裹",
-"url": "https://www.ennews.com/news-141642.html",
-"published_at": "2026-08-12T00:00:00Z",
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"包裹"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊肯特机器人履约中心日处理百万包裹"
-},
-{
-"id": "908f4237575442aa52f34d1a60dcbb639bd95999",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "上半年海关总署审核通过知识产权海关保护备案 1.5 万件",
-"url": "https://www.ennews.com/news-141654.html",
-"published_at": "2026-08-12T00:00:00Z",
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"海关",
-"海关总署"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "上半年海关总署审核通过知识产权海关保护备案 1.5 万件"
-},
-{
-"id": "b0401c675e3cfd3b677100e6cb5c1eb6c3d69463",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries沃罗涅日仓库遭无人机袭击后火势扑灭",
-"url": "https://www.ennews.com/news-141652.html",
-"published_at": "2026-08-12T00:00:00Z",
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries沃罗涅日仓库遭无人机袭击后火势扑灭"
-},
-{
-"id": "8a963a7c82d077f3fec2deff7dfdacbb5e4f32de",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "俄卖家联盟请愿政府干预，要求平台降佣金取消强制折扣",
-"url": "https://www.ennews.com/news-141650.html",
-"published_at": "2026-08-12T00:00:00Z",
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄卖家联盟请愿政府干预，要求平台降佣金取消强制折扣"
-},
-{
-"id": "6c1721dc8edbac5e36057a1eb3c56249d6ec7bb3",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries延长对受乌军袭击影响卖家的支持措施至2027年2月",
-"url": "https://www.ennews.com/news-141648.html",
-"published_at": "2026-08-12T00:00:00Z",
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries延长对受乌军袭击影响卖家的支持措施至2027年2月"
-},
-{
-"id": "865ca348e146b67e6afefd4319d720222ec45632",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries仓库遭袭，损失或达50亿美元",
-"url": "https://www.ennews.com/news-141646.html",
-"published_at": "2026-08-12T00:00:00Z",
-"first_seen_at": "2026-08-12T03:16:43.771667Z",
-"last_seen_at": "2026-08-12T03:16:43.771667Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries仓库遭袭，损失或达50亿美元"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
