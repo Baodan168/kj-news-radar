@@ -1,33 +1,39 @@
 {
-"generated_at": "2026-08-14T00:41:12.158936Z",
+"generated_at": "2026-08-14T03:18:41.258793Z",
 "window_hours": 24,
-"total_items": 22,
-"total_items_cross_raw": 53,
-"total_items_raw": 97,
-"total_items_all_mode": 97,
+"total_items": 24,
+"total_items_cross_raw": 73,
+"total_items_raw": 136,
+"total_items_all_mode": 136,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1565,
+"archive_total": 1604,
 "site_count": 16,
-"source_count": 6,
+"source_count": 7,
 "site_stats": [
-{
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 8,
-"raw_count": 44
-},
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 40
+"raw_count": 60
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 57
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "count": 5,
 "raw_count": 8
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 2,
+"raw_count": 6
 },
 {
 "site_id": "amazon_newsroom",
@@ -49,6 +55,149 @@
 }
 ],
 "items": [
+{
+"id": "cd91d340a86a6811945cd34d07a31ddb4e9e1b3a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "欧盟PPWR 8月12日实施，跨境包装合规别只看EPR",
+"url": "https://www.cifnews.com/article/188241",
+"published_at": null,
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"epr",
+"ppwr",
+"跨境",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "欧盟PPWR 8月12日实施，跨境包装合规别只看EPR"
+},
+{
+"id": "ade8766dc6814d947d67ba3bb15893fa0469f302",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊SP广告自动扩站外，8月10日起生效！",
+"url": "https://www.cifnews.com/article/188247",
+"published_at": null,
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊SP广告自动扩站外，8月10日起生效！"
+},
+{
+"id": "91d9d090c2c3491f98b7c97b360cad6ede539a32",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "AI能帮亚马逊卖家做什么、不能做什么？使用边界说明",
+"url": "https://www.cifnews.com/article/188248",
+"published_at": null,
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "AI能帮亚马逊卖家做什么、不能做什么？使用边界说明"
+},
+{
+"id": "b5941d619c0ca6860dedd5222f4ce5476aff2344",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊官方推出的新功能【选品模拟器】，新品成功率翻倍",
+"url": "https://www.cifnews.com/article/188233",
+"published_at": null,
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"选品"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊官方推出的新功能【选品模拟器】，新品成功率翻倍"
+},
+{
+"id": "90c0e32f0c2698703dfd78ef1f3eabeb5733a659",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "59.9美元钛砧板月销8000+单，健康概念撬动亚马逊高客单爆款",
+"url": "https://www.amz123.com/kx/Xay7FGvl",
+"published_at": null,
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"爆款"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "59.9美元钛砧板月销8000+单，健康概念撬动亚马逊高客单爆款"
+},
+{
+"id": "61e5823ab55f7dcdac5dbf351a8cc3bc79e378de",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "众望布艺收968万关税退款",
+"url": "https://www.amz123.com/kx/UTYPNoZn",
+"published_at": null,
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"退款",
+"关税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "众望布艺收968万关税退款"
+},
 {
 "id": "9c8e271f1178df48cd13807f3cbc88fe100455cf",
 "site_id": "amz123",
@@ -80,7 +229,7 @@
 "url": "https://www.amz123.com/kx/besc0hce",
 "published_at": null,
 "first_seen_at": "2026-08-14T00:41:12.158936Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "fee_logistics",
@@ -96,29 +245,6 @@
 "title_zh": "亚马逊澳区升级夜间静音配送，推动选品标准转向轻小高频品类"
 },
 {
-"id": "c184aa20620c6efe8c4b8a03c13860a16f154432",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "南京值得求职者关注的几家跨境电商公司",
-"url": "https://www.cifnews.com/article/188216",
-"published_at": null,
-"first_seen_at": "2026-08-14T00:41:12.158936Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "南京值得求职者关注的几家跨境电商公司"
-},
-{
 "id": "3cb3e807b6e68ec8513e32c2166c7c2f72bb280a",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -127,7 +253,7 @@
 "url": "https://www.amz123.com/kx/kn6tw9hH",
 "published_at": null,
 "first_seen_at": "2026-08-14T00:41:12.158936Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.67,
 "cross_label": "listing_product",
@@ -153,7 +279,7 @@
 "url": "https://www.amz123.com/kx/3Yz7tPOs",
 "published_at": null,
 "first_seen_at": "2026-08-14T00:41:12.158936Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -178,7 +304,7 @@
 "url": "https://www.aboutamazon.com/news/community/amazon-investment-maryland-jobs-infrastructure-small-business",
 "published_at": "2026-08-13T16:20:49Z",
 "first_seen_at": "2026-08-14T00:41:12.158936Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -191,6 +317,54 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊在马里兰州投资的5种方式"
+},
+{
+"id": "75a44defa1456e20e39a1537844f6dc2bb3d496c",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon suspend UK Royal Mail Parcel Collect Returns",
+"url": "https://channelx.world/2026/08/amazon-suspend-uk-royal-mail-parcel-collect-returns",
+"published_at": "2026-08-13T10:52:00Z",
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊暂停英国皇家邮政包裹领取退货"
+},
+{
+"id": "1ea26e55f7b85201e361da0557da407828c59e21",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "7-day delivery window required for Amazon FBA shipments",
+"url": "https://channelx.world/2026/08/7-day-delivery-window-required-for-amazon-fba-shipments",
+"published_at": "2026-08-13T10:04:00Z",
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"cross_is_related": true,
+"cross_score": 0.9,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"fba"
+],
+"cross_platforms": [
+"fba",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊FBA发货需要7天交货期"
 },
 {
 "id": "24ce86086de98958ed808f200b994212ac7d947a",
@@ -251,7 +425,7 @@
 "url": "https://www.amzdh.com/kjtt/10287.html",
 "published_at": null,
 "first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.82,
 "cross_label": "policy_update",
@@ -318,76 +492,6 @@
 "title_zh": "亚马逊卖家警惕！收到律师函可能是钓鱼诈骗！"
 },
 {
-"id": "3eac9f2c2abc266da9f81f5b0c290bb51f898e94",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "26-cv-25411｜洗肠器引爆专利战：宁波企业赴美起诉跨境卖家，账户冻结+三倍赔偿",
-"url": "https://www.cifnews.com/article/188167",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "26-cv-25411｜洗肠器引爆专利战：宁波企业赴美起诉跨境卖家，账户冻结+三倍赔偿"
-},
-{
-"id": "6fd7ea625087755687b36f3677b2b515d8fd4aed",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊近期新规汇总，不调整影响店铺！",
-"url": "https://www.cifnews.com/article/188183",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"店铺"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊近期新规汇总，不调整影响店铺！"
-},
-{
-"id": "db078b92c38e55a6a133d16698c41f322f986495",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "每期一家跨境电商公司：智能锁全球大卖 凯迪仕",
-"url": "https://www.cifnews.com/article/188180",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "每期一家跨境电商公司：智能锁全球大卖 凯迪仕"
-},
-{
 "id": "884f6f31ae6d4e8b147596fffd68cfa4c6a1410f",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -396,7 +500,7 @@
 "url": "https://www.amz123.com/kx/Md9WvB6j",
 "published_at": null,
 "first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -434,58 +538,6 @@
 "title_zh": "欧美高温烫手方向盘遮阳罩亚马逊新品榜前十"
 },
 {
-"id": "7346b39d659a8505d81d69f2d971cdbd45ce2d82",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "eBay英国推出国际航运服务 卖家国内发货即可完成跨境履约",
-"url": "https://www.amz123.com/kx/IDnhmvP6",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ebay",
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [
-"ebay"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "eBay英国推出国际航运服务 卖家国内发货即可完成跨境履约"
-},
-{
-"id": "d5bb9ced362773953422209561ce3f5ef8f1006e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "SHEIN加码巴西逆向物流布局",
-"url": "https://www.amz123.com/kx/KVOyMF60",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shein",
-"物流"
-],
-"cross_platforms": [
-"shein"
-],
-"cross_sites": [],
-"title_zh": "SHEIN加码巴西逆向物流布局"
-},
-{
 "id": "06c1d044e6c8b3046c65b08a4cefad0b6be0ecce",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -494,7 +546,7 @@
 "url": "https://www.amzdh.com/kjtt/10286.html",
 "published_at": null,
 "first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "fee_logistics",
@@ -521,7 +573,7 @@
 "url": "https://www.amzdh.com/kjtt/10289.html",
 "published_at": null,
 "first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "fee_logistics",
@@ -544,7 +596,7 @@
 "url": "https://www.amzdh.com/kjtt/10289.html",
 "published_at": null,
 "first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "fee_logistics",
@@ -565,7 +617,7 @@
 "url": "https://www.amzdh.com/kjtt/10287.html",
 "published_at": null,
 "first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T03:18:41.258793Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
