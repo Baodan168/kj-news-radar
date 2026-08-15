@@ -1,60 +1,158 @@
 {
-"generated_at": "2026-08-14T03:18:41.258793Z",
+"generated_at": "2026-08-15T00:41:12.104302Z",
 "window_hours": 24,
-"total_items": 24,
-"total_items_cross_raw": 73,
+"total_items": 17,
+"total_items_cross_raw": 67,
 "total_items_raw": 136,
 "total_items_all_mode": 136,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1604,
+"archive_total": 1634,
 "site_count": 16,
-"source_count": 7,
+"source_count": 4,
 "site_stats": [
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 60
+"raw_count": 55
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 57
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 5,
-"raw_count": 8
+"raw_count": 75
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
-"count": 2,
-"raw_count": 6
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
 "count": 1,
-"raw_count": 1
-},
-{
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"count": 0,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
+"raw_count": 4
 }
 ],
 "items": [
+{
+"id": "69ef244193d27898bd893f594d7388477b6c9c91",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊发布促销新规FAQ，这3大误区让无数卖家血亏！",
+"url": "https://www.cifnews.com/article/188249",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊发布促销新规FAQ，这3大误区让无数卖家血亏！"
+},
+{
+"id": "260d138e6074717da8c20f9e71830c0433622809",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊AI广告优化工具如何选择？从能力、数据与控制权出发",
+"url": "https://www.cifnews.com/article/188264",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊AI广告优化工具如何选择？从能力、数据与控制权出发"
+},
+{
+"id": "d8705ef77c80fcd592775dc9bef607c52c8f8c75",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "第七届CHWE跨境展9月3日深圳福田开幕，助力卖家备战下半年旺季",
+"url": "https://www.amz123.com/kx/QvfTqAuz",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "第七届CHWE跨境展9月3日深圳福田开幕，助力卖家备战下半年旺季"
+},
+{
+"id": "1a5dbe85cc14056dc359c565f001a63fe2914a38",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南修订《海关法》拟将电商平台与物流企业纳入报关主体",
+"url": "https://www.amz123.com/kx/ip3MS0lV",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"报关",
+"海关",
+"电商",
+"电商平台",
+"报关",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南修订《海关法》拟将电商平台与物流企业纳入报关主体"
+},
+{
+"id": "42525390c4e86fb1894c0337c21bee4180dd98da",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "What Two Years of Building AI into a Warehouse Has Taught Us",
+"url": "https://channelx.world/2026/08/what-two-years-of-building-ai-into-a-warehouse-has-taught-us",
+"published_at": "2026-08-14T14:52:04Z",
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "将人工智能构建到仓库的两年教会了我们什么"
+},
 {
 "id": "cd91d340a86a6811945cd34d07a31ddb4e9e1b3a",
 "site_id": "cifnews",
@@ -88,7 +186,7 @@
 "url": "https://www.cifnews.com/article/188247",
 "published_at": null,
 "first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "advertising",
@@ -111,7 +209,7 @@
 "url": "https://www.cifnews.com/article/188248",
 "published_at": null,
 "first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -150,6 +248,29 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊官方推出的新功能【选品模拟器】，新品成功率翻倍"
+},
+{
+"id": "3c9422b336cc4a71da458cf085d871cc96449513",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "每期一家跨境电商公司：新宝股份",
+"url": "https://www.cifnews.com/article/188244",
+"published_at": null,
+"first_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "每期一家跨境电商公司：新宝股份"
 },
 {
 "id": "90c0e32f0c2698703dfd78ef1f3eabeb5733a659",
@@ -229,7 +350,7 @@
 "url": "https://www.amz123.com/kx/besc0hce",
 "published_at": null,
 "first_seen_at": "2026-08-14T00:41:12.158936Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
+"last_seen_at": "2026-08-15T00:41:12.104302Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "fee_logistics",
@@ -243,6 +364,29 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊澳区升级夜间静音配送，推动选品标准转向轻小高频品类"
+},
+{
+"id": "c184aa20620c6efe8c4b8a03c13860a16f154432",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "南京值得求职者关注的几家跨境电商公司",
+"url": "https://www.cifnews.com/article/188216",
+"published_at": null,
+"first_seen_at": "2026-08-14T00:41:12.158936Z",
+"last_seen_at": "2026-08-14T00:41:12.158936Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "南京值得求职者关注的几家跨境电商公司"
 },
 {
 "id": "3cb3e807b6e68ec8513e32c2166c7c2f72bb280a",
@@ -294,342 +438,6 @@
 "jp"
 ],
 "title_zh": "亚马逊日本尼崎新建武库川履约中心 日处理量达50万件"
-},
-{
-"id": "8aea21e51d52b59c1bd34487b764b6ef43d009b8",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "5 ways Amazon is investing in Maryland",
-"url": "https://www.aboutamazon.com/news/community/amazon-investment-maryland-jobs-infrastructure-small-business",
-"published_at": "2026-08-13T16:20:49Z",
-"first_seen_at": "2026-08-14T00:41:12.158936Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊在马里兰州投资的5种方式"
-},
-{
-"id": "75a44defa1456e20e39a1537844f6dc2bb3d496c",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon suspend UK Royal Mail Parcel Collect Returns",
-"url": "https://channelx.world/2026/08/amazon-suspend-uk-royal-mail-parcel-collect-returns",
-"published_at": "2026-08-13T10:52:00Z",
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊暂停英国皇家邮政包裹领取退货"
-},
-{
-"id": "1ea26e55f7b85201e361da0557da407828c59e21",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "7-day delivery window required for Amazon FBA shipments",
-"url": "https://channelx.world/2026/08/7-day-delivery-window-required-for-amazon-fba-shipments",
-"published_at": "2026-08-13T10:04:00Z",
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.9,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"fba"
-],
-"cross_platforms": [
-"fba",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊FBA发货需要7天交货期"
-},
-{
-"id": "24ce86086de98958ed808f200b994212ac7d947a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊AI图片新规落地，哪些素材必须标记？卖家最常见问题一次说明",
-"url": "https://www.cifnews.com/article/188179",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊AI图片新规落地，哪些素材必须标记？卖家最常见问题一次说明"
-},
-{
-"id": "0bbdaad8da8a627e86ad397b1127315d6700df41",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊乱封号要终结？美国新法案来了！",
-"url": "https://www.cifnews.com/article/188177",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊乱封号要终结？美国新法案来了！"
-},
-{
-"id": "d270d5dde90e934783b7d30249b665bb560d7efb",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展...各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展...",
-"url": "https://www.amzdh.com/kjtt/10287.html",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"合规"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展...各位亚马逊卖家注意！重磅合规新规倒计时，8 月 15 日正式强制实施，还没自查素材的抓紧行动！AMZDH获悉，亚马逊全球卖家后台更新 AI 图片元数据披露规则：只要商品图片、视频里出现AI 生成真人形象，包括 AI 模特展..."
-},
-{
-"id": "65ab2a3855d2cf1d278d001f8f4008cbeee79794",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "紧急！亚马逊锂电家电8月30日强制下架，未完成TIC验证的ASIN将直接消失",
-"url": "https://www.cifnews.com/article/188185",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"asin"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "紧急！亚马逊锂电家电8月30日强制下架，未完成TIC验证的ASIN将直接消失"
-},
-{
-"id": "9464da46fcc126f08dc84879b14bf082b423fe90",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊卖家警惕！收到律师函可能是钓鱼诈骗！",
-"url": "https://www.cifnews.com/article/188172",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊卖家警惕！收到律师函可能是钓鱼诈骗！"
-},
-{
-"id": "884f6f31ae6d4e8b147596fffd68cfa4c6a1410f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊整合航空、陆运及分拣团队强化中段运输管理",
-"url": "https://www.amz123.com/kx/Md9WvB6j",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊整合航空、陆运及分拣团队强化中段运输管理"
-},
-{
-"id": "d4089d88c5a2b8e11bbca4439c3cc62821e18753",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧美高温烫手方向盘遮阳罩亚马逊新品榜前十",
-"url": "https://www.amz123.com/kx/nWE9ceN3",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-13T03:21:17.101533Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "欧美高温烫手方向盘遮阳罩亚马逊新品榜前十"
-},
-{
-"id": "06c1d044e6c8b3046c65b08a4cefad0b6be0ecce",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持...不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持...",
-"url": "https://www.amzdh.com/kjtt/10286.html",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"跨境物流",
-"卖家",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持...不少扎根东南亚的跨境卖家，都有着拓展北美市场的想法，但常常被不稳定的跨境物流卡住脚步。好消息来了！AMZDH获悉，京东物流全新开通越南至美国跨境小包专线，为商家开辟稳定可靠的轻小件出海通道。这条专线已经支持..."
-},
-{
-"id": "a6b85a1aaf4aafd55924ad3550ab77f50ed088aa",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "从“配送时效争议”看 Takealot：南非电商老大，为什么还是中国卖家的首选？",
-"url": "https://www.amzdh.com/kjtt/10289.html",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "从“配送时效争议”看 Takealot：南非电商老大，为什么还是中国卖家的首选？"
-},
-{
-"id": "96db2f3961f692b91292a2bb0283bf8897335f6e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会...AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会...",
-"url": "https://www.amzdh.com/kjtt/10289.html",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会...AMZDH获悉，最近南非科技媒体MyBroadband聊到Takealot的“Same-Day / Next-Day”配送服务，提到在促销高峰、偏远地址或跨境直邮占比上升时，少数订单会出现时效波动。但换个角度想——一个平台连“次日达没准时”都会..."
-},
-{
-"id": "a8c363f1ad893c28c328877b2324f3a311ff2497",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "紧急预警｜亚马逊8月15日强制执行 AI 图片新规",
-"url": "https://www.amzdh.com/kjtt/10287.html",
-"published_at": null,
-"first_seen_at": "2026-08-13T03:21:17.101533Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "紧急预警｜亚马逊8月15日强制执行 AI 图片新规"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
