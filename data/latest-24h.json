@@ -1,10 +1,10 @@
 {
-"generated_at": "2026-08-16T00:41:00.928242Z",
+"generated_at": "2026-08-16T02:13:57.395943Z",
 "window_hours": 24,
-"total_items": 16,
-"total_items_cross_raw": 49,
-"total_items_raw": 82,
-"total_items_all_mode": 82,
+"total_items": 5,
+"total_items_cross_raw": 19,
+"total_items_raw": 25,
+"total_items_all_mode": 25,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
 "archive_total": 1661,
@@ -14,20 +14,20 @@
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 8,
-"raw_count": 63
+"count": 4,
+"raw_count": 22
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 8,
-"raw_count": 16
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
+"raw_count": 2
 }
 ],
 "items": [
@@ -40,7 +40,7 @@
 "url": "https://www.amz123.com/kx/vaw0uxRm",
 "published_at": null,
 "first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"last_seen_at": "2026-08-16T02:13:57.395943Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "seller_action",
@@ -66,7 +66,7 @@
 "url": "https://www.cifnews.com/article/188272",
 "published_at": null,
 "first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"last_seen_at": "2026-08-16T02:13:57.395943Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -85,332 +85,72 @@
 "title_zh": "8个月登顶亚马逊BSR第一！山东CD机卖家的日本站破局之路丨“新”卖家故事⑩"
 },
 {
-"id": "08fca080dcb37e2103261b71aa0979f47cdce6ac",
+"id": "43d23d98da4133b92da309705ce39996f236c6c4",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "万圣节消费热度提前升温，跨境卖家抢占Q4首个销售节点",
-"url": "https://www.amz123.com/kx/ZN3mkLJm",
+"title": "阿拉木图仓储市场上半年成交翻倍，电商物流推动中亚枢纽需求增长",
+"url": "https://www.amz123.com/kx/pEbwcQtA",
 "published_at": null,
-"first_seen_at": "2026-08-15T02:06:17.421877Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"first_seen_at": "2026-08-16T00:41:00.928242Z",
+"last_seen_at": "2026-08-16T02:13:57.395943Z",
 "cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "万圣节消费热度提前升温，跨境卖家抢占Q4首个销售节点"
-},
-{
-"id": "2665a81c58454398e0342fad68a86cdf1ab700ef",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "梦百合收1447万美国关税退款，华东大卖IEEPA退税潮蔓延",
-"url": "https://www.amz123.com/kx/ADAp2Inu",
-"published_at": null,
-"first_seen_at": "2026-08-15T02:06:17.421877Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "policy_update",
+"cross_score": 0.62,
+"cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"关税",
-"退款",
-"关税"
+"电商",
+"仓储",
+"物流"
 ],
 "cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "梦百合收1447万美国关税退款，华东大卖IEEPA退税潮蔓延"
-},
-{
-"id": "69ef244193d27898bd893f594d7388477b6c9c91",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊发布促销新规FAQ，这3大误区让无数卖家血亏！",
-"url": "https://www.cifnews.com/article/188249",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
 "cross_sites": [],
-"title_zh": "亚马逊发布促销新规FAQ，这3大误区让无数卖家血亏！"
+"title_zh": "阿拉木图仓储市场上半年成交翻倍，电商物流推动中亚枢纽需求增长"
 },
 {
-"id": "260d138e6074717da8c20f9e71830c0433622809",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊AI广告优化工具如何选择？从能力、数据与控制权出发",
-"url": "https://www.cifnews.com/article/188264",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊AI广告优化工具如何选择？从能力、数据与控制权出发"
-},
-{
-"id": "d8705ef77c80fcd592775dc9bef607c52c8f8c75",
+"id": "558cd3c3979e872909bb22a9b5c2fa07095a41aa",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "第七届CHWE跨境展9月3日深圳福田开幕，助力卖家备战下半年旺季",
-"url": "https://www.amz123.com/kx/QvfTqAuz",
+"title": "俄罗斯返校季学习用品销量增长，Magnit与Ozon开启全渠道备货",
+"url": "https://www.amz123.com/kx/CNgOOhrc",
 "published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
+"first_seen_at": "2026-08-16T00:41:00.928242Z",
+"last_seen_at": "2026-08-16T02:13:57.395943Z",
 "cross_is_related": true,
-"cross_score": 0.73,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "俄罗斯返校季学习用品销量增长，Magnit与Ozon开启全渠道备货"
+},
+{
+"id": "2081a191322ed5be160884a519ada0f0baf5c92c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯在线卖家平均营业额增长31%，多平台卖家贡献近半GMV",
+"url": "https://www.amz123.com/kx/KqJLnL69",
+"published_at": null,
+"first_seen_at": "2026-08-16T00:41:00.928242Z",
+"last_seen_at": "2026-08-16T02:13:57.395943Z",
+"cross_is_related": true,
+"cross_score": 0.6,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "卖家",
-"跨境",
 "卖家"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "第七届CHWE跨境展9月3日深圳福田开幕，助力卖家备战下半年旺季"
-},
-{
-"id": "1a5dbe85cc14056dc359c565f001a63fe2914a38",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "越南修订《海关法》拟将电商平台与物流企业纳入报关主体",
-"url": "https://www.amz123.com/kx/ip3MS0lV",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"报关",
-"海关",
-"电商",
-"电商平台",
-"报关",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "越南修订《海关法》拟将电商平台与物流企业纳入报关主体"
-},
-{
-"id": "8f7bfa011c31952b951017e6b20081ae1dd98572",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "金税四期全链路打通！@跨境卖家，你还在走的“老路”，正被税务重点盯上",
-"url": "https://www.cifnews.com/article/188250",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "金税四期全链路打通！@跨境卖家，你还在走的“老路”，正被税务重点盯上"
-},
-{
-"id": "edacbf9103d88a77d3191d0549abd4f6d27d65dc",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "跨境TRO应诉干货：卖家自谈为何被抬价？专业谈判降价逻辑解析",
-"url": "https://www.cifnews.com/article/188259",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨境TRO应诉干货：卖家自谈为何被抬价？专业谈判降价逻辑解析"
-},
-{
-"id": "b6a122e9d460f48d5991e33570a4567697cc6edf",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "美国纳税的“最后一公里”：ACH Credit支付全景拆解，跨境卖家如何避险？",
-"url": "https://www.cifnews.com/article/188258",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国纳税的“最后一公里”：ACH Credit支付全景拆解，跨境卖家如何避险？"
-},
-{
-"id": "ce6fda4754bd995b43e48a8a77f00f0c92e4a06e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊10款汽配产品月销破万，记忆海绵坐垫销量领先",
-"url": "https://www.amz123.com/kx/3nSZZmqs",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊10款汽配产品月销破万，记忆海绵坐垫销量领先"
-},
-{
-"id": "d78e2deda968c5c56de1e341cc4df2c269703816",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "从“水土不服”到“类目Top3”！福建卖家靠这招逆袭",
-"url": "https://www.cifnews.com/article/188261",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "从“水土不服”到“类目Top3”！福建卖家靠这招逆袭"
-},
-{
-"id": "eb8ad46842fa004b89012beac1fcfc28c4dfa471",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "DHL加速拓展巴西实体网络，瞄准中小微企业国际物流需求",
-"url": "https://www.amz123.com/kx/gOYIPaZS",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"国际物流",
-"dhl",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "DHL加速拓展巴西实体网络，瞄准中小微企业国际物流需求"
-},
-{
-"id": "a746401d3c4f8f5289faa99c412d89a9407f7513",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧盟3欧小包税生效几周，中国发欧包裹量骤降20%",
-"url": "https://www.amz123.com/kx/yixr40we",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"包裹"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟3欧小包税生效几周，中国发欧包裹量骤降20%"
-},
-{
-"id": "867a3bf1adb3b0202501967136bb99ae0abd58d8",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊智能体购物Alexa for Shopping与对话式体验",
-"url": "https://www.cifnews.com/article/188256",
-"published_at": null,
-"first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-16T00:41:00.928242Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊智能体购物Alexa for Shopping与对话式体验"
+"title_zh": "俄罗斯在线卖家平均营业额增长31%，多平台卖家贡献近半GMV"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
