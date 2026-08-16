@@ -1,42 +1,89 @@
 {
-"generated_at": "2026-08-15T02:06:17.421877Z",
+"generated_at": "2026-08-16T00:41:00.928242Z",
 "window_hours": 24,
-"total_items": 17,
+"total_items": 16,
 "total_items_cross_raw": 49,
-"total_items_raw": 92,
-"total_items_all_mode": 92,
+"total_items_raw": 82,
+"total_items_all_mode": 82,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1641,
+"archive_total": 1661,
 "site_count": 16,
-"source_count": 4,
+"source_count": 3,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 54
+"raw_count": 63
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 35
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 1,
-"raw_count": 2
+"raw_count": 16
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 1
+"raw_count": 3
 }
 ],
 "items": [
+{
+"id": "4a0d30ff842100aea2e66ddb7f65879b59b651f1",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美站进入淡季，卖家面临“流量稳、转化崩”困境",
+"url": "https://www.amz123.com/kx/vaw0uxRm",
+"published_at": null,
+"first_seen_at": "2026-08-16T00:41:00.928242Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"流量"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊美站进入淡季，卖家面临“流量稳、转化崩”困境"
+},
+{
+"id": "ef4069425b1675740d22e51c106b21541be6ab78",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "8个月登顶亚马逊BSR第一！山东CD机卖家的日本站破局之路丨“新”卖家故事⑩",
+"url": "https://www.cifnews.com/article/188272",
+"published_at": null,
+"first_seen_at": "2026-08-16T00:41:00.928242Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"jp"
+],
+"title_zh": "8个月登顶亚马逊BSR第一！山东CD机卖家的日本站破局之路丨“新”卖家故事⑩"
+},
 {
 "id": "08fca080dcb37e2103261b71aa0979f47cdce6ac",
 "site_id": "amz123",
@@ -46,7 +93,7 @@
 "url": "https://www.amz123.com/kx/ZN3mkLJm",
 "published_at": null,
 "first_seen_at": "2026-08-15T02:06:17.421877Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "seller_action",
@@ -69,7 +116,7 @@
 "url": "https://www.amz123.com/kx/ADAp2Inu",
 "published_at": null,
 "first_seen_at": "2026-08-15T02:06:17.421877Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "policy_update",
@@ -94,7 +141,7 @@
 "url": "https://www.cifnews.com/article/188249",
 "published_at": null,
 "first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "policy_update",
@@ -119,7 +166,7 @@
 "url": "https://www.cifnews.com/article/188264",
 "published_at": null,
 "first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -183,6 +230,77 @@
 "title_zh": "越南修订《海关法》拟将电商平台与物流企业纳入报关主体"
 },
 {
+"id": "8f7bfa011c31952b951017e6b20081ae1dd98572",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "金税四期全链路打通！@跨境卖家，你还在走的“老路”，正被税务重点盯上",
+"url": "https://www.cifnews.com/article/188250",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "金税四期全链路打通！@跨境卖家，你还在走的“老路”，正被税务重点盯上"
+},
+{
+"id": "edacbf9103d88a77d3191d0549abd4f6d27d65dc",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "跨境TRO应诉干货：卖家自谈为何被抬价？专业谈判降价逻辑解析",
+"url": "https://www.cifnews.com/article/188259",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境TRO应诉干货：卖家自谈为何被抬价？专业谈判降价逻辑解析"
+},
+{
+"id": "b6a122e9d460f48d5991e33570a4567697cc6edf",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "美国纳税的“最后一公里”：ACH Credit支付全景拆解，跨境卖家如何避险？",
+"url": "https://www.cifnews.com/article/188258",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国纳税的“最后一公里”：ACH Credit支付全景拆解，跨境卖家如何避险？"
+},
+{
 "id": "ce6fda4754bd995b43e48a8a77f00f0c92e4a06e",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -206,6 +324,28 @@
 "title_zh": "亚马逊10款汽配产品月销破万，记忆海绵坐垫销量领先"
 },
 {
+"id": "d78e2deda968c5c56de1e341cc4df2c269703816",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "从“水土不服”到“类目Top3”！福建卖家靠这招逆袭",
+"url": "https://www.cifnews.com/article/188261",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "从“水土不服”到“类目Top3”！福建卖家靠这招逆袭"
+},
+{
 "id": "eb8ad46842fa004b89012beac1fcfc28c4dfa471",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -214,7 +354,7 @@
 "url": "https://www.amz123.com/kx/gOYIPaZS",
 "published_at": null,
 "first_seen_at": "2026-08-15T00:41:12.104302Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "fee_logistics",
@@ -229,211 +369,48 @@
 "title_zh": "DHL加速拓展巴西实体网络，瞄准中小微企业国际物流需求"
 },
 {
-"id": "42525390c4e86fb1894c0337c21bee4180dd98da",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "What Two Years of Building AI into a Warehouse Has Taught Us",
-"url": "https://channelx.world/2026/08/what-two-years-of-building-ai-into-a-warehouse-has-taught-us",
-"published_at": "2026-08-14T14:52:04Z",
+"id": "a746401d3c4f8f5289faa99c412d89a9407f7513",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧盟3欧小包税生效几周，中国发欧包裹量骤降20%",
+"url": "https://www.amz123.com/kx/yixr40we",
+"published_at": null,
 "first_seen_at": "2026-08-15T00:41:12.104302Z",
 "last_seen_at": "2026-08-15T02:06:17.421877Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "将人工智能构建到仓库的两年教会了我们什么"
-},
-{
-"id": "cd91d340a86a6811945cd34d07a31ddb4e9e1b3a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "欧盟PPWR 8月12日实施，跨境包装合规别只看EPR",
-"url": "https://www.cifnews.com/article/188241",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"epr",
-"ppwr",
-"跨境",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟PPWR 8月12日实施，跨境包装合规别只看EPR"
-},
-{
-"id": "ade8766dc6814d947d67ba3bb15893fa0469f302",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊SP广告自动扩站外，8月10日起生效！",
-"url": "https://www.cifnews.com/article/188247",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊SP广告自动扩站外，8月10日起生效！"
-},
-{
-"id": "91d9d090c2c3491f98b7c97b360cad6ede539a32",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "AI能帮亚马逊卖家做什么、不能做什么？使用边界说明",
-"url": "https://www.cifnews.com/article/188248",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "AI能帮亚马逊卖家做什么、不能做什么？使用边界说明"
-},
-{
-"id": "b5941d619c0ca6860dedd5222f4ce5476aff2344",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊官方推出的新功能【选品模拟器】，新品成功率翻倍",
-"url": "https://www.cifnews.com/article/188233",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"选品"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊官方推出的新功能【选品模拟器】，新品成功率翻倍"
-},
-{
-"id": "3c9422b336cc4a71da458cf085d871cc96449513",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "每期一家跨境电商公司：新宝股份",
-"url": "https://www.cifnews.com/article/188244",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-15T02:06:17.421877Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "每期一家跨境电商公司：新宝股份"
-},
-{
-"id": "90c0e32f0c2698703dfd78ef1f3eabeb5733a659",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "59.9美元钛砧板月销8000+单，健康概念撬动亚马逊高客单爆款",
-"url": "https://www.amz123.com/kx/Xay7FGvl",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"爆款"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "59.9美元钛砧板月销8000+单，健康概念撬动亚马逊高客单爆款"
-},
-{
-"id": "b0d379d22c73105a8963d1d2ff04e21dc2acff62",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "跨境外贸：赊销=递炸弹给客户，你还指望他不炸？",
-"url": "https://www.cifnews.com/article/188231",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"外贸",
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨境外贸：赊销=递炸弹给客户，你还指望他不炸？"
-},
-{
-"id": "61e5823ab55f7dcdac5dbf351a8cc3bc79e378de",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "众望布艺收968万关税退款",
-"url": "https://www.amz123.com/kx/UTYPNoZn",
-"published_at": null,
-"first_seen_at": "2026-08-14T03:18:41.258793Z",
-"last_seen_at": "2026-08-14T03:18:41.258793Z",
-"cross_is_related": true,
-"cross_score": 0.66,
+"cross_score": 0.62,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"关税",
-"退款",
-"关税"
+"包裹"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "众望布艺收968万关税退款"
+"title_zh": "欧盟3欧小包税生效几周，中国发欧包裹量骤降20%"
+},
+{
+"id": "867a3bf1adb3b0202501967136bb99ae0abd58d8",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊智能体购物Alexa for Shopping与对话式体验",
+"url": "https://www.cifnews.com/article/188256",
+"published_at": null,
+"first_seen_at": "2026-08-15T00:41:12.104302Z",
+"last_seen_at": "2026-08-16T00:41:00.928242Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊智能体购物Alexa for Shopping与对话式体验"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
