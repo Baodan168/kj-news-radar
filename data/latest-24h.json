@@ -1,21 +1,39 @@
 {
-"generated_at": "2026-08-17T00:40:57.380867Z",
+"generated_at": "2026-08-17T02:12:08.416155Z",
 "window_hours": 24,
-"total_items": 6,
-"total_items_cross_raw": 21,
-"total_items_raw": 28,
-"total_items_all_mode": 28,
+"total_items": 18,
+"total_items_cross_raw": 36,
+"total_items_raw": 61,
+"total_items_all_mode": 61,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1615,
+"archive_total": 1673,
 "site_count": 16,
-"source_count": 4,
+"source_count": 5,
 "site_stats": [
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 7,
+"raw_count": 20
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 6,
+"raw_count": 13
+},
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 4,
-"raw_count": 22
+"count": 2,
+"raw_count": 6
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
+"raw_count": 20
 },
 {
 "site_id": "ecommercebytes",
@@ -24,19 +42,418 @@
 "raw_count": 1
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 1,
-"raw_count": 2
-},
-{
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "769b060b2083201ace72867c1284dcb9fd8ae2a5",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "PPWR 已生效！大批卖家收到平台绩效提醒，未合规卖家紧急自救指南！",
+"url": "https://www.cifnews.com/article/188278",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ppwr",
+"卖家",
+"卖家",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "PPWR 已生效！大批卖家收到平台绩效提醒，未合规卖家紧急自救指南！"
+},
+{
+"id": "c2a6b5738a31d414c2cee5bfa94991efd7f3f8ba",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊SP广告重要更新，卖家要小心预算被“吃掉”",
+"url": "https://www.cifnews.com/article/188276",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊SP广告重要更新，卖家要小心预算被“吃掉”"
+},
+{
+"id": "d04c0edbaf5305676f4fb67d0adbbabef88d9736",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "仓储店与海外仓直销模式冲击北美传统家具市场",
+"url": "https://www.amz123.com/kx/H1tcWvgH",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"海外仓",
+"仓储"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "仓储店与海外仓直销模式冲击北美传统家具市场"
+},
+{
+"id": "ba577bfd256486efdb941d373086ea2ee01cf3e9",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "跨境电商人物志：蓝思网络 杨帆",
+"url": "https://www.cifnews.com/article/188285",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境电商人物志：蓝思网络 杨帆"
+},
+{
+"id": "87eda9b7e8dfb4177401079cff073ea934b840ec",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "我们很欣喜的告知各位关注Takealot平台的卖家:菜鸟物流体系（含旗下递四方4PX）正式打通Takealot南非直邮头程，同步生效的还有一条更狠的规则：新店激活Own Delivery直邮权限，不再要求至少3SKU、30件产品去激活直邮...我们很欣喜的告知各位关注Takealot平台的卖家:菜鸟物流体系（含旗下递四方4PX）正式打通Takealot南非直邮头程，同步生效的还有一条更狠的规则：新店激活Own Delivery直邮权限，不再要求至少3SKU、30件产品去激活直邮...",
+"url": "https://www.amzdh.com/kjtt/10305.html",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"物流",
+"菜鸟"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "我们很欣喜的告知各位关注Takealot平台的卖家:菜鸟物流体系（含旗下递四方4PX）正式打通Takealot南非直邮头程，同步生效的还有一条更狠的规则：新店激活Own Delivery直邮权限，不再要求至少3SKU、30件产品去激活直邮...我们很欣喜的告知各位关注Takealot平台的卖家:菜鸟物流体系（含旗下递四方4PX）正式打通Takealot南非直邮头程，同步生效的还有一条更狠的规则：新店激活Own Delivery直邮权限，不再要求至少3SKU、30件产品去激活直邮..."
+},
+{
+"id": "e04fa12e13b644265423c71f977b9775ec9b48a3",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "26-cv-09679｜电动自行车专利隐匿维权，跨境卖家需尽快展开全面排查！",
+"url": "https://www.cifnews.com/article/188277",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "26-cv-09679｜电动自行车专利隐匿维权，跨境卖家需尽快展开全面排查！"
+},
+{
+"id": "7b2cf4aab53c59359738c7d904584ddfecb18f66",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，8月15日，SHEIN与巴西本土物流服务商Jadlog宣布深化逆向物流合作：在巴西全国接入超过4000个Jadlog社区网点（美容院、咖啡馆、洗衣店、文具店等），为消费者提供线下退货交件服务；该服务同时覆盖跨境订单...AMZDH获悉，8月15日，SHEIN与巴西本土物流服务商Jadlog宣布深化逆向物流合作：在巴西全国接入超过4000个Jadlog社区网点（美容院、咖啡馆、洗衣店、文具店等），为消费者提供线下退货交件服务；该服务同时覆盖跨境订单...",
+"url": "https://www.amzdh.com/kjtt/10302.html",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shein",
+"跨境",
+"退货",
+"物流"
+],
+"cross_platforms": [
+"shein"
+],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，8月15日，SHEIN与巴西本土物流服务商Jadlog宣布深化逆向物流合作：在巴西全国接入超过4000个Jadlog社区网点（美容院、咖啡馆、洗衣店、文具店等），为消费者提供线下退货交件服务；该服务同时覆盖跨境订单...AMZDH获悉，8月15日，SHEIN与巴西本土物流服务商Jadlog宣布深化逆向物流合作：在巴西全国接入超过4000个Jadlog社区网点（美容院、咖啡馆、洗衣店、文具店等），为消费者提供线下退货交件服务；该服务同时覆盖跨境订单..."
+},
+{
+"id": "275dad6105ea1bc0d5916ac67b5356dcac3efe42",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，8月13日京东集团2026年Q2财报沟通会上，许冉抛出一串让跨境圈坐直身体的数据： 旗下欧洲零售品牌 JOYBUY，自今年3月杀入英国、德国、法国、荷兰、比利时、卢森堡六国以来，连续两个季度营收翻倍；上线48小...AMZDH获悉，8月13日京东集团2026年Q2财报沟通会上，许冉抛出一串让跨境圈坐直身体的数据： 旗下欧洲零售品牌 JOYBUY，自今年3月杀入英国、德国、法国、荷兰、比利时、卢森堡六国以来，连续两个季度营收翻倍；上线48小...",
+"url": "https://www.amzdh.com/kjtt/10298.html",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [
+"uk",
+"eu"
+],
+"title_zh": "AMZDH获悉，8月13日京东集团2026年Q2财报沟通会上，许冉抛出一串让跨境圈坐直身体的数据： 旗下欧洲零售品牌 JOYBUY，自今年3月杀入英国、德国、法国、荷兰、比利时、卢森堡六国以来，连续两个季度营收翻倍；上线48小...AMZDH获悉，8月13日京东集团2026年Q2财报沟通会上，许冉抛出一串让跨境圈坐直身体的数据： 旗下欧洲零售品牌 JOYBUY，自今年3月杀入英国、德国、法国、荷兰、比利时、卢森堡六国以来，连续两个季度营收翻倍；上线48小..."
+},
+{
+"id": "9ce9fc9e5fd912ce99be5c5a54d1e7f6580c08d4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries十大物流中心7个停摆，乌无人机袭莫斯科州击穿俄电商仓网",
+"url": "https://www.amz123.com/kx/N2RRcyLa",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"电商",
+"物流"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries十大物流中心7个停摆，乌无人机袭莫斯科州击穿俄电商仓网"
+},
+{
+"id": "34f57ebd1011e289dc049d378c4ab585a69e0ea4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "重要提示：香港银行即将报送2025年账户数据回内地税局！卖家的这些银行账户问题赶紧自查！",
+"url": "https://www.cifnews.com/article/188286",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "重要提示：香港银行即将报送2025年账户数据回内地税局！卖家的这些银行账户问题赶紧自查！"
+},
+{
+"id": "65415fdee49d61d2f8a1f50e848861bebada05c3",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "独立站优秀案例分析：不靠大牌背书、不靠明星代言，Dieux如何让消费者为一支面霜支付高价？",
+"url": "https://www.cifnews.com/article/188281",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"独立站"
+],
+"cross_platforms": [
+"独立站"
+],
+"cross_sites": [],
+"title_zh": "独立站优秀案例分析：不靠大牌背书、不靠明星代言，Dieux如何让消费者为一支面霜支付高价？"
+},
+{
+"id": "07531c606f62762279e6b8a0d84279aeb4a4edf2",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，8月14日—15日，TikTok Shop跨境电商官宣升级“全托管优质好商计划”。这不是一次普通的政策更新——千万美金扶持+亿级曝光资源+超20个重点产业带线下招商+5大定向权益，平台把“找好货、找好厂、找能打爆...AMZDH获悉，8月14日—15日，TikTok Shop跨境电商官宣升级“全托管优质好商计划”。这不是一次普通的政策更新——千万美金扶持+亿级曝光资源+超20个重点产业带线下招商+5大定向权益，平台把“找好货、找好厂、找能打爆...",
+"url": "https://www.amzdh.com/kjtt/10303.html",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"跨境",
+"跨境电商",
+"电商",
+"政策"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，8月14日—15日，TikTok Shop跨境电商官宣升级“全托管优质好商计划”。这不是一次普通的政策更新——千万美金扶持+亿级曝光资源+超20个重点产业带线下招商+5大定向权益，平台把“找好货、找好厂、找能打爆...AMZDH获悉，8月14日—15日，TikTok Shop跨境电商官宣升级“全托管优质好商计划”。这不是一次普通的政策更新——千万美金扶持+亿级曝光资源+超20个重点产业带线下招商+5大定向权益，平台把“找好货、找好厂、找能打爆..."
+},
+{
+"id": "d2b1e29be040f6d5ec919d5f9b5debefe2165f93",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "悉尼Top Logistics暴雷，3.8亿元走私案揭开“保税仓灰链”终局",
+"url": "https://www.amzdh.com/kjtt/10300.html",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"保税仓"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "悉尼Top Logistics暴雷，3.8亿元走私案揭开“保税仓灰链”终局"
+},
+{
+"id": "a298b28388cdfa9f8b1772c76c9483c14bbb4c98",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "亚马逊10款汽配月销破万，这类刚需小件爆火",
+"url": "https://www.amzdh.com/kjtt/10296.html",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊10款汽配月销破万，这类刚需小件爆火"
+},
+{
+"id": "31fd954bcb64dc91722bab54f1f9ed75ea588a4e",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主...AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主...",
+"url": "https://www.amzdh.com/kjtt/10296.html",
+"published_at": null,
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主...AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主..."
+},
+{
+"id": "9934383de96a642cbb5bb8e9886185b310b580e8",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "越南修《海关法》拟列电商平台为报关主体",
+"url": "https://www.ennews.com/news-141972.html",
+"published_at": "2026-08-17T00:00:00Z",
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"报关",
+"海关",
+"电商",
+"电商平台",
+"报关"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南修《海关法》拟列电商平台为报关主体"
+},
+{
+"id": "f16b304bb71252af9b82c88cc292c94ad65163cd",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "阿拉木图仓储上半年成交翻倍，电商物流引爆中亚枢纽需求",
+"url": "https://www.ennews.com/news-141969.html",
+"published_at": "2026-08-17T00:00:00Z",
+"first_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商",
+"仓储",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "阿拉木图仓储上半年成交翻倍，电商物流引爆中亚枢纽需求"
+},
 {
 "id": "e08fa21929603952ff80472d9227c7f835b84a5c",
 "site_id": "ecommercebytes",
@@ -46,7 +463,7 @@
 "url": "https://www.ecommercebytes.com/2026/08/16/amazon-limits-how-many-reviews-shoppers-can-read",
 "published_at": "2026-08-16T21:05:52Z",
 "first_seen_at": "2026-08-17T00:40:57.380867Z",
-"last_seen_at": "2026-08-17T00:40:57.380867Z",
+"last_seen_at": "2026-08-17T02:12:08.416155Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -59,127 +476,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊限制购物者可以阅读的评价数量"
-},
-{
-"id": "4a0d30ff842100aea2e66ddb7f65879b59b651f1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美站进入淡季，卖家面临“流量稳、转化崩”困境",
-"url": "https://www.amz123.com/kx/vaw0uxRm",
-"published_at": null,
-"first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-17T00:40:57.380867Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"流量"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊美站进入淡季，卖家面临“流量稳、转化崩”困境"
-},
-{
-"id": "ef4069425b1675740d22e51c106b21541be6ab78",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "8个月登顶亚马逊BSR第一！山东CD机卖家的日本站破局之路丨“新”卖家故事⑩",
-"url": "https://www.cifnews.com/article/188272",
-"published_at": null,
-"first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-17T00:40:57.380867Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"jp"
-],
-"title_zh": "8个月登顶亚马逊BSR第一！山东CD机卖家的日本站破局之路丨“新”卖家故事⑩"
-},
-{
-"id": "43d23d98da4133b92da309705ce39996f236c6c4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "阿拉木图仓储市场上半年成交翻倍，电商物流推动中亚枢纽需求增长",
-"url": "https://www.amz123.com/kx/pEbwcQtA",
-"published_at": null,
-"first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-17T00:40:57.380867Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商",
-"仓储",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "阿拉木图仓储市场上半年成交翻倍，电商物流推动中亚枢纽需求增长"
-},
-{
-"id": "558cd3c3979e872909bb22a9b5c2fa07095a41aa",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯返校季学习用品销量增长，Magnit与Ozon开启全渠道备货",
-"url": "https://www.amz123.com/kx/CNgOOhrc",
-"published_at": null,
-"first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-17T00:40:57.380867Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "俄罗斯返校季学习用品销量增长，Magnit与Ozon开启全渠道备货"
-},
-{
-"id": "2081a191322ed5be160884a519ada0f0baf5c92c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯在线卖家平均营业额增长31%，多平台卖家贡献近半GMV",
-"url": "https://www.amz123.com/kx/KqJLnL69",
-"published_at": null,
-"first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-17T00:40:57.380867Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯在线卖家平均营业额增长31%，多平台卖家贡献近半GMV"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
