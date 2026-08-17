@@ -1,15 +1,15 @@
 {
-"generated_at": "2026-08-16T02:13:57.395943Z",
+"generated_at": "2026-08-17T00:40:57.380867Z",
 "window_hours": 24,
-"total_items": 5,
-"total_items_cross_raw": 19,
-"total_items_raw": 25,
-"total_items_all_mode": 25,
+"total_items": 6,
+"total_items_cross_raw": 21,
+"total_items_raw": 28,
+"total_items_all_mode": 28,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1661,
+"archive_total": 1615,
 "site_count": 16,
-"source_count": 3,
+"source_count": 4,
 "site_stats": [
 {
 "site_id": "amz123",
@@ -18,19 +18,48 @@
 "raw_count": 22
 },
 {
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"count": 1,
+"raw_count": 1
+},
+{
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 1,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 2
+"raw_count": 3
 }
 ],
 "items": [
+{
+"id": "e08fa21929603952ff80472d9227c7f835b84a5c",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"source": "卖家新闻",
+"title": "Amazon Limits How Many Reviews Shoppers Can Read",
+"url": "https://www.ecommercebytes.com/2026/08/16/amazon-limits-how-many-reviews-shoppers-can-read",
+"published_at": "2026-08-16T21:05:52Z",
+"first_seen_at": "2026-08-17T00:40:57.380867Z",
+"last_seen_at": "2026-08-17T00:40:57.380867Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊限制购物者可以阅读的评价数量"
+},
 {
 "id": "4a0d30ff842100aea2e66ddb7f65879b59b651f1",
 "site_id": "amz123",
@@ -40,7 +69,7 @@
 "url": "https://www.amz123.com/kx/vaw0uxRm",
 "published_at": null,
 "first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-16T02:13:57.395943Z",
+"last_seen_at": "2026-08-17T00:40:57.380867Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "seller_action",
@@ -66,7 +95,7 @@
 "url": "https://www.cifnews.com/article/188272",
 "published_at": null,
 "first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-16T02:13:57.395943Z",
+"last_seen_at": "2026-08-17T00:40:57.380867Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -93,7 +122,7 @@
 "url": "https://www.amz123.com/kx/pEbwcQtA",
 "published_at": null,
 "first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-16T02:13:57.395943Z",
+"last_seen_at": "2026-08-17T00:40:57.380867Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "fee_logistics",
@@ -116,7 +145,7 @@
 "url": "https://www.amz123.com/kx/CNgOOhrc",
 "published_at": null,
 "first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-16T02:13:57.395943Z",
+"last_seen_at": "2026-08-17T00:40:57.380867Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -139,7 +168,7 @@
 "url": "https://www.amz123.com/kx/KqJLnL69",
 "published_at": null,
 "first_seen_at": "2026-08-16T00:41:00.928242Z",
-"last_seen_at": "2026-08-16T02:13:57.395943Z",
+"last_seen_at": "2026-08-17T00:40:57.380867Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
