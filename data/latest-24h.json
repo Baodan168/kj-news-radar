@@ -1,32 +1,38 @@
 {
-"generated_at": "2026-08-18T00:40:17.557433Z",
+"generated_at": "2026-08-18T02:07:53.854649Z",
 "window_hours": 24,
-"total_items": 27,
-"total_items_cross_raw": 55,
-"total_items_raw": 89,
-"total_items_all_mode": 89,
+"total_items": 31,
+"total_items_cross_raw": 72,
+"total_items_raw": 126,
+"total_items_all_mode": 126,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1719,
+"archive_total": 1723,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 18
-},
-{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 40
+"raw_count": 48
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 7,
+"count": 8,
+"raw_count": 28
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 20
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 3,
 "raw_count": 20
 },
 {
@@ -45,10 +51,136 @@
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "5ddce02e1f7d6739c6edafc6de8c3612310c9bed",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊卖家调整标题后小类排名出现剧烈波动",
+"url": "https://www.amz123.com/kx/NNyZ2Qa4",
+"published_at": null,
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家调整标题后小类排名出现剧烈波动"
+},
+{
+"id": "f040620e712237c0a95314900af22bc334d11d1d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊欧洲四站大件尺寸认证10月15日截止，过往90天多收运费可退",
+"url": "https://www.amz123.com/kx/vbZYGr0s",
+"published_at": null,
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊欧洲四站大件尺寸认证10月15日截止，过往90天多收运费可退"
+},
+{
+"id": "3286159feeb2b91bf52726ad1c1c73945042ec83",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧...AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧...",
+"url": "https://www.amzdh.com/kjtt/10307.html",
+"published_at": null,
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"跨境电商",
+"卖家",
+"电商",
+"电商平台",
+"云途",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [
+"uk"
+],
+"title_zh": "AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧...AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧..."
+},
+{
+"id": "10591dc0d2030e44e1fd1833e5984fcb625ad27c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "吉宏股份半年报速览：跨境社交电商净利增长80.92%",
+"url": "https://www.cifnews.com/article/188296",
+"published_at": null,
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "吉宏股份半年报速览：跨境社交电商净利增长80.92%"
+},
+{
+"id": "372408f42c4ad6eabdfa2ab151fab8119f702e2e",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "美元兑人民币跌破6.74！跨境卖家的利润，正在被汇率“静默吃掉”",
+"url": "https://www.amzdh.com/kjtt/10308.html",
+"published_at": null,
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"汇率"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "美元兑人民币跌破6.74！跨境卖家的利润，正在被汇率“静默吃掉”"
+},
 {
 "id": "3f2e942893d8fd0b9731b1e8c19231d0da12e28a",
 "site_id": "cifnews",
@@ -58,7 +190,7 @@
 "url": "https://www.cifnews.com/article/188290",
 "published_at": null,
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "policy_update",
@@ -83,7 +215,7 @@
 "url": "https://www.amz123.com/kx/6klBYbQa",
 "published_at": null,
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "advertising",
@@ -108,7 +240,7 @@
 "url": "https://www.amz123.com/kx/IkCqoKfI",
 "published_at": null,
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "seller_action",
@@ -183,7 +315,7 @@
 "url": "https://www.amz123.com/kx/enFEk33X",
 "published_at": null,
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.67,
 "cross_label": "tiktok",
@@ -198,52 +330,6 @@
 "title_zh": "TikTok Shop东南亚升级治理AI误导性内容，违规创作者佣金将延迟支付"
 },
 {
-"id": "9e7f0059ff0f06c01591ba26747e009acffac1f4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "女性需求推动肌酸市场增长，亚马逊“creatine for women”搜索量月增3.7万次",
-"url": "https://www.amz123.com/kx/32Haf2Lm",
-"published_at": null,
-"first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "女性需求推动肌酸市场增长，亚马逊“creatine for women”搜索量月增3.7万次"
-},
-{
-"id": "183689908689e194e11416222babf631ecad5f27",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊波士顿办公室疑似发生员工坠楼事件",
-"url": "https://www.amz123.com/kx/RAK60asz",
-"published_at": null,
-"first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊波士顿办公室疑似发生员工坠楼事件"
-},
-{
 "id": "18645fb6b66543a5e8d1d6de7fcfe978f6ebd348",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -252,7 +338,7 @@
 "url": "https://www.cifnews.com/article/188293",
 "published_at": null,
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -268,6 +354,75 @@
 "title_zh": "宠物、泳装、收藏卡……2026上半年哪些品类让美国卖家逆势爆发？"
 },
 {
+"id": "e694efcd42734f6bce87c81e1d1d056230ad4ee6",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "TikTok Shop东南亚严打AI误导性种草，违规创作者佣金遭延迟支付",
+"url": "https://www.ennews.com/news-142071.html",
+"published_at": "2026-08-18T00:00:00Z",
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop东南亚严打AI误导性种草，违规创作者佣金遭延迟支付"
+},
+{
+"id": "617390909334abc6b87a3e803f3ce655bee137a1",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊波士顿办公室疑发生员工坠楼事件",
+"url": "https://www.ennews.com/news-142068.html",
+"published_at": "2026-08-18T00:00:00Z",
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊波士顿办公室疑发生员工坠楼事件"
+},
+{
+"id": "49d845b36f39a558100e87f71957e7006bdb8777",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries再遭无人机袭击，超20处仓库受损",
+"url": "https://www.ennews.com/news-142069.html",
+"published_at": "2026-08-18T00:00:00Z",
+"first_seen_at": "2026-08-18T02:07:53.854649Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries再遭无人机袭击，超20处仓库受损"
+},
+{
 "id": "87e8458ef1efb3686df0e08c81d85cb65af86a52",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -276,9 +431,9 @@
 "url": "https://www.aboutamazon.com/news/community/amazon-investment-nevada-jobs-infrastructure-small-business",
 "published_at": "2026-08-17T19:30:36Z",
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.71,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -299,9 +454,9 @@
 "url": "https://www.aboutamazon.com/news/community/amazon-investment-colorado-jobs-infrastructure-small-business",
 "published_at": "2026-08-17T19:20:01Z",
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.71,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -343,15 +498,15 @@
 "url": "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt",
 "published_at": "2026-08-17T13:00:09Z",
 "first_seen_at": "2026-08-18T00:40:17.557433Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [],
 "cross_platforms": [
-"prime",
-"amazon"
+"amazon",
+"prime"
 ],
 "cross_sites": [],
 "title_zh": "由克里斯·普拉特主演的“终端列表”第2季首次亮相，将于10月21日上映"
@@ -365,7 +520,7 @@
 "url": "https://www.cifnews.com/article/188278",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "policy_update",
@@ -389,7 +544,7 @@
 "url": "https://www.cifnews.com/article/188276",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "advertising",
@@ -436,7 +591,7 @@
 "url": "https://www.cifnews.com/article/188285",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -459,7 +614,7 @@
 "url": "https://www.amzdh.com/kjtt/10305.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "policy_update",
@@ -483,7 +638,7 @@
 "url": "https://www.cifnews.com/article/188277",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
@@ -506,7 +661,7 @@
 "url": "https://www.amzdh.com/kjtt/10302.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "fee_logistics",
@@ -556,7 +711,7 @@
 "url": "https://www.cifnews.com/article/188286",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -570,29 +725,6 @@
 "title_zh": "重要提示：香港银行即将报送2025年账户数据回内地税局！卖家的这些银行账户问题赶紧自查！"
 },
 {
-"id": "65415fdee49d61d2f8a1f50e848861bebada05c3",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "独立站优秀案例分析：不靠大牌背书、不靠明星代言，Dieux如何让消费者为一支面霜支付高价？",
-"url": "https://www.cifnews.com/article/188281",
-"published_at": null,
-"first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"独立站"
-],
-"cross_platforms": [
-"独立站"
-],
-"cross_sites": [],
-"title_zh": "独立站优秀案例分析：不靠大牌背书、不靠明星代言，Dieux如何让消费者为一支面霜支付高价？"
-},
-{
 "id": "07531c606f62762279e6b8a0d84279aeb4a4edf2",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -601,7 +733,7 @@
 "url": "https://www.amzdh.com/kjtt/10303.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -628,7 +760,7 @@
 "url": "https://www.amzdh.com/kjtt/10300.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T02:07:53.854649Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "fee_logistics",
@@ -662,31 +794,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊10款汽配月销破万，这类刚需小件爆火"
-},
-{
-"id": "31fd954bcb64dc91722bab54f1f9ed75ea588a4e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主...AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主...",
-"url": "https://www.amzdh.com/kjtt/10296.html",
-"published_at": null,
-"first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-18T00:40:17.557433Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主...AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主..."
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
