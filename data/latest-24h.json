@@ -1,16 +1,28 @@
 {
-"generated_at": "2026-08-17T02:12:08.416155Z",
+"generated_at": "2026-08-18T00:40:17.557433Z",
 "window_hours": 24,
-"total_items": 18,
-"total_items_cross_raw": 36,
-"total_items_raw": 61,
-"total_items_all_mode": 61,
+"total_items": 27,
+"total_items_cross_raw": 55,
+"total_items_raw": 89,
+"total_items_all_mode": 89,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1673,
+"archive_total": 1719,
 "site_count": 16,
-"source_count": 5,
+"source_count": 6,
 "site_stats": [
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 18
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 40
+},
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -18,37 +30,332 @@
 "raw_count": 20
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 6,
-"raw_count": 13
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 3,
+"raw_count": 3
 },
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 2,
-"raw_count": 6
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 2,
-"raw_count": 20
-},
-{
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
+"site_id": "channelx",
+"site_name": "ChannelX",
 "count": 1,
-"raw_count": 1
+"raw_count": 5
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 1
+"raw_count": 3
 }
 ],
 "items": [
+{
+"id": "3f2e942893d8fd0b9731b1e8c19231d0da12e28a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "超2000家店铺停售！跨境合规大洗牌，大批卖家无翻盘机会",
+"url": "https://www.cifnews.com/article/188290",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"店铺",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "超2000家店铺停售！跨境合规大洗牌，大批卖家无翻盘机会"
+},
+{
+"id": "dfaf000f6b3d69fefe4561280e7aa334aa4990e3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美国7月电商销售额环比下降2.2%，Prime Day提前促成6月高增长",
+"url": "https://www.amz123.com/kx/6klBYbQa",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"电商"
+],
+"cross_platforms": [
+"prime"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国7月电商销售额环比下降2.2%，Prime Day提前促成6月高增长"
+},
+{
+"id": "96992cb1270e308a3d80c9e603b3cf893fe26659",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "西南季风引发马尼拉内涝，跨境卖家需关注吕宋仓配及COD回款延迟风险",
+"url": "https://www.amz123.com/kx/IkCqoKfI",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "西南季风引发马尼拉内涝，跨境卖家需关注吕宋仓配及COD回款延迟风险"
+},
+{
+"id": "195415549dced59666f1e6d01bfbfb9fc9860da5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "WOOK递表港交所，印尼3C配件市场第一跨境品牌商冲刺IPO",
+"url": "https://www.amz123.com/kx/lwzXB7AL",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "WOOK递表港交所，印尼3C配件市场第一跨境品牌商冲刺IPO"
+},
+{
+"id": "54df36274d6005d396123fadf2b50fa60f51ff2b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧洲消费者更青睐Temu、Shein和AliExpress等中国电商平台",
+"url": "https://www.amz123.com/kx/HaqIBUsr",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"aliexpress",
+"shein",
+"temu",
+"电商",
+"电商平台"
+],
+"cross_platforms": [
+"shein",
+"aliexpress",
+"temu"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧洲消费者更青睐Temu、Shein和AliExpress等中国电商平台"
+},
+{
+"id": "763918418cd3126a7cc92e9f5ee765d8e5ce11ec",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop东南亚升级治理AI误导性内容，违规创作者佣金将延迟支付",
+"url": "https://www.amz123.com/kx/enFEk33X",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop东南亚升级治理AI误导性内容，违规创作者佣金将延迟支付"
+},
+{
+"id": "9e7f0059ff0f06c01591ba26747e009acffac1f4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "女性需求推动肌酸市场增长，亚马逊“creatine for women”搜索量月增3.7万次",
+"url": "https://www.amz123.com/kx/32Haf2Lm",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "女性需求推动肌酸市场增长，亚马逊“creatine for women”搜索量月增3.7万次"
+},
+{
+"id": "183689908689e194e11416222babf631ecad5f27",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊波士顿办公室疑似发生员工坠楼事件",
+"url": "https://www.amz123.com/kx/RAK60asz",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊波士顿办公室疑似发生员工坠楼事件"
+},
+{
+"id": "18645fb6b66543a5e8d1d6de7fcfe978f6ebd348",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "宠物、泳装、收藏卡……2026上半年哪些品类让美国卖家逆势爆发？",
+"url": "https://www.cifnews.com/article/188293",
+"published_at": null,
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "宠物、泳装、收藏卡……2026上半年哪些品类让美国卖家逆势爆发？"
+},
+{
+"id": "87e8458ef1efb3686df0e08c81d85cb65af86a52",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "5 ways Amazon is investing in Nevada",
+"url": "https://www.aboutamazon.com/news/community/amazon-investment-nevada-jobs-infrastructure-small-business",
+"published_at": "2026-08-17T19:30:36Z",
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在内华达州投资的5种方式"
+},
+{
+"id": "710fb40908e7dc2e673fa8058cf4eabcb49816ff",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "5 ways Amazon is investing in Colorado",
+"url": "https://www.aboutamazon.com/news/community/amazon-investment-colorado-jobs-infrastructure-small-business",
+"published_at": "2026-08-17T19:20:01Z",
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在科罗拉多州投资的5种方式"
+},
+{
+"id": "e2161381dedbd4fdc7867d014f2c0ed8833cdc34",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "International eCommerce 2027: Where Will the Next Wave of Growth Come From?",
+"url": "https://channelx.world/2026/08/international-ecommerce-2027-where-will-the-next-wave-of-growth-come-from",
+"published_at": "2026-08-17T15:32:51Z",
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"ecommerce"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "国际电子商务2027 ：下一波增长浪潮将从何而来？"
+},
+{
+"id": "8eb0293e23bd123d1e1d07f7e53cf3e44387abba",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "A first look at 'The Terminal List' Season 2 starring Chris Pratt, coming to Prime Video October 21",
+"url": "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt",
+"published_at": "2026-08-17T13:00:09Z",
+"first_seen_at": "2026-08-18T00:40:17.557433Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_platforms": [
+"prime",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "由克里斯·普拉特主演的“终端列表”第2季首次亮相，将于10月21日上映"
+},
 {
 "id": "769b060b2083201ace72867c1284dcb9fd8ae2a5",
 "site_id": "cifnews",
@@ -58,7 +365,7 @@
 "url": "https://www.cifnews.com/article/188278",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "policy_update",
@@ -82,7 +389,7 @@
 "url": "https://www.cifnews.com/article/188276",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "advertising",
@@ -129,7 +436,7 @@
 "url": "https://www.cifnews.com/article/188285",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -152,7 +459,7 @@
 "url": "https://www.amzdh.com/kjtt/10305.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "policy_update",
@@ -176,7 +483,7 @@
 "url": "https://www.cifnews.com/article/188277",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
@@ -199,7 +506,7 @@
 "url": "https://www.amzdh.com/kjtt/10302.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "fee_logistics",
@@ -225,7 +532,7 @@
 "url": "https://www.amzdh.com/kjtt/10298.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "listing_product",
@@ -241,31 +548,6 @@
 "title_zh": "AMZDH获悉，8月13日京东集团2026年Q2财报沟通会上，许冉抛出一串让跨境圈坐直身体的数据： 旗下欧洲零售品牌 JOYBUY，自今年3月杀入英国、德国、法国、荷兰、比利时、卢森堡六国以来，连续两个季度营收翻倍；上线48小...AMZDH获悉，8月13日京东集团2026年Q2财报沟通会上，许冉抛出一串让跨境圈坐直身体的数据： 旗下欧洲零售品牌 JOYBUY，自今年3月杀入英国、德国、法国、荷兰、比利时、卢森堡六国以来，连续两个季度营收翻倍；上线48小..."
 },
 {
-"id": "9ce9fc9e5fd912ce99be5c5a54d1e7f6580c08d4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries十大物流中心7个停摆，乌无人机袭莫斯科州击穿俄电商仓网",
-"url": "https://www.amz123.com/kx/N2RRcyLa",
-"published_at": null,
-"first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"电商",
-"物流"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries十大物流中心7个停摆，乌无人机袭莫斯科州击穿俄电商仓网"
-},
-{
 "id": "34f57ebd1011e289dc049d378c4ab585a69e0ea4",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -274,7 +556,7 @@
 "url": "https://www.cifnews.com/article/188286",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -296,7 +578,7 @@
 "url": "https://www.cifnews.com/article/188281",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -319,7 +601,7 @@
 "url": "https://www.amzdh.com/kjtt/10303.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -346,7 +628,7 @@
 "url": "https://www.amzdh.com/kjtt/10300.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "fee_logistics",
@@ -367,7 +649,7 @@
 "url": "https://www.amzdh.com/kjtt/10296.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -390,7 +672,7 @@
 "url": "https://www.amzdh.com/kjtt/10296.html",
 "published_at": null,
 "first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
+"last_seen_at": "2026-08-18T00:40:17.557433Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -405,77 +687,6 @@
 "us"
 ],
 "title_zh": "AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主...AMZDH获悉，从亚马逊美国站最新数据可以看到，有10款汽配好物月销量全部突破1万件。这组亮眼数据也直观说明，海外车主不再只看重汽车大修配件，日常养护、车载实用小件的需求越来越旺盛，自助养车、精细化用车成为主..."
-},
-{
-"id": "9934383de96a642cbb5bb8e9886185b310b580e8",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "越南修《海关法》拟列电商平台为报关主体",
-"url": "https://www.ennews.com/news-141972.html",
-"published_at": "2026-08-17T00:00:00Z",
-"first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"报关",
-"海关",
-"电商",
-"电商平台",
-"报关"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "越南修《海关法》拟列电商平台为报关主体"
-},
-{
-"id": "f16b304bb71252af9b82c88cc292c94ad65163cd",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "阿拉木图仓储上半年成交翻倍，电商物流引爆中亚枢纽需求",
-"url": "https://www.ennews.com/news-141969.html",
-"published_at": "2026-08-17T00:00:00Z",
-"first_seen_at": "2026-08-17T02:12:08.416155Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商",
-"仓储",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "阿拉木图仓储上半年成交翻倍，电商物流引爆中亚枢纽需求"
-},
-{
-"id": "e08fa21929603952ff80472d9227c7f835b84a5c",
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"source": "卖家新闻",
-"title": "Amazon Limits How Many Reviews Shoppers Can Read",
-"url": "https://www.ecommercebytes.com/2026/08/16/amazon-limits-how-many-reviews-shoppers-can-read",
-"published_at": "2026-08-16T21:05:52Z",
-"first_seen_at": "2026-08-17T00:40:57.380867Z",
-"last_seen_at": "2026-08-17T02:12:08.416155Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊限制购物者可以阅读的评价数量"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
