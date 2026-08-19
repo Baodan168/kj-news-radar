@@ -1,15 +1,15 @@
 {
-"generated_at": "2026-08-19T00:40:21.958649Z",
+"generated_at": "2026-08-19T02:09:46.896288Z",
 "window_hours": 24,
-"total_items": 23,
-"total_items_cross_raw": 48,
-"total_items_raw": 83,
-"total_items_all_mode": 83,
+"total_items": 19,
+"total_items_cross_raw": 43,
+"total_items_raw": 96,
+"total_items_all_mode": 96,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1784,
+"archive_total": 1791,
 "site_count": 16,
-"source_count": 6,
+"source_count": 5,
 "site_stats": [
 {
 "site_id": "amz123",
@@ -21,13 +21,7 @@
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 23
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 4,
-"raw_count": 8
+"raw_count": 24
 },
 {
 "site_id": "channelx",
@@ -46,9 +40,63 @@
 "site_name": "TopHub",
 "count": 0,
 "raw_count": 3
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 0,
+"raw_count": 20
 }
 ],
 "items": [
+{
+"id": "be4fc232b39df1685a570fd3ea09f9e13818ab17",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "第七届CHWE出海网全球跨境电商展推出限时免费交通福利",
+"url": "https://www.amz123.com/kx/73LUB0AU",
+"published_at": null,
+"first_seen_at": "2026-08-19T02:09:46.896288Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "第七届CHWE出海网全球跨境电商展推出限时免费交通福利"
+},
+{
+"id": "8099a25ebbcfdd57ca9d6dcb28f98742d1d86abc",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美泰KPOP发声娃娃登顶亚马逊美区潮玩榜，7月销量增长超一倍",
+"url": "https://www.amz123.com/kx/PrnY39s2",
+"published_at": null,
+"first_seen_at": "2026-08-19T02:09:46.896288Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "美泰KPOP发声娃娃登顶亚马逊美区潮玩榜，7月销量增长超一倍"
+},
 {
 "id": "fc3b55fc574ce1b355634e6f0da925e977d676d9",
 "site_id": "amz123",
@@ -83,7 +131,7 @@
 "url": "https://www.cifnews.com/article/188323",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "advertising",
@@ -108,7 +156,7 @@
 "url": "https://www.cifnews.com/article/188320",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -133,7 +181,7 @@
 "url": "https://www.cifnews.com/article/188329",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "policy_update",
@@ -177,7 +225,7 @@
 "url": "https://www.cifnews.com/article/188324",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -200,7 +248,7 @@
 "url": "https://www.amz123.com/kx/cKAP7xQF",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -247,7 +295,7 @@
 "url": "https://www.amz123.com/kx/lXN93S9R",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -270,7 +318,7 @@
 "url": "https://www.amz123.com/kx/uLabAP8X",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -293,7 +341,7 @@
 "url": "https://www.cifnews.com/article/188328",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -314,7 +362,7 @@
 "url": "https://www.cifnews.com/article/188326",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -327,6 +375,27 @@
 "title_zh": "TITE-REACH商标发案！席卷六大跨境平台！"
 },
 {
+"id": "d0673ad5c84c97e22169407a247e0077e2953e4c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "上周跨境圈发生了哪些大事（08.10-08.16）",
+"url": "https://www.cifnews.com/article/188317",
+"published_at": null,
+"first_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "上周跨境圈发生了哪些大事（08.10-08.16）"
+},
+{
 "id": "5a05753ab0b4a68a1fd91ea247109082d908dda7",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -335,7 +404,7 @@
 "url": "https://www.amz123.com/kx/eCpLekU5",
 "published_at": null,
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "advertising",
@@ -361,7 +430,7 @@
 "url": "https://www.aboutamazon.com/news/community/amazon-investment-arizona-jobs-infrastructure-small-business",
 "published_at": "2026-08-18T15:51:40Z",
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -372,7 +441,8 @@
 "cross_platforms": [
 "amazon"
 ],
-"cross_sites": []
+"cross_sites": [],
+"title_zh": "亚马逊在亚利桑那州投资的5种方式"
 },
 {
 "id": "e15d4fe34f44aa3e54e1e02aa639d9c6c8ee7700",
@@ -383,7 +453,7 @@
 "url": "https://channelx.world/2026/08/amazon-has-officially-launched-prime-air-drone-delivery-in-the-uk",
 "published_at": "2026-08-18T08:58:29Z",
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.86,
 "cross_label": "general",
@@ -395,7 +465,8 @@
 "prime",
 "amazon"
 ],
-"cross_sites": []
+"cross_sites": [],
+"title_zh": "亚马逊在英国正式推出Prime Air无人机送货服务"
 },
 {
 "id": "52cf4f15f748bc6671de1961bcc458b419df2f16",
@@ -406,7 +477,7 @@
 "url": "https://channelx.world/2026/08/amazon-warehousing-and-distribution-awd-to-be-launched",
 "published_at": "2026-08-18T08:51:08Z",
 "first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
+"last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -417,180 +488,8 @@
 "cross_platforms": [
 "amazon"
 ],
-"cross_sites": []
-},
-{
-"id": "5ddce02e1f7d6739c6edafc6de8c3612310c9bed",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊卖家调整标题后小类排名出现剧烈波动",
-"url": "https://www.amz123.com/kx/NNyZ2Qa4",
-"published_at": null,
-"first_seen_at": "2026-08-18T02:07:53.854649Z",
-"last_seen_at": "2026-08-18T02:07:53.854649Z",
-"cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
 "cross_sites": [],
-"title_zh": "亚马逊卖家调整标题后小类排名出现剧烈波动"
-},
-{
-"id": "f040620e712237c0a95314900af22bc334d11d1d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊欧洲四站大件尺寸认证10月15日截止，过往90天多收运费可退",
-"url": "https://www.amz123.com/kx/vbZYGr0s",
-"published_at": null,
-"first_seen_at": "2026-08-18T02:07:53.854649Z",
-"last_seen_at": "2026-08-18T02:07:53.854649Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊欧洲四站大件尺寸认证10月15日截止，过往90天多收运费可退"
-},
-{
-"id": "3286159feeb2b91bf52726ad1c1c73945042ec83",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧...AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧...",
-"url": "https://www.amzdh.com/kjtt/10307.html",
-"published_at": null,
-"first_seen_at": "2026-08-18T02:07:53.854649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"跨境电商",
-"卖家",
-"电商",
-"电商平台",
-"云途",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [
-"uk"
-],
-"title_zh": "AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧...AMZDH获悉，8月17日，云途物流与英国本土跨境电商平台Fruugo正式宣布达成深度战略合作，云途成为Fruugo官方认证推荐物流服务商。双方将打通\"平台入驻—商品上架—物流履约\"闭环，为中国卖家拓展欧美、北欧..."
-},
-{
-"id": "10591dc0d2030e44e1fd1833e5984fcb625ad27c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "吉宏股份半年报速览：跨境社交电商净利增长80.92%",
-"url": "https://www.cifnews.com/article/188296",
-"published_at": null,
-"first_seen_at": "2026-08-18T02:07:53.854649Z",
-"last_seen_at": "2026-08-18T02:07:53.854649Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "吉宏股份半年报速览：跨境社交电商净利增长80.92%"
-},
-{
-"id": "372408f42c4ad6eabdfa2ab151fab8119f702e2e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "美元兑人民币跌破6.74！跨境卖家的利润，正在被汇率“静默吃掉”",
-"url": "https://www.amzdh.com/kjtt/10308.html",
-"published_at": null,
-"first_seen_at": "2026-08-18T02:07:53.854649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家",
-"汇率"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "美元兑人民币跌破6.74！跨境卖家的利润，正在被汇率“静默吃掉”"
-},
-{
-"id": "ffa92d2aa3ee8d19a8c473448b26780a88127e73",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "8月16日晚，莫斯科州波多利斯克市科列季诺工业园区再遭乌克兰无人机袭击，Wildberries（野莓）旗下最大物流枢纽——占地超20万㎡的核心仓库被火势波及，大量货物焚毁。人员提前疏散无伤亡，但物流链已被迫切换。这是...8月16日晚，莫斯科州波多利斯克市科列季诺工业园区再遭乌克兰无人机袭击，Wildberries（野莓）旗下最大物流枢纽——占地超20万㎡的核心仓库被火势波及，大量货物焚毁。人员提前疏散无伤亡，但物流链已被迫切换。这是...",
-"url": "https://www.amzdh.com/kjtt/10309.html",
-"published_at": null,
-"first_seen_at": "2026-08-18T02:07:53.854649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"物流"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "8月16日晚，莫斯科州波多利斯克市科列季诺工业园区再遭乌克兰无人机袭击，Wildberries（野莓）旗下最大物流枢纽——占地超20万㎡的核心仓库被火势波及，大量货物焚毁。人员提前疏散无伤亡，但物流链已被迫切换。这是...8月16日晚，莫斯科州波多利斯克市科列季诺工业园区再遭乌克兰无人机袭击，Wildberries（野莓）旗下最大物流枢纽——占地超20万㎡的核心仓库被火势波及，大量货物焚毁。人员提前疏散无伤亡，但物流链已被迫切换。这是..."
-},
-{
-"id": "3323553a2308415967c88cc1e2a2f7c500d65cab",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，截至2026年8月16日，美元兑人民币汇率跌破6.74关口，在岸、离岸人民币双双刷新2023年2月以来新高。年初还在按 7.0 搭预算模型的卖家，现在每收1万美元，比年初少换约 2600元人民币。 一件本来净利5%的日用...AMZDH获悉，截至2026年8月16日，美元兑人民币汇率跌破6.74关口，在岸、离岸人民币双双刷新2023年2月以来新高。年初还在按 7.0 搭预算模型的卖家，现在每收1万美元，比年初少换约 2600元人民币。 一件本来净利5%的日用...",
-"url": "https://www.amzdh.com/kjtt/10308.html",
-"published_at": null,
-"first_seen_at": "2026-08-18T02:07:53.854649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"汇率"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，截至2026年8月16日，美元兑人民币汇率跌破6.74关口，在岸、离岸人民币双双刷新2023年2月以来新高。年初还在按 7.0 搭预算模型的卖家，现在每收1万美元，比年初少换约 2600元人民币。 一件本来净利5%的日用...AMZDH获悉，截至2026年8月16日，美元兑人民币汇率跌破6.74关口，在岸、离岸人民币双双刷新2023年2月以来新高。年初还在按 7.0 搭预算模型的卖家，现在每收1万美元，比年初少换约 2600元人民币。 一件本来净利5%的日用..."
+"title_zh": "亚马逊仓储和配送AWD即将推出"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
