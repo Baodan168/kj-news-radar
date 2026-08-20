@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-08-20T00:40:46.916220Z",
+"generated_at": "2026-08-20T02:09:47.317686Z",
 "window_hours": 24,
-"total_items": 21,
-"total_items_cross_raw": 46,
-"total_items_raw": 83,
-"total_items_all_mode": 83,
+"total_items": 26,
+"total_items_cross_raw": 62,
+"total_items_raw": 107,
+"total_items_all_mode": 107,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1854,
+"archive_total": 1890,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
@@ -21,13 +21,19 @@
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 23
+"raw_count": 21
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 3,
-"raw_count": 10
+"count": 6,
+"raw_count": 16
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
+"raw_count": 20
 },
 {
 "site_id": "sp_api",
@@ -50,6 +56,147 @@
 ],
 "items": [
 {
+"id": "a3eaee2cd34b61ecc6102ecebca4443e8feb1779",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧洲五国7月亚马逊潮玩榜由赛事卡牌与热门IP主导",
+"url": "https://www.amz123.com/kx/v1dvcUUC",
+"published_at": null,
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧洲五国7月亚马逊潮玩榜由赛事卡牌与热门IP主导"
+},
+{
+"id": "20f1d174f802af70cf52d68233577f689678dd4c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "成本暴涨+订单腰斩！新规落地，低客单卖家如何破局？",
+"url": "https://www.cifnews.com/article/188361",
+"published_at": null,
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "成本暴涨+订单腰斩！新规落地，低客单卖家如何破局？"
+},
+{
+"id": "13e41d3288b013a772c649d449fb3d0f84e6ac10",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "MDF相框在亚马逊美区母婴礼品榜售价最高22.99美元",
+"url": "https://www.amz123.com/kx/gK7HeubQ",
+"published_at": null,
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "MDF相框在亚马逊美区母婴礼品榜售价最高22.99美元"
+},
+{
+"id": "1f20b32f5721bd8f0aac29d451a9a8af4af01c44",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "南非电商规模达1300亿兰特，DPD助力跨境物流提速",
+"url": "https://www.amzdh.com/kjtt/10322.html",
+"published_at": null,
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境物流",
+"电商",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "南非电商规模达1300亿兰特，DPD助力跨境物流提速"
+},
+{
+"id": "4a9830395425af82086717a22d6a8312ddcb5577",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "8月1日，俄罗斯军用及军民两用采购平台 Рой.Маркет（Roy.Market） 结束试点，正式向第三方卖家开放入驻。它不卖货给老百姓，只对接军方、强力部门及授权机构，做 B2B/B2G 闭环交易。背后站着的，是“无人系...8月1日，俄罗斯军用及军民两用采购平台 Рой.Маркет（Roy.Market） 结束试点，正式向第三方卖家开放入驻。它不卖货给老百姓，只对接军方、强力部门及授权机构，做 B2B/B2G 闭环交易。背后站着的，是“无人系...",
+"url": "https://www.amzdh.com/kjtt/10323.html",
+"published_at": null,
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"采购"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "8月1日，俄罗斯军用及军民两用采购平台 Рой.Маркет（Roy.Market） 结束试点，正式向第三方卖家开放入驻。它不卖货给老百姓，只对接军方、强力部门及授权机构，做 B2B/B2G 闭环交易。背后站着的，是“无人系...8月1日，俄罗斯军用及军民两用采购平台 Рой.Маркет（Roy.Market） 结束试点，正式向第三方卖家开放入驻。它不卖货给老百姓，只对接军方、强力部门及授权机构，做 B2B/B2G 闭环交易。背后站着的，是“无人系..."
+},
+{
+"id": "b8c60f27f8e967cc370b467728be7a795ead0809",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "TikTok东南亚黑五前启动大规模风控，不少店群卖家受影响",
+"url": "https://www.amzdh.com/kjtt/10321.html",
+"published_at": null,
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "TikTok东南亚黑五前启动大规模风控，不少店群卖家受影响"
+},
+{
 "id": "a02bd849268d8866cd17dda9b15d8e49760371a7",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -58,7 +205,7 @@
 "url": "https://www.amz123.com/kx/aXNxfYJJ",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "seller_action",
@@ -83,7 +230,7 @@
 "url": "https://www.cifnews.com/article/188347",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.92,
 "cross_label": "fee_logistics",
@@ -109,7 +256,7 @@
 "url": "https://www.amz123.com/kx/gzjRuGdp",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "policy_update",
@@ -133,7 +280,7 @@
 "url": "https://www.cifnews.com/article/188359",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "seller_action",
@@ -159,7 +306,7 @@
 "url": "https://www.cifnews.com/article/188351",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "fee_logistics",
@@ -185,7 +332,7 @@
 "url": "https://www.cifnews.com/article/188343",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "general",
@@ -210,7 +357,7 @@
 "url": "https://www.amzdh.com/kjtt/10310.html",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "fee_logistics",
@@ -241,7 +388,7 @@
 "url": "https://www.amz123.com/kx/4lrTtwKS",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "advertising",
@@ -263,7 +410,7 @@
 "url": "https://www.cifnews.com/article/188349",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "policy_update",
@@ -286,7 +433,7 @@
 "url": "https://www.cifnews.com/article/188352",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "listing_product",
@@ -309,7 +456,7 @@
 "url": "https://www.amz123.com/kx/JJbMvZWO",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -356,7 +503,7 @@
 "url": "https://www.amzdh.com/kjtt/10314.html",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "fee_logistics",
@@ -383,7 +530,7 @@
 "url": "https://www.cifnews.com/article/188354",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "fee_logistics",
@@ -396,28 +543,27 @@
 "title_zh": "平台加码海外仓扶持、低价直邮退场：本土履约走向「平台仓+三方仓」双轨分工丨观察"
 },
 {
-"id": "18f1bc89196b3c6118ed6ca3cc9fa7c6525afe52",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "税务风险警示：TikTok美区登顶成主战场！爆单的背后，卖家税务风险正在同步放大",
-"url": "https://www.cifnews.com/article/188342",
+"id": "4f8c9e9e6d43167a96cebf9abe11ddb6922ff245",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "伊尔库茨克女式衬衫销量领先，Wildberries公布俄罗斯开学季消费地域榜",
+"url": "https://www.amz123.com/kx/EyJGZ1OF",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
 "last_seen_at": "2026-08-20T00:40:46.916220Z",
 "cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "tiktok",
+"cross_score": 0.6,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"卖家",
-"卖家"
+"wildberries"
 ],
-"cross_platforms": [],
-"cross_sites": [
-"us"
+"cross_platforms": [
+"wildberries"
 ],
-"title_zh": "税务风险警示：TikTok美区登顶成主战场！爆单的背后，卖家税务风险正在同步放大"
+"cross_sites": [],
+"title_zh": "伊尔库茨克女式衬衫销量领先，Wildberries公布俄罗斯开学季消费地域榜"
 },
 {
 "id": "5e609a04d6127c9f9b318b35980ef2b0df026f1b",
@@ -428,7 +574,7 @@
 "url": "https://www.amzdh.com/kjtt/10320.html",
 "published_at": null,
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -443,6 +589,52 @@
 "title_zh": "AMZDH获悉，巴西快消（FMCG）线上化正在“大众化跃迁”：2025年45.4%的家庭线上下单FMCG，较2023年23.8%近乎翻倍，覆盖2780万户；超60%为首次线上购物新客，C/D/E阶层+29岁以下青年是核心增量。三个信号值得跨境卖家...AMZDH获悉，巴西快消（FMCG）线上化正在“大众化跃迁”：2025年45.4%的家庭线上下单FMCG，较2023年23.8%近乎翻倍，覆盖2780万户；超60%为首次线上购物新客，C/D/E阶层+29岁以下青年是核心增量。三个信号值得跨境卖家..."
 },
 {
+"id": "c54978ed4888f0e69cb133efb456e03c0d6c6d76",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊年底前将Prime Air无人机配送扩展至全美500城镇",
+"url": "https://www.ennews.com/news-142304.html",
+"published_at": "2026-08-20T00:00:00Z",
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊",
+"prime"
+],
+"cross_sites": [],
+"title_zh": "亚马逊年底前将Prime Air无人机配送扩展至全美500城镇"
+},
+{
+"id": "4460706ae764b8e333c182305c256ac87ff4a823",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "赶紧下架，这一产品致卖家面临冻结风险",
+"url": "https://www.ennews.com/news-142302.html",
+"published_at": "2026-08-20T00:00:00Z",
+"first_seen_at": "2026-08-20T02:09:47.317686Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "赶紧下架，这一产品致卖家面临冻结风险"
+},
+{
 "id": "a28a8f1a05cdccba3fe0b25ed9db27aafb6e5d43",
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
@@ -451,7 +643,7 @@
 "url": "https://developer-docs.amazon/sp-api/changelog/sp-api-updates-simplified-authorization-for-service-providers-external-fulfillment-sandbox-changes-and-multi-invoice-support-changes-for-brazil",
 "published_at": "2026-08-19T17:34:58Z",
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -474,7 +666,7 @@
 "url": "https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion",
 "published_at": "2026-08-19T09:45:13Z",
 "first_seen_at": "2026-08-20T00:40:46.916220Z",
-"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T02:09:47.317686Z",
 "cross_is_related": true,
 "cross_score": 0.86,
 "cross_label": "general",
@@ -488,76 +680,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊Prime Air无人机今年将扩展到近500个城镇"
-},
-{
-"id": "be4fc232b39df1685a570fd3ea09f9e13818ab17",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "第七届CHWE出海网全球跨境电商展推出限时免费交通福利",
-"url": "https://www.amz123.com/kx/73LUB0AU",
-"published_at": null,
-"first_seen_at": "2026-08-19T02:09:46.896288Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "第七届CHWE出海网全球跨境电商展推出限时免费交通福利"
-},
-{
-"id": "8099a25ebbcfdd57ca9d6dcb28f98742d1d86abc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美泰KPOP发声娃娃登顶亚马逊美区潮玩榜，7月销量增长超一倍",
-"url": "https://www.amz123.com/kx/PrnY39s2",
-"published_at": null,
-"first_seen_at": "2026-08-19T02:09:46.896288Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "美泰KPOP发声娃娃登顶亚马逊美区潮玩榜，7月销量增长超一倍"
-},
-{
-"id": "2abb884a9905a391866406733cc97ba17c79dff6",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Stripe联手Advent拟530亿美元吞PayPal",
-"url": "https://www.amz123.com/kx/9ScblDXa",
-"published_at": null,
-"first_seen_at": "2026-08-19T02:09:46.896288Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"paypal",
-"stripe"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Stripe联手Advent拟530亿美元吞PayPal"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
