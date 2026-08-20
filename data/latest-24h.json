@@ -1,54 +1,494 @@
 {
-"generated_at": "2026-08-19T02:09:46.896288Z",
+"generated_at": "2026-08-20T00:40:46.916220Z",
 "window_hours": 24,
-"total_items": 19,
-"total_items_cross_raw": 43,
-"total_items_raw": 96,
-"total_items_all_mode": 96,
+"total_items": 21,
+"total_items_cross_raw": 46,
+"total_items_raw": 83,
+"total_items_all_mode": 83,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1791,
+"archive_total": 1854,
 "site_count": 16,
-"source_count": 5,
+"source_count": 6,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 45
+"raw_count": 43
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 24
+"raw_count": 23
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 2,
-"raw_count": 3
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 3,
+"raw_count": 10
+},
+{
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "count": 1,
-"raw_count": 1
+"raw_count": 2
 },
 {
-"site_id": "tophub",
-"site_name": "TopHub",
+"site_id": "channelx",
+"site_name": "ChannelX",
 "count": 0,
-"raw_count": 3
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 0,
-"raw_count": 20
+"raw_count": 4
 }
 ],
 "items": [
+{
+"id": "a02bd849268d8866cd17dda9b15d8e49760371a7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊AI风控启动全平台回溯，多名中国卖家账号遭停用并冻结资金",
+"url": "https://www.amz123.com/kx/aXNxfYJJ",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊AI风控启动全平台回溯，多名中国卖家账号遭停用并冻结资金"
+},
+{
+"id": "19e3454e6866f99d89a3ee3dda46c9a94919a13a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "（外管局答复）做亚马逊按9810报关，每销售一件货物，会扣除大概40%的费用，收到的外汇小于报关单上的金额...",
+"url": "https://www.cifnews.com/article/188347",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"报关",
+"外汇",
+"报关"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "（外管局答复）做亚马逊按9810报关，每销售一件货物，会扣除大概40%的费用，收到的外汇小于报关单上的金额..."
+},
+{
+"id": "cfb40e75dba5a71cdc80d11dda549feca4a481a6",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "首钢补税1.94亿元免于处罚，跨境卖家税务合规风险再敲警钟",
+"url": "https://www.amz123.com/kx/gzjRuGdp",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "首钢补税1.94亿元免于处罚，跨境卖家税务合规风险再敲警钟"
+},
+{
+"id": "bda72c6b637cd5c5044a106efc93c2d06a8db2ea",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊卖家懵了！爆款排名突然失控，订单也跟着掉了",
+"url": "https://www.cifnews.com/article/188359",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"爆款"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家懵了！爆款排名突然失控，订单也跟着掉了"
+},
+{
+"id": "de9168a8c98693712ac1e732fa130146eb14fc4e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "一亚马逊卖家被罚15万：懂不懂海外仓业务、会不会做9810账务和报税，影响真的很大",
+"url": "https://www.cifnews.com/article/188351",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"海外仓",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "一亚马逊卖家被罚15万：懂不懂海外仓业务、会不会做9810账务和报税，影响真的很大"
+},
+{
+"id": "99c13b4ce92373052ddc0329329974b60427f99e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊新审核突袭！欧洲站强制核验主营地址，扣款封店风险拉响警报",
+"url": "https://www.cifnews.com/article/188343",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊新审核突袭！欧洲站强制核验主营地址，扣款封店风险拉响警报"
+},
+{
+"id": "fbd4e6c0dc82db7224a507009bc3f0b5f5a0dcbc",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "澳洲站卖家注意！每年旺季 FBA 库容不够、仓储费暴涨、补货麻烦的痛点，迎来官方解决方案。经过美国站验证的亚马逊 AWD 智能卫星仓，今日正式上线澳洲站点！澳洲亚马逊卖家的旺季福音来了！AMZDH获悉，亚马逊智能卫星...澳洲站卖家注意！每年旺季 FBA 库容不够、仓储费暴涨、补货麻烦的痛点，迎来官方解决方案。经过美国站验证的亚马逊 AWD 智能卫星仓，今日正式上线澳洲站点！澳洲亚马逊卖家的旺季福音来了！AMZDH获悉，亚马逊智能卫星...",
+"url": "https://www.amzdh.com/kjtt/10310.html",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊",
+"卖家",
+"卖家",
+"仓储"
+],
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [
+"us",
+"au"
+],
+"title_zh": "澳洲站卖家注意！每年旺季 FBA 库容不够、仓储费暴涨、补货麻烦的痛点，迎来官方解决方案。经过美国站验证的亚马逊 AWD 智能卫星仓，今日正式上线澳洲站点！澳洲亚马逊卖家的旺季福音来了！AMZDH获悉，亚马逊智能卫星...澳洲站卖家注意！每年旺季 FBA 库容不够、仓储费暴涨、补货麻烦的痛点，迎来官方解决方案。经过美国站验证的亚马逊 AWD 智能卫星仓，今日正式上线澳洲站点！澳洲亚马逊卖家的旺季福音来了！AMZDH获悉，亚马逊智能卫星..."
+},
+{
+"id": "be0936eea400ea18c799ec822b9a8cfc24af27b1",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok东南亚黑五前启动大规模风控，多家跨境店铺受影响",
+"url": "https://www.amz123.com/kx/4lrTtwKS",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"店铺"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "TikTok东南亚黑五前启动大规模风控，多家跨境店铺受影响"
+},
+{
+"id": "0c940141b4c6068e3f0f6fa55cc6ff5cfb9a5cc1",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "8月24日起新规正式执行，亚马逊换主体窗口正在收紧！",
+"url": "https://www.cifnews.com/article/188349",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "8月24日起新规正式执行，亚马逊换主体窗口正在收紧！"
+},
+{
+"id": "053e265ece72fe4b6e4f8e60c13cce4b26f4e384",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "跨境卖家必懂！产品责任险到底保什么？",
+"url": "https://www.cifnews.com/article/188352",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境卖家必懂！产品责任险到底保什么？"
+},
+{
+"id": "8f4890be81010b91565216e1d6f179c35a05b1f4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊将路易斯安那州数据中心投资追加至180亿美元",
+"url": "https://www.amz123.com/kx/JJbMvZWO",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊将路易斯安那州数据中心投资追加至180亿美元"
+},
+{
+"id": "a4903a97e2b673960494de4accef45fa10bb2ec7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "DHL旗下Blue Dart将进军欧美市场，9月推出印度跨境电商配送服务",
+"url": "https://www.amz123.com/kx/SS64SUxU",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商",
+"dhl"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "DHL旗下Blue Dart将进军欧美市场，9月推出印度跨境电商配送服务"
+},
+{
+"id": "0d25a5d7ca4b392a99411829d48b2e8d7ee4050f",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，8月中旬，菜鸟联合4PX海外供应链在优化美国仓容布局的同时，把尾程配送体系做了一次底层升级：大商家走“主流快递战略合作定制通道”，中小卖家接“AI优配”智能路由——算法毫秒级比对历史订单与实时运力...AMZDH获悉，8月中旬，菜鸟联合4PX海外供应链在优化美国仓容布局的同时，把尾程配送体系做了一次底层升级：大商家走“主流快递战略合作定制通道”，中小卖家接“AI优配”智能路由——算法毫秒级比对历史订单与实时运力...",
+"url": "https://www.amzdh.com/kjtt/10314.html",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"供应链",
+"卖家",
+"快递",
+"菜鸟"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "AMZDH获悉，8月中旬，菜鸟联合4PX海外供应链在优化美国仓容布局的同时，把尾程配送体系做了一次底层升级：大商家走“主流快递战略合作定制通道”，中小卖家接“AI优配”智能路由——算法毫秒级比对历史订单与实时运力...AMZDH获悉，8月中旬，菜鸟联合4PX海外供应链在优化美国仓容布局的同时，把尾程配送体系做了一次底层升级：大商家走“主流快递战略合作定制通道”，中小卖家接“AI优配”智能路由——算法毫秒级比对历史订单与实时运力..."
+},
+{
+"id": "1b860f049565257186c1c4f64e0fb4fbc67edc60",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "平台加码海外仓扶持、低价直邮退场：本土履约走向「平台仓+三方仓」双轨分工丨观察",
+"url": "https://www.cifnews.com/article/188354",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"海外仓"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "平台加码海外仓扶持、低价直邮退场：本土履约走向「平台仓+三方仓」双轨分工丨观察"
+},
+{
+"id": "18f1bc89196b3c6118ed6ca3cc9fa7c6525afe52",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "税务风险警示：TikTok美区登顶成主战场！爆单的背后，卖家税务风险正在同步放大",
+"url": "https://www.cifnews.com/article/188342",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "税务风险警示：TikTok美区登顶成主战场！爆单的背后，卖家税务风险正在同步放大"
+},
+{
+"id": "5e609a04d6127c9f9b318b35980ef2b0df026f1b",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，巴西快消（FMCG）线上化正在“大众化跃迁”：2025年45.4%的家庭线上下单FMCG，较2023年23.8%近乎翻倍，覆盖2780万户；超60%为首次线上购物新客，C/D/E阶层+29岁以下青年是核心增量。三个信号值得跨境卖家...AMZDH获悉，巴西快消（FMCG）线上化正在“大众化跃迁”：2025年45.4%的家庭线上下单FMCG，较2023年23.8%近乎翻倍，覆盖2780万户；超60%为首次线上购物新客，C/D/E阶层+29岁以下青年是核心增量。三个信号值得跨境卖家...",
+"url": "https://www.amzdh.com/kjtt/10320.html",
+"published_at": null,
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，巴西快消（FMCG）线上化正在“大众化跃迁”：2025年45.4%的家庭线上下单FMCG，较2023年23.8%近乎翻倍，覆盖2780万户；超60%为首次线上购物新客，C/D/E阶层+29岁以下青年是核心增量。三个信号值得跨境卖家...AMZDH获悉，巴西快消（FMCG）线上化正在“大众化跃迁”：2025年45.4%的家庭线上下单FMCG，较2023年23.8%近乎翻倍，覆盖2780万户；超60%为首次线上购物新客，C/D/E阶层+29岁以下青年是核心增量。三个信号值得跨境卖家..."
+},
+{
+"id": "a28a8f1a05cdccba3fe0b25ed9db27aafb6e5d43",
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"source": "SP-API变更",
+"title": "SP-API Updates: Simplified Authorization for Service Providers, External Fulfillment Sandbox Changes, and Multi-Invoice Support Changes for the Brazil Amazon Store",
+"url": "https://developer-docs.amazon/sp-api/changelog/sp-api-updates-simplified-authorization-for-service-providers-external-fulfillment-sandbox-changes-and-multi-invoice-support-changes-for-brazil",
+"published_at": "2026-08-19T17:34:58Z",
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "SP-API更新：服务提供商的简化授权、外部履行沙盒更改以及巴西亚马逊商店的多发票支持更改"
+},
+{
+"id": "fb5bb246840ef3628cb0854a90718a14abf17c4c",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon Prime Air drone delivery is expanding to nearly 500 cities and towns this year",
+"url": "https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion",
+"published_at": "2026-08-19T09:45:13Z",
+"first_seen_at": "2026-08-20T00:40:46.916220Z",
+"last_seen_at": "2026-08-20T00:40:46.916220Z",
+"cross_is_related": true,
+"cross_score": 0.86,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon",
+"prime"
+],
+"cross_sites": [],
+"title_zh": "亚马逊Prime Air无人机今年将扩展到近500个城镇"
+},
 {
 "id": "be4fc232b39df1685a570fd3ea09f9e13818ab17",
 "site_id": "amz123",
@@ -98,398 +538,26 @@
 "title_zh": "美泰KPOP发声娃娃登顶亚马逊美区潮玩榜，7月销量增长超一倍"
 },
 {
-"id": "fc3b55fc574ce1b355634e6f0da925e977d676d9",
+"id": "2abb884a9905a391866406733cc97ba17c79dff6",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "美国电商7月销售额降至1369亿美元，Prime Day提前举办影响消费节奏",
-"url": "https://www.amz123.com/kx/DBElDBnE",
+"title": "Stripe联手Advent拟530亿美元吞PayPal",
+"url": "https://www.amz123.com/kx/9ScblDXa",
 "published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"电商"
-],
-"cross_platforms": [
-"prime"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国电商7月销售额降至1369亿美元，Prime Day提前举办影响消费节奏"
-},
-{
-"id": "3069280779716ffe8de117ee3c4b6ee7a3d9e0d4",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "2026亚马逊黑五网一时间定了！卖家最后90天备战清单",
-"url": "https://www.cifnews.com/article/188323",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "2026亚马逊黑五网一时间定了！卖家最后90天备战清单"
-},
-{
-"id": "fcec8475bcdd82d57114f88276f739b76a0e6892",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊新卖家黄金90天运营实操策略",
-"url": "https://www.cifnews.com/article/188320",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊新卖家黄金90天运营实操策略"
-},
-{
-"id": "c78408709b10e78b47df5deb11fcd7e09ad68b1c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "8.18杭州丨这场峰会替你解码PPWR落地后的欧洲市场新生存法则",
-"url": "https://www.cifnews.com/article/188329",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ppwr"
-],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "8.18杭州丨这场峰会替你解码PPWR落地后的欧洲市场新生存法则"
-},
-{
-"id": "08068a67b1700e16912a5aad0dc0bec04f505d8e",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "欧盟包装有害物质符合性证明（EU PPWR Substances in Packaging Compliance）资质上传指引",
-"url": "https://www.cifnews.com/article/188314",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ppwr"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟包装有害物质符合性证明（EU PPWR Substances in Packaging Compliance）资质上传指引"
-},
-{
-"id": "b570999cce105292b071e93ae8ae4c2e634099ba",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊SP广告接入创作者内容展位",
-"url": "https://www.cifnews.com/article/188324",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊SP广告接入创作者内容展位"
-},
-{
-"id": "d1c4543d9881e0cb57a2b49a0918e0eb7b1bc2c2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊蛋白饮料搜索量暴涨78%，GLP-1减肥药改变蛋白质消费需求",
-"url": "https://www.amz123.com/kx/cKAP7xQF",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊蛋白饮料搜索量暴涨78%，GLP-1减肥药改变蛋白质消费需求"
-},
-{
-"id": "428b93074e00222b2affe0e9ed4ce241a47b2f68",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok美区8月17日上线MTO，定制卖家获3—14天官方生产窗口",
-"url": "https://www.amz123.com/kx/JlMIkOWC",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "TikTok美区8月17日上线MTO，定制卖家获3—14天官方生产窗口"
-},
-{
-"id": "372b5730333772a0f67d36a5ddec13f879cb2738",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "英国皇家邮政：国内邮寄无需标注国名，全面推广机打标签",
-"url": "https://www.amz123.com/kx/lXN93S9R",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"邮政"
-],
-"cross_platforms": [],
-"cross_sites": [
-"uk"
-],
-"title_zh": "英国皇家邮政：国内邮寄无需标注国名，全面推广机打标签"
-},
-{
-"id": "672e305829d99c2d59baa8960b4af29994296ea4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊加码“智能购物”，Alexa+可监测价格并自动下单",
-"url": "https://www.amz123.com/kx/uLabAP8X",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊加码“智能购物”，Alexa+可监测价格并自动下单"
-},
-{
-"id": "f5d8948b43450a8b7418a50e54120f9b9425605b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "199美元卖断货！这些跨境宠物爆品凭什么收割海外溢价",
-"url": "https://www.cifnews.com/article/188328",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "199美元卖断货！这些跨境宠物爆品凭什么收割海外溢价"
-},
-{
-"id": "a8230ad9c01cee92313dba193f809a66258503b1",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "TITE-REACH商标发案！席卷六大跨境平台！",
-"url": "https://www.cifnews.com/article/188326",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "TITE-REACH商标发案！席卷六大跨境平台！"
-},
-{
-"id": "d0673ad5c84c97e22169407a247e0077e2953e4c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "上周跨境圈发生了哪些大事（08.10-08.16）",
-"url": "https://www.cifnews.com/article/188317",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T00:40:21.958649Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "上周跨境圈发生了哪些大事（08.10-08.16）"
-},
-{
-"id": "5a05753ab0b4a68a1fd91ea247109082d908dda7",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "AliExpress美区推出30天未达自动退款，返校季大促前完善服务保障",
-"url": "https://www.amz123.com/kx/eCpLekU5",
-"published_at": null,
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
+"first_seen_at": "2026-08-19T02:09:46.896288Z",
 "last_seen_at": "2026-08-19T02:09:46.896288Z",
 "cross_is_related": true,
 "cross_score": 0.63,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"aliexpress",
-"退款"
-],
-"cross_platforms": [
-"aliexpress"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "AliExpress美区推出30天未达自动退款，返校季大促前完善服务保障"
-},
-{
-"id": "db886d45c1a343357b8d2850d310076d7f18c99a",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "5 ways Amazon is investing in Arizona",
-"url": "https://www.aboutamazon.com/news/community/amazon-investment-arizona-jobs-infrastructure-small-business",
-"published_at": "2026-08-18T15:51:40Z",
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.71,
 "cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"amazon"
+"paypal",
+"stripe"
 ],
-"cross_platforms": [
-"amazon"
-],
+"cross_platforms": [],
 "cross_sites": [],
-"title_zh": "亚马逊在亚利桑那州投资的5种方式"
-},
-{
-"id": "e15d4fe34f44aa3e54e1e02aa639d9c6c8ee7700",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon has officially launched Prime Air drone delivery in the UK",
-"url": "https://channelx.world/2026/08/amazon-has-officially-launched-prime-air-drone-delivery-in-the-uk",
-"published_at": "2026-08-18T08:58:29Z",
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"prime",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊在英国正式推出Prime Air无人机送货服务"
-},
-{
-"id": "52cf4f15f748bc6671de1961bcc458b419df2f16",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon Warehousing and Distribution AWD to be launched",
-"url": "https://channelx.world/2026/08/amazon-warehousing-and-distribution-awd-to-be-launched",
-"published_at": "2026-08-18T08:51:08Z",
-"first_seen_at": "2026-08-19T00:40:21.958649Z",
-"last_seen_at": "2026-08-19T02:09:46.896288Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊仓储和配送AWD即将推出"
+"title_zh": "Stripe联手Advent拟530亿美元吞PayPal"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
