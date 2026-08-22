@@ -1,10 +1,10 @@
 {
-"generated_at": "2026-08-22T00:40:48.660138Z",
+"generated_at": "2026-08-22T02:07:09.470558Z",
 "window_hours": 24,
 "total_items": 25,
-"total_items_cross_raw": 100,
-"total_items_raw": 160,
-"total_items_all_mode": 160,
+"total_items_cross_raw": 69,
+"total_items_raw": 102,
+"total_items_all_mode": 102,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
 "archive_total": 2028,
@@ -21,13 +21,13 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 81
+"raw_count": 45
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 37
+"raw_count": 17
 },
 {
 "site_id": "amzdh",
@@ -36,16 +36,16 @@
 "raw_count": 8
 },
 {
-"site_id": "tophub",
-"site_name": "TopHub",
-"count": 0,
-"raw_count": 5
-},
-{
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 0,
 "raw_count": 2
+},
+{
+"site_id": "tophub",
+"site_name": "TopHub",
+"count": 0,
+"raw_count": 3
 }
 ],
 "items": [
@@ -58,7 +58,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-251201",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.86,
 "cross_label": "fee_logistics",
@@ -84,7 +84,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-260701",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.82,
 "cross_label": "policy_update",
@@ -110,7 +110,7 @@
 "url": "https://www.amz123.com/kx/OAA5oYka",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "platform_trend",
@@ -127,6 +127,29 @@
 "title_zh": "跨境卖家关注日本时尚消费趋势：女性追韩系、男性偏美式，韩妆加速本土化"
 },
 {
+"id": "8ba716939a076f7794728b097beb45c384f33cb9",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "一张《责令限期改正通知书》，撕开跨境卖家“以为没事”的真相",
+"url": "https://www.cifnews.com/article/188421",
+"published_at": null,
+"first_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "一张《责令限期改正通知书》，撕开跨境卖家“以为没事”的真相"
+},
+{
 "id": "e1230329bb67d5fe3f88ce2f4c40c8bcd65f785e",
 "site_id": "gs_amazon",
 "site_name": "亚马逊全球开店",
@@ -135,7 +158,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260814",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -159,7 +182,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260731",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "fee_logistics",
@@ -183,7 +206,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260722",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "general",
@@ -193,8 +216,8 @@
 "亚马逊"
 ],
 "cross_platforms": [
-"fba",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [],
 "title_zh": "● 一件19.9美元的夏装，帮你算清亚马逊FBA的........[详细]"
@@ -208,7 +231,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260721",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -232,7 +255,7 @@
 "url": "https://gs.amazon.cn/news/news-product-260716",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -257,7 +280,7 @@
 "url": "https://www.amz123.com/kx/2mVXy6iZ",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "fee_logistics",
@@ -282,7 +305,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-251202",
 "published_at": null,
 "first_seen_at": "2026-08-22T00:40:48.660138Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "fee_logistics",
@@ -300,6 +323,102 @@
 "title_zh": "2026年日本站销售佣金和亚马逊物流费用"
 },
 {
+"id": "9d840ebb6513f96f6e09a4a8b153a69d132e5a54",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美国海关9月18日起严查5106表格，进口商备案号码作废将影响清关",
+"url": "https://www.amz123.com/kx/UhKXqKO9",
+"published_at": null,
+"first_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"海关",
+"清关",
+"清关"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国海关9月18日起严查5106表格，进口商备案号码作废将影响清关"
+},
+{
+"id": "c206cee8d4aab399e04582dc1a8264c3b646f37a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊户外爆品盘点：护齿、风扇、净水器月销均破万单",
+"url": "https://www.amz123.com/kx/VJYVHvQZ",
+"published_at": null,
+"first_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊户外爆品盘点：护齿、风扇、净水器月销均破万单"
+},
+{
+"id": "ce52816d270d82b1eb0c8559a23f8c1cee4d95ee",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯Yandex Market调整卖家费率，9月起优化FBY与FBS收费",
+"url": "https://www.amz123.com/kx/MpCY4jzQ",
+"published_at": null,
+"first_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯Yandex Market调整卖家费率，9月起优化FBY与FBS收费"
+},
+{
+"id": "7da4741dbcb9da06ad28419a156a514a929dda23",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon加强卖家监管，发布禁售商品将面临解约",
+"url": "https://www.amz123.com/kx/Vk2zeBHl",
+"published_at": null,
+"first_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家",
+"监管"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon加强卖家监管，发布禁售商品将面临解约"
+},
+{
 "id": "edf63ce3a04e61f824ea5abc4b0c1cfaad43424d",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -308,7 +427,7 @@
 "url": "https://www.cifnews.com/article/188397",
 "published_at": null,
 "first_seen_at": "2026-08-21T02:15:48.405946Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 1.0,
 "cross_label": "policy_update",
@@ -319,8 +438,8 @@
 "跨境"
 ],
 "cross_platforms": [
-"fba",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊欧盟跨境FBA进口费用结构"
@@ -334,7 +453,7 @@
 "url": "https://www.amz123.com/kx/y564k8e0",
 "published_at": null,
 "first_seen_at": "2026-08-21T02:15:48.405946Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 1.0,
 "cross_label": "fee_logistics",
@@ -361,7 +480,7 @@
 "url": "https://www.cifnews.com/article/188405",
 "published_at": null,
 "first_seen_at": "2026-08-21T02:15:48.405946Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "policy_update",
@@ -378,6 +497,141 @@
 "title_zh": "法国电子发票新规9月1日起实施，亚马逊卖家要提供SIREN/SIRET！"
 },
 {
+"id": "7cb491346fa681016bdfc79c9419666e06612bcb",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "26-cv-01743｜277店面临TRO被冻结！Keith律所代理水彩花卉版权新案来袭，多平台卖家踩坑",
+"url": "https://www.cifnews.com/article/188400",
+"published_at": null,
+"first_seen_at": "2026-08-21T02:15:48.405946Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "26-cv-01743｜277店面临TRO被冻结！Keith律所代理水彩花卉版权新案来袭，多平台卖家踩坑"
+},
+{
+"id": "274bc53b0db14fe8cfa805b282cbd61e66ef8970",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊BSA协议调整倒计时",
+"url": "https://www.cifnews.com/article/188398",
+"published_at": null,
+"first_seen_at": "2026-08-21T02:15:48.405946Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊BSA协议调整倒计时"
+},
+{
+"id": "f9bc8468f56ff0bfe32fe4d3079e02456e3a1cb8",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "别踩坑！5款置物架专利已更新，卖家速自查！",
+"url": "https://www.cifnews.com/article/188403",
+"published_at": null,
+"first_seen_at": "2026-08-21T02:15:48.405946Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "别踩坑！5款置物架专利已更新，卖家速自查！"
+},
+{
+"id": "e5fcf3b3a8aaf83349f086165e34d0ca3fc45f01",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "沃尔玛中国Q2净销售额达70亿美元，同比增长20.7%，电商业务成核心增长动力",
+"url": "https://www.amz123.com/kx/9iVcSQzz",
+"published_at": null,
+"first_seen_at": "2026-08-21T02:15:48.405946Z",
+"last_seen_at": "2026-08-21T02:15:48.405946Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"沃尔玛",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "沃尔玛中国Q2净销售额达70亿美元，同比增长20.7%，电商业务成核心增长动力"
+},
+{
+"id": "91b5c2096830dd25271cb8788a95f380c841762e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊视频验证全攻略-题库 + 触发原因 + 避坑细节，一文通关",
+"url": "https://www.cifnews.com/article/188399",
+"published_at": null,
+"first_seen_at": "2026-08-21T02:15:48.405946Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊视频验证全攻略-题库 + 触发原因 + 避坑细节，一文通关"
+},
+{
+"id": "f3d46fadc9ae7198323c9c6b38a1a47ae12783a0",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "独立站优秀案例分析：不拼口感，一个咖啡替代品如何做成年付生意？",
+"url": "https://www.cifnews.com/article/188396",
+"published_at": null,
+"first_seen_at": "2026-08-21T02:15:48.405946Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"独立站"
+],
+"cross_platforms": [
+"独立站"
+],
+"cross_sites": [],
+"title_zh": "独立站优秀案例分析：不拼口感，一个咖啡替代品如何做成年付生意？"
+},
+{
 "id": "efc1930be1fa48e8f1b36807f8e198263bf93f34",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -386,277 +640,9 @@
 "url": "https://www.amzdh.com/kjtt/10327.html",
 "published_at": null,
 "first_seen_at": "2026-08-21T02:15:48.405946Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
+"last_seen_at": "2026-08-22T02:07:09.470558Z",
 "cross_is_related": true,
 "cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "巴西跨境购物或迎巨变！卢拉力推废除“小衬衫税“"
-},
-{
-"id": "b619e5261dbd6e82cec550b7d19973205ca20e57",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊限制前台评论展示，AI反爬机制误伤Prime会员及买家账号",
-"url": "https://www.amz123.com/kx/8nABw3zX",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"买家"
-],
-"cross_platforms": [
-"prime",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊限制前台评论展示，AI反爬机制误伤Prime会员及买家账号"
-},
-{
-"id": "f5b37721300712d1219d145224120ddf4ecde1cd",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "从法国出发，看清整个欧盟税务变革：一场“电子发票+实时申报”正在重塑跨境电商合规逻辑",
-"url": "https://www.cifnews.com/article/188391",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-22T00:40:48.660138Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "从法国出发，看清整个欧盟税务变革：一场“电子发票+实时申报”正在重塑跨境电商合规逻辑"
-},
-{
-"id": "4abc13c337a77166b54b71af7132e1b970557cb2",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊MCF with Prime---专属品牌独立站订单的配送方式",
-"url": "https://www.cifnews.com/article/188377",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T00:41:10.720708Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"mcf",
-"亚马逊",
-"独立站"
-],
-"cross_platforms": [
-"prime",
-"亚马逊",
-"独立站"
-],
-"cross_sites": [],
-"title_zh": "亚马逊MCF with Prime---专属品牌独立站订单的配送方式"
-},
-{
-"id": "ba7d5f14976a895f2e244cce2b5b4fa9e6a1a7a2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊加速无人机配送，年底前将覆盖近500个美国城镇",
-"url": "https://www.amz123.com/kx/96NUmHmi",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T00:41:10.720708Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊加速无人机配送，年底前将覆盖近500个美国城镇"
-},
-{
-"id": "c55f457c72e4f3356574e9f9a38e3219504fecb0",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "被tro后，针对国内备货，亚马逊卖家是否还需要支付货款？【005】",
-"url": "https://www.cifnews.com/article/188390",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T02:15:48.405946Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "被tro后，针对国内备货，亚马逊卖家是否还需要支付货款？【005】"
-},
-{
-"id": "b5516e9c3a1ce92f13e12683b9f5e669ebbf80e4",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "被tro后，亚马逊卖家能否找国内生产商索赔【006】",
-"url": "https://www.cifnews.com/article/188389",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T02:15:48.405946Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "被tro后，亚马逊卖家能否找国内生产商索赔【006】"
-},
-{
-"id": "c7d501615b4a7a6cd88abe3bc732c3b165f509df",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "因缺少EPA认证，亚马逊平台销毁产品，亚马逊卖家能否找生产厂家索赔，国内未发货订单能否不再履行【007】",
-"url": "https://www.cifnews.com/article/188388",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T02:15:48.405946Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "因缺少EPA认证，亚马逊平台销毁产品，亚马逊卖家能否找生产厂家索赔，国内未发货订单能否不再履行【007】"
-},
-{
-"id": "bfb5c494d4b6c84f50d8f55db7fa9886a341ec59",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "回款慢到不敢补货？一批亚马逊卖家已经\"卖完就提\"了",
-"url": "https://www.cifnews.com/article/188385",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T00:41:10.720708Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "回款慢到不敢补货？一批亚马逊卖家已经\"卖完就提\"了"
-},
-{
-"id": "1357395f48462ea8471267eb2c1746702417e934",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "昆明前7月跨境电商出口货值同比增长1.5倍",
-"url": "https://www.amz123.com/kx/EOTVyZYy",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T02:15:48.405946Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "昆明前7月跨境电商出口货值同比增长1.5倍"
-},
-{
-"id": "09c653a0ab98cc3f71fc4897724792967a3912f4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "59%珠宝消费者无官网即放弃购买，品牌独立站成为高客单品类信任关键",
-"url": "https://www.amz123.com/kx/MGyPs5Ak",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T00:41:10.720708Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"独立站"
-],
-"cross_platforms": [
-"独立站"
-],
-"cross_sites": [],
-"title_zh": "59%珠宝消费者无官网即放弃购买，品牌独立站成为高客单品类信任关键"
-},
-{
-"id": "862ecc2f7f79c48bfc2e9cff7ab0afd00312d865",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "巴西跨境购物或迎巨变！卢拉力推废除“小衬衫税“",
-"url": "https://www.amz123.com/kx/lanrLQAv",
-"published_at": null,
-"first_seen_at": "2026-08-21T00:41:10.720708Z",
-"last_seen_at": "2026-08-21T02:15:48.405946Z",
-"cross_is_related": true,
-"cross_score": 0.69,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
