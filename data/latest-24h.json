@@ -1,48 +1,259 @@
 {
-"generated_at": "2026-08-24T00:40:59.468673Z",
+"generated_at": "2026-08-24T02:14:59.787615Z",
 "window_hours": 24,
-"total_items": 9,
-"total_items_cross_raw": 21,
-"total_items_raw": 35,
-"total_items_all_mode": 35,
+"total_items": 12,
+"total_items_cross_raw": 35,
+"total_items_raw": 61,
+"total_items_all_mode": 61,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2021,
+"archive_total": 2080,
 "site_count": 16,
-"source_count": 3,
+"source_count": 4,
 "site_stats": [
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 8,
-"raw_count": 30
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 5,
+"raw_count": 20
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
+"count": 4,
+"raw_count": 13
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
+"raw_count": 20
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
 "count": 1,
-"raw_count": 3
+"raw_count": 7
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 2
+"raw_count": 1
 }
 ],
 "items": [
 {
-"id": "93e660c37034921474b514d1ae8e594184a64647",
+"id": "44162d5c0a04b42c450aedfaf81008e83a22f914",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "五大平台费率对比：亚马逊荷兰站佣金率接近20%",
-"url": "https://www.amz123.com/kx/0pMn9b8y",
+"title": "大批亚马逊卖家集中出售店铺，行业迎来结构性调整",
+"url": "https://www.amz123.com/kx/PRjattOF",
 "published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
 "cross_is_related": true,
 "cross_score": 0.97,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "大批亚马逊卖家集中出售店铺，行业迎来结构性调整"
+},
+{
+"id": "b8aab49b592ceb61da4bf0348f5270d9d1f1dd28",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "一台中国血糖仪的跨境长跑：8年做到亚马逊年销近2亿，英国站冲到品类第一",
+"url": "https://www.cifnews.com/article/188435",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"跨境"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "一台中国血糖仪的跨境长跑：8年做到亚马逊年销近2亿，英国站冲到品类第一"
+},
+{
+"id": "2fea0db883cd41bd4ed68e9d1c75ed128e45333d",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大...南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大...",
+"url": "https://www.amzdh.com/kjtt/10340.html",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"库存",
+"电商",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大...南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大..."
+},
+{
+"id": "6c27a1a6354d186137a95b0418cdc68b535b7b63",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "AI搜索订单增长13倍，跨境卖家如何抓住新流量？",
+"url": "https://www.cifnews.com/article/188440",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"流量"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AI搜索订单增长13倍，跨境卖家如何抓住新流量？"
+},
+{
+"id": "f2a0e039b7b90eb1220c7f5c6fabcbc9df842932",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品...8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品...",
+"url": "https://www.amzdh.com/kjtt/10336.html",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"进口电商",
+"电商",
+"商务部"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品...8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品..."
+},
+{
+"id": "5dd7a486e9cf0ae788ae152b79f0aed566259a61",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "99.8%瑞士商品将零关税入华！跨境电商的\"瑞士风口\"来了",
+"url": "https://www.amzdh.com/kjtt/10336.html",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"关税",
+"跨境",
+"跨境电商",
+"电商",
+"关税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "99.8%瑞士商品将零关税入华！跨境电商的\"瑞士风口\"来了"
+},
+{
+"id": "1a160f4ba1997d860625eb54974f3b8354526677",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "5年禁退+全额追缴！跨境货税款不匹配已成致命雷区",
+"url": "https://www.cifnews.com/article/188433",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "5年禁退+全额追缴！跨境货税款不匹配已成致命雷区"
+},
+{
+"id": "1c588d433e5c4222e9b691d491b972e094f9e8e9",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "沃尔玛Q2电商占美国整体业务23%，关税退款推动毛利率提升",
+"url": "https://www.amzdh.com/kjtt/10337.html",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"关税",
+"沃尔玛",
+"电商",
+"退款",
+"关税"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "沃尔玛Q2电商占美国整体业务23%，关税退款推动毛利率提升"
+},
+{
+"id": "2142edc714217f60ae18196fcf407712a9503316",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "又有10款亚马逊热销品下证美国外观专利",
+"url": "https://www.cifnews.com/article/188429",
+"published_at": null,
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"cross_is_related": true,
+"cross_score": 0.61,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -51,203 +262,81 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
-"title_zh": "五大平台费率对比：亚马逊荷兰站佣金率接近20%"
+"cross_sites": [
+"us"
+],
+"title_zh": "又有10款亚马逊热销品下证美国外观专利"
 },
 {
-"id": "90b884cc68bcc01b1c8489f0427692a37091642d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一个亚马逊窗帘卖家的自述：我是如何做出高客单价的|“新”卖家故事⑫",
-"url": "https://www.cifnews.com/article/188418",
+"id": "62179c6d26627951ed201d927ef28b7d96b8723e",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消...俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消...",
+"url": "https://www.amzdh.com/kjtt/10332.html",
 "published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
 "cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "一个亚马逊窗帘卖家的自述：我是如何做出高客单价的|“新”卖家故事⑫"
-},
-{
-"id": "d20b789a466984cf2ba57067d2bad8a365c053cc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊加码拉美市场，Prime Video未来四年投资超20亿美元",
-"url": "https://www.amz123.com/kx/Mq7uCyk7",
-"published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"prime",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊加码拉美市场，Prime Video未来四年投资超20亿美元"
-},
-{
-"id": "b3282b12bd0c37d3ae84bf70d4d794dc0be0ed6f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美加贸易谈判破裂，50%关税8月22日生效，跨境北美供应链成本承压",
-"url": "https://www.amz123.com/kx/Xkvwvf6u",
-"published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
-"cross_is_related": true,
-"cross_score": 0.77,
+"cross_score": 0.6,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"关税",
-"跨境",
-"供应链",
-"关税"
+"卖家",
+"卖家",
+"电商",
+"政策"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "美加贸易谈判破裂，50%关税8月22日生效，跨境北美供应链成本承压"
+"title_zh": "俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消...俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消..."
 },
 {
-"id": "6c285a72b8f3cbd71228cda0de07e626ab0137f0",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Yandex开放无网站卖家接单通道，无需独立站即可销售商品",
-"url": "https://www.amz123.com/kx/qNxK66ZD",
-"published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
+"id": "e272c564040473ca85fd9b2f39a83a420b9f6ffa",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Shopify Managed Markets拓展至加拿大",
+"url": "https://www.ennews.com/news-142520.html",
+"published_at": "2026-08-24T00:00:00Z",
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
 "cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
+"cross_score": 0.6,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"卖家",
-"独立站",
-"卖家"
+"shopify"
 ],
 "cross_platforms": [
-"独立站"
+"shopify"
 ],
 "cross_sites": [],
-"title_zh": "Yandex开放无网站卖家接单通道，无需独立站即可销售商品"
+"title_zh": "Shopify Managed Markets拓展至加拿大"
 },
 {
-"id": "fcb54ddc19df03ea1b8646d400e53c3f76401ad9",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "NATCAR加入Ozon电子货运单项目，俄罗斯电商物流加快无纸化进程",
-"url": "https://www.amz123.com/kx/KRmsFIXN",
-"published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
+"id": "7ba821d34cf1b287c70bb6038cab914ab325328c",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon萨马拉州物流中心遭无人机袭击，超500名员工疏散",
+"url": "https://www.ennews.com/news-142518.html",
+"published_at": "2026-08-24T00:00:00Z",
+"first_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-24T02:14:59.787615Z",
 "cross_is_related": true,
-"cross_score": 0.66,
+"cross_score": 0.6,
 "cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "ozon",
-"电商",
-"物流",
-"货运"
+"物流"
 ],
 "cross_platforms": [
 "ozon"
 ],
 "cross_sites": [],
-"title_zh": "NATCAR加入Ozon电子货运单项目，俄罗斯电商物流加快无纸化进程"
-},
-{
-"id": "e35143b7957ff4d420e8b8aa700128d503d4454b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "关税退款提振税前收益，Target复苏进一步加速",
-"url": "https://www.amz123.com/kx/UgOGXGRp",
-"published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"关税",
-"退款",
-"关税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "关税退款提振税前收益，Target复苏进一步加速"
-},
-{
-"id": "9d4f579e6ba4652819f73e6e55ea0ddc74b63485",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop马来西亚年内投入2.5亿林吉特扶持本土卖家",
-"url": "https://www.amz123.com/kx/NLjNdw7T",
-"published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop马来西亚年内投入2.5亿林吉特扶持本土卖家"
-},
-{
-"id": "e01f65b0ca1d9539e8f7e563e57909ad34f91687",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧洲锂电池TIC认证进入倒计时，9月30日后不合规产品或将面临下架",
-"url": "https://www.amz123.com/kx/8Q51syU8",
-"published_at": null,
-"first_seen_at": "2026-08-23T00:40:59.475343Z",
-"last_seen_at": "2026-08-24T00:40:59.468673Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "欧洲锂电池TIC认证进入倒计时，9月30日后不合规产品或将面临下架"
+"title_zh": "Ozon萨马拉州物流中心遭无人机袭击，超500名员工疏散"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
