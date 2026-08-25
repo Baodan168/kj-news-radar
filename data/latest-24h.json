@@ -1,16 +1,28 @@
 {
-"generated_at": "2026-08-24T02:14:59.787615Z",
+"generated_at": "2026-08-25T00:40:59.675090Z",
 "window_hours": 24,
-"total_items": 12,
-"total_items_cross_raw": 35,
-"total_items_raw": 61,
-"total_items_all_mode": 61,
+"total_items": 24,
+"total_items_cross_raw": 56,
+"total_items_raw": 101,
+"total_items_all_mode": 101,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2080,
+"archive_total": 2152,
 "site_count": 16,
-"source_count": 4,
+"source_count": 6,
 "site_stats": [
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 30
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 44
+},
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -18,22 +30,16 @@
 "raw_count": 20
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 4,
-"raw_count": 13
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
+"site_id": "channelx",
+"site_name": "ChannelX",
 "count": 2,
-"raw_count": 20
+"raw_count": 5
 },
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
 "count": 1,
-"raw_count": 7
+"raw_count": 1
 },
 {
 "site_id": "tophub",
@@ -43,6 +49,381 @@
 }
 ],
 "items": [
+{
+"id": "5148638293cb2b169ae05de905ade928561c3c4e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "大调整！亚马逊悄然限制评论，大量卖家无故躺枪",
+"url": "https://www.cifnews.com/article/188441",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "大调整！亚马逊悄然限制评论，大量卖家无故躺枪"
+},
+{
+"id": "77b3db0b3b2a0585969d0906c0d9229f68c263f9",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊香港公司卖家大规模触发实体经营地址验证",
+"url": "https://www.amz123.com/kx/HXj7NHCZ",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊香港公司卖家大规模触发实体经营地址验证"
+},
+{
+"id": "7aa24b0f1ad43fff25d3742768bf398fa0ce8656",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "2027日本跨境电商四大趋势曝光，本土闭环与合规体系成为入场关键",
+"url": "https://www.amz123.com/kx/5fU80JfT",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [
+"jp"
+],
+"title_zh": "2027日本跨境电商四大趋势曝光，本土闭环与合规体系成为入场关键"
+},
+{
+"id": "a54fa20060049eeb59653dd3a0a73a01000d352c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Temu、AliExpress、Shein占据以色列75%线上订单 亚马逊市占率降至6%",
+"url": "https://www.amz123.com/kx/QVsdoQNj",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"aliexpress",
+"shein",
+"temu",
+"亚马逊"
+],
+"cross_platforms": [
+"temu",
+"shein",
+"aliexpress",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "Temu、AliExpress、Shein占据以色列75%线上订单 亚马逊市占率降至6%"
+},
+{
+"id": "72e8ab396bda9940337d4c23e7ccd6ab07dde397",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "CHWE出海网全球跨境电商展推出限时福利",
+"url": "https://www.amz123.com/kx/PVo8G7Kz",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "CHWE出海网全球跨境电商展推出限时福利"
+},
+{
+"id": "ff5530817493f33bb7d7982584536ab8fbe36759",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "用第三方收款直接回国=合法免税？揭秘美国跨境电商利润回国的合规之路",
+"url": "https://www.cifnews.com/article/188449",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "用第三方收款直接回国=合法免税？揭秘美国跨境电商利润回国的合规之路"
+},
+{
+"id": "05586854c59be92a1371a3dc0029540231c7dc5c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊广告越烧越多，新品却推不起来？你可能陷入了这个误区",
+"url": "https://www.cifnews.com/article/188443",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊广告越烧越多，新品却推不起来？你可能陷入了这个误区"
+},
+{
+"id": "3dfe1d6eb416ebf5a807b0249e1f62f0083ad948",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "欧盟PPWR生效，eBay要求卖家提交EPR包装法！",
+"url": "https://www.cifnews.com/article/188453",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ebay",
+"epr",
+"ppwr",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"ebay"
+],
+"cross_sites": [],
+"title_zh": "欧盟PPWR生效，eBay要求卖家提交EPR包装法！"
+},
+{
+"id": "964cdf81dfbbab3e6b156f2da02d94c42efacd10",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "从0到亿：福建卖家在日本乐天市场的逆袭攻略",
+"url": "https://www.cifnews.com/article/188457",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"乐天"
+],
+"cross_sites": [
+"jp"
+],
+"title_zh": "从0到亿：福建卖家在日本乐天市场的逆袭攻略"
+},
+{
+"id": "75ed32940cace05ec9733e4324a5b28ca05cccad",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "宝洁两年在俄发起288起商标诉讼，Wildberries和Ozon假货卖家面临处罚",
+"url": "https://www.amz123.com/kx/WMPDS4Mw",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"wildberries",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"wildberries",
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "宝洁两年在俄发起288起商标诉讼，Wildberries和Ozon假货卖家面临处罚"
+},
+{
+"id": "f024ebacfae278e8167134443c7563ea280ff0a2",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄边境投资170亿卢布建设超级跨境物流中心",
+"url": "https://www.amz123.com/kx/RY9itNQP",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境物流",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄边境投资170亿卢布建设超级跨境物流中心"
+},
+{
+"id": "d60049c038ad42ee62aff315be3a28454b8e28c5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "eBay欧洲加速计划上线，助力英国卖家一键拓展德法意西市场",
+"url": "https://www.amz123.com/kx/9giSR3gt",
+"published_at": null,
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ebay",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"ebay"
+],
+"cross_sites": [
+"uk",
+"eu"
+],
+"title_zh": "eBay欧洲加速计划上线，助力英国卖家一键拓展德法意西市场"
+},
+{
+"id": "9f54174f28b97c4ad50144231b70bc2ff40c6fc7",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "International eCommerce 2027 – Tell us what you’d like to learn!",
+"url": "https://channelx.world/2026/08/international-ecommerce-2027-tell-us-what-youd-like-to-learn",
+"published_at": "2026-08-24T16:41:08Z",
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"ecommerce"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "国际电子商务2027 –告诉我们您想学习什么！"
+},
+{
+"id": "9a3b27097b20e2650f70a80bf45f387a4f722661",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon hourly employees became satellite technicians—then watched their work launch into space",
+"url": "https://www.aboutamazon.com/news/amazon-leo/amazon-career-choice-satellite-technicians-space-launch",
+"published_at": "2026-08-24T14:00:25Z",
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊按小时计费的员工成为卫星技术人员，然后观看他们的工作进入太空"
+},
+{
+"id": "68889d7ef30c8142c94c1bb29971ef55f8af1e96",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon and Levi Roots bring Caribbean flavour to the August Bank Holiday",
+"url": "https://channelx.world/2026/08/amazon-and-levi-roots-bring-caribbean-flavour-to-the-august-bank-holiday",
+"published_at": "2026-08-24T07:13:00Z",
+"first_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊和Levi Roots为8月银行假期带来加勒比风味"
+},
 {
 "id": "44162d5c0a04b42c450aedfaf81008e83a22f914",
 "site_id": "amz123",
@@ -104,7 +485,7 @@
 "url": "https://www.amzdh.com/kjtt/10340.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "policy_update",
@@ -129,7 +510,7 @@
 "url": "https://www.cifnews.com/article/188440",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "platform_trend",
@@ -153,7 +534,7 @@
 "url": "https://www.amzdh.com/kjtt/10336.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -178,7 +559,7 @@
 "url": "https://www.amzdh.com/kjtt/10336.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "policy_update",
@@ -224,7 +605,7 @@
 "url": "https://www.amzdh.com/kjtt/10337.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "policy_update",
@@ -243,31 +624,6 @@
 "title_zh": "沃尔玛Q2电商占美国整体业务23%，关税退款推动毛利率提升"
 },
 {
-"id": "2142edc714217f60ae18196fcf407712a9503316",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "又有10款亚马逊热销品下证美国外观专利",
-"url": "https://www.cifnews.com/article/188429",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "又有10款亚马逊热销品下证美国外观专利"
-},
-{
 "id": "62179c6d26627951ed201d927ef28b7d96b8723e",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -276,7 +632,7 @@
 "url": "https://www.amzdh.com/kjtt/10332.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-25T00:40:59.675090Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -290,53 +646,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消...俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消..."
-},
-{
-"id": "e272c564040473ca85fd9b2f39a83a420b9f6ffa",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Shopify Managed Markets拓展至加拿大",
-"url": "https://www.ennews.com/news-142520.html",
-"published_at": "2026-08-24T00:00:00Z",
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopify"
-],
-"cross_platforms": [
-"shopify"
-],
-"cross_sites": [],
-"title_zh": "Shopify Managed Markets拓展至加拿大"
-},
-{
-"id": "7ba821d34cf1b287c70bb6038cab914ab325328c",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon萨马拉州物流中心遭无人机袭击，超500名员工疏散",
-"url": "https://www.ennews.com/news-142518.html",
-"published_at": "2026-08-24T00:00:00Z",
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"物流"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon萨马拉州物流中心遭无人机袭击，超500名员工疏散"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
