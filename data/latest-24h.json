@@ -1,32 +1,38 @@
 {
-"generated_at": "2026-08-25T00:40:59.675090Z",
+"generated_at": "2026-08-25T02:10:39.336475Z",
 "window_hours": 24,
-"total_items": 24,
-"total_items_cross_raw": 56,
-"total_items_raw": 101,
-"total_items_all_mode": 101,
+"total_items": 29,
+"total_items_cross_raw": 71,
+"total_items_raw": 132,
+"total_items_all_mode": 132,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2152,
+"archive_total": 2114,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
 {
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 8,
+"raw_count": 26
+},
+{
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 30
+"raw_count": 32
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 44
+"raw_count": 47
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 5,
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
 "raw_count": 20
 },
 {
@@ -50,6 +56,116 @@
 ],
 "items": [
 {
+"id": "cc3bef0ba22307de9eb41f5029418c7284211d7f",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围...AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围...",
+"url": "https://www.amzdh.com/kjtt/10342.html",
+"published_at": null,
+"first_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"cross_is_related": true,
+"cross_score": 0.86,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"跨境",
+"卖家",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围...AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围..."
+},
+{
+"id": "6edb404f57eae949d48d064da29dd0ea1412d42f",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "紧急！亚马逊香港卖家大规模触发实体地址审核！",
+"url": "https://www.amzdh.com/kjtt/10342.html",
+"published_at": null,
+"first_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "紧急！亚马逊香港卖家大规模触发实体地址审核！"
+},
+{
+"id": "4ef54a630c140072aa3617bbaf94f403fdd37935",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这...援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这...",
+"url": "https://www.amzdh.com/kjtt/10343.html",
+"published_at": null,
+"first_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"aliexpress",
+"shein",
+"temu",
+"亚马逊"
+],
+"cross_platforms": [
+"temu",
+"亚马逊",
+"aliexpress",
+"shein"
+],
+"cross_sites": [],
+"title_zh": "援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这...援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这..."
+},
+{
+"id": "e56830da4fac1a8b2fff03c1b3851cacd071f490",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "Temu、AliExpress、Shein占据以色列75%线上订单，亚马逊仅占6%",
+"url": "https://www.amzdh.com/kjtt/10343.html",
+"published_at": null,
+"first_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"aliexpress",
+"shein",
+"temu",
+"亚马逊"
+],
+"cross_platforms": [
+"temu",
+"亚马逊",
+"aliexpress",
+"shein"
+],
+"cross_sites": [],
+"title_zh": "Temu、AliExpress、Shein占据以色列75%线上订单，亚马逊仅占6%"
+},
+{
 "id": "5148638293cb2b169ae05de905ade928561c3c4e",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -58,7 +174,7 @@
 "url": "https://www.cifnews.com/article/188441",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "seller_action",
@@ -83,7 +199,7 @@
 "url": "https://www.amz123.com/kx/HXj7NHCZ",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "seller_action",
@@ -108,7 +224,7 @@
 "url": "https://www.amz123.com/kx/5fU80JfT",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "policy_update",
@@ -134,7 +250,7 @@
 "url": "https://www.amz123.com/kx/QVsdoQNj",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "temu",
@@ -147,9 +263,9 @@
 ],
 "cross_platforms": [
 "temu",
-"shein",
+"亚马逊",
 "aliexpress",
-"亚马逊"
+"shein"
 ],
 "cross_sites": [],
 "title_zh": "Temu、AliExpress、Shein占据以色列75%线上订单 亚马逊市占率降至6%"
@@ -163,7 +279,7 @@
 "url": "https://www.amz123.com/kx/PVo8G7Kz",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "seller_action",
@@ -186,7 +302,7 @@
 "url": "https://www.cifnews.com/article/188449",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "policy_update",
@@ -212,7 +328,7 @@
 "url": "https://www.cifnews.com/article/188443",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -235,7 +351,7 @@
 "url": "https://www.cifnews.com/article/188453",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "policy_update",
@@ -262,7 +378,7 @@
 "url": "https://www.cifnews.com/article/188457",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -288,7 +404,7 @@
 "url": "https://www.amz123.com/kx/WMPDS4Mw",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -338,7 +454,7 @@
 "url": "https://www.amz123.com/kx/9giSR3gt",
 "published_at": null,
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -358,6 +474,55 @@
 "title_zh": "eBay欧洲加速计划上线，助力英国卖家一键拓展德法意西市场"
 },
 {
+"id": "3f5618837dcce236c696c1a013639c687bec8f2f",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊投5.3亿美元研发自动化配送站，拟2028年试点",
+"url": "https://www.ennews.com/news-142622.html",
+"published_at": "2026-08-25T00:00:00Z",
+"first_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊投5.3亿美元研发自动化配送站，拟2028年试点"
+},
+{
+"id": "6a80d4dae863642a5b57818a80f3e891985394da",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "中国三大跨境电商占以色列75%线上订单，亚马逊份额仅6%",
+"url": "https://www.ennews.com/news-142613.html",
+"published_at": "2026-08-25T00:00:00Z",
+"first_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "中国三大跨境电商占以色列75%线上订单，亚马逊份额仅6%"
+},
+{
 "id": "9f54174f28b97c4ad50144231b70bc2ff40c6fc7",
 "site_id": "channelx",
 "site_name": "ChannelX",
@@ -366,7 +531,7 @@
 "url": "https://channelx.world/2026/08/international-ecommerce-2027-tell-us-what-youd-like-to-learn",
 "published_at": "2026-08-24T16:41:08Z",
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -387,7 +552,7 @@
 "url": "https://www.aboutamazon.com/news/amazon-leo/amazon-career-choice-satellite-technicians-space-launch",
 "published_at": "2026-08-24T14:00:25Z",
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -410,7 +575,7 @@
 "url": "https://channelx.world/2026/08/amazon-and-levi-roots-bring-caribbean-flavour-to-the-august-bank-holiday",
 "published_at": "2026-08-24T07:13:00Z",
 "first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -433,7 +598,7 @@
 "url": "https://www.amz123.com/kx/PRjattOF",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.97,
 "cross_label": "seller_action",
@@ -485,7 +650,7 @@
 "url": "https://www.amzdh.com/kjtt/10340.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "policy_update",
@@ -534,7 +699,7 @@
 "url": "https://www.amzdh.com/kjtt/10336.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -559,7 +724,7 @@
 "url": "https://www.amzdh.com/kjtt/10336.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "policy_update",
@@ -605,7 +770,7 @@
 "url": "https://www.amzdh.com/kjtt/10337.html",
 "published_at": null,
 "first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
+"last_seen_at": "2026-08-25T02:10:39.336475Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "policy_update",
@@ -622,30 +787,6 @@
 "us"
 ],
 "title_zh": "沃尔玛Q2电商占美国整体业务23%，关税退款推动毛利率提升"
-},
-{
-"id": "62179c6d26627951ed201d927ef28b7d96b8723e",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消...俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消...",
-"url": "https://www.amzdh.com/kjtt/10332.html",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"政策"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消...俄罗斯电商市场的\"三国杀\"格局正在被Yandex Market新一轮费率改革搅动。2026年9月1日起，Yandex Market将正式实施全新卖家收费政策——缩小FBS（自有仓发货）与FBY（平台仓发货）的基础费率差异，同时取消..."
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
