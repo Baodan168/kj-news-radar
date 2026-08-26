@@ -1,33 +1,27 @@
 {
-"generated_at": "2026-08-26T00:40:54.377863Z",
+"generated_at": "2026-08-26T02:16:56.529953Z",
 "window_hours": 24,
-"total_items": 23,
-"total_items_cross_raw": 74,
-"total_items_raw": 128,
-"total_items_all_mode": 128,
+"total_items": 21,
+"total_items_cross_raw": 55,
+"total_items_raw": 101,
+"total_items_all_mode": 101,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2071,
+"archive_total": 2111,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 38
-},
-{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 76
+"raw_count": 46
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 4,
-"raw_count": 6
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 20
 },
 {
 "site_id": "amazon_newsroom",
@@ -36,13 +30,148 @@
 "raw_count": 3
 },
 {
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 2,
+"raw_count": 8
+},
+{
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 5
+"raw_count": 4
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 0,
+"raw_count": 20
 }
 ],
 "items": [
+{
+"id": "8d87c3723fe72604dd7d1bb4ee3049e34233da99",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意...AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意...",
+"url": "https://www.amzdh.com/kjtt/10344.html",
+"published_at": null,
+"first_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.94,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"fbm",
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"fba",
+"fbm",
+"prime",
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意...AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意..."
+},
+{
+"id": "2b8588f860bf0aa2266a0451d3a0f8699eeb2463",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊突发“协议三扫号” 大批店铺冻结资金并启动AI历史追溯审核",
+"url": "https://www.amz123.com/kx/uBrQ5cJL",
+"published_at": null,
+"first_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊突发“协议三扫号” 大批店铺冻结资金并启动AI历史追溯审核"
+},
+{
+"id": "5ab0d86d35d6c07920a48dec7d2406c65bb87290",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "德国站Prime提速新政9月7日生效：1天达占比提升至15%",
+"url": "https://www.amzdh.com/kjtt/10344.html",
+"published_at": null,
+"first_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_platforms": [
+"prime"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "德国站Prime提速新政9月7日生效：1天达占比提升至15%"
+},
+{
+"id": "67b7081189665b7f8f78e184693918b813720433",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "曼萨尼约港保税仓查扣2.2万件中国侵权电子产品",
+"url": "https://www.amz123.com/kx/gewGrjp2",
+"published_at": null,
+"first_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"保税仓"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "曼萨尼约港保税仓查扣2.2万件中国侵权电子产品"
+},
+{
+"id": "7ebf082ef929515fa9531fd9af6cdf86f19f309a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊“小黑拉链夹”月销1.2万单，低价配件冲入BSR前1.2万",
+"url": "https://www.amz123.com/kx/QCRFm54z",
+"published_at": null,
+"first_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊“小黑拉链夹”月销1.2万单，低价配件冲入BSR前1.2万"
+},
 {
 "id": "2526c879ecc86acb4497c9f99eb87ad465d621f6",
 "site_id": "cifnews",
@@ -52,7 +181,7 @@
 "url": "https://www.cifnews.com/article/188477",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.92,
 "cross_label": "policy_update",
@@ -78,7 +207,7 @@
 "url": "https://www.amz123.com/kx/zLNILwQx",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "listing_product",
@@ -104,7 +233,7 @@
 "url": "https://www.cifnews.com/article/188475",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "seller_action",
@@ -127,7 +256,7 @@
 "url": "https://www.amz123.com/kx/ZB1k8awO",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "fee_logistics",
@@ -150,7 +279,7 @@
 "url": "https://www.cifnews.com/article/188483",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -174,7 +303,7 @@
 "url": "https://www.cifnews.com/article/188480",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
@@ -196,7 +325,7 @@
 "url": "https://www.amz123.com/kx/yyPtbkw0",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -234,6 +363,115 @@
 "title_zh": "班贝格高院判亚马逊违DSA：推荐算法不透明、未登录不能关个性化"
 },
 {
+"id": "3f3433abb9241305003387fbb6d09f7b1ad4aa1b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "客单价312美刀！一批卖家在这个“冷门平台”闷声发财",
+"url": "https://www.cifnews.com/article/188468",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "客单价312美刀！一批卖家在这个“冷门平台”闷声发财"
+},
+{
+"id": "a0d2320a0a1545e15edc8455c811ccd8dc392482",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "返校季爆单却拿不到钱！Q4 大促在即，卖家拿什么打赢？",
+"url": "https://www.cifnews.com/article/188484",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "返校季爆单却拿不到钱！Q4 大促在即，卖家拿什么打赢？"
+},
+{
+"id": "56a3cdc98beb2c816f221a5a8077428c015bd5b4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "上周跨境圈发生了哪些大事（08.17-08.23）",
+"url": "https://www.cifnews.com/article/188479",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "上周跨境圈发生了哪些大事（08.17-08.23）"
+},
+{
+"id": "35107280b9084b822f97745cd6832c08d8352146",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "26-cv-06914｜没写SWANGAS也侵权？一长两短辐条造型被注册商业外观，100名卖家中招",
+"url": "https://www.cifnews.com/article/188473",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "26-cv-06914｜没写SWANGAS也侵权？一长两短辐条造型被注册商业外观，100名卖家中招"
+},
+{
+"id": "0d0d6ae1cb77532c3b5e9ddacd1a5d95ef05ab9c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "沃尔玛墨西哥投资40亿比索升级Megapark仓储自动化",
+"url": "https://www.amz123.com/kx/2Phiuq1h",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"沃尔玛",
+"仓储"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "沃尔玛墨西哥投资40亿比索升级Megapark仓储自动化"
+},
+{
 "id": "496eab319520674b8ea5cbeac33062f474231d56",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -242,7 +480,7 @@
 "url": "https://www.aboutamazon.com/news/workplace/amazon-svp-ai-tools-employees-careers",
 "published_at": "2026-08-25T18:31:13Z",
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -265,7 +503,7 @@
 "url": "https://www.aboutamazon.com/stories/how-amazon-grocery-delivery-works",
 "published_at": "2026-08-25T12:55:05Z",
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -288,7 +526,7 @@
 "url": "https://www.aboutamazon.com/news/retail/how-to-buy-a-car-with-amazon-autos",
 "published_at": "2026-08-25T09:24:59Z",
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T02:16:56.529953Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -301,320 +539,6 @@
 ],
 "cross_sites": [],
 "title_zh": "如何通过Amazon Autos购买车辆"
-},
-{
-"id": "cc3bef0ba22307de9eb41f5029418c7284211d7f",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围...AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围...",
-"url": "https://www.amzdh.com/kjtt/10342.html",
-"published_at": null,
-"first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"跨境",
-"卖家",
-"店铺"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围...AMZDH获悉，最近不少做亚马逊的跨境卖家遇到麻烦： 大批香港公司注册的亚马逊店铺，被平台强制触发「实体经营地址」验证。平台现在要求卖家提交能证明实际经营地址的凭证，像水电费、宽带费、电话费账单都在要求范围..."
-},
-{
-"id": "6edb404f57eae949d48d064da29dd0ea1412d42f",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "紧急！亚马逊香港卖家大规模触发实体地址审核！",
-"url": "https://www.amzdh.com/kjtt/10342.html",
-"published_at": null,
-"first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "紧急！亚马逊香港卖家大规模触发实体地址审核！"
-},
-{
-"id": "4ef54a630c140072aa3617bbaf94f403fdd37935",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这...援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这...",
-"url": "https://www.amzdh.com/kjtt/10343.html",
-"published_at": null,
-"first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"aliexpress",
-"shein",
-"temu",
-"亚马逊"
-],
-"cross_platforms": [
-"shein",
-"aliexpress",
-"亚马逊",
-"temu"
-],
-"cross_sites": [],
-"title_zh": "援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这...援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这..."
-},
-{
-"id": "e56830da4fac1a8b2fff03c1b3851cacd071f490",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Temu、AliExpress、Shein占据以色列75%线上订单，亚马逊仅占6%",
-"url": "https://www.amzdh.com/kjtt/10343.html",
-"published_at": null,
-"first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"aliexpress",
-"shein",
-"temu",
-"亚马逊"
-],
-"cross_platforms": [
-"shein",
-"aliexpress",
-"亚马逊",
-"temu"
-],
-"cross_sites": [],
-"title_zh": "Temu、AliExpress、Shein占据以色列75%线上订单，亚马逊仅占6%"
-},
-{
-"id": "5148638293cb2b169ae05de905ade928561c3c4e",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "大调整！亚马逊悄然限制评论，大量卖家无故躺枪",
-"url": "https://www.cifnews.com/article/188441",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "大调整！亚马逊悄然限制评论，大量卖家无故躺枪"
-},
-{
-"id": "77b3db0b3b2a0585969d0906c0d9229f68c263f9",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊香港公司卖家大规模触发实体经营地址验证",
-"url": "https://www.amz123.com/kx/HXj7NHCZ",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊香港公司卖家大规模触发实体经营地址验证"
-},
-{
-"id": "7aa24b0f1ad43fff25d3742768bf398fa0ce8656",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "2027日本跨境电商四大趋势曝光，本土闭环与合规体系成为入场关键",
-"url": "https://www.amz123.com/kx/5fU80JfT",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [
-"jp"
-],
-"title_zh": "2027日本跨境电商四大趋势曝光，本土闭环与合规体系成为入场关键"
-},
-{
-"id": "a54fa20060049eeb59653dd3a0a73a01000d352c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Temu、AliExpress、Shein占据以色列75%线上订单 亚马逊市占率降至6%",
-"url": "https://www.amz123.com/kx/QVsdoQNj",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"aliexpress",
-"shein",
-"temu",
-"亚马逊"
-],
-"cross_platforms": [
-"shein",
-"aliexpress",
-"亚马逊",
-"temu"
-],
-"cross_sites": [],
-"title_zh": "Temu、AliExpress、Shein占据以色列75%线上订单 亚马逊市占率降至6%"
-},
-{
-"id": "72e8ab396bda9940337d4c23e7ccd6ab07dde397",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "CHWE出海网全球跨境电商展推出限时福利",
-"url": "https://www.amz123.com/kx/PVo8G7Kz",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "CHWE出海网全球跨境电商展推出限时福利"
-},
-{
-"id": "ff5530817493f33bb7d7982584536ab8fbe36759",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "用第三方收款直接回国=合法免税？揭秘美国跨境电商利润回国的合规之路",
-"url": "https://www.cifnews.com/article/188449",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "用第三方收款直接回国=合法免税？揭秘美国跨境电商利润回国的合规之路"
-},
-{
-"id": "05586854c59be92a1371a3dc0029540231c7dc5c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊广告越烧越多，新品却推不起来？你可能陷入了这个误区",
-"url": "https://www.cifnews.com/article/188443",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊广告越烧越多，新品却推不起来？你可能陷入了这个误区"
-},
-{
-"id": "3dfe1d6eb416ebf5a807b0249e1f62f0083ad948",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "欧盟PPWR生效，eBay要求卖家提交EPR包装法！",
-"url": "https://www.cifnews.com/article/188453",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ebay",
-"epr",
-"ppwr",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ebay"
-],
-"cross_sites": [],
-"title_zh": "欧盟PPWR生效，eBay要求卖家提交EPR包装法！"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
