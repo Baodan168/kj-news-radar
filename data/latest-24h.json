@@ -1,60 +1,307 @@
 {
-"generated_at": "2026-08-25T02:10:39.336475Z",
+"generated_at": "2026-08-26T00:40:54.377863Z",
 "window_hours": 24,
-"total_items": 29,
-"total_items_cross_raw": 71,
-"total_items_raw": 132,
-"total_items_all_mode": 132,
+"total_items": 23,
+"total_items_cross_raw": 74,
+"total_items_raw": 128,
+"total_items_all_mode": 128,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2114,
+"archive_total": 2071,
 "site_count": 16,
-"source_count": 6,
+"source_count": 5,
 "site_stats": [
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 8,
-"raw_count": 26
-},
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 32
+"raw_count": 38
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 47
+"raw_count": 76
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 2,
-"raw_count": 20
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 2,
-"raw_count": 5
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 4,
+"raw_count": 6
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
-"count": 1,
-"raw_count": 1
+"count": 3,
+"raw_count": 3
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 1
+"raw_count": 5
 }
 ],
 "items": [
+{
+"id": "2526c879ecc86acb4497c9f99eb87ad465d621f6",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊两大新规落地！退货可直接打分、BSA协议收紧，卖家务必重视",
+"url": "https://www.cifnews.com/article/188477",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊两大新规落地！退货可直接打分、BSA协议收紧，卖家务必重视"
+},
+{
+"id": "8c399e195cb8990f833bb666d3053c303f299ed3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊测试退货流程嵌入评分机制，卖家担忧差评集中爆发",
+"url": "https://www.amz123.com/kx/zLNILwQx",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊测试退货流程嵌入评分机制，卖家担忧差评集中爆发"
+},
+{
+"id": "dd131b38b621a77248ca707fbff3ef60c011a273",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "紧急！亚马逊BSA今日生效：严禁私下转店、回款质押，违规或直接冻结资金（推荐）",
+"url": "https://www.cifnews.com/article/188475",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "紧急！亚马逊BSA今日生效：严禁私下转店、回款质押，违规或直接冻结资金（推荐）"
+},
+{
+"id": "9184ff50def3e0429c83b74073828ee0f06d874f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊Project Tetromino拟5.3亿美元造全自动配送站",
+"url": "https://www.amz123.com/kx/ZB1k8awO",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊Project Tetromino拟5.3亿美元造全自动配送站"
+},
+{
+"id": "3a5c3c807f7243f8fff5fcd7f858bfbf9494ee1b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "骗税2961万罚9000万！深圳4家外贸企业翻车，跨境卖家别踩同一条红线",
+"url": "https://www.cifnews.com/article/188483",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"外贸",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "骗税2961万罚9000万！深圳4家外贸企业翻车，跨境卖家别踩同一条红线"
+},
+{
+"id": "6378350bff5850f491e648d96db16124938b0b4b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "雨果跨境联合主办Google Cloud广州首发盛典，AI赋能电商出海新征程",
+"url": "https://www.cifnews.com/article/188480",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "雨果跨境联合主办Google Cloud广州首发盛典，AI赋能电商出海新征程"
+},
+{
+"id": "53b9ed553b1e08af176afbc004c676a30aec161c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "内存荒逼亚马逊硬件全线提价 Echo Dot一夜涨60%至79.99美元",
+"url": "https://www.amz123.com/kx/yyPtbkw0",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "内存荒逼亚马逊硬件全线提价 Echo Dot一夜涨60%至79.99美元"
+},
+{
+"id": "878a5c686dcc3f7450f5e568cf5dd8e4fe6b004a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "班贝格高院判亚马逊违DSA：推荐算法不透明、未登录不能关个性化",
+"url": "https://www.amz123.com/kx/Fs4vaviE",
+"published_at": null,
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "班贝格高院判亚马逊违DSA：推荐算法不透明、未登录不能关个性化"
+},
+{
+"id": "496eab319520674b8ea5cbeac33062f474231d56",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "I'm an Amazon SVP who hadn't coded in 25 years. Then I wrote 100,000 lines of code with AI.",
+"url": "https://www.aboutamazon.com/news/workplace/amazon-svp-ai-tools-employees-careers",
+"published_at": "2026-08-25T18:31:13Z",
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "我是一名亚马逊高级副总裁，已经25年没有编码了。然后我用AI写了10万行代码。"
+},
+{
+"id": "4f34ab0a830880519c20d98ac9b200705edf8c92",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Inside the grocery operation Amazon built to be pickier than you",
+"url": "https://www.aboutamazon.com/stories/how-amazon-grocery-delivery-works",
+"published_at": "2026-08-25T12:55:05Z",
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊为比您更挑剔而打造的杂货店内部"
+},
+{
+"id": "d6c3226f9f0bf51a7c27ef96ecbc8526f7b01aff",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "How to buy a car with Amazon Autos",
+"url": "https://www.aboutamazon.com/news/retail/how-to-buy-a-car-with-amazon-autos",
+"published_at": "2026-08-25T09:24:59Z",
+"first_seen_at": "2026-08-26T00:40:54.377863Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "如何通过Amazon Autos购买车辆"
+},
 {
 "id": "cc3bef0ba22307de9eb41f5029418c7284211d7f",
 "site_id": "amzdh",
@@ -64,7 +311,7 @@
 "url": "https://www.amzdh.com/kjtt/10342.html",
 "published_at": null,
 "first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
 "cross_is_related": true,
 "cross_score": 0.86,
 "cross_label": "compliance_deadline",
@@ -91,7 +338,7 @@
 "url": "https://www.amzdh.com/kjtt/10342.html",
 "published_at": null,
 "first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "seller_action",
@@ -116,7 +363,7 @@
 "url": "https://www.amzdh.com/kjtt/10343.html",
 "published_at": null,
 "first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "platform_trend",
@@ -128,10 +375,10 @@
 "亚马逊"
 ],
 "cross_platforms": [
-"temu",
-"亚马逊",
+"shein",
 "aliexpress",
-"shein"
+"亚马逊",
+"temu"
 ],
 "cross_sites": [],
 "title_zh": "援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这...援引Shop Analytics数据：2026年6月，AliExpress、Temu、Shein三大中国平台合计占据以色列消费者线上订单约75%，亚马逊同期市占率仅6%。一个全球巨无霸，在一个人口不足千万的市场里被打得几乎无声——背后是以色列这..."
@@ -145,7 +392,7 @@
 "url": "https://www.amzdh.com/kjtt/10343.html",
 "published_at": null,
 "first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
+"last_seen_at": "2026-08-26T00:40:54.377863Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "temu",
@@ -157,10 +404,10 @@
 "亚马逊"
 ],
 "cross_platforms": [
-"temu",
-"亚马逊",
+"shein",
 "aliexpress",
-"shein"
+"亚马逊",
+"temu"
 ],
 "cross_sites": [],
 "title_zh": "Temu、AliExpress、Shein占据以色列75%线上订单，亚马逊仅占6%"
@@ -262,10 +509,10 @@
 "亚马逊"
 ],
 "cross_platforms": [
-"temu",
-"亚马逊",
+"shein",
 "aliexpress",
-"shein"
+"亚马逊",
+"temu"
 ],
 "cross_sites": [],
 "title_zh": "Temu、AliExpress、Shein占据以色列75%线上订单 亚马逊市占率降至6%"
@@ -368,425 +615,6 @@
 ],
 "cross_sites": [],
 "title_zh": "欧盟PPWR生效，eBay要求卖家提交EPR包装法！"
-},
-{
-"id": "964cdf81dfbbab3e6b156f2da02d94c42efacd10",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "从0到亿：福建卖家在日本乐天市场的逆袭攻略",
-"url": "https://www.cifnews.com/article/188457",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"乐天"
-],
-"cross_sites": [
-"jp"
-],
-"title_zh": "从0到亿：福建卖家在日本乐天市场的逆袭攻略"
-},
-{
-"id": "75ed32940cace05ec9733e4324a5b28ca05cccad",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "宝洁两年在俄发起288起商标诉讼，Wildberries和Ozon假货卖家面临处罚",
-"url": "https://www.amz123.com/kx/WMPDS4Mw",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"wildberries",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"wildberries",
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "宝洁两年在俄发起288起商标诉讼，Wildberries和Ozon假货卖家面临处罚"
-},
-{
-"id": "f024ebacfae278e8167134443c7563ea280ff0a2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄边境投资170亿卢布建设超级跨境物流中心",
-"url": "https://www.amz123.com/kx/RY9itNQP",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境物流",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄边境投资170亿卢布建设超级跨境物流中心"
-},
-{
-"id": "d60049c038ad42ee62aff315be3a28454b8e28c5",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "eBay欧洲加速计划上线，助力英国卖家一键拓展德法意西市场",
-"url": "https://www.amz123.com/kx/9giSR3gt",
-"published_at": null,
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ebay",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ebay"
-],
-"cross_sites": [
-"uk",
-"eu"
-],
-"title_zh": "eBay欧洲加速计划上线，助力英国卖家一键拓展德法意西市场"
-},
-{
-"id": "3f5618837dcce236c696c1a013639c687bec8f2f",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊投5.3亿美元研发自动化配送站，拟2028年试点",
-"url": "https://www.ennews.com/news-142622.html",
-"published_at": "2026-08-25T00:00:00Z",
-"first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊投5.3亿美元研发自动化配送站，拟2028年试点"
-},
-{
-"id": "6a80d4dae863642a5b57818a80f3e891985394da",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "中国三大跨境电商占以色列75%线上订单，亚马逊份额仅6%",
-"url": "https://www.ennews.com/news-142613.html",
-"published_at": "2026-08-25T00:00:00Z",
-"first_seen_at": "2026-08-25T02:10:39.336475Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "中国三大跨境电商占以色列75%线上订单，亚马逊份额仅6%"
-},
-{
-"id": "9f54174f28b97c4ad50144231b70bc2ff40c6fc7",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "International eCommerce 2027 – Tell us what you’d like to learn!",
-"url": "https://channelx.world/2026/08/international-ecommerce-2027-tell-us-what-youd-like-to-learn",
-"published_at": "2026-08-24T16:41:08Z",
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"ecommerce"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "国际电子商务2027 –告诉我们您想学习什么！"
-},
-{
-"id": "9a3b27097b20e2650f70a80bf45f387a4f722661",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon hourly employees became satellite technicians—then watched their work launch into space",
-"url": "https://www.aboutamazon.com/news/amazon-leo/amazon-career-choice-satellite-technicians-space-launch",
-"published_at": "2026-08-24T14:00:25Z",
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊按小时计费的员工成为卫星技术人员，然后观看他们的工作进入太空"
-},
-{
-"id": "68889d7ef30c8142c94c1bb29971ef55f8af1e96",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon and Levi Roots bring Caribbean flavour to the August Bank Holiday",
-"url": "https://channelx.world/2026/08/amazon-and-levi-roots-bring-caribbean-flavour-to-the-august-bank-holiday",
-"published_at": "2026-08-24T07:13:00Z",
-"first_seen_at": "2026-08-25T00:40:59.675090Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊和Levi Roots为8月银行假期带来加勒比风味"
-},
-{
-"id": "44162d5c0a04b42c450aedfaf81008e83a22f914",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "大批亚马逊卖家集中出售店铺，行业迎来结构性调整",
-"url": "https://www.amz123.com/kx/PRjattOF",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.97,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"店铺"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "大批亚马逊卖家集中出售店铺，行业迎来结构性调整"
-},
-{
-"id": "b8aab49b592ceb61da4bf0348f5270d9d1f1dd28",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一台中国血糖仪的跨境长跑：8年做到亚马逊年销近2亿，英国站冲到品类第一",
-"url": "https://www.cifnews.com/article/188435",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"跨境"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "一台中国血糖仪的跨境长跑：8年做到亚马逊年销近2亿，英国站冲到品类第一"
-},
-{
-"id": "2fea0db883cd41bd4ed68e9d1c75ed128e45333d",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大...南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大...",
-"url": "https://www.amzdh.com/kjtt/10340.html",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"库存",
-"电商",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大...南非电商巨头Takealot近期有4项重要更新，覆盖入驻、品牌、合规、后台体验全链路。对于正在观望或已经入局的中国卖家来说，每一个变动背后都是实打实的运营信号。AMZDH带你逐条拆解。📦 变动一：直邮初始库存门槛大..."
-},
-{
-"id": "6c27a1a6354d186137a95b0418cdc68b535b7b63",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "AI搜索订单增长13倍，跨境卖家如何抓住新流量？",
-"url": "https://www.cifnews.com/article/188440",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T00:40:59.675090Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家",
-"流量"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "AI搜索订单增长13倍，跨境卖家如何抓住新流量？"
-},
-{
-"id": "f2a0e039b7b90eb1220c7f5c6fabcbc9df842932",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品...8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品...",
-"url": "https://www.amzdh.com/kjtt/10336.html",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"进口电商",
-"电商",
-"商务部"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品...8月20日，伯尔尼传来一则让跨境电商圈振奋的消息——瑞士联邦主席兼经济、教研部长帕姆兰与中国商务部部长王文涛共同宣布，《中国—瑞士自由贸易协定》升级谈判完成，并签署谅解备忘录。对于做进口电商、尤其是瑞士品..."
-},
-{
-"id": "5dd7a486e9cf0ae788ae152b79f0aed566259a61",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "99.8%瑞士商品将零关税入华！跨境电商的\"瑞士风口\"来了",
-"url": "https://www.amzdh.com/kjtt/10336.html",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"关税",
-"跨境",
-"跨境电商",
-"电商",
-"关税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "99.8%瑞士商品将零关税入华！跨境电商的\"瑞士风口\"来了"
-},
-{
-"id": "1a160f4ba1997d860625eb54974f3b8354526677",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "5年禁退+全额追缴！跨境货税款不匹配已成致命雷区",
-"url": "https://www.cifnews.com/article/188433",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-24T02:14:59.787615Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "5年禁退+全额追缴！跨境货税款不匹配已成致命雷区"
-},
-{
-"id": "1c588d433e5c4222e9b691d491b972e094f9e8e9",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "沃尔玛Q2电商占美国整体业务23%，关税退款推动毛利率提升",
-"url": "https://www.amzdh.com/kjtt/10337.html",
-"published_at": null,
-"first_seen_at": "2026-08-24T02:14:59.787615Z",
-"last_seen_at": "2026-08-25T02:10:39.336475Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"关税",
-"沃尔玛",
-"电商",
-"退款",
-"关税"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "沃尔玛Q2电商占美国整体业务23%，关税退款推动毛利率提升"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
