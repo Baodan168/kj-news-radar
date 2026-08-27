@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-08-27T00:40:27.090663Z",
+"generated_at": "2026-08-27T10:42:59.335512Z",
 "window_hours": 24,
-"total_items": 18,
-"total_items_cross_raw": 91,
-"total_items_raw": 143,
-"total_items_all_mode": 143,
+"total_items": 22,
+"total_items_cross_raw": 83,
+"total_items_raw": 147,
+"total_items_all_mode": 147,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2167,
+"archive_total": 2142,
 "site_count": 16,
 "source_count": 7,
 "site_stats": [
@@ -15,25 +15,25 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 80
+"raw_count": 70
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 40
+"raw_count": 37
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
-"count": 2,
-"raw_count": 9
+"count": 3,
+"raw_count": 7
 },
 {
-"site_id": "tophub",
-"site_name": "TopHub",
-"count": 0,
-"raw_count": 6
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 3,
+"raw_count": 23
 },
 {
 "site_id": "sp_api",
@@ -48,13 +48,298 @@
 "raw_count": 3
 },
 {
+"site_id": "tophub",
+"site_name": "TopHub",
+"count": 0,
+"raw_count": 4
+},
+{
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 0,
-"raw_count": 4
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "b28ea5457caac4505ab4ca1295f5fd5673263b79",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊投入数亿欧元升级德国莱茵贝格物流中心，库存能力将增至2000万件",
+"url": "https://www.amz123.com/kx/oe7XSbFw",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.97,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊投入数亿欧元升级德国莱茵贝格物流中心，库存能力将增至2000万件"
+},
+{
+"id": "cb9ba1085225afd2bd5f2fbe1c0109015aeeba5b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "TikTok类目第一，亚马逊霸榜，浙江跨境卖家出海有多猛？",
+"url": "https://www.cifnews.com/article/188534",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "TikTok类目第一，亚马逊霸榜，浙江跨境卖家出海有多猛？"
+},
+{
+"id": "a92f202fc9c357426e3e628afd467a5671a5e57f",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊退货流程新增评分入口？卖家评分下滑！",
+"url": "https://www.cifnews.com/article/188541",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊退货流程新增评分入口？卖家评分下滑！"
+},
+{
+"id": "d4c7e444bdc6c5e58d98dddf5b4b73ab6d91e507",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "促销价越做越低？90%的亚马逊卖家价格管理都错了！",
+"url": "https://www.cifnews.com/article/188545",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "促销价越做越低？90%的亚马逊卖家价格管理都错了！"
+},
+{
+"id": "171293f8f72271fc6d3de120853c8e4099d090f8",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊开启扫号风暴！无违规也触发协议三，大批卖家账号遭殃",
+"url": "https://www.cifnews.com/article/188536",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊开启扫号风暴！无违规也触发协议三，大批卖家账号遭殃"
+},
+{
+"id": "472cf1c118287f6082083b581005c37355e21085",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊广告新手投放最容易卡住的几个地方：关键词、搜索词和否定词怎么用",
+"url": "https://www.cifnews.com/article/188544",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊广告新手投放最容易卡住的几个地方：关键词、搜索词和否定词怎么用"
+},
+{
+"id": "56f21f8bfc3420e36dd4f0a157d42423e768633e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "双清包税落幕？9月1日亚马逊欧洲泛欧入库强制交MRN+EORI",
+"url": "https://www.amz123.com/kx/LbILRfVz",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "双清包税落幕？9月1日亚马逊欧洲泛欧入库强制交MRN+EORI"
+},
+{
+"id": "8e7d9f2bb5f6ed52cb95af3fe152a309c6ba4c0f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯新规强化电商合规监管，平台与卖家承担双向责任",
+"url": "https://www.amz123.com/kx/WPZlVgWy",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"合规",
+"监管"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯新规强化电商合规监管，平台与卖家承担双向责任"
+},
+{
+"id": "3ca4adcf1eeb79958a8e67b5df21ad0e8b94d230",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束...做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束...",
+"url": "https://www.amzdh.com/kjtt/10351.html",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"wildberries",
+"卖家",
+"跨境",
+"跨境电商",
+"卖家",
+"电商",
+"铺货",
+"合规",
+"监管"
+],
+"cross_platforms": [
+"wildberries",
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束...做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束..."
+},
+{
+"id": "213e490d072641ef34c8c65ff91c9abc5ae74df4",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "落幕！亚马逊21年老平台正式关停，廉价人工众包时代彻底终结",
+"url": "https://www.amzdh.com/kjtt/10352.html",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "落幕！亚马逊21年老平台正式关停，廉价人工众包时代彻底终结"
+},
+{
+"id": "ee87b5cb5ba0b6aeb29ede43ff821f734e010aa5",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很...一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很...",
+"url": "https://www.amzdh.com/kjtt/10352.html",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很...一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很..."
+},
 {
 "id": "4bdd8b8d85bfb11956687f38fb360a18e0f019f0",
 "site_id": "amz123",
@@ -64,7 +349,7 @@
 "url": "https://www.amz123.com/kx/T7OENT9b",
 "published_at": null,
 "first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
 "cross_is_related": true,
 "cross_score": 0.98,
 "cross_label": "fee_logistics",
@@ -228,271 +513,97 @@
 "title_zh": "德国跨境卖家呼吁统一后台降低多国扩张门槛"
 },
 {
-"id": "347ab46c1830f64200249ad713c487f79ac9f759",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "跨境卖家常用的架构软肋被国税局发现了，一不小心15万美金就没了！",
-"url": "https://www.cifnews.com/article/188511",
+"id": "267f6adbfc1caca198aad5441dd19b7386b1530b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Yandex开放搜索与Alice AI通用结账功能，中小卖家零成本接入新增销售渠道",
+"url": "https://www.amz123.com/kx/hdjK8byb",
 "published_at": null,
 "first_seen_at": "2026-08-27T00:40:27.090663Z",
 "last_seen_at": "2026-08-27T00:40:27.090663Z",
 "cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨境卖家常用的架构软肋被国税局发现了，一不小心15万美金就没了！"
-},
-{
-"id": "8d87c3723fe72604dd7d1bb4ee3049e34233da99",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意...AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意...",
-"url": "https://www.amzdh.com/kjtt/10344.html",
-"published_at": null,
-"first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.94,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"fbm",
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"prime",
-"fba",
-"fbm",
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意...AMZDH获悉，亚马逊德国站刚刚扔下一枚\"深水炸弹\"。根据亚马逊卖家平台最新公告，[2026年9月7日起，德国站将正式收紧Prime配送速度要求]，适用范围覆盖FBA、卖家自配送（FBM/SFP）以及亚马逊自营商品。这意..."
-},
-{
-"id": "2b8588f860bf0aa2266a0451d3a0f8699eeb2463",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊突发“协议三扫号” 大批店铺冻结资金并启动AI历史追溯审核",
-"url": "https://www.amz123.com/kx/uBrQ5cJL",
-"published_at": null,
-"first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"店铺"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊突发“协议三扫号” 大批店铺冻结资金并启动AI历史追溯审核"
-},
-{
-"id": "5ab0d86d35d6c07920a48dec7d2406c65bb87290",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "德国站Prime提速新政9月7日生效：1天达占比提升至15%",
-"url": "https://www.amzdh.com/kjtt/10344.html",
-"published_at": null,
-"first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [
-"prime"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "德国站Prime提速新政9月7日生效：1天达占比提升至15%"
-},
-{
-"id": "67b7081189665b7f8f78e184693918b813720433",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "曼萨尼约港保税仓查扣2.2万件中国侵权电子产品",
-"url": "https://www.amz123.com/kx/gewGrjp2",
-"published_at": null,
-"first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
 "cross_score": 0.69,
-"cross_label": "listing_product",
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"保税仓"
+"卖家",
+"卖家"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "曼萨尼约港保税仓查扣2.2万件中国侵权电子产品"
+"title_zh": "Yandex开放搜索与Alice AI通用结账功能，中小卖家零成本接入新增销售渠道"
 },
 {
-"id": "2526c879ecc86acb4497c9f99eb87ad465d621f6",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"id": "26e576ee8c071fcd5cc7c31df9b9d581ad414deb",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "亚马逊两大新规落地！退货可直接打分、BSA协议收紧，卖家务必重视",
-"url": "https://www.cifnews.com/article/188477",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"title": "关税之下，速卖通Brand+在欧盟逆势大涨97%",
+"url": "https://www.ennews.com/article-31840-1.html",
+"published_at": "2026-08-27T00:00:00Z",
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
 "cross_is_related": true,
-"cross_score": 0.92,
+"cross_score": 0.74,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"退货"
+"关税",
+"速卖通",
+"关税"
 ],
 "cross_platforms": [
-"亚马逊"
+"速卖通"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊两大新规落地！退货可直接打分、BSA协议收紧，卖家务必重视"
+"title_zh": "关税之下，速卖通Brand+在欧盟逆势大涨97%"
 },
 {
-"id": "8c399e195cb8990f833bb666d3053c303f299ed3",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊测试退货流程嵌入评分机制，卖家担忧差评集中爆发",
-"url": "https://www.amz123.com/kx/zLNILwQx",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"退货"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊测试退货流程嵌入评分机制，卖家担忧差评集中爆发"
-},
-{
-"id": "dd131b38b621a77248ca707fbff3ef60c011a273",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"id": "696637b391cd3dc4bfc8a1dafaabc883a5e149cb",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "紧急！亚马逊BSA今日生效：严禁私下转店、回款质押，违规或直接冻结资金（推荐）",
-"url": "https://www.cifnews.com/article/188475",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "紧急！亚马逊BSA今日生效：严禁私下转店、回款质押，违规或直接冻结资金（推荐）"
-},
-{
-"id": "9184ff50def3e0429c83b74073828ee0f06d874f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊Project Tetromino拟5.3亿美元造全自动配送站",
-"url": "https://www.amz123.com/kx/ZB1k8awO",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊Project Tetromino拟5.3亿美元造全自动配送站"
-},
-{
-"id": "3a5c3c807f7243f8fff5fcd7f858bfbf9494ee1b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "骗税2961万罚9000万！深圳4家外贸企业翻车，跨境卖家别踩同一条红线",
-"url": "https://www.cifnews.com/article/188483",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"外贸",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "骗税2961万罚9000万！深圳4家外贸企业翻车，跨境卖家别踩同一条红线"
-},
-{
-"id": "6378350bff5850f491e648d96db16124938b0b4b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "雨果跨境联合主办Google Cloud广州首发盛典，AI赋能电商出海新征程",
-"url": "https://www.cifnews.com/article/188480",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"title": "保命！一批跨境卖家回归夫妻店",
+"url": "https://www.ennews.com/article-31839-1.html",
+"published_at": "2026-08-27T00:00:00Z",
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"卖家",
 "跨境",
-"电商"
+"卖家"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "雨果跨境联合主办Google Cloud广州首发盛典，AI赋能电商出海新征程"
+"title_zh": "保命！一批跨境卖家回归夫妻店"
+},
+{
+"id": "84fdc126524c2168a706e94a44d777c9380f510e",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "小鹏计划明年在欧洲获监管许可，交付第二代VLA",
+"url": "https://www.ennews.com/news-142924.html",
+"published_at": "2026-08-27T00:00:00Z",
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"监管"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "小鹏计划明年在欧洲获监管许可，交付第二代VLA"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
