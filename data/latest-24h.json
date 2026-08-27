@@ -1,54 +1,255 @@
 {
-"generated_at": "2026-08-26T02:16:56.529953Z",
+"generated_at": "2026-08-27T00:40:27.090663Z",
 "window_hours": 24,
-"total_items": 21,
-"total_items_cross_raw": 55,
-"total_items_raw": 101,
-"total_items_all_mode": 101,
+"total_items": 18,
+"total_items_cross_raw": 91,
+"total_items_raw": 143,
+"total_items_all_mode": 143,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2111,
+"archive_total": 2167,
 "site_count": 16,
-"source_count": 5,
+"source_count": 7,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 46
+"raw_count": 80
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 20
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 3,
-"raw_count": 3
+"raw_count": 40
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "count": 2,
-"raw_count": 8
+"raw_count": 9
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 4
+"raw_count": 6
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
 "count": 0,
-"raw_count": 20
+"raw_count": 1
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 0,
+"raw_count": 3
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 0,
+"raw_count": 4
 }
 ],
 "items": [
+{
+"id": "4bdd8b8d85bfb11956687f38fb360a18e0f019f0",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊Prime Air无人机配送首次落地英国",
+"url": "https://www.amz123.com/kx/T7OENT9b",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.98,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "亚马逊Prime Air无人机配送首次落地英国"
+},
+{
+"id": "3c32137703006a8ae6c43b593c19c8f2e76ecc8a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "欧盟FBA入仓新规倒计时",
+"url": "https://www.cifnews.com/article/188503",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba"
+],
+"cross_platforms": [
+"fba"
+],
+"cross_sites": [],
+"title_zh": "欧盟FBA入仓新规倒计时"
+},
+{
+"id": "70789738f098c8173cf5c73992386d5e12e6853f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊9月起收紧德国Prime配送要求，15%订单须一日送达",
+"url": "https://www.amz123.com/kx/hmBDq3Ia",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊9月起收紧德国Prime配送要求，15%订单须一日送达"
+},
+{
+"id": "b50b607fc03c848e3c9ae97c8eedf345ee25b3f1",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊、Flipkart上调印度卖家取消订单费用",
+"url": "https://www.amz123.com/kx/8WUFXjE3",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊、Flipkart上调印度卖家取消订单费用"
+},
+{
+"id": "fbd7ad995a21f88fb39538427a03506e624db031",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "SHEIN欧盟PPWR包装袋合规管控公告",
+"url": "https://www.cifnews.com/article/188509",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ppwr",
+"shein",
+"合规"
+],
+"cross_platforms": [
+"shein"
+],
+"cross_sites": [],
+"title_zh": "SHEIN欧盟PPWR包装袋合规管控公告"
+},
+{
+"id": "0bcc4616817ad7bb1693d2030d38e917a1cd8905",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "每期一家跨境电商公司：亚马逊类目头部 浪之音",
+"url": "https://www.cifnews.com/article/188510",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "每期一家跨境电商公司：亚马逊类目头部 浪之音"
+},
+{
+"id": "47ba0d4ab9c409a454c448acd8ee87d79db91663",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德国跨境卖家呼吁统一后台降低多国扩张门槛",
+"url": "https://www.amz123.com/kx/aR16rWQ1",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国跨境卖家呼吁统一后台降低多国扩张门槛"
+},
+{
+"id": "347ab46c1830f64200249ad713c487f79ac9f759",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "跨境卖家常用的架构软肋被国税局发现了，一不小心15万美金就没了！",
+"url": "https://www.cifnews.com/article/188511",
+"published_at": null,
+"first_seen_at": "2026-08-27T00:40:27.090663Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境卖家常用的架构软肋被国税局发现了，一不小心15万美金就没了！"
+},
 {
 "id": "8d87c3723fe72604dd7d1bb4ee3049e34233da99",
 "site_id": "amzdh",
@@ -58,7 +259,7 @@
 "url": "https://www.amzdh.com/kjtt/10344.html",
 "published_at": null,
 "first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
 "cross_is_related": true,
 "cross_score": 0.94,
 "cross_label": "fee_logistics",
@@ -71,9 +272,9 @@
 "卖家"
 ],
 "cross_platforms": [
+"prime",
 "fba",
 "fbm",
-"prime",
 "亚马逊"
 ],
 "cross_sites": [
@@ -90,7 +291,7 @@
 "url": "https://www.amz123.com/kx/uBrQ5cJL",
 "published_at": null,
 "first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "seller_action",
@@ -114,7 +315,7 @@
 "url": "https://www.amzdh.com/kjtt/10344.html",
 "published_at": null,
 "first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "general",
@@ -148,29 +349,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "曼萨尼约港保税仓查扣2.2万件中国侵权电子产品"
-},
-{
-"id": "7ebf082ef929515fa9531fd9af6cdf86f19f309a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊“小黑拉链夹”月销1.2万单，低价配件冲入BSR前1.2万",
-"url": "https://www.amz123.com/kx/QCRFm54z",
-"published_at": null,
-"first_seen_at": "2026-08-26T02:16:56.529953Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊“小黑拉链夹”月销1.2万单，低价配件冲入BSR前1.2万"
 },
 {
 "id": "2526c879ecc86acb4497c9f99eb87ad465d621f6",
@@ -207,7 +385,7 @@
 "url": "https://www.amz123.com/kx/zLNILwQx",
 "published_at": null,
 "first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
+"last_seen_at": "2026-08-27T00:40:27.090663Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "listing_product",
@@ -315,230 +493,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "雨果跨境联合主办Google Cloud广州首发盛典，AI赋能电商出海新征程"
-},
-{
-"id": "53b9ed553b1e08af176afbc004c676a30aec161c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "内存荒逼亚马逊硬件全线提价 Echo Dot一夜涨60%至79.99美元",
-"url": "https://www.amz123.com/kx/yyPtbkw0",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "内存荒逼亚马逊硬件全线提价 Echo Dot一夜涨60%至79.99美元"
-},
-{
-"id": "878a5c686dcc3f7450f5e568cf5dd8e4fe6b004a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "班贝格高院判亚马逊违DSA：推荐算法不透明、未登录不能关个性化",
-"url": "https://www.amz123.com/kx/Fs4vaviE",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T00:40:54.377863Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "班贝格高院判亚马逊违DSA：推荐算法不透明、未登录不能关个性化"
-},
-{
-"id": "3f3433abb9241305003387fbb6d09f7b1ad4aa1b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "客单价312美刀！一批卖家在这个“冷门平台”闷声发财",
-"url": "https://www.cifnews.com/article/188468",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "客单价312美刀！一批卖家在这个“冷门平台”闷声发财"
-},
-{
-"id": "a0d2320a0a1545e15edc8455c811ccd8dc392482",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "返校季爆单却拿不到钱！Q4 大促在即，卖家拿什么打赢？",
-"url": "https://www.cifnews.com/article/188484",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "返校季爆单却拿不到钱！Q4 大促在即，卖家拿什么打赢？"
-},
-{
-"id": "56a3cdc98beb2c816f221a5a8077428c015bd5b4",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "上周跨境圈发生了哪些大事（08.17-08.23）",
-"url": "https://www.cifnews.com/article/188479",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "上周跨境圈发生了哪些大事（08.17-08.23）"
-},
-{
-"id": "35107280b9084b822f97745cd6832c08d8352146",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "26-cv-06914｜没写SWANGAS也侵权？一长两短辐条造型被注册商业外观，100名卖家中招",
-"url": "https://www.cifnews.com/article/188473",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "26-cv-06914｜没写SWANGAS也侵权？一长两短辐条造型被注册商业外观，100名卖家中招"
-},
-{
-"id": "0d0d6ae1cb77532c3b5e9ddacd1a5d95ef05ab9c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "沃尔玛墨西哥投资40亿比索升级Megapark仓储自动化",
-"url": "https://www.amz123.com/kx/2Phiuq1h",
-"published_at": null,
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"沃尔玛",
-"仓储"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "沃尔玛墨西哥投资40亿比索升级Megapark仓储自动化"
-},
-{
-"id": "496eab319520674b8ea5cbeac33062f474231d56",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "I'm an Amazon SVP who hadn't coded in 25 years. Then I wrote 100,000 lines of code with AI.",
-"url": "https://www.aboutamazon.com/news/workplace/amazon-svp-ai-tools-employees-careers",
-"published_at": "2026-08-25T18:31:13Z",
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "我是一名亚马逊高级副总裁，已经25年没有编码了。然后我用AI写了10万行代码。"
-},
-{
-"id": "4f34ab0a830880519c20d98ac9b200705edf8c92",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Inside the grocery operation Amazon built to be pickier than you",
-"url": "https://www.aboutamazon.com/stories/how-amazon-grocery-delivery-works",
-"published_at": "2026-08-25T12:55:05Z",
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊为比您更挑剔而打造的杂货店内部"
-},
-{
-"id": "d6c3226f9f0bf51a7c27ef96ecbc8526f7b01aff",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "How to buy a car with Amazon Autos",
-"url": "https://www.aboutamazon.com/news/retail/how-to-buy-a-car-with-amazon-autos",
-"published_at": "2026-08-25T09:24:59Z",
-"first_seen_at": "2026-08-26T00:40:54.377863Z",
-"last_seen_at": "2026-08-26T02:16:56.529953Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "如何通过Amazon Autos购买车辆"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
