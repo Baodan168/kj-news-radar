@@ -1,33 +1,45 @@
 {
-"generated_at": "2026-08-28T00:41:09.202508Z",
+"generated_at": "2026-08-28T12:20:34.700884Z",
 "window_hours": 24,
-"total_items": 19,
-"total_items_cross_raw": 36,
-"total_items_raw": 66,
-"total_items_all_mode": 66,
+"total_items": 23,
+"total_items_cross_raw": 48,
+"total_items_raw": 73,
+"total_items_all_mode": 73,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2145,
+"archive_total": 2102,
 "site_count": 16,
-"source_count": 6,
+"source_count": 7,
 "site_stats": [
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 22
+},
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 36
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 7,
-"raw_count": 19
+"raw_count": 38
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "count": 3,
-"raw_count": 6
+"raw_count": 8
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 2,
+"raw_count": 2
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "marketplace_pulse",
@@ -36,19 +48,552 @@
 "raw_count": 1
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
 "count": 0,
-"raw_count": 2
-},
-{
-"site_id": "tophub",
-"site_name": "TopHub",
-"count": 0,
-"raw_count": 2
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "a2ad65df95e071745d58df8eaae44f770ad41fad",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "9月1日欧洲多项新规生效！亚马逊卖家旺季合规大考来了",
+"url": "https://www.cifnews.com/article/188563",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"合规"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "9月1日欧洲多项新规生效！亚马逊卖家旺季合规大考来了"
+},
+{
+"id": "f79802e0b86d7395995dc4a03cb3a748caaf6863",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "合规监管从\"事后抽查\"切到\"事前校验\"，欧洲站清关入口这一次是真的关上了。 AMZDH获悉，2026年9月1日起，亚马逊欧洲站针对泛欧计划（Pan-EU）非欧盟卖家的进口合规要求正式全面升级——从原先仅...合规监管从\"事后抽查\"切到\"事前校验\"，欧洲站清关入口这一次是真的关上了。 AMZDH获悉，2026年9月1日起，亚马逊欧洲站针对泛欧计划（Pan-EU）非欧盟卖家的进口合规要求正式全面升级——从原先仅...",
+"url": "https://www.amzdh.com/kjtt/10355.html",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.98,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"清关",
+"卖家",
+"合规",
+"监管",
+"清关"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "合规监管从\"事后抽查\"切到\"事前校验\"，欧洲站清关入口这一次是真的关上了。 AMZDH获悉，2026年9月1日起，亚马逊欧洲站针对泛欧计划（Pan-EU）非欧盟卖家的进口合规要求正式全面升级——从原先仅...合规监管从\"事后抽查\"切到\"事前校验\"，欧洲站清关入口这一次是真的关上了。 AMZDH获悉，2026年9月1日起，亚马逊欧洲站针对泛欧计划（Pan-EU）非欧盟卖家的进口合规要求正式全面升级——从原先仅..."
+},
+{
+"id": "9a6d400643449b70254aa5eb771c53602f86f1ea",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "欧盟FBA新规下自税清关切换的完整操作步骤",
+"url": "https://www.cifnews.com/article/188576",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.96,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"清关",
+"清关"
+],
+"cross_platforms": [
+"fba"
+],
+"cross_sites": [],
+"title_zh": "欧盟FBA新规下自税清关切换的完整操作步骤"
+},
+{
+"id": "7c8526589a53c293d7405df8ed5d111d326b9c15",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "广州税务梳理出“赛维模式”全景图：亚马逊卖家的不合规操作，还能藏多久？",
+"url": "https://www.cifnews.com/article/188579",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"合规"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "广州税务梳理出“赛维模式”全景图：亚马逊卖家的不合规操作，还能藏多久？"
+},
+{
+"id": "8df24e7fce8118d9c0335e69af44a5d679a6b5c1",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "9月1日欧盟FBA新规实施",
+"url": "https://www.cifnews.com/article/188577",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba"
+],
+"cross_platforms": [
+"fba"
+],
+"cross_sites": [],
+"title_zh": "9月1日欧盟FBA新规实施"
+},
+{
+"id": "287f847d322c646e1a0a0b83f6a30f2685cd844b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊欧洲站重要新规：9/1起未提供MRN与EORI将被限制发货！",
+"url": "https://www.cifnews.com/article/188570",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊欧洲站重要新规：9/1起未提供MRN与EORI将被限制发货！"
+},
+{
+"id": "a7d5739efba34b697681644cf87784c04ee854f4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊严查香港主体地址验证，未合规面临销售受限！",
+"url": "https://www.cifnews.com/article/188566",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"合规"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊严查香港主体地址验证，未合规面临销售受限！"
+},
+{
+"id": "f5ee4fdce55c40b79ed654699908ec2a0db5509f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊宠物品类Q2收入增长20%，缺货率降至1%成库存表现最佳类目",
+"url": "https://www.amz123.com/kx/elo4ZjEC",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊宠物品类Q2收入增长20%，缺货率降至1%成库存表现最佳类目"
+},
+{
+"id": "04f7009bcb9f742d4a93bf9618a348024042c636",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "【纯干货】手把手教你亚马逊品牌备案，卖家建议收藏！",
+"url": "https://www.cifnews.com/article/188569",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "【纯干货】手把手教你亚马逊品牌备案，卖家建议收藏！"
+},
+{
+"id": "9467989dc3b1cec7bf1eb11d26d234c446ed7cb4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "新品刚起量就被1星差评砸了？亚马逊退货机制出现新变化",
+"url": "https://www.cifnews.com/article/188568",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "新品刚起量就被1星差评砸了？亚马逊退货机制出现新变化"
+},
+{
+"id": "89b62ca6c25006ff5d8c9de36cc5a434ea51f514",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "日本独居经济崛起，小型折叠家电成跨境卖家结构性机会",
+"url": "https://www.amz123.com/kx/I8aP9Fzq",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"jp"
+],
+"title_zh": "日本独居经济崛起，小型折叠家电成跨境卖家结构性机会"
+},
+{
+"id": "ec8d6b2a718ca9b0a97ee7a7d479debe416e351e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "人民币跨境支付系统已覆盖192个国家和地区",
+"url": "https://www.amz123.com/kx/MuvcDamE",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境支付"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "人民币跨境支付系统已覆盖192个国家和地区"
+},
+{
+"id": "e52b59acaad5f647b1cf4f50d5455b39f5fa5a5b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "速卖通Brand+欧盟8月大促品牌货盘同比增长97%",
+"url": "https://www.amz123.com/kx/vpQxa7eo",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"速卖通"
+],
+"cross_platforms": [
+"速卖通"
+],
+"cross_sites": [],
+"title_zh": "速卖通Brand+欧盟8月大促品牌货盘同比增长97%"
+},
+{
+"id": "942e3562ee38e975aa369bafd494da5d1a061d31",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊商品正式接入YouTube购物联盟计划",
+"url": "https://www.amz123.com/kx/XLFTEj82",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊商品正式接入YouTube购物联盟计划"
+},
+{
+"id": "48a2b889d2095383aa137c0e5476e27eccfaf964",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊厨房品类10款产品月销破万，收纳清洁需求持续升温",
+"url": "https://www.amz123.com/kx/c76SnW8Q",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊厨房品类10款产品月销破万，收纳清洁需求持续升温"
+},
+{
+"id": "6761dcd4a90ce327f6285a94b02ec7c9ea5a6396",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊召回逾2万套婴儿蒙台梭利玩具，硅胶拉绳存致命窒息风险",
+"url": "https://www.amz123.com/kx/h1KQcqxl",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊召回逾2万套婴儿蒙台梭利玩具，硅胶拉绳存致命窒息风险"
+},
+{
+"id": "26ed4c2c5e6c33ee98511ad3957eca26f0341712",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美站厨房收纳清洁类目需求增长 洗菜器月销2.8万件居首",
+"url": "https://www.amz123.com/kx/kK1qDxyx",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊美站厨房收纳清洁类目需求增长 洗菜器月销2.8万件居首"
+},
+{
+"id": "b2f9473d1df0318f65030a874268f917be9c9912",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "双清包税终结？9月1日亚马逊欧洲泛欧入库强制交MRN+EORI",
+"url": "https://www.amzdh.com/kjtt/10355.html",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "双清包税终结？9月1日亚马逊欧洲泛欧入库强制交MRN+EORI"
+},
+{
+"id": "2dc767d6c15f3489a072e22b82eee726674ffc3b",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "物流成本直降50%！Zalando牵手M&S，全面布局欧洲22国市场",
+"url": "https://www.amzdh.com/kjtt/10354.html",
+"published_at": null,
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "物流成本直降50%！Zalando牵手M&S，全面布局欧洲22国市场"
+},
+{
+"id": "0ec197cccdaccdd729d4f32a0ab6f07758b630c6",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "YouTube Shopping Affiliate Program adds Amazon.com",
+"url": "https://channelx.world/2026/08/youtube-shopping-affiliate-program-adds-amazon-com",
+"published_at": "2026-08-28T09:50:05Z",
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"affiliate"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "YouTube购物联盟计划新增Amazon.com"
+},
+{
+"id": "deae284cc6f70cf55fe0220d9ad6580f2f10eedb",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon Pan-EU FBA adds Netherlands and Belgium requirement",
+"url": "https://channelx.world/2026/08/amazon-pan-eu-fba-adds-netherlands-and-belgium-requirement",
+"published_at": "2026-08-28T09:30:16Z",
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"fba"
+],
+"cross_platforms": [
+"fba",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "Amazon Pan-EU FBA增加了荷兰和比利时的要求"
+},
+{
+"id": "03752315764874837912b688f1d761cb456dc875",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "How Amazon is preparing for the energy needs of the future",
+"url": "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-updates",
+"published_at": "2026-08-28T07:20:00Z",
+"first_seen_at": "2026-08-28T12:20:34.700884Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊如何为未来的能源需求做好准备"
+},
 {
 "id": "2ddcfbd16efede42ea2c38efaaddf6f9140250f7",
 "site_id": "marketplace_pulse",
@@ -58,7 +603,7 @@
 "url": "https://marketplacepulse.com/articles/e-commerce-is-taking-share-from-stores-again",
 "published_at": null,
 "first_seen_at": "2026-08-28T00:41:09.202508Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"last_seen_at": "2026-08-28T12:20:34.700884Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -69,444 +614,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "电子商务再次从商店中占据份额"
-},
-{
-"id": "b28ea5457caac4505ab4ca1295f5fd5673263b79",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊投入数亿欧元升级德国莱茵贝格物流中心，库存能力将增至2000万件",
-"url": "https://www.amz123.com/kx/oe7XSbFw",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.97,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"库存",
-"物流"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊投入数亿欧元升级德国莱茵贝格物流中心，库存能力将增至2000万件"
-},
-{
-"id": "cb9ba1085225afd2bd5f2fbe1c0109015aeeba5b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "TikTok类目第一，亚马逊霸榜，浙江跨境卖家出海有多猛？",
-"url": "https://www.cifnews.com/article/188534",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "TikTok类目第一，亚马逊霸榜，浙江跨境卖家出海有多猛？"
-},
-{
-"id": "a92f202fc9c357426e3e628afd467a5671a5e57f",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊退货流程新增评分入口？卖家评分下滑！",
-"url": "https://www.cifnews.com/article/188541",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"退货"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊退货流程新增评分入口？卖家评分下滑！"
-},
-{
-"id": "d4c7e444bdc6c5e58d98dddf5b4b73ab6d91e507",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "促销价越做越低？90%的亚马逊卖家价格管理都错了！",
-"url": "https://www.cifnews.com/article/188545",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "促销价越做越低？90%的亚马逊卖家价格管理都错了！"
-},
-{
-"id": "171293f8f72271fc6d3de120853c8e4099d090f8",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊开启扫号风暴！无违规也触发协议三，大批卖家账号遭殃",
-"url": "https://www.cifnews.com/article/188536",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊开启扫号风暴！无违规也触发协议三，大批卖家账号遭殃"
-},
-{
-"id": "472cf1c118287f6082083b581005c37355e21085",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊广告新手投放最容易卡住的几个地方：关键词、搜索词和否定词怎么用",
-"url": "https://www.cifnews.com/article/188544",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊广告新手投放最容易卡住的几个地方：关键词、搜索词和否定词怎么用"
-},
-{
-"id": "56f21f8bfc3420e36dd4f0a157d42423e768633e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "双清包税落幕？9月1日亚马逊欧洲泛欧入库强制交MRN+EORI",
-"url": "https://www.amz123.com/kx/LbILRfVz",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "双清包税落幕？9月1日亚马逊欧洲泛欧入库强制交MRN+EORI"
-},
-{
-"id": "8e7d9f2bb5f6ed52cb95af3fe152a309c6ba4c0f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯新规强化电商合规监管，平台与卖家承担双向责任",
-"url": "https://www.amz123.com/kx/WPZlVgWy",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"合规",
-"监管"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯新规强化电商合规监管，平台与卖家承担双向责任"
-},
-{
-"id": "e948cf87e76cd4265d40b14b0a7b6d15a5e361f6",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "跨境大卖下场做Agent，不仅能生图和视频，还能揪出素材侵权风险",
-"url": "https://www.cifnews.com/article/188547",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨境大卖下场做Agent，不仅能生图和视频，还能揪出素材侵权风险"
-},
-{
-"id": "8251aa842bcad7b47a187bbbbdc6d4be97cb6839",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "26-cv-01773｜4张图案撂倒50店！Keith律所新案围猎三平台侵权卖家",
-"url": "https://www.cifnews.com/article/188538",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "26-cv-01773｜4张图案撂倒50店！Keith律所新案围猎三平台侵权卖家"
-},
-{
-"id": "3ca4adcf1eeb79958a8e67b5df21ad0e8b94d230",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束...做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束...",
-"url": "https://www.amzdh.com/kjtt/10351.html",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"wildberries",
-"卖家",
-"跨境",
-"跨境电商",
-"卖家",
-"电商",
-"铺货",
-"合规",
-"监管"
-],
-"cross_platforms": [
-"wildberries",
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束...做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束..."
-},
-{
-"id": "8af8ac39e0cabdf40b93df547a6b09a3b1b31b2e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Zalando接手M&S欧洲物流，覆盖22个市场",
-"url": "https://www.amz123.com/kx/WHvOCABC",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "Zalando接手M&S欧洲物流，覆盖22个市场"
-},
-{
-"id": "af65e84c31ca104358f071643c9e1c76e7c27920",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "马来西亚8月26日启动无监管电商平台整治行动",
-"url": "https://www.amz123.com/kx/nvzWKSQm",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商",
-"电商平台",
-"监管"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "马来西亚8月26日启动无监管电商平台整治行动"
-},
-{
-"id": "968ebf6f19a3596c017db4cce375d4e9a8a417d8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美客多发布2026拉美圣诞旺季选品指南：墨西哥站去年销量增长44%",
-"url": "https://www.amz123.com/kx/oTP1k8yE",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"美客多",
-"选品"
-],
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "美客多发布2026拉美圣诞旺季选品指南：墨西哥站去年销量增长44%"
-},
-{
-"id": "803c2246d10055af4ea8eaaed122ca22a38bba0c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon仓库遭无人机袭击，商品损失或超1000亿卢布",
-"url": "https://www.amz123.com/kx/570HuQuI",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon仓库遭无人机袭击，商品损失或超1000亿卢布"
-},
-{
-"id": "be0944146ecb71ad3a0fba7a17b345dccb87c3eb",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries开放WB Chat公测，自有即时通讯工具正式面向大众",
-"url": "https://www.amz123.com/kx/dQBRczin",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries开放WB Chat公测，自有即时通讯工具正式面向大众"
-},
-{
-"id": "213e490d072641ef34c8c65ff91c9abc5ae74df4",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "落幕！亚马逊21年老平台正式关停，廉价人工众包时代彻底终结",
-"url": "https://www.amzdh.com/kjtt/10352.html",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "落幕！亚马逊21年老平台正式关停，廉价人工众包时代彻底终结"
-},
-{
-"id": "ee87b5cb5ba0b6aeb29ede43ff821f734e010aa5",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很...一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很...",
-"url": "https://www.amzdh.com/kjtt/10352.html",
-"published_at": null,
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-28T00:41:09.202508Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很...一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很..."
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
