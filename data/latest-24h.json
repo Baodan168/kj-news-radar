@@ -1,66 +1,75 @@
 {
-"generated_at": "2026-08-27T10:42:59.335512Z",
+"generated_at": "2026-08-28T00:41:09.202508Z",
 "window_hours": 24,
-"total_items": 22,
-"total_items_cross_raw": 83,
-"total_items_raw": 147,
-"total_items_all_mode": 147,
+"total_items": 19,
+"total_items_cross_raw": 36,
+"total_items_raw": 66,
+"total_items_all_mode": 66,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2142,
+"archive_total": 2145,
 "site_count": 16,
-"source_count": 7,
+"source_count": 6,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 70
+"raw_count": 36
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 8,
-"raw_count": 37
+"count": 7,
+"raw_count": 19
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "count": 3,
-"raw_count": 7
+"raw_count": 6
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 3,
-"raw_count": 23
-},
-{
-"site_id": "sp_api",
-"site_name": "SP-API Changelog",
-"count": 0,
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
+"count": 1,
 "raw_count": 1
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 0,
-"raw_count": 3
-},
-{
-"site_id": "tophub",
-"site_name": "TopHub",
-"count": 0,
-"raw_count": 4
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 0,
 "raw_count": 2
+},
+{
+"site_id": "tophub",
+"site_name": "TopHub",
+"count": 0,
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "2ddcfbd16efede42ea2c38efaaddf6f9140250f7",
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
+"source": "市场分析",
+"title": "E-Commerce Is Taking Share From Stores Again",
+"url": "https://marketplacepulse.com/articles/e-commerce-is-taking-share-from-stores-again",
+"published_at": null,
+"first_seen_at": "2026-08-28T00:41:09.202508Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"e-commerce"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "电子商务再次从商店中占据份额"
+},
 {
 "id": "b28ea5457caac4505ab4ca1295f5fd5673263b79",
 "site_id": "amz123",
@@ -70,7 +79,7 @@
 "url": "https://www.amz123.com/kx/oe7XSbFw",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.97,
 "cross_label": "fee_logistics",
@@ -95,7 +104,7 @@
 "url": "https://www.cifnews.com/article/188534",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "tiktok",
@@ -121,7 +130,7 @@
 "url": "https://www.cifnews.com/article/188541",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "listing_product",
@@ -147,7 +156,7 @@
 "url": "https://www.cifnews.com/article/188545",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "advertising",
@@ -172,7 +181,7 @@
 "url": "https://www.cifnews.com/article/188536",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -197,7 +206,7 @@
 "url": "https://www.cifnews.com/article/188544",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -220,7 +229,7 @@
 "url": "https://www.amz123.com/kx/LbILRfVz",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -245,7 +254,7 @@
 "url": "https://www.amz123.com/kx/WPZlVgWy",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "policy_update",
@@ -262,6 +271,49 @@
 "title_zh": "俄罗斯新规强化电商合规监管，平台与卖家承担双向责任"
 },
 {
+"id": "e948cf87e76cd4265d40b14b0a7b6d15a5e361f6",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "跨境大卖下场做Agent，不仅能生图和视频，还能揪出素材侵权风险",
+"url": "https://www.cifnews.com/article/188547",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境大卖下场做Agent，不仅能生图和视频，还能揪出素材侵权风险"
+},
+{
+"id": "8251aa842bcad7b47a187bbbbdc6d4be97cb6839",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "26-cv-01773｜4张图案撂倒50店！Keith律所新案围猎三平台侵权卖家",
+"url": "https://www.cifnews.com/article/188538",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "26-cv-01773｜4张图案撂倒50店！Keith律所新案围猎三平台侵权卖家"
+},
+{
 "id": "3ca4adcf1eeb79958a8e67b5df21ad0e8b94d230",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -270,7 +322,7 @@
 "url": "https://www.amzdh.com/kjtt/10351.html",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "policy_update",
@@ -295,6 +347,122 @@
 "title_zh": "做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束...做俄罗斯跨境电商的卖家注意啦！AMZDH获悉，俄罗斯电商合规监管再度收紧，2026 年 10 月 1 日起，第 289‑FZ 号联邦法将正式全面生效，Wildberries、Ozon、Yandex Market 等主流平台规则大变，低门槛铺货时代快要结束..."
 },
 {
+"id": "8af8ac39e0cabdf40b93df547a6b09a3b1b31b2e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Zalando接手M&S欧洲物流，覆盖22个市场",
+"url": "https://www.amz123.com/kx/WHvOCABC",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "Zalando接手M&S欧洲物流，覆盖22个市场"
+},
+{
+"id": "af65e84c31ca104358f071643c9e1c76e7c27920",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "马来西亚8月26日启动无监管电商平台整治行动",
+"url": "https://www.amz123.com/kx/nvzWKSQm",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商",
+"电商平台",
+"监管"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "马来西亚8月26日启动无监管电商平台整治行动"
+},
+{
+"id": "968ebf6f19a3596c017db4cce375d4e9a8a417d8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美客多发布2026拉美圣诞旺季选品指南：墨西哥站去年销量增长44%",
+"url": "https://www.amz123.com/kx/oTP1k8yE",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"美客多",
+"选品"
+],
+"cross_platforms": [
+"美客多"
+],
+"cross_sites": [],
+"title_zh": "美客多发布2026拉美圣诞旺季选品指南：墨西哥站去年销量增长44%"
+},
+{
+"id": "803c2246d10055af4ea8eaaed122ca22a38bba0c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon仓库遭无人机袭击，商品损失或超1000亿卢布",
+"url": "https://www.amz123.com/kx/570HuQuI",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon仓库遭无人机袭击，商品损失或超1000亿卢布"
+},
+{
+"id": "be0944146ecb71ad3a0fba7a17b345dccb87c3eb",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries开放WB Chat公测，自有即时通讯工具正式面向大众",
+"url": "https://www.amz123.com/kx/dQBRczin",
+"published_at": null,
+"first_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries开放WB Chat公测，自有即时通讯工具正式面向大众"
+},
+{
 "id": "213e490d072641ef34c8c65ff91c9abc5ae74df4",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -303,7 +471,7 @@
 "url": "https://www.amzdh.com/kjtt/10352.html",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -326,7 +494,7 @@
 "url": "https://www.amzdh.com/kjtt/10352.html",
 "published_at": null,
 "first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
+"last_seen_at": "2026-08-28T00:41:09.202508Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -339,271 +507,6 @@
 ],
 "cross_sites": [],
 "title_zh": "一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很...一个陪伴行业21年的经典平台，正式迎来终局。AMZDH获悉，亚马逊官宣：2026年9月30日，彻底关闭老牌众包工作平台 Mechanical Turk（MTurk）。这个见证了互联网早期发展、被称作“人工AI”的平台，即将全面退出市场。很..."
-},
-{
-"id": "4bdd8b8d85bfb11956687f38fb360a18e0f019f0",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊Prime Air无人机配送首次落地英国",
-"url": "https://www.amz123.com/kx/T7OENT9b",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
-"cross_is_related": true,
-"cross_score": 0.98,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"prime",
-"亚马逊"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "亚马逊Prime Air无人机配送首次落地英国"
-},
-{
-"id": "3c32137703006a8ae6c43b593c19c8f2e76ecc8a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "欧盟FBA入仓新规倒计时",
-"url": "https://www.cifnews.com/article/188503",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.92,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba"
-],
-"cross_platforms": [
-"fba"
-],
-"cross_sites": [],
-"title_zh": "欧盟FBA入仓新规倒计时"
-},
-{
-"id": "70789738f098c8173cf5c73992386d5e12e6853f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊9月起收紧德国Prime配送要求，15%订单须一日送达",
-"url": "https://www.amz123.com/kx/hmBDq3Ia",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"prime",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊9月起收紧德国Prime配送要求，15%订单须一日送达"
-},
-{
-"id": "b50b607fc03c848e3c9ae97c8eedf345ee25b3f1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊、Flipkart上调印度卖家取消订单费用",
-"url": "https://www.amz123.com/kx/8WUFXjE3",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊、Flipkart上调印度卖家取消订单费用"
-},
-{
-"id": "fbd7ad995a21f88fb39538427a03506e624db031",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "SHEIN欧盟PPWR包装袋合规管控公告",
-"url": "https://www.cifnews.com/article/188509",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ppwr",
-"shein",
-"合规"
-],
-"cross_platforms": [
-"shein"
-],
-"cross_sites": [],
-"title_zh": "SHEIN欧盟PPWR包装袋合规管控公告"
-},
-{
-"id": "0bcc4616817ad7bb1693d2030d38e917a1cd8905",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "每期一家跨境电商公司：亚马逊类目头部 浪之音",
-"url": "https://www.cifnews.com/article/188510",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "每期一家跨境电商公司：亚马逊类目头部 浪之音"
-},
-{
-"id": "47ba0d4ab9c409a454c448acd8ee87d79db91663",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德国跨境卖家呼吁统一后台降低多国扩张门槛",
-"url": "https://www.amz123.com/kx/aR16rWQ1",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德国跨境卖家呼吁统一后台降低多国扩张门槛"
-},
-{
-"id": "267f6adbfc1caca198aad5441dd19b7386b1530b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Yandex开放搜索与Alice AI通用结账功能，中小卖家零成本接入新增销售渠道",
-"url": "https://www.amz123.com/kx/hdjK8byb",
-"published_at": null,
-"first_seen_at": "2026-08-27T00:40:27.090663Z",
-"last_seen_at": "2026-08-27T00:40:27.090663Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Yandex开放搜索与Alice AI通用结账功能，中小卖家零成本接入新增销售渠道"
-},
-{
-"id": "26e576ee8c071fcd5cc7c31df9b9d581ad414deb",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "关税之下，速卖通Brand+在欧盟逆势大涨97%",
-"url": "https://www.ennews.com/article-31840-1.html",
-"published_at": "2026-08-27T00:00:00Z",
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"关税",
-"速卖通",
-"关税"
-],
-"cross_platforms": [
-"速卖通"
-],
-"cross_sites": [],
-"title_zh": "关税之下，速卖通Brand+在欧盟逆势大涨97%"
-},
-{
-"id": "696637b391cd3dc4bfc8a1dafaabc883a5e149cb",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "保命！一批跨境卖家回归夫妻店",
-"url": "https://www.ennews.com/article-31839-1.html",
-"published_at": "2026-08-27T00:00:00Z",
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "保命！一批跨境卖家回归夫妻店"
-},
-{
-"id": "84fdc126524c2168a706e94a44d777c9380f510e",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "小鹏计划明年在欧洲获监管许可，交付第二代VLA",
-"url": "https://www.ennews.com/news-142924.html",
-"published_at": "2026-08-27T00:00:00Z",
-"first_seen_at": "2026-08-27T10:42:59.335512Z",
-"last_seen_at": "2026-08-27T10:42:59.335512Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"监管"
-],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "小鹏计划明年在欧洲获监管许可，交付第二代VLA"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
