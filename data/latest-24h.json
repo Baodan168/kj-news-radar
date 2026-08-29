@@ -1,27 +1,27 @@
 {
-"generated_at": "2026-08-29T00:41:13.574564Z",
+"generated_at": "2026-08-29T07:30:21.486779Z",
 "window_hours": 24,
-"total_items": 23,
-"total_items_cross_raw": 49,
-"total_items_raw": 72,
-"total_items_all_mode": 72,
+"total_items": 22,
+"total_items_cross_raw": 60,
+"total_items_raw": 109,
+"total_items_all_mode": 109,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2116,
+"archive_total": 2099,
 "site_count": 16,
 "source_count": 6,
 "site_stats": [
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 20
-},
-{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 38
+"raw_count": 73
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 22
 },
 {
 "site_id": "amzdh",
@@ -30,25 +30,125 @@
 "raw_count": 8
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 2,
-"raw_count": 3
-},
-{
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 2,
 "raw_count": 2
 },
 {
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 2
+},
+{
+"site_id": "tophub",
+"site_name": "TopHub",
 "count": 0,
-"raw_count": 1
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "21480c6b9c954e81c399008fd42efbfc9e72a79d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊9月再推\"退货特卖\"，逾4000万件商品最高降价50%",
+"url": "https://www.amz123.com/kx/B9mFwgoO",
+"published_at": null,
+"first_seen_at": "2026-08-29T07:30:21.486779Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊9月再推\"退货特卖\"，逾4000万件商品最高降价50%"
+},
+{
+"id": "260c70f5050689f565b722ccacb95c4bf08c9017",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Temu调查：34%欧洲中小企业卖家入驻后拓展了新海外市场",
+"url": "https://www.amz123.com/kx/8aWWiIoV",
+"published_at": null,
+"first_seen_at": "2026-08-29T07:30:21.486779Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"temu",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"temu"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "Temu调查：34%欧洲中小企业卖家入驻后拓展了新海外市场"
+},
+{
+"id": "f2a7d29975e166d0ced8adb9297c05392e337ea3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Temu加大欧洲本土卖家扶持力度，半数商家实现规模扩张",
+"url": "https://www.amz123.com/kx/q5W2pQjO",
+"published_at": null,
+"first_seen_at": "2026-08-29T07:30:21.486779Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"temu",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"temu"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "Temu加大欧洲本土卖家扶持力度，半数商家实现规模扩张"
+},
+{
+"id": "74e65a702350e2a21cfbf2da3597391817ffd188",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Falabella.com定向招募中国卖家，秘鲁智利节庆季带动鞋服玩具家居三大类目",
+"url": "https://www.amz123.com/kx/fXUZs20h",
+"published_at": null,
+"first_seen_at": "2026-08-29T07:30:21.486779Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Falabella.com定向招募中国卖家，秘鲁智利节庆季带动鞋服玩具家居三大类目"
+},
 {
 "id": "11734a1230b796cc83005233d32b1a001dac825c",
 "site_id": "amazon_newsroom",
@@ -58,7 +158,7 @@
 "url": "https://www.aboutamazon.com/news/retail/second-chance-deal-days",
 "published_at": "2026-08-28T14:02:03Z",
 "first_seen_at": "2026-08-29T00:41:13.574564Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -109,7 +209,7 @@
 "url": "https://www.amzdh.com/kjtt/10355.html",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.98,
 "cross_label": "policy_update",
@@ -140,7 +240,7 @@
 "url": "https://www.cifnews.com/article/188576",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.96,
 "cross_label": "policy_update",
@@ -165,7 +265,7 @@
 "url": "https://www.cifnews.com/article/188579",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.92,
 "cross_label": "policy_update",
@@ -191,7 +291,7 @@
 "url": "https://www.cifnews.com/article/188577",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.92,
 "cross_label": "policy_update",
@@ -214,7 +314,7 @@
 "url": "https://www.cifnews.com/article/188570",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.92,
 "cross_label": "policy_update",
@@ -239,7 +339,7 @@
 "url": "https://www.cifnews.com/article/188566",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "policy_update",
@@ -287,7 +387,7 @@
 "url": "https://www.cifnews.com/article/188569",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -312,7 +412,7 @@
 "url": "https://www.cifnews.com/article/188568",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -398,98 +498,6 @@
 "title_zh": "速卖通Brand+欧盟8月大促品牌货盘同比增长97%"
 },
 {
-"id": "942e3562ee38e975aa369bafd494da5d1a061d31",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊商品正式接入YouTube购物联盟计划",
-"url": "https://www.amz123.com/kx/XLFTEj82",
-"published_at": null,
-"first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊商品正式接入YouTube购物联盟计划"
-},
-{
-"id": "48a2b889d2095383aa137c0e5476e27eccfaf964",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊厨房品类10款产品月销破万，收纳清洁需求持续升温",
-"url": "https://www.amz123.com/kx/c76SnW8Q",
-"published_at": null,
-"first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊厨房品类10款产品月销破万，收纳清洁需求持续升温"
-},
-{
-"id": "6761dcd4a90ce327f6285a94b02ec7c9ea5a6396",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊召回逾2万套婴儿蒙台梭利玩具，硅胶拉绳存致命窒息风险",
-"url": "https://www.amz123.com/kx/h1KQcqxl",
-"published_at": null,
-"first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊召回逾2万套婴儿蒙台梭利玩具，硅胶拉绳存致命窒息风险"
-},
-{
-"id": "26ed4c2c5e6c33ee98511ad3957eca26f0341712",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美站厨房收纳清洁类目需求增长 洗菜器月销2.8万件居首",
-"url": "https://www.amz123.com/kx/kK1qDxyx",
-"published_at": null,
-"first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊美站厨房收纳清洁类目需求增长 洗菜器月销2.8万件居首"
-},
-{
 "id": "b2f9473d1df0318f65030a874268f917be9c9912",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -498,7 +506,7 @@
 "url": "https://www.amzdh.com/kjtt/10355.html",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -523,7 +531,7 @@
 "url": "https://www.amzdh.com/kjtt/10354.html",
 "published_at": null,
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "fee_logistics",
@@ -546,7 +554,7 @@
 "url": "https://channelx.world/2026/08/youtube-shopping-affiliate-program-adds-amazon-com",
 "published_at": "2026-08-28T09:50:05Z",
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -572,7 +580,7 @@
 "url": "https://channelx.world/2026/08/amazon-pan-eu-fba-adds-netherlands-and-belgium-requirement",
 "published_at": "2026-08-28T09:30:16Z",
 "first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
+"last_seen_at": "2026-08-29T07:30:21.486779Z",
 "cross_is_related": true,
 "cross_score": 0.9,
 "cross_label": "policy_update",
@@ -587,29 +595,6 @@
 ],
 "cross_sites": [],
 "title_zh": "Amazon Pan-EU FBA增加了荷兰和比利时的要求"
-},
-{
-"id": "03752315764874837912b688f1d761cb456dc875",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "How Amazon is preparing for the energy needs of the future",
-"url": "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-updates",
-"published_at": "2026-08-28T07:20:00Z",
-"first_seen_at": "2026-08-28T12:20:34.700884Z",
-"last_seen_at": "2026-08-29T00:41:13.574564Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊如何为未来的能源需求做好准备"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
