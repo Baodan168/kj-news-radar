@@ -1,15 +1,15 @@
 {
-"generated_at": "2026-08-30T00:40:34.939884Z",
+"generated_at": "2026-08-30T06:00:25.955319Z",
 "window_hours": 24,
-"total_items": 8,
-"total_items_cross_raw": 16,
-"total_items_raw": 45,
-"total_items_all_mode": 45,
+"total_items": 10,
+"total_items_cross_raw": 18,
+"total_items_raw": 48,
+"total_items_all_mode": 48,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2104,
+"archive_total": 2103,
 "site_count": 16,
-"source_count": 3,
+"source_count": 4,
 "site_stats": [
 {
 "site_id": "amz123",
@@ -20,17 +20,67 @@
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 2,
-"raw_count": 3
+"count": 3,
+"raw_count": 4
+},
+{
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 2
+"raw_count": 3
 }
 ],
 "items": [
+{
+"id": "c0641378bfc57659fb5b64ff93c9748c083a4ec4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "近10场跨境活动！4大平台齐发力，抓住旺季增长商机",
+"url": "https://www.cifnews.com/article/188587",
+"published_at": null,
+"first_seen_at": "2026-08-30T06:00:25.955319Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "近10场跨境活动！4大平台齐发力，抓住旺季增长商机"
+},
+{
+"id": "49db839bea1f3db66feba6f2c0eea8ebe9be049f",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"source": "卖家新闻",
+"title": "Amazon Lets Sellers Pay Extra for SSD (Sub Same Day Shipping)",
+"url": "https://www.ecommercebytes.com/2026/08/29/amazon-lets-sellers-pay-extra-for-ssd-sub-same-day-shipping",
+"published_at": "2026-08-30T02:32:58Z",
+"first_seen_at": "2026-08-30T06:00:25.955319Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊让卖家为SSD支付额外费用（亚当日发货）"
+},
 {
 "id": "7d736b7f18b0f4ebe04717de3b3c7c37eb1031e6",
 "site_id": "amz123",
@@ -40,7 +90,7 @@
 "url": "https://www.amz123.com/kx/lqPq9t7e",
 "published_at": null,
 "first_seen_at": "2026-08-30T00:40:34.939884Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "listing_product",
@@ -65,7 +115,7 @@
 "url": "https://www.amz123.com/kx/B9mFwgoO",
 "published_at": null,
 "first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "listing_product",
@@ -89,7 +139,7 @@
 "url": "https://www.amz123.com/kx/8aWWiIoV",
 "published_at": null,
 "first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "platform_trend",
@@ -116,7 +166,7 @@
 "url": "https://www.amz123.com/kx/q5W2pQjO",
 "published_at": null,
 "first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "temu",
@@ -143,7 +193,7 @@
 "url": "https://www.amz123.com/kx/fXUZs20h",
 "published_at": null,
 "first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "seller_action",
@@ -165,7 +215,7 @@
 "url": "https://www.cifnews.com/article/188583",
 "published_at": null,
 "first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -187,7 +237,7 @@
 "url": "https://www.cifnews.com/article/188582",
 "published_at": null,
 "first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -209,7 +259,7 @@
 "url": "https://www.amz123.com/kx/T5IcQnGD",
 "published_at": null,
 "first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T00:40:34.939884Z",
+"last_seen_at": "2026-08-30T06:00:25.955319Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
