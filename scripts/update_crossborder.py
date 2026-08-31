@@ -380,6 +380,8 @@ def fetch_rss(session: requests.Session, url: str, site_id: str, site_name: str,
         resp = session.get(url, timeout=12)
         resp.raise_for_status()
         entries = parse_feed_entries(resp.content)
+        if not entries:
+            print(f"  [WARN] RSS parsed 0 entries for {site_name} ({url}) — content may be blocked/non-XML (CDN/IP issue)")
         now = utc_now()
         cutoff = now - timedelta(hours=max_age_hours)
         for entry in entries[:50]:
@@ -658,12 +660,50 @@ def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[Ra
 def fetch_ennews(session: requests.Session, now: datetime) -> list[RawItem]:
     """亿恩网 — 中文跨境行业头部媒体，日更5-10篇，直接RSS采集。
     RSS源返回的URL域名有误（www.en.com），需要修复为正确域名（www.ennews.com）。
+    GHA runner（美国IP）实测被 ennews CDN 拦截：HTTP 200 但返回非XML内容
+    （parse_feed_entries 解析出 0 条且无异常，2026-08-31 排查确认）。
+    fallback 链：直连 → allorigins → r.jina.ai（两个代理对美区可达，
+    直连成功时代理不触发，本地CN网络直连正常不受影响）。
     """
     items = fetch_rss(session, "https://www.ennews.com/rss.xml",
                      "ennews", "亿恩网", "跨境资讯")
     for it in items:
         if it.url and "www.en.com" in it.url:
             it.url = it.url.replace("www.en.com", "www.ennews.com").replace("http://", "https://")
+    if items:
+        return items
+    # 代理 fallback：仅当直连解析出 0 条时触发
+    proxies = [
+        "https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.ennews.com%2Frss.xml",
+        "https://r.jina.ai/https://www.ennews.com/rss.xml",
+    ]
+    for proxy_url in proxies:
+        try:
+            resp = session.get(proxy_url, timeout=25)
+            resp.raise_for_status()
+            entries = parse_feed_entries(resp.content)
+            if not entries:
+                continue
+            print(f"  [INFO] ennews recovered via proxy: {proxy_url.split('/')[2]} ({len(entries)} entries)")
+            cutoff = now - timedelta(hours=48)
+            for entry in entries[:50]:
+                title = entry.get("title", "").strip()
+                link = entry.get("link", "").strip()
+                if not title or not link:
+                    continue
+                pub = parse_iso(entry.get("published"))
+                if pub and pub < cutoff:
+                    continue
+                url_fixed = link.replace("www.en.com", "www.ennews.com").replace("http://", "https://")
+                items.append(RawItem(
+                    site_id="ennews", site_name="亿恩网", source="跨境资讯",
+                    title=title, url=normalize_url(url_fixed),
+                    published_at=pub, meta={"desc": entry.get("desc", "")[:200]},
+                ))
+            if items:
+                break
+        except Exception as e:
+            print(f"  [WARN] ennews proxy fallback failed ({proxy_url.split('/')[2]}): {e}")
     return items
 
 
