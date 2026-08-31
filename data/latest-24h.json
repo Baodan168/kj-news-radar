@@ -1,27 +1,21 @@
 {
-"generated_at": "2026-08-30T06:00:25.955319Z",
+"generated_at": "2026-08-31T00:40:26.259407Z",
 "window_hours": 24,
-"total_items": 10,
-"total_items_cross_raw": 18,
-"total_items_raw": 48,
-"total_items_all_mode": 48,
+"total_items": 5,
+"total_items_cross_raw": 7,
+"total_items_raw": 12,
+"total_items_all_mode": 12,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2103,
+"archive_total": 2106,
 "site_count": 16,
 "source_count": 4,
 "site_stats": [
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 6,
-"raw_count": 40
-},
-{
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 3,
-"raw_count": 4
+"raw_count": 5
 },
 {
 "site_id": "ecommercebytes",
@@ -30,13 +24,64 @@
 "raw_count": 1
 },
 {
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 1,
+"raw_count": 5
+},
+{
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "2280c687f5691b9fb28cad1b12b8b93e9b09349d",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "旺季前大清洗！一批卖家已经中招了",
+"url": "https://www.cifnews.com/article/188588",
+"published_at": null,
+"first_seen_at": "2026-08-31T00:40:26.259407Z",
+"last_seen_at": "2026-08-31T00:40:26.259407Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "旺季前大清洗！一批卖家已经中招了"
+},
+{
+"id": "93ef405ba55300ac88a7249636206da170cc8dde",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "安克上半年狂揽166亿！亚马逊收入77亿仍占半壁江山",
+"url": "https://www.cifnews.com/article/188590",
+"published_at": null,
+"first_seen_at": "2026-08-31T00:40:26.259407Z",
+"last_seen_at": "2026-08-31T00:40:26.259407Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "安克上半年狂揽166亿！亚马逊收入77亿仍占半壁江山"
+},
 {
 "id": "c0641378bfc57659fb5b64ff93c9748c083a4ec4",
 "site_id": "cifnews",
@@ -46,7 +91,7 @@
 "url": "https://www.cifnews.com/article/188587",
 "published_at": null,
 "first_seen_at": "2026-08-30T06:00:25.955319Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
+"last_seen_at": "2026-08-31T00:40:26.259407Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -67,9 +112,9 @@
 "url": "https://www.ecommercebytes.com/2026/08/29/amazon-lets-sellers-pay-extra-for-ssd-sub-same-day-shipping",
 "published_at": "2026-08-30T02:32:58Z",
 "first_seen_at": "2026-08-30T06:00:25.955319Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
+"last_seen_at": "2026-08-31T00:40:26.259407Z",
 "cross_is_related": true,
-"cross_score": 0.89,
+"cross_score": 0.86,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -90,7 +135,7 @@
 "url": "https://www.amz123.com/kx/lqPq9t7e",
 "published_at": null,
 "first_seen_at": "2026-08-30T00:40:34.939884Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
+"last_seen_at": "2026-08-31T00:40:26.259407Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "listing_product",
@@ -105,173 +150,6 @@
 ],
 "cross_sites": [],
 "title_zh": "SmartScout：入驻TikTok Shop的亚马逊品牌营收增速高出同类5.2倍"
-},
-{
-"id": "21480c6b9c954e81c399008fd42efbfc9e72a79d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊9月再推\"退货特卖\"，逾4000万件商品最高降价50%",
-"url": "https://www.amz123.com/kx/B9mFwgoO",
-"published_at": null,
-"first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"退货"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊9月再推\"退货特卖\"，逾4000万件商品最高降价50%"
-},
-{
-"id": "260c70f5050689f565b722ccacb95c4bf08c9017",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Temu调查：34%欧洲中小企业卖家入驻后拓展了新海外市场",
-"url": "https://www.amz123.com/kx/8aWWiIoV",
-"published_at": null,
-"first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"temu"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "Temu调查：34%欧洲中小企业卖家入驻后拓展了新海外市场"
-},
-{
-"id": "f2a7d29975e166d0ced8adb9297c05392e337ea3",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Temu加大欧洲本土卖家扶持力度，半数商家实现规模扩张",
-"url": "https://www.amz123.com/kx/q5W2pQjO",
-"published_at": null,
-"first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"temu"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "Temu加大欧洲本土卖家扶持力度，半数商家实现规模扩张"
-},
-{
-"id": "74e65a702350e2a21cfbf2da3597391817ffd188",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Falabella.com定向招募中国卖家，秘鲁智利节庆季带动鞋服玩具家居三大类目",
-"url": "https://www.amz123.com/kx/fXUZs20h",
-"published_at": null,
-"first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Falabella.com定向招募中国卖家，秘鲁智利节庆季带动鞋服玩具家居三大类目"
-},
-{
-"id": "da28f49d067460a14debac743e0deb140040c5ac",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "避开欧美价格战！这些卖家月销翻3倍、日破千单",
-"url": "https://www.cifnews.com/article/188583",
-"published_at": null,
-"first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "避开欧美价格战！这些卖家月销翻3倍、日破千单"
-},
-{
-"id": "a7e4723f3919b3a974baf16139ec449bbb7a992d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "超2000亿美元的大热赛道，深圳卖家为啥卖不动？",
-"url": "https://www.cifnews.com/article/188582",
-"published_at": null,
-"first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "超2000亿美元的大热赛道，深圳卖家为啥卖不动？"
-},
-{
-"id": "3abf8eefb7c34b06acd7ca8c596a527313464544",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon升级数字商品审核标准，平台可疑软件商品数量降至最低",
-"url": "https://www.amz123.com/kx/T5IcQnGD",
-"published_at": null,
-"first_seen_at": "2026-08-29T07:30:21.486779Z",
-"last_seen_at": "2026-08-30T06:00:25.955319Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon升级数字商品审核标准，平台可疑软件商品数量降至最低"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
