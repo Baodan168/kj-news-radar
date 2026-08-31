@@ -1,33 +1,51 @@
 {
-"generated_at": "2026-08-31T00:40:26.259407Z",
+"generated_at": "2026-08-31T02:45:06.202411Z",
 "window_hours": 24,
-"total_items": 5,
-"total_items_cross_raw": 7,
-"total_items_raw": 12,
-"total_items_all_mode": 12,
+"total_items": 30,
+"total_items_cross_raw": 64,
+"total_items_raw": 101,
+"total_items_all_mode": 101,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2106,
+"archive_total": 2173,
 "site_count": 16,
-"source_count": 4,
+"source_count": 6,
 "site_stats": [
+{
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"count": 8,
+"raw_count": 12
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"count": 7,
+"raw_count": 20
+},
+{
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"count": 5,
+"raw_count": 25
+},
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 3,
-"raw_count": 5
+"count": 5,
+"raw_count": 9
 },
 {
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"count": 1,
-"raw_count": 1
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 4,
+"raw_count": 23
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 1,
-"raw_count": 5
+"raw_count": 11
 },
 {
 "site_id": "tophub",
@@ -38,6 +56,553 @@
 ],
 "items": [
 {
+"id": "ab9038954a65d69bec1b9090edf1ccfc6869c089",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "求助，近期收到亚马逊邮件扫号侵权，我们是白名单，自己用的白名单没有任何人注册备案也会被机扫侵权吗？该如何去申诉提交材料？求分享经验",
+"url": "https://www.wearesellers.com/question/123963",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "求助，近期收到亚马逊邮件扫号侵权，我们是白名单，自己用的白名单没有任何人注册备案也会被机扫侵权吗？该如何去申诉提交材料？求分享经验"
+},
+{
+"id": "c8f0d9dcce88181cf887fe806ab2106605210409",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "关于亚马逊safe索赔的问题？真的是令人匪夷所思，希望大家可以畅所欲言，帮我追回退款",
+"url": "https://www.wearesellers.com/question/123962",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"退款"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "关于亚马逊safe索赔的问题？真的是令人匪夷所思，希望大家可以畅所欲言，帮我追回退款"
+},
+{
+"id": "034d8fa5c5b6547aef1a437f2677a269573dd4c7",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "如何快速清理评级转售的二手库存，不想一件清货来处理这些二手库存，因为货值确实亏得太多，我想了解亚马逊到底有没有针对评级的二手货促销渠道，或者别的什么方式来快速把这些2手库存卖出去",
+"url": "https://www.wearesellers.com/question/123971",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "如何快速清理评级转售的二手库存，不想一件清货来处理这些二手库存，因为货值确实亏得太多，我想了解亚马逊到底有没有针对评级的二手货促销渠道，或者别的什么方式来快速把这些2手库存卖出去"
+},
+{
+"id": "04ee219d519da73e86725f9eeebdec3bc98a17ec",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "Use the Report a Violation tool in Amazon Brand Registry to report IP infringement, store policy violations, and regulatory compliance concerns—all in one place.",
+"url": "https://sell.amazon.com/blog/announcements/report-a-violation",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "使用Amazon Brand Registry中的“举报违规行为”工具，一站式举报知识产权侵权、商店政策违规和法规遵从性问题。"
+},
+{
+"id": "63fe6b97eea3ae20094892351449b73b69494c17",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊运营视角下的产品开发与增长策略、从底层逻辑到高阶广告打法实战研讨......",
+"url": "https://www.wearesellers.com/question/121499",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊运营视角下的产品开发与增长策略、从底层逻辑到高阶广告打法实战研讨......"
+},
+{
+"id": "ba390178388ed8d287284eea2f4b0acb9aabd444",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "Get personalized support at Seller Café at Amazon Accelerate 2026",
+"url": "https://sell.amazon.com/blog/announcements/seller-cafe-at-amazon-accelerate-2026",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"seller"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "在Amazon Accelerate 2026的卖家咖啡厅获得个性化支持"
+},
+{
+"id": "cdf541d111207c65296b64e8a96b0c63775c1aad",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "New features and updates to Amazon’s FBA Grade and Resell program",
+"url": "https://sell.amazon.com/blog/announcements/fba-grade-and-resell-updates",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"fba"
+],
+"cross_platforms": [
+"fba",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊FBA评级和转售计划的新功能和更新"
+},
+{
+"id": "2ecc43e2cf3b6cfa414f494c38b6250d5b607dea",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "南非电商市场正在成为跨境卖家的新蓝海，而Takealot作为当地主流电商平台，蕴含着巨大的商机。然而，语言障碍、批量刊登难、库存超卖、定价策略复杂等问题，让不少卖家望而却步。 旺销王ERP Takealot营销版应运而生—...南非电商市场正在成为跨境卖家的新蓝海，而Takealot作为当地主流电商平台，蕴含着巨大的商机。然而，语言障碍、批量刊登难、库存超卖、定价策略复杂等问题，让不少卖家望而却步。 旺销王ERP Takealot营销版应运而生—...",
+"url": "https://www.amzdh.com/kjtt/10369.html",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"库存",
+"电商",
+"电商平台"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "南非电商市场正在成为跨境卖家的新蓝海，而Takealot作为当地主流电商平台，蕴含着巨大的商机。然而，语言障碍、批量刊登难、库存超卖、定价策略复杂等问题，让不少卖家望而却步。 旺销王ERP Takealot营销版应运而生—...南非电商市场正在成为跨境卖家的新蓝海，而Takealot作为当地主流电商平台，蕴含着巨大的商机。然而，语言障碍、批量刊登难、库存超卖、定价策略复杂等问题，让不少卖家望而却步。 旺销王ERP Takealot营销版应运而生—..."
+},
+{
+"id": "7f9ce8b4f56b34bd8493e22b357c8a64109ea966",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "武汉跨境电商8年，因为魄力不够没赚到大钱，一人单干到现在，今年开始amazon环境急速下滑，该何去何从",
+"url": "https://www.wearesellers.com/question/123953",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "武汉跨境电商8年，因为魄力不够没赚到大钱，一人单干到现在，今年开始amazon环境急速下滑，该何去何从"
+},
+{
+"id": "1b277c934d9e15d1a12596b7195731afff182771",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "Sellers who use FBA Donations now have access to donation certificates",
+"url": "https://sell.amazon.com/blog/announcements/fba-donation-certificate",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba"
+],
+"cross_platforms": [
+"fba",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "使用FBA捐赠的卖家现在可以访问捐赠证书"
+},
+{
+"id": "ca464697fca7e029fbd799c2e0c0d2d10364cfd5",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "Give returns a second life with FBA Grade and Resell",
+"url": "https://sell.amazon.com/blog/announcements/fba-grade-and-resell",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba"
+],
+"cross_platforms": [
+"fba",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "通过FBA等级和转售给予回报第二次生命"
+},
+{
+"id": "ebe346eb90b90ca7cfb9ba61ff35602e43bf21e6",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "补税罚款都是小事？珠海一纸《阻止出境决定书》，让跨境人“出不了境”",
+"url": "https://www.cifnews.com/article/188594",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "补税罚款都是小事？珠海一纸《阻止出境决定书》，让跨境人“出不了境”"
+},
+{
+"id": "9d8e5f32435a3832874165f354ede6143721bcb4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "下半场的拐点，到底在谁手里？——7个跨境大卖盈利质量全景透视",
+"url": "https://www.cifnews.com/article/188591",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "下半场的拐点，到底在谁手里？——7个跨境大卖盈利质量全景透视"
+},
+{
+"id": "60e72af987767f28e2c3422419d518260e12116a",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "跨境行业的竞争早已不止商品与供应链，内容出海、品牌本土化、流量全球化正在成为跨境企业进阶的核心赛道。 近期，国内头部视频平台B站（Bilibili）放出重磅出海动作，正式重启此前停更的国际版应用，同步上线英文官...跨境行业的竞争早已不止商品与供应链，内容出海、品牌本土化、流量全球化正在成为跨境企业进阶的核心赛道。 近期，国内头部视频平台B站（Bilibili）放出重磅出海动作，正式重启此前停更的国际版应用，同步上线英文官...",
+"url": "https://www.amzdh.com/kjtt/10365.html",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"供应链",
+"流量"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境行业的竞争早已不止商品与供应链，内容出海、品牌本土化、流量全球化正在成为跨境企业进阶的核心赛道。 近期，国内头部视频平台B站（Bilibili）放出重磅出海动作，正式重启此前停更的国际版应用，同步上线英文官...跨境行业的竞争早已不止商品与供应链，内容出海、品牌本土化、流量全球化正在成为跨境企业进阶的核心赛道。 近期，国内头部视频平台B站（Bilibili）放出重磅出海动作，正式重启此前停更的国际版应用，同步上线英文官..."
+},
+{
+"id": "849cea77213ecce35aad7d326cf289325ece10dc",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "半年逾15万店铺退出，越南电商卖家加速撤离Shopee与TikTok Shop",
+"url": "https://www.amz123.com/kx/68RH7l6l",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shopee",
+"tiktok shop",
+"卖家",
+"卖家",
+"店铺",
+"电商"
+],
+"cross_platforms": [
+"shopee",
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "半年逾15万店铺退出，越南电商卖家加速撤离Shopee与TikTok Shop"
+},
+{
+"id": "2e8d2e8ac1544ea11d695395219c3382dea4d24d",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "Seller University is now available for everyone",
+"url": "https://sell.amazon.com/blog/announcements/seller-university-is-for-everyone",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"seller"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "卖方大学现已面向所有人开放"
+},
+{
+"id": "31157d8d45c6a1c31713efb52fa2ed90c1c8dd52",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "The new Seller News mobile experience is here",
+"url": "https://sell.amazon.com/blog/announcements/new-seller-news-mobile-experience",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"seller"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "全新的卖家新闻移动体验现已推出"
+},
+{
+"id": "b03fcbe09d84e34ec80d2ff189609d277740a7d5",
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"source": "官方公告",
+"title": "Upgrades to Customer Service by Amazon help sellers save time and reduce refunds",
+"url": "https://sell.amazon.com/blog/announcements/upgrades-to-customer-service-by-amazon",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "升级到亚马逊客户服务，帮助卖家节省时间并减少退款"
+},
+{
+"id": "6722d7d9af24857120208784b45fe5c8b1811952",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "Noon跨境Global直发新规V2将于9月1日执行，卖家请收好这份实操清单",
+"url": "https://www.amzdh.com/kjtt/10368.html",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Noon跨境Global直发新规V2将于9月1日执行，卖家请收好这份实操清单"
+},
+{
+"id": "e98a6705e4fcf09e84958c95792fa11081569d39",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，2026年9月1日起，Noon《跨境Global直发物流履约管理规则 V2》正式执行，原规则与之冲突的以本版为准 。对于把中东当作出海目的地的中国卖家而言，这版规则既是\"操作说明书\"，也是\"红线警示...AMZDH获悉，2026年9月1日起，Noon《跨境Global直发物流履约管理规则 V2》正式执行，原规则与之冲突的以本版为准 。对于把中东当作出海目的地的中国卖家而言，这版规则既是\"操作说明书\"，也是\"红线警示...",
+"url": "https://www.amzdh.com/kjtt/10368.html",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，2026年9月1日起，Noon《跨境Global直发物流履约管理规则 V2》正式执行，原规则与之冲突的以本版为准 。对于把中东当作出海目的地的中国卖家而言，这版规则既是\"操作说明书\"，也是\"红线警示...AMZDH获悉，2026年9月1日起，Noon《跨境Global直发物流履约管理规则 V2》正式执行，原规则与之冲突的以本版为准 。对于把中东当作出海目的地的中国卖家而言，这版规则既是\"操作说明书\"，也是\"红线警示..."
+},
+{
+"id": "789ef835477038d1100aee25c02303fe124c4f2e",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "AMZDH获悉，8月30日，安克创新（300866.SZ / 00668.HK）发布2026年半年度报告。 这份成绩单，堪称中国出海品牌在2026年最硬核的\"中期答辩\"。💡 对跨境卖家来说，安克不只是\"别人家的优等生\"，它...AMZDH获悉，8月30日，安克创新（300866.SZ / 00668.HK）发布2026年半年度报告。 这份成绩单，堪称中国出海品牌在2026年最硬核的\"中期答辩\"。💡 对跨境卖家来说，安克不只是\"别人家的优等生\"，它...",
+"url": "https://www.amzdh.com/kjtt/10366.html",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AMZDH获悉，8月30日，安克创新（300866.SZ / 00668.HK）发布2026年半年度报告。 这份成绩单，堪称中国出海品牌在2026年最硬核的\"中期答辩\"。💡 对跨境卖家来说，安克不只是\"别人家的优等生\"，它...AMZDH获悉，8月30日，安克创新（300866.SZ / 00668.HK）发布2026年半年度报告。 这份成绩单，堪称中国出海品牌在2026年最硬核的\"中期答辩\"。💡 对跨境卖家来说，安克不只是\"别人家的优等生\"，它..."
+},
+{
+"id": "6f0b28bbf9d34936213d50ce2acce313fbc28378",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "Temu最近对德国、法国、西班牙、意大利、波兰、英国6个国家的152家中小企业卖家做了一次调查。几个数字很直接：· 34%的商家入驻Temu后，才开始进入新的海外市场；· 50%的商家在入驻后增加了产能、扩充了团队，或者...Temu最近对德国、法国、西班牙、意大利、波兰、英国6个国家的152家中小企业卖家做了一次调查。几个数字很直接：· 34%的商家入驻Temu后，才开始进入新的海外市场；· 50%的商家在入驻后增加了产能、扩充了团队，或者...",
+"url": "https://www.amzdh.com/kjtt/10363.html",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"temu",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"temu"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "Temu最近对德国、法国、西班牙、意大利、波兰、英国6个国家的152家中小企业卖家做了一次调查。几个数字很直接：· 34%的商家入驻Temu后，才开始进入新的海外市场；· 50%的商家在入驻后增加了产能、扩充了团队，或者...Temu最近对德国、法国、西班牙、意大利、波兰、英国6个国家的152家中小企业卖家做了一次调查。几个数字很直接：· 34%的商家入驻Temu后，才开始进入新的海外市场；· 50%的商家在入驻后增加了产能、扩充了团队，或者..."
+},
+{
+"id": "2eaa7bc7c53a059096b4e4fa8fa66d8e7e62d364",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "拉美下半年爆单风口！秘鲁、智利节庆带火三大跨境品类",
+"url": "https://www.amzdh.com/kjtt/10361.html",
+"published_at": null,
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "拉美下半年爆单风口！秘鲁、智利节庆带火三大跨境品类"
+},
+{
 "id": "2280c687f5691b9fb28cad1b12b8b93e9b09349d",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -46,7 +611,7 @@
 "url": "https://www.cifnews.com/article/188588",
 "published_at": null,
 "first_seen_at": "2026-08-31T00:40:26.259407Z",
-"last_seen_at": "2026-08-31T00:40:26.259407Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -68,7 +633,7 @@
 "url": "https://www.cifnews.com/article/188590",
 "published_at": null,
 "first_seen_at": "2026-08-31T00:40:26.259407Z",
-"last_seen_at": "2026-08-31T00:40:26.259407Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "general",
@@ -83,6 +648,101 @@
 "title_zh": "安克上半年狂揽166亿！亚马逊收入77亿仍占半壁江山"
 },
 {
+"id": "ae372ceda0c32e884873612bcb65d5bd71ab7d41",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊投资超3亿欧元扩建德国物流中心，员工数量将翻倍",
+"url": "https://www.ennews.com/news-143080.html",
+"published_at": "2026-08-31T00:00:00Z",
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.91,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊投资超3亿欧元扩建德国物流中心，员工数量将翻倍"
+},
+{
+"id": "0e15966d32ab395a4527832195afa0566870c6bf",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊集中清扫香港主体账号！封号危机再次袭来",
+"url": "https://www.ennews.com/article-31846-1.html",
+"published_at": "2026-08-31T00:00:00Z",
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.87,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊集中清扫香港主体账号！封号危机再次袭来"
+},
+{
+"id": "a8891fd5947b8ddbb40d874aeb8b815b8e017ed6",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊泛欧FBA计划扩展至荷比站点",
+"url": "https://www.ennews.com/news-143079.html",
+"published_at": "2026-08-31T00:00:00Z",
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊泛欧FBA计划扩展至荷比站点"
+},
+{
+"id": "5b1382a299e7b8d9c9136f2820143bc5b4d8a1e4",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "半年流失15万卖家，越南电商进入“保利润”时代",
+"url": "https://www.ennews.com/news-143081.html",
+"published_at": "2026-08-31T00:00:00Z",
+"first_seen_at": "2026-08-31T02:45:06.202411Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "半年流失15万卖家，越南电商进入“保利润”时代"
+},
+{
 "id": "c0641378bfc57659fb5b64ff93c9748c083a4ec4",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -91,7 +751,7 @@
 "url": "https://www.cifnews.com/article/188587",
 "published_at": null,
 "first_seen_at": "2026-08-30T06:00:25.955319Z",
-"last_seen_at": "2026-08-31T00:40:26.259407Z",
+"last_seen_at": "2026-08-31T02:45:06.202411Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -102,54 +762,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "近10场跨境活动！4大平台齐发力，抓住旺季增长商机"
-},
-{
-"id": "49db839bea1f3db66feba6f2c0eea8ebe9be049f",
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"source": "卖家新闻",
-"title": "Amazon Lets Sellers Pay Extra for SSD (Sub Same Day Shipping)",
-"url": "https://www.ecommercebytes.com/2026/08/29/amazon-lets-sellers-pay-extra-for-ssd-sub-same-day-shipping",
-"published_at": "2026-08-30T02:32:58Z",
-"first_seen_at": "2026-08-30T06:00:25.955319Z",
-"last_seen_at": "2026-08-31T00:40:26.259407Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊让卖家为SSD支付额外费用（亚当日发货）"
-},
-{
-"id": "7d736b7f18b0f4ebe04717de3b3c7c37eb1031e6",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "SmartScout：入驻TikTok Shop的亚马逊品牌营收增速高出同类5.2倍",
-"url": "https://www.amz123.com/kx/lqPq9t7e",
-"published_at": null,
-"first_seen_at": "2026-08-30T00:40:34.939884Z",
-"last_seen_at": "2026-08-31T00:40:26.259407Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"亚马逊"
-],
-"cross_platforms": [
-"tiktok shop",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "SmartScout：入驻TikTok Shop的亚马逊品牌营收增速高出同类5.2倍"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
