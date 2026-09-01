@@ -1,21 +1,27 @@
 {
-"generated_at": "2026-08-31T06:21:21.653364Z",
+"generated_at": "2026-09-01T00:41:07.361951Z",
 "window_hours": 24,
-"total_items": 36,
-"total_items_cross_raw": 77,
-"total_items_raw": 145,
-"total_items_all_mode": 145,
+"total_items": 33,
+"total_items_cross_raw": 69,
+"total_items_raw": 115,
+"total_items_all_mode": 115,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2154,
+"archive_total": 2156,
 "site_count": 16,
-"source_count": 5,
+"source_count": 7,
 "site_stats": [
 {
 "site_id": "amazon_seller_blog",
 "site_name": "Amazon卖家博客",
 "count": 8,
 "raw_count": 12
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 7,
+"raw_count": 45
 },
 {
 "site_id": "amzdh",
@@ -26,14 +32,8 @@
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 6,
-"raw_count": 10
-},
-{
-"site_id": "amz123",
-"site_name": "AMZ123",
 "count": 5,
-"raw_count": 28
+"raw_count": 9
 },
 {
 "site_id": "wearesellers",
@@ -42,13 +42,110 @@
 "raw_count": 25
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 5,
-"raw_count": 50
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 2
+},
+{
+"site_id": "tophub",
+"site_name": "TopHub",
+"count": 0,
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "5a6ef3b77df97adeae84fdd2e00be2998a4641f7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "INFORM年度认证审核趋严，亚马逊大量老店铺因地址格式问题遭驳回",
+"url": "https://www.amz123.com/kx/unX6kRw5",
+"published_at": null,
+"first_seen_at": "2026-09-01T00:41:07.361951Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "INFORM年度认证审核趋严，亚马逊大量老店铺因地址格式问题遭驳回"
+},
+{
+"id": "8c8a15f037b972d2a7b9d3a81f68f48fd021bf7d",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "重磅！酷澎智慧中枢开放，国内入仓，跨境开售！",
+"url": "https://www.cifnews.com/article/188599",
+"published_at": null,
+"first_seen_at": "2026-09-01T00:41:07.361951Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "重磅！酷澎智慧中枢开放，国内入仓，跨境开售！"
+},
+{
+"id": "249257d8c92107eb314577b65ada027add580377",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries上线AI注意力分析功能，15秒生成主图热力图",
+"url": "https://www.amz123.com/kx/TdatSSR6",
+"published_at": null,
+"first_seen_at": "2026-09-01T00:41:07.361951Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries上线AI注意力分析功能，15秒生成主图热力图"
+},
+{
+"id": "5d79d75ad8344296ca5d18b4b983307b5d4e780b",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon’s response to the FTC’s lawsuit regarding Sponsored Ads",
+"url": "https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response",
+"published_at": "2026-08-31T19:36:13Z",
+"first_seen_at": "2026-09-01T00:41:07.361951Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊对FTC关于赞助广告的诉讼的回应"
+},
 {
 "id": "06b25993663e5a6531a900945160bc28d04d769b",
 "site_id": "amz123",
@@ -58,7 +155,7 @@
 "url": "https://www.amz123.com/kx/ciOa7vAs",
 "published_at": null,
 "first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.97,
 "cross_label": "fee_logistics",
@@ -70,8 +167,8 @@
 "卖家"
 ],
 "cross_platforms": [
-"fba",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊SSD极速配送网络扩容，FBA卖家可付费竞价接入"
@@ -85,7 +182,7 @@
 "url": "https://www.cifnews.com/article/188597",
 "published_at": null,
 "first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -107,7 +204,7 @@
 "url": "https://www.cifnews.com/article/188596",
 "published_at": null,
 "first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "general",
@@ -130,7 +227,7 @@
 "url": "https://www.amz123.com/kx/mbppndRK",
 "published_at": null,
 "first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -153,7 +250,7 @@
 "url": "https://www.amz123.com/kx/ALmMkCZW",
 "published_at": null,
 "first_seen_at": "2026-08-31T03:00:29.127300Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "general",
@@ -163,8 +260,8 @@
 "亚马逊"
 ],
 "cross_platforms": [
-"fba",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊FBA可融化商品8月31日提前解禁，Q4备货窗口延长近30天"
@@ -178,7 +275,7 @@
 "url": "https://www.amz123.com/kx/c07iO98P",
 "published_at": null,
 "first_seen_at": "2026-08-31T03:00:29.127300Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "fee_logistics",
@@ -370,7 +467,7 @@
 "url": "https://www.amzdh.com/kjtt/10369.html",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "platform_trend",
@@ -470,7 +567,7 @@
 "url": "https://www.cifnews.com/article/188594",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -491,7 +588,7 @@
 "url": "https://www.cifnews.com/article/188591",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -512,7 +609,7 @@
 "url": "https://www.amzdh.com/kjtt/10365.html",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "listing_product",
@@ -549,8 +646,8 @@
 "电商"
 ],
 "cross_platforms": [
-"shopee",
-"tiktok shop"
+"tiktok shop",
+"shopee"
 ],
 "cross_sites": [],
 "title_zh": "半年逾15万店铺退出，越南电商卖家加速撤离Shopee与TikTok Shop"
@@ -633,7 +730,7 @@
 "url": "https://www.amzdh.com/kjtt/10368.html",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -656,7 +753,7 @@
 "url": "https://www.amzdh.com/kjtt/10368.html",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -680,7 +777,7 @@
 "url": "https://www.amzdh.com/kjtt/10366.html",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "listing_product",
@@ -703,7 +800,7 @@
 "url": "https://www.amzdh.com/kjtt/10363.html",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -730,7 +827,7 @@
 "url": "https://www.amzdh.com/kjtt/10361.html",
 "published_at": null,
 "first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
+"last_seen_at": "2026-09-01T00:41:07.361951Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -741,169 +838,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "拉美下半年爆单风口！秘鲁、智利节庆带火三大跨境品类"
-},
-{
-"id": "2280c687f5691b9fb28cad1b12b8b93e9b09349d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "旺季前大清洗！一批卖家已经中招了",
-"url": "https://www.cifnews.com/article/188588",
-"published_at": null,
-"first_seen_at": "2026-08-31T00:40:26.259407Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "旺季前大清洗！一批卖家已经中招了"
-},
-{
-"id": "93ef405ba55300ac88a7249636206da170cc8dde",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "安克上半年狂揽166亿！亚马逊收入77亿仍占半壁江山",
-"url": "https://www.cifnews.com/article/188590",
-"published_at": null,
-"first_seen_at": "2026-08-31T00:40:26.259407Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "安克上半年狂揽166亿！亚马逊收入77亿仍占半壁江山"
-},
-{
-"id": "ae372ceda0c32e884873612bcb65d5bd71ab7d41",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊投资超3亿欧元扩建德国物流中心，员工数量将翻倍",
-"url": "https://www.ennews.com/news-143080.html",
-"published_at": "2026-08-31T00:00:00Z",
-"first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T03:00:29.127300Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"物流"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊投资超3亿欧元扩建德国物流中心，员工数量将翻倍"
-},
-{
-"id": "0e15966d32ab395a4527832195afa0566870c6bf",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊集中清扫香港主体账号！封号危机再次袭来",
-"url": "https://www.ennews.com/article-31846-1.html",
-"published_at": "2026-08-31T00:00:00Z",
-"first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊集中清扫香港主体账号！封号危机再次袭来"
-},
-{
-"id": "a8891fd5947b8ddbb40d874aeb8b815b8e017ed6",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊泛欧FBA计划扩展至荷比站点",
-"url": "https://www.ennews.com/news-143079.html",
-"published_at": "2026-08-31T00:00:00Z",
-"first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T03:00:29.127300Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊"
-],
-"cross_platforms": [
-"fba",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊泛欧FBA计划扩展至荷比站点"
-},
-{
-"id": "99c7814271b445836862e5e9818a596af66fa665",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "跨境电商成中国制造出海新引擎，山东迷你挖机欧美市占率超50%",
-"url": "https://www.ennews.com/news-143103.html",
-"published_at": "2026-08-31T00:00:00Z",
-"first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-08-31T06:21:21.653364Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨境电商成中国制造出海新引擎，山东迷你挖机欧美市占率超50%"
-},
-{
-"id": "5b1382a299e7b8d9c9136f2820143bc5b4d8a1e4",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "半年流失15万卖家，越南电商进入“保利润”时代",
-"url": "https://www.ennews.com/news-143081.html",
-"published_at": "2026-08-31T00:00:00Z",
-"first_seen_at": "2026-08-31T02:45:06.202411Z",
-"last_seen_at": "2026-08-31T03:00:29.127300Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "半年流失15万卖家，越南电商进入“保利润”时代"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
