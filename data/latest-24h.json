@@ -1,45 +1,39 @@
 {
-"generated_at": "2026-09-01T05:49:06.156161Z",
+"generated_at": "2026-09-02T00:40:52.582985Z",
 "window_hours": 24,
-"total_items": 18,
-"total_items_cross_raw": 43,
-"total_items_raw": 101,
-"total_items_all_mode": 101,
+"total_items": 17,
+"total_items_cross_raw": 58,
+"total_items_raw": 113,
+"total_items_all_mode": 113,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2170,
+"archive_total": 2239,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
 {
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 28
+},
+{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 64
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 5,
-"raw_count": 10
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 4,
-"raw_count": 22
+"raw_count": 80
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "count": 1,
-"raw_count": 2
+"raw_count": 1
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 2
+"raw_count": 3
 },
 {
 "site_id": "channelx",
@@ -49,6 +43,210 @@
 }
 ],
 "items": [
+{
+"id": "44e43fc2b5f1096da9df0daabada88bce4823227",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "重要预警：PPWR第68条落地在即：德国包装违规最高可罚20万欧元",
+"url": "https://www.cifnews.com/article/188635",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ppwr"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "重要预警：PPWR第68条落地在即：德国包装违规最高可罚20万欧元"
+},
+{
+"id": "c14b58a020ff28c6865036fca891df1d9c4319aa",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "印尼网红Vilmei遭员工侵占12.8亿印尼盾，跨境圈内部风控隐患引关注",
+"url": "https://www.amz123.com/kx/3qvZTKip",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"网红"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "印尼网红Vilmei遭员工侵占12.8亿印尼盾，跨境圈内部风控隐患引关注"
+},
+{
+"id": "c84da0d8e73c1558f9bc3e4d8701e62a02cc6a32",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "26-cv-01354｜一颗攀岩训练球牵出9项影像作品，9大平台卖家面临TRO冻结风险",
+"url": "https://www.cifnews.com/article/188642",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "26-cv-01354｜一颗攀岩训练球牵出9项影像作品，9大平台卖家面临TRO冻结风险"
+},
+{
+"id": "6e0c429e38013ff079546efbb7b6f987e69ffeee",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "侵权产品零销售却被冻结1万美元，卖家应准备哪些证据？",
+"url": "https://www.cifnews.com/article/188632",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "侵权产品零销售却被冻结1万美元，卖家应准备哪些证据？"
+},
+{
+"id": "bc17de8016d51960ea08c75ee3ac305678dce06b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "每期一家跨境电商公司：恒林股份",
+"url": "https://www.cifnews.com/article/188626",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "每期一家跨境电商公司：恒林股份"
+},
+{
+"id": "8f211549dcb3b4564e26b219c00ea85e33776afe",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "双清包税走到头了，9月起亚马逊欧洲站强制自税",
+"url": "https://www.cifnews.com/article/188625",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "双清包税走到头了，9月起亚马逊欧洲站强制自税"
+},
+{
+"id": "7b3860c02e7a485f57795299f0725d44e6556412",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "26-cv-10279｜用28亿播放的顶流歌手名字做T恤？这个TRO案，跨境卖家应该看看",
+"url": "https://www.cifnews.com/article/188643",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "26-cv-10279｜用28亿播放的顶流歌手名字做T恤？这个TRO案，跨境卖家应该看看"
+},
+{
+"id": "43a81f9c1b5a6250e52a7df0309db509e0fa21e7",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "掌握旺季节奏｜用好亚马逊促销工具，轻松拉流量促转化",
+"url": "https://www.cifnews.com/article/188637",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"流量"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "掌握旺季节奏｜用好亚马逊促销工具，轻松拉流量促转化"
+},
+{
+"id": "0dc2139d128b23b88eec2584cb2ac37ef18ead27",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "What’s new on Prime Video in September 2026, including ‘Neagley,’ ‘Drawn Together,’ and ‘Thursday Night Football’",
+"url": "https://www.aboutamazon.com/news/entertainment/prime-video-september-films-shows-sports-2026",
+"published_at": "2026-09-01T13:00:06Z",
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_platforms": [
+"amazon",
+"prime"
+],
+"cross_sites": [],
+"title_zh": "2026年9月Prime Video的新功能，包括“Neagley”、“Drawn Together”和“Thursday Night Football”"
+},
 {
 "id": "b2c283850bb4b3e117a3fee4da4f230ceaef83a6",
 "site_id": "amz123",
@@ -86,7 +284,7 @@
 "url": "https://www.amz123.com/kx/aDbrEJe8",
 "published_at": null,
 "first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "policy_update",
@@ -111,7 +309,7 @@
 "url": "https://www.amz123.com/kx/v11aQc0n",
 "published_at": null,
 "first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "fee_logistics",
@@ -209,7 +407,7 @@
 "url": "https://www.amz123.com/kx/vB5Cfy4X",
 "published_at": null,
 "first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
+"last_seen_at": "2026-09-02T00:40:52.582985Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "temu",
@@ -224,30 +422,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊、Temu加速抢占瑞士线上购物搜索入口"
-},
-{
-"id": "096c23e99a223252d2779af7b345e1eb549b1bf8",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "卖家日均成交额增长超200%！TikTok美区进入\"拍卖时代",
-"url": "https://www.cifnews.com/article/188602",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "卖家日均成交额增长超200%！TikTok美区进入\"拍卖时代"
 },
 {
 "id": "5a6ef3b77df97adeae84fdd2e00be2998a4641f7",
@@ -272,213 +446,6 @@
 ],
 "cross_sites": [],
 "title_zh": "INFORM年度认证审核趋严，亚马逊大量老店铺因地址格式问题遭驳回"
-},
-{
-"id": "8c8a15f037b972d2a7b9d3a81f68f48fd021bf7d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "重磅！酷澎智慧中枢开放，国内入仓，跨境开售！",
-"url": "https://www.cifnews.com/article/188599",
-"published_at": null,
-"first_seen_at": "2026-09-01T00:41:07.361951Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "重磅！酷澎智慧中枢开放，国内入仓，跨境开售！"
-},
-{
-"id": "1c8a0fbcf63821382ba62fe1e612883be7720b35",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊仙人掌笔筒月销250单",
-"url": "https://www.ennews.com/news-143205.html",
-"published_at": "2026-09-01T00:00:00Z",
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊仙人掌笔筒月销250单"
-},
-{
-"id": "81a06de951b901e51e64c5887f017594e4cf59d9",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "俄法院裁定：卖家须按标价售货，技术故障不构成免责",
-"url": "https://www.ennews.com/news-143223.html",
-"published_at": "2026-09-01T00:00:00Z",
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄法院裁定：卖家须按标价售货，技术故障不构成免责"
-},
-{
-"id": "8c648078da39a94bc67588cb99af72bb736590e1",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon别尔哥罗德分拣中心遭无人机袭击，有人员受伤",
-"url": "https://www.ennews.com/news-143221.html",
-"published_at": "2026-09-01T00:00:00Z",
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon别尔哥罗德分拣中心遭无人机袭击，有人员受伤"
-},
-{
-"id": "497a30a87839b940ee091cbc066f639bf170dbd4",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "美客多推出直播购物功能",
-"url": "https://www.ennews.com/news-143215.html",
-"published_at": "2026-09-01T00:00:00Z",
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"美客多"
-],
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "美客多推出直播购物功能"
-},
-{
-"id": "5d79d75ad8344296ca5d18b4b983307b5d4e780b",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon’s response to the FTC’s lawsuit regarding Sponsored Ads",
-"url": "https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response",
-"published_at": "2026-08-31T19:36:13Z",
-"first_seen_at": "2026-09-01T00:41:07.361951Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊对FTC关于赞助广告的诉讼的回应"
-},
-{
-"id": "06b25993663e5a6531a900945160bc28d04d769b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊SSD极速配送网络扩容，FBA卖家可付费竞价接入",
-"url": "https://www.amz123.com/kx/ciOa7vAs",
-"published_at": null,
-"first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-09-01T00:41:07.361951Z",
-"cross_is_related": true,
-"cross_score": 0.97,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [],
-"title_zh": "亚马逊SSD极速配送网络扩容，FBA卖家可付费竞价接入"
-},
-{
-"id": "48295684a705e6e64bd4ca0b781b5844efd40600",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "要招募3万名中国卖家！又一新兴平台火了",
-"url": "https://www.cifnews.com/article/188597",
-"published_at": null,
-"first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "要招募3万名中国卖家！又一新兴平台火了"
-},
-{
-"id": "5e6e93a1f61bf51097ae1b4264e4797bd3fbbbdb",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "把湖南陶瓷卖到全球，3个留英创业者在亚马逊销量涨了近一半",
-"url": "https://www.cifnews.com/article/188596",
-"published_at": null,
-"first_seen_at": "2026-08-31T06:21:21.653364Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "把湖南陶瓷卖到全球，3个留英创业者在亚马逊销量涨了近一半"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
