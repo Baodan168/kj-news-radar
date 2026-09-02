@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-09-02T00:40:52.582985Z",
+"generated_at": "2026-09-02T05:12:25.806150Z",
 "window_hours": 24,
-"total_items": 17,
-"total_items_cross_raw": 58,
-"total_items_raw": 113,
-"total_items_all_mode": 113,
+"total_items": 25,
+"total_items_cross_raw": 67,
+"total_items_raw": 120,
+"total_items_all_mode": 120,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2239,
+"archive_total": 2163,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
@@ -15,13 +15,25 @@
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 28
+"raw_count": 31
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 80
+"raw_count": 63
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 4,
+"raw_count": 20
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 4,
+"raw_count": 4
 },
 {
 "site_id": "amazon_newsroom",
@@ -33,16 +45,35 @@
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 0,
 "raw_count": 1
 }
 ],
 "items": [
+{
+"id": "9b78ebb5a475a521b067023553b0e4ccf80956e3",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "三位亚马逊女卖家的出海复盘：从车间到全球货架，最难的不是造产品",
+"url": "https://www.cifnews.com/article/188648",
+"published_at": null,
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "三位亚马逊女卖家的出海复盘：从车间到全球货架，最难的不是造产品"
+},
 {
 "id": "44e43fc2b5f1096da9df0daabada88bce4823227",
 "site_id": "cifnews",
@@ -52,7 +83,7 @@
 "url": "https://www.cifnews.com/article/188635",
 "published_at": null,
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "policy_update",
@@ -73,7 +104,7 @@
 "url": "https://www.amz123.com/kx/3qvZTKip",
 "published_at": null,
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "seller_action",
@@ -95,7 +126,7 @@
 "url": "https://www.cifnews.com/article/188642",
 "published_at": null,
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -117,7 +148,7 @@
 "url": "https://www.cifnews.com/article/188632",
 "published_at": null,
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "listing_product",
@@ -187,7 +218,7 @@
 "url": "https://www.cifnews.com/article/188643",
 "published_at": null,
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
@@ -202,28 +233,98 @@
 "title_zh": "26-cv-10279｜用28亿播放的顶流歌手名字做T恤？这个TRO案，跨境卖家应该看看"
 },
 {
-"id": "43a81f9c1b5a6250e52a7df0309db509e0fa21e7",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"id": "ce541a2cc2f50b42afb8ad60b534afa159165f25",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "掌握旺季节奏｜用好亚马逊促销工具，轻松拉流量促转化",
-"url": "https://www.cifnews.com/article/188637",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"title": "美政府报告：亚马逊员工依赖食品券和医疗补助人数增长近两倍",
+"url": "https://www.ennews.com/news-143309.html",
+"published_at": "2026-09-02T00:00:00Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
-"cross_score": 0.65,
-"cross_label": "advertising",
+"cross_score": 0.64,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"流量"
+"亚马逊"
 ],
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "掌握旺季节奏｜用好亚马逊促销工具，轻松拉流量促转化"
+"title_zh": "美政府报告：亚马逊员工依赖食品券和医疗补助人数增长近两倍"
+},
+{
+"id": "534081604541c60db1d446114718e191530348f1",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon正式进入蒙古市场，成其第九个海外站点",
+"url": "https://www.ennews.com/news-143311.html",
+"published_at": "2026-09-02T00:00:00Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon正式进入蒙古市场，成其第九个海外站点"
+},
+{
+"id": "f4c3ebe62c3d624aacc651c2a9df4c0b4bbd38b9",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries试点数字金融资产融资，三卖家筹得2440万卢布",
+"url": "https://www.ennews.com/news-143307.html",
+"published_at": "2026-09-02T00:00:00Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries试点数字金融资产融资，三卖家筹得2440万卢布"
+},
+{
+"id": "8c2da3634fe9e3b1b45831c7d78f74952a932931",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊投资超53亿美元，沙特AWS基础设施即将启用",
+"url": "https://www.ennews.com/news-143308.html",
+"published_at": "2026-09-02T00:00:00Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊投资超53亿美元，沙特AWS基础设施即将启用"
 },
 {
 "id": "0dc2139d128b23b88eec2584cb2ac37ef18ead27",
@@ -234,18 +335,106 @@
 "url": "https://www.aboutamazon.com/news/entertainment/prime-video-september-films-shows-sports-2026",
 "published_at": "2026-09-01T13:00:06Z",
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [],
 "cross_platforms": [
-"amazon",
-"prime"
+"prime",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "2026年9月Prime Video的新功能，包括“Neagley”、“Drawn Together”和“Thursday Night Football”"
+},
+{
+"id": "02f8aaee77eb8e80251ca852c3cfe99522f15016",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "UK retailers face rising EU cross-border costs ahead of the golden quarter",
+"url": "https://channelx.world/2026/09/uk-retailers-face-rising-eu-cross-border-costs-ahead-of-the-golden-quarter",
+"published_at": "2026-09-01T11:15:59Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"cross-border"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "英国零售商在黄金季度之前面临欧盟跨境成本上升"
+},
+{
+"id": "ac82878998938bd6ba791e1e2fad299339db8c37",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Seller Provided Support to be standard for sellers on Whatnot",
+"url": "https://channelx.world/2026/09/seller-provided-support-to-be-standard-for-sellers-on-whatnot",
+"published_at": "2026-09-01T09:41:43Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"seller"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "卖家提供的支持是卖家在Whatnot上的标准"
+},
+{
+"id": "58ec8a500f1552f6b9d8d4fae90f83d649160a8d",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon ‘You Buy, We Donate’ Brings Books to UK Families",
+"url": "https://channelx.world/2026/09/amazon-you-buy-we-donate-brings-books-to-uk-families",
+"published_at": "2026-09-01T09:32:53Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊“你买，我们捐”为英国家庭带来书籍"
+},
+{
+"id": "92839e662fb1fa8e0df2c5dee38bb455bbbf0272",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon 75 Character Product Title Q&A",
+"url": "https://channelx.world/2026/09/amazon-75-character-product-title-qa",
+"published_at": "2026-09-01T06:45:09Z",
+"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "Amazon 75 Character产品标题问答"
 },
 {
 "id": "b2c283850bb4b3e117a3fee4da4f230ceaef83a6",
@@ -284,7 +473,7 @@
 "url": "https://www.amz123.com/kx/aDbrEJe8",
 "published_at": null,
 "first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "policy_update",
@@ -309,7 +498,7 @@
 "url": "https://www.amz123.com/kx/v11aQc0n",
 "published_at": null,
 "first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "fee_logistics",
@@ -407,7 +596,7 @@
 "url": "https://www.amz123.com/kx/vB5Cfy4X",
 "published_at": null,
 "first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "temu",
@@ -424,28 +613,28 @@
 "title_zh": "亚马逊、Temu加速抢占瑞士线上购物搜索入口"
 },
 {
-"id": "5a6ef3b77df97adeae84fdd2e00be2998a4641f7",
+"id": "c9e64bdca1114801fd9560e0d3085a5e6bb09f38",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "INFORM年度认证审核趋严，亚马逊大量老店铺因地址格式问题遭驳回",
-"url": "https://www.amz123.com/kx/unX6kRw5",
+"title": "CPSC扩大召回Cuisinart烤架刷至190万件，亚马逊沃尔玛已全线下架",
+"url": "https://www.amz123.com/kx/538JlNnx",
 "published_at": null,
-"first_seen_at": "2026-09-01T00:41:07.361951Z",
-"last_seen_at": "2026-09-01T00:41:07.361951Z",
+"first_seen_at": "2026-09-01T05:49:06.156161Z",
+"last_seen_at": "2026-09-01T05:49:06.156161Z",
 "cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "seller_action",
+"cross_score": 0.7,
+"cross_label": "walmart",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
-"店铺"
+"沃尔玛"
 ],
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "INFORM年度认证审核趋严，亚马逊大量老店铺因地址格式问题遭驳回"
+"title_zh": "CPSC扩大召回Cuisinart烤架刷至190万件，亚马逊沃尔玛已全线下架"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
