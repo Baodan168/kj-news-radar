@@ -1,39 +1,27 @@
 {
-"generated_at": "2026-09-02T05:12:25.806150Z",
+"generated_at": "2026-09-03T00:40:40.109407Z",
 "window_hours": 24,
-"total_items": 25,
-"total_items_cross_raw": 67,
-"total_items_raw": 120,
-"total_items_all_mode": 120,
+"total_items": 17,
+"total_items_cross_raw": 57,
+"total_items_raw": 90,
+"total_items_all_mode": 90,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2163,
+"archive_total": 2156,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 31
-},
-{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 63
+"raw_count": 48
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 4,
-"raw_count": 20
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 4,
-"raw_count": 4
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 34
 },
 {
 "site_id": "amazon_newsroom",
@@ -45,10 +33,181 @@
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 1
+"raw_count": 3
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 0,
+"raw_count": 4
 }
 ],
 "items": [
+{
+"id": "1e208a0f0491ed08dbffd0e318cb667e3ab00e1a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊GWD宁波仓正式上线，三仓布局托管美线补货",
+"url": "https://www.amz123.com/kx/34Ww4CZO",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊GWD宁波仓正式上线，三仓布局托管美线补货"
+},
+{
+"id": "95a4fd09d1ca95ff36023ce6880a6b71db44b0dd",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美区爆米花笔市场分析：真实月销4.36万件，头部品牌占据近半份额",
+"url": "https://www.amz123.com/kx/0KBrPLQ0",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美区爆米花笔市场分析：真实月销4.36万件，头部品牌占据近半份额"
+},
+{
+"id": "5ae3a60a28e0aa67adaf7533f9d27db6348f14b5",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "拆解4种资金周转方式，融资借贷并非最优解！亚马逊卖家别再盲目融资了",
+"url": "https://www.cifnews.com/article/188659",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "拆解4种资金周转方式，融资借贷并非最优解！亚马逊卖家别再盲目融资了"
+},
+{
+"id": "881bfe2c4cfa9768e174ee88777e37ad184c3914",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "一个中国水杯靠\"藏药格\"抢下亚马逊英国站前三",
+"url": "https://www.cifnews.com/article/188653",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "一个中国水杯靠\"藏药格\"抢下亚马逊英国站前三"
+},
+{
+"id": "08914a85d337deec18d81b37bc206ae16954bfee",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "深圳盛祥兴骗税5342万被罚6011万，9810海外仓\"只入库不销售\"成稽查突破口",
+"url": "https://www.amz123.com/kx/f8st4q9S",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"海外仓"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "深圳盛祥兴骗税5342万被罚6011万，9810海外仓\"只入库不销售\"成稽查突破口"
+},
+{
+"id": "a97c3905b16ed41661350b3cb283c83a974396e8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries俄罗斯站9月1日起上调商品处置费至44卢布/件",
+"url": "https://www.amz123.com/kx/pdmlDwcZ",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries俄罗斯站9月1日起上调商品处置费至44卢布/件"
+},
+{
+"id": "062a28cc6e259e90df640ce63c9009e6b0cdabaa",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Is that message really from Amazon? Just ask Alexa for Shopping.",
+"url": "https://www.aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
+"published_at": "2026-09-02T13:01:10Z",
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "这条消息真的是来自亚马逊吗？只需询问Alexa购物。"
+},
 {
 "id": "9b78ebb5a475a521b067023553b0e4ccf80956e3",
 "site_id": "cifnews",
@@ -58,7 +217,7 @@
 "url": "https://www.cifnews.com/article/188648",
 "published_at": null,
 "first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -126,7 +285,7 @@
 "url": "https://www.cifnews.com/article/188642",
 "published_at": null,
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -210,86 +369,17 @@
 "title_zh": "双清包税走到头了，9月起亚马逊欧洲站强制自税"
 },
 {
-"id": "7b3860c02e7a485f57795299f0725d44e6556412",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "26-cv-10279｜用28亿播放的顶流歌手名字做T恤？这个TRO案，跨境卖家应该看看",
-"url": "https://www.cifnews.com/article/188643",
+"id": "4eb5066885cda07a8a72522e1e7ae0f7bdfee4a8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries中国卖家500元入驻费优惠延期至10月31日",
+"url": "https://www.amz123.com/kx/vacC9UPP",
 "published_at": null,
 "first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"last_seen_at": "2026-09-03T00:40:40.109407Z",
 "cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "26-cv-10279｜用28亿播放的顶流歌手名字做T恤？这个TRO案，跨境卖家应该看看"
-},
-{
-"id": "ce541a2cc2f50b42afb8ad60b534afa159165f25",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "美政府报告：亚马逊员工依赖食品券和医疗补助人数增长近两倍",
-"url": "https://www.ennews.com/news-143309.html",
-"published_at": "2026-09-02T00:00:00Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "美政府报告：亚马逊员工依赖食品券和医疗补助人数增长近两倍"
-},
-{
-"id": "534081604541c60db1d446114718e191530348f1",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon正式进入蒙古市场，成其第九个海外站点",
-"url": "https://www.ennews.com/news-143311.html",
-"published_at": "2026-09-02T00:00:00Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon正式进入蒙古市场，成其第九个海外站点"
-},
-{
-"id": "f4c3ebe62c3d624aacc651c2a9df4c0b4bbd38b9",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries试点数字金融资产融资，三卖家筹得2440万卢布",
-"url": "https://www.ennews.com/news-143307.html",
-"published_at": "2026-09-02T00:00:00Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.66,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -301,340 +391,54 @@
 "wildberries"
 ],
 "cross_sites": [],
-"title_zh": "Wildberries试点数字金融资产融资，三卖家筹得2440万卢布"
+"title_zh": "Wildberries中国卖家500元入驻费优惠延期至10月31日"
 },
 {
-"id": "8c2da3634fe9e3b1b45831c7d78f74952a932931",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊投资超53亿美元，沙特AWS基础设施即将启用",
-"url": "https://www.ennews.com/news-143308.html",
-"published_at": "2026-09-02T00:00:00Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
+"id": "29f0b0d7d4a3adcd71f296fd357a53bfb5c755a2",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon计划将逾8万个自提点升级为小型物流中心",
+"url": "https://www.amz123.com/kx/LkKpeOF8",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
+"last_seen_at": "2026-09-02T05:12:25.806150Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"物流"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon计划将逾8万个自提点升级为小型物流中心"
+},
+{
+"id": "1e3a30938cd790cd2aefccd1bf6d1f883ff564bb",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美客多正式上线Mercado Livre Live直播购物功能",
+"url": "https://www.amz123.com/kx/tb0Jkmds",
+"published_at": null,
+"first_seen_at": "2026-09-02T00:40:52.582985Z",
 "last_seen_at": "2026-09-02T05:12:25.806150Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"美客多"
 ],
 "cross_platforms": [
-"亚马逊"
+"美客多"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊投资超53亿美元，沙特AWS基础设施即将启用"
-},
-{
-"id": "0dc2139d128b23b88eec2584cb2ac37ef18ead27",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "What’s new on Prime Video in September 2026, including ‘Neagley,’ ‘Drawn Together,’ and ‘Thursday Night Football’",
-"url": "https://www.aboutamazon.com/news/entertainment/prime-video-september-films-shows-sports-2026",
-"published_at": "2026-09-01T13:00:06Z",
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [
-"prime",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "2026年9月Prime Video的新功能，包括“Neagley”、“Drawn Together”和“Thursday Night Football”"
-},
-{
-"id": "02f8aaee77eb8e80251ca852c3cfe99522f15016",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "UK retailers face rising EU cross-border costs ahead of the golden quarter",
-"url": "https://channelx.world/2026/09/uk-retailers-face-rising-eu-cross-border-costs-ahead-of-the-golden-quarter",
-"published_at": "2026-09-01T11:15:59Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"cross-border"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "英国零售商在黄金季度之前面临欧盟跨境成本上升"
-},
-{
-"id": "ac82878998938bd6ba791e1e2fad299339db8c37",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Seller Provided Support to be standard for sellers on Whatnot",
-"url": "https://channelx.world/2026/09/seller-provided-support-to-be-standard-for-sellers-on-whatnot",
-"published_at": "2026-09-01T09:41:43Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"seller"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "卖家提供的支持是卖家在Whatnot上的标准"
-},
-{
-"id": "58ec8a500f1552f6b9d8d4fae90f83d649160a8d",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon ‘You Buy, We Donate’ Brings Books to UK Families",
-"url": "https://channelx.world/2026/09/amazon-you-buy-we-donate-brings-books-to-uk-families",
-"published_at": "2026-09-01T09:32:53Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊“你买，我们捐”为英国家庭带来书籍"
-},
-{
-"id": "92839e662fb1fa8e0df2c5dee38bb455bbbf0272",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon 75 Character Product Title Q&A",
-"url": "https://channelx.world/2026/09/amazon-75-character-product-title-qa",
-"published_at": "2026-09-01T06:45:09Z",
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Amazon 75 Character产品标题问答"
-},
-{
-"id": "b2c283850bb4b3e117a3fee4da4f230ceaef83a6",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊欧洲五国FBA跨境货件送达窗口期将于9月1日起缩短至7天",
-"url": "https://www.amz123.com/kx/tf2RijBE",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.97,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊",
-"跨境"
-],
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊欧洲五国FBA跨境货件送达窗口期将于9月1日起缩短至7天"
-},
-{
-"id": "9d4751ea87143bf077cd3e0a765e7178d93db367",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊扩大Pan-EU FBA上架要求，荷兰站将成为必选市场",
-"url": "https://www.amz123.com/kx/aDbrEJe8",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [],
-"title_zh": "亚马逊扩大Pan-EU FBA上架要求，荷兰站将成为必选市场"
-},
-{
-"id": "0249cfd3ab165621541b78ee612ae9f20ff92134",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美国FTC联合22州起诉亚马逊，指控操纵广告竞价并向商家收取高额费用",
-"url": "https://www.amz123.com/kx/v11aQc0n",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国FTC联合22州起诉亚马逊，指控操纵广告竞价并向商家收取高额费用"
-},
-{
-"id": "441e356b5fad1a8c1b28b797fe3f7038621e1682",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "科罗拉多州注册代理合规风险持续发酵，跨境卖家应及时自查公司状态",
-"url": "https://www.amz123.com/kx/wI7l9JiJ",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "科罗拉多州注册代理合规风险持续发酵，跨境卖家应及时自查公司状态"
-},
-{
-"id": "3f5f9931cffd3328ab46fd617e8731c3c4077f5f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊8月29日再次核查香港主体地址，10月14日前未完成验证将扣留欧盟及英国站点款项",
-"url": "https://www.amz123.com/kx/CKhCBt3X",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "亚马逊8月29日再次核查香港主体地址，10月14日前未完成验证将扣留欧盟及英国站点款项"
-},
-{
-"id": "7ae6a2f78e2f69e9753ae5ff1109d7e7dbe22bb9",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "税务点名“假代销”偷税：很多跨境卖家的多店铺模式，也该重新看看了",
-"url": "https://www.cifnews.com/article/188607",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家",
-"店铺"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "税务点名“假代销”偷税：很多跨境卖家的多店铺模式，也该重新看看了"
-},
-{
-"id": "7d4c08824bebd4f99516a66380dfb5493666a9a2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊、Temu加速抢占瑞士线上购物搜索入口",
-"url": "https://www.amz123.com/kx/vB5Cfy4X",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊",
-"temu"
-],
-"cross_sites": [],
-"title_zh": "亚马逊、Temu加速抢占瑞士线上购物搜索入口"
-},
-{
-"id": "c9e64bdca1114801fd9560e0d3085a5e6bb09f38",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "CPSC扩大召回Cuisinart烤架刷至190万件，亚马逊沃尔玛已全线下架",
-"url": "https://www.amz123.com/kx/538JlNnx",
-"published_at": null,
-"first_seen_at": "2026-09-01T05:49:06.156161Z",
-"last_seen_at": "2026-09-01T05:49:06.156161Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "walmart",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"沃尔玛"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "CPSC扩大召回Cuisinart烤架刷至190万件，亚马逊沃尔玛已全线下架"
+"title_zh": "美客多正式上线Mercado Livre Live直播购物功能"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
