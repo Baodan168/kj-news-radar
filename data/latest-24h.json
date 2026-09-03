@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-09-03T00:40:40.109407Z",
+"generated_at": "2026-09-03T05:16:16.483518Z",
 "window_hours": 24,
-"total_items": 17,
-"total_items_cross_raw": 57,
-"total_items_raw": 90,
-"total_items_all_mode": 90,
+"total_items": 25,
+"total_items_cross_raw": 60,
+"total_items_raw": 88,
+"total_items_all_mode": 88,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2156,
+"archive_total": 2135,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
@@ -15,13 +15,19 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 48
+"raw_count": 47
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 34
+"raw_count": 14
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 8,
+"raw_count": 20
 },
 {
 "site_id": "amazon_newsroom",
@@ -30,19 +36,186 @@
 "raw_count": 1
 },
 {
-"site_id": "tophub",
-"site_name": "TopHub",
-"count": 0,
-"raw_count": 3
-},
-{
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 0,
 "raw_count": 4
+},
+{
+"site_id": "tophub",
+"site_name": "TopHub",
+"count": 0,
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "91aa5df782e7250aa2cf076065d14025203757c4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "UPS宣布9月启用全新全球运营模式，削减亚马逊单量转向高附加值物流赛道",
+"url": "https://www.amz123.com/kx/7v1yrNZm",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"ups",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "UPS宣布9月启用全新全球运营模式，削减亚马逊单量转向高附加值物流赛道"
+},
+{
+"id": "d0d18ab88bfcfa0e18fce6f77250892a0ab91453",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊集中整治\"重复创建ASIN\"违规，翻新配合Vine套评成主要触发原因",
+"url": "https://www.amz123.com/kx/z0Q6YNbV",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"asin"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊集中整治\"重复创建ASIN\"违规，翻新配合Vine套评成主要触发原因"
+},
+{
+"id": "7fffff0f77fab9a22789cc9096481b25039ecada",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "泰国废除60天免签政策，对60国调整为30天，跨境买家采购窗口收窄",
+"url": "https://www.amz123.com/kx/uBAaIODB",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"买家",
+"采购",
+"政策"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "泰国废除60天免签政策，对60国调整为30天，跨境买家采购窗口收窄"
+},
+{
+"id": "8c47a065d9d3f0f636515694ace93be092f18a38",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "深圳税局发短信要求卖家10日内自查出口增值税申报",
+"url": "https://www.amz123.com/kx/zS3V73OK",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"增值税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "深圳税局发短信要求卖家10日内自查出口增值税申报"
+},
+{
+"id": "142d72cc73aedc7b319c5f64aaec95b35af157bf",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "从扣货到查人：海外正在严查中国跨境电商的哪条链路？",
+"url": "https://www.cifnews.com/article/188665",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "从扣货到查人：海外正在严查中国跨境电商的哪条链路？"
+},
+{
+"id": "b723f1b4e28e3eafa6de32600ffc8228df19bd84",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊主动修正2025年Q4涉华税务数据并重新申报，卖家历史申报面临回溯核查",
+"url": "https://www.amz123.com/kx/TqBWS9Ng",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊主动修正2025年Q4涉华税务数据并重新申报，卖家历史申报面临回溯核查"
+},
+{
+"id": "70bf217e1336dc9eb6b0a3ddacfe2847ec9e60d3",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "10日内整改！深圳卖家集中收到出口收入未足额申报增值税短信提醒",
+"url": "https://www.cifnews.com/article/188661",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"增值税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "10日内整改！深圳卖家集中收到出口收入未足额申报增值税短信提醒"
+},
 {
 "id": "1e208a0f0491ed08dbffd0e318cb667e3ab00e1a",
 "site_id": "amz123",
@@ -100,7 +273,7 @@
 "url": "https://www.cifnews.com/article/188659",
 "published_at": null,
 "first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -125,7 +298,7 @@
 "url": "https://www.cifnews.com/article/188653",
 "published_at": null,
 "first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "general",
@@ -163,15 +336,278 @@
 "title_zh": "深圳盛祥兴骗税5342万被罚6011万，9810海外仓\"只入库不销售\"成稽查突破口"
 },
 {
-"id": "a97c3905b16ed41661350b3cb283c83a974396e8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries俄罗斯站9月1日起上调商品处置费至44卢布/件",
-"url": "https://www.amz123.com/kx/pdmlDwcZ",
+"id": "241189775a897fa105ac3db6d8534543d1ba9e91",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊店铺换了主体，历史就能“清零”吗？税务总局早已明确：唯一标识码不能变",
+"url": "https://www.cifnews.com/article/188651",
 "published_at": null,
 "first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺",
+"税务总局"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊店铺换了主体，历史就能“清零”吗？税务总局早已明确：唯一标识码不能变"
+},
+{
+"id": "8e0bd1be70ab989b503faaf2b43a681ad4df66f0",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "骗税2961万，罚没9000万！跨境圈的“买单配票”彻底凉了",
+"url": "https://www.cifnews.com/article/188658",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "骗税2961万，罚没9000万！跨境圈的“买单配票”彻底凉了"
+},
+{
+"id": "729dd1769061dfbd2c5083ea10563924b02d6a29",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "单链日销200单，中国卖家不足15%！这个品类在平台卖疯了",
+"url": "https://www.cifnews.com/article/188656",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "单链日销200单，中国卖家不足15%！这个品类在平台卖疯了"
+},
+{
+"id": "d028cda3d480bf06e1e7f66e11dd1052da8b5557",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "美国注册代理“暴雷”风波发酵！卖家连夜查状态",
+"url": "https://www.cifnews.com/article/188655",
+"published_at": null,
+"first_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国注册代理“暴雷”风波发酵！卖家连夜查状态"
+},
+{
+"id": "312cc88c4480210c3b73769918fa8ca0ff926897",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "eBay法国站对欧洲个人卖家免收成交费",
+"url": "https://www.ennews.com/news-143419.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ebay",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"ebay"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "eBay法国站对欧洲个人卖家免收成交费"
+},
+{
+"id": "9b142665fb0c404a28e21cda232c9b538c6f0ac1",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "欧洲纺织协会呼吁欧盟将小包裹处理费提至10欧元",
+"url": "https://www.ennews.com/news-143430.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"包裹"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧洲纺织协会呼吁欧盟将小包裹处理费提至10欧元"
+},
+{
+"id": "6459efca2f51b165784096cef04ff26fe3ecc6b9",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon开放哈萨克斯坦FBO仓库，卖家可向俄罗斯及中亚发货",
+"url": "https://www.ennews.com/news-143425.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon开放哈萨克斯坦FBO仓库，卖家可向俄罗斯及中亚发货"
+},
+{
+"id": "390563a011a3dd8150cad0fb87b3d52dbbb2b259",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon开学季销售爆发：1050万家庭下单，需求增2.3倍",
+"url": "https://www.ennews.com/news-143423.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon开学季销售爆发：1050万家庭下单，需求增2.3倍"
+},
+{
+"id": "cf10f202f74f95eb759dbc76dd0b246059af7c09",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "2026上半年Ozon远东订单量激增2.4倍",
+"url": "https://www.ennews.com/news-143421.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "2026上半年Ozon远东订单量激增2.4倍"
+},
+{
+"id": "e1c0bc3c5ab06c6ca834db330d3797660c0a1c2e",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries、Ozon和Yandex Market开通数字卢布支付",
+"url": "https://www.ennews.com/news-143422.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"wildberries"
+],
+"cross_platforms": [
+"wildberries",
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Wildberries、Ozon和Yandex Market开通数字卢布支付"
+},
+{
+"id": "6745c02b9aa21b0b09cab522a3ce78cc887235b5",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries向俄税务部门提交受袭卖家数据，获一年纳税延期",
+"url": "https://www.ennews.com/news-143417.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries向俄税务部门提交受袭卖家数据，获一年纳税延期"
+},
+{
+"id": "aaeb371a5be73c4a69dbe20c1dd1e923701324b1",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries开放合作仓库计划获俄官方支持",
+"url": "https://www.ennews.com/news-143416.html",
+"published_at": "2026-09-03T00:00:00Z",
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -183,7 +619,7 @@
 "wildberries"
 ],
 "cross_sites": [],
-"title_zh": "Wildberries俄罗斯站9月1日起上调商品处置费至44卢布/件"
+"title_zh": "Wildberries开放合作仓库计划获俄官方支持"
 },
 {
 "id": "062a28cc6e259e90df640ce63c9009e6b0cdabaa",
@@ -194,7 +630,7 @@
 "url": "https://www.aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
 "published_at": "2026-09-02T13:01:10Z",
 "first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
+"last_seen_at": "2026-09-03T05:16:16.483518Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -207,238 +643,6 @@
 ],
 "cross_sites": [],
 "title_zh": "这条消息真的是来自亚马逊吗？只需询问Alexa购物。"
-},
-{
-"id": "9b78ebb5a475a521b067023553b0e4ccf80956e3",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "三位亚马逊女卖家的出海复盘：从车间到全球货架，最难的不是造产品",
-"url": "https://www.cifnews.com/article/188648",
-"published_at": null,
-"first_seen_at": "2026-09-02T05:12:25.806150Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "三位亚马逊女卖家的出海复盘：从车间到全球货架，最难的不是造产品"
-},
-{
-"id": "44e43fc2b5f1096da9df0daabada88bce4823227",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "重要预警：PPWR第68条落地在即：德国包装违规最高可罚20万欧元",
-"url": "https://www.cifnews.com/article/188635",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ppwr"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "重要预警：PPWR第68条落地在即：德国包装违规最高可罚20万欧元"
-},
-{
-"id": "c14b58a020ff28c6865036fca891df1d9c4319aa",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "印尼网红Vilmei遭员工侵占12.8亿印尼盾，跨境圈内部风控隐患引关注",
-"url": "https://www.amz123.com/kx/3qvZTKip",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"网红"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "印尼网红Vilmei遭员工侵占12.8亿印尼盾，跨境圈内部风控隐患引关注"
-},
-{
-"id": "c84da0d8e73c1558f9bc3e4d8701e62a02cc6a32",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "26-cv-01354｜一颗攀岩训练球牵出9项影像作品，9大平台卖家面临TRO冻结风险",
-"url": "https://www.cifnews.com/article/188642",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "26-cv-01354｜一颗攀岩训练球牵出9项影像作品，9大平台卖家面临TRO冻结风险"
-},
-{
-"id": "6e0c429e38013ff079546efbb7b6f987e69ffeee",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "侵权产品零销售却被冻结1万美元，卖家应准备哪些证据？",
-"url": "https://www.cifnews.com/article/188632",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "侵权产品零销售却被冻结1万美元，卖家应准备哪些证据？"
-},
-{
-"id": "bc17de8016d51960ea08c75ee3ac305678dce06b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "每期一家跨境电商公司：恒林股份",
-"url": "https://www.cifnews.com/article/188626",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "每期一家跨境电商公司：恒林股份"
-},
-{
-"id": "8f211549dcb3b4564e26b219c00ea85e33776afe",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "双清包税走到头了，9月起亚马逊欧洲站强制自税",
-"url": "https://www.cifnews.com/article/188625",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T00:40:52.582985Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "双清包税走到头了，9月起亚马逊欧洲站强制自税"
-},
-{
-"id": "4eb5066885cda07a8a72522e1e7ae0f7bdfee4a8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries中国卖家500元入驻费优惠延期至10月31日",
-"url": "https://www.amz123.com/kx/vacC9UPP",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries中国卖家500元入驻费优惠延期至10月31日"
-},
-{
-"id": "29f0b0d7d4a3adcd71f296fd357a53bfb5c755a2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon计划将逾8万个自提点升级为小型物流中心",
-"url": "https://www.amz123.com/kx/LkKpeOF8",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"物流"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon计划将逾8万个自提点升级为小型物流中心"
-},
-{
-"id": "1e3a30938cd790cd2aefccd1bf6d1f883ff564bb",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美客多正式上线Mercado Livre Live直播购物功能",
-"url": "https://www.amz123.com/kx/tb0Jkmds",
-"published_at": null,
-"first_seen_at": "2026-09-02T00:40:52.582985Z",
-"last_seen_at": "2026-09-02T05:12:25.806150Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"美客多"
-],
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "美客多正式上线Mercado Livre Live直播购物功能"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
