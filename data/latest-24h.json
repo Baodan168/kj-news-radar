@@ -1,54 +1,159 @@
 {
-"generated_at": "2026-09-03T05:16:16.483518Z",
+"generated_at": "2026-09-04T00:41:00.838654Z",
 "window_hours": 24,
-"total_items": 25,
-"total_items_cross_raw": 60,
-"total_items_raw": 88,
-"total_items_all_mode": 88,
+"total_items": 15,
+"total_items_cross_raw": 26,
+"total_items_raw": 52,
+"total_items_all_mode": 52,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2135,
+"archive_total": 2177,
 "site_count": 16,
-"source_count": 5,
+"source_count": 4,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 47
+"raw_count": 38
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 8,
-"raw_count": 14
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 8,
-"raw_count": 20
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 1,
-"raw_count": 1
+"count": 6,
+"raw_count": 10
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
-"count": 0,
-"raw_count": 4
+"count": 1,
+"raw_count": 3
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 2
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "237ff4b6e347cbe580d2fa23a85c360367e0c0eb",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "跨境供应链新模式：Coupang新库存解法，破解卖家压货、断货难题",
+"url": "https://www.cifnews.com/article/188669",
+"published_at": null,
+"first_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"供应链",
+"卖家",
+"库存"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境供应链新模式：Coupang新库存解法，破解卖家压货、断货难题"
+},
+{
+"id": "b6cc67f313bc9edbc65846caa4bf6a7a0f7d74c4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries俄区运营信任危机爆发：接口封锁、罚款政策反复引发卖家强烈不满",
+"url": "https://www.amz123.com/kx/pqU9v1bt",
+"published_at": null,
+"first_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家",
+"政策"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries俄区运营信任危机爆发：接口封锁、罚款政策反复引发卖家强烈不满"
+},
+{
+"id": "a00c1e5781d41ffe765c55edbc80b8d1521e5612",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "意大利DIY平台BricoBravo 2026年向中国卖家开放招商",
+"url": "https://www.amz123.com/kx/FiXXay6H",
+"published_at": null,
+"first_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "意大利DIY平台BricoBravo 2026年向中国卖家开放招商"
+},
+{
+"id": "66f4730fd081f325caac61e66dd7c2d884524406",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "更安全的跨境AI创作平台，文案侵权检测重磅上线 | 注册送会员",
+"url": "https://www.cifnews.com/article/188670",
+"published_at": null,
+"first_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "更安全的跨境AI创作平台，文案侵权检测重磅上线 | 注册送会员"
+},
+{
+"id": "7f5c626093df874c65eb37c365f9221d9ea58bc0",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon Second Chance Deal Days returns with up to 50% off",
+"url": "https://channelx.world/2026/09/amazon-second-chance-deal-days-returns-with-up-to-50-off",
+"published_at": "2026-09-03T16:40:33Z",
+"first_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "Amazon Second Chance Deal Days回归，低至五折"
+},
 {
 "id": "91aa5df782e7250aa2cf076065d14025203757c4",
 "site_id": "amz123",
@@ -58,7 +163,7 @@
 "url": "https://www.amz123.com/kx/7v1yrNZm",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "fee_logistics",
@@ -83,7 +188,7 @@
 "url": "https://www.amz123.com/kx/z0Q6YNbV",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "listing_product",
@@ -107,7 +212,7 @@
 "url": "https://www.amz123.com/kx/uBAaIODB",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "policy_update",
@@ -131,7 +236,7 @@
 "url": "https://www.amz123.com/kx/zS3V73OK",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "compliance_deadline",
@@ -154,7 +259,7 @@
 "url": "https://www.cifnews.com/article/188665",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -202,7 +307,7 @@
 "url": "https://www.cifnews.com/article/188661",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "compliance_deadline",
@@ -217,432 +322,71 @@
 "title_zh": "10日内整改！深圳卖家集中收到出口收入未足额申报增值税短信提醒"
 },
 {
-"id": "1e208a0f0491ed08dbffd0e318cb667e3ab00e1a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊GWD宁波仓正式上线，三仓布局托管美线补货",
-"url": "https://www.amz123.com/kx/34Ww4CZO",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊GWD宁波仓正式上线，三仓布局托管美线补货"
-},
-{
-"id": "95a4fd09d1ca95ff36023ce6880a6b71db44b0dd",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美区爆米花笔市场分析：真实月销4.36万件，头部品牌占据近半份额",
-"url": "https://www.amz123.com/kx/0KBrPLQ0",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美区爆米花笔市场分析：真实月销4.36万件，头部品牌占据近半份额"
-},
-{
-"id": "5ae3a60a28e0aa67adaf7533f9d27db6348f14b5",
+"id": "f60122e0256a9bfe0dfcd964122433355cf6493d",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "拆解4种资金周转方式，融资借贷并非最优解！亚马逊卖家别再盲目融资了",
-"url": "https://www.cifnews.com/article/188659",
+"title": "一年卖出89亿，江苏床垫大卖家，从县城走到全球",
+"url": "https://www.cifnews.com/article/188664",
 "published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "拆解4种资金周转方式，融资借贷并非最优解！亚马逊卖家别再盲目融资了"
-},
-{
-"id": "881bfe2c4cfa9768e174ee88777e37ad184c3914",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一个中国水杯靠\"藏药格\"抢下亚马逊英国站前三",
-"url": "https://www.cifnews.com/article/188653",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "一个中国水杯靠\"藏药格\"抢下亚马逊英国站前三"
-},
-{
-"id": "08914a85d337deec18d81b37bc206ae16954bfee",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "深圳盛祥兴骗税5342万被罚6011万，9810海外仓\"只入库不销售\"成稽查突破口",
-"url": "https://www.amz123.com/kx/f8st4q9S",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T00:40:40.109407Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"海外仓"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "深圳盛祥兴骗税5342万被罚6011万，9810海外仓\"只入库不销售\"成稽查突破口"
-},
-{
-"id": "241189775a897fa105ac3db6d8534543d1ba9e91",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊店铺换了主体，历史就能“清零”吗？税务总局早已明确：唯一标识码不能变",
-"url": "https://www.cifnews.com/article/188651",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"店铺",
-"税务总局"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊店铺换了主体，历史就能“清零”吗？税务总局早已明确：唯一标识码不能变"
-},
-{
-"id": "8e0bd1be70ab989b503faaf2b43a681ad4df66f0",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "骗税2961万，罚没9000万！跨境圈的“买单配票”彻底凉了",
-"url": "https://www.cifnews.com/article/188658",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "骗税2961万，罚没9000万！跨境圈的“买单配票”彻底凉了"
-},
-{
-"id": "729dd1769061dfbd2c5083ea10563924b02d6a29",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "单链日销200单，中国卖家不足15%！这个品类在平台卖疯了",
-"url": "https://www.cifnews.com/article/188656",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "单链日销200单，中国卖家不足15%！这个品类在平台卖疯了"
-},
-{
-"id": "d028cda3d480bf06e1e7f66e11dd1052da8b5557",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "美国注册代理“暴雷”风波发酵！卖家连夜查状态",
-"url": "https://www.cifnews.com/article/188655",
-"published_at": null,
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国注册代理“暴雷”风波发酵！卖家连夜查状态"
-},
-{
-"id": "312cc88c4480210c3b73769918fa8ca0ff926897",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "eBay法国站对欧洲个人卖家免收成交费",
-"url": "https://www.ennews.com/news-143419.html",
-"published_at": "2026-09-03T00:00:00Z",
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "一年卖出89亿，江苏床垫大卖家，从县城走到全球"
+},
+{
+"id": "4ced066d6541dc0384a74156787a8eda04dcaf5c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "一个被忽略的市场！白牌卖家3天就能出单",
+"url": "https://www.cifnews.com/article/188660",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "一个被忽略的市场！白牌卖家3天就能出单"
+},
+{
+"id": "c606e0198343f0c928dda96b1207e1048f4e0588",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "国家药监局海关总署84号公告：三种物质10月1日起纳入精神药品监管",
+"url": "https://www.amz123.com/kx/Q6wzPNrv",
+"published_at": null,
+"first_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T00:41:00.838654Z",
 "cross_is_related": true,
 "cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ebay",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ebay"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "eBay法国站对欧洲个人卖家免收成交费"
-},
-{
-"id": "9b142665fb0c404a28e21cda232c9b538c6f0ac1",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "欧洲纺织协会呼吁欧盟将小包裹处理费提至10欧元",
-"url": "https://www.ennews.com/news-143430.html",
-"published_at": "2026-09-03T00:00:00Z",
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
+"cross_label": "general",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"包裹"
+"海关",
+"海关总署",
+"监管"
 ],
 "cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "欧洲纺织协会呼吁欧盟将小包裹处理费提至10欧元"
-},
-{
-"id": "6459efca2f51b165784096cef04ff26fe3ecc6b9",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon开放哈萨克斯坦FBO仓库，卖家可向俄罗斯及中亚发货",
-"url": "https://www.ennews.com/news-143425.html",
-"published_at": "2026-09-03T00:00:00Z",
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ozon"
-],
 "cross_sites": [],
-"title_zh": "Ozon开放哈萨克斯坦FBO仓库，卖家可向俄罗斯及中亚发货"
-},
-{
-"id": "390563a011a3dd8150cad0fb87b3d52dbbb2b259",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon开学季销售爆发：1050万家庭下单，需求增2.3倍",
-"url": "https://www.ennews.com/news-143423.html",
-"published_at": "2026-09-03T00:00:00Z",
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon开学季销售爆发：1050万家庭下单，需求增2.3倍"
-},
-{
-"id": "cf10f202f74f95eb759dbc76dd0b246059af7c09",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "2026上半年Ozon远东订单量激增2.4倍",
-"url": "https://www.ennews.com/news-143421.html",
-"published_at": "2026-09-03T00:00:00Z",
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "2026上半年Ozon远东订单量激增2.4倍"
-},
-{
-"id": "e1c0bc3c5ab06c6ca834db330d3797660c0a1c2e",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries、Ozon和Yandex Market开通数字卢布支付",
-"url": "https://www.ennews.com/news-143422.html",
-"published_at": "2026-09-03T00:00:00Z",
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"wildberries"
-],
-"cross_platforms": [
-"wildberries",
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Wildberries、Ozon和Yandex Market开通数字卢布支付"
-},
-{
-"id": "6745c02b9aa21b0b09cab522a3ce78cc887235b5",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries向俄税务部门提交受袭卖家数据，获一年纳税延期",
-"url": "https://www.ennews.com/news-143417.html",
-"published_at": "2026-09-03T00:00:00Z",
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries向俄税务部门提交受袭卖家数据，获一年纳税延期"
-},
-{
-"id": "aaeb371a5be73c4a69dbe20c1dd1e923701324b1",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries开放合作仓库计划获俄官方支持",
-"url": "https://www.ennews.com/news-143416.html",
-"published_at": "2026-09-03T00:00:00Z",
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries开放合作仓库计划获俄官方支持"
-},
-{
-"id": "062a28cc6e259e90df640ce63c9009e6b0cdabaa",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Is that message really from Amazon? Just ask Alexa for Shopping.",
-"url": "https://www.aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
-"published_at": "2026-09-02T13:01:10Z",
-"first_seen_at": "2026-09-03T00:40:40.109407Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "这条消息真的是来自亚马逊吗？只需询问Alexa购物。"
+"title_zh": "国家药监局海关总署84号公告：三种物质10月1日起纳入精神药品监管"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
