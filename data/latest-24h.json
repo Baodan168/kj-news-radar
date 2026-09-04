@@ -1,27 +1,39 @@
 {
-"generated_at": "2026-09-04T00:41:00.838654Z",
+"generated_at": "2026-09-04T05:12:03.311797Z",
 "window_hours": 24,
-"total_items": 15,
-"total_items_cross_raw": 26,
-"total_items_raw": 52,
-"total_items_all_mode": 52,
+"total_items": 19,
+"total_items_cross_raw": 43,
+"total_items_raw": 96,
+"total_items_all_mode": 96,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2177,
+"archive_total": 2113,
 "site_count": 16,
-"source_count": 4,
+"source_count": 5,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 38
+"raw_count": 56
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 6,
-"raw_count": 10
+"count": 7,
+"raw_count": 12
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
+"raw_count": 23
+},
+{
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "channelx",
@@ -38,6 +50,98 @@
 ],
 "items": [
 {
+"id": "420728aa86ffc71f1896159fca3a24a4a3c43a6f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧税通向港交所递交上市申请，冲刺跨境合规第一股",
+"url": "https://www.amz123.com/kx/R8J2Wntz",
+"published_at": null,
+"first_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "欧税通向港交所递交上市申请，冲刺跨境合规第一股"
+},
+{
+"id": "b755a6f4c264e0225b46da6130648fe8f2757c24",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop巴西推出本土商家扶持计划，9月起新入驻卖家享前90天佣金减半",
+"url": "https://www.amz123.com/kx/J02jMKPo",
+"published_at": null,
+"first_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop巴西推出本土商家扶持计划，9月起新入驻卖家享前90天佣金减半"
+},
+{
+"id": "2d062c0195ec678d02bf7e1a3e6c78e92329423e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "中国卖家不足2%！这个新兴平台，正有卖家闷声发大财",
+"url": "https://www.cifnews.com/article/188677",
+"published_at": null,
+"first_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "中国卖家不足2%！这个新兴平台，正有卖家闷声发大财"
+},
+{
+"id": "83fdb8d9b42001bd247f081f283b422a18cd8eaf",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"source": "卖家新闻",
+"title": "YouTubers Can Now Tag Amazon Products Directly in Videos",
+"url": "https://www.ecommercebytes.com/2026/09/03/youtubers-can-now-tag-amazon-products-directly-in-videos",
+"published_at": "2026-09-04T02:20:14Z",
+"first_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "YouTube用户现在可以在视频中直接标记亚马逊产品"
+},
+{
 "id": "237ff4b6e347cbe580d2fa23a85c360367e0c0eb",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -46,7 +150,7 @@
 "url": "https://www.cifnews.com/article/188669",
 "published_at": null,
 "first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "seller_action",
@@ -89,28 +193,6 @@
 "title_zh": "Wildberries俄区运营信任危机爆发：接口封锁、罚款政策反复引发卖家强烈不满"
 },
 {
-"id": "a00c1e5781d41ffe765c55edbc80b8d1521e5612",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "意大利DIY平台BricoBravo 2026年向中国卖家开放招商",
-"url": "https://www.amz123.com/kx/FiXXay6H",
-"published_at": null,
-"first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "意大利DIY平台BricoBravo 2026年向中国卖家开放招商"
-},
-{
 "id": "66f4730fd081f325caac61e66dd7c2d884524406",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -119,7 +201,7 @@
 "url": "https://www.cifnews.com/article/188670",
 "published_at": null,
 "first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "compliance_deadline",
@@ -132,6 +214,54 @@
 "title_zh": "更安全的跨境AI创作平台，文案侵权检测重磅上线 | 注册送会员"
 },
 {
+"id": "0a31a4d1a9014cf4e6a5ad87edeffe5ee93d928d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "广告费越来越贵，亚马逊被起诉",
+"url": "https://www.ennews.com/article-31856-1.html",
+"published_at": "2026-09-04T00:00:00Z",
+"first_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"cross_is_related": true,
+"cross_score": 0.87,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "广告费越来越贵，亚马逊被起诉"
+},
+{
+"id": "79fc552a19f4cf42059837e3dde1abdc4a4ca285",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "TikTok Shop巴西推本土卖家佣金减半",
+"url": "https://www.ennews.com/news-143530.html",
+"published_at": "2026-09-04T00:00:00Z",
+"first_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop巴西推本土卖家佣金减半"
+},
+{
 "id": "7f5c626093df874c65eb37c365f9221d9ea58bc0",
 "site_id": "channelx",
 "site_name": "ChannelX",
@@ -140,7 +270,7 @@
 "url": "https://channelx.world/2026/09/amazon-second-chance-deal-days-returns-with-up-to-50-off",
 "published_at": "2026-09-03T16:40:33Z",
 "first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -188,7 +318,7 @@
 "url": "https://www.amz123.com/kx/z0Q6YNbV",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "listing_product",
@@ -259,7 +389,7 @@
 "url": "https://www.cifnews.com/article/188665",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -282,7 +412,7 @@
 "url": "https://www.amz123.com/kx/TqBWS9Ng",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-03T05:16:16.483518Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "compliance_deadline",
@@ -307,7 +437,7 @@
 "url": "https://www.cifnews.com/article/188661",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "compliance_deadline",
@@ -330,7 +460,7 @@
 "url": "https://www.cifnews.com/article/188664",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -352,7 +482,7 @@
 "url": "https://www.cifnews.com/article/188660",
 "published_at": null,
 "first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
+"last_seen_at": "2026-09-04T05:12:03.311797Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -364,29 +494,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "一个被忽略的市场！白牌卖家3天就能出单"
-},
-{
-"id": "c606e0198343f0c928dda96b1207e1048f4e0588",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "国家药监局海关总署84号公告：三种物质10月1日起纳入精神药品监管",
-"url": "https://www.amz123.com/kx/Q6wzPNrv",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"海关",
-"海关总署",
-"监管"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "国家药监局海关总署84号公告：三种物质10月1日起纳入精神药品监管"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
