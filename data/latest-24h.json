@@ -1,39 +1,33 @@
 {
-"generated_at": "2026-09-05T00:41:18.724036Z",
+"generated_at": "2026-09-05T05:01:03.657517Z",
 "window_hours": 24,
 "total_items": 12,
-"total_items_cross_raw": 31,
-"total_items_raw": 57,
-"total_items_all_mode": 57,
+"total_items_cross_raw": 43,
+"total_items_raw": 82,
+"total_items_all_mode": 82,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2163,
+"archive_total": 2134,
 "site_count": 16,
-"source_count": 6,
+"source_count": 5,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 45
+"raw_count": 67
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 2,
-"raw_count": 6
+"count": 3,
+"raw_count": 10
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "count": 1,
 "raw_count": 2
-},
-{
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"count": 1,
-"raw_count": 1
 },
 {
 "site_id": "channelx",
@@ -49,6 +43,100 @@
 }
 ],
 "items": [
+{
+"id": "c402ae5d3f46eb956f7dd549c95b2a6cec7980e7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊AI跨ASIN比对升级，大批卖家收到重复创建警告",
+"url": "https://www.amz123.com/kx/fYSgz4d8",
+"published_at": null,
+"first_seen_at": "2026-09-05T05:01:03.657517Z",
+"last_seen_at": "2026-09-05T05:01:03.657517Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"asin",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊AI跨ASIN比对升级，大批卖家收到重复创建警告"
+},
+{
+"id": "909e06a100caccad85c1f7e9e38973b3c68fea3b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "拉萨跨境电商综试区锚定2027年15亿元目标，西藏产业带出海进程加速",
+"url": "https://www.amz123.com/kx/8cJWlcw7",
+"published_at": null,
+"first_seen_at": "2026-09-05T05:01:03.657517Z",
+"last_seen_at": "2026-09-05T05:01:03.657517Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "拉萨跨境电商综试区锚定2027年15亿元目标，西藏产业带出海进程加速"
+},
+{
+"id": "ee6094fcc844f1c17bbaaa3d4b3f4ae7d4a7adfe",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "乌克兰头部平台Rozetka正式向中国卖家开放入驻，当前中国卖家占比不足5%",
+"url": "https://www.amz123.com/kx/GTRwiPZE",
+"published_at": null,
+"first_seen_at": "2026-09-05T05:01:03.657517Z",
+"last_seen_at": "2026-09-05T05:01:03.657517Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "乌克兰头部平台Rozetka正式向中国卖家开放入驻，当前中国卖家占比不足5%"
+},
+{
+"id": "6c9ffca4500409bd1f8fbc8bea69105984240770",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "不照搬国内打法，橘朵凭什么在亚马逊一年做出300万美金生意？",
+"url": "https://www.cifnews.com/article/188674",
+"published_at": null,
+"first_seen_at": "2026-09-05T05:01:03.657517Z",
+"last_seen_at": "2026-09-05T05:01:03.657517Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "不照搬国内打法，橘朵凭什么在亚马逊一年做出300万美金生意？"
+},
 {
 "id": "0d0469232cf192fd5ebb7bd659af7e9b62be15d7",
 "site_id": "amz123",
@@ -126,30 +214,6 @@
 "title_zh": "OZON阿拉木图仓免运费政策延续至9月30日，卖家面临仓储策略调整压力"
 },
 {
-"id": "e80e7163db3f24beb394f26057bbbd3816f99885",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "DHL、FedEx、UPS三大国际快递同步调整燃油附加费机制",
-"url": "https://www.amz123.com/kx/EqPmc2Qu",
-"published_at": null,
-"first_seen_at": "2026-09-05T00:41:18.724036Z",
-"last_seen_at": "2026-09-05T00:41:18.724036Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"dhl",
-"fedex",
-"ups",
-"快递"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "DHL、FedEx、UPS三大国际快递同步调整燃油附加费机制"
-},
-{
 "id": "fee492676587aeb22a2bca94ad5bc520730d0f1f",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -158,7 +222,7 @@
 "url": "https://www.cifnews.com/article/188687",
 "published_at": null,
 "first_seen_at": "2026-09-05T00:41:18.724036Z",
-"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T05:01:03.657517Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -172,54 +236,6 @@
 "title_zh": "新一轮扫号开始，平台用AI翻旧账，卖家资金安全如何守护？"
 },
 {
-"id": "02b2c2fb20fd460933eb7f8b4e3e54cce1e3dff8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries+Russ合并体推出卖家数字化平台\"RWB环境\"",
-"url": "https://www.amz123.com/kx/pGxBPfKk",
-"published_at": null,
-"first_seen_at": "2026-09-05T00:41:18.724036Z",
-"last_seen_at": "2026-09-05T00:41:18.724036Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries+Russ合并体推出卖家数字化平台\"RWB环境\""
-},
-{
-"id": "6c0ceb7fdf85bffa190a08addf2938c889536fd1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon远东订单上半年增长2.4倍，取货点网络突破3500个",
-"url": "https://www.amz123.com/kx/ZU815NLG",
-"published_at": null,
-"first_seen_at": "2026-09-05T00:41:18.724036Z",
-"last_seen_at": "2026-09-05T00:41:18.724036Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon远东订单上半年增长2.4倍，取货点网络突破3500个"
-},
-{
 "id": "3592b4b05856fdfbe2feee26d72d55666b6b47c3",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -228,7 +244,7 @@
 "url": "https://www.aboutamazon.com/news/workplace/amazon-career-choice-training-programs-tuition-careers",
 "published_at": "2026-09-04T15:27:02Z",
 "first_seen_at": "2026-09-05T00:41:18.724036Z",
-"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T05:01:03.657517Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -298,7 +314,7 @@
 "url": "https://www.cifnews.com/article/188677",
 "published_at": null,
 "first_seen_at": "2026-09-04T05:12:03.311797Z",
-"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T05:01:03.657517Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -310,29 +326,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "中国卖家不足2%！这个新兴平台，正有卖家闷声发大财"
-},
-{
-"id": "83fdb8d9b42001bd247f081f283b422a18cd8eaf",
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"source": "卖家新闻",
-"title": "YouTubers Can Now Tag Amazon Products Directly in Videos",
-"url": "https://www.ecommercebytes.com/2026/09/03/youtubers-can-now-tag-amazon-products-directly-in-videos",
-"published_at": "2026-09-04T02:20:14Z",
-"first_seen_at": "2026-09-04T05:12:03.311797Z",
-"last_seen_at": "2026-09-05T00:41:18.724036Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "YouTube用户现在可以在视频中直接标记亚马逊产品"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
