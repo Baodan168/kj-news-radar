@@ -1,33 +1,33 @@
 {
-"generated_at": "2026-09-04T05:12:03.311797Z",
+"generated_at": "2026-09-05T00:41:18.724036Z",
 "window_hours": 24,
-"total_items": 19,
-"total_items_cross_raw": 43,
-"total_items_raw": 96,
-"total_items_all_mode": 96,
+"total_items": 12,
+"total_items_cross_raw": 31,
+"total_items_raw": 57,
+"total_items_all_mode": 57,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2113,
+"archive_total": 2163,
 "site_count": 16,
-"source_count": 5,
+"source_count": 6,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 56
+"raw_count": 45
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 7,
-"raw_count": 12
+"count": 2,
+"raw_count": 6
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 2,
-"raw_count": 23
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 2
 },
 {
 "site_id": "ecommercebytes",
@@ -38,8 +38,8 @@
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
-"count": 1,
-"raw_count": 3
+"count": 0,
+"raw_count": 2
 },
 {
 "site_id": "tophub",
@@ -49,6 +49,199 @@
 }
 ],
 "items": [
+{
+"id": "0d0469232cf192fd5ebb7bd659af7e9b62be15d7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊物流公布2026年旺季附加费方案，峰值期每件最高上浮至0.75美元",
+"url": "https://www.amz123.com/kx/TDRMOEKY",
+"published_at": null,
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊物流公布2026年旺季附加费方案，峰值期每件最高上浮至0.75美元"
+},
+{
+"id": "fb02b41ff61145b25a5647be92b4291dea83aea3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "五年流失逾80万卖家，GMV却增9%，亚马逊加速中小卖家洗牌",
+"url": "https://www.amz123.com/kx/vDMrxPB6",
+"published_at": null,
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "五年流失逾80万卖家，GMV却增9%，亚马逊加速中小卖家洗牌"
+},
+{
+"id": "3d8d99085804368f5a4b1bf5a9a2a2c0a3594dbf",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "OZON阿拉木图仓免运费政策延续至9月30日，卖家面临仓储策略调整压力",
+"url": "https://www.amz123.com/kx/7iQi4RVk",
+"published_at": null,
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家",
+"政策",
+"仓储"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "OZON阿拉木图仓免运费政策延续至9月30日，卖家面临仓储策略调整压力"
+},
+{
+"id": "e80e7163db3f24beb394f26057bbbd3816f99885",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "DHL、FedEx、UPS三大国际快递同步调整燃油附加费机制",
+"url": "https://www.amz123.com/kx/EqPmc2Qu",
+"published_at": null,
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"dhl",
+"fedex",
+"ups",
+"快递"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "DHL、FedEx、UPS三大国际快递同步调整燃油附加费机制"
+},
+{
+"id": "fee492676587aeb22a2bca94ad5bc520730d0f1f",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "新一轮扫号开始，平台用AI翻旧账，卖家资金安全如何守护？",
+"url": "https://www.cifnews.com/article/188687",
+"published_at": null,
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "新一轮扫号开始，平台用AI翻旧账，卖家资金安全如何守护？"
+},
+{
+"id": "02b2c2fb20fd460933eb7f8b4e3e54cce1e3dff8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries+Russ合并体推出卖家数字化平台\"RWB环境\"",
+"url": "https://www.amz123.com/kx/pGxBPfKk",
+"published_at": null,
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries+Russ合并体推出卖家数字化平台\"RWB环境\""
+},
+{
+"id": "6c0ceb7fdf85bffa190a08addf2938c889536fd1",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon远东订单上半年增长2.4倍，取货点网络突破3500个",
+"url": "https://www.amz123.com/kx/ZU815NLG",
+"published_at": null,
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon远东订单上半年增长2.4倍，取货点网络突破3500个"
+},
+{
+"id": "3592b4b05856fdfbe2feee26d72d55666b6b47c3",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon expands Career Choice employee benefit with new programs in high-demand industries",
+"url": "https://www.aboutamazon.com/news/workplace/amazon-career-choice-training-programs-tuition-careers",
+"published_at": "2026-09-04T15:27:02Z",
+"first_seen_at": "2026-09-05T00:41:18.724036Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊通过高需求行业的新计划扩大Career Choice员工福利"
+},
 {
 "id": "420728aa86ffc71f1896159fca3a24a4a3c43a6f",
 "site_id": "amz123",
@@ -105,7 +298,7 @@
 "url": "https://www.cifnews.com/article/188677",
 "published_at": null,
 "first_seen_at": "2026-09-04T05:12:03.311797Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -127,150 +320,7 @@
 "url": "https://www.ecommercebytes.com/2026/09/03/youtubers-can-now-tag-amazon-products-directly-in-videos",
 "published_at": "2026-09-04T02:20:14Z",
 "first_seen_at": "2026-09-04T05:12:03.311797Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "YouTube用户现在可以在视频中直接标记亚马逊产品"
-},
-{
-"id": "237ff4b6e347cbe580d2fa23a85c360367e0c0eb",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "跨境供应链新模式：Coupang新库存解法，破解卖家压货、断货难题",
-"url": "https://www.cifnews.com/article/188669",
-"published_at": null,
-"first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"供应链",
-"卖家",
-"库存"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨境供应链新模式：Coupang新库存解法，破解卖家压货、断货难题"
-},
-{
-"id": "b6cc67f313bc9edbc65846caa4bf6a7a0f7d74c4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries俄区运营信任危机爆发：接口封锁、罚款政策反复引发卖家强烈不满",
-"url": "https://www.amz123.com/kx/pqU9v1bt",
-"published_at": null,
-"first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"卖家",
-"卖家",
-"政策"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries俄区运营信任危机爆发：接口封锁、罚款政策反复引发卖家强烈不满"
-},
-{
-"id": "66f4730fd081f325caac61e66dd7c2d884524406",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "更安全的跨境AI创作平台，文案侵权检测重磅上线 | 注册送会员",
-"url": "https://www.cifnews.com/article/188670",
-"published_at": null,
-"first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "更安全的跨境AI创作平台，文案侵权检测重磅上线 | 注册送会员"
-},
-{
-"id": "0a31a4d1a9014cf4e6a5ad87edeffe5ee93d928d",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "广告费越来越贵，亚马逊被起诉",
-"url": "https://www.ennews.com/article-31856-1.html",
-"published_at": "2026-09-04T00:00:00Z",
-"first_seen_at": "2026-09-04T05:12:03.311797Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.87,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "广告费越来越贵，亚马逊被起诉"
-},
-{
-"id": "79fc552a19f4cf42059837e3dde1abdc4a4ca285",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "TikTok Shop巴西推本土卖家佣金减半",
-"url": "https://www.ennews.com/news-143530.html",
-"published_at": "2026-09-04T00:00:00Z",
-"first_seen_at": "2026-09-04T05:12:03.311797Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop巴西推本土卖家佣金减半"
-},
-{
-"id": "7f5c626093df874c65eb37c365f9221d9ea58bc0",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon Second Chance Deal Days returns with up to 50% off",
-"url": "https://channelx.world/2026/09/amazon-second-chance-deal-days-returns-with-up-to-50-off",
-"published_at": "2026-09-03T16:40:33Z",
-"first_seen_at": "2026-09-04T00:41:00.838654Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
+"last_seen_at": "2026-09-05T00:41:18.724036Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -282,218 +332,7 @@
 "amazon"
 ],
 "cross_sites": [],
-"title_zh": "Amazon Second Chance Deal Days回归，低至五折"
-},
-{
-"id": "91aa5df782e7250aa2cf076065d14025203757c4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "UPS宣布9月启用全新全球运营模式，削减亚马逊单量转向高附加值物流赛道",
-"url": "https://www.amz123.com/kx/7v1yrNZm",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"ups",
-"物流"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "UPS宣布9月启用全新全球运营模式，削减亚马逊单量转向高附加值物流赛道"
-},
-{
-"id": "d0d18ab88bfcfa0e18fce6f77250892a0ab91453",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊集中整治\"重复创建ASIN\"违规，翻新配合Vine套评成主要触发原因",
-"url": "https://www.amz123.com/kx/z0Q6YNbV",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"asin"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊集中整治\"重复创建ASIN\"违规，翻新配合Vine套评成主要触发原因"
-},
-{
-"id": "7fffff0f77fab9a22789cc9096481b25039ecada",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "泰国废除60天免签政策，对60国调整为30天，跨境买家采购窗口收窄",
-"url": "https://www.amz123.com/kx/uBAaIODB",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"买家",
-"采购",
-"政策"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "泰国废除60天免签政策，对60国调整为30天，跨境买家采购窗口收窄"
-},
-{
-"id": "8c47a065d9d3f0f636515694ace93be092f18a38",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "深圳税局发短信要求卖家10日内自查出口增值税申报",
-"url": "https://www.amz123.com/kx/zS3V73OK",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T00:41:00.838654Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"增值税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "深圳税局发短信要求卖家10日内自查出口增值税申报"
-},
-{
-"id": "142d72cc73aedc7b319c5f64aaec95b35af157bf",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "从扣货到查人：海外正在严查中国跨境电商的哪条链路？",
-"url": "https://www.cifnews.com/article/188665",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "从扣货到查人：海外正在严查中国跨境电商的哪条链路？"
-},
-{
-"id": "b723f1b4e28e3eafa6de32600ffc8228df19bd84",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊主动修正2025年Q4涉华税务数据并重新申报，卖家历史申报面临回溯核查",
-"url": "https://www.amz123.com/kx/TqBWS9Ng",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊主动修正2025年Q4涉华税务数据并重新申报，卖家历史申报面临回溯核查"
-},
-{
-"id": "70bf217e1336dc9eb6b0a3ddacfe2847ec9e60d3",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "10日内整改！深圳卖家集中收到出口收入未足额申报增值税短信提醒",
-"url": "https://www.cifnews.com/article/188661",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"增值税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "10日内整改！深圳卖家集中收到出口收入未足额申报增值税短信提醒"
-},
-{
-"id": "f60122e0256a9bfe0dfcd964122433355cf6493d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一年卖出89亿，江苏床垫大卖家，从县城走到全球",
-"url": "https://www.cifnews.com/article/188664",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "一年卖出89亿，江苏床垫大卖家，从县城走到全球"
-},
-{
-"id": "4ced066d6541dc0384a74156787a8eda04dcaf5c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一个被忽略的市场！白牌卖家3天就能出单",
-"url": "https://www.cifnews.com/article/188660",
-"published_at": null,
-"first_seen_at": "2026-09-03T05:16:16.483518Z",
-"last_seen_at": "2026-09-04T05:12:03.311797Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "一个被忽略的市场！白牌卖家3天就能出单"
+"title_zh": "YouTube用户现在可以在视频中直接标记亚马逊产品"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
