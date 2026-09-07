@@ -1,21 +1,33 @@
 {
-"generated_at": "2026-09-07T00:40:41.685405Z",
+"generated_at": "2026-09-07T05:23:10.111743Z",
 "window_hours": 24,
-"total_items": 8,
-"total_items_cross_raw": 18,
-"total_items_raw": 45,
-"total_items_all_mode": 45,
+"total_items": 18,
+"total_items_cross_raw": 32,
+"total_items_raw": 74,
+"total_items_all_mode": 74,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2176,
+"archive_total": 2141,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
 {
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 15
+},
+{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 6,
-"raw_count": 40
+"raw_count": 13
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 3,
+"raw_count": 24
 },
 {
 "site_id": "amazon_newsroom",
@@ -24,25 +36,326 @@
 "raw_count": 1
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 1,
-"raw_count": 2
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"count": 0,
+"raw_count": 1
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 1
-},
-{
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"count": 0,
-"raw_count": 1
+"raw_count": 20
 }
 ],
 "items": [
+{
+"id": "4024afca6114e4f7a323354b757d1781f95ff6a3",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊卖家注意：高风险产品的合规门槛正在提前，别等通知才处理",
+"url": "https://www.cifnews.com/article/188700",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"合规"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家注意：高风险产品的合规门槛正在提前，别等通知才处理"
+},
+{
+"id": "b0409785114fc76a0f9d32e172344e9a8a8cfbd5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美国CBP将于9月18日强化IOR审核，跨境卖家清关风险上升",
+"url": "https://www.amz123.com/kx/YXfoKl6v",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"清关",
+"跨境",
+"卖家",
+"清关"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国CBP将于9月18日强化IOR审核，跨境卖家清关风险上升"
+},
+{
+"id": "a8cb20b1d7f3889068bfcae05b65ab73646ce367",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊卖家进入存量竞争时代，接下来拼的不是上新速度",
+"url": "https://www.cifnews.com/article/188701",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家进入存量竞争时代，接下来拼的不是上新速度"
+},
+{
+"id": "19350e7e0909f510bdf01cb2e6e9d2abec83f084",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "加码印尼 百世跨境持续完善东南亚及南美跨境物流网络",
+"url": "https://www.cifnews.com/article/188704",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境物流",
+"物流",
+"百世"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "加码印尼 百世跨境持续完善东南亚及南美跨境物流网络"
+},
+{
+"id": "8d3fe3e8108f5092ede16d589014fec0e080e242",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯电商协会与LOOKY平台达成战略合作，为卖家开辟合规经营渠道",
+"url": "https://www.amz123.com/kx/THDqLGMm",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯电商协会与LOOKY平台达成战略合作，为卖家开辟合规经营渠道"
+},
+{
+"id": "73bd0d257e0744e26b56b2702868f5b60ae31f87",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊保险新增两项要求，11月2日起生效！",
+"url": "https://www.cifnews.com/article/188696",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊保险新增两项要求，11月2日起生效！"
+},
+{
+"id": "21681f19861dd41138a9abae26448098a1d2da05",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "免税可以不报？深圳跨境卖家9月收到的短信，比旺季差评还吓人",
+"url": "https://www.cifnews.com/article/188698",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "免税可以不报？深圳跨境卖家9月收到的短信，比旺季差评还吓人"
+},
+{
+"id": "2d5b1a8ac91df3e96e736a471845f92916d83e22",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "上周跨境圈发生了哪些大事（08.31-09.06）",
+"url": "https://www.cifnews.com/article/188703",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "上周跨境圈发生了哪些大事（08.31-09.06）"
+},
+{
+"id": "a491f010b6f260aff94390a3e8eb4c278e83d186",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "TikTok新评论功能，对卖家获客和成交有什么影响？",
+"url": "https://www.cifnews.com/article/188691",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "TikTok新评论功能，对卖家获客和成交有什么影响？"
+},
+{
+"id": "ccb62b47590253ebfb70a45cf17655a07416d4e1",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "他们靠搬运亚马逊爆品，单店年销近亿",
+"url": "https://www.cifnews.com/article/188694",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "他们靠搬运亚马逊爆品，单店年销近亿"
+},
+{
+"id": "bd74c1f3bb9c7433311b614d92291c72df4adc8a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯M.Video新注册卖家创历史新高，平台累计卖家突破12000家",
+"url": "https://www.amz123.com/kx/uNFcow3p",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯M.Video新注册卖家创历史新高，平台累计卖家突破12000家"
+},
+{
+"id": "35beb4c0fb5d851a40558c0469dfef708583c67d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄卖家注意：Magnit Market 9月7日关停下单入口，广告促销同步终止",
+"url": "https://www.amz123.com/kx/gvlTa6k7",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄卖家注意：Magnit Market 9月7日关停下单入口，广告促销同步终止"
+},
+{
+"id": "8722f48e4b974e65fcd4de11b642d2799920e7f8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries与Ozon仓库遭无人机袭击，俄罗斯图书行业损失惨重",
+"url": "https://www.amz123.com/kx/AmcoCcL5",
+"published_at": null,
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"wildberries"
+],
+"cross_platforms": [
+"wildberries",
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Wildberries与Ozon仓库遭无人机袭击，俄罗斯图书行业损失惨重"
+},
 {
 "id": "df43e0e075d88641e020bfd2edfc7100c7fee980",
 "site_id": "amz123",
@@ -52,7 +365,7 @@
 "url": "https://www.amz123.com/kx/O4yn2dy1",
 "published_at": null,
 "first_seen_at": "2026-09-07T00:40:41.685405Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "seller_action",
@@ -67,6 +380,78 @@
 "title_zh": "第七届CHWE全球跨境电商展圆满落幕"
 },
 {
+"id": "f7d9bf4eb66bcb351f780ed35a3078570a5710b4",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊在巴西巴拉那州启用首个配送中心",
+"url": "https://www.ennews.com/news-143654.html",
+"published_at": "2026-09-07T00:00:00Z",
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在巴西巴拉那州启用首个配送中心"
+},
+{
+"id": "aae89e6988fae8051d195c8b7454f4392c37476b",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "2026领星跨境电商峰会定档：头部卖家掌舵人亲述增长方法论",
+"url": "https://www.ennews.com/article-31865-1.html",
+"published_at": "2026-09-07T00:00:00Z",
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"跨境电商",
+"卖家",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "2026领星跨境电商峰会定档：头部卖家掌舵人亲述增长方法论"
+},
+{
+"id": "a5ab90a44067f9254ca224e95b31c6088e7af822",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "AI机器人流量一年增62.5%，亚马逊与Meta占近六成",
+"url": "https://www.ennews.com/news-143656.html",
+"published_at": "2026-09-07T00:00:00Z",
+"first_seen_at": "2026-09-07T05:23:10.111743Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"流量"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "AI机器人流量一年增62.5%，亚马逊与Meta占近六成"
+},
+{
 "id": "9c3e848d177d7ae5e827f05f491d6df5486bf3b0",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -75,9 +460,9 @@
 "url": "https://www.aboutamazon.com/news/company-news/amazon-21-air-miami-updates",
 "published_at": "2026-09-06T20:43:38Z",
 "first_seen_at": "2026-09-07T00:40:41.685405Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
+"last_seen_at": "2026-09-07T05:23:10.111743Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.71,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -88,148 +473,6 @@
 ],
 "cross_sites": [],
 "title_zh": "Amazon 21 Air更新"
-},
-{
-"id": "31e65b56c46e19206b2759c7acd60105430d2612",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon货物保险计费规则将于2026年10月5日重大调整，费率由0.0115%升至0.0838%/天",
-"url": "https://www.amz123.com/kx/lRcy4lpY",
-"published_at": null,
-"first_seen_at": "2026-09-06T05:14:39.930320Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon货物保险计费规则将于2026年10月5日重大调整，费率由0.0115%升至0.0838%/天"
-},
-{
-"id": "2509e32307b16c04882dca5a0b0ce550df62193b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊计划2029年自配送近九成美国包裹",
-"url": "https://www.amz123.com/kx/uDB1AQXH",
-"published_at": null,
-"first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"包裹"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊计划2029年自配送近九成美国包裹"
-},
-{
-"id": "162299f6f148deb90051dd6056bb97b97a7523d7",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "甜菜根咀嚼片月销187万美元，亚马逊健康类目10款热销单品盘点",
-"url": "https://www.amz123.com/kx/A8nfgADQ",
-"published_at": null,
-"first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "甜菜根咀嚼片月销187万美元，亚马逊健康类目10款热销单品盘点"
-},
-{
-"id": "83dcdd5af9a36b01269a3eef75b35f457cc6abf6",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "突然！美西一仓库2.6万件货被查，同仓卖家恐受牵连",
-"url": "https://www.cifnews.com/article/188688",
-"published_at": null,
-"first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "突然！美西一仓库2.6万件货被查，同仓卖家恐受牵连"
-},
-{
-"id": "30af58fb41a92f0f3692b20e35e17a9411e179ac",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "中东时尚电商平台Styli面向中国卖家定向招商，当前入驻不足百人",
-"url": "https://www.amz123.com/kx/poLBn4DE",
-"published_at": null,
-"first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"电商平台"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "中东时尚电商平台Styli面向中国卖家定向招商，当前入驻不足百人"
-},
-{
-"id": "f7c9a7481ecdc497fead4cb6f8b43dd992f7083d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美客多宣布在乌拉圭投资1280万美元扩建办公与物流基础设施",
-"url": "https://www.amz123.com/kx/KiQPGhkx",
-"published_at": null,
-"first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-07T00:40:41.685405Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"美客多",
-"物流"
-],
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "美客多宣布在乌拉圭投资1280万美元扩建办公与物流基础设施"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
