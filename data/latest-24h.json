@@ -1,36 +1,94 @@
 {
-"generated_at": "2026-09-06T05:14:39.930320Z",
+"generated_at": "2026-09-07T00:40:41.685405Z",
 "window_hours": 24,
-"total_items": 6,
-"total_items_cross_raw": 14,
-"total_items_raw": 41,
-"total_items_all_mode": 41,
+"total_items": 8,
+"total_items_cross_raw": 18,
+"total_items_raw": 45,
+"total_items_all_mode": 45,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2172,
+"archive_total": 2176,
 "site_count": 16,
-"source_count": 3,
+"source_count": 5,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 5,
-"raw_count": 39
+"count": 6,
+"raw_count": 40
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 1,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
 "raw_count": 1
+},
+{
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"count": 0,
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "df43e0e075d88641e020bfd2edfc7100c7fee980",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "第七届CHWE全球跨境电商展圆满落幕",
+"url": "https://www.amz123.com/kx/O4yn2dy1",
+"published_at": null,
+"first_seen_at": "2026-09-07T00:40:41.685405Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "第七届CHWE全球跨境电商展圆满落幕"
+},
+{
+"id": "9c3e848d177d7ae5e827f05f491d6df5486bf3b0",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon 21 Air updates",
+"url": "https://www.aboutamazon.com/news/company-news/amazon-21-air-miami-updates",
+"published_at": "2026-09-06T20:43:38Z",
+"first_seen_at": "2026-09-07T00:40:41.685405Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "Amazon 21 Air更新"
+},
 {
 "id": "31e65b56c46e19206b2759c7acd60105430d2612",
 "site_id": "amz123",
@@ -40,7 +98,7 @@
 "url": "https://www.amz123.com/kx/lRcy4lpY",
 "published_at": null,
 "first_seen_at": "2026-09-06T05:14:39.930320Z",
-"last_seen_at": "2026-09-06T05:14:39.930320Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "policy_update",
@@ -63,7 +121,7 @@
 "url": "https://www.amz123.com/kx/uDB1AQXH",
 "published_at": null,
 "first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-06T05:14:39.930320Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "fee_logistics",
@@ -89,7 +147,7 @@
 "url": "https://www.amz123.com/kx/A8nfgADQ",
 "published_at": null,
 "first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-06T05:14:39.930320Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -112,7 +170,7 @@
 "url": "https://www.cifnews.com/article/188688",
 "published_at": null,
 "first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-06T05:14:39.930320Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -134,7 +192,7 @@
 "url": "https://www.amz123.com/kx/poLBn4DE",
 "published_at": null,
 "first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-06T05:14:39.930320Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "seller_action",
@@ -158,7 +216,7 @@
 "url": "https://www.amz123.com/kx/KiQPGhkx",
 "published_at": null,
 "first_seen_at": "2026-09-06T00:40:56.672433Z",
-"last_seen_at": "2026-09-06T05:14:39.930320Z",
+"last_seen_at": "2026-09-07T00:40:41.685405Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "fee_logistics",
