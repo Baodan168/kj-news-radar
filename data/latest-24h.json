@@ -1,27 +1,33 @@
 {
-"generated_at": "2026-09-08T00:41:15.026030Z",
+"generated_at": "2026-09-08T05:24:54.481955Z",
 "window_hours": 24,
-"total_items": 18,
-"total_items_cross_raw": 47,
-"total_items_raw": 90,
-"total_items_all_mode": 90,
+"total_items": 24,
+"total_items_cross_raw": 64,
+"total_items_raw": 96,
+"total_items_all_mode": 96,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2164,
+"archive_total": 2142,
 "site_count": 16,
 "source_count": 4,
 "site_stats": [
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 8,
-"raw_count": 28
-},
-{
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 34
+"raw_count": 32
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 31
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 6,
+"raw_count": 23
 },
 {
 "site_id": "channelx",
@@ -33,16 +39,160 @@
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 22
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 0,
-"raw_count": 1
+"raw_count": 5
 }
 ],
 "items": [
+{
+"id": "88681533d1116eb0992a88c7239d327889123f35",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊卖家注意：成本、合规、Listing，3个地方又变了",
+"url": "https://www.cifnews.com/article/188744",
+"published_at": null,
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.96,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"listing",
+"卖家",
+"合规"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊卖家注意：成本、合规、Listing，3个地方又变了"
+},
+{
+"id": "000ee8afe93c93e089af9ca525b8896579768f1b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊大批Listing划线价异常消失，卖家订单量大幅下滑",
+"url": "https://www.amz123.com/kx/6SrmZULT",
+"published_at": null,
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"listing",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊大批Listing划线价异常消失，卖家订单量大幅下滑"
+},
+{
+"id": "b4c65bd609a27b31b0e7efae52de26385304c30b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊提示词Prompts广告曝光机制，提示词广告有曝光的3个核心",
+"url": "https://www.cifnews.com/article/188747",
+"published_at": null,
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊提示词Prompts广告曝光机制，提示词广告有曝光的3个核心"
+},
+{
+"id": "c1a88aac64a800dd8c6f95e526901b26732a0dff",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "每期一家跨境电商公司：漫步者EDIFIER",
+"url": "https://www.cifnews.com/article/188741",
+"published_at": null,
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "每期一家跨境电商公司：漫步者EDIFIER"
+},
+{
+"id": "7d0eec8e0a683a8ac11a5e932060ef4f667313af",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "旺季物流利好！Ozon新增29个合作分拣点，卖家费率保持不变",
+"url": "https://www.amz123.com/kx/rDlGQzFb",
+"published_at": null,
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家",
+"物流"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "旺季物流利好！Ozon新增29个合作分拣点，卖家费率保持不变"
+},
+{
+"id": "2c5930913ce5e5d03c6c76cf7eba289b70571195",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon保险计费逻辑重大调整，2026年10月5日起生效，部分卖家成本将显著上升",
+"url": "https://www.amz123.com/kx/8QV37zeN",
+"published_at": null,
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon保险计费逻辑重大调整，2026年10月5日起生效，部分卖家成本将显著上升"
+},
 {
 "id": "23a21971f3f03061116cdcb55a8db8b932c6193c",
 "site_id": "amz123",
@@ -52,7 +202,7 @@
 "url": "https://www.amz123.com/kx/M5oOkpHY",
 "published_at": null,
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.97,
 "cross_label": "platform_trend",
@@ -64,8 +214,8 @@
 "卖家"
 ],
 "cross_platforms": [
-"fba",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [
 "us"
@@ -107,7 +257,7 @@
 "url": "https://www.cifnews.com/article/188725",
 "published_at": null,
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -131,7 +281,7 @@
 "url": "https://www.amz123.com/kx/nx6EXrnr",
 "published_at": null,
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "fee_logistics",
@@ -154,7 +304,7 @@
 "url": "https://www.cifnews.com/article/188724",
 "published_at": null,
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "policy_update",
@@ -201,7 +351,7 @@
 "url": "https://www.amz123.com/kx/MdTiQgvl",
 "published_at": null,
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "advertising",
@@ -228,7 +378,7 @@
 "url": "https://www.amz123.com/kx/m7ANnusT",
 "published_at": null,
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "fee_logistics",
@@ -252,7 +402,7 @@
 "url": "https://www.amz123.com/kx/YFqnV8GW",
 "published_at": null,
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "seller_action",
@@ -267,6 +417,173 @@
 "title_zh": "员工侵权被判赔156万元，跨境卖家数据安全管理再受关注"
 },
 {
+"id": "a22b4a9d73ea6369fcf12138ed4e6690152c6877",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "2026-cv-01847｜15幅现代印象派画作逮捕47名被告，艺术印刷卖家需自查",
+"url": "https://www.cifnews.com/article/188722",
+"published_at": null,
+"first_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "2026-cv-01847｜15幅现代印象派画作逮捕47名被告，艺术印刷卖家需自查"
+},
+{
+"id": "7629550f41334ed3e195785c171c5726bcca44b6",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊美国站旺季附加费10月15日生效，仓储成本同步上涨",
+"url": "https://www.ennews.com/news-143754.html",
+"published_at": "2026-09-08T00:00:00Z",
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.91,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"仓储"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国站旺季附加费10月15日生效，仓储成本同步上涨"
+},
+{
+"id": "52395e8a27196a9813b530898504497d26ec1323",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊升级WhatsApp购物体验，买家可边聊边选",
+"url": "https://www.ennews.com/news-143762.html",
+"published_at": "2026-09-08T00:00:00Z",
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"买家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊升级WhatsApp购物体验，买家可边聊边选"
+},
+{
+"id": "bca4a237af0fab98946a5c975607284a925ca0ad",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "9亿大单落地，跨境大卖满血复活",
+"url": "https://www.ennews.com/article-31867-1.html",
+"published_at": "2026-09-08T00:00:00Z",
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "9亿大单落地，跨境大卖满血复活"
+},
+{
+"id": "89560bd8176085f733b1c10ad92686a977db7d59",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "2026年前七月Ozon平台卖家服务费占比24.73%",
+"url": "https://www.ennews.com/news-143749.html",
+"published_at": "2026-09-08T00:00:00Z",
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "2026年前七月Ozon平台卖家服务费占比24.73%"
+},
+{
+"id": "f21c1622ce772c1756b5a9b829757ec18e1e733c",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "运营合伙创业亚马逊，投入百万仍无奈离场",
+"url": "https://www.ennews.com/article-31866-1.html",
+"published_at": "2026-09-08T00:00:00Z",
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "运营合伙创业亚马逊，投入百万仍无奈离场"
+},
+{
+"id": "0db20a68b6cf5e072f7817c2fca46bbf1aacac33",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries订单锐减，卖家和买家涌入M.Video等替代平台",
+"url": "https://www.ennews.com/news-143744.html",
+"published_at": "2026-09-08T00:00:00Z",
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"买家",
+"卖家"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries订单锐减，卖家和买家涌入M.Video等替代平台"
+},
+{
 "id": "f9135175c6a76f23ca786e052f715bad18c7bfbc",
 "site_id": "channelx",
 "site_name": "ChannelX",
@@ -275,7 +592,7 @@
 "url": "https://channelx.world/2026/09/amafestuk-2026-amazon-sellers-conference-16th-october",
 "published_at": "2026-09-07T10:45:51Z",
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -297,7 +614,7 @@
 "url": "https://channelx.world/2026/09/amazon-whatsapp-experience-upgraded",
 "published_at": "2026-09-07T09:41:20Z",
 "first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
+"last_seen_at": "2026-09-08T05:24:54.481955Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -309,177 +626,6 @@
 "amazon"
 ],
 "cross_sites": []
-},
-{
-"id": "4024afca6114e4f7a323354b757d1781f95ff6a3",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊卖家注意：高风险产品的合规门槛正在提前，别等通知才处理",
-"url": "https://www.cifnews.com/article/188700",
-"published_at": null,
-"first_seen_at": "2026-09-07T05:23:10.111743Z",
-"last_seen_at": "2026-09-07T05:23:10.111743Z",
-"cross_is_related": true,
-"cross_score": 0.92,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"合规"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊卖家注意：高风险产品的合规门槛正在提前，别等通知才处理"
-},
-{
-"id": "b0409785114fc76a0f9d32e172344e9a8a8cfbd5",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美国CBP将于9月18日强化IOR审核，跨境卖家清关风险上升",
-"url": "https://www.amz123.com/kx/YXfoKl6v",
-"published_at": null,
-"first_seen_at": "2026-09-07T05:23:10.111743Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"清关",
-"跨境",
-"卖家",
-"清关"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国CBP将于9月18日强化IOR审核，跨境卖家清关风险上升"
-},
-{
-"id": "a8cb20b1d7f3889068bfcae05b65ab73646ce367",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊卖家进入存量竞争时代，接下来拼的不是上新速度",
-"url": "https://www.cifnews.com/article/188701",
-"published_at": null,
-"first_seen_at": "2026-09-07T05:23:10.111743Z",
-"last_seen_at": "2026-09-07T05:23:10.111743Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊卖家进入存量竞争时代，接下来拼的不是上新速度"
-},
-{
-"id": "19350e7e0909f510bdf01cb2e6e9d2abec83f084",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "加码印尼 百世跨境持续完善东南亚及南美跨境物流网络",
-"url": "https://www.cifnews.com/article/188704",
-"published_at": null,
-"first_seen_at": "2026-09-07T05:23:10.111743Z",
-"last_seen_at": "2026-09-07T05:23:10.111743Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境物流",
-"物流",
-"百世"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "加码印尼 百世跨境持续完善东南亚及南美跨境物流网络"
-},
-{
-"id": "8d3fe3e8108f5092ede16d589014fec0e080e242",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯电商协会与LOOKY平台达成战略合作，为卖家开辟合规经营渠道",
-"url": "https://www.amz123.com/kx/THDqLGMm",
-"published_at": null,
-"first_seen_at": "2026-09-07T05:23:10.111743Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯电商协会与LOOKY平台达成战略合作，为卖家开辟合规经营渠道"
-},
-{
-"id": "73bd0d257e0744e26b56b2702868f5b60ae31f87",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊保险新增两项要求，11月2日起生效！",
-"url": "https://www.cifnews.com/article/188696",
-"published_at": null,
-"first_seen_at": "2026-09-07T05:23:10.111743Z",
-"last_seen_at": "2026-09-07T05:23:10.111743Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊保险新增两项要求，11月2日起生效！"
-},
-{
-"id": "bd74c1f3bb9c7433311b614d92291c72df4adc8a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯M.Video新注册卖家创历史新高，平台累计卖家突破12000家",
-"url": "https://www.amz123.com/kx/uNFcow3p",
-"published_at": null,
-"first_seen_at": "2026-09-07T05:23:10.111743Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯M.Video新注册卖家创历史新高，平台累计卖家突破12000家"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
