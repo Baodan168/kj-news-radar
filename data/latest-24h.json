@@ -1,10 +1,10 @@
 {
-"generated_at": "2026-09-08T05:24:54.481955Z",
+"generated_at": "2026-09-09T00:41:22.697749Z",
 "window_hours": 24,
-"total_items": 24,
-"total_items_cross_raw": 64,
-"total_items_raw": 96,
-"total_items_all_mode": 96,
+"total_items": 17,
+"total_items_cross_raw": 45,
+"total_items_raw": 57,
+"total_items_all_mode": 57,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
 "archive_total": 2142,
@@ -15,34 +15,223 @@
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 32
+"raw_count": 27
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 31
+"raw_count": 25
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 6,
-"raw_count": 23
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 2,
-"raw_count": 5
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 2
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 5
+"raw_count": 3
 }
 ],
 "items": [
+{
+"id": "4123bb9d6a597801eb754d1f6f28f987d1c1f7ea",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "紧急通知！ 亚马逊欧盟站VAT新规！卖家必明确增值税义务，否则影响运营",
+"url": "https://www.cifnews.com/article/188761",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"vat",
+"亚马逊",
+"卖家",
+"卖家",
+"增值税"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "紧急通知！ 亚马逊欧盟站VAT新规！卖家必明确增值税义务，否则影响运营"
+},
+{
+"id": "224449a495bbd3ca550326a1615de29fc5a0d7ad",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊上线全新免费工具——选品模拟器",
+"url": "https://www.cifnews.com/article/188756",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"选品"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊上线全新免费工具——选品模拟器"
+},
+{
+"id": "cf38f1bb77de536726a5f6d41af3ac736a1cb186",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "莆田洪涝灾害：敦煌网推出临时政策豁免受灾卖家订单处罚",
+"url": "https://www.amz123.com/kx/W0ws2oVZ",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"政策"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "莆田洪涝灾害：敦煌网推出临时政策豁免受灾卖家订单处罚"
+},
+{
+"id": "3a04b79ae194dc41a4b88c7a6fcfc6f99c65976c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊突发异常！一批卖家订单暴跌",
+"url": "https://www.cifnews.com/article/188764",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊突发异常！一批卖家订单暴跌"
+},
+{
+"id": "5c3eca41d238f07af6e74c7536ceeba7f4153cde",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "日本令和8年税改来袭！跨境卖家必看的JCT合规新规与应对策略",
+"url": "https://www.cifnews.com/article/188749",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [
+"jp"
+],
+"title_zh": "日本令和8年税改来袭！跨境卖家必看的JCT合规新规与应对策略"
+},
+{
+"id": "b085ffd49d8987395aa495589f5aa78f29e1b991",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊广告组怎么设置？产品、关键词和商品投放的拆分逻辑",
+"url": "https://www.cifnews.com/article/188755",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊广告组怎么设置？产品、关键词和商品投放的拆分逻辑"
+},
+{
+"id": "6f17b8e4c27f71dfad8ad877bb21f10fd08fb4db",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "近三成卖家面临直接资金损失，Ozon成本规则引发广泛关注",
+"url": "https://www.amz123.com/kx/d1R99g1f",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "近三成卖家面临直接资金损失，Ozon成本规则引发广泛关注"
+},
+{
+"id": "ff6a521ad4f7af8630315557a182f52ae02fe4d2",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "A first look at ‘Our Fault: London,’ the ‘Your Fault: London’ and 'My Fault: London' sequel coming to Prime Video in 2027",
+"url": "https://www.aboutamazon.com/news/entertainment/our-fault-london-prime-video",
+"published_at": "2026-09-08T08:28:07Z",
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_platforms": [
+"prime",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "《我们的错：伦敦》（ Our Fault: London ）、《你的错：伦敦》（ Your Fault: London ）和《我的错：伦敦》（ My Fault: London ）续集将于2027年登陆Prime Video"
+},
 {
 "id": "88681533d1116eb0992a88c7239d327889123f35",
 "site_id": "cifnews",
@@ -52,7 +241,7 @@
 "url": "https://www.cifnews.com/article/188744",
 "published_at": null,
 "first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
 "cross_score": 0.96,
 "cross_label": "policy_update",
@@ -79,7 +268,7 @@
 "url": "https://www.amz123.com/kx/6SrmZULT",
 "published_at": null,
 "first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "listing_product",
@@ -105,7 +294,7 @@
 "url": "https://www.cifnews.com/article/188747",
 "published_at": null,
 "first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -151,7 +340,7 @@
 "url": "https://www.amz123.com/kx/rDlGQzFb",
 "published_at": null,
 "first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "fee_logistics",
@@ -177,7 +366,7 @@
 "url": "https://www.amz123.com/kx/8QV37zeN",
 "published_at": null,
 "first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "seller_action",
@@ -194,438 +383,74 @@
 "title_zh": "Ozon保险计费逻辑重大调整，2026年10月5日起生效，部分卖家成本将显著上升"
 },
 {
-"id": "23a21971f3f03061116cdcb55a8db8b932c6193c",
+"id": "477505776892e12e1c657300ac8a1561ad573d26",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊美国FBA假日旺季与燃油附加费双重叠加，卖家成本压力显著上升",
-"url": "https://www.amz123.com/kx/M5oOkpHY",
+"title": "TikTok Shop FBT旺季政策更新：黑五备货截止时间及仓库调整规则公布",
+"url": "https://www.amz123.com/kx/dXRY1pI2",
 "published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"first_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
-"cross_score": 0.97,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国FBA假日旺季与燃油附加费双重叠加，卖家成本压力显著上升"
-},
-{
-"id": "783a68e169db2c697af0a31286f88f0b9068c15b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "读懂Review系列01|只能看 8 条评论？亚马逊评论收紧，卖家调研难题终于有解法！",
-"url": "https://www.cifnews.com/article/188712",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
-"cross_is_related": true,
-"cross_score": 0.92,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"review",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "读懂Review系列01|只能看 8 条评论？亚马逊评论收紧，卖家调研难题终于有解法！"
-},
-{
-"id": "8eae0f9ddd465e0e7f6f3a2caacdff1e9f5e19fa",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊选品警示：别被高销量迷惑，金属置物架类目实战复盘",
-"url": "https://www.cifnews.com/article/188725",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"选品"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊选品警示：别被高销量迷惑，金属置物架类目实战复盘"
-},
-{
-"id": "b44dd5c4e3b68d3a3a080ace379db7dc986b6dc4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "霍尔木兹海峡局势趋紧，国际油价上行冲击跨境物流成本",
-"url": "https://www.amz123.com/kx/nx6EXrnr",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境物流",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "霍尔木兹海峡局势趋紧，国际油价上行冲击跨境物流成本"
-},
-{
-"id": "1f76d6e8f2c6f95aa4a7faaa55a9d16a883b4690",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "无票也能合规了！跨境电商核定征收最新官方消息，跨境财税合规下半场如何操作？",
-"url": "https://www.cifnews.com/article/188724",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.76,
+"cross_score": 0.63,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"跨境",
-"跨境电商",
-"电商",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "无票也能合规了！跨境电商核定征收最新官方消息，跨境财税合规下半场如何操作？"
-},
-{
-"id": "486c7c623862b80b356ec73cc5ab8e966747e729",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊广告关键词投放：相关性、匹配方式与竞价的判断顺序",
-"url": "https://www.cifnews.com/article/188714",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T00:41:15.026030Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
+"tiktok shop",
+"政策"
 ],
 "cross_platforms": [
-"亚马逊"
+"tiktok shop"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊广告关键词投放：相关性、匹配方式与竞价的判断顺序"
+"title_zh": "TikTok Shop FBT旺季政策更新：黑五备货截止时间及仓库调整规则公布"
 },
 {
-"id": "619d9566cb66e68b30ca4f4b46c1c82587d55ecb",
+"id": "4b1f2ccca170133982a011129976e8c0bf584b9f",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "Temu欧洲Meta广告投放现疑似虚假达人账号问题",
-"url": "https://www.amz123.com/kx/MdTiQgvl",
+"title": "Ozon正式进军蒙古市场，海外布局扩至第九国",
+"url": "https://www.amz123.com/kx/xPeJ1Sei",
 "published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"广告投放",
-"达人"
-],
-"cross_platforms": [
-"temu"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "Temu欧洲Meta广告投放现疑似虚假达人账号问题"
-},
-{
-"id": "8ff941903c55258ca7807ffd16f74a954777785a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "印度突击检查：亚马逊两处仓储无证存药，逾40万卢比药品遭查扣",
-"url": "https://www.amz123.com/kx/m7ANnusT",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"仓储"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "印度突击检查：亚马逊两处仓储无证存药，逾40万卢比药品遭查扣"
-},
-{
-"id": "e8abab808f2e3b5ec17a215fd1be0fc9c46984a7",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "员工侵权被判赔156万元，跨境卖家数据安全管理再受关注",
-"url": "https://www.amz123.com/kx/YFqnV8GW",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "员工侵权被判赔156万元，跨境卖家数据安全管理再受关注"
-},
-{
-"id": "a22b4a9d73ea6369fcf12138ed4e6690152c6877",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "2026-cv-01847｜15幅现代印象派画作逮捕47名被告，艺术印刷卖家需自查",
-"url": "https://www.cifnews.com/article/188722",
-"published_at": null,
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "2026-cv-01847｜15幅现代印象派画作逮捕47名被告，艺术印刷卖家需自查"
-},
-{
-"id": "7629550f41334ed3e195785c171c5726bcca44b6",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊美国站旺季附加费10月15日生效，仓储成本同步上涨",
-"url": "https://www.ennews.com/news-143754.html",
-"published_at": "2026-09-08T00:00:00Z",
 "first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
-"cross_score": 0.91,
-"cross_label": "fee_logistics",
+"cross_score": 0.6,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"仓储"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国站旺季附加费10月15日生效，仓储成本同步上涨"
-},
-{
-"id": "52395e8a27196a9813b530898504497d26ec1323",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊升级WhatsApp购物体验，买家可边聊边选",
-"url": "https://www.ennews.com/news-143762.html",
-"published_at": "2026-09-08T00:00:00Z",
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"买家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊升级WhatsApp购物体验，买家可边聊边选"
-},
-{
-"id": "bca4a237af0fab98946a5c975607284a925ca0ad",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "9亿大单落地，跨境大卖满血复活",
-"url": "https://www.ennews.com/article-31867-1.html",
-"published_at": "2026-09-08T00:00:00Z",
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "9亿大单落地，跨境大卖满血复活"
-},
-{
-"id": "89560bd8176085f733b1c10ad92686a977db7d59",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "2026年前七月Ozon平台卖家服务费占比24.73%",
-"url": "https://www.ennews.com/news-143749.html",
-"published_at": "2026-09-08T00:00:00Z",
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
+"ozon"
 ],
 "cross_platforms": [
 "ozon"
 ],
 "cross_sites": [],
-"title_zh": "2026年前七月Ozon平台卖家服务费占比24.73%"
+"title_zh": "Ozon正式进军蒙古市场，海外布局扩至第九国"
 },
 {
-"id": "f21c1622ce772c1756b5a9b829757ec18e1e733c",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "运营合伙创业亚马逊，投入百万仍无奈离场",
-"url": "https://www.ennews.com/article-31866-1.html",
-"published_at": "2026-09-08T00:00:00Z",
+"id": "7544d2239d9ca2d14e940d633bd513009c6768b8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "WB银行推出新信贷工具，或推动Wildberries平台客单价提升",
+"url": "https://www.amz123.com/kx/gZpEyW4H",
+"published_at": null,
 "first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
+"last_seen_at": "2026-09-09T00:41:22.697749Z",
 "cross_is_related": true,
-"cross_score": 0.64,
+"cross_score": 0.6,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "运营合伙创业亚马逊，投入百万仍无奈离场"
-},
-{
-"id": "0db20a68b6cf5e072f7817c2fca46bbf1aacac33",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Wildberries订单锐减，卖家和买家涌入M.Video等替代平台",
-"url": "https://www.ennews.com/news-143744.html",
-"published_at": "2026-09-08T00:00:00Z",
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"卖家",
-"买家",
-"卖家"
+"wildberries"
 ],
 "cross_platforms": [
 "wildberries"
 ],
 "cross_sites": [],
-"title_zh": "Wildberries订单锐减，卖家和买家涌入M.Video等替代平台"
-},
-{
-"id": "f9135175c6a76f23ca786e052f715bad18c7bfbc",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "AmafestUK 2026 – Amazon Sellers Conference 16th October",
-"url": "https://channelx.world/2026/09/amafestuk-2026-amazon-sellers-conference-16th-october",
-"published_at": "2026-09-07T10:45:51Z",
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": []
-},
-{
-"id": "139d963db49274a0cec2787299fe69a93d53b534",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon WhatsApp experience upgraded",
-"url": "https://channelx.world/2026/09/amazon-whatsapp-experience-upgraded",
-"published_at": "2026-09-07T09:41:20Z",
-"first_seen_at": "2026-09-08T00:41:15.026030Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": []
+"title_zh": "WB银行推出新信贷工具，或推动Wildberries平台客单价提升"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
