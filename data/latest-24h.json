@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-09-09T00:41:22.697749Z",
+"generated_at": "2026-09-09T05:28:13.508698Z",
 "window_hours": 24,
-"total_items": 17,
-"total_items_cross_raw": 45,
-"total_items_raw": 57,
-"total_items_all_mode": 57,
+"total_items": 19,
+"total_items_cross_raw": 44,
+"total_items_raw": 78,
+"total_items_all_mode": 78,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2142,
+"archive_total": 2108,
 "site_count": 16,
 "source_count": 4,
 "site_stats": [
@@ -15,13 +15,19 @@
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 27
+"raw_count": 17
 },
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 8,
-"raw_count": 25
+"count": 6,
+"raw_count": 35
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 4,
+"raw_count": 22
 },
 {
 "site_id": "amazon_newsroom",
@@ -33,10 +39,105 @@
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 3
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "76a14a05ee36b5bf892a595ca9495cb87138ed11",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "乐天9月大促期间爆款链接大规模异常，卖家遭遇流量损失",
+"url": "https://www.amz123.com/kx/mo6Us76x",
+"published_at": null,
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"流量",
+"爆款"
+],
+"cross_platforms": [
+"乐天"
+],
+"cross_sites": [],
+"title_zh": "乐天9月大促期间爆款链接大规模异常，卖家遭遇流量损失"
+},
+{
+"id": "ff3b1c50ef4d2431dc36d019b796c5bf34934119",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊货机迈阿密冲出跑道起火，致5死5伤，逾160航班取消",
+"url": "https://www.amz123.com/kx/1jj73hZa",
+"published_at": null,
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊货机迈阿密冲出跑道起火，致5死5伤，逾160航班取消"
+},
+{
+"id": "172e0b9956fd9300da040f0221fc9e24a695998f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊8月潮玩市场：销量环比下降，万代《航海王》单品销售额达913万美元",
+"url": "https://www.amz123.com/kx/N5iwGbxa",
+"published_at": null,
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊8月潮玩市场：销量环比下降，万代《航海王》单品销售额达913万美元"
+},
+{
+"id": "8c6d9f376ec5f678999761ef6a264603b70922e8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "名义52%实际1.54%，Ozon首次披露积分补贴机制下的真实佣金成本",
+"url": "https://www.amz123.com/kx/d7eJWoXO",
+"published_at": null,
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "名义52%实际1.54%，Ozon首次披露积分补贴机制下的真实佣金成本"
+},
 {
 "id": "4123bb9d6a597801eb754d1f6f28f987d1c1f7ea",
 "site_id": "cifnews",
@@ -46,7 +147,7 @@
 "url": "https://www.cifnews.com/article/188761",
 "published_at": null,
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 1.0,
 "cross_label": "policy_update",
@@ -73,7 +174,7 @@
 "url": "https://www.cifnews.com/article/188756",
 "published_at": null,
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "listing_product",
@@ -97,7 +198,7 @@
 "url": "https://www.amz123.com/kx/W0ws2oVZ",
 "published_at": null,
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "policy_update",
@@ -120,7 +221,7 @@
 "url": "https://www.cifnews.com/article/188764",
 "published_at": null,
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -145,7 +246,7 @@
 "url": "https://www.cifnews.com/article/188749",
 "published_at": null,
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "policy_update",
@@ -171,7 +272,7 @@
 "url": "https://www.cifnews.com/article/188755",
 "published_at": null,
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -186,6 +287,76 @@
 "title_zh": "亚马逊广告组怎么设置？产品、关键词和商品投放的拆分逻辑"
 },
 {
+"id": "5c924b28f765a40bd63f31782c92a8adf01a5187",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "突发！平台、税局罕见同时通知，要求卖家限期倒查核实去年报送的涉税数据",
+"url": "https://www.cifnews.com/article/188757",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "突发！平台、税局罕见同时通知，要求卖家限期倒查核实去年报送的涉税数据"
+},
+{
+"id": "4c82e8622674013f3c2810f49deb4194c9d257d2",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "美国科州公司暴雷？超13000家跨境卖家慌了！",
+"url": "https://www.cifnews.com/article/188759",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国科州公司暴雷？超13000家跨境卖家慌了！"
+},
+{
+"id": "9999a07ade82e82484cae79647ce37c93f5f7972",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "读懂Review系列02|竞品评论看不全，卖家还怎么做产品分析？",
+"url": "https://www.cifnews.com/article/188750",
+"published_at": null,
+"first_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"review",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "读懂Review系列02|竞品评论看不全，卖家还怎么做产品分析？"
+},
+{
 "id": "6f17b8e4c27f71dfad8ad877bb21f10fd08fb4db",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -194,7 +365,7 @@
 "url": "https://www.amz123.com/kx/d1R99g1f",
 "published_at": null,
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "policy_update",
@@ -211,6 +382,98 @@
 "title_zh": "近三成卖家面临直接资金损失，Ozon成本规则引发广泛关注"
 },
 {
+"id": "f81af3ae7a78db8cb1c97c99446baff923b90251",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊划线价大面积消失，卖家订单受冲击",
+"url": "https://www.ennews.com/news-143867.html",
+"published_at": "2026-09-09T00:00:00Z",
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊划线价大面积消失，卖家订单受冲击"
+},
+{
+"id": "cdc218e05938bc536eed4fb0516ccddfd4fb6c5d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "今年多家跨境公司悄然倒下",
+"url": "https://www.ennews.com/article-31868-1.html",
+"published_at": "2026-09-09T00:00:00Z",
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "今年多家跨境公司悄然倒下"
+},
+{
+"id": "46e626f1517ddcd37891f1e06929d72dbb826048",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "好评大批量消失！亚马逊评价体系变天",
+"url": "https://www.ennews.com/article-31869-1.html",
+"published_at": "2026-09-09T00:00:00Z",
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "好评大批量消失！亚马逊评价体系变天"
+},
+{
+"id": "1162d6ee8bafec1d438d8adf1f2a3e09a88fb08e",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊8月潮玩榜：万代《航海王》单品月销913万美元领跑",
+"url": "https://www.ennews.com/news-143865.html",
+"published_at": "2026-09-09T00:00:00Z",
+"first_seen_at": "2026-09-09T05:28:13.508698Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊8月潮玩榜：万代《航海王》单品月销913万美元领跑"
+},
+{
 "id": "ff6a521ad4f7af8630315557a182f52ae02fe4d2",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -219,238 +482,18 @@
 "url": "https://www.aboutamazon.com/news/entertainment/our-fault-london-prime-video",
 "published_at": "2026-09-08T08:28:07Z",
 "first_seen_at": "2026-09-09T00:41:22.697749Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
+"last_seen_at": "2026-09-09T05:28:13.508698Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [],
 "cross_platforms": [
-"prime",
-"amazon"
+"amazon",
+"prime"
 ],
 "cross_sites": [],
 "title_zh": "《我们的错：伦敦》（ Our Fault: London ）、《你的错：伦敦》（ Your Fault: London ）和《我的错：伦敦》（ My Fault: London ）续集将于2027年登陆Prime Video"
-},
-{
-"id": "88681533d1116eb0992a88c7239d327889123f35",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊卖家注意：成本、合规、Listing，3个地方又变了",
-"url": "https://www.cifnews.com/article/188744",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.96,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"listing",
-"卖家",
-"合规"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊卖家注意：成本、合规、Listing，3个地方又变了"
-},
-{
-"id": "000ee8afe93c93e089af9ca525b8896579768f1b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊大批Listing划线价异常消失，卖家订单量大幅下滑",
-"url": "https://www.amz123.com/kx/6SrmZULT",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"listing",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊大批Listing划线价异常消失，卖家订单量大幅下滑"
-},
-{
-"id": "b4c65bd609a27b31b0e7efae52de26385304c30b",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊提示词Prompts广告曝光机制，提示词广告有曝光的3个核心",
-"url": "https://www.cifnews.com/article/188747",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊提示词Prompts广告曝光机制，提示词广告有曝光的3个核心"
-},
-{
-"id": "c1a88aac64a800dd8c6f95e526901b26732a0dff",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "每期一家跨境电商公司：漫步者EDIFIER",
-"url": "https://www.cifnews.com/article/188741",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-08T05:24:54.481955Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "每期一家跨境电商公司：漫步者EDIFIER"
-},
-{
-"id": "7d0eec8e0a683a8ac11a5e932060ef4f667313af",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "旺季物流利好！Ozon新增29个合作分拣点，卖家费率保持不变",
-"url": "https://www.amz123.com/kx/rDlGQzFb",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家",
-"物流"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "旺季物流利好！Ozon新增29个合作分拣点，卖家费率保持不变"
-},
-{
-"id": "2c5930913ce5e5d03c6c76cf7eba289b70571195",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon保险计费逻辑重大调整，2026年10月5日起生效，部分卖家成本将显著上升",
-"url": "https://www.amz123.com/kx/8QV37zeN",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon保险计费逻辑重大调整，2026年10月5日起生效，部分卖家成本将显著上升"
-},
-{
-"id": "477505776892e12e1c657300ac8a1561ad573d26",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop FBT旺季政策更新：黑五备货截止时间及仓库调整规则公布",
-"url": "https://www.amz123.com/kx/dXRY1pI2",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"政策"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop FBT旺季政策更新：黑五备货截止时间及仓库调整规则公布"
-},
-{
-"id": "4b1f2ccca170133982a011129976e8c0bf584b9f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon正式进军蒙古市场，海外布局扩至第九国",
-"url": "https://www.amz123.com/kx/xPeJ1Sei",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon正式进军蒙古市场，海外布局扩至第九国"
-},
-{
-"id": "7544d2239d9ca2d14e940d633bd513009c6768b8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "WB银行推出新信贷工具，或推动Wildberries平台客单价提升",
-"url": "https://www.amz123.com/kx/gZpEyW4H",
-"published_at": null,
-"first_seen_at": "2026-09-08T05:24:54.481955Z",
-"last_seen_at": "2026-09-09T00:41:22.697749Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "WB银行推出新信贷工具，或推动Wildberries平台客单价提升"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
