@@ -1,60 +1,320 @@
 {
-"generated_at": "2026-09-10T05:24:55.808437Z",
+"generated_at": "2026-09-11T00:41:25.667094Z",
 "window_hours": 24,
-"total_items": 26,
-"total_items_cross_raw": 68,
-"total_items_raw": 113,
-"total_items_all_mode": 113,
+"total_items": 16,
+"total_items_cross_raw": 38,
+"total_items_raw": 74,
+"total_items_all_mode": 74,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2093,
+"archive_total": 2088,
 "site_count": 16,
-"source_count": 7,
+"source_count": 6,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 73
+"raw_count": 51
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 6,
-"raw_count": 13
+"raw_count": 16
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"count": 5,
-"raw_count": 8
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
-"count": 5,
-"raw_count": 6
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 2,
-"raw_count": 8
+"count": 1,
+"raw_count": 2
 },
 {
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 4
+"raw_count": 2
 },
 {
-"site_id": "sp_api",
-"site_name": "SP-API Changelog",
+"site_id": "channelx",
+"site_name": "ChannelX",
 "count": 0,
-"raw_count": 1
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "2b87de9f0f72edf34d6d93893c5e1fa8e5faba60",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美国站旺季费用多项叠加，卖家成本压力显著上升",
+"url": "https://www.amz123.com/kx/0eTtbNN6",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国站旺季费用多项叠加，卖家成本压力显著上升"
+},
+{
+"id": "feea8dd028ca48e2394487e33abd629a8577724b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊2026年11月2日起调整商业责任险规则，新增11类高危类目强制投保要求",
+"url": "https://www.amz123.com/kx/i7xMS7Zg",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊2026年11月2日起调整商业责任险规则，新增11类高危类目强制投保要求"
+},
+{
+"id": "31ab4d88b7a5f1baf1e5d74cbe53b3cd2a119be0",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "建议想做TikTok Shop的亚马逊卖家，参考这个同行",
+"url": "https://www.cifnews.com/article/188797",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"tiktok shop",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "建议想做TikTok Shop的亚马逊卖家，参考这个同行"
+},
+{
+"id": "6b9331645cea9a3ec87a2f868b4fae88023a7e8d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "深圳税局批量下发预警短信，跨境卖家须在10日内自查增值税申报情况",
+"url": "https://www.amz123.com/kx/2SgoXbHF",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"增值税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "深圳税局批量下发预警短信，跨境卖家须在10日内自查增值税申报情况"
+},
+{
+"id": "2ddd679e8410a263d5ce8b18b9429cd4601784da",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊广告玩法变天，2000+ 品牌都在靠这套打法突围",
+"url": "https://www.cifnews.com/article/188803",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊广告玩法变天，2000+ 品牌都在靠这套打法突围"
+},
+{
+"id": "52b4443f95e900ab0392e1dd20908cd4555b3a0e",
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
+"source": "市场分析",
+"title": "Amazon's Top Sellers Aren't TikTok Shop's",
+"url": "https://marketplacepulse.com/articles/amazons-top-sellers-arent-tiktok-shops",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"tiktok shop"
+],
+"cross_platforms": [
+"tiktok shop",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊的畅销书不是TikTok商店的"
+},
+{
+"id": "311418e44d62f766adf3822cb1bf68b65e16f38f",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "聚力财税合规，护航跨境出海｜雨果跨境×长风智税私享会深圳圆满举行",
+"url": "https://www.cifnews.com/article/188798",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "聚力财税合规，护航跨境出海｜雨果跨境×长风智税私享会深圳圆满举行"
+},
+{
+"id": "82feddf0d883d6e98677ba37f6554657e38150a8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "日本亚马逊8月潮玩榜：万代拓麻歌子月销5.69亿日元，森贝儿家族五款同进前十",
+"url": "https://www.amz123.com/kx/rxLw0KYU",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"jp"
+],
+"title_zh": "日本亚马逊8月潮玩榜：万代拓麻歌子月销5.69亿日元，森贝儿家族五款同进前十"
+},
+{
+"id": "4d5debec71836a36c2c7d0f7f2f7e1ceeb6cdcbe",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries将退还卖家误扣资金，涉及FBS佣金计算错误",
+"url": "https://www.amz123.com/kx/sGHmJa5s",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries将退还卖家误扣资金，涉及FBS佣金计算错误"
+},
+{
+"id": "c21c6455b3e5f103f7e6957add9ad357d725ed04",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "借了贵钱去买货，赚的钱全给别人打工了？卖家现金流难题怎么破？",
+"url": "https://www.cifnews.com/article/188800",
+"published_at": null,
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "借了贵钱去买货，赚的钱全给别人打工了？卖家现金流难题怎么破？"
+},
+{
+"id": "9a2db6135afab5563eb276136174cd52d461f701",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon Leo adds 6 new Arianespace launches, expanding its launch partnership",
+"url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-arianespace-new-launches",
+"published_at": "2026-09-10T19:26:06Z",
+"first_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "Amazon Leo增加了6个新的Arianespace发布，扩大了其发布合作伙伴关系"
+},
 {
 "id": "8add1a1cd3238c2852c2c5af946a283ac27b4929",
 "site_id": "amz123",
@@ -114,7 +374,7 @@
 "url": "https://www.cifnews.com/article/188778",
 "published_at": null,
 "first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -135,7 +395,7 @@
 "url": "https://www.cifnews.com/article/188786",
 "published_at": null,
 "first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -150,260 +410,18 @@
 "title_zh": "Google排名突然跌了，独立站先查报表还是先改网站？"
 },
 {
-"id": "5c907a230d457a8007fddfd5087f851e7dabf7cb",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "紧急！亚马逊扫号来了，不合规直接封店",
-"url": "https://www.cifnews.com/article/188777",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"合规"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "紧急！亚马逊扫号来了，不合规直接封店"
-},
-{
-"id": "abc5f281f59a6b54e650f5c9c7793449f27d3549",
+"id": "5e26790f81731678f23436ea1f0be836e2d929d2",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊全球物流即将推出中美空运双档新品，时效分别为7—10天及11—15天",
-"url": "https://www.amz123.com/kx/ZIVXhN1s",
+"title": "Ozon向29座城市招募第三方合伙分拣中心",
+"url": "https://www.amz123.com/kx/LBXvIWnz",
 "published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"物流"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊全球物流即将推出中美空运双档新品，时效分别为7—10天及11—15天"
-},
-{
-"id": "284a3ce9222a5e6668523a47abbe73f8380870de",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Temu在欧洲累计投放广告花费最高达9.62亿美元",
-"url": "https://www.amz123.com/kx/Yyds6Ude",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu"
-],
-"cross_platforms": [
-"temu"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "Temu在欧洲累计投放广告花费最高达9.62亿美元"
-},
-{
-"id": "e17b70f24fa38e9d02adaf7d8b7cbc6028425e87",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "最近大家打开亚马逊后台，应该都发现了一些不一样的地方。 亚马逊悄然开启全站点的灰度测试，直接下架了卖家后台评论板块内1-3星差评对应的“Contact Buyer（联系买家）”功能按钮。以后卖家想要主动联系一下给出1-3...最近大家打开亚马逊后台，应该都发现了一些不一样的地方。 亚马逊悄然开启全站点的灰度测试，直接下架了卖家后台评论板块内1-3星差评对应的“Contact Buyer（联系买家）”功能按钮。以后卖家想要主动联系一下给出1-3...",
-"url": "https://www.amzdh.com/kjtt/10407.html",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"买家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "最近大家打开亚马逊后台，应该都发现了一些不一样的地方。 亚马逊悄然开启全站点的灰度测试，直接下架了卖家后台评论板块内1-3星差评对应的“Contact Buyer（联系买家）”功能按钮。以后卖家想要主动联系一下给出1-3...最近大家打开亚马逊后台，应该都发现了一些不一样的地方。 亚马逊悄然开启全站点的灰度测试，直接下架了卖家后台评论板块内1-3星差评对应的“Contact Buyer（联系买家）”功能按钮。以后卖家想要主动联系一下给出1-3..."
-},
-{
-"id": "171767d8018b47d77f9dda284a64792aa4ad4aa7",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "义乌跨境包裹揽货周期缩短至1天",
-"url": "https://www.amz123.com/kx/mB5FjylU",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"包裹"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "义乌跨境包裹揽货周期缩短至1天"
-},
-{
-"id": "baf44596051718414b146170b72fa66b60565121",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok重返多伦多国际电影节，影视内容场景重塑跨境选品逻辑",
-"url": "https://www.amz123.com/kx/ecxtHzet",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"选品"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "TikTok重返多伦多国际电影节，影视内容场景重塑跨境选品逻辑"
-},
-{
-"id": "249bde355c4d07f9ee88b6e04163d0b1e33af3e2",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "出海卖家旺季前必看：你的竞品已经开始用AI抢流量了！",
-"url": "https://www.cifnews.com/article/188779",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"流量"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "出海卖家旺季前必看：你的竞品已经开始用AI抢流量了！"
-},
-{
-"id": "c0f0c4a416e98e2b5f0c7707fb15a1eff468d1bd",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，TikTok Shop平台近日正式宣布推出欧盟与英国之间的双向跨境销售功能：9月21日启动部分欧盟卖家试点，10月19日全面推广。一句话概括这次开放的含金量——欧洲两大市场之间的墙，被TikTok Shop打通了。🔺...AMZDH获悉，TikTok Shop平台近日正式宣布推出欧盟与英国之间的双向跨境销售功能：9月21日启动部分欧盟卖家试点，10月19日全面推广。一句话概括这次开放的含金量——欧洲两大市场之间的墙，被TikTok Shop打通了。🔺...",
-"url": "https://www.amzdh.com/kjtt/10405.html",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [
-"uk",
-"eu"
-],
-"title_zh": "AMZDH获悉，TikTok Shop平台近日正式宣布推出欧盟与英国之间的双向跨境销售功能：9月21日启动部分欧盟卖家试点，10月19日全面推广。一句话概括这次开放的含金量——欧洲两大市场之间的墙，被TikTok Shop打通了。🔺...AMZDH获悉，TikTok Shop平台近日正式宣布推出欧盟与英国之间的双向跨境销售功能：9月21日启动部分欧盟卖家试点，10月19日全面推广。一句话概括这次开放的含金量——欧洲两大市场之间的墙，被TikTok Shop打通了。🔺..."
-},
-{
-"id": "72cbbe6acdd43c8dfc8e9b0592491ab0e3660f86",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊取消买家评论功能！",
-"url": "https://www.amzdh.com/kjtt/10407.html",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"买家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊取消买家评论功能！"
-},
-{
-"id": "fcdc24ee6a0743b56746a779d222b7f70a238e0d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "做55岁老男人的生意，它把自己干到亚马逊第一",
-"url": "https://www.cifnews.com/article/188775",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "做55岁老男人的生意，它把自己干到亚马逊第一"
-},
-{
-"id": "9dd51c90b76732595f6a703236a5e86b7578664a",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Ozon正式进军蒙古市场，成为Ozon第九个国家站点",
-"url": "https://www.amzdh.com/kjtt/10406.html",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
+"first_seen_at": "2026-09-10T05:24:55.808437Z",
+"last_seen_at": "2026-09-11T00:41:25.667094Z",
 "cross_is_related": true,
 "cross_score": 0.6,
-"cross_label": "platform_trend",
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "ozon"
@@ -412,260 +430,7 @@
 "ozon"
 ],
 "cross_sites": [],
-"title_zh": "Ozon正式进军蒙古市场，成为Ozon第九个国家站点"
-},
-{
-"id": "7752efa4b04c2a068b8f867b3f7b4084526556e1",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "AMZDH获悉，9月1日，Ozon在蒙古开卖。超9000万件商品、最长10天送达、蒙古邮政网点自提。蒙古成为它在本土之外的第九个市场。真正的看点在数字之外。一、它不是去建仓，是去\"接水管\" Ozon在蒙古没建仓、没...AMZDH获悉，9月1日，Ozon在蒙古开卖。超9000万件商品、最长10天送达、蒙古邮政网点自提。蒙古成为它在本土之外的第九个市场。真正的看点在数字之外。一、它不是去建仓，是去\"接水管\" Ozon在蒙古没建仓、没...",
-"url": "https://www.amzdh.com/kjtt/10406.html",
-"published_at": null,
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"邮政"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "AMZDH获悉，9月1日，Ozon在蒙古开卖。超9000万件商品、最长10天送达、蒙古邮政网点自提。蒙古成为它在本土之外的第九个市场。真正的看点在数字之外。一、它不是去建仓，是去\"接水管\" Ozon在蒙古没建仓、没...AMZDH获悉，9月1日，Ozon在蒙古开卖。超9000万件商品、最长10天送达、蒙古邮政网点自提。蒙古成为它在本土之外的第九个市场。真正的看点在数字之外。一、它不是去建仓，是去\"接水管\" Ozon在蒙古没建仓、没..."
-},
-{
-"id": "898fda6fff7ea6909f53de7964ec961263ff0b82",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Cybersecurity expert Kevin Mandia joins Amazon's Board of Directors",
-"url": "https://www.aboutamazon.com/news/company-news/kevin-mandia-amazon-board-of-directors",
-"published_at": "2026-09-09T20:32:47Z",
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "网络安全专家Kevin Mandia加入亚马逊董事会"
-},
-{
-"id": "44a2005337610f69cb8848f7c21294d01e55b802",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Update your recommended retail prices on Amazon",
-"url": "https://channelx.world/2026/09/update-your-recommended-retail-prices-on-amazon",
-"published_at": "2026-09-09T18:59:42Z",
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "在亚马逊上更新您的推荐零售价格"
-},
-{
-"id": "3501956e22987b8718f375dc2063b711bd123809",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Meet the new paper replacing Amazon's plastic packaging",
-"url": "https://www.aboutamazon.com/stories/amazon-paper-packaging-sustainability",
-"published_at": "2026-09-09T17:16:34Z",
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "了解取代亚马逊塑料包装的新纸张"
-},
-{
-"id": "962498a9011df01a77ad6e09b19485b435c2d080",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Alibaba’s Accio Cuts AI Costs for E-Commerce Tasks by over 50% compared with General-Purpose Agents",
-"url": "https://channelx.world/2026/09/alibabas-accio-cuts-ai-costs-for-e-commerce-tasks-by-over-50-compared-with-general-purpose-agents",
-"published_at": "2026-09-09T16:35:07Z",
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"e-commerce"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "与通用代理相比，阿里巴巴的Accio将电商任务的人工智能成本降低了50%以上"
-},
-{
-"id": "a1c833f352dcad33238140f01f709cd8179d707d",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon and Wiwynn announce expansion of advanced manufacturing facility in Texas, creating nearly 1,000 jobs and boosting the US supply chain",
-"url": "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas",
-"published_at": "2026-09-09T15:13:24Z",
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊和Wiwynn宣布扩建德克萨斯州的先进制造工厂，创造近1,000个工作岗位并促进美国供应链"
-},
-{
-"id": "bb77394cfd2888601576e0c840bb0e8fb311abc3",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon’s 2026 Top 100+ Toys list: Something for every kid at heart",
-"url": "https://www.aboutamazon.com/news/retail/best-gifts-kids-amazon-toys-we-love-list-2026",
-"published_at": "2026-09-09T13:00:04Z",
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊2026年百强玩具榜单：让每个孩子都能感受到"
-},
-{
-"id": "34e3c0d8a40ef1cc8ffbed298b2b15d5bacc7ee4",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Prime Video introduces new lip-sync technology on ‘Maxton Hall’",
-"url": "https://www.aboutamazon.com/news/entertainment/prime-video-lip-sync-technology",
-"published_at": "2026-09-09T12:55:35Z",
-"first_seen_at": "2026-09-10T00:40:54.108683Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "Prime Video在“Maxton Hall”上推出全新唇形同步技术"
-},
-{
-"id": "76a14a05ee36b5bf892a595ca9495cb87138ed11",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "乐天9月大促期间爆款链接大规模异常，卖家遭遇流量损失",
-"url": "https://www.amz123.com/kx/mo6Us76x",
-"published_at": null,
-"first_seen_at": "2026-09-09T05:28:13.508698Z",
-"last_seen_at": "2026-09-10T00:40:54.108683Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"流量",
-"爆款"
-],
-"cross_platforms": [
-"乐天"
-],
-"cross_sites": [],
-"title_zh": "乐天9月大促期间爆款链接大规模异常，卖家遭遇流量损失"
-},
-{
-"id": "ff3b1c50ef4d2431dc36d019b796c5bf34934119",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊货机迈阿密冲出跑道起火，致5死5伤，逾160航班取消",
-"url": "https://www.amz123.com/kx/1jj73hZa",
-"published_at": null,
-"first_seen_at": "2026-09-09T05:28:13.508698Z",
-"last_seen_at": "2026-09-10T00:40:54.108683Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊货机迈阿密冲出跑道起火，致5死5伤，逾160航班取消"
-},
-{
-"id": "05a770aa2cd3be4f36c5697f4373475608a4d952",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "汽配卖家注意了！TERUNSOUL行车记录仪商标发案！",
-"url": "https://www.cifnews.com/article/188771",
-"published_at": null,
-"first_seen_at": "2026-09-09T05:28:13.508698Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "汽配卖家注意了！TERUNSOUL行车记录仪商标发案！"
+"title_zh": "Ozon向29座城市招募第三方合伙分拣中心"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
