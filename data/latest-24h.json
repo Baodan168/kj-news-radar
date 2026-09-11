@@ -1,27 +1,33 @@
 {
-"generated_at": "2026-09-11T00:41:25.667094Z",
+"generated_at": "2026-09-11T05:22:32.662374Z",
 "window_hours": 24,
-"total_items": 16,
-"total_items_cross_raw": 38,
-"total_items_raw": 74,
-"total_items_all_mode": 74,
+"total_items": 19,
+"total_items_cross_raw": 53,
+"total_items_raw": 99,
+"total_items_all_mode": 99,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2088,
+"archive_total": 2043,
 "site_count": 16,
-"source_count": 6,
+"source_count": 7,
 "site_stats": [
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 24
+},
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 51
+"raw_count": 67
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 6,
-"raw_count": 16
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "marketplace_pulse",
@@ -50,6 +56,122 @@
 ],
 "items": [
 {
+"id": "8650d077110232515cdf6b565832ed50174e1c33",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "为什么越来越多做0110的亚马逊卖家，开始主动转向9810？",
+"url": "https://www.cifnews.com/article/188813",
+"published_at": null,
+"first_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "为什么越来越多做0110的亚马逊卖家，开始主动转向9810？"
+},
+{
+"id": "fb39832533e6af1c29a8b1f702c13da3c0207c12",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南拟将小包免税门槛降至10万越南盾，跨境低价SKU税务逻辑面临重构",
+"url": "https://www.amz123.com/kx/58wwqCUb",
+"published_at": null,
+"first_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"sku"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南拟将小包免税门槛降至10万越南盾，跨境低价SKU税务逻辑面临重构"
+},
+{
+"id": "286d47129f822b897270cac04929f18fe14bc7f4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊又收紧！明年起，这类商品捆绑包或被停用",
+"url": "https://www.cifnews.com/article/188808",
+"published_at": null,
+"first_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊又收紧！明年起，这类商品捆绑包或被停用"
+},
+{
+"id": "edd683189c73bb1c4390fd09a281f8356558910a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "FBP模式佣金低至8%、流量过亿：Yandex.Market能否成为俄罗斯卖家的下一个增长曲线？",
+"url": "https://www.cifnews.com/article/188811",
+"published_at": null,
+"first_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"流量"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "FBP模式佣金低至8%、流量过亿：Yandex.Market能否成为俄罗斯卖家的下一个增长曲线？"
+},
+{
+"id": "d690b24a81bf3d649f35ebe8b6ab4d3604807c4e",
+"site_id": "ecommercebytes",
+"site_name": "EcommerceBytes",
+"source": "卖家新闻",
+"title": "Amazon Updates Insurance Requirements for Sellers",
+"url": "https://www.ecommercebytes.com/2026/09/10/amazon-updates-insurance-requirements-for-sellers",
+"published_at": "2026-09-11T02:54:36Z",
+"first_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊更新卖家保险要求"
+},
+{
 "id": "2b87de9f0f72edf34d6d93893c5e1fa8e5faba60",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -58,7 +180,7 @@
 "url": "https://www.amz123.com/kx/0eTtbNN6",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "fee_logistics",
@@ -108,7 +230,7 @@
 "url": "https://www.cifnews.com/article/188797",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "tiktok",
@@ -135,7 +257,7 @@
 "url": "https://www.amz123.com/kx/2SgoXbHF",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "compliance_deadline",
@@ -159,7 +281,7 @@
 "url": "https://www.cifnews.com/article/188803",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -182,7 +304,7 @@
 "url": "https://marketplacepulse.com/articles/amazons-top-sellers-arent-tiktok-shops",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "tiktok",
@@ -192,8 +314,8 @@
 "tiktok shop"
 ],
 "cross_platforms": [
-"tiktok shop",
-"amazon"
+"amazon",
+"tiktok shop"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊的畅销书不是TikTok商店的"
@@ -207,7 +329,7 @@
 "url": "https://www.cifnews.com/article/188798",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "policy_update",
@@ -229,7 +351,7 @@
 "url": "https://www.amz123.com/kx/rxLw0KYU",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -279,7 +401,7 @@
 "url": "https://www.cifnews.com/article/188800",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -301,9 +423,9 @@
 "url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-arianespace-new-launches",
 "published_at": "2026-09-10T19:26:06Z",
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.71,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -348,7 +470,7 @@
 "url": "https://www.amz123.com/kx/UW1i03fF",
 "published_at": null,
 "first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "policy_update",
@@ -385,52 +507,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "从需求到精准提示词，中间只差一个懂跨境的Agent"
-},
-{
-"id": "4e647995a45ca5a6d957da7e2220c1f2046b8282",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "Google排名突然跌了，独立站先查报表还是先改网站？",
-"url": "https://www.cifnews.com/article/188786",
-"published_at": null,
-"first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"独立站"
-],
-"cross_platforms": [
-"独立站"
-],
-"cross_sites": [],
-"title_zh": "Google排名突然跌了，独立站先查报表还是先改网站？"
-},
-{
-"id": "5e26790f81731678f23436ea1f0be836e2d929d2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon向29座城市招募第三方合伙分拣中心",
-"url": "https://www.amz123.com/kx/LBXvIWnz",
-"published_at": null,
-"first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon向29座城市招募第三方合伙分拣中心"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
