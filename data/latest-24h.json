@@ -1,45 +1,33 @@
 {
-"generated_at": "2026-09-12T00:41:10.815468Z",
+"generated_at": "2026-09-12T05:13:01.151019Z",
 "window_hours": 24,
-"total_items": 19,
-"total_items_cross_raw": 59,
-"total_items_raw": 100,
-"total_items_all_mode": 100,
+"total_items": 15,
+"total_items_cross_raw": 34,
+"total_items_raw": 56,
+"total_items_all_mode": 56,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2075,
+"archive_total": 2016,
 "site_count": 16,
-"source_count": 6,
+"source_count": 4,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 8,
-"raw_count": 71
+"count": 7,
+"raw_count": 40
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 8,
-"raw_count": 23
+"count": 7,
+"raw_count": 12
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 1,
 "raw_count": 3
-},
-{
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"count": 1,
-"raw_count": 1
-},
-{
-"site_id": "marketplace_pulse",
-"site_name": "Marketplace Pulse",
-"count": 1,
-"raw_count": 1
 },
 {
 "site_id": "tophub",
@@ -58,7 +46,7 @@
 "url": "https://www.amz123.com/kx/ZoNouBkx",
 "published_at": null,
 "first_seen_at": "2026-09-12T00:41:10.815468Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "fee_logistics",
@@ -85,7 +73,7 @@
 "url": "https://www.cifnews.com/article/188821",
 "published_at": null,
 "first_seen_at": "2026-09-12T00:41:10.815468Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "listing_product",
@@ -108,7 +96,7 @@
 "url": "https://www.amz123.com/kx/s4arp3SA",
 "published_at": null,
 "first_seen_at": "2026-09-12T00:41:10.815468Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.67,
 "cross_label": "seller_action",
@@ -131,7 +119,7 @@
 "url": "https://www.cifnews.com/article/188822",
 "published_at": null,
 "first_seen_at": "2026-09-12T00:41:10.815468Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -144,6 +132,102 @@
 "title_zh": "10天紧急自查！税局短信“突袭”深圳跨境圈"
 },
 {
+"id": "ae2ad2554782b8be270462520ca0c0f5d7be1b5a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家",
+"url": "https://www.cifnews.com/article/188823",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家"
+},
+{
+"id": "636162e165a3e6d8fc7468ffee9ce92275fed0f4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯电商卖家加速转向自发货，Wildberries FBS占比升至97.4%",
+"url": "https://www.amz123.com/kx/Gv1MOcg8",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家",
+"电商"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "俄罗斯电商卖家加速转向自发货，Wildberries FBS占比升至97.4%"
+},
+{
+"id": "0ae5702c40fa1b56a67df5264747a659f576f5e5",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "五城巡讲！亚马逊家具产业带出海创新论坛重磅来袭，备战黑五不容错过！",
+"url": "https://www.cifnews.com/article/188824",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "五城巡讲！亚马逊家具产业带出海创新论坛重磅来袭，备战黑五不容错过！"
+},
+{
+"id": "633f0019eaa37ac3e7a12b7f1ae8d4f250777242",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "日均万单、两月冲类目第一，中国卖家借美客多批量掘金拉美市场",
+"url": "https://www.amz123.com/kx/TBx8IAFF",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"美客多",
+"卖家"
+],
+"cross_platforms": [
+"美客多"
+],
+"cross_sites": [],
+"title_zh": "日均万单、两月冲类目第一，中国卖家借美客多批量掘金拉美市场"
+},
+{
 "id": "afdb22e10582dde4417c31d3e649753d26ed8f67",
 "site_id": "channelx",
 "site_name": "ChannelX",
@@ -152,7 +236,7 @@
 "url": "https://channelx.world/2026/09/new-amazon-ads-chatgpt-integration-for-dsp",
 "published_at": "2026-09-11T07:45:40Z",
 "first_seen_at": "2026-09-12T00:41:10.815468Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "general",
@@ -175,7 +259,7 @@
 "url": "https://www.cifnews.com/article/188813",
 "published_at": null,
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -200,7 +284,7 @@
 "url": "https://www.amz123.com/kx/58wwqCUb",
 "published_at": null,
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "seller_action",
@@ -222,7 +306,7 @@
 "url": "https://www.cifnews.com/article/188808",
 "published_at": null,
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -237,209 +321,15 @@
 "title_zh": "亚马逊又收紧！明年起，这类商品捆绑包或被停用"
 },
 {
-"id": "d690b24a81bf3d649f35ebe8b6ab4d3604807c4e",
-"site_id": "ecommercebytes",
-"site_name": "EcommerceBytes",
-"source": "卖家新闻",
-"title": "Amazon Updates Insurance Requirements for Sellers",
-"url": "https://www.ecommercebytes.com/2026/09/10/amazon-updates-insurance-requirements-for-sellers",
-"published_at": "2026-09-11T02:54:36Z",
+"id": "057277da7b90c5db86097ec08cfd6799c05b82eb",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊高尔夫推杆套月销252单、毛利率59%，评论异常与专利风险不容忽视",
+"url": "https://www.amz123.com/kx/V5lZtOIk",
+"published_at": null,
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊更新卖家保险要求"
-},
-{
-"id": "2b87de9f0f72edf34d6d93893c5e1fa8e5faba60",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美国站旺季费用多项叠加，卖家成本压力显著上升",
-"url": "https://www.amz123.com/kx/0eTtbNN6",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
-"cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国站旺季费用多项叠加，卖家成本压力显著上升"
-},
-{
-"id": "feea8dd028ca48e2394487e33abd629a8577724b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊2026年11月2日起调整商业责任险规则，新增11类高危类目强制投保要求",
-"url": "https://www.amz123.com/kx/i7xMS7Zg",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊2026年11月2日起调整商业责任险规则，新增11类高危类目强制投保要求"
-},
-{
-"id": "31ab4d88b7a5f1baf1e5d74cbe53b3cd2a119be0",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "建议想做TikTok Shop的亚马逊卖家，参考这个同行",
-"url": "https://www.cifnews.com/article/188797",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"tiktok shop",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "建议想做TikTok Shop的亚马逊卖家，参考这个同行"
-},
-{
-"id": "6b9331645cea9a3ec87a2f868b4fae88023a7e8d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "深圳税局批量下发预警短信，跨境卖家须在10日内自查增值税申报情况",
-"url": "https://www.amz123.com/kx/2SgoXbHF",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家",
-"增值税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "深圳税局批量下发预警短信，跨境卖家须在10日内自查增值税申报情况"
-},
-{
-"id": "2ddd679e8410a263d5ce8b18b9429cd4601784da",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊广告玩法变天，2000+ 品牌都在靠这套打法突围",
-"url": "https://www.cifnews.com/article/188803",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊广告玩法变天，2000+ 品牌都在靠这套打法突围"
-},
-{
-"id": "52b4443f95e900ab0392e1dd20908cd4555b3a0e",
-"site_id": "marketplace_pulse",
-"site_name": "Marketplace Pulse",
-"source": "市场分析",
-"title": "Amazon's Top Sellers Aren't TikTok Shop's",
-"url": "https://marketplacepulse.com/articles/amazons-top-sellers-arent-tiktok-shops",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"tiktok shop"
-],
-"cross_platforms": [
-"amazon",
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "亚马逊的畅销书不是TikTok商店的"
-},
-{
-"id": "311418e44d62f766adf3822cb1bf68b65e16f38f",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "聚力财税合规，护航跨境出海｜雨果跨境×长风智税私享会深圳圆满举行",
-"url": "https://www.cifnews.com/article/188798",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"合规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "聚力财税合规，护航跨境出海｜雨果跨境×长风智税私享会深圳圆满举行"
-},
-{
-"id": "82feddf0d883d6e98677ba37f6554657e38150a8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "日本亚马逊8月潮玩榜：万代拓麻歌子月销5.69亿日元，森贝儿家族五款同进前十",
-"url": "https://www.amz123.com/kx/rxLw0KYU",
-"published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -450,57 +340,55 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [
-"jp"
-],
-"title_zh": "日本亚马逊8月潮玩榜：万代拓麻歌子月销5.69亿日元，森贝儿家族五款同进前十"
+"cross_sites": [],
+"title_zh": "亚马逊高尔夫推杆套月销252单、毛利率59%，评论异常与专利风险不容忽视"
 },
 {
-"id": "4d5debec71836a36c2c7d0f7f2f7e1ceeb6cdcbe",
+"id": "48ac9432883932cfa497ecc846feb218bcebc628",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "Wildberries将退还卖家误扣资金，涉及FBS佣金计算错误",
-"url": "https://www.amz123.com/kx/sGHmJa5s",
+"title": "速卖通年度峰会定档10月19日，发布年度战略与双11政策",
+"url": "https://www.amz123.com/kx/IptY7YyX",
 "published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
+"first_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-11T05:22:32.662374Z",
 "cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "seller_action",
+"cross_score": 0.63,
+"cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"wildberries",
-"卖家",
-"卖家"
+"速卖通",
+"政策"
 ],
 "cross_platforms": [
-"wildberries"
+"速卖通"
 ],
 "cross_sites": [],
-"title_zh": "Wildberries将退还卖家误扣资金，涉及FBS佣金计算错误"
+"title_zh": "速卖通年度峰会定档10月19日，发布年度战略与双11政策"
 },
 {
-"id": "c21c6455b3e5f103f7e6957add9ad357d725ed04",
+"id": "edd683189c73bb1c4390fd09a281f8356558910a",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "借了贵钱去买货，赚的钱全给别人打工了？卖家现金流难题怎么破？",
-"url": "https://www.cifnews.com/article/188800",
+"title": "FBP模式佣金低至8%、流量过亿：Yandex.Market能否成为俄罗斯卖家的下一个增长曲线？",
+"url": "https://www.cifnews.com/article/188811",
 "published_at": null,
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"first_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T05:13:01.151019Z",
 "cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
+"cross_score": 0.61,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "卖家",
-"卖家"
+"卖家",
+"流量"
 ],
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "借了贵钱去买货，赚的钱全给别人打工了？卖家现金流难题怎么破？"
+"title_zh": "FBP模式佣金低至8%、流量过亿：Yandex.Market能否成为俄罗斯卖家的下一个增长曲线？"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
