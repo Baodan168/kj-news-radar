@@ -1,27 +1,33 @@
 {
-"generated_at": "2026-09-11T05:22:32.662374Z",
+"generated_at": "2026-09-12T00:41:10.815468Z",
 "window_hours": 24,
 "total_items": 19,
-"total_items_cross_raw": 53,
-"total_items_raw": 99,
-"total_items_all_mode": 99,
+"total_items_cross_raw": 59,
+"total_items_raw": 100,
+"total_items_all_mode": 100,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 2043,
+"archive_total": 2075,
 "site_count": 16,
-"source_count": 7,
+"source_count": 6,
 "site_stats": [
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 24
-},
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 67
+"raw_count": 71
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 23
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 1,
+"raw_count": 3
 },
 {
 "site_id": "ecommercebytes",
@@ -36,25 +42,130 @@
 "raw_count": 1
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 1,
-"raw_count": 2
-},
-{
 "site_id": "tophub",
 "site_name": "TopHub",
 "count": 0,
-"raw_count": 2
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 0,
-"raw_count": 2
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "2fe44238dc3c060534ea2ca31beb710905e0741a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊FBM Ship+备货时间延长至2天，日本线路强制使用\"购买配送\"",
+"url": "https://www.amz123.com/kx/ZoNouBkx",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fbm",
+"亚马逊"
+],
+"cross_platforms": [
+"fbm",
+"亚马逊"
+],
+"cross_sites": [
+"jp"
+],
+"title_zh": "亚马逊FBM Ship+备货时间延长至2天，日本线路强制使用\"购买配送\""
+},
+{
+"id": "aaf47a33640b39de3d8793a95c98b824cff1ec4c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "众筹测款+AI选品，正在淘汰不用它们的卖家",
+"url": "https://www.cifnews.com/article/188821",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"选品"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "众筹测款+AI选品，正在淘汰不用它们的卖家"
+},
+{
+"id": "8ba715487eac46786cf063d052fee457b2b345e8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "印尼国会质询Tokopedia与TikTok Shop，商户称逾3万亿印尼盾货款遭冻结",
+"url": "https://www.amz123.com/kx/s4arp3SA",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "印尼国会质询Tokopedia与TikTok Shop，商户称逾3万亿印尼盾货款遭冻结"
+},
+{
+"id": "06a42279dd86895bb82cc12f1c650e13d2138dc6",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "10天紧急自查！税局短信“突袭”深圳跨境圈",
+"url": "https://www.cifnews.com/article/188822",
+"published_at": null,
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "10天紧急自查！税局短信“突袭”深圳跨境圈"
+},
+{
+"id": "afdb22e10582dde4417c31d3e649753d26ed8f67",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "New Amazon Ads ChatGPT integration for DSP",
+"url": "https://channelx.world/2026/09/new-amazon-ads-chatgpt-integration-for-dsp",
+"published_at": "2026-09-11T07:45:40Z",
+"first_seen_at": "2026-09-12T00:41:10.815468Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "面向DSP的全新Amazon Ads ChatGPT集成"
+},
 {
 "id": "8650d077110232515cdf6b565832ed50174e1c33",
 "site_id": "cifnews",
@@ -64,7 +175,7 @@
 "url": "https://www.cifnews.com/article/188813",
 "published_at": null,
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -89,7 +200,7 @@
 "url": "https://www.amz123.com/kx/58wwqCUb",
 "published_at": null,
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "seller_action",
@@ -111,7 +222,7 @@
 "url": "https://www.cifnews.com/article/188808",
 "published_at": null,
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -126,29 +237,6 @@
 "title_zh": "亚马逊又收紧！明年起，这类商品捆绑包或被停用"
 },
 {
-"id": "edd683189c73bb1c4390fd09a281f8356558910a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "FBP模式佣金低至8%、流量过亿：Yandex.Market能否成为俄罗斯卖家的下一个增长曲线？",
-"url": "https://www.cifnews.com/article/188811",
-"published_at": null,
-"first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"流量"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "FBP模式佣金低至8%、流量过亿：Yandex.Market能否成为俄罗斯卖家的下一个增长曲线？"
-},
-{
 "id": "d690b24a81bf3d649f35ebe8b6ab4d3604807c4e",
 "site_id": "ecommercebytes",
 "site_name": "EcommerceBytes",
@@ -157,9 +245,9 @@
 "url": "https://www.ecommercebytes.com/2026/09/10/amazon-updates-insurance-requirements-for-sellers",
 "published_at": "2026-09-11T02:54:36Z",
 "first_seen_at": "2026-09-11T05:22:32.662374Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.71,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -230,7 +318,7 @@
 "url": "https://www.cifnews.com/article/188797",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "tiktok",
@@ -281,7 +369,7 @@
 "url": "https://www.cifnews.com/article/188803",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -304,7 +392,7 @@
 "url": "https://marketplacepulse.com/articles/amazons-top-sellers-arent-tiktok-shops",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "tiktok",
@@ -329,7 +417,7 @@
 "url": "https://www.cifnews.com/article/188798",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "policy_update",
@@ -401,7 +489,7 @@
 "url": "https://www.cifnews.com/article/188800",
 "published_at": null,
 "first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
+"last_seen_at": "2026-09-12T00:41:10.815468Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -413,100 +501,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "借了贵钱去买货，赚的钱全给别人打工了？卖家现金流难题怎么破？"
-},
-{
-"id": "9a2db6135afab5563eb276136174cd52d461f701",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon Leo adds 6 new Arianespace launches, expanding its launch partnership",
-"url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-arianespace-new-launches",
-"published_at": "2026-09-10T19:26:06Z",
-"first_seen_at": "2026-09-11T00:41:25.667094Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Amazon Leo增加了6个新的Arianespace发布，扩大了其发布合作伙伴关系"
-},
-{
-"id": "8add1a1cd3238c2852c2c5af946a283ac27b4929",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "阿里巴巴与顺丰达成战略合作，电商履约与跨境物流迎来数智化升级",
-"url": "https://www.amz123.com/kx/eTYQL9zx",
-"published_at": null,
-"first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-10T05:24:55.808437Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境物流",
-"电商",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "阿里巴巴与顺丰达成战略合作，电商履约与跨境物流迎来数智化升级"
-},
-{
-"id": "5833aee103b2c59b25a776bd4ee234f91f9bfed8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop建议卖家10月15日前完成FBT入库，旺季仓储规则明确",
-"url": "https://www.amz123.com/kx/UW1i03fF",
-"published_at": null,
-"first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-11T05:22:32.662374Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"卖家",
-"卖家",
-"仓储"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop建议卖家10月15日前完成FBT入库，旺季仓储规则明确"
-},
-{
-"id": "514476e6225aac2361f70f1406ddb7600e5e28e0",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "从需求到精准提示词，中间只差一个懂跨境的Agent",
-"url": "https://www.cifnews.com/article/188778",
-"published_at": null,
-"first_seen_at": "2026-09-10T05:24:55.808437Z",
-"last_seen_at": "2026-09-11T00:41:25.667094Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "从需求到精准提示词，中间只差一个懂跨境的Agent"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
