@@ -4,3 +4,6 @@ __pycache__/
 feeds/follow.opml
 .env
 *.log
+# 运行期状态文件（正常在 ~/.hermes/state/，防旧版误落仓库）
+.source-health-history.json
+.source-health*.json
