@@ -1,70 +1,115 @@
 [
 {
-"title": "EU GPSR 通用产品安全法规",
+"title": "EU GPSR 通用产品安全法规（持续执行）",
 "effective_date": "2024-12-13",
 "platforms": [
-"Amazon EU",
-"eBay EU"
-],
-"impact_level": "high",
-"description": "所有在欧盟销售的非食品类产品需有欧盟责任人、产品标签和安全信息。"
-},
-{
-"title": "亚马逊FBA配送费含燃油附加费3.5%",
-"effective_date": "2026-05-02",
-"platforms": [
-"Amazon US"
-],
-"impact_level": "high",
-"description": "亚马逊在FBA配送费中新增3.5%燃油和物流附加费。"
-},
-{
-"title": "欧盟取消150欧元低值包裹免税",
-"effective_date": "2026-07-01",
-"platforms": [
-"Amazon EU",
-"Temu",
-"Shein",
-"AliExpress"
-],
-"impact_level": "high",
-"description": "每件跨境包裹将被征收3欧元关税，影响所有非欧盟来源的小额包裹。"
-},
-{
-"title": "亚马逊Prime Day 2026",
-"effective_date": "2026-06-23",
-"platforms": [
-"Amazon US",
 "Amazon EU"
 ],
 "impact_level": "high",
-"description": "Prime Day大促预计销售额263亿美元，需提前备货和优化listing。"
+"description": "所有在欧盟销售的非食品类产品需有欧盟责任人、产品标签和安全信息。2026年Q2起Amazon已自动化检查，新建ASIN必须同步提交合规信息。"
 },
 {
-"title": "亚马逊美站原产地信息补全截止",
-"effective_date": "2026-06-30",
-"platforms": [
-"Amazon US"
-],
-"impact_level": "medium",
-"description": "6月30日后未补全原产地信息的ASIN将影响FBA发货。"
-},
-{
-"title": "亚马逊欧洲站FBM直邮规则升级",
-"effective_date": "2026-07-01",
-"platforms": [
-"Amazon EU"
-],
-"impact_level": "medium",
-"description": "仅限授权物流渠道，强化IOSS校验。"
-},
-{
-"title": "EU PPWR 包装法规生效",
+"title": "EU PPWR 包装法规（已生效）",
 "effective_date": "2026-08-12",
 "platforms": [
 "Amazon EU"
 ],
 "impact_level": "high",
-"description": "未完成包装EPR合规注册的卖家，商品将面临下架。"
+"description": "未完成包装EPR合规注册的卖家，商品将面临下架。需在每个欧盟成员国单独注册包装EPR号码。"
+},
+{
+"title": "亚马逊泛欧计划MRN/EORI强制提交",
+"effective_date": "2026-09-01",
+"platforms": [
+"Amazon EU"
+],
+"impact_level": "high",
+"description": "非欧盟卖家开通泛欧计划后，发往所有欧盟FBA仓的每一票货件必须上传MRN和EORI。60天补报窗口期，逾期限制创建新货件。"
+},
+{
+"title": "欧洲FBA跨境送达窗口缩短至7天",
+"effective_date": "2026-09-01",
+"platforms": [
+"Amazon EU"
+],
+"impact_level": "medium",
+"description": "英德法意西五大站点非合作承运商的跨境FBA送达窗口从14天缩短至7天。"
+},
+{
+"title": "亚马逊英国站FBM自动备货时间(AHT)生效",
+"effective_date": "2026-09-01",
+"platforms": [
+"Amazon UK"
+],
+"impact_level": "medium",
+"description": "系统根据真实出单数据自动改写SKU备货时效，账户级仅保留0天/1天选项。SKU备货时间超实际表现30天将触发自动修改。"
+},
+{
+"title": "泛欧计划荷兰站强制上架",
+"effective_date": "2026-09-03",
+"platforms": [
+"Amazon EU"
+],
+"impact_level": "medium",
+"description": "泛欧ASIN须同步至荷兰站并保持可售，否则失去Pan-EU资格，切换为EFN跨境模式（物流费显著增加+丧失Prime标识）。比利时站2027-02-26生效。"
+},
+{
+"title": "亚马逊UK FBM商务时段送达率90%强制执行",
+"effective_date": "2026-09-30",
+"platforms": [
+"Amazon UK"
+],
+"impact_level": "high",
+"description": "FBM卖家须保持商务时段送达率≥90%。10月30日起不合规Listing将被下架给Amazon Business买家。月出单<20单豁免。"
+},
+{
+"title": "欧洲站锂电池合规要求升级",
+"effective_date": "2026-09-30",
+"platforms": [
+"Amazon EU"
+],
+"impact_level": "medium",
+"description": "欧洲站部分锂电池相关商品将执行更严格的合规审核。"
+},
+{
+"title": "Q4旺季FBA入仓截止日（Prime Big Deal Days）",
+"effective_date": "2026-09-16",
+"platforms": [
+"Amazon UK",
+"Amazon EU"
+],
+"impact_level": "high",
+"description": "UK站Prime Big Deal Days入仓截止9月16日。之后入仓的商品不具备Prime标识参与资格。"
+},
+{
+"title": "Q4旺季FBA旺季附加费生效",
+"effective_date": "2026-10-15",
+"platforms": [
+"Amazon UK",
+"Amazon DE"
+],
+"impact_level": "high",
+"description": "10月15日至2027年1月14日，UK站FBA旺季附加费平均£0.12/件（大信封£0.07/件），德国站€0.27/件。叠加1.5%燃油附加费。低价FBA/超大件/服装豁免。"
+},
+{
+"title": "Q4旺季FBA入仓截止日（Black Friday Week）",
+"effective_date": "2026-10-28",
+"platforms": [
+"Amazon UK",
+"Amazon EU"
+],
+"impact_level": "high",
+"description": "UK站黑五周入仓截止10月28日（Amazon优化分仓选项）。之后入仓不具备Prime标识参与资格。"
+},
+{
+"title": "Black Friday / Cyber Monday 2026",
+"effective_date": "2026-11-27",
+"platforms": [
+"Amazon UK",
+"Amazon EU",
+"Amazon US"
+],
+"impact_level": "high",
+"description": "黑五网一大促。Deal提交窗口已于7月8日开放，10月20日关闭。提前提交可省$50/promotion。"
 }
 ]
