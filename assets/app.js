@@ -17,19 +17,18 @@ const SOURCE_KINDS = {
   amazon_newsroom:    { label: "亚马逊新闻", tone: "official" },
   sp_api:             { label: "SP-API",    tone: "official" },
   gs_amazon:          { label: "全球开店",  tone: "official" },
+  amazon_seller_blog:{ label: "Amazon博客", tone: "official" },
   amz123:             { label: "AMZ123",    tone: "aggregate" },
   amzdh:              { label: "AMZDH",     tone: "aggregate" },
   cifnews:            { label: "雨果跨境",  tone: "aggregate" },
-  ecombrainly:        { label: "EcomBrainly", tone: "blogs" },
-  helium10:           { label: "Helium10",  tone: "industry" },
-  sellerpolicywatch:  { label: "政策监控",  tone: "official" },
+  ennews:             { label: "亿恩网",    tone: "aggregate" },
+  kjds365:            { label: "跨境365",   tone: "aggregate" },
+  tophub:             { label: "TopHub",   tone: "aggregate" },
   ecomengine:         { label: "EcomEngine", tone: "industry" },
-  amazon_seller_news: { label: "卖家新闻", tone: "official" },
-  amazon_seller_blog: { label: "Amazon博客", tone: "official" },
+  ecommercenews:      { label: "Ecommerce News Europe", tone: "industry" },
+  channelx:           { label: "ChannelX", tone: "industry" },
+  marketplace_pulse:  { label: "Marketplace Pulse", tone: "industry" },
   wearesellers:       { label: "知无不言", tone: "community" },
-  kjds365:            { label: "跨境365", tone: "aggregate" },
-  tophub:             { label: "TopHub", tone: "aggregate" },
-  podcasts:           { label: "播客",      tone: "media" },
   opmlrss:            { label: "OPML",      tone: "private" },
 };
 
@@ -363,7 +362,7 @@ function renderActionItems() {
   
   // From high-score seller_action signals (official sources only)
   const OFFICIAL_AGGREGATORS = ["amz123", "amzdh", "cifnews", "kjds365", "ennews", "tophub",
-    "ecommercebytes", "channelx", "marketplace_pulse", "ecomengine",
+    "ecommercenews", "channelx", "marketplace_pulse", "ecomengine",
     "wearesellers"];
   (state.itemsAi || []).filter(it => it.cross_score >= 0.80).forEach(it => {
     const tone = sourceTone(it.site_id);
@@ -880,23 +879,44 @@ function renderPolicyCalendar() {
     return;
   }
 
-  // 按生效日期升序排列
-  const sorted = [...state.policyData].sort((a, b) => {
+  // 过滤：已生效超过 90 天的政策不再展示（避免日历堆满历史条目）；
+  // 近 90 天内已生效的保留，标记为"已生效"提醒仍在执行期
+  const now = Date.now();
+  const GRACE_DAYS = 90;
+  const visible = [...state.policyData].filter(p => {
+    const d = new Date(p.effective_date);
+    if (isNaN(d)) return false;
+    const daysLeft = Math.ceil((d - now) / 86400000);
+    return daysLeft > -GRACE_DAYS;
+  });
+
+  if (!visible.length) {
+    if (metaEl) metaEl.textContent = "暂无即将生效的政策变更";
+    listEl.innerHTML = `<div class="empty-state">暂无即将生效的政策变更</div>`;
+    return;
+  }
+
+  // 按生效日期升序排列：未来政策在前，已生效垫底
+  const sorted = visible.sort((a, b) => {
     return new Date(a.effective_date || 0) - new Date(b.effective_date || 0);
   });
 
+  const upcomingCount = sorted.filter(p => new Date(p.effective_date) >= now).length;
+
   if (metaEl) {
-    metaEl.textContent = `共 ${sorted.length} 项即将生效的政策变更`;
+    metaEl.textContent = `共 ${upcomingCount} 项待生效 · ${sorted.length - upcomingCount} 项近期已生效`;
   }
 
   let html = "";
   for (const policy of sorted) {
     const effectiveDate = fmtDate(policy.effective_date);
     const daysLeft = Math.ceil((new Date(policy.effective_date) - Date.now()) / 86400000);
-    const urgencyCls = daysLeft <= 7 ? "policy-urgent" : daysLeft <= 30 ? "policy-warn" : "policy-normal";
+    const urgencyCls = daysLeft <= 0 ? "policy-normal" : daysLeft <= 7 ? "policy-urgent" : daysLeft <= 30 ? "policy-warn" : "policy-normal";
     const daysLabel = daysLeft <= 0 ? "已生效" : `${daysLeft} 天后生效`;
 
-    const platforms = (policy.affected_platforms || [])
+    // 数据字段是 platforms（后端 policy-calendar.json），兼容旧字段名
+    const platformList = policy.platforms || policy.affected_platforms || [];
+    const platforms = platformList
       .map(p => `<span class="policy-platform">${esc(p)}</span>`)
       .join("");
 
