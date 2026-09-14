@@ -521,7 +521,15 @@ def fetch_rss(session: requests.Session, url: str, site_id: str, site_name: str,
 # ---------------------------------------------------------------------------
 
 def fetch_amazon_newsroom(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Amazon Newsroom — 官方新闻。"""
+    """Amazon Newsroom — 官方新闻。
+
+    2026-09-14 排查结论：该源**长期 0 条是正常的，不是 bug**。
+    ① 更新频率低：实测最新条目距今 58-110h；
+    ② 内容对企业无决策价值：返回的是 water conservation / communities /
+       塑料包装 / 涨薪 等 CSR+企业新闻，正好命中 CSR_NOISE_KEYWORDS 被降权。
+    48h 窗口已完整覆盖 24h 展示窗口（任何 24h 内发布的都能抓到），
+    再放宽窗口只会把过期条目灌进 archive 而不可能上展示——故维持 48h。
+    """
     return fetch_rss(session, "https://www.aboutamazon.com/news/feed",
                      "amazon_newsroom", "Amazon Newsroom", "Amazon官方")
 
@@ -540,7 +548,7 @@ def fetch_amazon_ads_blog(session: requests.Session, now: datetime) -> list[RawI
     对跑 SP-API/广告自动化的卖家直接有用。
     """
     return fetch_rss(session, "https://d3a0d0y2hgofx6.cloudfront.net/rss/en-us/ad-api-rss.xml",
-                     "amazon_ads", "Amazon Ads 更新", "亚马逊广告", max_age_hours=336)
+                     "amazon_ads", "Amazon Ads 更新", "亚马逊广告")
 
 
 def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -734,18 +742,19 @@ def fetch_ecommercenews(session: requests.Session, now: datetime) -> list[RawIte
     替换为 Ecommerce News Europe（欧洲电商行业新闻，RSS 正常，10条/feed）。
     """
     return fetch_rss(session, "https://ecommercenews.eu/feed/",
-                     "ecommercenews", "Ecommerce News Europe", "欧洲电商新闻",
-                     max_age_hours=168)
+                     "ecommercenews", "Ecommerce News Europe", "欧洲电商新闻")
 
 
 def fetch_channelx(session: requests.Session, now: datetime) -> list[RawItem]:
     """ChannelX — 全球Marketplace新闻，覆盖Temu/TikTok/Walmart/eBay等平台。
 
-    2026-09-14：窗口从 48h 放宽到 168h——该站更新节奏约每周 1-2 批
-    （实测周五集中发布），48h 窗口会导致周一~周四完全采不到内容。
+    2026-09-14 排查结论：该站更新频率低（实测周五集中发布），
+    多数日子 0 条属正常。48h 抓取窗口已足够——**放宽窗口无法让内容上展示**：
+    event_time 优先取 published_at，24h 展示窗口只看发布时间，
+    抓取窗口只需 ≥24h 即可覆盖任何会展示的条目（详见 Pitfall 43）。
     """
     return fetch_rss(session, "https://channelx.world/feed/",
-                     "channelx", "ChannelX", "平台新闻", max_age_hours=168)
+                     "channelx", "ChannelX", "平台新闻")
 
 
 def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[RawItem]:
