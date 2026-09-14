@@ -1,8 +1,29 @@
 {
-"generated_at": "2026-09-13T05:28:26.158574Z",
-"total_items_all_mode": 2,
-"total_items_raw": 2,
+"generated_at": "2026-09-14T00:41:03.841091Z",
+"total_items_all_mode": 3,
+"total_items_raw": 3,
 "items_all": [
+{
+"id": "b8fc3c1f458a7ffc00e24afd5c1d41e99f166e03",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "快下架！知名IP暴雷，已有店铺被起诉",
+"url": "https://www.cifnews.com/article/188825",
+"published_at": null,
+"first_seen_at": "2026-09-14T00:41:03.841091Z",
+"last_seen_at": "2026-09-14T00:41:03.841091Z",
+"cross_is_related": true,
+"cross_score": 0.14,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"店铺"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "快下架！知名IP暴雷，已有店铺被起诉"
+},
 {
 "id": "faf19989e1df845ad7999c0d45f6733ab573cd30",
 "site_id": "tophub",
@@ -12,7 +33,7 @@
 "url": "https://y.qq.com/n/ryqq/songDetail/004c8lwy1OB6qe",
 "published_at": null,
 "first_seen_at": "2026-09-13T00:41:21.706565Z",
-"last_seen_at": "2026-09-13T05:28:26.158574Z",
+"last_seen_at": "2026-09-14T00:41:03.841091Z",
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -31,7 +52,7 @@
 "url": "https://www.cifnews.com/article/188826",
 "published_at": null,
 "first_seen_at": "2026-09-13T00:41:21.706565Z",
-"last_seen_at": "2026-09-13T05:28:26.158574Z",
+"last_seen_at": "2026-09-14T00:41:03.841091Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "policy_update",
@@ -55,7 +76,7 @@
 "url": "https://y.qq.com/n/ryqq/songDetail/004c8lwy1OB6qe",
 "published_at": null,
 "first_seen_at": "2026-09-13T00:41:21.706565Z",
-"last_seen_at": "2026-09-13T05:28:26.158574Z",
+"last_seen_at": "2026-09-14T00:41:03.841091Z",
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -74,7 +95,7 @@
 "url": "https://www.cifnews.com/article/188826",
 "published_at": null,
 "first_seen_at": "2026-09-13T00:41:21.706565Z",
-"last_seen_at": "2026-09-13T05:28:26.158574Z",
+"last_seen_at": "2026-09-14T00:41:03.841091Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "policy_update",
@@ -86,6 +107,27 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "欧盟再添新规！卖家无奈：成本又要涨了"
+},
+{
+"id": "b8fc3c1f458a7ffc00e24afd5c1d41e99f166e03",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "快下架！知名IP暴雷，已有店铺被起诉",
+"url": "https://www.cifnews.com/article/188825",
+"published_at": null,
+"first_seen_at": "2026-09-14T00:41:03.841091Z",
+"last_seen_at": "2026-09-14T00:41:03.841091Z",
+"cross_is_related": true,
+"cross_score": 0.14,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"店铺"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "快下架！知名IP暴雷，已有店铺被起诉"
 }
 ]
 }
