@@ -302,9 +302,87 @@ def fetch_via_browseract(
     return items
 
 
-# ---------------------------------------------------------------------------
-# 标题翻译
-# ---------------------------------------------------------------------------
+def dedupe_by_path(items: list[RawItem]) -> list[RawItem]:
+    """按 URL 路径去重，同一路径保留最短标题。
+
+    列表页常见问题：同一文章的标题链接和正文摘要链接指向同一 URL，
+    摘要文本也是 <a> 内容 → 采集到重复条目。
+    真实标题通常比摘要短，故保留最短的那个。
+    """
+    best: dict[str, RawItem] = {}
+    order: list[str] = []
+    for it in items:
+        parsed = urlparse(it.url)
+        key = f"{parsed.netloc}{parsed.path}"
+        cur = best.get(key)
+        if cur is None:
+            best[key] = it
+            order.append(key)
+        elif len(it.title) < len(cur.title):
+            best[key] = it
+    return [best[k] for k in order]
+
+
+def fetch_html_links(
+    session: requests.Session,
+    url: str,
+    site_id: str,
+    site_name: str,
+    source_label: str,
+    url_patterns: tuple[str, ...],
+    base_url: str,
+    min_title_len: int = 10,
+    max_items: int = 30,
+    exclude_title_re: str = "",
+    dedupe_by_path: bool = True,
+    timeout: int = 20,
+) -> list[RawItem]:
+    """通用 HTML 链接抽取 fallback（本地无 Chrome/BrowserAct 不可用时使用）。
+
+    用于 JS 渲染站点的兜底采集：这些站点的列表页服务端已渲染部分内容，
+    直接 requests + BeautifulSoup 即可拿到文章链接。
+
+    Args:
+        url_patterns: href 必须包含其中任一子串才算文章链接
+        exclude_title_re: 标题匹配此正则则跳过（如脏导航项、含日期的旧条目）
+        dedupe_by_path: 按 href 路径去重（列表页常有"回复"等多个锚点指向同帖）
+    """
+    items: list[RawItem] = []
+    exclude_re = re.compile(exclude_title_re) if exclude_title_re else None
+    seen_paths: set[str] = set()
+    try:
+        resp = session.get(url, timeout=timeout)
+        resp.raise_for_status()
+        soup = parse_html(resp)
+        for a in soup.find_all("a", href=True):
+            title = maybe_fix_mojibake(a.get_text(strip=True))
+            href = a["href"].strip()
+            if len(title) < min_title_len:
+                continue
+            if not any(p in href for p in url_patterns):
+                continue
+            if exclude_re and exclude_re.search(title):
+                continue
+            if not href.startswith("http"):
+                href = urljoin(base_url, href)
+            # 按路径去重（去掉锚点/查询串）
+            parsed = urlparse(href)
+            path_key = f"{parsed.netloc}{parsed.path}"
+            if dedupe_by_path and path_key in seen_paths:
+                continue
+            seen_paths.add(path_key)
+            items.append(RawItem(
+                site_id=site_id, site_name=site_name, source=source_label,
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
+            ))
+            if len(items) >= max_items:
+                break
+    except Exception as e:
+        print(f"  [WARN] {site_name} HTML fallback failed: {e}")
+    return items
+
+
 
 def translate_title(title: str, title_cache: dict[str, str]) -> str:
     """Translate an English title to Chinese using MyMemory free API.
@@ -340,6 +418,38 @@ def translate_title(title: str, title_cache: dict[str, str]) -> str:
 # ---------------------------------------------------------------------------
 
 def parse_feed_entries(feed_xml: bytes) -> list[dict[str, Any]]:
+    """解析 RSS/Atom XML 条目。
+
+    2026-09-14 新增 feedparser fallback：ET.fromstring 是严格 XML 解析器，
+    遇到源方未转义的裸字符（如 Amazon Ads RSS 的 em-dash "—"）会整体抛异常
+    → 该源全部条目被丢弃，症状表现为"curl 能拿到内容但脚本解析 0 条"。
+    feedparser 容错解析可读取这类 feed。
+    """
+    out = _parse_feed_et(feed_xml)
+    if out:
+        return out
+    # ET 严格解析失败或 0 条 → 尝试 feedparser 容错解析
+    if feedparser is not None:
+        try:
+            parsed = feedparser.parse(feed_xml)
+            for entry in parsed.entries or []:
+                title = str(entry.get("title") or "").strip()
+                link = str(entry.get("link") or "").strip()
+                if not title or not link:
+                    continue
+                published = (
+                    entry.get("published") or entry.get("updated")
+                    or entry.get("pubDate") or ""
+                )
+                desc = str(entry.get("summary") or entry.get("description") or "").strip()
+                out.append({"title": title, "link": link,
+                            "published": published, "desc": desc})
+        except Exception:
+            pass
+    return out
+
+
+def _parse_feed_et(feed_xml: bytes) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     seen: set[tuple[str, str]] = set()
     try:
@@ -423,9 +533,14 @@ def fetch_sp_api_changelog(session: requests.Session, now: datetime) -> list[Raw
 
 
 def fetch_amazon_ads_blog(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Amazon Ads 官方博客。"""
-    return fetch_rss(session, "https://advertising.amazon.com/blog/feed",
-                     "amazon_ads", "Amazon Ads Blog", "亚马逊广告")
+    """Amazon Ads 官方更新。
+
+    2026-09-14 变更：原 https://advertising.amazon.com/blog/feed 返回 404（Amazon 已下线该 RSS）。
+    改用 Amazon Ads API Release Notes RSS（CloudFront，100条，验证可访问）——
+    对跑 SP-API/广告自动化的卖家直接有用。
+    """
+    return fetch_rss(session, "https://d3a0d0y2hgofx6.cloudfront.net/rss/en-us/ad-api-rss.xml",
+                     "amazon_ads", "Amazon Ads 更新", "亚马逊广告", max_age_hours=336)
 
 
 def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -456,38 +571,33 @@ def fetch_amz123(session: requests.Session, now: datetime) -> list[RawItem]:
                 ))
         except Exception as e:
             print(f"  [WARN] AMZ123 fallback HTML fetch failed: {e}")
-    return items[:40]
+    return dedupe_by_path(items)[:40]
 
 
 def fetch_amzdh(session: requests.Session, now: datetime) -> list[RawItem]:
-    """AMZDH 跨境头条 — BrowserAct + HTML fallback."""
+    """AMZDH 跨境头条 — BrowserAct + HTML fallback。
+
+    2026-09-14：fallback 改用共享 fetch_html_links（原内联实现超时长、
+    标题脏——列表页混入带日期后缀的旧条目，需按 /kjtt/NNNNN.html 精确匹配）。
+    """
     items = fetch_via_browseract(
         url="https://www.amzdh.com/kjtt/",
         site_id="amzdh", site_name="AMZDH", source_label="跨境头条",
         url_pattern="/kjtt/", base_url="https://www.amzdh.com",
     )
     if not items:
-        try:
-            resp = session.get("https://www.amzdh.com/kjtt/", timeout=15)
-            resp.raise_for_status()
-            soup = parse_html(resp)
-            for a in soup.find_all("a", href=True):
-                title = a.get_text(strip=True)
-                href = a["href"]
-                if len(title) < 10 or not href.startswith(("http", "/")):
-                    continue
-                if "/kjtt/" not in href and "/article/" not in href:
-                    continue
-                if not href.startswith("http"):
-                    href = urljoin("https://www.amzdh.com", href)
-                items.append(RawItem(
-                    site_id="amzdh", site_name="AMZDH", source="跨境头条",
-                    title=title, url=normalize_url(href),
-                    published_at=None, meta={},
-                ))
-        except Exception as e:
-            print(f"  [WARN] AMZDH fallback HTML fetch failed: {e}")
-    return items[:30]
+        items = fetch_html_links(
+            session,
+            url="https://www.amzdh.com/kjtt/",
+            site_id="amzdh", site_name="AMZDH", source_label="跨境头条",
+            url_patterns=("/kjtt/",),
+            base_url="https://www.amzdh.com",
+            min_title_len=10,
+            max_items=30,
+            # 排除带日期后缀的旧条目（如 "...2024-06-03 11:55:32"）
+            exclude_title_re=r"\d{4}-\d{2}-\d{2}",
+        )
+    return dedupe_by_path(items)[:30]
 
 
 def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -518,7 +628,7 @@ def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
                 ))
         except Exception as e:
             print(f"  [WARN] cifnews fallback HTML fetch failed: {e}")
-    return items[:30]
+    return dedupe_by_path(items)[:30]
 
 
 def fetch_kjds365(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -549,7 +659,7 @@ def fetch_kjds365(session: requests.Session, now: datetime) -> list[RawItem]:
                 ))
         except Exception as e:
             print(f"  [WARN] kjds365 fallback HTML fetch failed: {e}")
-    return items[:20]
+    return dedupe_by_path(items)[:20]
 
 
 def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -580,7 +690,7 @@ def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem
                 ))
         except Exception as e:
             print(f"  [WARN] gs.amazon.cn fallback HTML fetch failed: {e}")
-    return items[:30]
+    return dedupe_by_path(items)[:30]
 
 
 # ---------------------------------------------------------------------------
@@ -615,16 +725,27 @@ def fetch_ecomengine(session: requests.Session, now: datetime) -> list[RawItem]:
 # 新增：英文卖家平台源
 # ---------------------------------------------------------------------------
 
-def fetch_ecommercebytes(session: requests.Session, now: datetime) -> list[RawItem]:
-    """EcommerceBytes — 独立卖家新闻，2005年创刊，日更亚马逊/ebay/Etsy/Walmart卖家新闻。"""
-    return fetch_rss(session, "https://www.ecommercebytes.com/feed/",
-                     "ecommercebytes", "EcommerceBytes", "卖家新闻")
+def fetch_ecommercenews(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Ecommerce News Europe — 欧洲电商行业新闻（替代已停刊的 EcommerceBytes）。
+
+    2026-09-14 变更：EcommerceBytes 已于 2026-09 停刊
+    （官网公告 "After 27 years, EcommerceBytes has ceased publication"），
+    其 RSS 返回 5.8KB 的停刊公告 HTML 而非 XML，永久不可用。
+    替换为 Ecommerce News Europe（欧洲电商行业新闻，RSS 正常，10条/feed）。
+    """
+    return fetch_rss(session, "https://ecommercenews.eu/feed/",
+                     "ecommercenews", "Ecommerce News Europe", "欧洲电商新闻",
+                     max_age_hours=168)
 
 
 def fetch_channelx(session: requests.Session, now: datetime) -> list[RawItem]:
-    """ChannelX — 全球Marketplace新闻，覆盖Temu/TikTok/Walmart/eBay等平台。"""
+    """ChannelX — 全球Marketplace新闻，覆盖Temu/TikTok/Walmart/eBay等平台。
+
+    2026-09-14：窗口从 48h 放宽到 168h——该站更新节奏约每周 1-2 批
+    （实测周五集中发布），48h 窗口会导致周一~周四完全采不到内容。
+    """
     return fetch_rss(session, "https://channelx.world/feed/",
-                     "channelx", "ChannelX", "平台新闻")
+                     "channelx", "ChannelX", "平台新闻", max_age_hours=168)
 
 
 def fetch_marketplace_pulse(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -738,8 +859,12 @@ def fetch_tophub_crossborder(session: requests.Session, now: datetime) -> list[R
 
 
 def fetch_amazon_seller_blog(session: requests.Session, now: datetime) -> list[RawItem]:
-    """Amazon Seller Blog (sell.amazon.com) — 官方卖家公告。"""
-    return fetch_via_browseract(
+    """Amazon Seller Blog (sell.amazon.com) — 官方卖家公告。
+
+    2026-09-14：加 HTML fallback——本地 WSL 无 Chrome 时 BrowserAct 失败，
+    该站公告列表页服务端已渲染，直接抓 /blog/announcements/ 下的链接即可。
+    """
+    items = fetch_via_browseract(
         url="https://sell.amazon.com/blog/announcements",
         site_id="amazon_seller_blog",
         site_name="Amazon卖家博客",
@@ -748,11 +873,29 @@ def fetch_amazon_seller_blog(session: requests.Session, now: datetime) -> list[R
         base_url="https://sell.amazon.com",
         max_items=25,
     )
+    if not items:
+        items = fetch_html_links(
+            session,
+            url="https://sell.amazon.com/blog/announcements",
+            site_id="amazon_seller_blog", site_name="Amazon卖家博客",
+            source_label="官方公告",
+            url_patterns=("/blog/announcements/",),
+            base_url="https://sell.amazon.com",
+            min_title_len=15,
+            max_items=25,
+            # 排除导航类通用标题（List products / Price products 等常青引导页）
+            exclude_title_re=r"^(list products|price products|fulfill customer orders|create a brand store|how to sell new products)",
+        )
+    return dedupe_by_path(items)
 
 
 def fetch_wearesellers(session: requests.Session, now: datetime) -> list[RawItem]:
-    """知无不言论坛 — 中国亚马逊卖家最活跃的社区。"""
-    return fetch_via_browseract(
+    """知无不言论坛 — 中国亚马逊卖家最活跃的社区。
+
+    2026-09-14：加 HTML fallback——本地 WSL 无 Chrome 时 BrowserAct 失败。
+    社区首页服务端已渲染帖子列表，抓 /question/<id> 链接即可。
+    """
+    items = fetch_via_browseract(
         url="https://www.wearesellers.com/",
         site_id="wearesellers",
         site_name="知无不言",
@@ -761,6 +904,20 @@ def fetch_wearesellers(session: requests.Session, now: datetime) -> list[RawItem
         base_url="https://www.wearesellers.com",
         max_items=25,
     )
+    if not items:
+        items = fetch_html_links(
+            session,
+            url="https://www.wearesellers.com/",
+            site_id="wearesellers", site_name="知无不言",
+            source_label="卖家社区",
+            url_patterns=("/question/",),
+            base_url="https://www.wearesellers.com",
+            min_title_len=12,
+            max_items=25,
+            # 跳过"回复"锚点等非标题项
+            exclude_title_re=r"^(回复|赞|收藏|分享|登录|注册|搜索)$",
+        )
+    return dedupe_by_path(items)
 
 
 # ---------------------------------------------------------------------------
@@ -856,53 +1013,88 @@ def generate_policy_calendar(session: requests.Session, now: datetime) -> list[d
     # 已知的近期政策（硬编码 + 动态补充）
     known_policies = [
         {
-            "title": "EU GPSR 通用产品安全法规",
+            "title": "EU GPSR 通用产品安全法规（持续执行）",
             "effective_date": "2024-12-13",
-            "platforms": ["Amazon EU", "eBay EU"],
-            "impact_level": "high",
-            "description": "所有在欧盟销售的非食品类产品需有欧盟责任人、产品标签和安全信息。"
-        },
-        {
-            "title": "亚马逊FBA配送费含燃油附加费3.5%",
-            "effective_date": "2026-05-02",
-            "platforms": ["Amazon US"],
-            "impact_level": "high",
-            "description": "亚马逊在FBA配送费中新增3.5%燃油和物流附加费。"
-        },
-        {
-            "title": "欧盟取消150欧元低值包裹免税",
-            "effective_date": "2026-07-01",
-            "platforms": ["Amazon EU", "Temu", "Shein", "AliExpress"],
-            "impact_level": "high",
-            "description": "每件跨境包裹将被征收3欧元关税，影响所有非欧盟来源的小额包裹。"
-        },
-        {
-            "title": "亚马逊Prime Day 2026",
-            "effective_date": "2026-06-23",
-            "platforms": ["Amazon US", "Amazon EU"],
-            "impact_level": "high",
-            "description": "Prime Day大促预计销售额263亿美元，需提前备货和优化listing。"
-        },
-        {
-            "title": "亚马逊美站原产地信息补全截止",
-            "effective_date": "2026-06-30",
-            "platforms": ["Amazon US"],
-            "impact_level": "medium",
-            "description": "6月30日后未补全原产地信息的ASIN将影响FBA发货。"
-        },
-        {
-            "title": "亚马逊欧洲站FBM直邮规则升级",
-            "effective_date": "2026-07-01",
             "platforms": ["Amazon EU"],
-            "impact_level": "medium",
-            "description": "仅限授权物流渠道，强化IOSS校验。"
+            "impact_level": "high",
+            "description": "所有在欧盟销售的非食品类产品需有欧盟责任人、产品标签和安全信息。2026年Q2起Amazon已自动化检查，新建ASIN必须同步提交合规信息。"
         },
         {
-            "title": "EU PPWR 包装法规生效",
+            "title": "EU PPWR 包装法规（已生效）",
             "effective_date": "2026-08-12",
             "platforms": ["Amazon EU"],
             "impact_level": "high",
-            "description": "未完成包装EPR合规注册的卖家，商品将面临下架。"
+            "description": "未完成包装EPR合规注册的卖家，商品将面临下架。需在每个欧盟成员国单独注册包装EPR号码。"
+        },
+        {
+            "title": "亚马逊泛欧计划MRN/EORI强制提交",
+            "effective_date": "2026-09-01",
+            "platforms": ["Amazon EU"],
+            "impact_level": "high",
+            "description": "非欧盟卖家开通泛欧计划后，发往所有欧盟FBA仓的每一票货件必须上传MRN和EORI。60天补报窗口期，逾期限制创建新货件。"
+        },
+        {
+            "title": "欧洲FBA跨境送达窗口缩短至7天",
+            "effective_date": "2026-09-01",
+            "platforms": ["Amazon EU"],
+            "impact_level": "medium",
+            "description": "英德法意西五大站点非合作承运商的跨境FBA送达窗口从14天缩短至7天。"
+        },
+        {
+            "title": "亚马逊英国站FBM自动备货时间(AHT)生效",
+            "effective_date": "2026-09-01",
+            "platforms": ["Amazon UK"],
+            "impact_level": "medium",
+            "description": "系统根据真实出单数据自动改写SKU备货时效，账户级仅保留0天/1天选项。SKU备货时间超实际表现30天将触发自动修改。"
+        },
+        {
+            "title": "泛欧计划荷兰站强制上架",
+            "effective_date": "2026-09-03",
+            "platforms": ["Amazon EU"],
+            "impact_level": "medium",
+            "description": "泛欧ASIN须同步至荷兰站并保持可售，否则失去Pan-EU资格，切换为EFN跨境模式（物流费显著增加+丧失Prime标识）。比利时站2027-02-26生效。"
+        },
+        {
+            "title": "亚马逊UK FBM商务时段送达率90%强制执行",
+            "effective_date": "2026-09-30",
+            "platforms": ["Amazon UK"],
+            "impact_level": "high",
+            "description": "FBM卖家须保持商务时段送达率≥90%。10月30日起不合规Listing将被下架给Amazon Business买家。月出单<20单豁免。"
+        },
+        {
+            "title": "欧洲站锂电池合规要求升级",
+            "effective_date": "2026-09-30",
+            "platforms": ["Amazon EU"],
+            "impact_level": "medium",
+            "description": "欧洲站部分锂电池相关商品将执行更严格的合规审核。"
+        },
+        {
+            "title": "Q4旺季FBA入仓截止日（Prime Big Deal Days）",
+            "effective_date": "2026-09-16",
+            "platforms": ["Amazon UK", "Amazon EU"],
+            "impact_level": "high",
+            "description": "UK站Prime Big Deal Days入仓截止9月16日。之后入仓的商品不具备Prime标识参与资格。"
+        },
+        {
+            "title": "Q4旺季FBA旺季附加费生效",
+            "effective_date": "2026-10-15",
+            "platforms": ["Amazon UK", "Amazon DE"],
+            "impact_level": "high",
+            "description": "10月15日至2027年1月14日，UK站FBA旺季附加费平均£0.12/件（大信封£0.07/件），德国站€0.27/件。叠加1.5%燃油附加费。低价FBA/超大件/服装豁免。"
+        },
+        {
+            "title": "Q4旺季FBA入仓截止日（Black Friday Week）",
+            "effective_date": "2026-10-28",
+            "platforms": ["Amazon UK", "Amazon EU"],
+            "impact_level": "high",
+            "description": "UK站黑五周入仓截止10月28日（Amazon优化分仓选项）。之后入仓不具备Prime标识参与资格。"
+        },
+        {
+            "title": "Black Friday / Cyber Monday 2026",
+            "effective_date": "2026-11-27",
+            "platforms": ["Amazon UK", "Amazon EU", "Amazon US"],
+            "impact_level": "high",
+            "description": "黑五网一大促。Deal提交窗口已于7月8日开放，10月20日关闭。提前提交可省$50/promotion。"
         },
     ]
     return known_policies
@@ -922,7 +1114,7 @@ BUILTIN_SOURCES: list[dict[str, Any]] = [
     {"func": "fetch_cifnews", "site_id": "cifnews", "site_name": "雨果跨境", "kind": "aggregate"},
     {"func": "fetch_kjds365", "site_id": "kjds365", "site_name": "跨境电商365", "kind": "aggregate"},
     {"func": "fetch_ecomengine", "site_id": "ecomengine", "site_name": "EcomEngine", "kind": "industry"},
-    {"func": "fetch_ecommercebytes", "site_id": "ecommercebytes", "site_name": "EcommerceBytes", "kind": "industry"},
+    {"func": "fetch_ecommercenews", "site_id": "ecommercenews", "site_name": "Ecommerce News Europe", "kind": "industry"},
     {"func": "fetch_channelx", "site_id": "channelx", "site_name": "ChannelX", "kind": "industry"},
     {"func": "fetch_marketplace_pulse", "site_id": "marketplace_pulse", "site_name": "Marketplace Pulse", "kind": "industry"},
     {"func": "fetch_tophub_crossborder", "site_id": "tophub", "site_name": "TopHub", "kind": "aggregate"},
@@ -941,7 +1133,7 @@ FETCH_FUNC_MAP: dict[str, Any] = {
     "fetch_cifnews": fetch_cifnews,
     "fetch_kjds365": fetch_kjds365,
     "fetch_ecomengine": fetch_ecomengine,
-    "fetch_ecommercebytes": fetch_ecommercebytes,
+    "fetch_ecommercenews": fetch_ecommercenews,
     "fetch_channelx": fetch_channelx,
     "fetch_marketplace_pulse": fetch_marketplace_pulse,
     "fetch_tophub_crossborder": fetch_tophub_crossborder,
