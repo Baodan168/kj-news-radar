@@ -1,21 +1,45 @@
 {
-"generated_at": "2026-09-14T00:41:03.841091Z",
+"generated_at": "2026-09-14T01:34:51.998016Z",
 "window_hours": 24,
-"total_items": 1,
-"total_items_cross_raw": 2,
-"total_items_raw": 3,
-"total_items_all_mode": 3,
+"total_items": 24,
+"total_items_cross_raw": 66,
+"total_items_raw": 108,
+"total_items_all_mode": 108,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1973,
+"archive_total": 1013,
 "site_count": 16,
-"source_count": 2,
+"source_count": 5,
 "site_stats": [
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 38
+},
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
+"count": 8,
+"raw_count": 22
+},
+{
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"count": 5,
+"raw_count": 25
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
+"raw_count": 21
+},
+{
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
 "count": 1,
-"raw_count": 2
+"raw_count": 1
 },
 {
 "site_id": "tophub",
@@ -26,6 +50,84 @@
 ],
 "items": [
 {
+"id": "b04956a37fe39864f876cc582b9a9027531326c7",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "FBA索赔窗口到底是18个月还是60天？亚马逊红线文件里18 months是被划掉的，但我只拿到英欧站那一份",
+"url": "https://www.wearesellers.com/question/124480",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.92,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "FBA索赔窗口到底是18个月还是60天？亚马逊红线文件里18 months是被划掉的，但我只拿到英欧站那一份"
+},
+{
+"id": "2fe44238dc3c060534ea2ca31beb710905e0741a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊FBM Ship+备货时间延长至2天，日本线路强制使用\"购买配送\"",
+"url": "https://www.amz123.com/kx/ZoNouBkx",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fbm",
+"亚马逊"
+],
+"cross_platforms": [
+"fbm",
+"亚马逊"
+],
+"cross_sites": [
+"jp"
+],
+"title_zh": "亚马逊FBM Ship+备货时间延长至2天，日本线路强制使用\"购买配送\""
+},
+{
+"id": "d850ebc46f12e55d9eba102559d659f32e5eabdd",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "10.15 杭州 跨境电商AI智能体大会 · 暨同城会华东大区年度大会，Harness、Claude、Codex适配哪些卖家？买还是自建，决策矩阵怎么用？Codex如何按SOP识别预算浪费，生成有据可依的调价建议？如何拆解爆款变量......",
+"url": "https://www.wearesellers.com/question/124040",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"跨境电商",
+"卖家",
+"爆款",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "10.15 杭州 跨境电商AI智能体大会 · 暨同城会华东大区年度大会，Harness、Claude、Codex适配哪些卖家？买还是自建，决策矩阵怎么用？Codex如何按SOP识别预算浪费，生成有据可依的调价建议？如何拆解爆款变量......"
+},
+{
 "id": "d0496a92f27e0c3ddbdc80bbd17d7212f4d5670c",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -33,8 +135,8 @@
 "title": "欧盟再添新规！卖家无奈：成本又要涨了",
 "url": "https://www.cifnews.com/article/188826",
 "published_at": null,
-"first_seen_at": "2026-09-13T00:41:21.706565Z",
-"last_seen_at": "2026-09-14T00:41:03.841091Z",
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "policy_update",
@@ -46,6 +148,475 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "欧盟再添新规！卖家无奈：成本又要涨了"
+},
+{
+"id": "8650d077110232515cdf6b565832ed50174e1c33",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "为什么越来越多做0110的亚马逊卖家，开始主动转向9810？",
+"url": "https://www.cifnews.com/article/188813",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "为什么越来越多做0110的亚马逊卖家，开始主动转向9810？"
+},
+{
+"id": "2ddd679e8410a263d5ce8b18b9429cd4601784da",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊广告玩法变天，2000+ 品牌都在靠这套打法突围",
+"url": "https://www.cifnews.com/article/188803",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊广告玩法变天，2000+ 品牌都在靠这套打法突围"
+},
+{
+"id": "52b4443f95e900ab0392e1dd20908cd4555b3a0e",
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
+"source": "市场分析",
+"title": "Amazon's Top Sellers Aren't TikTok Shop's",
+"url": "https://marketplacepulse.com/articles/amazons-top-sellers-arent-tiktok-shops",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"tiktok shop"
+],
+"cross_platforms": [
+"amazon",
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "亚马逊的畅销书不是TikTok商店的"
+},
+{
+"id": "5833aee103b2c59b25a776bd4ee234f91f9bfed8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop建议卖家10月15日前完成FBT入库，旺季仓储规则明确",
+"url": "https://www.amz123.com/kx/UW1i03fF",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"卖家",
+"卖家",
+"仓储"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop建议卖家10月15日前完成FBT入库，旺季仓储规则明确"
+},
+{
+"id": "fb39832533e6af1c29a8b1f702c13da3c0207c12",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南拟将小包免税门槛降至10万越南盾，跨境低价SKU税务逻辑面临重构",
+"url": "https://www.amz123.com/kx/58wwqCUb",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"sku"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南拟将小包免税门槛降至10万越南盾，跨境低价SKU税务逻辑面临重构"
+},
+{
+"id": "75dfd1a7102a5e6db7f4a99cad01d7ddcfd035b7",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "【案例征集】亚马逊新品上架，你的冷启动做对了哪些事？",
+"url": "https://www.wearesellers.com/question/123997",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "【案例征集】亚马逊新品上架，你的冷启动做对了哪些事？"
+},
+{
+"id": "441aba060c87804e5ac2b7c918e217f46bfede5b",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "魔法对轰|GPT6 Astar VS Alexa 手搓listing&关键词&QA优化Skill，拥抱改变的核心并不是改变，而是从切实自己的需求端出发，我也给服务商交过学费，要看到服务商的思考模式和我们卖家的思考模式差距在哪",
+"url": "https://www.wearesellers.com/question/124494",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"listing",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "魔法对轰|GPT6 Astar VS Alexa 手搓listing&关键词&QA优化Skill，拥抱改变的核心并不是改变，而是从切实自己的需求端出发，我也给服务商交过学费，要看到服务商的思考模式和我们卖家的思考模式差距在哪"
+},
+{
+"id": "d939189ddf9c5489b2e5542331237b668bea822a",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊VC-DF配送时效问题",
+"url": "https://www.wearesellers.com/question/124521",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊VC-DF配送时效问题"
+},
+{
+"id": "286d47129f822b897270cac04929f18fe14bc7f4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊又收紧！明年起，这类商品捆绑包或被停用",
+"url": "https://www.cifnews.com/article/188808",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊又收紧！明年起，这类商品捆绑包或被停用"
+},
+{
+"id": "aaf47a33640b39de3d8793a95c98b824cff1ec4c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "众筹测款+AI选品，正在淘汰不用它们的卖家",
+"url": "https://www.cifnews.com/article/188821",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"选品"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "众筹测款+AI选品，正在淘汰不用它们的卖家"
+},
+{
+"id": "8ba715487eac46786cf063d052fee457b2b345e8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "印尼国会质询Tokopedia与TikTok Shop，商户称逾3万亿印尼盾货款遭冻结",
+"url": "https://www.amz123.com/kx/s4arp3SA",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "印尼国会质询Tokopedia与TikTok Shop，商户称逾3万亿印尼盾货款遭冻结"
+},
+{
+"id": "057277da7b90c5db86097ec08cfd6799c05b82eb",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊高尔夫推杆套月销252单、毛利率59%，评论异常与专利风险不容忽视",
+"url": "https://www.amz123.com/kx/V5lZtOIk",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊高尔夫推杆套月销252单、毛利率59%，评论异常与专利风险不容忽视"
+},
+{
+"id": "06a42279dd86895bb82cc12f1c650e13d2138dc6",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "10天紧急自查！税局短信“突袭”深圳跨境圈",
+"url": "https://www.cifnews.com/article/188822",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "10天紧急自查！税局短信“突袭”深圳跨境圈"
+},
+{
+"id": "ae2ad2554782b8be270462520ca0c0f5d7be1b5a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家",
+"url": "https://www.cifnews.com/article/188823",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家"
+},
+{
+"id": "c21c6455b3e5f103f7e6957add9ad357d725ed04",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "借了贵钱去买货，赚的钱全给别人打工了？卖家现金流难题怎么破？",
+"url": "https://www.cifnews.com/article/188800",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "借了贵钱去买货，赚的钱全给别人打工了？卖家现金流难题怎么破？"
+},
+{
+"id": "636162e165a3e6d8fc7468ffee9ce92275fed0f4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯电商卖家加速转向自发货，Wildberries FBS占比升至97.4%",
+"url": "https://www.amz123.com/kx/Gv1MOcg8",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家",
+"电商"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "俄罗斯电商卖家加速转向自发货，Wildberries FBS占比升至97.4%"
+},
+{
+"id": "70396069d5be7662e397b1da39609845ae182476",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "十天连失十仓，Ozon萨拉托夫仓库再遭无人机袭击",
+"url": "https://www.amz123.com/kx/5cZprlBz",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "十天连失十仓，Ozon萨拉托夫仓库再遭无人机袭击"
+},
+{
+"id": "2ed7502dc6444f2513db5f083270d286fba61e13",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "SHEIN与中国外运签署可持续发展合作备忘录，推进仓间物流电动化",
+"url": "https://www.amz123.com/kx/rgrkK1mP",
+"published_at": null,
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shein",
+"物流"
+],
+"cross_platforms": [
+"shein"
+],
+"cross_sites": [],
+"title_zh": "SHEIN与中国外运签署可持续发展合作备忘录，推进仓间物流电动化"
+},
+{
+"id": "325ed3d64091fc6e61b74bd30aff5713a7b5da8b",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊联合DHL在巴西圣埃斯皮里图州开设首个配送中心",
+"url": "https://www.ennews.com/news-144166.html",
+"published_at": "2026-09-14T00:00:00Z",
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"dhl"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊联合DHL在巴西圣埃斯皮里图州开设首个配送中心"
+},
+{
+"id": "0c38af0319b8a7dcec6024580576d79f430baea8",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊划线价再次丢失，多卖家销量骤降",
+"url": "https://www.ennews.com/article-31883-1.html",
+"published_at": "2026-09-14T00:00:00Z",
+"first_seen_at": "2026-09-14T01:34:51.998016Z",
+"last_seen_at": "2026-09-14T01:34:51.998016Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊划线价再次丢失，多卖家销量骤降"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
