@@ -215,13 +215,20 @@ def fetch_via_browseract(
     url_pattern: str,
     base_url: str,
     max_items: int = 40,
+    url_regex: str | None = None,
 ) -> list[RawItem]:
     """Fetch articles from a JS-rendered page using BrowserAct CLI.
+
+    `url_pattern` 是子串粗筛（在浏览器内 JS 执行，性能好）；
+    `url_regex` 是可选的正则精筛（在 Python 侧执行），用于排除同域导航链接。
+    例：gs.amazon.cn 的 /policy /fba /service 也含 "amazon.cn" 子串，
+    必须用 url_regex 精筛 /news/news- 才能只有真公告。
 
     Falls back to empty list if BrowserAct is unavailable or fails.
     """
     session_name = f"fetch-{uuid.uuid4().hex[:8]}"
     items: list[RawItem] = []
+    _regex = re.compile(url_regex) if url_regex else None
 
     # Build JS extraction script
     js_extract = (
@@ -274,6 +281,8 @@ def fetch_via_browseract(
                 for entry in parsed:
                     title = maybe_fix_mojibake(str(entry.get("title", "")).strip())
                     link = str(entry.get("url", "")).strip()
+                    if _regex and not _regex.search(link):
+                        continue
                     if title and link:
                         items.append(RawItem(
                             site_id=site_id, site_name=site_name,
@@ -640,65 +649,105 @@ def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
 
 
 def fetch_kjds365(session: requests.Session, now: datetime) -> list[RawItem]:
-    """跨境电商365 — BrowserAct + HTML fallback."""
-    items = fetch_via_browseract(
-        url="https://kjds365.cn/",
-        site_id="kjds365", site_name="跨境电商365", source_label="行业资讯",
-        url_pattern="kjds365.cn", base_url="https://kjds365.cn",
-    )
-    if not items:
-        try:
-            resp = session.get("https://kjds365.cn/", timeout=15)
-            resp.raise_for_status()
-            soup = parse_html(resp)
-            for a in soup.find_all("a", href=True):
-                title = a.get_text(strip=True)
-                href = a["href"]
-                if len(title) < 8 or not href.startswith(("http", "/")):
-                    continue
-                if not href.startswith("http"):
-                    href = urljoin("https://kjds365.cn", href)
-                if "kjds365.cn" not in href:
-                    continue
-                items.append(RawItem(
-                    site_id="kjds365", site_name="跨境电商365", source="行业资讯",
-                    title=title, url=normalize_url(href),
-                    published_at=None, meta={},
-                ))
-        except Exception as e:
-            print(f"  [WARN] kjds365 fallback HTML fetch failed: {e}")
+    """跨境电商365 — 博客文章。
+
+    2026-09-14 修复：该站首页是**导航站**（工具/课程/书单/社媒链接为主），
+    原实现只要求 href 含 "kjds365.cn"，导致采到大量导航项：
+      /sites/128.html（店小秘-跨境电商多平台采集上架…）
+      /sites/135.html（领星ERP，亚马逊利润核算，广告管理）
+      /amz_restock_table（亚马逊FBA补货周期表）
+    这些锚文本含"跨境/亚马逊/ERP"等词，打分拿到 0.63-0.75，白占展示位。
+    真文章路径形如 /894.html、/890.html（根目录纯数字 .html）。
+    此处改为只收该形式的正文页。
+    """
+    items: list[RawItem] = []
+    try:
+        resp = session.get("https://kjds365.cn/", timeout=15)
+        resp.raise_for_status()
+        soup = parse_html(resp)
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not href.startswith("http"):
+                href = urljoin("https://kjds365.cn", href)
+            # 只收正文页 /<数字>.html，排除 /sites/ /tag/ /bulletin/ 等导航项
+            if not re.search(r"kjds365\.cn/\d+\.html?$", href):
+                continue
+            title = a.get_text(strip=True)
+            if len(title) < 8:
+                continue
+            items.append(RawItem(
+                site_id="kjds365", site_name="跨境电商365", source="跨境电商365",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
+            ))
+    except Exception as e:
+        print(f"  [WARN] kjds365 HTML fetch failed: {e}")
     return dedupe_by_path(items)[:20]
 
 
+def _is_nav_pollution(item: dict) -> bool:
+    """判断条目是否为导航/目录页污染（不该被当成新闻）。
+
+    2026-09-14 事故：gs.amazon.cn 导航菜单（/policy /fba /sell …）与
+    kjds365.cn 工具目录（/sites/NNN.html、/amz_restock_table …）被当新闻
+    采集，锚文本含"政策/FBA/跨境/亚马逊"等词 → 打分 0.60-0.78 高分 →
+    挤掉真公告。已在采集层修掉，但归档里 21 天窗口的旧污染会持续展示，
+    故此处再设一道持久化防线：读到归档时直接丢弃。
+    """
+    url = item.get("url") or ""
+    sid = item.get("site_id") or ""
+    if sid == "gs_amazon" and "/news/news-" not in url:
+        return True
+    if sid == "kjds365" and not re.search(r"kjds365\.cn/\d+\.html?$", url):
+        return True
+    return False
+
+
 def fetch_gs_amazon_cn(session: requests.Session, now: datetime) -> list[RawItem]:
-    """亚马逊全球开店中文 — BrowserAct + HTML fallback."""
-    items = fetch_via_browseract(
-        url="https://gs.amazon.cn/news",
-        site_id="gs_amazon", site_name="亚马逊全球开店", source_label="全球开店资讯",
-        url_pattern="amazon.cn", base_url="https://gs.amazon.cn",
-    )
-    if not items:
-        try:
-            resp = session.get("https://gs.amazon.cn/news", timeout=15)
-            resp.raise_for_status()
-            soup = parse_html(resp)
-            for a in soup.find_all("a", href=True):
-                title = a.get_text(strip=True)
-                href = a["href"]
-                if len(title) < 8 or not href.startswith(("http", "/")):
-                    continue
-                if not href.startswith("http"):
-                    href = urljoin("https://gs.amazon.cn", href)
-                if "amazon.cn" not in href:
-                    continue
-                items.append(RawItem(
-                    site_id="gs_amazon", site_name="亚马逊全球开店", source="全球开店资讯",
-                    title=title, url=normalize_url(href),
-                    published_at=None, meta={},
-                ))
-        except Exception as e:
-            print(f"  [WARN] gs.amazon.cn fallback HTML fetch failed: {e}")
+    """亚马逊全球开店中文 — 公告列表。
+
+    2026-09-14 修复：此前把整页所有 <a> 都当新闻收，实测 /news 页上
+    导航菜单链接（/policy、/fba、/sell、/nsi、/category…）比真新闻还多
+    （实测 50 导航 vs 26 新闻）。这些导航项的锚文本恰含"政策/FBA/跨境"
+    等词，在打分器里拿到 0.60-0.78 高分，白占 7/43 个展示位，而真公告被
+    挤出。此处按 URL 特征只保留真公告：路径含 /news/news-。
+
+    另清理标题：列表页会带 "● " 前缀和 "……[详细]" 截断后缀。
+    """
+    items: list[RawItem] = []
+    try:
+        resp = session.get("https://gs.amazon.cn/news", timeout=15)
+        resp.raise_for_status()
+        soup = parse_html(resp)
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not href.startswith("http"):
+                href = urljoin("https://gs.amazon.cn", href)
+            # 只收真公告：导航菜单链接（/policy /fba /sell /nsi …）不是新闻
+            if "/news/news-" not in href:
+                continue
+            title = _clean_gs_amazon_title(a.get_text(strip=True))
+            if len(title) < 8:
+                continue
+            items.append(RawItem(
+                site_id="gs_amazon", site_name="亚马逊全球开店", source="全球开店公告",
+                title=title, url=normalize_url(href),
+                published_at=None, meta={},
+            ))
+    except Exception as e:
+        print(f"  [WARN] gs.amazon.cn fetch failed: {e}")
     return dedupe_by_path(items)[:30]
+
+
+def _clean_gs_amazon_title(raw: str) -> str:
+    """清理 gs.amazon.cn 列表页标题：去 "● " 前缀、"……[详细]" 截断后缀、
+    合并空白。"""
+    t = raw.strip()
+    t = re.sub(r"^[●•·\-\*]\s*", "", t)
+    t = re.sub(r"[..…\u2026]+\[详细\]\s*$", "", t)
+    t = re.sub(r"\[详细\]\s*$", "", t)
+    t = re.sub(r"\s+", " ", t)
+    return t.strip()
 
 
 # ---------------------------------------------------------------------------
@@ -1426,6 +1475,8 @@ def main() -> int:
     window_start = now - timedelta(hours=args.window_hours)
     latest_items_all_raw: list[dict[str, Any]] = []
     for record in archive.values():
+        if _is_nav_pollution(record):
+            continue
         ts = event_time(record)
         if ts and ts >= window_start:
             latest_items_all_raw.append(dict(record))
