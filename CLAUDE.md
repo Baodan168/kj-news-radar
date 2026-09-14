@@ -47,8 +47,11 @@ python3 -m http.server 8080
 
 ## 部署
 
-- GitHub Actions 每天 09:00 自动更新
-- 手动触发：Actions → Update News → Run workflow
+- **本地 cron 采集**：Hermes cron 每天 08:40 跑 `~/.hermes/scripts/kj_local_update.py`
+  → 本地跑 `update_crossborder.py`（CN 网络直连 CN 源）→ GitHub Contents API 推送数据 → 触发 Pages 重建
+- **不要用 GHA schedule 采集**：GHA 美国 runner IP 被 CN 源 CDN 拦截/冻结，
+  采集量从 250+ 掉到 3-5 条（2026-09-01~13 事故）。workflow 的 `schedule` 已注释禁用，仅保留 `workflow_dispatch` 作手动兜底
+- git push 被 GFW 阻断 → 用 GitHub Contents API 推（见 `~/.hermes/scripts/api_commit.py` 同款方式）
 - GitHub Pages 部署，OA 门户通过 iframe 直链访问
 
 ## 操作禁忌
@@ -59,5 +62,6 @@ python3 -m http.server 8080
 
 ## 当前状态
 
-- 稳定运行，GHA 自动更新
-- 约 363 条信号/天，聚类 10+ 跨源事件
+- 本地 cron 采集（每天 08:40），16 源全部正常，0 失败源
+- 约 40-50 条跨境信号/天（原始采集 ~250 条）
+- 改 JS/CSS 后必须 bump `index.html` 里的 `?v=N`（当前 app.js?v=14）
