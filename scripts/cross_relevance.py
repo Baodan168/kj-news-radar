@@ -461,7 +461,7 @@ SOURCE_PRIORS = {
     "seller_central": 0.25,
     # Industry analysis (high quality, original insights)
     "marketplace_pulse": 0.20,
-    "ecommercebytes": 0.20,
+    "ecommercenews": 0.20,
     "channelx": 0.20,
     # Aggregators / curated news
     "amz123": 0.15,
@@ -508,18 +508,62 @@ CROSS_RELEVANCE_THRESHOLD = 0.60  # 2026-07-10 从0.65降至0.60以扩大入选�
 # ──────────────────────────────────────────────────────────────
 
 
+# ──────────────────────────────────────────────────────────────
+# 关键词匹配：ASCII 关键词统一走词边界正则
+# ──────────────────────────────────────────────────────────────
+_KW_RE_CACHE: dict[str, re.Pattern] = {}
+
+# 关键词负面上下文：某些短词单独出现会误命中无关内容
+#   "prime" 会命中 "prime minister"（政治新闻）、"Prime Video"（娱乐内容），
+#   但 "Prime Day" / "Prime Big Deal Days" 是要保留的卖家信号 —— 只排除前两者。
+_KW_NEGATIVE_CONTEXT: dict[str, str] = {
+    "prime": r"(?!\s+(?:minister|video))",
+}
+
+
+def _keyword_pattern(kl: str) -> re.Pattern | None:
+    """把 ASCII 关键词编译成带词边界的正则（带缓存）。
+
+    2026-09-14 修复三个匹配缺陷：
+      1. 连字符关键词（cross-border / e-commerce）原先走子串匹配，
+         "cross-borderish"、"e-commercex" 会被误判命中 → 现在也加外侧词边界。
+      2. 含空格短语（tiktok shop / prime day）原先用 `re.escape` 生成字面空格，
+         遇到双空格或不换行空格（\\xa0，中文站点常见）就漏匹配 → 现在空格折叠为 \\s+。
+      3. ASCII 关键词中的 `-` 等符号不再破坏边界判断（边界只看 [a-z0-9]）。
+      4. 短词误命中：见 _KW_NEGATIVE_CONTEXT（"prime" ≠ "prime minister"）。
+
+    非 ASCII（中文）关键词返回 None，调用方继续用子串匹配。
+    """
+    if not kl or not kl.isascii():
+        return None
+    cached = _KW_RE_CACHE.get(kl)
+    if cached is not None:
+        return cached
+    tokens = [t for t in re.split(r"\s+", kl) if t]
+    if not tokens:
+        return None
+    body = r"\s+".join(re.escape(t) for t in tokens)
+    negative = _KW_NEGATIVE_CONTEXT.get(kl, "")
+    # 外侧词边界：英文/数字才算"词内"，连字符、空格、中文都视为边界
+    pattern = re.compile(rf"(?<![a-z0-9]){body}{negative}(?![a-z0-9])")
+    _KW_RE_CACHE[kl] = pattern
+    return pattern
+
+
 def contains_any_keyword(haystack: str, keywords: list[str]) -> bool:
     """Check if any keyword appears in the haystack (case-insensitive).
 
-    英文纯字母关键词用词边界匹配（避免 vat 误匹配 conservation 等子串）。
+    ASCII 关键词用词边界匹配（避免 vat 误匹配 conservation、cross-border
+    误匹配 cross-borderish）；中文关键词用子串匹配。
     """
     h = haystack.lower()
     for k in keywords:
         kl = k.lower()
         if not kl:
             continue
-        if kl.isascii() and kl.replace(" ", "").isalpha():
-            if re.search(rf"(?<![a-z0-9]){re.escape(kl)}(?![a-z0-9])", h):
+        pat = _keyword_pattern(kl)
+        if pat is not None:
+            if pat.search(h):
                 return True
         elif kl in h:
             return True
@@ -529,8 +573,7 @@ def contains_any_keyword(haystack: str, keywords: list[str]) -> bool:
 def matched_keywords(haystack: str, keywords: list[str]) -> list[str]:
     """Return sorted list of unique keywords found in haystack.
 
-    英文纯字母关键词用词边界匹配（避免 vat 误匹配 conservation 等子串），
-    中文/含空格短语用子串匹配。
+    ASCII 关键词用词边界匹配；中文关键词用子串匹配。
     """
     h = haystack.lower()
     found = set()
@@ -538,9 +581,9 @@ def matched_keywords(haystack: str, keywords: list[str]) -> list[str]:
         kl = k.lower()
         if not kl:
             continue
-        if kl.isascii() and kl.replace(" ", "").isalpha():
-            # 英文词：词边界匹配（"vat" 不匹配 "conservation"）
-            if re.search(rf"(?<![a-z0-9]){re.escape(kl)}(?![a-z0-9])", h):
+        pat = _keyword_pattern(kl)
+        if pat is not None:
+            if pat.search(h):
                 found.add(k)
         elif kl in h:
             found.add(k)
@@ -548,11 +591,17 @@ def matched_keywords(haystack: str, keywords: list[str]) -> list[str]:
 
 
 def contains_meaningful_cross_signal(haystack: str) -> bool:
-    """Check for strong cross-border e-commerce signals."""
+    """Check for strong cross-border e-commerce signals.
+
+    2026-09-14 修复：原先对 strong_signals 做裸子串匹配，
+    导致 "water conservation" 命中 "vat"、"prime minister" 命中 "prime"、
+    "delegates" 命中 "deleg"（Pitfall 27 同类问题在 has_cross 路径上未修）。
+    改为复用 _keyword_pattern：ASCII 词走词边界，中文走子串。
+    """
     h = haystack.lower()
     if MEANINGFUL_EN_SIGNAL_RE.search(h):
         return True
-    # Strong Chinese signals
+    # Strong Chinese signals (ASCII entries get word-boundary matching below)
     strong_signals = [
         "跨境电商", "跨境", "海外仓", "保税仓", "出口电商",
         "进口电商", "速卖通", "独立站", "全球开店",
@@ -562,7 +611,7 @@ def contains_meaningful_cross_signal(haystack: str) -> bool:
         "temu", "shein", "tiktok shop", "tiktok电商",
         "epr", "gpsr", "vat", "deleg", "ppwr",
     ]
-    return any(k in h for k in strong_signals)
+    return contains_any_keyword(h, strong_signals)
 
 
 def _label_for_text(text: str, has_ecommerce: bool) -> str:
@@ -719,14 +768,14 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     # ── UK/EU 市场加分（英国站卖家核心市场）────────────────
     uk_keywords = ["英国站", "uk站", "amazon.co.uk", "英区", "英代", "英国",
                    "欧英站", "英欧站", ".co.uk"]
-    has_uk = any(k in text for k in uk_keywords)
+    has_uk = contains_any_keyword(text, uk_keywords)
     eu_keywords = ["欧洲站", "欧洲", "欧盟", "欧元", "欧区",
                    "德国站", "法国站", "意大利站", "西班牙站", "荷兰站"]
-    has_eu = any(k in text for k in eu_keywords)
+    has_eu = contains_any_keyword(text, eu_keywords)
 
     # Amazon platform boost (亚马逊是核心平台) — 提前定义供宏观惩罚判断
     amazon_keywords = ["亚马逊", "amazon", "fba", "fbm", "prime", "seller central"]
-    has_amazon = any(k in text for k in amazon_keywords)
+    has_amazon = contains_any_keyword(text, amazon_keywords)
 
     # 宏观新闻/企业CSR重罚：命中宏观词 且 无卖家/平台/Amazon上下文 → -0.30
     # （如空客和解/中欧贸易战/去工业化等对卖家无决策价值的宏观新闻）
@@ -765,7 +814,7 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     competitor_platforms = ["temu", "拼多多跨境", "shopee", "虾皮", "shein", "希音",
                             "tiktok shop", "tiktok电商", "lazada", "速卖通",
                             "aliexpress", "ebay", "walmart", "沃尔玛"]
-    if any(k in text for k in competitor_platforms) and not has_amazon:
+    if contains_any_keyword(text, competitor_platforms) and not has_amazon:
         score -= 0.10
 
     # 决策价值分层：L1行动类内容（政策/合规截止/卖家行动）保底额外加分
@@ -814,7 +863,7 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
 
     # UK/EU compliance boost (合规政策对于英国站卖家是高优先级)
     compliance_keywords = ["ppwr", "gpsr", "epr", "ukca", "ce marking", "英代", "欧代"]
-    if any(k in text for k in compliance_keywords):
+    if contains_any_keyword(text, compliance_keywords):
         score += 0.05
 
     # 非目标市场降权（避免印度/俄罗斯/中东等非相关市场占据精选）
@@ -824,7 +873,7 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
         "中东", "noon", "迪拜", "沙特", "阿联酋",
         "日本站", "澳洲站", "加拿大站",
     ]
-    has_non_target = any(k in text for k in non_target_market_keywords)
+    has_non_target = contains_any_keyword(text, non_target_market_keywords)
     if has_non_target and not (has_uk or has_eu):
         score -= 0.10  # 非目标市场且无UK/EU关联 → 降权
         if not has_amazon:
@@ -833,7 +882,7 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     # 非Amazon平台降权（非核心平台，不与上面重复计算）
     non_amazon_platforms = ["ebay", "shopee", "lazada", "walmart", "jumia",
                             "美客多", "mercadolibre", "depop"]
-    if any(k in text for k in non_amazon_platforms) and not has_amazon:
+    if contains_any_keyword(text, non_amazon_platforms) and not has_amazon:
         score -= 0.15
 
     # Ensure threshold for strong signals
@@ -841,7 +890,7 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     # （否则惩罚会被max()抵消）
     promo_hits = matched_keywords(text, PROMOTION_NOISE)
     clickbait_hits = matched_keywords(text, CLICKBAIT_NOISE)
-    has_competitor = (any(k in text for k in competitor_platforms) and not has_amazon)
+    has_competitor = (contains_any_keyword(text, competitor_platforms) and not has_amazon)
     if (macro_penalty == 0.0 and csr_penalty == 0.0 and corp_penalty == 0.0
             and not promo_hits and not clickbait_hits and not has_competitor):
         if has_cross:
