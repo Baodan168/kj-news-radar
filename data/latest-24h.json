@@ -1,57 +1,57 @@
 {
-"generated_at": "2026-09-14T02:51:39.993296Z",
+"generated_at": "2026-09-14T03:19:56.437608Z",
 "window_hours": 24,
-"total_items": 43,
-"total_items_cross_raw": 113,
-"total_items_raw": 186,
-"total_items_all_mode": 186,
+"total_items": 48,
+"total_items_cross_raw": 159,
+"total_items_raw": 257,
+"total_items_all_mode": 257,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1029,
+"archive_total": 1051,
 "site_count": 16,
 "source_count": 8,
 "site_stats": [
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 8,
-"raw_count": 56
-},
-{
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 24
+"raw_count": 54
+},
+{
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"count": 8,
+"raw_count": 30
+},
+{
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"count": 8,
+"raw_count": 10
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 58
 },
 {
 "site_id": "ennews",
 "site_name": "亿恩网",
 "count": 8,
-"raw_count": 41
-},
-{
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"count": 7,
-"raw_count": 20
+"raw_count": 56
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 34
-},
-{
-"site_id": "kjds365",
-"site_name": "跨境电商365",
-"count": 4,
-"raw_count": 5
+"raw_count": 38
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "count": 2,
-"raw_count": 4
+"raw_count": 9
 },
 {
 "site_id": "marketplace_pulse",
@@ -68,6 +68,442 @@
 ],
 "items": [
 {
+"id": "fa4fc848006609f4b7ac157e52ddc70eee1848ff",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊品牌峰会 9.22 杭州 | 实战赋能",
+"url": "https://www.cifnews.com/activity/3298?origin=yggw_pc_index_left-1",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:19:56.437608Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊品牌峰会 9.22 杭州 | 实战赋能"
+},
+{
+"id": "6ca3a438a1da981b76c1b838eab0154918d42ac9",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "【卖家社群】扫码加入跨境电商社群，获取平台动态，与卖家交流",
+"url": "https://www.cifnews.com/topic/447?origin=search_phb_init",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:19:56.437608Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"跨境电商",
+"卖家",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "【卖家社群】扫码加入跨境电商社群，获取平台动态，与卖家交流"
+},
+{
+"id": "6aac210718c75a97e8f3a1ab6c5deff2b8060541",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "2026年欧洲站销售佣金和亚马逊物流费用",
+"url": "https://gs.amazon.cn/news/news-notices-251201",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.86,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "2026年欧洲站销售佣金和亚马逊物流费用"
+},
+{
+"id": "7ae28e15ec41ca6717cef3bf4d6a56ec0b09e7f9",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "7/1起生效 | 亚马逊卖家自配送绩效政策更新通知",
+"url": "https://gs.amazon.cn/news/news-notices-260701",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"政策"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "7/1起生效 | 亚马逊卖家自配送绩效政策更新通知"
+},
+{
+"id": "c6b700b10c5956299b4bdf5aa32c8c52ce38b508",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "亚马逊非标品在旺季广告调整策略",
+"url": "https://kjds365.cn/894.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊非标品在旺季广告调整策略"
+},
+{
+"id": "c8a7afae1c7f21cfa394d38b71eb633deee760ef",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "亚马逊老卖家一定要做好店铺定位，产品定位",
+"url": "https://kjds365.cn/630.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"店铺"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊老卖家一定要做好店铺定位，产品定位"
+},
+{
+"id": "33a174642a957dc63d21dbf7a116ac23193cb656",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "少了一颗螺丝就整件退货？亚马逊这个免费",
+"url": "https://gs.amazon.cn/news/news-brand-260903",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"退货"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "少了一颗螺丝就整件退货？亚马逊这个免费"
+},
+{
+"id": "bc49ba3c1ced654052df762f7516a69c65456127",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "警惕！每月15日前必查：这类FBA库存未来1",
+"url": "https://gs.amazon.cn/news/news-brand-260910",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"库存"
+],
+"cross_platforms": [
+"亚马逊",
+"fba"
+],
+"cross_sites": [],
+"title_zh": "警惕！每月15日前必查：这类FBA库存未来1"
+},
+{
+"id": "27aa40a914beff71dc96cdd94b82e46f2b263a97",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "亚马逊GWD补货省心必读：自动补货、库存",
+"url": "https://gs.amazon.cn/news/news-brand-260814",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊GWD补货省心必读：自动补货、库存"
+},
+{
+"id": "52883b68202669f2ac7a25dc0a073cc38884ee41",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "利润低的卖家速查！130万卖家都在用的亚马逊官",
+"url": "https://gs.amazon.cn/news/news-product-260716",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "利润低的卖家速查！130万卖家都在用的亚马逊官"
+},
+{
+"id": "7de24771412901c2e6651324208801b220b9b25f",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "2026年日本站销售佣金和亚马逊物流费用",
+"url": "https://gs.amazon.cn/news/news-notices-251202",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"jp"
+],
+"title_zh": "2026年日本站销售佣金和亚马逊物流费用"
+},
+{
+"id": "5c25c441e32d8edbedfbe6c143fecc9168b284dc",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "亚马逊欧洲站锂电池新规：9月30日，未通过",
+"url": "https://gs.amazon.cn/news/news-notices-260805",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊欧洲站锂电池新规：9月30日，未通过"
+},
+{
+"id": "0de3d2a98d6053c5a3e5742010f3afe3a4fc712c",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "跨境电商实用工具",
+"url": "https://kjds365.cn/747.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "跨境电商实用工具"
+},
+{
+"id": "93ed7bdf16d28f18e5abbe705a4e943eafe15849",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "亚马逊美国纳税身份信息审核操作流程",
+"url": "https://kjds365.cn/575.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国纳税身份信息审核操作流程"
+},
+{
+"id": "95dc6260b06cc1f1fa81338dd72e95a58c73485f",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "写在 2025 的最后一天｜关于亚马逊、关于学习、也关于 2026",
+"url": "https://kjds365.cn/890.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "写在 2025 的最后一天｜关于亚马逊、关于学习、也关于 2026"
+},
+{
+"id": "f5457a5398097c13f2bb5d3b3e82baeb2295446f",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "亚马逊两天线下课",
+"url": "https://kjds365.cn/779.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊两天线下课"
+},
+{
+"id": "8d7c76a0e1ff02303f25e04d2e22e7425f986091",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "亚马逊老品新推的运营策略",
+"url": "https://kjds365.cn/585.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊老品新推的运营策略"
+},
+{
+"id": "b033f0fbda6124b0f077fe1c77471db077ed74b2",
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"source": "跨境电商365",
+"title": "我熬夜4天做了一个跨境导航网站，累坏了",
+"url": "https://kjds365.cn/578.html",
+"published_at": null,
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "我熬夜4天做了一个跨境导航网站，累坏了"
+},
+{
 "id": "09ffbb9e35ad5292442b650e47bce97fc849be32",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -76,7 +512,7 @@
 "url": "https://www.amz123.com/kx/L5PFRSq9",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "policy_update",
@@ -100,7 +536,7 @@
 "url": "https://www.amz123.com/kx/WsyKK5qS",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "platform_trend",
@@ -117,30 +553,6 @@
 "title_zh": "中国卖家占比78%、新品份额不足1%，亚马逊缝纫包类目竞争趋于饱和"
 },
 {
-"id": "aae06a2005446c79fd9a562f2e687d7b959eedce",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店资讯",
-"title": "了解亚马逊开店政策",
-"url": "https://gs.amazon.cn/policy",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"政策"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "了解亚马逊开店政策"
-},
-{
 "id": "a083aa0347941d1fc0f18ea2479936e79eb885a8",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -149,7 +561,7 @@
 "url": "https://www.cifnews.com/article/188819",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:18:36.755585Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "seller_action",
@@ -165,57 +577,6 @@
 "title_zh": "4500万粉丝需求直达工厂：跨境电商下一个爆款从哪里来？"
 },
 {
-"id": "3833bc09ef9d9d0f4eefd8bb0ebe28cd92205224",
-"site_id": "kjds365",
-"site_name": "跨境电商365",
-"source": "行业资讯",
-"title": "亚马逊FBA补货周期表",
-"url": "https://kjds365.cn/amz_restock_table",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [],
-"title_zh": "亚马逊FBA补货周期表"
-},
-{
-"id": "d524cb0e4f6574715924deabbd6053ef79505918",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店资讯",
-"title": "使用亚马逊物流（FBA)",
-"url": "https://gs.amazon.cn/fba",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊",
-"物流"
-],
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [],
-"title_zh": "使用亚马逊物流（FBA)"
-},
-{
 "id": "bd09eeb5b7eee1ec370604913b59f323b8a8a655",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -224,7 +585,7 @@
 "url": "https://www.amz123.com/kx/THbI8ucf",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.73,
 "cross_label": "seller_action",
@@ -239,126 +600,6 @@
 "title_zh": "马来西亚拟强制电商卖家完成eKYC身份认证"
 },
 {
-"id": "29a146a80740f89854d64ff935a96446b055e188",
-"site_id": "kjds365",
-"site_name": "跨境电商365",
-"source": "行业资讯",
-"title": "领星领星ERP，亚马逊利润核算，广告管理",
-"url": "https://kjds365.cn/sites/135.html",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "领星领星ERP，亚马逊利润核算，广告管理"
-},
-{
-"id": "99427d950f0c2011fa81ab01801db96700849fff",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店资讯",
-"title": "跨境韧性供应链赋能卖家高效直达全球消费市场",
-"url": "https://gs.amazon.cn/logistics/sca",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"供应链",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "跨境韧性供应链赋能卖家高效直达全球消费市场"
-},
-{
-"id": "2c2233c08ff39485cb62658ba063db2f128aa235",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店资讯",
-"title": "亚马逊卖家成长服务",
-"url": "https://gs.amazon.cn/service",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊卖家成长服务"
-},
-{
-"id": "0f0bce115b00973cad3837dedca406defd55d40e",
-"site_id": "kjds365",
-"site_name": "跨境电商365",
-"source": "行业资讯",
-"title": "店小秘店小秘-跨境电商多平台采集上架商品，订单处货，进销存管理ERP",
-"url": "https://kjds365.cn/sites/128.html",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "店小秘店小秘-跨境电商多平台采集上架商品，订单处货，进销存管理ERP"
-},
-{
-"id": "5d63bdf100ee7fdac30e0330fefc97e988d51bff",
-"site_id": "kjds365",
-"site_name": "跨境电商365",
-"source": "行业资讯",
-"title": "卖家穿海AI选品",
-"url": "https://kjds365.cn/sites/348.html",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"选品"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "卖家穿海AI选品"
-},
-{
 "id": "72cbbe6acdd43c8dfc8e9b0592491ab0e3660f86",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -367,7 +608,7 @@
 "url": "https://www.amzdh.com/kjtt/10407.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "seller_action",
@@ -383,79 +624,6 @@
 "title_zh": "亚马逊取消买家评论功能！"
 },
 {
-"id": "853f61ce7224dddcb8f640db10db8dcd7ce5928e",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店资讯",
-"title": "卖家百科免费在线学习全面的运营知识",
-"url": "https://gs.amazon.cn/learn/seller-university",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "卖家百科免费在线学习全面的运营知识"
-},
-{
-"id": "fb5a3851dd4eea6d8b673dae302928b4601511f9",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店资讯",
-"title": "了解跨境基础知识",
-"url": "https://gs.amazon.cn/beginners-guide",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "了解跨境基础知识"
-},
-{
-"id": "54136e2b2fb4f215b40dea93c43b272f498c6e2f",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店资讯",
-"title": "澳洲站欧美卖家拓展生意第一站",
-"url": "https://gs.amazon.cn/australia",
-"published_at": null,
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"au"
-],
-"title_zh": "澳洲站欧美卖家拓展生意第一站"
-},
-{
 "id": "9dd51c90b76732595f6a703236a5e86b7578664a",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -464,7 +632,7 @@
 "url": "https://www.amzdh.com/kjtt/10406.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -487,7 +655,7 @@
 "url": "https://www.wearesellers.com/question/124480",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.92,
 "cross_label": "general",
@@ -512,7 +680,7 @@
 "url": "https://www.amz123.com/kx/ZoNouBkx",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "fee_logistics",
@@ -539,7 +707,7 @@
 "url": "https://www.wearesellers.com/question/124040",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "seller_action",
@@ -565,7 +733,7 @@
 "url": "https://www.cifnews.com/article/188826",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:18:36.755585Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "policy_update",
@@ -587,7 +755,7 @@
 "url": "https://www.cifnews.com/article/188813",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:18:36.755585Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -612,7 +780,7 @@
 "url": "https://www.cifnews.com/article/188803",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:18:36.755585Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -635,7 +803,7 @@
 "url": "https://marketplacepulse.com/articles/amazons-top-sellers-arent-tiktok-shops",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "tiktok",
@@ -660,7 +828,7 @@
 "url": "https://www.amz123.com/kx/UW1i03fF",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "policy_update",
@@ -708,7 +876,7 @@
 "url": "https://www.wearesellers.com/question/123997",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "listing_product",
@@ -731,7 +899,7 @@
 "url": "https://www.wearesellers.com/question/124494",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "listing_product",
@@ -777,7 +945,7 @@
 "url": "https://www.cifnews.com/article/188808",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:18:36.755585Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -800,7 +968,7 @@
 "url": "https://www.cifnews.com/article/188821",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:18:36.755585Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "listing_product",
@@ -846,7 +1014,7 @@
 "url": "https://www.amz123.com/kx/V5lZtOIk",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -859,49 +1027,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊高尔夫推杆套月销252单、毛利率59%，评论异常与专利风险不容忽视"
-},
-{
-"id": "06a42279dd86895bb82cc12f1c650e13d2138dc6",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "10天紧急自查！税局短信“突袭”深圳跨境圈",
-"url": "https://www.cifnews.com/article/188822",
-"published_at": null,
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "10天紧急自查！税局短信“突袭”深圳跨境圈"
-},
-{
-"id": "ae2ad2554782b8be270462520ca0c0f5d7be1b5a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家",
-"url": "https://www.cifnews.com/article/188823",
-"published_at": null,
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家"
 },
 {
 "id": "325ed3d64091fc6e61b74bd30aff5713a7b5da8b",
@@ -936,7 +1061,7 @@
 "url": "https://www.ennews.com/article-31883-1.html",
 "published_at": "2026-09-14T00:00:00Z",
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "seller_action",
@@ -961,7 +1086,7 @@
 "url": "https://www.ennews.com/news-144187.html",
 "published_at": "2026-09-14T00:00:00Z",
 "first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "seller_action",
@@ -978,6 +1103,56 @@
 "title_zh": "亚马逊北美站突发订单数据异常，大批卖家后台连续数小时显示“0单”"
 },
 {
+"id": "1e439991ccf97d6baaa1bbb2ccab6bf10a9f818a",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "华南启用海铁联运监管新模式，跨境电商出口物流成本降10%至15%",
+"url": "https://www.ennews.com/news-144195.html",
+"published_at": "2026-09-14T00:00:00Z",
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商",
+"监管",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "华南启用海铁联运监管新模式，跨境电商出口物流成本降10%至15%"
+},
+{
+"id": "3fae2d104b9a71d84b177a8c54400e5cdd1b5cd4",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "欧盟拟推《欧洲产品法》，严控跨境电商低价值商品",
+"url": "https://www.ennews.com/news-144189.html",
+"published_at": "2026-09-14T00:00:00Z",
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧盟拟推《欧洲产品法》，严控跨境电商低价值商品"
+},
+{
 "id": "a499f4e568a44df6ad0531142f5232665386dfdc",
 "site_id": "ennews",
 "site_name": "亿恩网",
@@ -986,7 +1161,7 @@
 "url": "https://www.ennews.com/news-144186.html",
 "published_at": "2026-09-14T00:00:00Z",
 "first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "listing_product",
@@ -1024,75 +1199,28 @@
 "title_zh": "亚马逊计划在迈阿密空难后暂停与21 Air合作"
 },
 {
-"id": "929cfa298239f80ad4c06cdeda0511a9a8d9645f",
+"id": "0cd6edbab362993d016cb207a3a10bf73c9abe6f",
 "site_id": "ennews",
 "site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "萨拉托夫Ozon仓库遭无人机袭击后起火，平台暂停当地订单收发",
-"url": "https://www.ennews.com/news-144183.html",
+"title": "亚马逊升级Prime Video购物功能，可购物内容扩至8000多部",
+"url": "https://www.ennews.com/news-144188.html",
 "published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
+"first_seen_at": "2026-09-14T03:17:07.063793Z",
+"last_seen_at": "2026-09-14T03:19:56.437608Z",
 "cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.61,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"ozon"
+"亚马逊"
 ],
 "cross_platforms": [
-"ozon"
+"亚马逊",
+"prime"
 ],
 "cross_sites": [],
-"title_zh": "萨拉托夫Ozon仓库遭无人机袭击后起火，平台暂停当地订单收发"
-},
-{
-"id": "edb3dceb2032332c7a277afbf37eea23ab3ded5e",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon卖家将获Ingosstrakh保险赔偿，首批覆盖三地仓库损失",
-"url": "https://www.ennews.com/news-144182.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon卖家将获Ingosstrakh保险赔偿，首批覆盖三地仓库损失"
-},
-{
-"id": "fbb1b3d7170fdda1d5bdffca20ff2e17c4a33e90",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon在奔萨州开设“奔萨州制造”专区，上架超700种本地商品",
-"url": "https://www.ennews.com/news-144181.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon在奔萨州开设“奔萨州制造”专区，上架超700种本地商品"
+"title_zh": "亚马逊升级Prime Video购物功能，可购物内容扩至8000多部"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
