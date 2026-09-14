@@ -618,11 +618,20 @@ def fetch_amzdh(session: requests.Session, now: datetime) -> list[RawItem]:
 
 
 def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
-    """雨果跨境 — BrowserAct + HTML fallback."""
+    """雨果跨境 — 文章列表。
+
+    2026-09-14 修复：BrowserAct 分支原用 `url_pattern="cifnews.com"` 子串粗筛，
+    把**活动报名页与社群推广页**也收进来并骗到高分：
+      /activity/3298?origin=…（亚马逊品牌峰会 9.22 杭州）
+      /topic/447?origin=…（【卖家社群】扫码加入跨境电商社群）
+    这些是营销页不是新闻。真文章路径为 /article/<id> 或 /news/<id>，
+    故加 `url_regex` 精筛（子串粗筛拦不住同域其它路径）。
+    """
     items = fetch_via_browseract(
         url="https://www.cifnews.com/",
         site_id="cifnews", site_name="雨果跨境", source_label="跨境资讯",
         url_pattern="cifnews.com", base_url="https://www.cifnews.com",
+        url_regex=r"cifnews\.com/(article|news)/",
     )
     if not items:
         try:
@@ -634,7 +643,7 @@ def fetch_cifnews(session: requests.Session, now: datetime) -> list[RawItem]:
                 href = a["href"]
                 if len(title) < 10 or not href.startswith(("http", "/")):
                     continue
-                if "/article/" not in href and "/news/" not in href:
+                if not re.search(r"cifnews\.com/(article|news)/", href):
                     continue
                 if not href.startswith("http"):
                     href = urljoin("https://www.cifnews.com", href)
@@ -686,19 +695,31 @@ def fetch_kjds365(session: requests.Session, now: datetime) -> list[RawItem]:
 
 
 def _is_nav_pollution(item: dict) -> bool:
-    """判断条目是否为导航/目录页污染（不该被当成新闻）。
+    """判断条目是否为导航/目录/营销页污染（不该被当成新闻）。
 
-    2026-09-14 事故：gs.amazon.cn 导航菜单（/policy /fba /sell …）与
-    kjds365.cn 工具目录（/sites/NNN.html、/amz_restock_table …）被当新闻
-    采集，锚文本含"政策/FBA/跨境/亚马逊"等词 → 打分 0.60-0.78 高分 →
-    挤掉真公告。已在采集层修掉，但归档里 21 天窗口的旧污染会持续展示，
-    故此处再设一道持久化防线：读到归档时直接丢弃。
+    2026-09-14 事故：多家站点的导航菜单、产品营销页、榜单入口被当新闻采集。
+    这些锚文本恰含"政策/FBA/跨境/电商/亚马逊"等词 → 打分 0.60-0.78 高分 →
+    挤掉真内容。已在采集层逐源修掉，但归档里 21 天窗口的旧污染会持续展示，
+    故此处再设一道持久化防线：读取归档时直接丢弃。
+
+    各源判据（正文页特征）：
+      gs_amazon     /news/news-*          排除 /policy /fba /sell /nsi /service …
+      kjds365       /<数字>.html           排除 /sites/ /tag/ /bulletin/
+      ecomengine    /blog/<slug>         排除 /blog/tag/ /pricing /trial /feedbackfive …
+      cifnews       /article/<id>|/news/<id>  排除 /activity/ /topic/ /product/ /search /links/
+      tophub        整站为热榜聚合，全部停用
     """
     url = item.get("url") or ""
     sid = item.get("site_id") or ""
     if sid == "gs_amazon" and "/news/news-" not in url:
         return True
     if sid == "kjds365" and not re.search(r"kjds365\.cn/\d+\.html?$", url):
+        return True
+    if sid == "ecomengine" and not re.search(r"ecomengine\.com/blog/[^/]+$", url):
+        return True
+    if sid == "tophub":
+        return True
+    if sid == "cifnews" and not re.search(r"cifnews\.com/(article|news)/", url):
         return True
     return False
 
@@ -755,27 +776,39 @@ def _clean_gs_amazon_title(raw: str) -> str:
 # ---------------------------------------------------------------------------
 
 def fetch_ecomengine(session: requests.Session, now: datetime) -> list[RawItem]:
-    """EcomEngine — 卖家新闻，直接HTML解析。"""
+    """EcomEngine — 亚马逊卖家博客。
+
+    2026-09-14 修复：此前抓 `/amazon-seller-news`，但该页**没有任何文章链接**
+    （整页只有 VIEW PRICING / Free Trial / feedbackfive / sellerpulse / restockpro
+    等产品营销页与栏目导航），而原实现只要求 href 含 "ecomengine.com" →
+    17 条营销页污染入库（"VIEW PRICING"、"Free Trial"）。
+    真博客在 `/blog/<slug>`（`/blog/tag/<name>` 是栏目页需排除）。
+    """
     items: list[RawItem] = []
     try:
-        resp = session.get("https://www.ecomengine.com/amazon-seller-news", timeout=15)
+        resp = session.get("https://www.ecomengine.com/blog", timeout=20)
         resp.raise_for_status()
         soup = parse_html(resp)
         for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
             href = a["href"]
-            if len(title) < 10 or not href.startswith("http"):
+            if not href.startswith("http"):
+                href = urljoin("https://www.ecomengine.com", href)
+            # 只收正文 /blog/<slug>，排除 /blog/tag/<name> 栏目页与产品营销页
+            if not re.search(r"ecomengine\.com/blog/[^/]+$", href):
                 continue
-            if "ecomengine.com" not in href:
+            if "/blog/tag/" in href:
+                continue
+            title = a.get_text(strip=True)
+            if len(title) < 12:
                 continue
             items.append(RawItem(
-                site_id="ecomengine", site_name="EcomEngine", source="卖家新闻",
+                site_id="ecomengine", site_name="EcomEngine", source="卖家博客",
                 title=title, url=normalize_url(href),
                 published_at=None, meta={},
             ))
     except Exception as e:
         print(f"  [WARN] EcomEngine fetch failed: {e}")
-    return items[:20]
+    return dedupe_by_path(items)[:20]
 
 
 # ---------------------------------------------------------------------------
@@ -891,29 +924,16 @@ def fetch_ennews(session: requests.Session, now: datetime) -> list[RawItem]:
 # ---------------------------------------------------------------------------
 
 def fetch_tophub_crossborder(session: requests.Session, now: datetime) -> list[RawItem]:
-    """TopHub — 跨境电商相关热榜，直接HTML解析。"""
-    items: list[RawItem] = []
-    try:
-        resp = session.get("https://tophub.today/", timeout=15)
-        resp.raise_for_status()
-        soup = parse_html(resp)
-        for a in soup.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            href = a["href"]
-            if len(title) < 8 or not href.startswith(("http", "/")):
-                continue
-            if "/n/" not in href:
-                continue
-            if not href.startswith("http"):
-                href = urljoin("https://tophub.today", href)
-            items.append(RawItem(
-                site_id="tophub", site_name="TopHub", source="热榜",
-                title=title, url=normalize_url(href),
-                published_at=None, meta={},
-            ))
-    except Exception as e:
-        print(f"  [WARN] TopHub fetch failed: {e}")
-    return items[:20]
+    """TopHub — 已停用（2026-09-14）。
+
+    该站是**全站热榜聚合器**，首页只有"榜名"（微信24h热文榜、哔哩哔哩全站日榜、
+    36氪24小时热榜、豆瓣电影新片榜…），/n/ 路径是**榜单入口**而非文章。
+    实测全站无跨境电商垂直榜单（搜"跨境/电商/亚马逊/出海"仅命中的是榜单里的
+    零散条目，非独立节点）。原实现"href 含 /n/ 即收录"→ 38 条榜名污染归档，
+    文本含"电商/跨境"时还会骗到分数。
+    保留函数签名（注册表仍引用）但返回空列表，避免误采。
+    """
+    return []
 
 
 def fetch_amazon_seller_blog(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -1175,7 +1195,6 @@ BUILTIN_SOURCES: list[dict[str, Any]] = [
     {"func": "fetch_ecommercenews", "site_id": "ecommercenews", "site_name": "Ecommerce News Europe", "kind": "industry"},
     {"func": "fetch_channelx", "site_id": "channelx", "site_name": "ChannelX", "kind": "industry"},
     {"func": "fetch_marketplace_pulse", "site_id": "marketplace_pulse", "site_name": "Marketplace Pulse", "kind": "industry"},
-    {"func": "fetch_tophub_crossborder", "site_id": "tophub", "site_name": "TopHub", "kind": "aggregate"},
     {"func": "fetch_amazon_seller_blog", "site_id": "amazon_seller_blog", "site_name": "Amazon卖家博客", "kind": "official"},
     {"func": "fetch_wearesellers", "site_id": "wearesellers", "site_name": "知无不言", "kind": "community"},
     {"func": "fetch_ennews", "site_id": "ennews", "site_name": "亿恩网", "kind": "aggregate"},
@@ -1194,7 +1213,6 @@ FETCH_FUNC_MAP: dict[str, Any] = {
     "fetch_ecommercenews": fetch_ecommercenews,
     "fetch_channelx": fetch_channelx,
     "fetch_marketplace_pulse": fetch_marketplace_pulse,
-    "fetch_tophub_crossborder": fetch_tophub_crossborder,
     "fetch_amazon_seller_blog": fetch_amazon_seller_blog,
     "fetch_wearesellers": fetch_wearesellers,
     "fetch_ennews": fetch_ennews,
