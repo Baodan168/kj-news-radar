@@ -2,8 +2,10 @@ name: Update Cross-Border News Snapshot
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 1 * * *'
+  # schedule disabled 2026-09-14: US runner IP blocked by CN CDN (Pitfall 33)
+  # Local cron + API push replaces GHA schedule. workflow_dispatch kept as manual fallback.
+  # schedule:
+  #   - cron: '0 1 * * *'
 
 concurrency:
   group: update-crossborder-${{ github.ref }}
