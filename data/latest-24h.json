@@ -1,16 +1,28 @@
 {
-"generated_at": "2026-09-14T03:56:02.090584Z",
+"generated_at": "2026-09-15T00:40:44.128451Z",
 "window_hours": 24,
-"total_items": 56,
-"total_items_cross_raw": 165,
-"total_items_raw": 261,
-"total_items_all_mode": 261,
+"total_items": 50,
+"total_items_cross_raw": 171,
+"total_items_raw": 255,
+"total_items_all_mode": 255,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1001,
+"archive_total": 1075,
 "site_count": 15,
-"source_count": 8,
+"source_count": 11,
 "site_stats": [
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 83
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 32
+},
 {
 "site_id": "ecomengine",
 "site_name": "EcomEngine",
@@ -30,28 +42,10 @@
 "raw_count": 10
 },
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 8,
-"raw_count": 61
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 24
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 8,
-"raw_count": 58
-},
-{
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 48
+"raw_count": 61
 },
 {
 "site_id": "amzdh",
@@ -60,13 +54,204 @@
 "raw_count": 9
 },
 {
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 1
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 1,
+"raw_count": 7
+},
+{
 "site_id": "marketplace_pulse",
 "site_name": "Marketplace Pulse",
 "count": 1,
 "raw_count": 1
+},
+{
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"count": 0,
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "d3a3e5b92ffdfe49f21441fd761d44f1f8722453",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "FedEx推出Global Trade Navigator套件，助力卖家提前掌握关税与运费信息",
+"url": "https://www.amz123.com/kx/G4Q6SOrI",
+"published_at": null,
+"first_seen_at": "2026-09-15T00:40:44.128451Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"关税",
+"卖家",
+"卖家",
+"关税",
+"fedex"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "FedEx推出Global Trade Navigator套件，助力卖家提前掌握关税与运费信息"
+},
+{
+"id": "02c06894971a50b4b98fab43b994306a9ebe0db4",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "上千货柜被曝扣留！亚马逊美国卖家小心货到不了仓",
+"url": "https://www.cifnews.com/article/188839",
+"published_at": null,
+"first_seen_at": "2026-09-15T00:40:44.128451Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "上千货柜被曝扣留！亚马逊美国卖家小心货到不了仓"
+},
+{
+"id": "f7104f52f7e7052d3c1ba31fb9e5f55f792ed2b2",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "TEMU半托管如何设置亚马逊MCF？亚马逊有很多仓库，不知产品会从哪个仓库发出去，要怎么设置呢？",
+"url": "https://www.wearesellers.com/question/124547",
+"published_at": null,
+"first_seen_at": "2026-09-15T00:40:44.128451Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"mcf",
+"temu",
+"亚马逊"
+],
+"cross_platforms": [
+"temu",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "TEMU半托管如何设置亚马逊MCF？亚马逊有很多仓库，不知产品会从哪个仓库发出去，要怎么设置呢？"
+},
+{
+"id": "0761a7c89dac4cdb5bbb262b8ceebef92f11bf04",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊欧盟月活用户微降130万，整体触达规模趋于平稳",
+"url": "https://www.amz123.com/kx/zVAYT5KC",
+"published_at": null,
+"first_seen_at": "2026-09-15T00:40:44.128451Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊欧盟月活用户微降130万，整体触达规模趋于平稳"
+},
+{
+"id": "15283235dabe9bbe2f67f3ed873f4eb630d6c9ae",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "店铺换过法人半年后触发协议1视频验证，采购都是1688的，提供不了发票，可以给审核员直接看1688的采购记录吗？我名下也有店铺，会不会关联？该怎么合理解释B店铺在更换公司法人后为什么不同步到亚马逊",
+"url": "https://www.wearesellers.com/question/124561",
+"published_at": null,
+"first_seen_at": "2026-09-15T00:40:44.128451Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺",
+"采购"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "店铺换过法人半年后触发协议1视频验证，采购都是1688的，提供不了发票，可以给审核员直接看1688的采购记录吗？我名下也有店铺，会不会关联？该怎么合理解释B店铺在更换公司法人后为什么不同步到亚马逊"
+},
+{
+"id": "375e268f9a11e7b9a51a7205affe00dc628c8943",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "How Amazon is helping after back-to-back earthquakes in Venezuela",
+"url": "https://www.aboutamazon.com/news/community/amazon-response-venezuela-earthquakes-2026",
+"published_at": "2026-09-14T19:01:00Z",
+"first_seen_at": "2026-09-15T00:40:44.128451Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊如何在委内瑞拉连续发生地震后提供帮助"
+},
+{
+"id": "13386d6887e6fcb4e3d69dc06e5d1d12ce6aa271",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Etsy expands international seller payout options with Remitly",
+"url": "https://channelx.world/2026/09/etsy-expands-international-seller-payout-options-with-remitly",
+"published_at": "2026-09-14T12:07:00Z",
+"first_seen_at": "2026-09-15T00:40:44.128451Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"etsy",
+"seller"
+],
+"cross_platforms": [
+"etsy"
+],
+"cross_sites": [],
+"title_zh": "Etsy通过Remitly扩展了国际卖家收款选项"
+},
 {
 "id": "33e8835b953048b107433f464c032ce0feaa54e4",
 "site_id": "ecomengine",
@@ -76,7 +261,7 @@
 "url": "https://www.ecomengine.com/blog/reorder-point-formula-fba",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "general",
@@ -100,7 +285,7 @@
 "url": "https://www.ecomengine.com/blog/amazon-fba-profit-leaks-fees-returns-ad-spend",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -124,7 +309,7 @@
 "url": "https://www.ecomengine.com/blog/amazon-seller-profitability-visibility",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "general",
@@ -148,7 +333,7 @@
 "url": "https://www.ecomengine.com/blog/amazon-ppc-inventory-strategy",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -171,7 +356,7 @@
 "url": "https://www.ecomengine.com/blog/prime-day-metrics-amazon-sellers",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -180,8 +365,8 @@
 "amazon"
 ],
 "cross_platforms": [
-"amazon",
-"prime"
+"prime",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "Prime Day利润记分卡：亚马逊卖家每天应观看的10个指标"
@@ -195,7 +380,7 @@
 "url": "https://www.ecomengine.com/blog/prime-day-review-strategy",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -218,7 +403,7 @@
 "url": "https://www.ecomengine.com/blog/prime-day-fba-inventory-triage",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -227,8 +412,8 @@
 "amazon"
 ],
 "cross_platforms": [
-"amazon",
-"prime"
+"prime",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "Prime会员日即将到来：亚马逊卖家现在需要的最后一英里就绪计划"
@@ -242,7 +427,7 @@
 "url": "https://www.ecomengine.com/blog/prime-day-readiness-plan-amazon-sellers",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:26:10.510614Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "advertising",
@@ -251,8 +436,8 @@
 "amazon"
 ],
 "cross_platforms": [
-"amazon",
-"prime"
+"prime",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "Prime会员日即将到来：亚马逊卖家现在需要的最后一英里就绪计划"
@@ -266,7 +451,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-251201",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.86,
 "cross_label": "fee_logistics",
@@ -292,7 +477,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-260701",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.82,
 "cross_label": "policy_update",
@@ -318,7 +503,7 @@
 "url": "https://kjds365.cn/894.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "advertising",
@@ -341,7 +526,7 @@
 "url": "https://kjds365.cn/630.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "listing_product",
@@ -367,7 +552,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260903",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "listing_product",
@@ -391,7 +576,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260910",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -416,7 +601,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260814",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -440,7 +625,7 @@
 "url": "https://gs.amazon.cn/news/news-product-260716",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "seller_action",
@@ -465,7 +650,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-251202",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "fee_logistics",
@@ -491,7 +676,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-260805",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.67,
 "cross_label": "policy_update",
@@ -516,7 +701,7 @@
 "url": "https://kjds365.cn/747.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.67,
 "cross_label": "seller_action",
@@ -539,7 +724,7 @@
 "url": "https://kjds365.cn/575.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -564,7 +749,7 @@
 "url": "https://kjds365.cn/890.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "compliance_deadline",
@@ -587,7 +772,7 @@
 "url": "https://kjds365.cn/779.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -610,7 +795,7 @@
 "url": "https://kjds365.cn/585.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -633,7 +818,7 @@
 "url": "https://kjds365.cn/578.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -654,7 +839,7 @@
 "url": "https://www.amz123.com/kx/L5PFRSq9",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "policy_update",
@@ -678,7 +863,7 @@
 "url": "https://www.amz123.com/kx/WsyKK5qS",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "platform_trend",
@@ -703,7 +888,7 @@
 "url": "https://www.cifnews.com/article/188819",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "seller_action",
@@ -750,7 +935,7 @@
 "url": "https://www.amzdh.com/kjtt/10407.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T03:48:36.631133Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "seller_action",
@@ -774,7 +959,7 @@
 "url": "https://www.amzdh.com/kjtt/10406.html",
 "published_at": null,
 "first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T03:48:36.631133Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -822,7 +1007,7 @@
 "url": "https://www.amz123.com/kx/ZoNouBkx",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "fee_logistics",
@@ -849,7 +1034,7 @@
 "url": "https://www.wearesellers.com/question/124040",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "seller_action",
@@ -875,7 +1060,7 @@
 "url": "https://www.cifnews.com/article/188826",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "policy_update",
@@ -945,7 +1130,7 @@
 "url": "https://marketplacepulse.com/articles/amazons-top-sellers-arent-tiktok-shops",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "tiktok",
@@ -1033,52 +1218,6 @@
 "title_zh": "【案例征集】亚马逊新品上架，你的冷启动做对了哪些事？"
 },
 {
-"id": "441aba060c87804e5ac2b7c918e217f46bfede5b",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "魔法对轰|GPT6 Astar VS Alexa 手搓listing&关键词&QA优化Skill，拥抱改变的核心并不是改变，而是从切实自己的需求端出发，我也给服务商交过学费，要看到服务商的思考模式和我们卖家的思考模式差距在哪",
-"url": "https://www.wearesellers.com/question/124494",
-"published_at": null,
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"listing",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "魔法对轰|GPT6 Astar VS Alexa 手搓listing&关键词&QA优化Skill，拥抱改变的核心并不是改变，而是从切实自己的需求端出发，我也给服务商交过学费，要看到服务商的思考模式和我们卖家的思考模式差距在哪"
-},
-{
-"id": "d939189ddf9c5489b2e5542331237b668bea822a",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊VC-DF配送时效问题",
-"url": "https://www.wearesellers.com/question/124521",
-"published_at": null,
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T01:34:51.998016Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊VC-DF配送时效问题"
-},
-{
 "id": "286d47129f822b897270cac04929f18fe14bc7f4",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -1110,7 +1249,7 @@
 "url": "https://www.cifnews.com/article/188821",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "listing_product",
@@ -1125,52 +1264,6 @@
 "title_zh": "众筹测款+AI选品，正在淘汰不用它们的卖家"
 },
 {
-"id": "8ba715487eac46786cf063d052fee457b2b345e8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "印尼国会质询Tokopedia与TikTok Shop，商户称逾3万亿印尼盾货款遭冻结",
-"url": "https://www.amz123.com/kx/s4arp3SA",
-"published_at": null,
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T01:40:37.705249Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop"
-],
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "印尼国会质询Tokopedia与TikTok Shop，商户称逾3万亿印尼盾货款遭冻结"
-},
-{
-"id": "057277da7b90c5db86097ec08cfd6799c05b82eb",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊高尔夫推杆套月销252单、毛利率59%，评论异常与专利风险不容忽视",
-"url": "https://www.amz123.com/kx/V5lZtOIk",
-"published_at": null,
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊高尔夫推杆套月销252单、毛利率59%，评论异常与专利风险不容忽视"
-},
-{
 "id": "06a42279dd86895bb82cc12f1c650e13d2138dc6",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -1179,7 +1272,7 @@
 "url": "https://www.cifnews.com/article/188822",
 "published_at": null,
 "first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
+"last_seen_at": "2026-09-15T00:40:44.128451Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -1190,222 +1283,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "10天紧急自查！税局短信“突袭”深圳跨境圈"
-},
-{
-"id": "ae2ad2554782b8be270462520ca0c0f5d7be1b5a",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家",
-"url": "https://www.cifnews.com/article/188823",
-"published_at": null,
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "仅 1% 中国卖家入局！这些小众平台正在大招中国卖家"
-},
-{
-"id": "325ed3d64091fc6e61b74bd30aff5713a7b5da8b",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊联合DHL在巴西圣埃斯皮里图州开设首个配送中心",
-"url": "https://www.ennews.com/news-144166.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T02:37:38.326638Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"dhl"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊联合DHL在巴西圣埃斯皮里图州开设首个配送中心"
-},
-{
-"id": "0c38af0319b8a7dcec6024580576d79f430baea8",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊划线价再次丢失，多卖家销量骤降",
-"url": "https://www.ennews.com/article-31883-1.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T01:34:51.998016Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊划线价再次丢失，多卖家销量骤降"
-},
-{
-"id": "8c91e27351aa8605b935371d8e8b8608d6d4d65e",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊北美站突发订单数据异常，大批卖家后台连续数小时显示“0单”",
-"url": "https://www.ennews.com/news-144187.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊北美站突发订单数据异常，大批卖家后台连续数小时显示“0单”"
-},
-{
-"id": "1e439991ccf97d6baaa1bbb2ccab6bf10a9f818a",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "华南启用海铁联运监管新模式，跨境电商出口物流成本降10%至15%",
-"url": "https://www.ennews.com/news-144195.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商",
-"监管",
-"物流"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "华南启用海铁联运监管新模式，跨境电商出口物流成本降10%至15%"
-},
-{
-"id": "3fae2d104b9a71d84b177a8c54400e5cdd1b5cd4",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "欧盟拟推《欧洲产品法》，严控跨境电商低价值商品",
-"url": "https://www.ennews.com/news-144189.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "欧盟拟推《欧洲产品法》，严控跨境电商低价值商品"
-},
-{
-"id": "a499f4e568a44df6ad0531142f5232665386dfdc",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "销售额增50%，十年老品牌靠“多巴胺牙线”登顶亚马逊品类第一",
-"url": "https://www.ennews.com/news-144186.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T02:47:27.917415Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "销售额增50%，十年老品牌靠“多巴胺牙线”登顶亚马逊品类第一"
-},
-{
-"id": "f03244a4fa6638902568af7e56c4ebd96732b24e",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊计划在迈阿密空难后暂停与21 Air合作",
-"url": "https://www.ennews.com/news-144175.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T02:32:51.438537Z",
-"last_seen_at": "2026-09-14T02:51:39.993296Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊计划在迈阿密空难后暂停与21 Air合作"
-},
-{
-"id": "0cd6edbab362993d016cb207a3a10bf73c9abe6f",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊升级Prime Video购物功能，可购物内容扩至8000多部",
-"url": "https://www.ennews.com/news-144188.html",
-"published_at": "2026-09-14T00:00:00Z",
-"first_seen_at": "2026-09-14T03:17:07.063793Z",
-"last_seen_at": "2026-09-14T03:56:02.090584Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "亚马逊升级Prime Video购物功能，可购物内容扩至8000多部"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
