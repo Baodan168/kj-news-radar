@@ -1,48 +1,396 @@
 {
-"generated_at": "2026-09-16T00:40:51.837403Z",
+"generated_at": "2026-09-17T00:40:12.689149Z",
 "window_hours": 24,
-"total_items": 24,
-"total_items_cross_raw": 45,
-"total_items_raw": 65,
-"total_items_all_mode": 65,
+"total_items": 26,
+"total_items_cross_raw": 85,
+"total_items_raw": 124,
+"total_items_all_mode": 124,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1054,
+"archive_total": 1020,
 "site_count": 15,
-"source_count": 5,
+"source_count": 7,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 35
+"raw_count": 74
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 6,
-"raw_count": 7
+"count": 8,
+"raw_count": 16
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 13
+"raw_count": 26
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "count": 3,
-"raw_count": 4
+"raw_count": 3
+},
+{
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"count": 1,
+"raw_count": 1
+},
+{
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
-"count": 2,
-"raw_count": 6
+"count": 0,
+"raw_count": 3
 }
 ],
 "items": [
+{
+"id": "5f4e1aef13d09dfb80f74ab71b6073ae5ff01da2",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "陕西首单跨境电商\"无票免税\"申报落地，中小卖家合规出口迎新通道",
+"url": "https://www.amz123.com/kx/oAN28SlU",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"跨境电商",
+"卖家",
+"电商",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "陕西首单跨境电商\"无票免税\"申报落地，中小卖家合规出口迎新通道"
+},
+{
+"id": "95f051631e2c46f25ad397550a0a7ba7ae147e07",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "利用9810报关“申报不实”被海关查获！卖家合规不只是换个代码",
+"url": "https://www.cifnews.com/article/188858",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"报关",
+"海关",
+"卖家",
+"合规",
+"报关"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "利用9810报关“申报不实”被海关查获！卖家合规不只是换个代码"
+},
+{
+"id": "3020d4dde4cacd63c65a9535988c8c629e71fccb",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "WorkBuddy 开放平台上线了，亚马逊卖家到底能拿来干啥？有没有人把 Listing 工具接进去实测过？",
+"url": "https://www.wearesellers.com/question/124138",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"listing",
+"卖家"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "WorkBuddy 开放平台上线了，亚马逊卖家到底能拿来干啥？有没有人把 Listing 工具接进去实测过？"
+},
+{
+"id": "ac549ad442f6f31be6a5161423ce0a5f689f712c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南中部多省遭遇洪灾，跨境物流面临延误风险",
+"url": "https://www.amz123.com/kx/y7i6p1f4",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境物流",
+"物流"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南中部多省遭遇洪灾，跨境物流面临延误风险"
+},
+{
+"id": "075251d0536d42410761b7f78a04006eead3d892",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊加码印度物流，计划新增20个履约中心和150个配送站",
+"url": "https://www.amz123.com/kx/Ua0sR2YW",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊加码印度物流，计划新增20个履约中心和150个配送站"
+},
+{
+"id": "004cb8326a8cc266d016c07f35447b82eee982f1",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "@所有人！2026重庆跨境电商交易会出行指南，请查收！",
+"url": "https://www.cifnews.com/article/188854",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "@所有人！2026重庆跨境电商交易会出行指南，请查收！"
+},
+{
+"id": "0617642cf8e39f428f5560ccae7a28a76d2672d9",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "2年跨境电商经验很迷茫，是继续做跨境电商，还是得过且过",
+"url": "https://www.wearesellers.com/question/117998",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "2年跨境电商经验很迷茫，是继续做跨境电商，还是得过且过"
+},
+{
+"id": "6c393ed09678cc1ffb828a5076231ca9366423e1",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "账户被锁24小时！Ozon正在严查中国卖家物流",
+"url": "https://www.cifnews.com/article/188869",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家",
+"物流"
+],
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "账户被锁24小时！Ozon正在严查中国卖家物流"
+},
+{
+"id": "f45651c226132e2e3fa38f31afdff77366d6225b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "销售额飙升4倍！中国卖家正在新兴市场疯狂吸金",
+"url": "https://www.cifnews.com/article/188867",
+"published_at": null,
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "销售额飙升4倍！中国卖家正在新兴市场疯狂吸金"
+},
+{
+"id": "e95056dcc202d0a3a8ba29e519c4d900cebfc2e1",
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"source": "SP-API变更",
+"title": "New Enum Values for Domestic Shipments in the Germany Amazon Store",
+"url": "https://developer-docs.amazon/sp-api/changelog/new-enum-values-for-domestic-shipments-in-the-germany-amazon-store",
+"published_at": "2026-09-16T21:11:52Z",
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "德国亚马逊商店国内发货的新枚举值"
+},
+{
+"id": "5d5e3da61fe4d0c51697355b2c68212a14b54e63",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon is giving every US employee a discount on groceries",
+"url": "https://www.aboutamazon.com/news/workplace/amazon-us-employee-grocery-discount",
+"published_at": "2026-09-16T13:59:42Z",
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊为每位美国员工提供生鲜杂货折扣"
+},
+{
+"id": "06d3c214ed515a86f797dfdeeff10d3577ab6a16",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon raises minimum starting pay for full-time core operations employees to $20/hour, with average pay reaching nearly $24/hour",
+"url": "https://www.aboutamazon.com/news/workplace/amazon-raises-minimum-starting-pay-adds-grocery-banking-benefits",
+"published_at": "2026-09-16T13:00:07Z",
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊将全职核心运营员工的最低起薪提高到每小时$ 20 ，平均工资接近每小时$ 24"
+},
+{
+"id": "cb2ae9e5c28d9621f0134ab80fec7b377f792879",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "What is the Amazon Influencer Program? Your questions answered.",
+"url": "https://www.aboutamazon.com/news/retail/how-amazon-influencer-program-works",
+"published_at": "2026-09-16T13:00:05Z",
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "什么是亚马逊网红计划？为您解答疑问。"
+},
+{
+"id": "46e5432a99b87e0d12ef56498648776d5eb75919",
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"source": "欧洲电商新闻",
+"title": "Amazon catches up with Boozt in Denmark",
+"url": "https://ecommercenews.eu/amazon-catches-up-with-boozt-in-denmark",
+"published_at": "2026-09-16T10:44:48Z",
+"first_seen_at": "2026-09-17T00:40:12.689149Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊在丹麦赶上Boozt"
+},
 {
 "id": "03037baf6292454b8f9c1349cfdb8d504bdb9e7c",
 "site_id": "amz123",
@@ -89,8 +437,8 @@
 "卖家"
 ],
 "cross_platforms": [
-"亚马逊",
-"tiktok shop"
+"tiktok shop",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "TikTok Shop头部卖家转战亚马逊的成功率是反向路径的5倍"
@@ -104,7 +452,7 @@
 "url": "https://www.amz123.com/kx/1UYbAIRt",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "seller_action",
@@ -130,7 +478,7 @@
 "url": "https://www.wearesellers.com/question/124570",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "policy_update",
@@ -179,7 +527,7 @@
 "url": "https://www.wearesellers.com/question/124599",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "advertising",
@@ -190,8 +538,8 @@
 "流量"
 ],
 "cross_platforms": [
-"亚马逊",
-"amazon"
+"amazon",
+"亚马逊"
 ],
 "cross_sites": [],
 "title_zh": "# Amazon案例分析 # 亚马逊竞品9月12日销量突然涨8倍，没开广告、降价一个半月后爆单，流量从哪来的？"
@@ -205,7 +553,7 @@
 "url": "https://www.wearesellers.com/question/124567",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "advertising",
@@ -245,54 +593,6 @@
 "title_zh": "欧洲五国亚马逊8月潮玩榜：帕尼尼世界杯贴纸以264万欧元登顶，宝可梦包揽销量前六"
 },
 {
-"id": "ea5f920db77120d3d9548876ade9de53a47e0e8f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "万里汇大批亚马逊店铺授权集中失效，官方确认为技术故障",
-"url": "https://www.amz123.com/kx/3VKVXOKN",
-"published_at": null,
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"万里汇",
-"亚马逊",
-"店铺"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "万里汇大批亚马逊店铺授权集中失效，官方确认为技术故障"
-},
-{
-"id": "1c5a27fb50b7ee2a993ec128a8cb0ec370b79342",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Allegro推出\"销售中断\"功能，卖家可一键暂停offer保护店铺质量分",
-"url": "https://www.amz123.com/kx/0a589csV",
-"published_at": null,
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"店铺"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Allegro推出\"销售中断\"功能，卖家可一键暂停offer保护店铺质量分"
-},
-{
 "id": "a49a099eea0e9ab8976054fe485c2e64f9ea87f9",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -301,7 +601,7 @@
 "url": "https://www.cifnews.com/article/188848",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
@@ -316,29 +616,6 @@
 "title_zh": "销量超100万件！这个广东卖家的业绩不纯靠爆款"
 },
 {
-"id": "1d4f2e5f31d46d224e2768d45201384e82788aac",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧盟3欧元小包关税效果显现，比荷两国中国低价包裹量骤降近50%",
-"url": "https://www.amz123.com/kx/D2wjishf",
-"published_at": null,
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"关税",
-"关税",
-"包裹"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟3欧元小包关税效果显现，比荷两国中国低价包裹量骤降近50%"
-},
-{
 "id": "bbfa154702fd5229ab62914ed295a98ce8dddfbe",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -347,7 +624,7 @@
 "url": "https://www.cifnews.com/article/188849",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -369,7 +646,7 @@
 "url": "https://www.cifnews.com/article/188844",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -391,7 +668,7 @@
 "url": "https://www.cifnews.com/article/188842",
 "published_at": null,
 "first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
+"last_seen_at": "2026-09-17T00:40:12.689149Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -403,205 +680,6 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "搞怪树脸雕塑隐匿发案！园艺类卖家要小心了！"
-},
-{
-"id": "28dde61d788ecfd3604f169a2ece125fbbb06f86",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "都9月了，为什么亚马逊还在重发去年Q4税务报告？",
-"url": "https://www.cifnews.com/article/188843",
-"published_at": null,
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "都9月了，为什么亚马逊还在重发去年Q4税务报告？"
-},
-{
-"id": "410cb0d08e5fcae8a55c440721b819d0b3750df9",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "Agent Skill 越装越乱？我整理了一套跨境 AI 团队管理方案【建议收藏】",
-"url": "https://www.wearesellers.com/question/124563",
-"published_at": null,
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Agent Skill 越装越乱？我整理了一套跨境 AI 团队管理方案【建议收藏】"
-},
-{
-"id": "d36135956c0d2c4f3489850b559c495a481eaa87",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "单干小卖家日销只有$70-$150，上个月才小赚4k人民币，是该继续猥琐控广告、加大投入冲单量，还是再选几个品才能突破瓶颈？",
-"url": "https://www.wearesellers.com/question/124238",
-"published_at": null,
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "单干小卖家日销只有$70-$150，上个月才小赚4k人民币，是该继续猥琐控广告、加大投入冲单量，还是再选几个品才能突破瓶颈？"
-},
-{
-"id": "c0450e97d130cb6a577ba6048c0c9271e6696125",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "60%买家愿意多付一笔钱？独立站结账页，正在长出第二条收入线",
-"url": "https://www.cifnews.com/article/188845",
-"published_at": null,
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"独立站",
-"买家"
-],
-"cross_platforms": [
-"独立站"
-],
-"cross_sites": [],
-"title_zh": "60%买家愿意多付一笔钱？独立站结账页，正在长出第二条收入线"
-},
-{
-"id": "348a0dc17e4bc89f905ae9e8526d6442b1754581",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Fabacus Verified Intellectual Property Protocol launches with Amazon",
-"url": "https://channelx.world/2026/09/fabacus-verified-intellectual-property-protocol-launches-with-amazon",
-"published_at": "2026-09-15T14:00:53Z",
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Fabacus与亚马逊合作推出经过验证的知识产权协议"
-},
-{
-"id": "b351d7e993d3c7cdaad4115b34023e932bb09f36",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Prime Big Deal Days is Back on 6th-7th October",
-"url": "https://channelx.world/2026/09/prime-big-deal-days-is-back-on-6th-7th-october",
-"published_at": "2026-09-15T08:26:52Z",
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [
-"prime"
-],
-"cross_sites": [],
-"title_zh": "Prime Big Deal Days将于10月6日至7日回归"
-},
-{
-"id": "4cde2a7889a0f916a4e1e8799c5dde5f56186d78",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Prime Big Deal Days regresa del 6 al 7 de octubre: Esto es lo que puedes esperar",
-"url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-cuando-octubre-6-7",
-"published_at": "2026-09-15T04:30:40Z",
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [
-"prime",
-"amazon"
-],
-"cross_sites": []
-},
-{
-"id": "f90d1784a8ebe0a64ae0496cd1cdbbb3c1afcc14",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Prime Big Deal Days 2026: Early deals you can shop right now",
-"url": "https://www.aboutamazon.com/news/retail/prime-big-deal-days-2026-best-deals-amazon",
-"published_at": "2026-09-15T04:30:23Z",
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [
-"prime",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Prime Big Deal Days 2026 ：您可以立即购买的早期优惠"
-},
-{
-"id": "9cfed4f7ce0f182e72a6f2e679dd4dc09f0e447b",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Prime Big Deal Days is back October 6-7: Here’s what to expect",
-"url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
-"published_at": "2026-09-15T04:30:05Z",
-"first_seen_at": "2026-09-16T00:40:51.837403Z",
-"last_seen_at": "2026-09-16T00:40:51.837403Z",
-"cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [
-"prime",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Prime Big Deal Days将于10月6日至7日回归：接下来会发生什么"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
