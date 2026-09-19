@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-09-18T00:40:57.697160Z",
+"generated_at": "2026-09-19T00:40:57.173227Z",
 "window_hours": 24,
-"total_items": 19,
-"total_items_cross_raw": 38,
-"total_items_raw": 65,
-"total_items_all_mode": 65,
+"total_items": 21,
+"total_items_cross_raw": 72,
+"total_items_raw": 121,
+"total_items_all_mode": 121,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 970,
+"archive_total": 983,
 "site_count": 15,
 "source_count": 6,
 "site_stats": [
@@ -15,29 +15,29 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 36
+"raw_count": 73
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 8,
+"raw_count": 16
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 15
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 5,
-"raw_count": 8
+"raw_count": 26
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
-"count": 1,
-"raw_count": 4
+"count": 0,
+"raw_count": 1
 },
 {
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
+"site_id": "ecomengine",
+"site_name": "EcomEngine",
 "count": 0,
 "raw_count": 1
 },
@@ -45,10 +45,199 @@
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 0,
-"raw_count": 1
+"raw_count": 4
 }
 ],
 "items": [
+{
+"id": "12451cc56d9b4ffa2336ba38f35ad4f5d0805694",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊推出GIA工具助力品牌挖掘区域广告增长机会",
+"url": "https://www.amz123.com/kx/UhGaNTD9",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊推出GIA工具助力品牌挖掘区域广告增长机会"
+},
+{
+"id": "da80bda802825a94cd187d016f0aa17cf64838ee",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊、沃尔玛AI购物助手被指压低\"美国制造\"商品曝光，FTC或展开调查",
+"url": "https://www.amz123.com/kx/xO1PY7XA",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "walmart",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"沃尔玛"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊、沃尔玛AI购物助手被指压低\"美国制造\"商品曝光，FTC或展开调查"
+},
+{
+"id": "cfccc9d21bf21c01f5cc5cd97b7ccb95b64fc8c0",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries将\"物流\"更名为\"配送\"，卖家后台与财务报告字段同步调整",
+"url": "https://www.amz123.com/kx/rxXMg986",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家",
+"物流"
+],
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries将\"物流\"更名为\"配送\"，卖家后台与财务报告字段同步调整"
+},
+{
+"id": "0a4ce791f5d855dab53c1be3721fdf7b0aaf24c3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯拟调整电商退货规则，卖家须于两日内确认",
+"url": "https://www.amz123.com/kx/dxRLAQaA",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"退货"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯拟调整电商退货规则，卖家须于两日内确认"
+},
+{
+"id": "53fc5473278f59eac517d1800983adf00990b08c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "泰国18部门联合打击跨境有害电子垃圾，美籍集装箱全数被查",
+"url": "https://www.amz123.com/kx/GAQLhfzX",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "泰国18部门联合打击跨境有害电子垃圾，美籍集装箱全数被查"
+},
+{
+"id": "d45a2c9f1baf3a129e8bb7b6e21fabd109cc50f1",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "北美电商市场，正在淘汰一批跨境“老实人",
+"url": "https://www.cifnews.com/article/188891",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"电商"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "北美电商市场，正在淘汰一批跨境“老实人"
+},
+{
+"id": "04186dcf99994681825af321e758519578df9a52",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "300元一条差评，影石创新曝光亚马逊“黑产链”",
+"url": "https://www.cifnews.com/article/188892",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "300元一条差评，影石创新曝光亚马逊“黑产链”"
+},
+{
+"id": "6fe5060cebf21d28a6e7c1f1023b8cc36e5cc71c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "流量新入口与转化新范式，五位嘉宾纵论独立站增长新路径",
+"url": "https://www.cifnews.com/article/188899",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"独立站",
+"流量"
+],
+"cross_platforms": [
+"独立站"
+],
+"cross_sites": [],
+"title_zh": "流量新入口与转化新范式，五位嘉宾纵论独立站增长新路径"
+},
 {
 "id": "87cd18e7789744b79edf0e003ab4283caeed95be",
 "site_id": "wearesellers",
@@ -86,7 +275,7 @@
 "url": "https://www.wearesellers.com/question/124661",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.87,
 "cross_label": "seller_action",
@@ -134,7 +323,7 @@
 "url": "https://www.cifnews.com/article/188885",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -182,7 +371,7 @@
 "url": "https://www.cifnews.com/article/188884",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "platform_trend",
@@ -205,7 +394,7 @@
 "url": "https://www.wearesellers.com/question/124666",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "seller_action",
@@ -254,7 +443,7 @@
 "url": "https://www.cifnews.com/article/188880",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -290,99 +479,6 @@
 "title_zh": "德国汽配五大高增速品类揭晓，新能源充电与发动机配件成跨境新机遇"
 },
 {
-"id": "162bc6a733d77f9076fc88405175ddba8113f2db",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯经济发展部拟立法统一电商平台内外卖家佣金标准",
-"url": "https://www.amz123.com/kx/WnBsUGEj",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"电商平台"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯经济发展部拟立法统一电商平台内外卖家佣金标准"
-},
-{
-"id": "24a5a9d2e7c1f83dddf55e6c75f775c6fdd902cc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "20余款含汞美白产品仍在亚马逊等平台流通",
-"url": "https://www.amz123.com/kx/1esQgCrB",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "20余款含汞美白产品仍在亚马逊等平台流通"
-},
-{
-"id": "f22aadc75d0d236a9f0f745cb08a0081f8eb58bc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊在丹麦市场覆盖率持续攀升，已与Boozt并驾齐驱",
-"url": "https://www.amz123.com/kx/dvHdpyu4",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊在丹麦市场覆盖率持续攀升，已与Boozt并驾齐驱"
-},
-{
-"id": "0680e581ad4ed3f5c1da29da5ceff1ca6a30ab82",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊计划在马里兰州建设Fastnet海底电缆供电设施",
-"url": "https://www.amz123.com/kx/MlKFVTOr",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊计划在马里兰州建设Fastnet海底电缆供电设施"
-},
-{
 "id": "930f96def1a57e7f3712b3ea248eb384bf338a74",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -391,7 +487,7 @@
 "url": "https://www.cifnews.com/article/188878",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -413,7 +509,7 @@
 "url": "https://www.cifnews.com/article/188877",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -437,7 +533,7 @@
 "url": "https://www.wearesellers.com/question/124668",
 "published_at": null,
 "first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
+"last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "compliance_deadline",
@@ -452,54 +548,6 @@
 "eu"
 ],
 "title_zh": "20年注册的亚马逊账号在北美站点突然显示未授权并整体消失，但其他所有欧洲站是停用状态但是可以正常进入，北美站异常丢失且不知如何恢复？"
-},
-{
-"id": "345c2b3ef8abfb6702e0bb25ff8ebe7c64c48e40",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "美客多巴西站发布Q4旺季攻略，联合折扣成流量争夺核心抓手",
-"url": "https://www.amz123.com/kx/qV2rvOVf",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"美客多",
-"流量"
-],
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "美客多巴西站发布Q4旺季攻略，联合折扣成流量争夺核心抓手"
-},
-{
-"id": "a85244a8c6f57d0e6a72f3f69b3fea5692cd1377",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "How to read books for free with Prime: Amazon First Reads and Amazon Original Stories",
-"url": "https://www.aboutamazon.com/news/books-and-authors/prime-reading-free-books-benefits",
-"published_at": "2026-09-17T16:00:00Z",
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "如何使用Prime免费阅读书籍： Amazon First Reads和Amazon Original Stories"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
