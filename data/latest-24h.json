@@ -1,54 +1,191 @@
 {
-"generated_at": "2026-09-19T00:40:57.173227Z",
+"generated_at": "2026-09-20T00:40:14.878675Z",
 "window_hours": 24,
-"total_items": 21,
-"total_items_cross_raw": 72,
-"total_items_raw": 121,
-"total_items_all_mode": 121,
+"total_items": 18,
+"total_items_cross_raw": 48,
+"total_items_raw": 77,
+"total_items_all_mode": 77,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 983,
+"archive_total": 941,
 "site_count": 15,
-"source_count": 6,
+"source_count": 4,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 73
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 8,
-"raw_count": 16
+"raw_count": 37
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 26
+"raw_count": 28
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 0,
-"raw_count": 1
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 5,
+"raw_count": 11
 },
 {
 "site_id": "ecomengine",
 "site_name": "EcomEngine",
 "count": 0,
 "raw_count": 1
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 0,
-"raw_count": 4
 }
 ],
 "items": [
+{
+"id": "e1cbfe74605a96277acf2c34fec2cd4a38788747",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊美国站成人自行车头盔被要求提供儿童CPC，客服说可能还会弹出CPC 而且最近抓重复创建asin也比较严，难道就只能重复申诉了吗 有没有什么申诉技巧呢 我证书报告都是齐全的？",
+"url": "https://www.wearesellers.com/question/124327",
+"published_at": null,
+"first_seen_at": "2026-09-20T00:40:14.878675Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.87,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"asin",
+"客服"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国站成人自行车头盔被要求提供儿童CPC，客服说可能还会弹出CPC 而且最近抓重复创建asin也比较严，难道就只能重复申诉了吗 有没有什么申诉技巧呢 我证书报告都是齐全的？"
+},
+{
+"id": "c6afc0125367e4d85ada1d3e03331dbfc9e47b96",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "日常5000单，旺季翻倍：一个亚马逊趋势品/节日品卖家的选品·广告·Listing全链路实操复盘",
+"url": "https://www.wearesellers.com/question/124703",
+"published_at": null,
+"first_seen_at": "2026-09-20T00:40:14.878675Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"listing",
+"卖家",
+"选品"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "日常5000单，旺季翻倍：一个亚马逊趋势品/节日品卖家的选品·广告·Listing全链路实操复盘"
+},
+{
+"id": "9571ce0adefcd5c2029f3b4262af8fff13a40734",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "聚焦AI流量、新兴平台、税务合规、旺季增长丨5场跨境活动即将开启",
+"url": "https://www.cifnews.com/article/188895",
+"published_at": null,
+"first_seen_at": "2026-09-20T00:40:14.878675Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"流量",
+"合规"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "聚焦AI流量、新兴平台、税务合规、旺季增长丨5场跨境活动即将开启"
+},
+{
+"id": "c9e072252b56eac6cced77ad276a69fda8a5b770",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "美国新规即将生效！3C电子卖家受影响最大",
+"url": "https://www.cifnews.com/article/188894",
+"published_at": null,
+"first_seen_at": "2026-09-20T00:40:14.878675Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国新规即将生效！3C电子卖家受影响最大"
+},
+{
+"id": "67f13691dc3ddfef3ae3e4438b57e767ac677179",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊B店铺因协议三被封，店铺做过同类不同款合并、5单划线价测评、直评且已出500单，如何申诉救回B店？求各路大神支招！！！！！",
+"url": "https://www.wearesellers.com/question/124725",
+"published_at": null,
+"first_seen_at": "2026-09-20T00:40:14.878675Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺",
+"测评"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊B店铺因协议三被封，店铺做过同类不同款合并、5单划线价测评、直评且已出500单，如何申诉救回B店？求各路大神支招！！！！！"
+},
+{
+"id": "9416759efc322a7a28a101c6665e3396f6efede6",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊崩了！3年亚马逊运营，这点盈利我也无法分到钱，每个月还要贴人工、房租、社保、餐费进去，我也很无助了。请大佬看看是否还能继续做下去？",
+"url": "https://www.wearesellers.com/question/124751",
+"published_at": null,
+"first_seen_at": "2026-09-20T00:40:14.878675Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊崩了！3年亚马逊运营，这点盈利我也无法分到钱，每个月还要贴人工、房租、社保、餐费进去，我也很无助了。请大佬看看是否还能继续做下去？"
+},
 {
 "id": "12451cc56d9b4ffa2336ba38f35ad4f5d0805694",
 "site_id": "amz123",
@@ -58,7 +195,7 @@
 "url": "https://www.amz123.com/kx/UhGaNTD9",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "advertising",
@@ -81,7 +218,7 @@
 "url": "https://www.amz123.com/kx/xO1PY7XA",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "walmart",
@@ -107,7 +244,7 @@
 "url": "https://www.amz123.com/kx/rxXMg986",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "fee_logistics",
@@ -133,7 +270,7 @@
 "url": "https://www.amz123.com/kx/dxRLAQaA",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "policy_update",
@@ -157,7 +294,7 @@
 "url": "https://www.amz123.com/kx/GAQLhfzX",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -170,6 +307,28 @@
 "title_zh": "泰国18部门联合打击跨境有害电子垃圾，美籍集装箱全数被查"
 },
 {
+"id": "72210df574e90cdfc64b067988fbe6a29292cfc5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Takealot卖家后台新增中文普通话选项，中国卖家加速进入南非市场",
+"url": "https://www.amz123.com/kx/nkT0vphu",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Takealot卖家后台新增中文普通话选项，中国卖家加速进入南非市场"
+},
+{
 "id": "d45a2c9f1baf3a129e8bb7b6e21fabd109cc50f1",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -178,7 +337,7 @@
 "url": "https://www.cifnews.com/article/188891",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "platform_trend",
@@ -192,6 +351,54 @@
 "title_zh": "北美电商市场，正在淘汰一批跨境“老实人"
 },
 {
+"id": "af26cfb8bb37cdee9454124a755654eb05fbd4c4",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "影石曝光亚马逊恶意差评黑产：竞争对手高管雇佣留学生实施抹黑",
+"url": "https://www.amz123.com/kx/MPYQAa3k",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "影石曝光亚马逊恶意差评黑产：竞争对手高管雇佣留学生实施抹黑"
+},
+{
+"id": "ab4240cfdd670af8d16f7873cda123e2552c7211",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美国站10款家居工具月销破万，灭火器类目月入63万美元",
+"url": "https://www.amz123.com/kx/OC2QwpTE",
+"published_at": null,
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国站10款家居工具月销破万，灭火器类目月入63万美元"
+},
+{
 "id": "04186dcf99994681825af321e758519578df9a52",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -200,7 +407,7 @@
 "url": "https://www.cifnews.com/article/188892",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "general",
@@ -223,7 +430,7 @@
 "url": "https://www.cifnews.com/article/188899",
 "published_at": null,
 "first_seen_at": "2026-09-19T00:40:57.173227Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
+"last_seen_at": "2026-09-20T00:40:14.878675Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "platform_trend",
@@ -239,118 +446,17 @@
 "title_zh": "流量新入口与转化新范式，五位嘉宾纵论独立站增长新路径"
 },
 {
-"id": "87cd18e7789744b79edf0e003ab4283caeed95be",
+"id": "e4a0dd87bdeec14f36fcc861ba0e863f67052724",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "个人卖家香港主体亚马逊店铺年回款360万元怎么税务合规？怎么样可以尽可能风险小且税负低些？是否可以直接走老模式，直接简单提个人卡上。付掉物流和供应商的款，一年一百多接近200w……",
-"url": "https://www.wearesellers.com/question/116541",
+"title": "应聘亚马逊运营拿到2个offer，试用期4000左右、转正提成差很多，求大家帮忙分析哪家更合适？",
+"url": "https://www.wearesellers.com/question/124732",
 "published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.95,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"店铺",
-"合规",
-"物流"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "个人卖家香港主体亚马逊店铺年回款360万元怎么税务合规？怎么样可以尽可能风险小且税负低些？是否可以直接走老模式，直接简单提个人卡上。付掉物流和供应商的款，一年一百多接近200w……"
-},
-{
-"id": "d91bcbfdcb5a790dcccf5b2b39beb50162cffef9",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊北美站因欧洲站未及时提交KYC验证资料审核而导致连带封号，现在是连想解决欧洲站的问题都解决不了，有没有人遇到过同样的问题，大家都是咋解决的呢？",
-"url": "https://www.wearesellers.com/question/124661",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
+"first_seen_at": "2026-09-19T00:40:57.173227Z",
 "last_seen_at": "2026-09-19T00:40:57.173227Z",
 "cross_is_related": true,
-"cross_score": 0.87,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊北美站因欧洲站未及时提交KYC验证资料审核而导致连带封号，现在是连想解决欧洲站的问题都解决不了，有没有人遇到过同样的问题，大家都是咋解决的呢？"
-},
-{
-"id": "2eee264fedd783266403cac09a51663e32e90781",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧盟新海关法规正式通过，11月1日起对跨境小包征收统一处理费",
-"url": "https://www.amz123.com/kx/hhQA0B00",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"海关",
-"跨境",
-"法规"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟新海关法规正式通过，11月1日起对跨境小包征收统一处理费"
-},
-{
-"id": "8705681fe536bc92b88dea7648fba8c42d59d386",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊卖家单日回笼300万美金盘活生意，是如何做到的？",
-"url": "https://www.cifnews.com/article/188885",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊卖家单日回笼300万美金盘活生意，是如何做到的？"
-},
-{
-"id": "b325e17b78074bbe65d110e4840b9e3c7e784eb3",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊多变体即将断货如何处理？预计需要断货20天。目前我已知的操作有：一：降低预算和竞价，自然断货保链接转化数据。货到后重新推。二：涨价慢断货，补货后重推。三：新起链接……",
-"url": "https://www.wearesellers.com/question/124643",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.79,
+"cross_score": 0.6,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -360,194 +466,7 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊多变体即将断货如何处理？预计需要断货20天。目前我已知的操作有：一：降低预算和竞价，自然断货保链接转化数据。货到后重新推。二：涨价慢断货，补货后重推。三：新起链接……"
-},
-{
-"id": "ad7b7d984a7602ac7513b4351154ddfafdfec332",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "10月1日正式生效！做印尼电商市场的卖家注意了",
-"url": "https://www.cifnews.com/article/188884",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
-"cross_is_related": true,
-"cross_score": 0.76,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "10月1日正式生效！做印尼电商市场的卖家注意了"
-},
-{
-"id": "de34be9e377a77cc8b9250b916f47f131fa79d66",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊库存显示【已过期】，并创建了弃置订单，服的回复经常答非所问，问题始终没有得到根本解决，拖了很长时间。求大佬帮助！",
-"url": "https://www.wearesellers.com/question/124666",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"库存"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊库存显示【已过期】，并创建了弃置订单，服的回复经常答非所问，问题始终没有得到根本解决，拖了很长时间。求大佬帮助！"
-},
-{
-"id": "91286f84b32ad134d5b8ae11254a3d7b0029fdc0",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "澳洲8月电商流量整体回落：亚马逊流量居首但环比下跌11.85%",
-"url": "https://www.amz123.com/kx/NDsvre6K",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"流量",
-"电商"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "澳洲8月电商流量整体回落：亚马逊流量居首但环比下跌11.85%"
-},
-{
-"id": "6133edc309de8f7241f2878d433e903eac952e4c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "各地税务局开始集中辅导跨境电商企业，背后释放了什么信号？",
-"url": "https://www.cifnews.com/article/188880",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "各地税务局开始集中辅导跨境电商企业，背后释放了什么信号？"
-},
-{
-"id": "2ac8686980b1378aba2c663f7a5d46212ce92a51",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德国汽配五大高增速品类揭晓，新能源充电与发动机配件成跨境新机遇",
-"url": "https://www.amz123.com/kx/hBTbcemD",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-18T00:40:57.697160Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德国汽配五大高增速品类揭晓，新能源充电与发动机配件成跨境新机遇"
-},
-{
-"id": "930f96def1a57e7f3712b3ea248eb384bf338a74",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "深圳6.7万卖家离场！2026旺季再用老打法就晚了",
-"url": "https://www.cifnews.com/article/188878",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "深圳6.7万卖家离场！2026旺季再用老打法就晚了"
-},
-{
-"id": "cc81af8f65e9711b0391c30bd8c46fd7744c48ca",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "美国知名摇滚乐队也来维权！服饰/乐队周边类卖家危险了！",
-"url": "https://www.cifnews.com/article/188877",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国知名摇滚乐队也来维权！服饰/乐队周边类卖家危险了！"
-},
-{
-"id": "2b792507874e10ed9a1032a41cbe036b729ad489",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "20年注册的亚马逊账号在北美站点突然显示未授权并整体消失，但其他所有欧洲站是停用状态但是可以正常进入，北美站异常丢失且不知如何恢复？",
-"url": "https://www.wearesellers.com/question/124668",
-"published_at": null,
-"first_seen_at": "2026-09-18T00:40:57.697160Z",
-"last_seen_at": "2026-09-19T00:40:57.173227Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "20年注册的亚马逊账号在北美站点突然显示未授权并整体消失，但其他所有欧洲站是停用状态但是可以正常进入，北美站异常丢失且不知如何恢复？"
+"title_zh": "应聘亚马逊运营拿到2个offer，试用期4000左右、转正提成差很多，求大家帮忙分析哪家更合适？"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
