@@ -1,63 +1,45 @@
 {
-"generated_at": "2026-09-22T01:00:04.893179Z",
+"generated_at": "2026-09-23T00:40:38.470256Z",
 "window_hours": 24,
 "total_items": 26,
-"total_items_cross_raw": 66,
-"total_items_raw": 107,
-"total_items_all_mode": 107,
+"total_items_cross_raw": 82,
+"total_items_raw": 144,
+"total_items_all_mode": 144,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 980,
+"archive_total": 1065,
 "site_count": 15,
-"source_count": 9,
+"source_count": 7,
 "site_stats": [
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 78
+},
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 20
-},
-{
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 7,
-"raw_count": 39
+"raw_count": 30
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 19
+"raw_count": 27
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 3,
+"raw_count": 4
 },
 {
 "site_id": "gs_amazon",
 "site_name": "亚马逊全球开店",
 "count": 2,
 "raw_count": 2
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 2,
-"raw_count": 11
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 2,
-"raw_count": 4
-},
-{
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads 更新",
-"count": 0,
-"raw_count": 1
-},
-{
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"count": 0,
-"raw_count": 1
 },
 {
 "site_id": "ecomengine",
@@ -69,10 +51,222 @@
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 0,
-"raw_count": 9
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "cb979e2cbd4d0c82e115900cd8fc3e058dc6ffb0",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "11月1日起向个人支付七类服务费须代扣增值税，跨境卖家外包业务全面受影响",
+"url": "https://www.amz123.com/kx/fTO8y1mu",
+"published_at": null,
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家",
+"增值税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "11月1日起向个人支付七类服务费须代扣增值税，跨境卖家外包业务全面受影响"
+},
+{
+"id": "df29b9efb77134c085893cea50ee4a59a208ef62",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德迅与亚马逊达成AWS基础设施物流战略合作",
+"url": "https://www.amz123.com/kx/nq47TKjO",
+"published_at": null,
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "德迅与亚马逊达成AWS基础设施物流战略合作"
+},
+{
+"id": "3b744a249391d0977eb6116c742a913a48fda324",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "欧洲千亿家居市场爆发！平台流量暴涨，卖家为何赚不到钱？",
+"url": "https://www.cifnews.com/article/188985",
+"published_at": null,
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"流量"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧洲千亿家居市场爆发！平台流量暴涨，卖家为何赚不到钱？"
+},
+{
+"id": "d9ae4a6c9171a224d568a9037385893c360bacf8",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "清退大批卖家后，这个欧洲平台悄悄盈利了？",
+"url": "https://www.cifnews.com/article/188983",
+"published_at": null,
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "清退大批卖家后，这个欧洲平台悄悄盈利了？"
+},
+{
+"id": "5366fe6a99aac617afdebfd4cc20badb6f452b5f",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊要求使用AI人物的图片要在文件元数据中添加标签，在上传图片时勾选AI选项。纽约州的法案是AI人物图片进行广告推广时，图片需要标注AI生成。如果使用AI人物图片进行广告，完成了亚马逊的文件元数据标注和……",
+"url": "https://www.wearesellers.com/question/124836",
+"published_at": null,
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊要求使用AI人物的图片要在文件元数据中添加标签，在上传图片时勾选AI选项。纽约州的法案是AI人物图片进行广告推广时，图片需要标注AI生成。如果使用AI人物图片进行广告，完成了亚马逊的文件元数据标注和……"
+},
+{
+"id": "1ec8bded481bbb8065aa817d52b5928801a6be12",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop Tokopedia将单品动态佣金上限从65万降至6万印尼盾",
+"url": "https://www.amz123.com/kx/5AN1R4SN",
+"published_at": null,
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop"
+],
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop Tokopedia将单品动态佣金上限从65万降至6万印尼盾"
+},
+{
+"id": "218ae529219636bb9ffb0c9a08270cb71e12a935",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Inside a decade of Amazon chip design, built workload by workload",
+"url": "https://www.aboutamazon.com/news/innovation-at-amazon/peter-desantis-amazon-ai-chips-design",
+"published_at": "2026-09-22T18:42:38Z",
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "在亚马逊芯片设计的十年中，根据工作负载构建工作负载"
+},
+{
+"id": "fe40b6de9eff4d8d2bec338c7153062aeaadd471",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon joins global coalition to advance AI education and digital skills for students",
+"url": "https://www.aboutamazon.com/news/policy-news-views/amazon-joins-global-coalition-ai-education-digital-skills",
+"published_at": "2026-09-22T18:14:17Z",
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊加入全球联盟，推动学生的人工智能教育和数字技能"
+},
+{
+"id": "080065e2eb0521ffc77ffd740f9d0bc353f6ec2c",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon Leo is bringing high-quality satellite internet to Uzbekistan",
+"url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-uzbekistan",
+"published_at": "2026-09-22T08:30:16Z",
+"first_seen_at": "2026-09-23T00:40:38.470256Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊LEO将为乌兹别克斯坦带来高质量的卫星互联网"
+},
 {
 "id": "0f6f6b2c02d769e9754a19ba757bbf691b6aa862",
 "site_id": "cifnews",
@@ -118,8 +312,8 @@
 "合规"
 ],
 "cross_platforms": [
-"fba",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [],
 "title_zh": "EU，FBA的瑕疵品想通过亚马逊的批量清货处理，是否有亚马逊合规方面的风险？"
@@ -157,7 +351,7 @@
 "url": "https://www.cifnews.com/article/188957",
 "published_at": null,
 "first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "advertising",
@@ -279,7 +473,7 @@
 "url": "https://www.wearesellers.com/question/124817",
 "published_at": null,
 "first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "advertising",
@@ -326,7 +520,7 @@
 "url": "https://www.cifnews.com/article/188961",
 "published_at": null,
 "first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -339,29 +533,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊捆绑商品将严查，违规或直接下架！"
-},
-{
-"id": "d97f154996af89d7ef4ea69250af76a9543dc8cd",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "人民币升破6.7！跨境卖家利润又被“咬”了一口",
-"url": "https://www.cifnews.com/article/188958",
-"published_at": null,
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"跨境",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "人民币升破6.7！跨境卖家利润又被“咬”了一口"
 },
 {
 "id": "7ea7b2ed65c05843eb680c7af99a788551786373",
@@ -410,30 +581,6 @@
 "title_zh": "CPSC紧急召回19.5万件JKMAX电热毯，亚马逊在售产品已致53起烧伤"
 },
 {
-"id": "77acfd35cd9f6177d709d3643fbf637df014c3c1",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊下架后台差评“联系买家”功能按钮",
-"url": "https://www.cifnews.com/article/188951",
-"published_at": null,
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.65,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"买家"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊下架后台差评“联系买家”功能按钮"
-},
-{
 "id": "e2178b872235da073ff08a3dc4279bd6784f0fb1",
 "site_id": "wearesellers",
 "site_name": "知无不言",
@@ -442,7 +589,7 @@
 "url": "https://www.wearesellers.com/question/124808",
 "published_at": null,
 "first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -457,32 +604,6 @@
 ],
 "cross_sites": [],
 "title_zh": "一年一度！2026亚马逊全球开店跨境峰会终于要来了！​早鸟票限量开抢，名额有限速冲！"
-},
-{
-"id": "4ac31263695774b9558670a7f637dc051a8146b8",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "手里有一家销售额1000W的亚马逊店铺，现在出口报关遇到问题了，根据现在有的情况下，我应该如何操作再能合理持续的运营下去。毕竟还是想做下去的，求咨询",
-"url": "https://www.wearesellers.com/question/124787",
-"published_at": null,
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"报关",
-"店铺",
-"报关"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "手里有一家销售额1000W的亚马逊店铺，现在出口报关遇到问题了，根据现在有的情况下，我应该如何操作再能合理持续的运营下去。毕竟还是想做下去的，求咨询"
 },
 {
 "id": "04dc18195b2c83d39cc1455064d4899b78edc505",
@@ -507,30 +628,6 @@
 "title_zh": "沃尔玛明年将Marketplace数据纳入Scintilla平台，AI助手Marty升级为运营建议功能"
 },
 {
-"id": "af64b1fffe693855dc142c531a82487b996efba8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "沃尔玛电商销售同比增长23%，约80%美国订单由门店履约",
-"url": "https://www.amz123.com/kx/dVDWewdD",
-"published_at": null,
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"沃尔玛",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "沃尔玛电商销售同比增长23%，约80%美国订单由门店履约"
-},
-{
 "id": "bef3ad0eda26bfba7c13eac4daf7b4eb4681c634",
 "site_id": "gs_amazon",
 "site_name": "亚马逊全球开店",
@@ -539,7 +636,7 @@
 "url": "https://gs.amazon.cn/news/news-notices-260919",
 "published_at": null,
 "first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -562,7 +659,7 @@
 "url": "https://gs.amazon.cn/news/news-brand-260917",
 "published_at": null,
 "first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
+"last_seen_at": "2026-09-23T00:40:38.470256Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "advertising",
@@ -575,122 +672,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊黑五入仓紧急提醒！"
-},
-{
-"id": "0b8ee06a2d9464b4ff1bba0bb0acb8b8cfc49f01",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon上线仓储租赁平台，现成仓5000平方米起、自建仓1万平方米起",
-"url": "https://www.amz123.com/kx/hZ1quhHB",
-"published_at": null,
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"仓储"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon上线仓储租赁平台，现成仓5000平方米起、自建仓1万平方米起"
-},
-{
-"id": "39405579925d252495b7d08ca6e238cde9b52159",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "上半年我国跨境电商进出口1.45万亿元，AI利用率超60%",
-"url": "https://www.ennews.com/news-144920.html",
-"published_at": "2026-09-22T00:00:00Z",
-"first_seen_at": "2026-09-22T01:00:04.893179Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"进出口",
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "上半年我国跨境电商进出口1.45万亿元，AI利用率超60%"
-},
-{
-"id": "992d2e28c2f21b3fbb3d16a1b36210e1f249c875",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊封禁Meta Muse AI购物功能",
-"url": "https://www.ennews.com/news-144916.html",
-"published_at": "2026-09-22T00:00:00Z",
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊封禁Meta Muse AI购物功能"
-},
-{
-"id": "6e547689f3fbd30d48cc82ce761370fc858d06e9",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "How Amazon and Prime make everyday life more affordable for American families",
-"url": "https://www.aboutamazon.com/news/retail/amazon-prime-affordable-everyday-savings",
-"published_at": "2026-09-21T15:00:18Z",
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"prime",
-"amazon"
-],
-"cross_sites": []
-},
-{
-"id": "2e77b5497c6f6dc3f565cc2d6bc23b1b06c31385",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon invests another $1.9 billion in the Delivery Service Partner program, launching new safety initiatives and AI-powered technology",
-"url": "https://www.aboutamazon.com/news/transportation/amazon-dsp-program-investment-2026",
-"published_at": "2026-09-21T13:00:22Z",
-"first_seen_at": "2026-09-22T00:49:45.782849Z",
-"last_seen_at": "2026-09-22T01:00:04.893179Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": []
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
