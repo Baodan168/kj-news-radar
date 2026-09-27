@@ -469,6 +469,8 @@ SOURCE_PRIORS = {
     "ennews": 0.10,
     "tophub": 0.10,
     "ecomengine": 0.10,
+    # Amazon official announcement aggregator (curated seller-side updates)
+    "amalert": 0.20,
     # Community / user-generated (lowest prior)
     "wearesellers": 0.05,
     "kjds365": 0.05,
