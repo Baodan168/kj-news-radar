@@ -580,6 +580,19 @@ def fetch_amazon_newsroom(session: requests.Session, now: datetime) -> list[RawI
                      "amazon_newsroom", "Amazon Newsroom", "Amazon官方")
 
 
+def fetch_amalert(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Amalert UK — 亚马逊官方公告聚合器（amalert.co.uk）。
+
+    2026-09-27 接入：监控 SP-API/Ads/SellerCentral/FBA/Newsroom 五个官方渠道，
+    UK卖家视角。与 amazon_newsroom（企业CSR+企业新闻为主）互补——独有条目占 43/50，
+    含 Seller Central 公告、FBA 政策、卖家工具动态。
+    实测：标准 RSS（/feed.xml），直连可达，约 3 条/天，更新稳定。
+    """
+    return fetch_rss(session, "https://amalert.co.uk/feed.xml",
+                     "amalert", "Amalert UK", "Amazon官方聚合",
+                     max_age_hours=72)
+
+
 def fetch_sp_api_changelog(session: requests.Session, now: datetime) -> list[RawItem]:
     """SP-API 变更日志。"""
     return fetch_rss(session, "https://developer-docs.amazon.com/sp-api/changelog.rss",
@@ -1233,6 +1246,7 @@ BUILTIN_SOURCES: list[dict[str, Any]] = [
     {"func": "fetch_channelx", "site_id": "channelx", "site_name": "ChannelX", "kind": "industry"},
     {"func": "fetch_marketplace_pulse", "site_id": "marketplace_pulse", "site_name": "Marketplace Pulse", "kind": "industry"},
     {"func": "fetch_amazon_seller_blog", "site_id": "amazon_seller_blog", "site_name": "Amazon卖家博客", "kind": "official"},
+    {"func": "fetch_amalert", "site_id": "amalert", "site_name": "Amalert UK", "kind": "official"},
     {"func": "fetch_wearesellers", "site_id": "wearesellers", "site_name": "知无不言", "kind": "community"},
     {"func": "fetch_ennews", "site_id": "ennews", "site_name": "亿恩网", "kind": "aggregate"},
 ]
@@ -1253,6 +1267,7 @@ FETCH_FUNC_MAP: dict[str, Any] = {
     "fetch_amazon_seller_blog": fetch_amazon_seller_blog,
     "fetch_wearesellers": fetch_wearesellers,
     "fetch_ennews": fetch_ennews,
+    "fetch_amalert": fetch_amalert,
 }
 
 
@@ -1452,7 +1467,7 @@ def build_source_tiers(statuses: list[dict[str, Any]]) -> list[dict[str, Any]]:
     TIER_MAP = {
         # Tier 1: 亚马逊官方
         "amazon_newsroom": 1, "amazon_ads": 1, "sp_api": 1,
-        "gs_amazon": 1, "amazon_seller_blog": 1,
+        "gs_amazon": 1, "amazon_seller_blog": 1, "amalert": 1,
         # Tier 2: 行业分析/聚合
         "marketplace_pulse": 2, "ecommercenews": 2, "channelx": 2,
         "ecomengine": 2, "amz123": 2, "amzdh": 2, "cifnews": 2,
