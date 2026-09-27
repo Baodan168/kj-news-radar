@@ -80,5 +80,6 @@ python3 -m http.server 8080
 - `cross_why` 字段：每条信号一句话"为什么值得关注"，纯规则生成（cross_relevance.py 的 REASON_RULES，13条优先级规则），零 LLM
 - `source_tiers` 字段：源分级（1=亚马逊官方/2=行业聚合/3=社区UGC），在 latest-24h.json payload
 - 72h 回填归位（display_time）：发布后72h内收录的按收录时间算"今天"（慢推源友好），超72h归位原文发布日。24h窗口过滤用它，archive清洗仍用 event_time
-- 前端：卡片理由行 + 今日热点榜区块（数据缺失自动隐藏）+ app.js?v=15
+- 前端：卡片理由行 + app.js?v=15。今日热点榜区块已移除（2026-09-27，与跨境精选高度重复；后端 hot-topics.json 数据保留，前端如需恢复参考 app.js git 历史）
+- `amalert` 源（2026-09-27 接入）：amalert.co.uk/feed.xml，亚马逊官方公告聚合器（SP-API/Ads/SellerCentral/FBA/Newsroom），Tier 1 / prior 0.20，max_age_hours=72（容忍周末慢更）。与 amazon_newsroom 互补（独有条目 43/50）
 - 部署注意：`~/.hermes/scripts/kj_local_update.py` 的 DATA_FILES 已含4个新产物，cron 会自动推送
