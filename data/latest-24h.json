@@ -1,316 +1,270 @@
 {
-"generated_at": "2026-09-26T00:40:15.112116Z",
+"generated_at": "2026-09-27T00:40:26.173696Z",
 "window_hours": 24,
-"total_items": 11,
-"total_items_cross_raw": 20,
-"total_items_raw": 39,
-"total_items_all_mode": 39,
+"total_items": 10,
+"total_items_cross_raw": 16,
+"total_items_raw": 21,
+"total_items_all_mode": 21,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1296,
+"archive_total": 1317,
 "site_count": 15,
-"source_count": 6,
+"source_count": 3,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 8,
-"raw_count": 29
+"count": 5,
+"raw_count": 15
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 2,
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"count": 3,
 "raw_count": 3
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 1,
-"raw_count": 2
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 0,
-"raw_count": 1
-},
-{
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"count": 0,
-"raw_count": 1
-},
-{
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"count": 0,
+"count": 2,
 "raw_count": 3
 }
 ],
 "items": [
 {
-"id": "c817314dd29e0b4ed4de84e9b2038b88214a2642",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊全球仓配扩展至8国，合规测试一次覆盖多国",
-"url": "https://www.amz123.com/kx/vwyUDFFz",
+"id": "96d36077449626af4b7d05eab5174af7fe61bba1",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "万里汇账户迁移：个人万里汇账户迁移至企业账户是否触发亚马逊审核的风险？我们万里汇的账户经理说这种一定会被审核，万里汇客服说正常情况下不会",
+"url": "https://www.wearesellers.com/question/111372",
 "published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
 "cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"合规"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊全球仓配扩展至8国，合规测试一次覆盖多国"
-},
-{
-"id": "2a72fc1a3bb201a784c670d05596cd0d90cdd3df",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊卖家后台接入eBay等四平台，多渠道订单统一管理",
-"url": "https://www.amz123.com/kx/Nl1nOuq5",
-"published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
-"cross_is_related": true,
-"cross_score": 0.89,
+"cross_score": 0.72,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"ebay",
+"万里汇",
 "亚马逊",
-"卖家",
-"卖家"
+"客服"
 ],
 "cross_platforms": [
-"ebay",
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊卖家后台接入eBay等四平台，多渠道订单统一管理"
+"title_zh": "万里汇账户迁移：个人万里汇账户迁移至企业账户是否触发亚马逊审核的风险？我们万里汇的账户经理说这种一定会被审核，万里汇客服说正常情况下不会"
 },
 {
-"id": "8801a3c34fef4a731bb9652f0046b15686beedc1",
+"id": "89f7e15a5f16061acff572ebf58403924ef2edb6",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "美联储FedNow系统开通跨境支付功能，先行部分机构试点",
-"url": "https://www.amz123.com/kx/l5jcS46Y",
+"title": "亚马逊美国仓直发墨西哥，24小时达服务首批覆盖墨城三地",
+"url": "https://www.amz123.com/kx/srqjJQ7e",
 "published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
 "cross_is_related": true,
-"cross_score": 0.73,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"跨境",
-"跨境支付"
+"亚马逊"
 ],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "美联储FedNow系统开通跨境支付功能，先行部分机构试点"
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国仓直发墨西哥，24小时达服务首批覆盖墨城三地"
 },
 {
-"id": "a29afd323ae092ad1c97da17cf742948e89ea89e",
+"id": "1d3b39fa134e80af6f2105316dc6f26549e8a275",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "ChannelEngine调研：平台卖家将利润率置于营收增长之上",
-"url": "https://www.amz123.com/kx/73aY7bwU",
+"title": "Ozon放宽服装卖家扶持计划，保险费最高全额返还并取消降价申报门槛",
+"url": "https://www.amz123.com/kx/e5kvWR8V",
 "published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
 "cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "ChannelEngine调研：平台卖家将利润率置于营收增长之上"
-},
-{
-"id": "64e9a7873ab4eecf818112764e4f109a9e9d525f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "韩国二手平台Bunjang进驻新加坡，上半年跨境GMV同比增长43%",
-"url": "https://www.amz123.com/kx/r51gNvUo",
-"published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "韩国二手平台Bunjang进驻新加坡，上半年跨境GMV同比增长43%"
-},
-{
-"id": "580fcbf54bd23d648c55be1f028aae0acffaf326",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "从浙大骑行社团做到年营收20亿，他花了16年丨新卖家故事⑭",
-"url": "https://www.cifnews.com/article/189168",
-"published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "从浙大骑行社团做到年营收20亿，他花了16年丨新卖家故事⑭"
-},
-{
-"id": "8dfb5936ff2b9f81889c3b64a009fbe08566cbfe",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries与Ozon收紧烟花销售规则，无合规证书商品将被下架",
-"url": "https://www.amz123.com/kx/HH17CvTR",
-"published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "policy_update",
+"cross_score": 0.66,
+"cross_label": "compliance_deadline",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "ozon",
-"wildberries",
-"合规"
+"卖家",
+"卖家"
 ],
 "cross_platforms": [
-"wildberries",
 "ozon"
 ],
 "cross_sites": [],
-"title_zh": "Wildberries与Ozon收紧烟花销售规则，无合规证书商品将被下架"
+"title_zh": "Ozon放宽服装卖家扶持计划，保险费最高全额返还并取消降价申报门槛"
 },
 {
-"id": "e0241cddf1f0121a3b7f2c156a9c46d5dedf1327",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon秋装需求提前释放，9月前两周外套订单同比增长1.5倍",
-"url": "https://www.amz123.com/kx/20xKhWnw",
+"id": "5fdb1ce59e946d4f21782dba3cf78cac857204fa",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "预警！一批产品暴雷，卖家快下架",
+"url": "https://www.cifnews.com/article/189170",
 "published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
 "cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.64,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "预警！一批产品暴雷，卖家快下架"
+},
+{
+"id": "0f7d2fccb04196653deea5925a8c13deb8e1b545",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "海运涨72% ，卖家旺季利润又要没了",
+"url": "https://www.cifnews.com/article/189169",
+"published_at": null,
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"cross_is_related": true,
+"cross_score": 0.64,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"ozon"
+"卖家",
+"卖家"
 ],
-"cross_platforms": [
-"ozon"
-],
+"cross_platforms": [],
 "cross_sites": [],
-"title_zh": "Ozon秋装需求提前释放，9月前两周外套订单同比增长1.5倍"
+"title_zh": "海运涨72% ，卖家旺季利润又要没了"
 },
 {
-"id": "f41d26dc0c5ba4fe326f4c2cc705cff32b1a8079",
+"id": "0adb3843954fb8004838e5484ee1f35862d8358e",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "美客多巴西开卖处方药，年底前接入至少20家连锁药房",
-"url": "https://www.amz123.com/kx/3mMbTBET",
+"title": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利",
+"url": "https://www.amz123.com/kx/L3eq2ZA7",
 "published_at": null,
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"关税"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利"
+},
+{
+"id": "54014c0d8c5d06305d74b4a368103d0f4b60016b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries降低自提点开设门槛，30万人口城市可设店中店",
+"url": "https://www.amz123.com/kx/t0OcmWBn",
+"published_at": null,
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"美客多"
+"wildberries"
 ],
 "cross_platforms": [
-"美客多"
+"wildberries"
 ],
 "cross_sites": [],
-"title_zh": "美客多巴西开卖处方药，年底前接入至少20家连锁药房"
+"title_zh": "Wildberries降低自提点开设门槛，30万人口城市可设店中店"
 },
 {
-"id": "9ff30f60288089d6d4361eb4e52c0eea2af93130",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon Seller Assistant – Plugin for Amazon Quick and Anthropic’s Claude",
-"url": "https://channelx.world/2026/09/amazon-seller-assistant-plugin-for-amazon-quick-and-anthropics-claude",
-"published_at": "2026-09-25T09:04:06Z",
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
+"id": "011a8b000e043b592e7fb6bc2344812a15ccd7c8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon媒体广告新增自动受众功能，卖家无需手动筛选人群",
+"url": "https://www.amz123.com/kx/DYFIBizv",
+"published_at": null,
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
 "cross_is_related": true,
-"cross_score": 0.9,
-"cross_label": "general",
+"cross_score": 0.6,
+"cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"amazon",
-"seller"
+"ozon",
+"卖家",
+"卖家"
 ],
 "cross_platforms": [
-"amazon"
+"ozon"
 ],
 "cross_sites": [],
-"title_zh": "Amazon卖家助手– Amazon Quick和Anthropic的Claude插件"
+"title_zh": "Ozon媒体广告新增自动受众功能，卖家无需手动筛选人群"
 },
 {
-"id": "d3b3451ca84e32fb7f77edac6ca52fccb97405b3",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "New Amazon Multichannel Selling Tools for eBay, Shopify, TikTok, and Walmart",
-"url": "https://channelx.world/2026/09/new-amazon-multichannel-selling-tools-for-ebay-shopify-tiktok-and-walmart",
-"published_at": "2026-09-25T08:25:08Z",
-"first_seen_at": "2026-09-26T00:40:15.112116Z",
-"last_seen_at": "2026-09-26T00:40:15.112116Z",
+"id": "ae57166c955e9dc3e8973be7a5b863e8187b9d9d",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "圣诞节的产品，眼看竞品越来越多，卖家精灵显示，产品1个自然流量都没有，Vine都送不出去",
+"url": "https://www.wearesellers.com/question/124786",
+"published_at": null,
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
 "cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "tiktok",
+"cross_score": 0.6,
+"cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"amazon",
-"ebay",
-"shopify",
-"walmart"
+"卖家",
+"卖家",
+"流量"
+],
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "圣诞节的产品，眼看竞品越来越多，卖家精灵显示，产品1个自然流量都没有，Vine都送不出去"
+},
+{
+"id": "7c1ba58981870a79054c23de295f03b9e35d06fd",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "作为一个小老板，随便聊聊你们运营的事情：我见证了亚马逊从野蛮生长到内卷淘汰的历程，如今运营若只懂执行、不会主动开发产品，是否注定被行业抛弃？",
+"url": "https://www.wearesellers.com/question/117828",
+"published_at": null,
+"first_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
 ],
 "cross_platforms": [
-"walmart",
-"ebay",
-"shopify",
-"amazon"
+"亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "适用于eBay、Shopify、TikTok和沃尔玛的全新亚马逊多渠道销售工具"
+"title_zh": "作为一个小老板，随便聊聊你们运营的事情：我见证了亚马逊从野蛮生长到内卷淘汰的历程，如今运营若只懂执行、不会主动开发产品，是否注定被行业抛弃？"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json"
