@@ -1745,46 +1745,64 @@ def main() -> int:
     policy_calendar = generate_policy_calendar(session, now)
     policy_path.write_text(json.dumps(policy_calendar, ensure_ascii=False, indent=False), encoding="utf-8")
 
-    # ── v2 增强：故事合并 + 热点榜 + 周报 ─────────────────────
-    # 1) 故事合并：同一事件多源报道合并为故事线（借鉴 aihot stories）
-    stories = merge_stories(items_all_enriched)
-    stories_payload = {
-        "generated_at": iso(now),
-        "total_stories": len(stories),
-        "total_items": len(items_all_enriched),
-        "stories": stories,
-    }
-    stories_path = output_dir / "stories-merged.json"
-    stories_path.write_text(json.dumps(stories_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+    # ── v2 增强：故事合并 + 热点榜 + 周报 + RSS ─────────────────
+    # 异常隔离：每个增强产物独立 try/except——采集成果(3分钟)不能被
+    # 可选增强功能拖垮，某一步失败只跳过该产物，主数据照常落盘
+    stories: list[dict[str, Any]] = []
+    try:
+        # 1) 故事合并：同一事件多源报道合并为故事线（借鉴 aihot stories）
+        stories = merge_stories(items_all_enriched)
+        stories_payload = {
+            "generated_at": iso(now),
+            "total_stories": len(stories),
+            "total_items": len(items_all_enriched),
+            "stories": stories,
+        }
+        stories_path = output_dir / "stories-merged.json"
+        stories_path.write_text(json.dumps(stories_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+    except Exception as e:
+        print(f"  [WARN] 故事合并失败(跳过): {e}")
 
-    # 2) 今日热点榜：多源信号×时间衰减 Top 10（借鉴 aihot hot-topics）
-    hot = rank_hot_topics(stories, top_n=10)
-    hot_payload = {
-        "generated_at": iso(now),
-        "items": hot,
-    }
-    hot_path = output_dir / "hot-topics.json"
-    hot_path.write_text(json.dumps(hot_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+    try:
+        # 2) 今日热点榜：多源信号×时间衰减 Top 10（借鉴 aihot hot-topics）
+        hot = rank_hot_topics(stories, top_n=10)
+        hot_payload = {
+            "generated_at": iso(now),
+            "items": hot,
+        }
+        hot_path = output_dir / "hot-topics.json"
+        hot_path.write_text(json.dumps(hot_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+    except Exception as e:
+        print(f"  [WARN] 热点榜生成失败(跳过): {e}")
 
-    # 3) 7天周报 rollup：从archive聚合（借鉴 ai-safety-radar weekly rollup）
-    weekly = build_weekly_rollup(archive, now, days=7)
-    weekly_path = output_dir / "weekly-rollup.json"
-    weekly_path.write_text(json.dumps(weekly, ensure_ascii=False, indent=False), encoding="utf-8")
+    try:
+        # 3) 7天周报 rollup：从archive聚合（借鉴 ai-safety-radar weekly rollup）
+        weekly = build_weekly_rollup(archive, now, days=7)
+        weekly_path = output_dir / "weekly-rollup.json"
+        weekly_path.write_text(json.dumps(weekly, ensure_ascii=False, indent=False), encoding="utf-8")
+    except Exception as e:
+        print(f"  [WARN] 周报生成失败(跳过): {e}")
 
-    # 4) RSS feed.xml：订阅输出（借鉴 ai-news-radar feed.xml）
-    feed_xml = generate_feed_xml(items_cross_enriched, now)
-    feed_path = output_dir / "feed.xml"
-    feed_path.write_text(feed_xml, encoding="utf-8")
+    try:
+        # 4) RSS feed.xml：订阅输出（借鉴 ai-news-radar feed.xml）
+        feed_xml = generate_feed_xml(items_cross_enriched, now)
+        feed_path = output_dir / "feed.xml"
+        feed_path.write_text(feed_xml, encoding="utf-8")
+    except Exception as e:
+        print(f"  [WARN] RSS feed生成失败(跳过): {e}")
 
     # 5) 源分级tier + 故事数注入 payload — 在 latest-24h.json 写盘之后
     #    重新写入（字段追加，避免文件先写后改的时序问题）
-    slim_payload["source_tiers"] = build_source_tiers(statuses)
-    slim_payload["total_stories"] = len(stories)
-    latest_path.write_text(json.dumps(slim_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+    try:
+        slim_payload["source_tiers"] = build_source_tiers(statuses)
+        slim_payload["total_stories"] = len(stories)
+        latest_path.write_text(json.dumps(slim_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+    except Exception as e:
+        print(f"  [WARN] source_tiers 注入失败(主数据不受影响): {e}")
 
     print(f"[INFO] 输出写入 {output_dir}/")
     print(f"[INFO] 跨境信号: {slim_payload['total_items']} | 全量: {slim_payload['total_items_all_mode']} | 归档: {len(archive)}")
-    print(f"[INFO] 故事合并: {len(stories)} 个故事 | 热点: {len(hot)} 条 | 周报: 7天")
+    print(f"[INFO] 故事合并: {len(stories)} 个故事 | 周报: 7天")
     return 0
 
 
