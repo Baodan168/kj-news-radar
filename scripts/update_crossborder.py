@@ -33,6 +33,11 @@ except ModuleNotFoundError:
     from cross_relevance import add_cross_relevance_fields, score_cross_relevance
 
 try:
+    from scripts.stories_merger import merge_stories, rank_hot_topics
+except ModuleNotFoundError:
+    from stories_merger import merge_stories, rank_hot_topics
+
+try:
     import feedparser
 except ModuleNotFoundError:
     feedparser = None
@@ -176,10 +181,38 @@ def make_item_id(site_id: str, source: str, title: str, url: str) -> str:
 
 
 def event_time(record: dict[str, Any]) -> datetime | None:
+    """事件时间（用于24h窗口过滤）。
+
+    2026-09-27 优化（借鉴 aihot timeline 口径）：
+    - published_at 存在 → 直接用发布时间
+    - published_at 缺失 → 用 first_seen_at（收录时间）
+    防御慢推源（官方博客等）旧文回填冒充新信号：first_seen_at 只做
+    兜底，有发布时间的条目始终按发布时间归位。
+    """
     return (
         parse_iso(record.get("published_at"))
         or parse_iso(record.get("first_seen_at"))
     )
+
+
+def display_time(record: dict[str, Any]) -> datetime | None:
+    """展示时间线口径（借鉴 aihot by=timeline 设计）。
+
+    规则：
+    - 原文发布后 72h 内被收录 → 按收录时间（first_seen_at）算"今天"，
+      慢推源（官方博客 2 天前发文今天才抓到）仍出现在 24h 窗口
+    - 超过 72h 才收录的历史回填 → 归位到原文发布日，不冒充最近
+    - 无发布时间 → 只能用收录时间
+    """
+    pub = parse_iso(record.get("published_at"))
+    seen = parse_iso(record.get("first_seen_at"))
+    if pub is None:
+        return seen
+    if seen is None:
+        return pub
+    if (seen - pub) <= timedelta(hours=72):
+        return seen
+    return pub
 
 
 def create_session() -> requests.Session:
@@ -1409,6 +1442,128 @@ def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 # 主入口
 # ---------------------------------------------------------------------------
 
+def build_source_tiers(statuses: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """源分级（借鉴 ai-safety-radar Tier 1-3）。
+
+    Tier 1 = 官方源（亚马逊官方，可信度最高）
+    Tier 2 = 行业分析/聚合（专业媒体）
+    Tier 3 = 社区UGC（论坛求助帖，信息价值波动大）
+    """
+    TIER_MAP = {
+        # Tier 1: 亚马逊官方
+        "amazon_newsroom": 1, "amazon_ads": 1, "sp_api": 1,
+        "gs_amazon": 1, "amazon_seller_blog": 1,
+        # Tier 2: 行业分析/聚合
+        "marketplace_pulse": 2, "ecommercenews": 2, "channelx": 2,
+        "ecomengine": 2, "amz123": 2, "amzdh": 2, "cifnews": 2,
+        "ennews": 2, "kjds365": 2, "tophub": 2, "opmlrss": 2,
+        # Tier 3: 社区
+        "wearesellers": 3,
+    }
+    out = []
+    for s in statuses:
+        sid = s.get("site_id", "")
+        out.append({
+            "site_id": sid,
+            "site_name": s.get("site_name", ""),
+            "tier": TIER_MAP.get(sid, 2),
+            "ok": s.get("ok", False),
+            "item_count": s.get("item_count", 0),
+        })
+    return sorted(out, key=lambda x: (x["tier"], -x["item_count"]))
+
+
+def build_weekly_rollup(archive: dict[str, Any], now: datetime, days: int = 7) -> dict[str, Any]:
+    """7天周报 rollup（借鉴 ai-safety-radar weekly rollup）。
+
+    从archive聚合过去N天：每日新增量、各源贡献、分类分布、高分信号TOP5。
+    """
+    window_start = now - timedelta(days=days)
+    daily_counts: dict[str, int] = {}
+    source_counts: dict[str, int] = {}
+    label_counts: dict[str, int] = {}
+    uk_hits = 0
+    top_signals: list[dict[str, Any]] = []
+
+    # archive 记录只存采集元数据（无打分字段），对 7 天窗口内记录现算相关性
+    from cross_relevance import add_cross_relevance_fields as _score_fields
+
+    for record in archive.values():
+        ts = display_time(record)
+        if not ts or ts < window_start:
+            continue
+        scored = _score_fields(record)
+        day = ts.date().isoformat()
+        daily_counts[day] = daily_counts.get(day, 0) + 1
+        sid = str(record.get("site_id") or "unknown")
+        source_counts[sid] = source_counts.get(sid, 0) + 1
+        label = str(scored.get("cross_label") or "general")
+        label_counts[label] = label_counts.get(label, 0) + 1
+        if "uk" in [str(s).lower() for s in (scored.get("cross_sites") or [])]:
+            uk_hits += 1
+        score = float(scored.get("cross_score") or 0)
+        if scored.get("cross_is_related") and score >= 0.75:
+            top_signals.append({
+                "title": record.get("title", ""),
+                "url": record.get("url", ""),
+                "site_id": sid,
+                "score": score,
+                "label": label,
+                "time": iso(ts),
+            })
+
+    top_signals.sort(key=lambda x: x["score"], reverse=True)
+    return {
+        "generated_at": iso(now),
+        "window_days": days,
+        "total_items": sum(daily_counts.values()),
+        "daily_counts": dict(sorted(daily_counts.items())),
+        "source_counts": dict(sorted(source_counts.items(), key=lambda x: -x[1])),
+        "label_counts": label_counts,
+        "uk_related_count": uk_hits,
+        "top_signals": top_signals[:5],
+    }
+
+
+def generate_feed_xml(items: list[dict[str, Any]], now: datetime, limit: int = 50) -> str:
+    """生成 RSS 2.0 feed.xml（借鉴 ai-news-radar / ai-safety-radar）。
+
+    用户可在任何RSS阅读器订阅跨境雷达的每日信号。
+    """
+    site_url = "https://baodan168.github.io/kj-news-radar/"
+    from xml.sax.saxutils import escape
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0">',
+        "<channel>",
+        "<title>跨境雷达 — 24小时跨境电商更新</title>",
+        f"<link>{site_url}</link>",
+        "<description>Amazon UK/EU 卖家视角的跨境电商信号雷达</description>",
+        "<language>zh-CN</language>",
+        f"<lastBuildDate>{now.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>",
+    ]
+    for it in items[:limit]:
+        title = escape(str(it.get("title") or it.get("title_zh") or ""))
+        link = escape(str(it.get("url") or ""))
+        pub = parse_iso(it.get("published_at")) or parse_iso(it.get("first_seen_at"))
+        pub_str = pub.strftime("%a, %d %b %Y %H:%M:%S +0000") if pub else now.strftime("%a, %d %b %Y %H:%M:%S +0000")
+        desc = escape(str(it.get("title_zh") or it.get("title") or ""))
+        score = it.get("cross_score", 0)
+        cat = it.get("cross_label", "general")
+        lines.extend([
+            "<item>",
+            f"<title>{title}</title>",
+            f"<link>{link}</link>",
+            f"<guid>{escape(str(it.get('id') or link))}</guid>",
+            f"<pubDate>{pub_str}</pubDate>",
+            f"<category>{escape(str(cat))}</category>",
+            f"<description>[{escape(str(cat))}] 评分 {score} — {desc}</description>",
+            "</item>",
+        ])
+    lines.extend(["</channel>", "</rss>"])
+    return "\n".join(lines)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="跨境电商新闻聚合")
     parser.add_argument("--output-dir", default="data", help="输出目录")
@@ -1493,13 +1648,14 @@ def main() -> int:
         if (parse_iso(v.get("last_seen_at")) or parse_iso(v.get("published_at")) or now) >= keep_after
     }
 
-    # 24小时窗口
+    # 24小时窗口 — 用 display_time 口径（72h内收录的慢推源仍算"今天"，
+    # 超过72h的历史回填归位到原文发布日，防止旧文冒充新信号）
     window_start = now - timedelta(hours=args.window_hours)
     latest_items_all_raw: list[dict[str, Any]] = []
     for record in archive.values():
         if _is_nav_pollution(record):
             continue
-        ts = event_time(record)
+        ts = display_time(record)
         if ts and ts >= window_start:
             latest_items_all_raw.append(dict(record))
 
@@ -1574,8 +1730,46 @@ def main() -> int:
     policy_calendar = generate_policy_calendar(session, now)
     policy_path.write_text(json.dumps(policy_calendar, ensure_ascii=False, indent=False), encoding="utf-8")
 
+    # ── v2 增强：故事合并 + 热点榜 + 周报 ─────────────────────
+    # 1) 故事合并：同一事件多源报道合并为故事线（借鉴 aihot stories）
+    stories = merge_stories(items_all_enriched)
+    stories_payload = {
+        "generated_at": iso(now),
+        "total_stories": len(stories),
+        "total_items": len(items_all_enriched),
+        "stories": stories,
+    }
+    stories_path = output_dir / "stories-merged.json"
+    stories_path.write_text(json.dumps(stories_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+
+    # 2) 今日热点榜：多源信号×时间衰减 Top 10（借鉴 aihot hot-topics）
+    hot = rank_hot_topics(stories, top_n=10)
+    hot_payload = {
+        "generated_at": iso(now),
+        "items": hot,
+    }
+    hot_path = output_dir / "hot-topics.json"
+    hot_path.write_text(json.dumps(hot_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+
+    # 3) 7天周报 rollup：从archive聚合（借鉴 ai-safety-radar weekly rollup）
+    weekly = build_weekly_rollup(archive, now, days=7)
+    weekly_path = output_dir / "weekly-rollup.json"
+    weekly_path.write_text(json.dumps(weekly, ensure_ascii=False, indent=False), encoding="utf-8")
+
+    # 4) RSS feed.xml：订阅输出（借鉴 ai-news-radar feed.xml）
+    feed_xml = generate_feed_xml(items_cross_enriched, now)
+    feed_path = output_dir / "feed.xml"
+    feed_path.write_text(feed_xml, encoding="utf-8")
+
+    # 5) 源分级tier + 故事数注入 payload — 在 latest-24h.json 写盘之后
+    #    重新写入（字段追加，避免文件先写后改的时序问题）
+    slim_payload["source_tiers"] = build_source_tiers(statuses)
+    slim_payload["total_stories"] = len(stories)
+    latest_path.write_text(json.dumps(slim_payload, ensure_ascii=False, indent=False), encoding="utf-8")
+
     print(f"[INFO] 输出写入 {output_dir}/")
     print(f"[INFO] 跨境信号: {slim_payload['total_items']} | 全量: {slim_payload['total_items_all_mode']} | 归档: {len(archive)}")
+    print(f"[INFO] 故事合并: {len(stories)} 个故事 | 热点: {len(hot)} 条 | 周报: 7天")
     return 0
 
 
