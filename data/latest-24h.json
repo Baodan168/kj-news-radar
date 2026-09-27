@@ -1,21 +1,21 @@
 {
-"generated_at": "2026-09-27T00:40:26.173696Z",
+"generated_at": "2026-09-27T02:01:38.487927Z",
 "window_hours": 24,
-"total_items": 10,
-"total_items_cross_raw": 16,
-"total_items_raw": 21,
-"total_items_all_mode": 21,
+"total_items": 11,
+"total_items_cross_raw": 18,
+"total_items_raw": 24,
+"total_items_all_mode": 24,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1317,
+"archive_total": 1320,
 "site_count": 15,
 "source_count": 3,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 5,
-"raw_count": 15
+"count": 6,
+"raw_count": 18
 },
 {
 "site_id": "wearesellers",
@@ -32,6 +32,30 @@
 ],
 "items": [
 {
+"id": "5f987e7c4d07f8451978e9e5aed78d97b4d087c7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "DHL在美国推出医疗集中仓模式，2030年前全球投入20亿欧元",
+"url": "https://www.amz123.com/kx/tqV5xIfq",
+"published_at": null,
+"first_seen_at": "2026-09-27T00:57:18.451845Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"dhl"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "DHL在美国推出医疗集中仓模式，2030年前全球投入20亿欧元"
+},
+{
 "id": "96d36077449626af4b7d05eab5174af7fe61bba1",
 "site_id": "wearesellers",
 "site_name": "知无不言",
@@ -40,7 +64,7 @@
 "url": "https://www.wearesellers.com/question/111372",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -50,6 +74,7 @@
 "亚马逊",
 "客服"
 ],
+"cross_why": "卖家运营相关信号",
 "cross_platforms": [
 "亚马逊"
 ],
@@ -65,7 +90,7 @@
 "url": "https://www.amz123.com/kx/srqjJQ7e",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -73,6 +98,7 @@
 "cross_signals": [
 "亚马逊"
 ],
+"cross_why": "跨境电商行业动态",
 "cross_platforms": [
 "亚马逊"
 ],
@@ -90,7 +116,7 @@
 "url": "https://www.amz123.com/kx/e5kvWR8V",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "compliance_deadline",
@@ -100,6 +126,7 @@
 "卖家",
 "卖家"
 ],
+"cross_why": "合规截止类信号",
 "cross_platforms": [
 "ozon"
 ],
@@ -115,7 +142,7 @@
 "url": "https://www.cifnews.com/article/189170",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "listing_product",
@@ -124,6 +151,7 @@
 "卖家",
 "卖家"
 ],
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "预警！一批产品暴雷，卖家快下架"
@@ -137,7 +165,7 @@
 "url": "https://www.cifnews.com/article/189169",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -146,6 +174,7 @@
 "卖家",
 "卖家"
 ],
+"cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "海运涨72% ，卖家旺季利润又要没了"
@@ -159,7 +188,7 @@
 "url": "https://www.amz123.com/kx/L3eq2ZA7",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "policy_update",
@@ -168,6 +197,7 @@
 "关税",
 "关税"
 ],
+"cross_why": "税务/关税变动，影响成本核算",
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利"
@@ -181,7 +211,7 @@
 "url": "https://www.amz123.com/kx/t0OcmWBn",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -189,6 +219,7 @@
 "cross_signals": [
 "wildberries"
 ],
+"cross_why": "跨境电商行业动态",
 "cross_platforms": [
 "wildberries"
 ],
@@ -204,7 +235,7 @@
 "url": "https://www.amz123.com/kx/DYFIBizv",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "advertising",
@@ -214,6 +245,7 @@
 "卖家",
 "卖家"
 ],
+"cross_why": "广告政策/工具变化，影响投放策略",
 "cross_platforms": [
 "ozon"
 ],
@@ -229,7 +261,7 @@
 "url": "https://www.wearesellers.com/question/124786",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "listing_product",
@@ -239,6 +271,7 @@
 "卖家",
 "流量"
 ],
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "圣诞节的产品，眼看竞品越来越多，卖家精灵显示，产品1个自然流量都没有，Vine都送不出去"
@@ -252,7 +285,7 @@
 "url": "https://www.wearesellers.com/question/117828",
 "published_at": null,
 "first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"last_seen_at": "2026-09-27T02:01:38.487927Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "listing_product",
@@ -260,6 +293,7 @@
 "cross_signals": [
 "亚马逊"
 ],
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_platforms": [
 "亚马逊"
 ],
@@ -267,5 +301,113 @@
 "title_zh": "作为一个小老板，随便聊聊你们运营的事情：我见证了亚马逊从野蛮生长到内卷淘汰的历程，如今运营若只懂执行、不会主动开发产品，是否注定被行业抛弃？"
 }
 ],
-"all_mode_data_url": "data/latest-24h-all.json"
+"all_mode_data_url": "data/latest-24h-all.json",
+"source_tiers": [
+{
+"site_id": "gs_amazon",
+"site_name": "全球开店",
+"tier": 1,
+"ok": true,
+"item_count": 30
+},
+{
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"tier": 1,
+"ok": true,
+"item_count": 11
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"tier": 1,
+"ok": true,
+"item_count": 1
+},
+{
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads Blog",
+"tier": 1,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"tier": 1,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"tier": 2,
+"ok": true,
+"item_count": 30
+},
+{
+"site_id": "ecomengine",
+"site_name": "EcomEngine",
+"tier": 2,
+"ok": true,
+"item_count": 20
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"tier": 2,
+"ok": true,
+"item_count": 18
+},
+{
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"tier": 2,
+"ok": true,
+"item_count": 10
+},
+{
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
+"tier": 2,
+"ok": true,
+"item_count": 10
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"tier": 2,
+"ok": true,
+"item_count": 10
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"tier": 2,
+"ok": true,
+"item_count": 3
+},
+{
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"tier": 2,
+"ok": true,
+"item_count": 1
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"tier": 3,
+"ok": true,
+"item_count": 25
+}
+],
+"total_stories": 24
 }
