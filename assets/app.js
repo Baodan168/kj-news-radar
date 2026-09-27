@@ -75,7 +75,6 @@ const state = {
   mode: "cross",         // 'cross' | 'all'
   policyData: null,
   sourceStatus: null,
-  hotTopics: [],         // 今日热点榜（hot-topics.json）
   generatedAt: null,
 };
 
@@ -876,52 +875,6 @@ function renderCrossPicks() {
   listEl.innerHTML = html;
 }
 
-/* ========== 今日热点榜 ========== */
-
-/**
- * 渲染今日热点榜（多源信号×时间衰减 Top N，借鉴 aihot hot-topics）
- */
-function renderHotTopics() {
-  const listEl = $("hotTopicsList");
-  const metaEl = $("hotTopicsMeta");
-  const wrapEl = $("hotTopicsSection");
-  if (!listEl) return;
-
-  const hot = state.hotTopics || [];
-  if (!hot.length) {
-    // 数据缺失时隐藏整个区块
-    if (wrapEl) wrapEl.style.display = "none";
-    return;
-  }
-
-  if (metaEl) metaEl.textContent = `多源信号 × 时间衰减 · Top ${hot.length}`;
-
-  let html = "";
-  hot.forEach((s, idx) => {
-    const label = LABELS[s.category] || "行业资讯";
-    const labelEmoji = LABEL_EMOJI[s.category] || "📰";
-    const score = Math.round((s.max_score || 0) * 100);
-    const rank = s.rank || idx + 1;
-    // 排名前三用火焰色
-    const rankCls = rank <= 3 ? "hot-rank-top" : "hot-rank";
-    html += `
-      <a class="hot-row" href="${esc(s.primary_url || "#")}" target="_blank" rel="noopener noreferrer">
-        <span class="${rankCls}">${rank}</span>
-        <div class="hot-body">
-          <div class="hot-meta">
-            <span>${labelEmoji} ${esc(label)}</span>
-            <span>${s.source_count} 个来源</span>
-            <span>${s.item_count} 条报道</span>
-            <strong>${score} 分</strong>
-          </div>
-          <div class="hot-title">${esc(s.primary_title || "")}</div>
-        </div>
-      </a>`;
-  });
-  listEl.innerHTML = html;
-}
-
-
 /* ========== 政策日历 ========== */
 
 /**
@@ -1060,7 +1013,6 @@ function renderAll() {
   renderSiteFilters();
   renderImpactFilter();
   renderPlatformFilter();
-  renderHotTopics();
   renderList();
   renderCrossPicks();
   renderPolicyCalendar();
@@ -1123,8 +1075,8 @@ function bindFilterScroll() {
 
 async function init() {
   try {
-    // 并行加载 AI 数据、来源状态、政策日历、热点榜
-    const [aiRes, statusRes, policyRes, hotRes] = await Promise.allSettled([
+    // 并行加载 AI 数据、来源状态、政策日历
+    const [aiRes, statusRes, policyRes] = await Promise.allSettled([
       fetch("data/latest-24h.json").then(r => {
         if (!r.ok) throw new Error(`AI data HTTP ${r.status}`);
         return r.json();
@@ -1135,10 +1087,6 @@ async function init() {
       }),
       fetch("data/policy-calendar.json").then(r => {
         if (!r.ok) throw new Error(`Policy calendar HTTP ${r.status}`);
-        return r.json();
-      }),
-      fetch("data/hot-topics.json").then(r => {
-        if (!r.ok) throw new Error(`Hot topics HTTP ${r.status}`);
         return r.json();
       }),
     ]);
@@ -1167,14 +1115,6 @@ async function init() {
       state.policyData = Array.isArray(policyRes.value) ? policyRes.value : (policyRes.value.policies || []);
     } else {
       console.warn("加载政策日历失败:", policyRes.reason);
-    }
-
-    // 处理热点榜（数据缺失不阻塞，仅隐藏区块）
-    if (hotRes.status === "fulfilled" && hotRes.value) {
-      state.hotTopics = Array.isArray(hotRes.value.items) ? hotRes.value.items : [];
-    } else {
-      console.warn("加载热点榜失败:", hotRes.reason);
-      state.hotTopics = [];
     }
 
     // 首次渲染
