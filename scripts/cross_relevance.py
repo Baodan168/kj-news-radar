@@ -624,6 +624,63 @@ def _label_for_text(text: str, has_ecommerce: bool) -> str:
     return "general"
 
 
+# ──────────────────────────────────────────────────────────────
+# 用户可读理由生成（借鉴 aihot 的 reason 字段，零 LLM，纯规则）
+# 2026-09-27 新增：给每条信号一句话"为什么值得关注"
+# ──────────────────────────────────────────────────────────────
+REASON_RULES: list[tuple[str, list[str], str]] = [
+    # (优先级名, 关键词, 理由模板) — 按顺序匹配，先命中先生效
+    ("compliance_deadline", ["截止", "deadline", "最后期限", "限期", "倒计时"],
+     "合规截止临近，需立即确认是否受影响"),
+    ("seller_action", ["封号", "冻结", "受限", "suspension", "appeal", "申诉"],
+     "账号安全类信号，涉及封号/申诉风险"),
+    ("fee", ["费用", "fee", "涨价", "上调", "佣金", "费率", "配送费", "仓储费"],
+     "费用调整，直接影响利润率"),
+    ("compliance", ["gpsr", "epr", "ppwr", "ukca", "英代", "欧代", "ce marking"],
+     "EU/UK 合规要求，影响 UK/EU 站在售产品"),
+    ("vat_tax", ["vat", "关税", "tariff", "税"],
+     "税务/关税变动，影响成本核算"),
+    ("policy", ["政策", "policy", "新规", "法规", "合规", "compliance"],
+     "平台或监管政策变动，需评估运营影响"),
+    ("uk_market", ["英国站", "uk站", "amazon.co.uk", "英区", "英国", "amazon uk", "uk marketplace", "amazon's uk"],
+     "UK 市场动态，与英国站业务直接相关"),
+    ("eu_market", ["欧洲站", "欧盟", "欧区", "德国站", "法国站"],
+     "EU 市场动态，欧洲站卖家关注"),
+    ("amazon_official", ["seller central", "卖家中心", "后台"],
+     "亚马逊官方后台更新，留意后台通知"),
+    ("fba_logistics", ["fba", "物流", "仓储", "海外仓", "配送", "发货"],
+     "FBA/物流动态，影响补货和时效"),
+    ("advertising", ["广告", "ppc", "acos", "cpc", "sponsored", "投放"],
+     "广告政策/工具变化，影响投放策略"),
+    ("product_listing", ["listing", "选品", "上架", "产品", "review", "退货"],
+     "产品/listing 相关变化，关注运营调整"),
+    ("trend", ["趋势", "增长", "市场", "份额", "旺季", "黑五", "prime day", "大促"],
+     "行业趋势/大促节点，提前布局参考"),
+]
+
+
+def _why_for_text(text: str, label: str) -> str:
+    """按关键词规则生成一句话"为什么值得关注"。
+
+    命中多条时取第一个（规则按决策价值排序：合规截止 > 封号 > 费用 > …）。
+    未命中任何规则时按 label 兜底。
+    """
+    for _, kws, reason in REASON_RULES:
+        if contains_any_keyword(text, kws):
+            return reason
+    fallback = {
+        "seller_action": "卖家运营相关信号",
+        "policy_update": "政策相关更新",
+        "fee_logistics": "费用/物流相关更新",
+        "advertising": "广告相关更新",
+        "listing_product": "产品/listing 相关更新",
+        "platform_trend": "平台趋势动态",
+        "compliance_deadline": "合规截止类信号",
+        "general": "跨境电商行业动态",
+    }
+    return fallback.get(label, "跨境电商行业动态")
+
+
 def _result(
     *,
     is_cross_related: bool,
@@ -940,6 +997,8 @@ def add_cross_relevance_fields(record: dict[str, Any]) -> dict[str, Any]:
     out["cross_label"] = relevance["label"]
     out["cross_relevance_reason"] = relevance["reason"]
     out["cross_signals"] = relevance["signals"]
+    # 用户可读理由（借鉴 aihot reason 字段，2026-09-27 新增）
+    out["cross_why"] = _why_for_text(str(record.get("title") or "").lower(), relevance["label"])
 
     # Platform detection
     text = f"{out.get('title','')} {out.get('source','')} {out.get('site_name','')}".lower()
