@@ -70,14 +70,18 @@ def parse_iso(dt_str: str | None) -> datetime | None:
     if not dt.tzinfo:
         dt = dt.replace(tzinfo=UTC)
     dt = dt.astimezone(UTC)
-    # 防御：源RSS pubDate格式异常（如 ennews "32, 04 Aug 2026" 被dateutil解析为2032年）
-    # 未来时间戳会让24h窗口过滤失效，archive历史条目每天全量复活
+    # 防御：源RSS pubDate格式异常（如 ennews "39, 24 Sep 2026 17:34:00"
+    # 被dateutil把"39"解析为年份→2039）。未来时间戳会让24h窗口过滤失效，
+    # archive历史条目每天全量复活。
+    # 重建策略：日期部分正则提取（日 月 年），时分秒保留首次解析结果——
+    # 2026-09-27修复：旧逻辑重解析只给"日 月 年"丢失时分秒，
+    # 晚间发布文章被归到00:00，最多提前老化24h，导致24h窗口漏采。
     if dt.year > utc_now().year:
-        # 尝试提取 "04 Aug 2026" 标准部分重新解析
         m = re.search(r"\b(\d{1,2})\s+([A-Za-z]{3,9})\s+(\d{4})\b", dt_str)
         if m:
             try:
-                dt2 = dtparser.parse(f"{m.group(1)} {m.group(2)} {m.group(3)}")
+                rebuilt = f"{m.group(1)} {m.group(2)} {m.group(3)} {dt.hour:02d}:{dt.minute:02d}:{dt.second:02d}"
+                dt2 = dtparser.parse(rebuilt)
                 if not dt2.tzinfo:
                     dt2 = dt2.replace(tzinfo=UTC)
                 dt2 = dt2.astimezone(UTC)
