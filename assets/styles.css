@@ -735,3 +735,12 @@ input:focus, select:focus, button:focus-visible {
   color: var(--muted);
   font-size: 12px; line-height: 1.4;
 }
+
+/* ========== RSS订阅链接（2026-09-27 审查新增） ========== */
+.rss-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 6px;
+}
+.rss-link:hover { text-decoration: underline; }
