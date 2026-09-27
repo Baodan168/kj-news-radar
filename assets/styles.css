@@ -729,44 +729,6 @@ input:focus, select:focus, button:focus-visible {
   -webkit-box-orient: vertical;
 }
 
-/* ========== 今日热点榜（2026-09-27 v2 新增） ========== */
-.hot-topics-wrap {
-  margin: 18px 0;
-  padding: 14px 16px;
-  background: #fff;
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 12px;
-}
-.hot-list { display: flex; flex-direction: column; gap: 2px; }
-.hot-row {
-  display: flex; align-items: center; gap: 12px;
-  padding: 9px 6px;
-  border-bottom: 1px dashed rgba(0,0,0,0.05);
-  text-decoration: none;
-}
-.hot-row:last-child { border-bottom: none; }
-.hot-row:hover { background: rgba(18, 106, 115, 0.04); }
-.hot-rank, .hot-rank-top {
-  flex: 0 0 30px;
-  font-size: 17px; font-weight: 800;
-  color: var(--muted);
-  text-align: center;
-}
-.hot-rank-top { color: #e2543e; }
-.hot-body { flex: 1; min-width: 0; }
-.hot-meta {
-  display: flex; gap: 10px; align-items: center;
-  font-size: 11.5px; line-height: 1.2;
-  color: var(--muted); margin-bottom: 3px;
-}
-.hot-meta strong { color: var(--accent); }
-.hot-title {
-  color: var(--ink);
-  font-size: var(--oa-font-size-body); font-weight: 700;
-  line-height: 1.42;
-  overflow-wrap: anywhere;
-}
-
 /* ========== 卡片理由行（2026-09-27 v2 新增） ========== */
 .why-row { margin-top: 5px; }
 .why-text {
