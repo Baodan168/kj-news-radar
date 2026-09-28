@@ -1,16 +1,22 @@
 {
-"generated_at": "2026-09-28T00:40:30.151613Z",
+"generated_at": "2026-09-28T01:17:30.834511Z",
 "window_hours": 24,
-"total_items": 11,
-"total_items_cross_raw": 18,
-"total_items_raw": 27,
-"total_items_all_mode": 27,
+"total_items": 15,
+"total_items_cross_raw": 29,
+"total_items_raw": 46,
+"total_items_all_mode": 46,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1344,
+"archive_total": 1363,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 5,
+"raw_count": 20
+},
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
@@ -18,16 +24,16 @@
 "raw_count": 11
 },
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 3,
-"raw_count": 13
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 2,
+"raw_count": 11
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 1,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "ecommercenews",
@@ -44,6 +50,110 @@
 ],
 "items": [
 {
+"id": "4574bbf72d3c9f67b3bec77d63b1b7d64b1c9826",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "欧洲监管密集落地，跨境低价直邮模式承压",
+"url": "https://www.ennews.com/article-31920-1.html",
+"published_at": "2026-09-28T08:58:14Z",
+"first_seen_at": "2026-09-28T01:16:37.902199Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"监管"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧洲监管密集落地，跨境低价直邮模式承压"
+},
+{
+"id": "8870e767c1ba78d573be1c514a5f8d13bc740bd9",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊索赔难！跨境卖家利润空间持续承压",
+"url": "https://www.ennews.com/article-31919-1.html",
+"published_at": "2026-09-28T08:56:36Z",
+"first_seen_at": "2026-09-28T01:16:37.902199Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊索赔难！跨境卖家利润空间持续承压"
+},
+{
+"id": "1d876232b2546bca7a8c23eaf9d6202f204fb3c0",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊2026年下调大件FBA配送费，小号大件基础费用降至6.78美元",
+"url": "https://www.amz123.com/kx/kZFLfBre",
+"published_at": null,
+"first_seen_at": "2026-09-28T01:16:37.902199Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊2026年下调大件FBA配送费，小号大件基础费用降至6.78美元"
+},
+{
+"id": "17624e506fdeb654a588c6dd5397de2621ba749c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美国自提网络扩展至近3万个站点，今年取件量预计超1亿件",
+"url": "https://www.amz123.com/kx/mLraoWOO",
+"published_at": null,
+"first_seen_at": "2026-09-28T01:16:37.902199Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国自提网络扩展至近3万个站点，今年取件量预计超1亿件"
+},
+{
 "id": "f32aefaa64ce11daea1e4ac4d9e04ae9fe33b520",
 "site_id": "wearesellers",
 "site_name": "知无不言",
@@ -52,7 +162,7 @@
 "url": "https://www.wearesellers.com/question/124950",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "listing_product",
@@ -77,7 +187,7 @@
 "url": "https://www.wearesellers.com/question/124980",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "fee_logistics",
@@ -102,7 +212,7 @@
 "url": "https://www.wearesellers.com/question/124894",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "seller_action",
@@ -129,7 +239,7 @@
 "url": "https://www.wearesellers.com/question/124979",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "listing_product",
@@ -155,7 +265,7 @@
 "url": "https://www.wearesellers.com/question/124978",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.71,
 "cross_label": "listing_product",
@@ -179,7 +289,7 @@
 "url": "https://www.amz123.com/kx/QfbS11QO",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.67,
 "cross_label": "fee_logistics",
@@ -205,7 +315,7 @@
 "url": "https://www.cifnews.com/article/189169",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -228,7 +338,7 @@
 "url": "https://www.amz123.com/kx/SdYWLeOS",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "fee_logistics",
@@ -252,7 +362,7 @@
 "url": "https://www.amz123.com/kx/tqV5xIfq",
 "published_at": null,
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.62,
 "cross_label": "general",
@@ -276,7 +386,7 @@
 "url": "https://ecommercenews.eu/dhl-ecommerce-looks-for-more-acquisitions-in-eastern-europe",
 "published_at": "2026-09-27T12:27:57Z",
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "seller_action",
@@ -301,7 +411,7 @@
 "url": "https://amalert.co.uk/updates/amazon-dsp-audience-overlap-analysis-and-the-cost-of-reaching-the-same-shopper-twice-e404a191",
 "published_at": "2026-09-26T11:30:00Z",
 "first_seen_at": "2026-09-28T00:40:30.151613Z",
-"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T01:17:30.834511Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -373,7 +483,7 @@
 "site_name": "AMZ123",
 "tier": 2,
 "ok": true,
-"item_count": 28
+"item_count": 21
 },
 {
 "site_id": "ecomengine",
@@ -381,6 +491,13 @@
 "tier": 2,
 "ok": true,
 "item_count": 20
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"tier": 2,
+"ok": true,
+"item_count": 11
 },
 {
 "site_id": "kjds365",
@@ -392,6 +509,13 @@
 {
 "site_id": "marketplace_pulse",
 "site_name": "Marketplace Pulse",
+"tier": 2,
+"ok": true,
+"item_count": 10
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
 "tier": 2,
 "ok": true,
 "item_count": 10
@@ -411,20 +535,6 @@
 "item_count": 0
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"tier": 2,
-"ok": true,
-"item_count": 0
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"tier": 2,
-"ok": true,
-"item_count": 0
-},
-{
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "tier": 3,
@@ -432,5 +542,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 27
+"total_stories": 42
 }

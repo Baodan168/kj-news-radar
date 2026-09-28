@@ -1,27 +1,26 @@
 {
-"generated_at": "2026-09-28T00:40:30.151613Z",
+"generated_at": "2026-09-28T01:17:30.834511Z",
 "window_days": 7,
-"total_items": 585,
+"total_items": 512,
 "daily_counts": {
-"2026-09-21": 92,
 "2026-09-22": 129,
 "2026-09-23": 85,
 "2026-09-24": 102,
 "2026-09-25": 90,
 "2026-09-26": 39,
 "2026-09-27": 21,
-"2026-09-28": 27
+"2026-09-28": 46
 },
 "source_counts": {
-"amz123": 250,
-"ennews": 122,
-"cifnews": 96,
-"wearesellers": 61,
+"amz123": 220,
+"ennews": 110,
+"cifnews": 77,
+"wearesellers": 53,
 "channelx": 18,
 "amazon_newsroom": 17,
-"amzdh": 8,
 "gs_amazon": 4,
 "ecommercenews": 4,
+"amzdh": 4,
 "amazon_ads": 1,
 "ecomengine": 1,
 "amazon_seller_blog": 1,
@@ -29,29 +28,21 @@
 "amalert": 1
 },
 "label_counts": {
-"not_cross": 273,
-"compliance_deadline": 4,
-"fee_logistics": 27,
-"advertising": 29,
-"general": 84,
-"temu": 7,
-"seller_action": 74,
-"platform_trend": 29,
-"listing_product": 24,
-"policy_update": 26,
-"walmart": 2,
-"tiktok": 6
+"not_cross": 239,
+"general": 80,
+"advertising": 19,
+"temu": 6,
+"seller_action": 66,
+"platform_trend": 25,
+"walmart": 3,
+"policy_update": 24,
+"fee_logistics": 23,
+"tiktok": 6,
+"listing_product": 19,
+"compliance_deadline": 2
 },
 "uk_related_count": 7,
 "top_signals": [
-{
-"title": "欧洲站销量回暖但头程延误，亚马逊建议卖家增加1—2周安全库存",
-"url": "https://www.amz123.com/kx/ahQuIaXn",
-"site_id": "amz123",
-"score": 0.97,
-"label": "seller_action",
-"time": "2026-09-21T00:41:02.018303Z"
-},
 {
 "title": "Sellers can now manage sales across Amazon, eBay, Shopify, TikTok, and Walmart from Seller Central",
 "url": "https://www.aboutamazon.com/news/small-business/amazon-seller-central-multichannel-selling-tools",
@@ -83,6 +74,14 @@
 "score": 0.93,
 "label": "policy_update",
 "time": "2026-09-26T00:40:15.112116Z"
+},
+{
+"title": "亚马逊2026年下调大件FBA配送费，小号大件基础费用降至6.78美元",
+"url": "https://www.amz123.com/kx/kZFLfBre",
+"site_id": "amz123",
+"score": 0.93,
+"label": "fee_logistics",
+"time": "2026-09-28T01:16:37.902199Z"
 }
 ]
 }
