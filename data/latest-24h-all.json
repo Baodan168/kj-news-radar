@@ -1,366 +1,18 @@
 {
-"generated_at": "2026-09-27T00:40:26.173696Z",
-"total_items_all_mode": 21,
-"total_items_raw": 21,
+"generated_at": "2026-09-28T00:40:30.151613Z",
+"total_items_all_mode": 27,
+"total_items_raw": 27,
 "items_all": [
 {
-"id": "1cb13addfcfc424aea74a6f0e523186954ceb31d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧洲平台中式月饼销量环比增长16倍，前8月出口额同比增42.7%",
-"url": "https://www.amz123.com/kx/lCCHTgd0",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "欧洲平台中式月饼销量环比增长16倍，前8月出口额同比增42.7%"
-},
-{
-"id": "8be5f3c03964f657c173c803db6c88c0e218c062",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "马士基接管PUMA北美分销网络，230万平方英尺仓库高度自动化",
-"url": "https://www.amz123.com/kx/yifFnlHn",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "马士基接管PUMA北美分销网络，230万平方英尺仓库高度自动化"
-},
-{
-"id": "0adb3843954fb8004838e5484ee1f35862d8358e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利",
-"url": "https://www.amz123.com/kx/L3eq2ZA7",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"关税",
-"关税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利"
-},
-{
-"id": "f436017e808a482ed9c9275e64a5b1cc304b49a2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "USPS审计披露：电商弃件致年收入减少1.63亿美元",
-"url": "https://www.amz123.com/kx/qVxlgFsZ",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.49,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "USPS审计披露：电商弃件致年收入减少1.63亿美元"
-},
-{
-"id": "0a8ebc057a6d86350cfb7f740398296807546e3b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "汉莎货运暂停孟买货机航班至月底，拥堵致卡车排队长达3天",
-"url": "https://www.amz123.com/kx/0Sv6xGpl",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.54,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"货运"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "汉莎货运暂停孟买货机航班至月底，拥堵致卡车排队长达3天"
-},
-{
-"id": "8eac6bc769e8fb37ff7a536e38477be81ca5cf7e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "USPS安装新分拣设备，印第安纳波利斯及路易斯维尔包裹或现延误",
-"url": "https://www.amz123.com/kx/qiBzagdh",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.54,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"包裹"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "USPS安装新分拣设备，印第安纳波利斯及路易斯维尔包裹或现延误"
-},
-{
-"id": "21bc8aee2caf5a73771874cf8c36e3d64079d681",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "跨大西洋现货运价同比上涨72%，船公司10月起计划再度提价",
-"url": "https://www.amz123.com/kx/ccVEDV5v",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.54,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"货运"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨大西洋现货运价同比上涨72%，船公司10月起计划再度提价"
-},
-{
-"id": "440833bc9827e8404cddbc2f462ee7fda5ebcb65",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Google搜索控制台新增多模态搜索类型，可查看Lens等图片流量",
-"url": "https://www.amz123.com/kx/RhjAdHrK",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.49,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"流量"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Google搜索控制台新增多模态搜索类型，可查看Lens等图片流量"
-},
-{
-"id": "e37829a24bbe47cf2b151b604182164aa588221e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "ASOS末季销售恢复增长，活跃客户降至1640万",
-"url": "https://www.amz123.com/kx/9GeuzBzb",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "ASOS末季销售恢复增长，活跃客户降至1640万"
-},
-{
-"id": "54014c0d8c5d06305d74b4a368103d0f4b60016b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries降低自提点开设门槛，30万人口城市可设店中店",
-"url": "https://www.amz123.com/kx/t0OcmWBn",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries降低自提点开设门槛，30万人口城市可设店中店"
-},
-{
-"id": "011a8b000e043b592e7fb6bc2344812a15ccd7c8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon媒体广告新增自动受众功能，卖家无需手动筛选人群",
-"url": "https://www.amz123.com/kx/DYFIBizv",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon媒体广告新增自动受众功能，卖家无需手动筛选人群"
-},
-{
-"id": "d1a29700841726133b81bc061365db2fd36e56ce",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "ChatGPT广告扩展至东南亚七个市场，全球覆盖总数超60个",
-"url": "https://www.amz123.com/kx/vfBO5wrI",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "ChatGPT广告扩展至东南亚七个市场，全球覆盖总数超60个"
-},
-{
-"id": "89f7e15a5f16061acff572ebf58403924ef2edb6",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美国仓直发墨西哥，24小时达服务首批覆盖墨城三地",
-"url": "https://www.amz123.com/kx/srqjJQ7e",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国仓直发墨西哥，24小时达服务首批覆盖墨城三地"
-},
-{
-"id": "1d3b39fa134e80af6f2105316dc6f26549e8a275",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon放宽服装卖家扶持计划，保险费最高全额返还并取消降价申报门槛",
-"url": "https://www.amz123.com/kx/e5kvWR8V",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon放宽服装卖家扶持计划，保险费最高全额返还并取消降价申报门槛"
-},
-{
-"id": "9c7b832aec499bf761752cf1cb5538994e4759c1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "SHEIN墨西哥接入滴滴先享后付服务，最长可分12个月",
-"url": "https://www.amz123.com/kx/OA5gKqgl",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shein"
-],
-"cross_platforms": [
-"shein"
-],
-"cross_sites": [],
-"title_zh": "SHEIN墨西哥接入滴滴先享后付服务，最长可分12个月"
-},
-{
-"id": "5fdb1ce59e946d4f21782dba3cf78cac857204fa",
+"id": "008cc208eee81c343e87563c4775949bb74efa43",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "预警！一批产品暴雷，卖家快下架",
-"url": "https://www.cifnews.com/article/189170",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "预警！一批产品暴雷，卖家快下架"
-},
-{
-"id": "0f7d2fccb04196653deea5925a8c13deb8e1b545",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "海运涨72% ，卖家旺季利润又要没了",
+"title": "海运涨72%，卖家旺季利润又要没了",
 "url": "https://www.cifnews.com/article/189169",
 "published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -369,460 +21,673 @@
 "卖家",
 "卖家"
 ],
+"cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "海运涨72% ，卖家旺季利润又要没了"
+"title_zh": "海运涨72%，卖家旺季利润又要没了"
 },
 {
-"id": "3a994ba589d3fc9fd0aad949ae0be36414846273",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一条视频带来138万销售额！这家宠物工厂逆袭了",
-"url": "https://www.cifnews.com/article/189120",
+"id": "ec541626b0475d0e8a719e804a357cf2deac65c6",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "DHL电商物流制定五年营收翻倍目标，东欧成收购重点",
+"url": "https://www.amz123.com/kx/SdYWLeOS",
 "published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商",
+"dhl",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "DHL电商物流制定五年营收翻倍目标，东欧成收购重点"
+},
+{
+"id": "1f279ca77efbf264020083a663512e83da69ac6e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "达飞10月15日起上调亚洲至拉美运价，每箱涨1000美元",
+"url": "https://www.amz123.com/kx/xJuBb7A9",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": false,
-"cross_score": 0.1,
+"cross_score": 0.15,
 "cross_label": "not_cross",
 "cross_relevance_reason": "missing_cross_border_signal",
 "cross_signals": [],
+"cross_why": "费用调整，直接影响利润率",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "一条视频带来138万销售额！这家宠物工厂逆袭了"
+"title_zh": "达飞10月15日起上调亚洲至拉美运价，每箱涨1000美元"
 },
 {
-"id": "ae57166c955e9dc3e8973be7a5b863e8187b9d9d",
+"id": "783e59a5181f474c35d66f042aef00d6fa0c2a37",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "曼谷50个区全面受灾，Shopee等泰国本土平台延长发货期限",
+"url": "https://www.amz123.com/kx/qKes0Ojd",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shopee"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"shopee"
+],
+"cross_sites": [],
+"title_zh": "曼谷50个区全面受灾，Shopee等泰国本土平台延长发货期限"
+},
+{
+"id": "c90a767da128228a57b87b17f295d940f9abd443",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop越南站将对超10公斤包裹加收物流运营费",
+"url": "https://www.amz123.com/kx/QfbS11QO",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"包裹",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop越南站将对超10公斤包裹加收物流运营费"
+},
+{
+"id": "649d8543a1ad4542797d7d6bbd73729e6f580e7c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "东南亚24%网购者属精明型买家，2026年将贡献115亿美元电商收入",
+"url": "https://www.amz123.com/kx/0rUs3EFq",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.53,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"买家",
+"电商"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "东南亚24%网购者属精明型买家，2026年将贡献115亿美元电商收入"
+},
+{
+"id": "5be7fbfb49c18dd00082cc6065cdb6b4f4733418",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "印尼连查四起非法进口案，30个集装箱涉案货值达273.4亿印尼盾",
+"url": "https://www.amz123.com/kx/mIlzSsbR",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "印尼连查四起非法进口案，30个集装箱涉案货值达273.4亿印尼盾"
+},
+{
+"id": "98e6b6b0817199d31869ef0f3bc9c874ef48aabb",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "天然钻石价格五年跌超五成，培育钻占据美国婚戒市场61%份额",
+"url": "https://www.amz123.com/kx/KEWM1Olk",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "天然钻石价格五年跌超五成，培育钻占据美国婚戒市场61%份额"
+},
+{
+"id": "a160cccadcb2f22f89f5a1065fc76e4083b6d3cd",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美国8月爱好类消费同比增长7.9% 户外与手工用品增速超整体零售",
+"url": "https://www.amz123.com/kx/eyikiNL5",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国8月爱好类消费同比增长7.9% 户外与手工用品增速超整体零售"
+},
+{
+"id": "a3cb0697ab4cb9ad384de0edc18af02db339686d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "AI购物回答逾四分之一引用YouTube内容，创作者长期广告回报优势显著",
+"url": "https://www.amz123.com/kx/70g7zC7i",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AI购物回答逾四分之一引用YouTube内容，创作者长期广告回报优势显著"
+},
+{
+"id": "eb45a253430e1039dea0741f4029358ccde5a915",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "土耳其屏蔽虚假互动服务网站，五星好评、粉丝、加购均在查处范围",
+"url": "https://www.amz123.com/kx/2DaBjtma",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "土耳其屏蔽虚假互动服务网站，五星好评、粉丝、加购均在查处范围"
+},
+{
+"id": "8bfadf13070428ee7ac15f3bc2b0c2f10fd604f9",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Google启动年内第4次垃圾内容更新，商家可按模板类型排查流量异常",
+"url": "https://www.amz123.com/kx/DSeRo2tk",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.49,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"流量"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Google启动年内第4次垃圾内容更新，商家可按模板类型排查流量异常"
+},
+{
+"id": "5f987e7c4d07f8451978e9e5aed78d97b4d087c7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "DHL在美国推出医疗集中仓模式，2030年前全球投入20亿欧元",
+"url": "https://www.amz123.com/kx/tqV5xIfq",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"dhl"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "DHL在美国推出医疗集中仓模式，2030年前全球投入20亿欧元"
+},
+{
+"id": "2645a9cd5c9803451452d4c651d97a91d702b346",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "尼日利亚智能手机持有率升至75%，逾三分之一用户仍处于2G网络",
+"url": "https://www.amz123.com/kx/301wumoQ",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "尼日利亚智能手机持有率升至75%，逾三分之一用户仍处于2G网络"
+},
+{
+"id": "7de97160ed4258e7d8efc8e1ab034ef078785a69",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "圣诞节的产品，眼看竞品越来越多，卖家精灵显示，产品1个自然流量都没有，Vine都送不出去",
-"url": "https://www.wearesellers.com/question/124786",
+"title": "到底有多少亚马逊买家使用AI工具 Alexa shopping 搜索listing？",
+"url": "https://www.wearesellers.com/question/124979",
 "published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"listing",
+"买家"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "到底有多少亚马逊买家使用AI工具 Alexa shopping 搜索listing？"
+},
+{
+"id": "0716b40880801bd0f4139210f059c6a0d49cfa2b",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "研究了几个月AI在亚马逊运营里的落地，我发现最大的坑不是技术，是方向——有没有同路人一起聊聊？",
+"url": "https://www.wearesellers.com/question/124954",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": true,
 "cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "研究了几个月AI在亚马逊运营里的落地，我发现最大的坑不是技术，是方向——有没有同路人一起聊聊？"
+},
+{
+"id": "3aec38948c82b65a0ace81b6aaee5375a3d67b2e",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "从7月写第一个Skill到封装Codex插件：我用AI串了一套亚马逊运营工作流，想聊聊这条路走下来踩了哪些坑",
+"url": "https://www.wearesellers.com/question/124956",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.53,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "从7月写第一个Skill到封装Codex插件：我用AI串了一套亚马逊运营工作流，想聊聊这条路走下来踩了哪些坑"
+},
+{
+"id": "6752d250f7177efe00ae916324ec0d2ff21ca6bd",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊触发了二审，然后我上传了公司的实际流水结果被判欺诈，目前还没有过产品上架售卖。需要准备些什么资料来发送到官方",
+"url": "https://www.wearesellers.com/question/124978",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.71,
 "cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊触发了二审，然后我上传了公司的实际流水结果被判欺诈，目前还没有过产品上架售卖。需要准备些什么资料来发送到官方"
+},
+{
+"id": "b8499e75d4a9260a7af9c956ac64ffdb7b632e38",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "德国站秒杀价被抓取到了之前秒杀价作为参考价再下滑85折，怎样才能恢复秒杀价？",
+"url": "https://www.wearesellers.com/question/124968",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.05,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "德国站秒杀价被抓取到了之前秒杀价作为参考价再下滑85折，怎样才能恢复秒杀价？"
+},
+{
+"id": "f32aefaa64ce11daea1e4ac4d9e04ae9fe33b520",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊无品牌授权小号收到“不适当库存调查”：14天内不申诉将封店，必须视频面试吗？求成功案例、资料清单及审核时效。有类似经历并成功通过审核的朋友，分享一下提交的资料、申诉重点和审核时间线",
+"url": "https://www.wearesellers.com/question/124950",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊无品牌授权小号收到“不适当库存调查”：14天内不申诉将封店，必须视频面试吗？求成功案例、资料清单及审核时效。有类似经历并成功通过审核的朋友，分享一下提交的资料、申诉重点和审核时间线"
+},
+{
+"id": "a9c73bc6dc9654c8927532394d7f3e3d749f9fe0",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "SP Bulk上传老是报错，大家一般怎么排查？有稳一点的流程，比如先小批量试上传，再大？有人会用带校验表格/具先查再导？我这试过 amztool.me感能少踩一些格式坑，但也想听听你们更稳妥的做法",
+"url": "https://www.wearesellers.com/question/124952",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.05,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "SP Bulk上传老是报错，大家一般怎么排查？有稳一点的流程，比如先小批量试上传，再大？有人会用带校验表格/具先查再导？我这试过 amztool.me感能少踩一些格式坑，但也想听听你们更稳妥的做法"
+},
+{
+"id": "3e0d2b20bf37e44356cb1cacf45e31666c2bc3d1",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "cpsc扣押暂停销售之后无条件放行 但是链接与库存无法恢复 cpsc给的回复就是以后整改这批货无条件放行 亚马逊的库存可以不移仓恢复吗 承担不起移仓的费用 这种应该怎么去申诉",
+"url": "https://www.wearesellers.com/question/124980",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "cpsc扣押暂停销售之后无条件放行 但是链接与库存无法恢复 cpsc给的回复就是以后整改这批货无条件放行 亚马逊的库存可以不移仓恢复吗 承担不起移仓的费用 这种应该怎么去申诉"
+},
+{
+"id": "bd8fb14f4f913961456f250cc08505422b5d2985",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "98年的亚马逊运营今年预计有30W工资收入，想业余时间单干tk值得做吗？TK利润率跟亚马逊比孰高孰低？",
+"url": "https://www.wearesellers.com/question/124090",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.41,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "98年的亚马逊运营今年预计有30W工资收入，想业余时间单干tk值得做吗？TK利润率跟亚马逊比孰高孰低？"
+},
+{
+"id": "e83084b7777321ad25a2e62976fcf36501b3b034",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "急急急求助！欧洲站无推广 销量激增，突爆大量付款待验证订单，FBA 库存被锁死，是否竞对恶意下单？",
+"url": "https://www.wearesellers.com/question/124894",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"库存"
+],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_platforms": [
+"fba"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "急急急求助！欧洲站无推广 销量激增，突爆大量付款待验证订单，FBA 库存被锁死，是否竞对恶意下单？"
+},
+{
+"id": "4663907e5031307dae7de802c8f7474cd8f54112",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "整体搜索量比较小的产品推广思路加拿大小站点，看到很多成功的加拿大卖家推广的产品基本上都是自然流量，没有花多少广告费。不知道他们的广告周期以及架构是如何构建的",
+"url": "https://www.wearesellers.com/question/124909",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "卖家",
 "卖家",
 "流量"
 ],
+"cross_why": "广告政策/工具变化，影响投放策略",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "圣诞节的产品，眼看竞品越来越多，卖家精灵显示，产品1个自然流量都没有，Vine都送不出去"
+"title_zh": "整体搜索量比较小的产品推广思路加拿大小站点，看到很多成功的加拿大卖家推广的产品基本上都是自然流量，没有花多少广告费。不知道他们的广告周期以及架构是如何构建的"
 },
 {
-"id": "7c1ba58981870a79054c23de295f03b9e35d06fd",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "作为一个小老板，随便聊聊你们运营的事情：我见证了亚马逊从野蛮生长到内卷淘汰的历程，如今运营若只懂执行、不会主动开发产品，是否注定被行业抛弃？",
-"url": "https://www.wearesellers.com/question/117828",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"id": "5e33113be3cc9cea854cef9248573e47e3843c34",
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"source": "欧洲电商新闻",
+"title": "DHL eCommerce looks for more acquisitions in Eastern Europe",
+"url": "https://ecommercenews.eu/dhl-ecommerce-looks-for-more-acquisitions-in-eastern-europe",
+"published_at": "2026-09-27T12:27:57Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "作为一个小老板，随便聊聊你们运营的事情：我见证了亚马逊从野蛮生长到内卷淘汰的历程，如今运营若只懂执行、不会主动开发产品，是否注定被行业抛弃？"
-},
-{
-"id": "96d36077449626af4b7d05eab5174af7fe61bba1",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "万里汇账户迁移：个人万里汇账户迁移至企业账户是否触发亚马逊审核的风险？我们万里汇的账户经理说这种一定会被审核，万里汇客服说正常情况下不会",
-"url": "https://www.wearesellers.com/question/111372",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.72,
+"cross_score": 0.63,
 "cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"ecommerce",
+"dhl"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "DHL电子商务寻求在东欧进行更多收购"
+},
+{
+"id": "44625c9e61a93e4a73d1bcc3e3e23a55f796b096",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon DSP Audience Overlap Analysis and the Cost of Reaching the Same Shopper Twice",
+"url": "https://amalert.co.uk/updates/amazon-dsp-audience-overlap-analysis-and-the-cost-of-reaching-the-same-shopper-twice-e404a191",
+"published_at": "2026-09-26T11:30:00Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"万里汇",
-"亚马逊",
-"客服"
+"amazon"
 ],
+"cross_why": "跨境电商行业动态",
 "cross_platforms": [
-"亚马逊"
+"amazon"
 ],
 "cross_sites": [],
-"title_zh": "万里汇账户迁移：个人万里汇账户迁移至企业账户是否触发亚马逊审核的风险？我们万里汇的账户经理说这种一定会被审核，万里汇客服说正常情况下不会"
+"title_zh": "Amazon DSP受众重叠分析和两次接触同一购物者的成本"
 }
 ],
 "items_all_raw": [
 {
-"id": "1cb13addfcfc424aea74a6f0e523186954ceb31d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧洲平台中式月饼销量环比增长16倍，前8月出口额同比增42.7%",
-"url": "https://www.amz123.com/kx/lCCHTgd0",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
+"id": "5e33113be3cc9cea854cef9248573e47e3843c34",
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"source": "欧洲电商新闻",
+"title": "DHL eCommerce looks for more acquisitions in Eastern Europe",
+"url": "https://ecommercenews.eu/dhl-ecommerce-looks-for-more-acquisitions-in-eastern-europe",
+"published_at": "2026-09-27T12:27:57Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"ecommerce",
+"dhl"
+],
+"cross_why": "卖家运营相关信号",
 "cross_platforms": [],
 "cross_sites": [
 "eu"
 ],
-"title_zh": "欧洲平台中式月饼销量环比增长16倍，前8月出口额同比增42.7%"
+"title_zh": "DHL电子商务寻求在东欧进行更多收购"
 },
 {
-"id": "8be5f3c03964f657c173c803db6c88c0e218c062",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "马士基接管PUMA北美分销网络，230万平方英尺仓库高度自动化",
-"url": "https://www.amz123.com/kx/yifFnlHn",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "马士基接管PUMA北美分销网络，230万平方英尺仓库高度自动化"
-},
-{
-"id": "0adb3843954fb8004838e5484ee1f35862d8358e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利",
-"url": "https://www.amz123.com/kx/L3eq2ZA7",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"关税",
-"关税"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利"
-},
-{
-"id": "f436017e808a482ed9c9275e64a5b1cc304b49a2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "USPS审计披露：电商弃件致年收入减少1.63亿美元",
-"url": "https://www.amz123.com/kx/qVxlgFsZ",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.49,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "USPS审计披露：电商弃件致年收入减少1.63亿美元"
-},
-{
-"id": "0a8ebc057a6d86350cfb7f740398296807546e3b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "汉莎货运暂停孟买货机航班至月底，拥堵致卡车排队长达3天",
-"url": "https://www.amz123.com/kx/0Sv6xGpl",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.54,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"货运"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "汉莎货运暂停孟买货机航班至月底，拥堵致卡车排队长达3天"
-},
-{
-"id": "8eac6bc769e8fb37ff7a536e38477be81ca5cf7e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "USPS安装新分拣设备，印第安纳波利斯及路易斯维尔包裹或现延误",
-"url": "https://www.amz123.com/kx/qiBzagdh",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.54,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"包裹"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "USPS安装新分拣设备，印第安纳波利斯及路易斯维尔包裹或现延误"
-},
-{
-"id": "21bc8aee2caf5a73771874cf8c36e3d64079d681",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "跨大西洋现货运价同比上涨72%，船公司10月起计划再度提价",
-"url": "https://www.amz123.com/kx/ccVEDV5v",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.54,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"货运"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "跨大西洋现货运价同比上涨72%，船公司10月起计划再度提价"
-},
-{
-"id": "440833bc9827e8404cddbc2f462ee7fda5ebcb65",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Google搜索控制台新增多模态搜索类型，可查看Lens等图片流量",
-"url": "https://www.amz123.com/kx/RhjAdHrK",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.49,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"流量"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Google搜索控制台新增多模态搜索类型，可查看Lens等图片流量"
-},
-{
-"id": "e37829a24bbe47cf2b151b604182164aa588221e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "ASOS末季销售恢复增长，活跃客户降至1640万",
-"url": "https://www.amz123.com/kx/9GeuzBzb",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "ASOS末季销售恢复增长，活跃客户降至1640万"
-},
-{
-"id": "54014c0d8c5d06305d74b4a368103d0f4b60016b",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries降低自提点开设门槛，30万人口城市可设店中店",
-"url": "https://www.amz123.com/kx/t0OcmWBn",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries降低自提点开设门槛，30万人口城市可设店中店"
-},
-{
-"id": "011a8b000e043b592e7fb6bc2344812a15ccd7c8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon媒体广告新增自动受众功能，卖家无需手动筛选人群",
-"url": "https://www.amz123.com/kx/DYFIBizv",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon媒体广告新增自动受众功能，卖家无需手动筛选人群"
-},
-{
-"id": "d1a29700841726133b81bc061365db2fd36e56ce",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "ChatGPT广告扩展至东南亚七个市场，全球覆盖总数超60个",
-"url": "https://www.amz123.com/kx/vfBO5wrI",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "ChatGPT广告扩展至东南亚七个市场，全球覆盖总数超60个"
-},
-{
-"id": "89f7e15a5f16061acff572ebf58403924ef2edb6",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美国仓直发墨西哥，24小时达服务首批覆盖墨城三地",
-"url": "https://www.amz123.com/kx/srqjJQ7e",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"id": "44625c9e61a93e4a73d1bcc3e3e23a55f796b096",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon DSP Audience Overlap Analysis and the Cost of Reaching the Same Shopper Twice",
+"url": "https://amalert.co.uk/updates/amazon-dsp-audience-overlap-analysis-and-the-cost-of-reaching-the-same-shopper-twice-e404a191",
+"published_at": "2026-09-26T11:30:00Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"amazon"
 ],
+"cross_why": "跨境电商行业动态",
 "cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国仓直发墨西哥，24小时达服务首批覆盖墨城三地"
-},
-{
-"id": "1d3b39fa134e80af6f2105316dc6f26549e8a275",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon放宽服装卖家扶持计划，保险费最高全额返还并取消降价申报门槛",
-"url": "https://www.amz123.com/kx/e5kvWR8V",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_platforms": [
-"ozon"
+"amazon"
 ],
 "cross_sites": [],
-"title_zh": "Ozon放宽服装卖家扶持计划，保险费最高全额返还并取消降价申报门槛"
+"title_zh": "Amazon DSP受众重叠分析和两次接触同一购物者的成本"
 },
 {
-"id": "9c7b832aec499bf761752cf1cb5538994e4759c1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "SHEIN墨西哥接入滴滴先享后付服务，最长可分12个月",
-"url": "https://www.amz123.com/kx/OA5gKqgl",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shein"
-],
-"cross_platforms": [
-"shein"
-],
-"cross_sites": [],
-"title_zh": "SHEIN墨西哥接入滴滴先享后付服务，最长可分12个月"
-},
-{
-"id": "5fdb1ce59e946d4f21782dba3cf78cac857204fa",
+"id": "008cc208eee81c343e87563c4775949bb74efa43",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "预警！一批产品暴雷，卖家快下架",
-"url": "https://www.cifnews.com/article/189170",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "预警！一批产品暴雷，卖家快下架"
-},
-{
-"id": "0f7d2fccb04196653deea5925a8c13deb8e1b545",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "海运涨72% ，卖家旺季利润又要没了",
+"title": "海运涨72%，卖家旺季利润又要没了",
 "url": "https://www.cifnews.com/article/189169",
 "published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "platform_trend",
@@ -831,99 +696,562 @@
 "卖家",
 "卖家"
 ],
+"cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "海运涨72% ，卖家旺季利润又要没了"
+"title_zh": "海运涨72%，卖家旺季利润又要没了"
 },
 {
-"id": "3a994ba589d3fc9fd0aad949ae0be36414846273",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一条视频带来138万销售额！这家宠物工厂逆袭了",
-"url": "https://www.cifnews.com/article/189120",
+"id": "ec541626b0475d0e8a719e804a357cf2deac65c6",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "DHL电商物流制定五年营收翻倍目标，东欧成收购重点",
+"url": "https://www.amz123.com/kx/SdYWLeOS",
 "published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商",
+"dhl",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "DHL电商物流制定五年营收翻倍目标，东欧成收购重点"
+},
+{
+"id": "1f279ca77efbf264020083a663512e83da69ac6e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "达飞10月15日起上调亚洲至拉美运价，每箱涨1000美元",
+"url": "https://www.amz123.com/kx/xJuBb7A9",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": false,
-"cross_score": 0.1,
+"cross_score": 0.15,
 "cross_label": "not_cross",
 "cross_relevance_reason": "missing_cross_border_signal",
 "cross_signals": [],
+"cross_why": "费用调整，直接影响利润率",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "一条视频带来138万销售额！这家宠物工厂逆袭了"
+"title_zh": "达飞10月15日起上调亚洲至拉美运价，每箱涨1000美元"
 },
 {
-"id": "ae57166c955e9dc3e8973be7a5b863e8187b9d9d",
+"id": "783e59a5181f474c35d66f042aef00d6fa0c2a37",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "曼谷50个区全面受灾，Shopee等泰国本土平台延长发货期限",
+"url": "https://www.amz123.com/kx/qKes0Ojd",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shopee"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"shopee"
+],
+"cross_sites": [],
+"title_zh": "曼谷50个区全面受灾，Shopee等泰国本土平台延长发货期限"
+},
+{
+"id": "c90a767da128228a57b87b17f295d940f9abd443",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop越南站将对超10公斤包裹加收物流运营费",
+"url": "https://www.amz123.com/kx/QfbS11QO",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"包裹",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop越南站将对超10公斤包裹加收物流运营费"
+},
+{
+"id": "649d8543a1ad4542797d7d6bbd73729e6f580e7c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "东南亚24%网购者属精明型买家，2026年将贡献115亿美元电商收入",
+"url": "https://www.amz123.com/kx/0rUs3EFq",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.53,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"买家",
+"电商"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "东南亚24%网购者属精明型买家，2026年将贡献115亿美元电商收入"
+},
+{
+"id": "5be7fbfb49c18dd00082cc6065cdb6b4f4733418",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "印尼连查四起非法进口案，30个集装箱涉案货值达273.4亿印尼盾",
+"url": "https://www.amz123.com/kx/mIlzSsbR",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "印尼连查四起非法进口案，30个集装箱涉案货值达273.4亿印尼盾"
+},
+{
+"id": "98e6b6b0817199d31869ef0f3bc9c874ef48aabb",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "天然钻石价格五年跌超五成，培育钻占据美国婚戒市场61%份额",
+"url": "https://www.amz123.com/kx/KEWM1Olk",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "天然钻石价格五年跌超五成，培育钻占据美国婚戒市场61%份额"
+},
+{
+"id": "a160cccadcb2f22f89f5a1065fc76e4083b6d3cd",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美国8月爱好类消费同比增长7.9% 户外与手工用品增速超整体零售",
+"url": "https://www.amz123.com/kx/eyikiNL5",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国8月爱好类消费同比增长7.9% 户外与手工用品增速超整体零售"
+},
+{
+"id": "a3cb0697ab4cb9ad384de0edc18af02db339686d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "AI购物回答逾四分之一引用YouTube内容，创作者长期广告回报优势显著",
+"url": "https://www.amz123.com/kx/70g7zC7i",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AI购物回答逾四分之一引用YouTube内容，创作者长期广告回报优势显著"
+},
+{
+"id": "eb45a253430e1039dea0741f4029358ccde5a915",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "土耳其屏蔽虚假互动服务网站，五星好评、粉丝、加购均在查处范围",
+"url": "https://www.amz123.com/kx/2DaBjtma",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "土耳其屏蔽虚假互动服务网站，五星好评、粉丝、加购均在查处范围"
+},
+{
+"id": "8bfadf13070428ee7ac15f3bc2b0c2f10fd604f9",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Google启动年内第4次垃圾内容更新，商家可按模板类型排查流量异常",
+"url": "https://www.amz123.com/kx/DSeRo2tk",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.49,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"流量"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Google启动年内第4次垃圾内容更新，商家可按模板类型排查流量异常"
+},
+{
+"id": "5f987e7c4d07f8451978e9e5aed78d97b4d087c7",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "DHL在美国推出医疗集中仓模式，2030年前全球投入20亿欧元",
+"url": "https://www.amz123.com/kx/tqV5xIfq",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"dhl"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "DHL在美国推出医疗集中仓模式，2030年前全球投入20亿欧元"
+},
+{
+"id": "2645a9cd5c9803451452d4c651d97a91d702b346",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "尼日利亚智能手机持有率升至75%，逾三分之一用户仍处于2G网络",
+"url": "https://www.amz123.com/kx/301wumoQ",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "尼日利亚智能手机持有率升至75%，逾三分之一用户仍处于2G网络"
+},
+{
+"id": "7de97160ed4258e7d8efc8e1ab034ef078785a69",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "圣诞节的产品，眼看竞品越来越多，卖家精灵显示，产品1个自然流量都没有，Vine都送不出去",
-"url": "https://www.wearesellers.com/question/124786",
+"title": "到底有多少亚马逊买家使用AI工具 Alexa shopping 搜索listing？",
+"url": "https://www.wearesellers.com/question/124979",
 "published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"listing",
+"买家"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "到底有多少亚马逊买家使用AI工具 Alexa shopping 搜索listing？"
+},
+{
+"id": "0716b40880801bd0f4139210f059c6a0d49cfa2b",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "研究了几个月AI在亚马逊运营里的落地，我发现最大的坑不是技术，是方向——有没有同路人一起聊聊？",
+"url": "https://www.wearesellers.com/question/124954",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
 "cross_is_related": true,
 "cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "研究了几个月AI在亚马逊运营里的落地，我发现最大的坑不是技术，是方向——有没有同路人一起聊聊？"
+},
+{
+"id": "3aec38948c82b65a0ace81b6aaee5375a3d67b2e",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "从7月写第一个Skill到封装Codex插件：我用AI串了一套亚马逊运营工作流，想聊聊这条路走下来踩了哪些坑",
+"url": "https://www.wearesellers.com/question/124956",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.53,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "从7月写第一个Skill到封装Codex插件：我用AI串了一套亚马逊运营工作流，想聊聊这条路走下来踩了哪些坑"
+},
+{
+"id": "6752d250f7177efe00ae916324ec0d2ff21ca6bd",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊触发了二审，然后我上传了公司的实际流水结果被判欺诈，目前还没有过产品上架售卖。需要准备些什么资料来发送到官方",
+"url": "https://www.wearesellers.com/question/124978",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.71,
 "cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊触发了二审，然后我上传了公司的实际流水结果被判欺诈，目前还没有过产品上架售卖。需要准备些什么资料来发送到官方"
+},
+{
+"id": "b8499e75d4a9260a7af9c956ac64ffdb7b632e38",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "德国站秒杀价被抓取到了之前秒杀价作为参考价再下滑85折，怎样才能恢复秒杀价？",
+"url": "https://www.wearesellers.com/question/124968",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.05,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "德国站秒杀价被抓取到了之前秒杀价作为参考价再下滑85折，怎样才能恢复秒杀价？"
+},
+{
+"id": "f32aefaa64ce11daea1e4ac4d9e04ae9fe33b520",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊无品牌授权小号收到“不适当库存调查”：14天内不申诉将封店，必须视频面试吗？求成功案例、资料清单及审核时效。有类似经历并成功通过审核的朋友，分享一下提交的资料、申诉重点和审核时间线",
+"url": "https://www.wearesellers.com/question/124950",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊无品牌授权小号收到“不适当库存调查”：14天内不申诉将封店，必须视频面试吗？求成功案例、资料清单及审核时效。有类似经历并成功通过审核的朋友，分享一下提交的资料、申诉重点和审核时间线"
+},
+{
+"id": "a9c73bc6dc9654c8927532394d7f3e3d749f9fe0",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "SP Bulk上传老是报错，大家一般怎么排查？有稳一点的流程，比如先小批量试上传，再大？有人会用带校验表格/具先查再导？我这试过 amztool.me感能少踩一些格式坑，但也想听听你们更稳妥的做法",
+"url": "https://www.wearesellers.com/question/124952",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": false,
+"cross_score": 0.05,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "SP Bulk上传老是报错，大家一般怎么排查？有稳一点的流程，比如先小批量试上传，再大？有人会用带校验表格/具先查再导？我这试过 amztool.me感能少踩一些格式坑，但也想听听你们更稳妥的做法"
+},
+{
+"id": "3e0d2b20bf37e44356cb1cacf45e31666c2bc3d1",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "cpsc扣押暂停销售之后无条件放行 但是链接与库存无法恢复 cpsc给的回复就是以后整改这批货无条件放行 亚马逊的库存可以不移仓恢复吗 承担不起移仓的费用 这种应该怎么去申诉",
+"url": "https://www.wearesellers.com/question/124980",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "cpsc扣押暂停销售之后无条件放行 但是链接与库存无法恢复 cpsc给的回复就是以后整改这批货无条件放行 亚马逊的库存可以不移仓恢复吗 承担不起移仓的费用 这种应该怎么去申诉"
+},
+{
+"id": "bd8fb14f4f913961456f250cc08505422b5d2985",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "98年的亚马逊运营今年预计有30W工资收入，想业余时间单干tk值得做吗？TK利润率跟亚马逊比孰高孰低？",
+"url": "https://www.wearesellers.com/question/124090",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.41,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "98年的亚马逊运营今年预计有30W工资收入，想业余时间单干tk值得做吗？TK利润率跟亚马逊比孰高孰低？"
+},
+{
+"id": "e83084b7777321ad25a2e62976fcf36501b3b034",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "急急急求助！欧洲站无推广 销量激增，突爆大量付款待验证订单，FBA 库存被锁死，是否竞对恶意下单？",
+"url": "https://www.wearesellers.com/question/124894",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"库存"
+],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_platforms": [
+"fba"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "急急急求助！欧洲站无推广 销量激增，突爆大量付款待验证订单，FBA 库存被锁死，是否竞对恶意下单？"
+},
+{
+"id": "4663907e5031307dae7de802c8f7474cd8f54112",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "整体搜索量比较小的产品推广思路加拿大小站点，看到很多成功的加拿大卖家推广的产品基本上都是自然流量，没有花多少广告费。不知道他们的广告周期以及架构是如何构建的",
+"url": "https://www.wearesellers.com/question/124909",
+"published_at": null,
+"first_seen_at": "2026-09-28T00:40:30.151613Z",
+"last_seen_at": "2026-09-28T00:40:30.151613Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "卖家",
 "卖家",
 "流量"
 ],
+"cross_why": "广告政策/工具变化，影响投放策略",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "圣诞节的产品，眼看竞品越来越多，卖家精灵显示，产品1个自然流量都没有，Vine都送不出去"
-},
-{
-"id": "7c1ba58981870a79054c23de295f03b9e35d06fd",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "作为一个小老板，随便聊聊你们运营的事情：我见证了亚马逊从野蛮生长到内卷淘汰的历程，如今运营若只懂执行、不会主动开发产品，是否注定被行业抛弃？",
-"url": "https://www.wearesellers.com/question/117828",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "作为一个小老板，随便聊聊你们运营的事情：我见证了亚马逊从野蛮生长到内卷淘汰的历程，如今运营若只懂执行、不会主动开发产品，是否注定被行业抛弃？"
-},
-{
-"id": "96d36077449626af4b7d05eab5174af7fe61bba1",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "万里汇账户迁移：个人万里汇账户迁移至企业账户是否触发亚马逊审核的风险？我们万里汇的账户经理说这种一定会被审核，万里汇客服说正常情况下不会",
-"url": "https://www.wearesellers.com/question/111372",
-"published_at": null,
-"first_seen_at": "2026-09-27T00:40:26.173696Z",
-"last_seen_at": "2026-09-27T00:40:26.173696Z",
-"cross_is_related": true,
-"cross_score": 0.72,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"万里汇",
-"亚马逊",
-"客服"
-],
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "万里汇账户迁移：个人万里汇账户迁移至企业账户是否触发亚马逊审核的风险？我们万里汇的账户经理说这种一定会被审核，万里汇客服说正常情况下不会"
+"title_zh": "整体搜索量比较小的产品推广思路加拿大小站点，看到很多成功的加拿大卖家推广的产品基本上都是自然流量，没有花多少广告费。不知道他们的广告周期以及架构是如何构建的"
 }
 ]
 }
