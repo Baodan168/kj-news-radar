@@ -1,42 +1,42 @@
 {
-"generated_at": "2026-09-30T00:40:53.648571Z",
+"generated_at": "2026-10-01T00:40:57.094216Z",
 "window_days": 7,
-"total_items": 464,
+"total_items": 471,
 "daily_counts": {
-"2026-09-24": 102,
 "2026-09-25": 90,
 "2026-09-26": 39,
 "2026-09-27": 21,
 "2026-09-28": 46,
 "2026-09-29": 90,
-"2026-09-30": 76
+"2026-09-30": 76,
+"2026-10-01": 109
 },
 "source_counts": {
-"amz123": 191,
+"amz123": 188,
 "ennews": 98,
 "cifnews": 74,
-"wearesellers": 52,
-"channelx": 20,
+"wearesellers": 60,
+"channelx": 18,
 "amazon_newsroom": 12,
+"amzdh": 7,
 "ecommercenews": 5,
-"amzdh": 4,
+"amazon_ads": 3,
 "gs_amazon": 2,
 "amalert": 2,
-"amazon_ads": 2,
-"amazon_seller_blog": 1,
-"marketplace_pulse": 1
+"marketplace_pulse": 1,
+"sp_api": 1
 },
 "label_counts": {
+"tiktok": 5,
+"general": 74,
 "not_cross": 211,
-"general": 79,
 "seller_action": 62,
-"temu": 4,
-"listing_product": 22,
-"policy_update": 17,
-"platform_trend": 18,
-"tiktok": 6,
 "fee_logistics": 21,
-"advertising": 18,
+"advertising": 20,
+"platform_trend": 18,
+"policy_update": 22,
+"temu": 2,
+"listing_product": 30,
 "compliance_deadline": 2,
 "walmart": 3,
 "domestic_ecommerce_noise": 1
@@ -60,14 +60,6 @@
 "time": "2026-09-25T00:40:06.359072Z"
 },
 {
-"title": "亚马逊前台迎多项调整：搜索取消分页，卖家排名判断方式或改变",
-"url": "https://www.amz123.com/kx/DyMCvMv8",
-"site_id": "amz123",
-"score": 0.93,
-"label": "seller_action",
-"time": "2026-09-24T00:40:37.284095Z"
-},
-{
 "title": "亚马逊全球仓配扩展至8国，合规测试一次覆盖多国",
 "url": "https://www.amz123.com/kx/vwyUDFFz",
 "site_id": "amz123",
@@ -82,6 +74,14 @@
 "score": 0.93,
 "label": "fee_logistics",
 "time": "2026-09-28T01:16:37.902199Z"
+},
+{
+"title": "亚马逊卖家注意：一次测试多国复用，全球合规成本正在出现新变化",
+"url": "https://www.cifnews.com/article/189251",
+"site_id": "cifnews",
+"score": 0.92,
+"label": "policy_update",
+"time": "2026-10-01T00:40:57.094216Z"
 }
 ]
 }
