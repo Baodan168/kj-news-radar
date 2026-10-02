@@ -1,64 +1,46 @@
 {
-"generated_at": "2026-10-01T00:40:57.094216Z",
+"generated_at": "2026-10-02T00:40:16.498883Z",
 "window_days": 7,
-"total_items": 471,
+"total_items": 426,
 "daily_counts": {
-"2026-09-25": 90,
 "2026-09-26": 39,
 "2026-09-27": 21,
 "2026-09-28": 46,
 "2026-09-29": 90,
 "2026-09-30": 76,
-"2026-10-01": 109
+"2026-10-01": 109,
+"2026-10-02": 45
 },
 "source_counts": {
-"amz123": 188,
-"ennews": 98,
-"cifnews": 74,
-"wearesellers": 60,
-"channelx": 18,
+"amz123": 172,
+"ennews": 76,
+"wearesellers": 63,
+"cifnews": 59,
+"channelx": 22,
 "amazon_newsroom": 12,
 "amzdh": 7,
-"ecommercenews": 5,
-"amazon_ads": 3,
-"gs_amazon": 2,
-"amalert": 2,
-"marketplace_pulse": 1,
+"ecommercenews": 6,
+"amalert": 4,
+"amazon_ads": 4,
 "sp_api": 1
 },
 "label_counts": {
-"tiktok": 5,
-"general": 74,
-"not_cross": 211,
-"seller_action": 62,
-"fee_logistics": 21,
-"advertising": 20,
-"platform_trend": 18,
-"policy_update": 22,
-"temu": 2,
+"general": 70,
+"not_cross": 188,
+"tiktok": 4,
+"seller_action": 60,
+"platform_trend": 17,
+"policy_update": 20,
 "listing_product": 30,
-"compliance_deadline": 2,
+"advertising": 19,
+"compliance_deadline": 1,
+"fee_logistics": 11,
 "walmart": 3,
-"domestic_ecommerce_noise": 1
+"domestic_ecommerce_noise": 1,
+"temu": 2
 },
-"uk_related_count": 5,
+"uk_related_count": 2,
 "top_signals": [
-{
-"title": "Sellers can now manage sales across Amazon, eBay, Shopify, TikTok, and Walmart from Seller Central",
-"url": "https://www.aboutamazon.com/news/small-business/amazon-seller-central-multichannel-selling-tools",
-"site_id": "amazon_newsroom",
-"score": 0.97,
-"label": "tiktok",
-"time": "2026-09-25T00:40:06.359072Z"
-},
-{
-"title": "亚马逊MCF折扣上限提升至25% 独立站免费Prime配送全面开放",
-"url": "https://www.amz123.com/kx/YeKAMavg",
-"site_id": "amz123",
-"score": 0.97,
-"label": "fee_logistics",
-"time": "2026-09-25T00:40:06.359072Z"
-},
 {
 "title": "亚马逊全球仓配扩展至8国，合规测试一次覆盖多国",
 "url": "https://www.amz123.com/kx/vwyUDFFz",
@@ -76,12 +58,28 @@
 "time": "2026-09-28T01:16:37.902199Z"
 },
 {
+"title": "亚马逊10月起开放大件零担标签，卖家可享议定费率",
+"url": "https://www.amz123.com/kx/be3txtki",
+"site_id": "amz123",
+"score": 0.93,
+"label": "seller_action",
+"time": "2026-10-02T00:40:16.498883Z"
+},
+{
 "title": "亚马逊卖家注意：一次测试多国复用，全球合规成本正在出现新变化",
 "url": "https://www.cifnews.com/article/189251",
 "site_id": "cifnews",
 "score": 0.92,
 "label": "policy_update",
 "time": "2026-10-01T00:40:57.094216Z"
+},
+{
+"title": "Amazon Ads Inventory Management Unified APIs now generally available",
+"url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index",
+"site_id": "amazon_ads",
+"score": 0.91,
+"label": "general",
+"time": "2026-09-30T00:40:53.648571Z"
 }
 ]
 }

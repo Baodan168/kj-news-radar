@@ -1,39 +1,39 @@
 {
-"generated_at": "2026-10-01T00:40:57.094216Z",
+"generated_at": "2026-10-02T00:40:16.498883Z",
 "window_hours": 24,
-"total_items": 25,
-"total_items_cross_raw": 62,
-"total_items_raw": 109,
-"total_items_all_mode": 109,
+"total_items": 31,
+"total_items_cross_raw": 84,
+"total_items_raw": 154,
+"total_items_all_mode": 154,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1638,
+"archive_total": 1683,
 "site_count": 16,
-"source_count": 8,
+"source_count": 10,
 "site_stats": [
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 8,
+"raw_count": 59
+},
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 20
-},
-{
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 6,
-"raw_count": 37
+"raw_count": 25
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 14
+"raw_count": 20
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
-"count": 2,
-"raw_count": 5
+"count": 4,
+"raw_count": 8
 },
 {
 "site_id": "ennews",
@@ -42,16 +42,28 @@
 "raw_count": 22
 },
 {
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 1,
+"raw_count": 6
+},
+{
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "count": 1,
 "raw_count": 7
 },
 {
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"count": 1,
+"raw_count": 2
+},
+{
 "site_id": "amazon_ads",
 "site_name": "Amazon Ads 更新",
 "count": 1,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "sp_api",
@@ -60,13 +72,257 @@
 "raw_count": 1
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
 "count": 0,
 "raw_count": 2
 }
 ],
 "items": [
+{
+"id": "7f35c2b1c7ac4008d8142e18240212cb8a625f1a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊10月起开放大件零担标签，卖家可享议定费率",
+"url": "https://www.amz123.com/kx/be3txtki",
+"published_at": null,
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊10月起开放大件零担标签，卖家可享议定费率"
+},
+{
+"id": "08738538dd7323941fa46d10820538b2ac5106b6",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊广告新工具Branded Conversations计划2027年1月在美上线",
+"url": "https://www.amz123.com/kx/ThkFlooK",
+"published_at": null,
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊广告新工具Branded Conversations计划2027年1月在美上线"
+},
+{
+"id": "0b934697b195a11112cbf7c81f17ad549ca5b35d",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊重复创建ASIN店铺停用-解析！",
+"url": "https://www.wearesellers.com/question/125091",
+"published_at": null,
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"asin",
+"店铺"
+],
+"cross_why": "产品/listing 相关更新",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊重复创建ASIN店铺停用-解析！"
+},
+{
+"id": "4896e65f291a8771c6f2059753fef7b59bc7fe8e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "向世界，见新解 | 2026亚马逊广告合作伙伴奖获奖名单正式揭晓",
+"url": "https://www.cifnews.com/article/189260",
+"published_at": null,
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "向世界，见新解 | 2026亚马逊广告合作伙伴奖获奖名单正式揭晓"
+},
+{
+"id": "812f3f8fa42877208c9340d6795bc9c27ff77ece",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美国邮政与亚马逊启动同日达投递试点",
+"url": "https://www.amz123.com/kx/sVYnMC5G",
+"published_at": null,
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"邮政"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国邮政与亚马逊启动同日达投递试点"
+},
+{
+"id": "429c55b16d1d21b73acc4b10c83e7219ec11f678",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯税务局拟要求平台两天内屏蔽不合规卖家搜索展示",
+"url": "https://www.amz123.com/kx/rFMiVl0W",
+"published_at": null,
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"合规"
+],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯税务局拟要求平台两天内屏蔽不合规卖家搜索展示"
+},
+{
+"id": "f38af922297d2bfb3f499d1d1c211eee58ea4350",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德国超六成商家全额承担退货运费，较上年提升11个百分点",
+"url": "https://www.amz123.com/kx/6i5yTv6o",
+"published_at": null,
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"退货",
+"货运"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国超六成商家全额承担退货运费，较上年提升11个百分点"
+},
+{
+"id": "f5e186370e9a3519b51c2d8397e79a8ab8a310ef",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "5 ways Amazon is investing in New Jersey",
+"url": "https://www.aboutamazon.com/news/community/amazon-investment-new-jersey-jobs-infrastructure-small-business",
+"published_at": "2026-10-01T15:29:41Z",
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在新泽西州投资的5种方式"
+},
+{
+"id": "dbd3ad48b1f7ad3871af48f8a9a7ee2c62263b00",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon introduces a completely redesigned Kindle family",
+"url": "https://www.aboutamazon.com/news/devices/new-kindle-lineup-2026",
+"published_at": "2026-10-01T12:50:13Z",
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊推出全新设计的Kindle系列"
+},
+{
+"id": "134d74376cbb78407798f4aa19a510371c14fbac",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Webinar Replay: International eCommerce 2027",
+"url": "https://channelx.world/2026/10/webinar-replay-international-ecommerce-2027",
+"published_at": "2026-10-01T09:42:03Z",
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"ecommerce"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "网络研讨会重播：国际电子商务2027"
+},
 {
 "id": "8543c2474872bd67a35ad071c50f1f18e05d77b4",
 "site_id": "cifnews",
@@ -76,7 +332,7 @@
 "url": "https://www.cifnews.com/article/189251",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.92,
 "cross_label": "policy_update",
@@ -103,7 +359,7 @@
 "url": "https://www.cifnews.com/article/189242",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "policy_update",
@@ -129,7 +385,7 @@
 "url": "https://www.cifnews.com/article/189235",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "fee_logistics",
@@ -154,7 +410,7 @@
 "url": "https://www.wearesellers.com/question/125082",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.87,
 "cross_label": "listing_product",
@@ -183,7 +439,7 @@
 "url": "https://www.wearesellers.com/question/125051",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "general",
@@ -194,8 +450,8 @@
 ],
 "cross_why": "账号安全类信号，涉及封号/申诉风险",
 "cross_platforms": [
-"fba",
-"亚马逊"
+"亚马逊",
+"fba"
 ],
 "cross_sites": [
 "us"
@@ -238,7 +494,7 @@
 "url": "https://www.cifnews.com/article/189246",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "policy_update",
@@ -290,7 +546,7 @@
 "url": "https://www.cifnews.com/article/189252",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -339,7 +595,7 @@
 "url": "https://www.cifnews.com/article/189238",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "policy_update",
@@ -362,7 +618,7 @@
 "url": "https://www.amz123.com/kx/ZcO5hzKP",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.69,
 "cross_label": "general",
@@ -384,7 +640,7 @@
 "url": "https://www.amzdh.com/kjtt/10489.html",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "advertising",
@@ -398,28 +654,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊广告重磅升级！统一平台更名AI智能体"
-},
-{
-"id": "a01fbab43c8f30589a4597fcbabe086e27f73e6f",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "26-cv-11944 | YouTube顶流科普博主出手！Domain of Science一纸TRO封杀144家跨境侵权店",
-"url": "https://www.cifnews.com/article/189244",
-"published_at": null,
-"first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "26-cv-11944 | YouTube顶流科普博主出手！Domain of Science一纸TRO封杀144家跨境侵权店"
 },
 {
 "id": "4846586a7ec2c989be035b1f112bce49c30176ad",
@@ -449,78 +683,6 @@
 "title_zh": "TikTok Shop接入免包装退货服务，覆盖美国近1万个退货点"
 },
 {
-"id": "10032c363962201d95066d3e0f60c55fc4c0e2d1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德法推动欧盟打造欧版301工具，商务部：将坚决回应",
-"url": "https://www.amz123.com/kx/D2lbeZp4",
-"published_at": null,
-"first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"商务部"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德法推动欧盟打造欧版301工具，商务部：将坚决回应"
-},
-{
-"id": "79528de07132ddca7d396df02d7c66cbe50cd5d9",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries上线中国商品批发采购服务，最低起订额10万卢布",
-"url": "https://www.amz123.com/kx/AqAlCcvB",
-"published_at": null,
-"first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries",
-"批发",
-"采购"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries上线中国商品批发采购服务，最低起订额10万卢布"
-},
-{
-"id": "9e49f9f095a65f9267ea1faad3a943b03aad202e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "巴西Anvisa向美客多发出正式通知，要求说明平台中介处方药销售的法律依据",
-"url": "https://www.amz123.com/kx/8SjgGIwi",
-"published_at": null,
-"first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"美客多"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"美客多"
-],
-"cross_sites": [],
-"title_zh": "巴西Anvisa向美客多发出正式通知，要求说明平台中介处方药销售的法律依据"
-},
-{
 "id": "94fde4350f07f08bce51b9ee3796aad8e33360f3",
 "site_id": "wearesellers",
 "site_name": "知无不言",
@@ -529,7 +691,7 @@
 "url": "https://www.wearesellers.com/question/125083",
 "published_at": null,
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -546,31 +708,6 @@
 "title_zh": "有电商+微开发经验背景，想转行做亚马逊运营但0经验，不知如何定位求职、准备面试？简历上怎么写才能让HR觉得这人虽然没做过亚马逊但有基础？求前辈指条路"
 },
 {
-"id": "b497e0f25db210966a735ecb934a40e1762d42df",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊店铺未经授权的第三方侵入通知+设置Passkey，现在进不去店铺了，登录密码也没法改了，passkey又绑定上了。这个大家有遇到过吗？要怎么办呢？",
-"url": "https://www.wearesellers.com/question/125061",
-"published_at": null,
-"first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"店铺"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊店铺未经授权的第三方侵入通知+设置Passkey，现在进不去店铺了，登录密码也没法改了，passkey又绑定上了。这个大家有遇到过吗？要怎么办呢？"
-},
-{
 "id": "1369df42133bd2136d5f6325d6549c3940e4d8b6",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
@@ -579,9 +716,9 @@
 "url": "https://www.aboutamazon.com/news/community/amazon-arlington-virginia-news",
 "published_at": "2026-09-30T18:41:00Z",
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
-"cross_score": 0.71,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -603,7 +740,7 @@
 "url": "https://www.ennews.com/news-145559.html",
 "published_at": "2026-09-30T15:36:08Z",
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -627,9 +764,9 @@
 "url": "https://www.ennews.com/article-31925-1.html",
 "published_at": "2026-09-30T11:15:17Z",
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
-"cross_score": 0.8,
+"cross_score": 0.75,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -653,16 +790,39 @@
 "url": "https://www.aboutamazon.com/news/retail/prime-big-deal-days-best-deals-savings-2026",
 "published_at": "2026-09-30T04:30:12Z",
 "first_seen_at": "2026-10-01T00:40:57.094216Z",
-"last_seen_at": "2026-10-01T00:40:57.094216Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
 "cross_is_related": true,
-"cross_score": 0.82,
+"cross_score": 0.77,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [
-"prime",
-"amazon"
+"amazon",
+"prime"
+],
+"cross_sites": [],
+"title_zh": "Prime Big Deal Days ： 10月6日至7日，我们为秋季和假日购物提供最大优惠"
+},
+{
+"id": "95ff2f3a8a2755998ec2214da419023daee1d409",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Prime Big Deal Days: Our biggest deals to kick off fall and holiday shopping October 6-7",
+"url": "https://amalert.co.uk/updates/prime-big-deal-days-our-biggest-deals-to-kick-off-fall-and-holiday-shopping-october-6-7-895587e6",
+"published_at": "2026-09-30T04:30:12Z",
+"first_seen_at": "2026-10-02T00:40:16.498883Z",
+"last_seen_at": "2026-10-02T00:40:16.498883Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon",
+"prime"
 ],
 "cross_sites": [],
 "title_zh": "Prime Big Deal Days ： 10月6日至7日，我们为秋季和假日购物提供最大优惠"
@@ -686,8 +846,8 @@
 ],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [
-"amazon",
-"亚马逊"
+"亚马逊",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "Amazon Marketing Stream v2和新的报告API现已正式推出"
@@ -714,7 +874,14 @@
 "site_name": "Amazon Newsroom",
 "tier": 1,
 "ok": true,
-"item_count": 8
+"item_count": 10
+},
+{
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"tier": 1,
+"ok": true,
+"item_count": 2
 },
 {
 "site_id": "amazon_ads",
@@ -726,13 +893,6 @@
 {
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
-"tier": 1,
-"ok": true,
-"item_count": 1
-},
-{
-"site_id": "amalert",
-"site_name": "Amalert UK",
 "tier": 1,
 "ok": true,
 "item_count": 1
@@ -756,7 +916,7 @@
 "site_name": "亿恩网",
 "tier": 2,
 "ok": true,
-"item_count": 24
+"item_count": 22
 },
 {
 "site_id": "ecomengine",
@@ -764,6 +924,13 @@
 "tier": 2,
 "ok": true,
 "item_count": 20
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"tier": 2,
+"ok": true,
+"item_count": 15
 },
 {
 "site_id": "kjds365",
@@ -780,25 +947,18 @@
 "item_count": 10
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"tier": 2,
-"ok": true,
-"item_count": 10
-},
-{
 "site_id": "channelx",
 "site_name": "ChannelX",
 "tier": 2,
 "ok": true,
-"item_count": 9
+"item_count": 6
 },
 {
 "site_id": "ecommercenews",
 "site_name": "Ecommerce News Europe",
 "tier": 2,
 "ok": true,
-"item_count": 0
+"item_count": 2
 },
 {
 "site_id": "wearesellers",
@@ -808,5 +968,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 108
+"total_stories": 151
 }
