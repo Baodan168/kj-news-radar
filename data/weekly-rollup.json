@@ -1,54 +1,46 @@
 {
-"generated_at": "2026-10-02T00:40:16.498883Z",
+"generated_at": "2026-10-03T00:40:18.052544Z",
 "window_days": 7,
-"total_items": 426,
+"total_items": 418,
 "daily_counts": {
-"2026-09-26": 39,
 "2026-09-27": 21,
 "2026-09-28": 46,
 "2026-09-29": 90,
 "2026-09-30": 76,
 "2026-10-01": 109,
-"2026-10-02": 45
+"2026-10-02": 45,
+"2026-10-03": 31
 },
 "source_counts": {
-"amz123": 172,
+"amz123": 163,
 "ennews": 76,
-"wearesellers": 63,
+"wearesellers": 64,
 "cifnews": 59,
-"channelx": 22,
-"amazon_newsroom": 12,
+"channelx": 19,
+"amazon_newsroom": 13,
 "amzdh": 7,
 "ecommercenews": 6,
-"amalert": 4,
+"amalert": 6,
 "amazon_ads": 4,
 "sp_api": 1
 },
 "label_counts": {
-"general": 70,
-"not_cross": 188,
-"tiktok": 4,
-"seller_action": 60,
-"platform_trend": 17,
-"policy_update": 20,
-"listing_product": 30,
-"advertising": 19,
+"not_cross": 183,
+"policy_update": 17,
+"seller_action": 63,
+"general": 71,
+"advertising": 18,
 "compliance_deadline": 1,
-"fee_logistics": 11,
-"walmart": 3,
+"listing_product": 30,
+"platform_trend": 12,
+"fee_logistics": 12,
+"walmart": 4,
 "domestic_ecommerce_noise": 1,
-"temu": 2
+"tiktok": 3,
+"temu": 3
 },
 "uk_related_count": 2,
 "top_signals": [
-{
-"title": "亚马逊全球仓配扩展至8国，合规测试一次覆盖多国",
-"url": "https://www.amz123.com/kx/vwyUDFFz",
-"site_id": "amz123",
-"score": 0.93,
-"label": "policy_update",
-"time": "2026-09-26T00:40:15.112116Z"
-},
 {
 "title": "亚马逊2026年下调大件FBA配送费，小号大件基础费用降至6.78美元",
 "url": "https://www.amz123.com/kx/kZFLfBre",
@@ -79,6 +71,14 @@
 "site_id": "amazon_ads",
 "score": 0.91,
 "label": "general",
+"time": "2026-09-30T00:40:53.648571Z"
+},
+{
+"title": "亚马逊又改Listing规则！这四类产品10月26日起有变化",
+"url": "https://www.cifnews.com/article/189208",
+"site_id": "cifnews",
+"score": 0.88,
+"label": "policy_update",
 "time": "2026-09-30T00:40:53.648571Z"
 }
 ]
