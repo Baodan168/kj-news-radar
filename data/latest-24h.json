@@ -1,243 +1,98 @@
 {
-"generated_at": "2026-10-04T00:40:15.837332Z",
+"generated_at": "2026-10-05T00:40:32.121854Z",
 "window_hours": 24,
-"total_items": 17,
-"total_items_cross_raw": 29,
-"total_items_raw": 50,
-"total_items_all_mode": 50,
+"total_items": 4,
+"total_items_cross_raw": 6,
+"total_items_raw": 20,
+"total_items_all_mode": 20,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1733,
+"archive_total": 1753,
 "site_count": 16,
-"source_count": 6,
+"source_count": 4,
 "site_stats": [
-{
-"site_id": "amz123",
-"site_name": "AMZ123",
-"count": 8,
-"raw_count": 29
-},
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
-"count": 4,
-"raw_count": 9
+"count": 2,
+"raw_count": 4
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
-"count": 3,
-"raw_count": 6
+"count": 1,
+"raw_count": 3
 },
 {
 "site_id": "amalert",
 "site_name": "Amalert UK",
-"count": 2,
-"raw_count": 3
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 0,
-"raw_count": 2
-},
-{
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"count": 0,
+"count": 1,
 "raw_count": 1
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"count": 0,
+"raw_count": 12
 }
 ],
 "items": [
 {
-"id": "1d7d1c1b18ac8a60d16baa08de6092333ae21a09",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "奥地利开征2欧元包裹税，亚马逊、Temu等大型卖家须代缴",
-"url": "https://www.amz123.com/kx/7U6r55nH",
-"published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"temu",
-"亚马逊",
-"卖家",
-"卖家",
-"包裹"
-],
-"cross_why": "税务/关税变动，影响成本核算",
-"cross_platforms": [
-"亚马逊",
-"temu"
-],
-"cross_sites": [],
-"title_zh": "奥地利开征2欧元包裹税，亚马逊、Temu等大型卖家须代缴"
-},
-{
-"id": "6766b667881b12f678dd154390cddfc5696a7c3f",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "韩国组建K品牌知识产权保护协议会，重点打击亚马逊与TikTok Shop仿冒问题",
-"url": "https://www.amz123.com/kx/iGajaKlO",
-"published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"亚马逊"
-],
-"cross_why": "产品/listing 相关更新",
-"cross_platforms": [
-"tiktok shop",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "韩国组建K品牌知识产权保护协议会，重点打击亚马逊与TikTok Shop仿冒问题"
-},
-{
-"id": "afe0420cbfdb28aec8bb3e8877bce456f20b67cb",
+"id": "ebb05c7c47cda280e85cf5842a9160df0abd4f9b",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "SP广告添加受众投放无效问题，实际投放中并没有曝光，人群都是添加亚马逊推荐的几个，重新创建了几个计划也是这个问题，等了几个小时也没有更新过来",
-"url": "https://www.wearesellers.com/question/124973",
+"title": "亚马逊新手小白刚开店第一个链接要不要做商标注册品牌备案以及哪里找这些产品拍摄美工设计的",
+"url": "https://www.wearesellers.com/question/125118",
 "published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
+"first_seen_at": "2026-10-05T00:40:32.121854Z",
+"last_seen_at": "2026-10-05T00:40:32.121854Z",
 "cross_is_related": true,
 "cross_score": 0.71,
-"cross_label": "advertising",
+"cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊"
 ],
-"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "SP广告添加受众投放无效问题，实际投放中并没有曝光，人群都是添加亚马逊推荐的几个，重新创建了几个计划也是这个问题，等了几个小时也没有更新过来"
+"title_zh": "亚马逊新手小白刚开店第一个链接要不要做商标注册品牌备案以及哪里找这些产品拍摄美工设计的"
 },
 {
-"id": "e7034cd7741410e8c5415c178bf0f6d29690c8a9",
+"id": "45dd0dfd10da1fe39f376a7b23281494d9c2a35d",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "北美线下商超，正在成为跨境大卖的第二增长极",
-"url": "https://www.cifnews.com/article/189261",
+"title": "大卖要补税1078万！2026跨境税务大洗牌",
+"url": "https://www.cifnews.com/article/189264",
 "published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
+"first_seen_at": "2026-10-05T00:40:32.121854Z",
+"last_seen_at": "2026-10-05T00:40:32.121854Z",
 "cross_is_related": true,
 "cross_score": 0.64,
-"cross_label": "platform_trend",
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "跨境"
 ],
-"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_why": "税务/关税变动，影响成本核算",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "北美线下商超，正在成为跨境大卖的第二增长极"
+"title_zh": "大卖要补税1078万！2026跨境税务大洗牌"
 },
 {
-"id": "d09175e445131d62435bf59d169a0a79cde1145a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧盟九成跨境网购流向Temu、SHEIN和速卖通",
-"url": "https://www.amz123.com/kx/18u7LsBe",
-"published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shein",
-"temu",
-"跨境",
-"速卖通"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_platforms": [
-"速卖通",
-"shein",
-"temu"
-],
-"cross_sites": [],
-"title_zh": "欧盟九成跨境网购流向Temu、SHEIN和速卖通"
-},
-{
-"id": "1fe0c90dc01fa1468f2f37821ef53fc56a28f40b",
+"id": "5c066b49b7e03d38154df46090fa216194e87765",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "Tiktok跨境美区店铺刚注册下来，那个发货地址怎么填写呀，发货地址只能选美国的",
-"url": "https://www.wearesellers.com/question/119564",
-"published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "compliance_deadline",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"店铺"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "Tiktok跨境美区店铺刚注册下来，那个发货地址怎么填写呀，发货地址只能选美国的"
-},
-{
-"id": "62ce7e3ebae8677807ff06cd35a21cd25cefffef",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "GEODIS拟收购Deret物流业务，欧洲履约网络持续扩张",
-"url": "https://www.amz123.com/kx/7fxMI6ty",
-"published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"物流"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "GEODIS拟收购Deret物流业务，欧洲履约网络持续扩张"
-},
-{
-"id": "5cf0c436223be90a32d6f732c554d03ebdbf2d1f",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "做Amazon 6个月，日均1300+美金，但越做越觉得自己不会运营，下一步该去精品公司吗？怎么区分精品公司？",
+"title": "做Amazon 6个月，日均1300+美金，但我想换公司了，怎么找到好公司？",
 "url": "https://www.wearesellers.com/question/125108",
 "published_at": null,
-"first_seen_at": "2026-10-04T00:40:15.837332Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
+"first_seen_at": "2026-10-05T00:40:32.121854Z",
+"last_seen_at": "2026-10-05T00:40:32.121854Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -250,196 +105,18 @@
 "amazon"
 ],
 "cross_sites": [],
-"title_zh": "做Amazon 6个月，日均1300+美金，但越做越觉得自己不会运营，下一步该去精品公司吗？怎么区分精品公司？"
+"title_zh": "做Amazon 6个月，日均1300+美金，但我想换公司了，怎么找到好公司？"
 },
 {
-"id": "61ed2798a057ea120eaea6bd23bb474362e4b624",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊首次向外部AI助手Claude开放卖家后台",
-"url": "https://www.amz123.com/kx/nZy1eKSv",
-"published_at": null,
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "亚马逊官方后台更新，留意后台通知",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊首次向外部AI助手Claude开放卖家后台"
-},
-{
-"id": "2c871ded45e31386fe7d17f2324e83d1adbfd380",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "4000万美元外贸大厂转亚马逊，窗帘“红海”杀出头部！丨“新”卖家故事⑯",
-"url": "https://www.cifnews.com/article/189210",
-"published_at": null,
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"外贸",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "4000万美元外贸大厂转亚马逊，窗帘“红海”杀出头部！丨“新”卖家故事⑯"
-},
-{
-"id": "3f73750066b62c3a3104cabd4d17ac6b89afa67c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Wildberries与Ozon仓储受损后加速争夺卖家库存，履约能力成核心竞争指标",
-"url": "https://www.amz123.com/kx/RcwYmowX",
-"published_at": null,
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"wildberries",
-"卖家",
-"卖家",
-"库存",
-"仓储"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_platforms": [
-"ozon",
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "Wildberries与Ozon仓储受损后加速争夺卖家库存，履约能力成核心竞争指标"
-},
-{
-"id": "3a6fbd2401041df4dd339ee1297d2af039ee3cad",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "沃尔玛SWW发货工具接入UPS，卖家可直连三大承运商",
-"url": "https://www.amz123.com/kx/h9VC5aJf",
-"published_at": null,
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "walmart",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"沃尔玛",
-"卖家",
-"ups"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "沃尔玛SWW发货工具接入UPS，卖家可直连三大承运商"
-},
-{
-"id": "95b20d37298a7144691d67d5573d13f395dec835",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "日订单超200万！中国卖家在新平台闷声发财",
-"url": "https://www.cifnews.com/article/189259",
-"published_at": null,
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "日订单超200万！中国卖家在新平台闷声发财"
-},
-{
-"id": "ebb482173cd3f6630926d60cedac257828716e9a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon将评价返积分上限提至5万并扩至50万商品",
-"url": "https://www.amz123.com/kx/BUf15sks",
-"published_at": null,
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon将评价返积分上限提至5万并扩至50万商品"
-},
-{
-"id": "1412d621325b5ef073de98b71befa2be7c63d2ec",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "真的被逼到绝路了！日亚竞对 狂刷礼品卡好评+半年无限连秒+不断丢差评给我们，白帽卖家如何破局？",
-"url": "https://www.wearesellers.com/question/125103",
-"published_at": null,
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-03T00:40:18.052544Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "真的被逼到绝路了！日亚竞对 狂刷礼品卡好评+半年无限连秒+不断丢差评给我们，白帽卖家如何破局？"
-},
-{
-"id": "6f61f554a8291247c8030913654f5b7336823123",
+"id": "eafebb5af50b47c585556646e89c1f42654def36",
 "site_id": "amalert",
 "site_name": "Amalert UK",
 "source": "Amazon官方聚合",
-"title": "5 ways Amazon is investing in New Jersey",
-"url": "https://amalert.co.uk/updates/5-ways-amazon-is-investing-in-new-jersey-f56b097d",
-"published_at": "2026-10-01T15:29:41Z",
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
+"title": "How to Evaluate Amazon DSP Campaign Performance Using Amazon Marketing Cloud",
+"url": "https://amalert.co.uk/updates/how-to-evaluate-amazon-dsp-campaign-performance-using-amazon-marketing-cloud-4538f7af",
+"published_at": "2026-10-03T11:30:00Z",
+"first_seen_at": "2026-10-05T00:40:32.121854Z",
+"last_seen_at": "2026-10-05T00:40:32.121854Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -452,31 +129,7 @@
 "amazon"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊在新泽西州投资的5种方式"
-},
-{
-"id": "b5f5171ce364ce12ebb06de76a6df5ffe97a8512",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "12 Best Amazon Account Management Services for Growing Brands",
-"url": "https://amalert.co.uk/updates/12-best-amazon-account-management-services-for-growing-brands-db5c4a22",
-"published_at": "2026-10-01T06:49:50Z",
-"first_seen_at": "2026-10-03T00:40:18.052544Z",
-"last_seen_at": "2026-10-04T00:40:15.837332Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "面向成长型品牌的12大最佳亚马逊账户管理服务"
+"title_zh": "如何使用Amazon Marketing Cloud评估Amazon DSP营销活动绩效"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json",
@@ -500,13 +153,6 @@
 "site_name": "Amalert UK",
 "tier": 1,
 "ok": true,
-"item_count": 3
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"tier": 1,
-"ok": true,
 "item_count": 2
 },
 {
@@ -524,6 +170,13 @@
 "item_count": 0
 },
 {
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"tier": 1,
+"ok": true,
+"item_count": 0
+},
+{
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "tier": 2,
@@ -535,7 +188,7 @@
 "site_name": "AMZ123",
 "tier": 2,
 "ok": true,
-"item_count": 29
+"item_count": 21
 },
 {
 "site_id": "ecomengine",
@@ -570,7 +223,7 @@
 "site_name": "Ecommerce News Europe",
 "tier": 2,
 "ok": true,
-"item_count": 2
+"item_count": 0
 },
 {
 "site_id": "channelx",
@@ -594,5 +247,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 49
+"total_stories": 20
 }
