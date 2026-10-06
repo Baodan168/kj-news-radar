@@ -1,46 +1,46 @@
 {
-"generated_at": "2026-10-05T00:40:32.121854Z",
+"generated_at": "2026-10-06T00:40:05.643367Z",
 "window_days": 7,
-"total_items": 409,
+"total_items": 455,
 "daily_counts": {
-"2026-09-28": 19,
 "2026-09-29": 90,
 "2026-09-30": 76,
 "2026-10-01": 109,
 "2026-10-02": 45,
 "2026-10-03": 31,
 "2026-10-04": 19,
-"2026-10-05": 20
+"2026-10-05": 20,
+"2026-10-06": 65
 },
 "source_counts": {
-"amz123": 156,
-"ennews": 76,
-"cifnews": 62,
-"wearesellers": 59,
-"channelx": 19,
-"amazon_newsroom": 13,
+"amz123": 189,
+"wearesellers": 69,
+"ennews": 65,
+"cifnews": 65,
+"channelx": 23,
+"amazon_newsroom": 17,
 "amalert": 7,
 "amzdh": 7,
-"ecommercenews": 5,
-"amazon_ads": 4,
+"amazon_ads": 6,
+"ecommercenews": 6,
 "sp_api": 1
 },
 "label_counts": {
-"not_cross": 190,
-"seller_action": 57,
-"general": 64,
-"policy_update": 17,
-"fee_logistics": 11,
+"not_cross": 210,
+"general": 72,
+"seller_action": 64,
+"policy_update": 16,
+"walmart": 5,
+"platform_trend": 14,
+"listing_product": 31,
 "advertising": 18,
-"walmart": 4,
-"platform_trend": 11,
-"listing_product": 27,
+"fee_logistics": 13,
 "domestic_ecommerce_noise": 1,
-"tiktok": 3,
+"tiktok": 5,
 "temu": 4,
 "compliance_deadline": 2
 },
-"uk_related_count": 2,
+"uk_related_count": 4,
 "top_signals": [
 {
 "title": "奥地利开征2欧元包裹税，亚马逊、Temu等大型卖家须代缴",
@@ -49,14 +49,6 @@
 "score": 1.0,
 "label": "temu",
 "time": "2026-10-04T00:40:15.837332Z"
-},
-{
-"title": "亚马逊2026年下调大件FBA配送费，小号大件基础费用降至6.78美元",
-"url": "https://www.amz123.com/kx/kZFLfBre",
-"site_id": "amz123",
-"score": 0.93,
-"label": "fee_logistics",
-"time": "2026-09-28T01:16:37.902199Z"
 },
 {
 "title": "亚马逊10月起开放大件零担标签，卖家可享议定费率",
@@ -80,6 +72,14 @@
 "site_id": "amazon_ads",
 "score": 0.91,
 "label": "general",
+"time": "2026-09-30T00:40:53.648571Z"
+},
+{
+"title": "亚马逊又改Listing规则！这四类产品10月26日起有变化",
+"url": "https://www.cifnews.com/article/189208",
+"site_id": "cifnews",
+"score": 0.88,
+"label": "policy_update",
 "time": "2026-09-30T00:40:53.648571Z"
 }
 ]
