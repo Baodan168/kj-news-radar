@@ -1,62 +1,151 @@
 {
-"generated_at": "2026-10-06T00:40:05.643367Z",
+"generated_at": "2026-10-07T00:40:27.947149Z",
 "items": [
 {
-"story_id": "2b181d7577c6",
-"primary_title": "美国电商增速上调至约10%，Walmart与Shopify增速超越Amazon",
-"primary_url": "https://www.amz123.com/kx/iYDI7aIb",
+"story_id": "ce64d30ce40b",
+"primary_title": "5 ways Amazon is investing in Massachusetts",
+"primary_url": "https://www.aboutamazon.com/news/community/amazon-investment-massachusetts-jobs-infrastructure-small-business",
+"primary_site_id": "amazon_newsroom",
+"item_count": 3,
+"source_count": 2,
+"source_names": [
+"Amalert UK",
+"Amazon Newsroom"
+],
+"max_score": 0.71,
+"category": "general",
+"items": [
+{
+"id": "5030b5d8c39cd0e9da39438a077c6c6e8822eb42",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "5 ways Amazon is investing in Connecticut",
+"url": "https://amalert.co.uk/updates/5-ways-amazon-is-investing-in-connecticut-b273f2bb",
+"published_at": "2026-10-05T16:44:55Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在康涅狄格州投资的5种方式"
+},
+{
+"id": "37387ca7c6d4a751ec25f3a3494a97ebe23b6293",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "5 ways Amazon is investing in Missouri",
+"url": "https://www.aboutamazon.com/news/community/amazon-investment-missouri-jobs-infrastructure-small-business",
+"published_at": "2026-10-06T15:56:00Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在密苏里州投资的5种方式"
+},
+{
+"id": "09a50a3c9e548ab36128a493218b9e7ab18fc2aa",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "5 ways Amazon is investing in Massachusetts",
+"url": "https://www.aboutamazon.com/news/community/amazon-investment-massachusetts-jobs-infrastructure-small-business",
+"published_at": "2026-10-06T15:58:11Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在马萨诸塞州投资的5种方式"
+}
+],
+"earliest_time": "2026-10-05T16:44:55Z",
+"latest_time": "2026-10-06T15:58:11Z",
+"hot_score": 8.629999999999999,
+"freshness_bonus": 1.0,
+"age_hours": 8.73,
+"rank": 1
+},
+{
+"story_id": "33680910ae45",
+"primary_title": "亚马逊紧急预警：高度仿真钓鱼邮件以\"24小时停用\"诱导卖家点击恶意链接",
+"primary_url": "https://www.amz123.com/kx/1y9fxBXh",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.86,
-"category": "walmart",
+"max_score": 0.85,
+"category": "seller_action",
 "items": [
 {
-"id": "5e01d973731028fa2114654e437daf0b2a12acfe",
+"id": "d0a4e01c49a76211721063ff57f16a741874850a",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "美国电商增速上调至约10%，Walmart与Shopify增速超越Amazon",
-"url": "https://www.amz123.com/kx/iYDI7aIb",
+"title": "亚马逊紧急预警：高度仿真钓鱼邮件以\"24小时停用\"诱导卖家点击恶意链接",
+"url": "https://www.amz123.com/kx/1y9fxBXh",
 "published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
 "cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "walmart",
+"cross_score": 0.85,
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"amazon",
-"shopify",
-"walmart",
-"电商"
+"亚马逊",
+"卖家",
+"卖家"
 ],
-"cross_why": "费用调整，直接影响利润率",
+"cross_why": "卖家运营相关信号",
 "cross_platforms": [
-"walmart",
-"amazon",
-"shopify"
+"亚马逊"
 ],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国电商增速上调至约10%，Walmart与Shopify增速超越Amazon"
+"cross_sites": [],
+"title_zh": "亚马逊紧急预警：高度仿真钓鱼邮件以\"24小时停用\"诱导卖家点击恶意链接"
 }
 ],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
-"hot_score": 7.08,
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 1
+"age_hours": 0.02,
+"rank": 2
 },
 {
-"story_id": "a0565c2f233e",
-"primary_title": "一台“小挖”卖到1万美元，济宁工厂如何闯进亚马逊？丨“新”卖家故事⑰",
-"primary_url": "https://www.cifnews.com/article/189266",
+"story_id": "75de158384dc",
+"primary_title": "一把钢锹挤进亚马逊前Top10！它凭啥一年卖出2400万丨“新”卖家故事⑱",
+"primary_url": "https://www.cifnews.com/article/189203",
 "primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
@@ -67,15 +156,15 @@
 "category": "seller_action",
 "items": [
 {
-"id": "d17b2add3a7da013559bd206787dafbc56f2154e",
+"id": "8c76984794a980c9d1edbcf77496a3f391b5b27e",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "一台“小挖”卖到1万美元，济宁工厂如何闯进亚马逊？丨“新”卖家故事⑰",
-"url": "https://www.cifnews.com/article/189266",
+"title": "一把钢锹挤进亚马逊前Top10！它凭啥一年卖出2400万丨“新”卖家故事⑱",
+"url": "https://www.cifnews.com/article/189203",
 "published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "seller_action",
@@ -90,20 +179,67 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "一台“小挖”卖到1万美元，济宁工厂如何闯进亚马逊？丨“新”卖家故事⑰"
+"title_zh": "一把钢锹挤进亚马逊前Top10！它凭啥一年卖出2400万丨“新”卖家故事⑱"
 }
 ],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
 "hot_score": 6.9,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 2
+"age_hours": 0.02,
+"rank": 3
 },
 {
-"story_id": "0c200937a6ee",
-"primary_title": "2026年已有6家跨境电商企业退场，涉及Costco旗下第三方平台",
-"primary_url": "https://www.amz123.com/kx/4MrMz3wW",
+"story_id": "b4be04c8c019",
+"primary_title": "70万卖家在亚马逊挤破头，有人却在新平台月销7000件",
+"primary_url": "https://www.cifnews.com/article/189217",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"雨果跨境"
+],
+"max_score": 0.8,
+"category": "seller_action",
+"items": [
+{
+"id": "ce34c9e1e0aae087adea814b4258b8e649cd044d",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "70万卖家在亚马逊挤破头，有人却在新平台月销7000件",
+"url": "https://www.cifnews.com/article/189217",
+"published_at": null,
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "70万卖家在亚马逊挤破头，有人却在新平台月销7000件"
+}
+],
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
+"hot_score": 6.9,
+"freshness_bonus": 2.0,
+"age_hours": 0.02,
+"rank": 4
+},
+{
+"story_id": "26ac81b6aa39",
+"primary_title": "Lamoda向卖家开放消费者画像分析工具",
+"primary_url": "https://www.amz123.com/kx/rF1P7Gf3",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
@@ -114,313 +250,84 @@
 "category": "seller_action",
 "items": [
 {
-"id": "d37cc9e0130fc4dafa21e4ed767a98d16d8c91de",
+"id": "e0c9d69f911299a2151fffc1de0adb2767d63278",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "2026年已有6家跨境电商企业退场，涉及Costco旗下第三方平台",
-"url": "https://www.amz123.com/kx/4MrMz3wW",
+"title": "Lamoda向卖家开放消费者画像分析工具",
+"url": "https://www.amz123.com/kx/rF1P7Gf3",
 "published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
+"卖家",
+"卖家"
 ],
 "cross_why": "卖家运营相关信号",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "2026年已有6家跨境电商企业退场，涉及Costco旗下第三方平台"
+"title_zh": "Lamoda向卖家开放消费者画像分析工具"
 }
 ],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
 "hot_score": 6.8100000000000005,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 3
-},
-{
-"story_id": "cf97b131adb9",
-"primary_title": "Amazon Now快速配送服务扩展至印度120余个城市",
-"primary_url": "https://www.amz123.com/kx/4Fn3DNhQ",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.71,
-"category": "fee_logistics",
-"items": [
-{
-"id": "0d78dcb60c8351d663fcc6554ef77499d3e89d89",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Amazon Now快速配送服务扩展至印度120余个城市",
-"url": "https://www.amz123.com/kx/4Fn3DNhQ",
-"published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Amazon Now快速配送服务扩展至印度120余个城市"
-}
-],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
-"hot_score": 6.63,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 4
-},
-{
-"story_id": "759c00b21158",
-"primary_title": "深圳男生摸鱼相亲贴｜跨境电商｜国庆快乐，想和你从朋友开始”",
-"primary_url": "https://www.wearesellers.com/question/124986",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.67,
-"category": "seller_action",
-"items": [
-{
-"id": "51c0260539a0fd44bb235eede0b59515fd196e96",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "深圳男生摸鱼相亲贴｜跨境电商｜国庆快乐，想和你从朋友开始”",
-"url": "https://www.wearesellers.com/question/124986",
-"published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境",
-"跨境电商",
-"电商"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "深圳男生摸鱼相亲贴｜跨境电商｜国庆快乐，想和你从朋友开始”"
-}
-],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
-"hot_score": 6.51,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
+"age_hours": 0.02,
 "rank": 5
 },
 {
-"story_id": "464ee2bad47d",
-"primary_title": "德国法院裁定亚马逊不得提供无法接收邮件的联系方式",
-"primary_url": "https://www.amz123.com/kx/c7BSi8ng",
-"primary_site_id": "amz123",
+"story_id": "3360151c2902",
+"primary_title": "这一平台面向中国卖家招商！厦门卖家上线3个月，月销突破百万日元",
+"primary_url": "https://www.cifnews.com/article/189216",
+"primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"AMZ123"
+"雨果跨境"
 ],
-"max_score": 0.66,
-"category": "general",
+"max_score": 0.64,
+"category": "seller_action",
 "items": [
 {
-"id": "fcb4ab295d4a0da3356ce3782117a275347d6243",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德国法院裁定亚马逊不得提供无法接收邮件的联系方式",
-"url": "https://www.amz123.com/kx/c7BSi8ng",
+"id": "2be0add4c73d37528f732b4155e3e735dc20400c",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "这一平台面向中国卖家招商！厦门卖家上线3个月，月销突破百万日元",
+"url": "https://www.cifnews.com/article/189216",
 "published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
 "cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
+"cross_score": 0.64,
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"卖家",
+"卖家"
 ],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"亚马逊"
-],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
 "cross_sites": [],
-"title_zh": "德国法院裁定亚马逊不得提供无法接收邮件的联系方式"
+"title_zh": "这一平台面向中国卖家招商！厦门卖家上线3个月，月销突破百万日元"
 }
 ],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
-"hot_score": 6.48,
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
+"hot_score": 6.42,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
+"age_hours": 0.02,
 "rank": 6
 },
 {
-"story_id": "e0158d3c510c",
-"primary_title": "Review Requests API (beta)",
-"primary_url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index",
-"primary_site_id": "amazon_ads",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"Amazon Ads 更新"
-],
-"max_score": 0.64,
-"category": "listing_product",
-"items": [
-{
-"id": "4096cbce8fad0caf102b6a69ae01d854d4db6cae",
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads 更新",
-"source": "亚马逊广告",
-"title": "Review Requests API (beta)",
-"url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index",
-"published_at": "2026-10-30T00:00:00Z",
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"review"
-],
-"cross_why": "产品/listing 相关变化，关注运营调整",
-"cross_platforms": [
-"亚马逊",
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "审核请求API （测试版）"
-}
-],
-"earliest_time": "2026-10-30T00:00:00Z",
-"latest_time": "2026-10-30T00:00:00Z",
-"hot_score": 6.42,
-"freshness_bonus": 2.0,
-"age_hours": 0.0,
-"rank": 7
-},
-{
-"story_id": "68e8955b927f",
-"primary_title": "德国联邦最高法院裁定亚马逊Prime 2022年涨价无效",
-"primary_url": "https://www.amz123.com/kx/jXEitsqA",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.64,
-"category": "general",
-"items": [
-{
-"id": "7f128590add23edc6f5cd7f9eea0507e0edc1f70",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德国联邦最高法院裁定亚马逊Prime 2022年涨价无效",
-"url": "https://www.amz123.com/kx/jXEitsqA",
-"published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "费用调整，直接影响利润率",
-"cross_platforms": [
-"亚马逊",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "德国联邦最高法院裁定亚马逊Prime 2022年涨价无效"
-}
-],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
-"hot_score": 6.42,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 8
-},
-{
-"story_id": "da4efa8e5861",
-"primary_title": "亚马逊二审第二封邮件被判欺诈性，如何转法人视频审核，要怎么操作去转视频审核。没有看到转视频的入口",
-"primary_url": "https://www.wearesellers.com/question/125125",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.64,
-"category": "general",
-"items": [
-{
-"id": "b0bdf6f290befa494d0ec2335b0d79105572013e",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊二审第二封邮件被判欺诈性，如何转法人视频审核，要怎么操作去转视频审核。没有看到转视频的入口",
-"url": "https://www.wearesellers.com/question/125125",
-"published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊二审第二封邮件被判欺诈性，如何转法人视频审核，要怎么操作去转视频审核。没有看到转视频的入口"
-}
-],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
-"hot_score": 6.42,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 9
-},
-{
-"story_id": "cd686d9543c5",
-"primary_title": "沃尔玛设卖家账号闲置红线，连续455天不活跃将被暂停",
-"primary_url": "https://www.amz123.com/kx/UgjEydFQ",
+"story_id": "f7cae99aa77f",
+"primary_title": "TikTok Shop美区升级商品管理功能，支持自然语言批量修改库存与价格",
+"primary_url": "https://www.amz123.com/kx/d8MFqQ07",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
@@ -428,38 +335,177 @@
 "AMZ123"
 ],
 "max_score": 0.63,
-"category": "walmart",
+"category": "tiktok",
 "items": [
 {
-"id": "8ce6c2194d56fced96cd0f86174cbe54e3fd86b6",
+"id": "ca5398e0e636e4916ad97c288f0fb29518acd20d",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "沃尔玛设卖家账号闲置红线，连续455天不活跃将被暂停",
-"url": "https://www.amz123.com/kx/UgjEydFQ",
+"title": "TikTok Shop美区升级商品管理功能，支持自然语言批量修改库存与价格",
+"url": "https://www.amz123.com/kx/d8MFqQ07",
 "published_at": null,
-"first_seen_at": "2026-10-06T00:40:05.643367Z",
-"last_seen_at": "2026-10-06T00:40:05.643367Z",
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
 "cross_is_related": true,
 "cross_score": 0.63,
-"cross_label": "walmart",
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"库存"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "TikTok Shop美区升级商品管理功能，支持自然语言批量修改库存与价格"
+}
+],
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
+"hot_score": 6.390000000000001,
+"freshness_bonus": 2.0,
+"age_hours": 0.02,
+"rank": 7
+},
+{
+"story_id": "70eb56ffd485",
+"primary_title": "Poizon进军俄罗斯市场，卖家佣金最高29%",
+"primary_url": "https://www.amz123.com/kx/ZSeR9Vl9",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.62,
+"category": "platform_trend",
+"items": [
+{
+"id": "0344318654efe629507c57a30f916d217ac344dd",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Poizon进军俄罗斯市场，卖家佣金最高29%",
+"url": "https://www.amz123.com/kx/ZSeR9Vl9",
+"published_at": null,
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "卖家",
-"沃尔玛",
 "卖家"
 ],
-"cross_why": "跨境电商行业动态",
+"cross_why": "费用调整，直接影响利润率",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "沃尔玛设卖家账号闲置红线，连续455天不活跃将被暂停"
+"title_zh": "Poizon进军俄罗斯市场，卖家佣金最高29%"
 }
 ],
-"earliest_time": "2026-10-06T00:40:05.643367Z",
-"latest_time": "2026-10-06T00:40:05.643367Z",
-"hot_score": 6.390000000000001,
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
+"hot_score": 6.359999999999999,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
+"age_hours": 0.02,
+"rank": 8
+},
+{
+"story_id": "13e0ca875047",
+"primary_title": "超七成消费者黑五将借助AI辅助购物，Shopify预计整体支出有所收缩",
+"primary_url": "https://www.amz123.com/kx/YJofxLHt",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.6,
+"category": "advertising",
+"items": [
+{
+"id": "cb6b684564fc6d18d4a89912fbac6ad136bfe600",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "超七成消费者黑五将借助AI辅助购物，Shopify预计整体支出有所收缩",
+"url": "https://www.amz123.com/kx/YJofxLHt",
+"published_at": null,
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shopify"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [
+"shopify"
+],
+"cross_sites": [],
+"title_zh": "超七成消费者黑五将借助AI辅助购物，Shopify预计整体支出有所收缩"
+}
+],
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
+"hot_score": 6.3,
+"freshness_bonus": 2.0,
+"age_hours": 0.02,
+"rank": 9
+},
+{
+"story_id": "dc48d4671a27",
+"primary_title": "Wildberries批量下发1戈比罚款，卖家质疑是否计入违规记录",
+"primary_url": "https://www.amz123.com/kx/Qsp6qB4j",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.6,
+"category": "seller_action",
+"items": [
+{
+"id": "b52d2b8e5420959292e2be5dfae6365ecf63cd78",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries批量下发1戈比罚款，卖家质疑是否计入违规记录",
+"url": "https://www.amz123.com/kx/Qsp6qB4j",
+"published_at": null,
+"first_seen_at": "2026-10-07T00:40:27.947149Z",
+"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"wildberries",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"wildberries"
+],
+"cross_sites": [],
+"title_zh": "Wildberries批量下发1戈比罚款，卖家质疑是否计入违规记录"
+}
+],
+"earliest_time": "2026-10-07T00:40:27.947149Z",
+"latest_time": "2026-10-07T00:40:27.947149Z",
+"hot_score": 6.3,
+"freshness_bonus": 2.0,
+"age_hours": 0.02,
 "rank": 10
 }
 ]

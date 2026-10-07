@@ -1,123 +1,123 @@
 {
-"generated_at": "2026-10-06T00:40:05.643367Z",
+"generated_at": "2026-10-07T00:40:27.947149Z",
 "sites": [
 {
 "site_id": "gs_amazon",
 "site_name": "全球开店",
 "ok": true,
 "item_count": 30,
-"duration_ms": 556
+"duration_ms": 460
 },
 {
 "site_id": "kjds365",
 "site_name": "跨境电商365",
 "ok": true,
 "item_count": 10,
-"duration_ms": 682
+"duration_ms": 621
 },
 {
 "site_id": "amazon_ads",
 "site_name": "Amazon Ads Blog",
 "ok": true,
-"item_count": 2,
-"duration_ms": 696
+"item_count": 1,
+"duration_ms": 632
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "ok": true,
-"item_count": 4,
-"duration_ms": 806
+"item_count": 9,
+"duration_ms": 810
 },
 {
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
 "ok": true,
 "item_count": 1,
-"duration_ms": 1099
+"duration_ms": 1112
 },
 {
 "site_id": "ecomengine",
 "site_name": "EcomEngine",
 "ok": true,
 "item_count": 20,
-"duration_ms": 946
+"duration_ms": 1022
 },
 {
 "site_id": "ecommercenews",
 "site_name": "Ecommerce News Europe",
 "ok": true,
 "item_count": 1,
-"duration_ms": 920
+"duration_ms": 860
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "ok": true,
-"item_count": 4,
-"duration_ms": 1271
+"item_count": 10,
+"duration_ms": 1189
 },
 {
 "site_id": "amalert",
 "site_name": "Amalert UK",
 "ok": true,
-"item_count": 1,
-"duration_ms": 759
+"item_count": 4,
+"duration_ms": 798
 },
 {
 "site_id": "marketplace_pulse",
 "site_name": "Marketplace Pulse",
 "ok": true,
 "item_count": 10,
-"duration_ms": 1647
-},
-{
-"site_id": "amz123",
-"site_name": "AMZ123",
-"ok": true,
-"item_count": 40,
-"duration_ms": 6612
+"duration_ms": 1591
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "ok": true,
 "item_count": 30,
-"duration_ms": 7297
+"duration_ms": 7617
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"ok": true,
+"item_count": 40,
+"duration_ms": 17075
 },
 {
 "site_id": "amazon_seller_blog",
 "site_name": "Amazon卖家博客",
 "ok": true,
 "item_count": 11,
-"duration_ms": 13211
+"duration_ms": 19412
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "ok": true,
 "item_count": 25,
-"duration_ms": 14280
+"duration_ms": 20514
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "ok": true,
-"item_count": 0,
-"duration_ms": 25529
+"item_count": 10,
+"duration_ms": 27288
 },
 {
 "site_id": "ennews",
 "site_name": "亿恩网",
 "ok": true,
 "item_count": 0,
-"duration_ms": 73300
+"duration_ms": 58981
 }
 ],
 "failed_sites": [],
 "successful_sites": 16,
-"fetched_raw_items": 189,
-"items_before_topic_filter": 85,
+"fetched_raw_items": 212,
+"items_before_topic_filter": 42,
 "rss_opml": {
 "enabled": false,
 "feed_count": 0,
