@@ -1,45 +1,45 @@
 {
-"generated_at": "2026-10-07T00:40:27.947149Z",
+"generated_at": "2026-10-08T00:40:34.661783Z",
 "window_days": 7,
-"total_items": 407,
+"total_items": 399,
 "daily_counts": {
-"2026-09-30": 76,
 "2026-10-01": 109,
 "2026-10-02": 45,
 "2026-10-03": 31,
 "2026-10-04": 19,
 "2026-10-05": 20,
 "2026-10-06": 65,
-"2026-10-07": 42
+"2026-10-07": 42,
+"2026-10-08": 68
 },
 "source_counts": {
-"amz123": 185,
+"amz123": 202,
 "wearesellers": 60,
-"cifnews": 48,
-"ennews": 44,
-"channelx": 23,
-"amazon_newsroom": 19,
-"amalert": 11,
+"cifnews": 43,
+"amazon_newsroom": 22,
+"ennews": 22,
+"channelx": 20,
+"amalert": 13,
 "amzdh": 7,
-"amazon_ads": 5,
-"ecommercenews": 4,
+"ecommercenews": 5,
+"amazon_ads": 4,
 "sp_api": 1
 },
 "label_counts": {
-"general": 68,
-"not_cross": 187,
-"advertising": 14,
-"seller_action": 55,
-"tiktok": 6,
+"general": 69,
+"not_cross": 179,
 "platform_trend": 14,
+"seller_action": 51,
+"listing_product": 28,
 "policy_update": 14,
-"fee_logistics": 9,
-"listing_product": 29,
-"temu": 4,
-"walmart": 4,
-"compliance_deadline": 3
+"fee_logistics": 10,
+"advertising": 16,
+"tiktok": 8,
+"temu": 3,
+"walmart": 3,
+"compliance_deadline": 4
 },
-"uk_related_count": 5,
+"uk_related_count": 4,
 "top_signals": [
 {
 "title": "奥地利开征2欧元包裹税，亚马逊、Temu等大型卖家须代缴",
@@ -66,20 +66,20 @@
 "time": "2026-10-01T00:40:57.094216Z"
 },
 {
-"title": "Amazon Ads Inventory Management Unified APIs now generally available",
-"url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index",
-"site_id": "amazon_ads",
-"score": 0.91,
-"label": "general",
-"time": "2026-09-30T00:40:53.648571Z"
+"title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
+"url": "https://www.amz123.com/kx/mXQBjtNu",
+"site_id": "amz123",
+"score": 0.89,
+"label": "advertising",
+"time": "2026-10-08T00:40:34.661783Z"
 },
 {
-"title": "亚马逊又改Listing规则！这四类产品10月26日起有变化",
-"url": "https://www.cifnews.com/article/189208",
+"title": "亚马逊9月新规汇总，卖家注意这些变化！",
+"url": "https://www.cifnews.com/article/189242",
 "site_id": "cifnews",
 "score": 0.88,
 "label": "policy_update",
-"time": "2026-09-30T00:40:53.648571Z"
+"time": "2026-10-01T00:40:57.094216Z"
 }
 ]
 }

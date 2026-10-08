@@ -1,290 +1,345 @@
 {
-"generated_at": "2026-10-07T00:40:27.947149Z",
+"generated_at": "2026-10-08T00:40:34.661783Z",
 "window_hours": 24,
-"total_items": 17,
-"total_items_cross_raw": 27,
-"total_items_raw": 42,
-"total_items_all_mode": 42,
+"total_items": 20,
+"total_items_cross_raw": 37,
+"total_items_raw": 68,
+"total_items_all_mode": 68,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1620,
+"archive_total": 1507,
 "site_count": 16,
-"source_count": 6,
+"source_count": 7,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 6,
-"raw_count": 22
+"count": 8,
+"raw_count": 40
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"count": 3,
-"raw_count": 3
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 3,
-"raw_count": 4
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"count": 5,
+"raw_count": 14
 },
 {
 "site_id": "amalert",
 "site_name": "Amalert UK",
 "count": 3,
-"raw_count": 4
+"raw_count": 3
 },
 {
-"site_id": "wearesellers",
-"site_name": "知无不言",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
 "count": 1,
-"raw_count": 3
+"raw_count": 2
+},
+{
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "count": 1,
-"raw_count": 6
+"raw_count": 4
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 1,
+"raw_count": 4
 }
 ],
 "items": [
 {
-"id": "d0a4e01c49a76211721063ff57f16a741874850a",
+"id": "ae169e8ed401b3421b8045cfcf78bca93083f275",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊紧急预警：高度仿真钓鱼邮件以\"24小时停用\"诱导卖家点击恶意链接",
-"url": "https://www.amz123.com/kx/1y9fxBXh",
+"title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
+"url": "https://www.amz123.com/kx/mXQBjtNu",
 "published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
 "cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊紧急预警：高度仿真钓鱼邮件以\"24小时停用\"诱导卖家点击恶意链接"
-},
-{
-"id": "8c76984794a980c9d1edbcf77496a3f391b5b27e",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "一把钢锹挤进亚马逊前Top10！它凭啥一年卖出2400万丨“新”卖家故事⑱",
-"url": "https://www.cifnews.com/article/189203",
-"published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "一把钢锹挤进亚马逊前Top10！它凭啥一年卖出2400万丨“新”卖家故事⑱"
-},
-{
-"id": "ce34c9e1e0aae087adea814b4258b8e649cd044d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "70万卖家在亚马逊挤破头，有人却在新平台月销7000件",
-"url": "https://www.cifnews.com/article/189217",
-"published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "70万卖家在亚马逊挤破头，有人却在新平台月销7000件"
-},
-{
-"id": "e0c9d69f911299a2151fffc1de0adb2767d63278",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Lamoda向卖家开放消费者画像分析工具",
-"url": "https://www.amz123.com/kx/rF1P7Gf3",
-"published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Lamoda向卖家开放消费者画像分析工具"
-},
-{
-"id": "2be0add4c73d37528f732b4155e3e735dc20400c",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "这一平台面向中国卖家招商！厦门卖家上线3个月，月销突破百万日元",
-"url": "https://www.cifnews.com/article/189216",
-"published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "这一平台面向中国卖家招商！厦门卖家上线3个月，月销突破百万日元"
-},
-{
-"id": "ca5398e0e636e4916ad97c288f0fb29518acd20d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop美区升级商品管理功能，支持自然语言批量修改库存与价格",
-"url": "https://www.amz123.com/kx/d8MFqQ07",
-"published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.63,
-"cross_label": "tiktok",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"库存"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "TikTok Shop美区升级商品管理功能，支持自然语言批量修改库存与价格"
-},
-{
-"id": "0344318654efe629507c57a30f916d217ac344dd",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Poizon进军俄罗斯市场，卖家佣金最高29%",
-"url": "https://www.amz123.com/kx/ZSeR9Vl9",
-"published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "费用调整，直接影响利润率",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Poizon进军俄罗斯市场，卖家佣金最高29%"
-},
-{
-"id": "cb6b684564fc6d18d4a89912fbac6ad136bfe600",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "超七成消费者黑五将借助AI辅助购物，Shopify预计整体支出有所收缩",
-"url": "https://www.amz123.com/kx/YJofxLHt",
-"published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.89,
 "cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "shopify"
 ],
-"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_why": "UK 市场动态，与英国站业务直接相关",
 "cross_platforms": [
 "shopify"
 ],
-"cross_sites": [],
-"title_zh": "超七成消费者黑五将借助AI辅助购物，Shopify预计整体支出有所收缩"
+"cross_sites": [
+"uk"
+],
+"title_zh": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌"
 },
 {
-"id": "b52d2b8e5420959292e2be5dfae6365ecf63cd78",
+"id": "b87d5fea777b0992d476f9a8f8da4a69c88f03bf",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "美国玩具被CPSC在亚马逊购买抽测不合规，纠正措施：停止销售。这情况该怎么回复，对别的子体有影响么",
+"url": "https://www.wearesellers.com/question/125148",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"合规"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国玩具被CPSC在亚马逊购买抽测不合规，纠正措施：停止销售。这情况该怎么回复，对别的子体有影响么"
+},
+{
+"id": "cf1a855fd333106873a4d8ec6e059105614ff349",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "Wildberries批量下发1戈比罚款，卖家质疑是否计入违规记录",
-"url": "https://www.amz123.com/kx/Qsp6qB4j",
+"title": "Prime大促带动亚马逊广告投入增长15%至40%",
+"url": "https://www.amz123.com/kx/vy27Q6jE",
 "published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
 "cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "Prime大促带动亚马逊广告投入增长15%至40%"
+},
+{
+"id": "13604549162671328b7a35a0f4273e98423e2da3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊波兰站10月6日启动圣诞季，同步开启48小时Prime大促",
+"url": "https://www.amz123.com/kx/YNAAyu6m",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊波兰站10月6日启动圣诞季，同步开启48小时Prime大促"
+},
+{
+"id": "4acd839d8be5a1285e9cb3f6872bf7d3f6173e09",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "# Amazon案例分析 # 亚马逊来图定制产品，如何在一个月内做到日均50-100单？希望能从广告结构、关键词布局、运营节奏等，从大方向到具体操作上给出明确的建议。不限方法、不限预算，acos别太离谱",
+"url": "https://www.wearesellers.com/question/125169",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"亚马逊",
+"acos"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [
+"amazon",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "# Amazon案例分析 # 亚马逊来图定制产品，如何在一个月内做到日均50-100单？希望能从广告结构、关键词布局、运营节奏等，从大方向到具体操作上给出明确的建议。不限方法、不限预算，acos别太离谱"
+},
+{
+"id": "ecc5e2676d6183b2a37d8eb19c1653318b55006a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Adobe预测2026年10月美国线上销售额将达958亿美元，Prime Big Deal Days两日成交近99亿",
+"url": "https://www.amz123.com/kx/l7gKRGA2",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.77,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"prime"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "Adobe预测2026年10月美国线上销售额将达958亿美元，Prime Big Deal Days两日成交近99亿"
+},
+{
+"id": "3050067dbf42be4c5dde035cda46198beda0f1bf",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "西班牙Kaufland上线marketplace，首发超3000卖家、在售约1000万件商品",
+"url": "https://www.amz123.com/kx/tXvN1bEC",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.73,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"wildberries",
+"marketplace",
 "卖家",
 "卖家"
 ],
 "cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"wildberries"
-],
+"cross_platforms": [],
 "cross_sites": [],
-"title_zh": "Wildberries批量下发1戈比罚款，卖家质疑是否计入违规记录"
+"title_zh": "西班牙Kaufland上线marketplace，首发超3000卖家、在售约1000万件商品"
 },
 {
-"id": "9e3989fe42d3f85f20aad1b5fa07e3b7c25ecefd",
+"id": "0e442059a260f4801fd97d360444a3e972a06016",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "做亚马逊服装，去年月销 20W 刀，今年大幅缩水，手握新品成绩，该冲深圳还是扎根广州？",
-"url": "https://www.wearesellers.com/question/123917",
+"title": "2026年 秋季Prime会员大促 大家爆单了吗？ 我先来：没有。去年还有3.4倍，今年不到3倍了；加上前面2周的低迷流量，10月 好多货开始积压了-哭了",
+"url": "https://www.wearesellers.com/question/125147",
 "published_at": null,
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
 "cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.71,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"流量"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [
+"prime"
+],
+"cross_sites": [],
+"title_zh": "2026年 秋季Prime会员大促 大家爆单了吗？ 我先来：没有。去年还有3.4倍，今年不到3倍了；加上前面2周的低迷流量，10月 好多货开始积压了-哭了"
+},
+{
+"id": "b52922605853b7b9db8ba87ef2122f8955d39988",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南90%卖家称越卖越亏，商家纷纷尝试将客户引流至站外",
+"url": "https://www.amz123.com/kx/hXjmUPRQ",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南90%卖家称越卖越亏，商家纷纷尝试将客户引流至站外"
+},
+{
+"id": "58b4cb8e95154b05a8e8b0d8c07d8d967ff3e80e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "这些品类大量稀缺！深圳跨境卖家在墨西哥，简直像开挂",
+"url": "https://www.cifnews.com/article/189234",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "这些品类大量稀缺！深圳跨境卖家在墨西哥，简直像开挂"
+},
+{
+"id": "9bbccdae27196a0595166b600c642146eac60294",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "用Grok Bot搭建5个跨境电商数字员工，实现自动化经营（附部署教程）",
+"url": "https://www.wearesellers.com/question/125154",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "用Grok Bot搭建5个跨境电商数字员工，实现自动化经营（附部署教程）"
+},
+{
+"id": "c2067947b15db452dddb0a3af87d6bc61c352e33",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德国线上零售63%流向亚马逊，中国平台增速加快",
+"url": "https://www.amz123.com/kx/B48FgLla",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -295,20 +350,143 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "做亚马逊服装，去年月销 20W 刀，今年大幅缩水，手握新品成绩，该冲深圳还是扎根广州？"
+"title_zh": "德国线上零售63%流向亚马逊，中国平台增速加快"
 },
 {
-"id": "09a50a3c9e548ab36128a493218b9e7ab18fc2aa",
+"id": "fc9fc5fca0208d4ab2fff8f48330ee4fdaa95463",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop墨西哥日均GMV一年增长133倍，卖家数扩大59倍",
+"url": "https://www.amz123.com/kx/EJFlT4dG",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"卖家",
+"卖家"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop墨西哥日均GMV一年增长133倍，卖家数扩大59倍"
+},
+{
+"id": "2adb77d080d511b5430fc6ad2d690662efb5040a",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "求以为打来教导如何通过ETSY收款验证，本人使用个人身份注册的香港店铺，但是收款验证一直不通过，尝试过万里汇，寻汇，派安盈都不行。新手小白，不知道是否哪个细节有问题。有懂得大佬求帮助",
+"url": "https://www.wearesellers.com/question/125145",
+"published_at": null,
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"etsy",
+"万里汇",
+"店铺"
+],
+"cross_why": "合规截止类信号",
+"cross_platforms": [
+"etsy"
+],
+"cross_sites": [],
+"title_zh": "求以为打来教导如何通过ETSY收款验证，本人使用个人身份注册的香港店铺，但是收款验证一直不通过，尝试过万里汇，寻汇，派安盈都不行。新手小白，不知道是否哪个细节有问题。有懂得大佬求帮助"
+},
+{
+"id": "b7da12e244966664d74e17d21fa882cd809593fd",
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"source": "欧洲电商新闻",
+"title": "Amazon holds 63% of German online retail",
+"url": "https://ecommercenews.eu/amazon-holds-63-of-german-online-retail",
+"published_at": "2026-10-07T13:52:07Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊持有德国63%的在线零售"
+},
+{
+"id": "7b3f57585b0e76df36c0f10629472252c18d944a",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "BigCommerce Payments by PayPal launches in the UK",
+"url": "https://channelx.world/2026/10/bigcommerce-payments-by-paypal-launches-in-the-uk",
+"published_at": "2026-10-07T13:13:00Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"paypal"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "BigCommerce Payments by PayPal在英国推出"
+},
+{
+"id": "19d80d7681c94929dee00d062df490e13bc7ae66",
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "source": "Amazon官方",
-"title": "5 ways Amazon is investing in Massachusetts",
-"url": "https://www.aboutamazon.com/news/community/amazon-investment-massachusetts-jobs-infrastructure-small-business",
-"published_at": "2026-10-06T15:58:11Z",
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"title": "Prime Big Deal Days 2026 ends tonight: 200 of the best deals to shop now",
+"url": "https://www.aboutamazon.com/news/retail/best-prime-big-deal-days-2026-top-deals",
+"published_at": "2026-10-07T12:38:00Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
 "cross_is_related": true,
-"cross_score": 0.71,
+"cross_score": 0.82,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon",
+"prime"
+],
+"cross_sites": [],
+"title_zh": "Prime Big Deal Days 2026将于今晚结束：立即购买200个超值优惠"
+},
+{
+"id": "b27c39d929b3cff57e1a1cb2cf67541f2b51ed81",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "5 ways Amazon is investing in Massachusetts",
+"url": "https://amalert.co.uk/updates/5-ways-amazon-is-investing-in-massachusetts-78ef1fc1",
+"published_at": "2026-10-06T15:58:11Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"cross_is_related": true,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -322,17 +500,17 @@
 "title_zh": "亚马逊在马萨诸塞州投资的5种方式"
 },
 {
-"id": "37387ca7c6d4a751ec25f3a3494a97ebe23b6293",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
+"id": "1342a3e410f2afb53eb1d202c188f827fc69e02c",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
 "title": "5 ways Amazon is investing in Missouri",
-"url": "https://www.aboutamazon.com/news/community/amazon-investment-missouri-jobs-infrastructure-small-business",
+"url": "https://amalert.co.uk/updates/5-ways-amazon-is-investing-in-missouri-44e2a9a8",
 "published_at": "2026-10-06T15:56:00Z",
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
 "cross_is_related": true,
-"cross_score": 0.71,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -346,42 +524,17 @@
 "title_zh": "亚马逊在密苏里州投资的5种方式"
 },
 {
-"id": "b90e41c4c0ffd51f90c4a13387c768c880c3a9be",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon Prime Big Deal Days 6th & 7th October",
-"url": "https://channelx.world/2026/10/amazon-prime-big-deal-days-6th-7th-october",
-"published_at": "2026-10-06T08:44:02Z",
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.86,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "Amazon Prime Big Deal 10月6日和7日"
-},
-{
-"id": "d336566b59366050c37b99ae5301f46bf4cffb0b",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Prime Big Deal Days 2026 is here: 150 of the best deals to shop now through October 7",
-"url": "https://www.aboutamazon.com/news/retail/best-prime-big-deal-days-2026-top-deals",
+"id": "1cecc6046b8b11f94b94690971f933d16ac6b247",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Prime Big Deal Days 2026 is here: 165 of the best deals to shop now through October 7",
+"url": "https://amalert.co.uk/updates/prime-big-deal-days-2026-is-here-165-of-the-best-deals-to-shop-now-through-october-7-3d797034",
 "published_at": "2026-10-06T07:22:02Z",
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
+"first_seen_at": "2026-10-08T00:40:34.661783Z",
+"last_seen_at": "2026-10-08T00:40:34.661783Z",
 "cross_is_related": true,
-"cross_score": 0.82,
+"cross_score": 0.77,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [],
@@ -391,79 +544,7 @@
 "prime"
 ],
 "cross_sites": [],
-"title_zh": "Prime Big Deal Days 2026现已推出：截至10月7日，共有150个超值优惠可供购买"
-},
-{
-"id": "5030b5d8c39cd0e9da39438a077c6c6e8822eb42",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "5 ways Amazon is investing in Connecticut",
-"url": "https://amalert.co.uk/updates/5-ways-amazon-is-investing-in-connecticut-b273f2bb",
-"published_at": "2026-10-05T16:44:55Z",
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊在康涅狄格州投资的5种方式"
-},
-{
-"id": "fcad9417c746bbe38e676074fa12ca6d811280d4",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon's Holiday Kids Gift Book is back with 600+ toys, games, and gifts for every age",
-"url": "https://amalert.co.uk/updates/null",
-"published_at": "2026-10-05T13:00:05Z",
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊的节日儿童礼品书回来了，为每个年龄段的人提供600多种玩具、游戏和礼物"
-},
-{
-"id": "79be9d3c289ade49ab39741e10c1b53cc85647b7",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon Scaling Risk Management: A 2026 Guide for Mid-Market and Enterprise Sellers",
-"url": "https://amalert.co.uk/updates/amazon-scaling-risk-management-a-2026-guide-for-mid-market-and-enterprise-sellers-22889a67",
-"published_at": "2026-10-05T11:30:00Z",
-"first_seen_at": "2026-10-07T00:40:27.947149Z",
-"last_seen_at": "2026-10-07T00:40:27.947149Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊扩展风险管理：面向中端市场和企业卖家的2026年指南"
+"title_zh": "Prime Big Deal Days 2026现已推出：截至10月7日，共有165个超值优惠可供购买"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json",
@@ -494,7 +575,7 @@
 "site_name": "Amalert UK",
 "tier": 1,
 "ok": true,
-"item_count": 4
+"item_count": 7
 },
 {
 "site_id": "amazon_ads",
@@ -508,7 +589,7 @@
 "site_name": "SP-API Changelog",
 "tier": 1,
 "ok": true,
-"item_count": 1
+"item_count": 0
 },
 {
 "site_id": "amz123",
@@ -581,5 +662,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 40
+"total_stories": 67
 }
