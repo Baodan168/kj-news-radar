@@ -1,45 +1,44 @@
 {
-"generated_at": "2026-10-08T00:40:34.661783Z",
+"generated_at": "2026-10-09T00:40:18.765412Z",
 "window_days": 7,
-"total_items": 399,
+"total_items": 351,
 "daily_counts": {
-"2026-10-01": 109,
-"2026-10-02": 45,
 "2026-10-03": 31,
 "2026-10-04": 19,
 "2026-10-05": 20,
 "2026-10-06": 65,
 "2026-10-07": 42,
-"2026-10-08": 68
+"2026-10-08": 68,
+"2026-10-09": 106
 },
 "source_counts": {
-"amz123": 202,
-"wearesellers": 60,
-"cifnews": 43,
-"amazon_newsroom": 22,
-"ennews": 22,
+"amz123": 181,
+"wearesellers": 49,
+"cifnews": 37,
+"ennews": 23,
 "channelx": 20,
+"amazon_newsroom": 18,
 "amalert": 13,
-"amzdh": 7,
-"ecommercenews": 5,
-"amazon_ads": 4,
-"sp_api": 1
+"gs_amazon": 4,
+"ecommercenews": 3,
+"amazon_ads": 2,
+"ecomengine": 1
 },
 "label_counts": {
+"not_cross": 157,
 "general": 69,
-"not_cross": 179,
-"platform_trend": 14,
-"seller_action": 51,
-"listing_product": 28,
-"policy_update": 14,
-"fee_logistics": 10,
-"advertising": 16,
-"tiktok": 8,
 "temu": 3,
+"seller_action": 42,
+"listing_product": 14,
 "walmart": 3,
-"compliance_deadline": 4
+"fee_logistics": 14,
+"advertising": 12,
+"platform_trend": 12,
+"policy_update": 13,
+"compliance_deadline": 4,
+"tiktok": 8
 },
-"uk_related_count": 4,
+"uk_related_count": 6,
 "top_signals": [
 {
 "title": "奥地利开征2欧元包裹税，亚马逊、Temu等大型卖家须代缴",
@@ -50,20 +49,12 @@
 "time": "2026-10-04T00:40:15.837332Z"
 },
 {
-"title": "亚马逊10月起开放大件零担标签，卖家可享议定费率",
-"url": "https://www.amz123.com/kx/be3txtki",
+"title": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费",
+"url": "https://www.amz123.com/kx/ZUtYN1x7",
 "site_id": "amz123",
 "score": 0.93,
-"label": "seller_action",
-"time": "2026-10-02T00:40:16.498883Z"
-},
-{
-"title": "亚马逊卖家注意：一次测试多国复用，全球合规成本正在出现新变化",
-"url": "https://www.cifnews.com/article/189251",
-"site_id": "cifnews",
-"score": 0.92,
-"label": "policy_update",
-"time": "2026-10-01T00:40:57.094216Z"
+"label": "fee_logistics",
+"time": "2026-10-09T00:40:18.765412Z"
 },
 {
 "title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
@@ -74,12 +65,20 @@
 "time": "2026-10-08T00:40:34.661783Z"
 },
 {
-"title": "亚马逊9月新规汇总，卖家注意这些变化！",
-"url": "https://www.cifnews.com/article/189242",
+"title": "亚马逊电动切割工具合规新规",
+"url": "https://www.cifnews.com/article/189295",
 "site_id": "cifnews",
 "score": 0.88,
 "label": "policy_update",
-"time": "2026-10-01T00:40:57.094216Z"
+"time": "2026-10-09T00:40:18.765412Z"
+},
+{
+"title": "美国电商增速上调至约10%，Walmart与Shopify增速超越Amazon",
+"url": "https://www.amz123.com/kx/iYDI7aIb",
+"site_id": "amz123",
+"score": 0.86,
+"label": "walmart",
+"time": "2026-10-06T00:40:05.643367Z"
 }
 ]
 }

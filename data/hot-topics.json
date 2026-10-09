@@ -1,78 +1,139 @@
 {
-"generated_at": "2026-10-08T00:40:34.661783Z",
+"generated_at": "2026-10-09T00:40:18.765412Z",
 "items": [
 {
-"story_id": "195b72cd9b7e",
-"primary_title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
-"primary_url": "https://www.amz123.com/kx/mXQBjtNu",
+"story_id": "4da8dcb7dae2",
+"primary_title": "德国企业2026年AI支出预计增至287亿欧元，生成式AI规模翻倍至115亿欧元",
+"primary_url": "https://www.amz123.com/kx/tSKkdCBn",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "d3945d338264aca928af3595e40c03d3608142f0",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "德国2026年AI支出将达287亿欧元，生成式AI翻倍至115亿",
+"url": "https://www.ennews.com/news-145658.html",
+"published_at": "2026-10-08T16:29:33Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国2026年AI支出将达287亿欧元，生成式AI翻倍至115亿"
+},
+{
+"id": "d87f75424f1045c1acd7947193e3c7be0e606725",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德国企业2026年AI支出预计增至287亿欧元，生成式AI规模翻倍至115亿欧元",
+"url": "https://www.amz123.com/kx/tSKkdCBn",
+"published_at": null,
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国企业2026年AI支出预计增至287亿欧元，生成式AI规模翻倍至115亿欧元"
+}
+],
+"earliest_time": "2026-10-08T16:29:33Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 1
+},
+{
+"story_id": "4dc1cb1b8231",
+"primary_title": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费",
+"primary_url": "https://www.amz123.com/kx/ZUtYN1x7",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.89,
-"category": "advertising",
+"max_score": 0.93,
+"category": "fee_logistics",
 "items": [
 {
-"id": "ae169e8ed401b3421b8045cfcf78bca93083f275",
+"id": "ff67f11fecbeb14800e0ed88530bdbadeea6ebeb",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
-"url": "https://www.amz123.com/kx/mXQBjtNu",
+"title": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费",
+"url": "https://www.amz123.com/kx/ZUtYN1x7",
 "published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
 "cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "advertising",
+"cross_score": 0.93,
+"cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"shopify"
+"亚马逊",
+"物流"
 ],
-"cross_why": "UK 市场动态，与英国站业务直接相关",
+"cross_why": "FBA/物流动态，影响补货和时效",
 "cross_platforms": [
-"shopify"
+"亚马逊"
 ],
-"cross_sites": [
-"uk"
-],
-"title_zh": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌"
+"cross_sites": [],
+"title_zh": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费"
 }
 ],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 7.17,
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 7.29,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 1
+"age_hours": 0.01,
+"rank": 2
 },
 {
-"story_id": "2036ba2c49e5",
-"primary_title": "美国玩具被CPSC在亚马逊购买抽测不合规，纠正措施：停止销售。这情况该怎么回复，对别的子体有影响么",
-"primary_url": "https://www.wearesellers.com/question/125148",
-"primary_site_id": "wearesellers",
+"story_id": "fd91cb14aa4c",
+"primary_title": "亚马逊电动切割工具合规新规",
+"primary_url": "https://www.cifnews.com/article/189295",
+"primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"知无不言"
+"雨果跨境"
 ],
-"max_score": 0.83,
+"max_score": 0.88,
 "category": "policy_update",
 "items": [
 {
-"id": "b87d5fea777b0992d476f9a8f8da4a69c88f03bf",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "美国玩具被CPSC在亚马逊购买抽测不合规，纠正措施：停止销售。这情况该怎么回复，对别的子体有影响么",
-"url": "https://www.wearesellers.com/question/125148",
+"id": "78ec28f946df94405c2d713fa9c8c3fac421fbe7",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊电动切割工具合规新规",
+"url": "https://www.cifnews.com/article/189295",
 "published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
 "cross_is_related": true,
-"cross_score": 0.83,
+"cross_score": 0.88,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -83,94 +144,48 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国玩具被CPSC在亚马逊购买抽测不合规，纠正措施：停止销售。这情况该怎么回复，对别的子体有影响么"
-}
-],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.99,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 2
-},
-{
-"story_id": "eb5c98208843",
-"primary_title": "Prime大促带动亚马逊广告投入增长15%至40%",
-"primary_url": "https://www.amz123.com/kx/vy27Q6jE",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.81,
-"category": "advertising",
-"items": [
-{
-"id": "cf1a855fd333106873a4d8ec6e059105614ff349",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Prime大促带动亚马逊广告投入增长15%至40%",
-"url": "https://www.amz123.com/kx/vy27Q6jE",
-"published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_platforms": [
-"prime",
-"亚马逊"
-],
 "cross_sites": [],
-"title_zh": "Prime大促带动亚马逊广告投入增长15%至40%"
+"title_zh": "亚马逊电动切割工具合规新规"
 }
 ],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.93,
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 7.140000000000001,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
+"age_hours": 0.01,
 "rank": 3
 },
 {
-"story_id": "b875c09c1199",
-"primary_title": "亚马逊波兰站10月6日启动圣诞季，同步开启48小时Prime大促",
-"primary_url": "https://www.amz123.com/kx/YNAAyu6m",
+"story_id": "fd26235dc56a",
+"primary_title": "2026年亚马逊秋季Prime大促表现低迷，卖家反映单量不及去年",
+"primary_url": "https://www.amz123.com/kx/m4Q03F4k",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.81,
+"max_score": 0.85,
 "category": "advertising",
 "items": [
 {
-"id": "13604549162671328b7a35a0f4273e98423e2da3",
+"id": "713a2322510d56e9a0a51ff4615ca6a9de20ad40",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊波兰站10月6日启动圣诞季，同步开启48小时Prime大促",
-"url": "https://www.amz123.com/kx/YNAAyu6m",
+"title": "2026年亚马逊秋季Prime大促表现低迷，卖家反映单量不及去年",
+"url": "https://www.amz123.com/kx/m4Q03F4k",
 "published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
 "cross_is_related": true,
-"cross_score": 0.81,
+"cross_score": 0.85,
 "cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"亚马逊",
+"卖家",
+"卖家"
 ],
 "cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_platforms": [
@@ -178,286 +193,295 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊波兰站10月6日启动圣诞季，同步开启48小时Prime大促"
+"title_zh": "2026年亚马逊秋季Prime大促表现低迷，卖家反映单量不及去年"
 }
 ],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.93,
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
+"age_hours": 0.01,
 "rank": 4
 },
 {
-"story_id": "ecf139b561bb",
-"primary_title": "# Amazon案例分析 # 亚马逊来图定制产品，如何在一个月内做到日均50-100单？希望能从广告结构、关键词布局、运营节奏等，从大方向到具体操作上给出明确的建议。不限方法、不限预算，acos别太离谱",
-"primary_url": "https://www.wearesellers.com/question/125169",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.79,
-"category": "advertising",
-"items": [
-{
-"id": "4acd839d8be5a1285e9cb3f6872bf7d3f6173e09",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "# Amazon案例分析 # 亚马逊来图定制产品，如何在一个月内做到日均50-100单？希望能从广告结构、关键词布局、运营节奏等，从大方向到具体操作上给出明确的建议。不限方法、不限预算，acos别太离谱",
-"url": "https://www.wearesellers.com/question/125169",
-"published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"亚马逊",
-"acos"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_platforms": [
-"amazon",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "# Amazon案例分析 # 亚马逊来图定制产品，如何在一个月内做到日均50-100单？希望能从广告结构、关键词布局、运营节奏等，从大方向到具体操作上给出明确的建议。不限方法、不限预算，acos别太离谱"
-}
-],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.87,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 5
-},
-{
-"story_id": "54d9f1c198c5",
-"primary_title": "Adobe预测2026年10月美国线上销售额将达958亿美元，Prime Big Deal Days两日成交近99亿",
-"primary_url": "https://www.amz123.com/kx/l7gKRGA2",
+"story_id": "05eb71b91b0b",
+"primary_title": "亚马逊GWD扩展至欧亚七国，FBA补货最快提速5天",
+"primary_url": "https://www.amz123.com/kx/eVanWkgd",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.77,
+"max_score": 0.85,
 "category": "general",
 "items": [
 {
-"id": "ecc5e2676d6183b2a37d8eb19c1653318b55006a",
+"id": "5e60a99be729c2d53aaffe2ffc5830fd48d4cc2e",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "Adobe预测2026年10月美国线上销售额将达958亿美元，Prime Big Deal Days两日成交近99亿",
-"url": "https://www.amz123.com/kx/l7gKRGA2",
+"title": "亚马逊GWD扩展至欧亚七国，FBA补货最快提速5天",
+"url": "https://www.amz123.com/kx/eVanWkgd",
 "published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
 "cross_is_related": true,
-"cross_score": 0.77,
+"cross_score": 0.85,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
 "cross_platforms": [
-"prime"
+"fba",
+"亚马逊"
 ],
-"cross_sites": [
-"us"
-],
-"title_zh": "Adobe预测2026年10月美国线上销售额将达958亿美元，Prime Big Deal Days两日成交近99亿"
+"cross_sites": [],
+"title_zh": "亚马逊GWD扩展至欧亚七国，FBA补货最快提速5天"
 }
 ],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.8100000000000005,
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 6
+"age_hours": 0.01,
+"rank": 5
 },
 {
-"story_id": "e5fccc3499b6",
-"primary_title": "西班牙Kaufland上线marketplace，首发超3000卖家、在售约1000万件商品",
-"primary_url": "https://www.amz123.com/kx/tXvN1bEC",
+"story_id": "ca52e04e0b30",
+"primary_title": "亚马逊灰度测试退货流程内嵌评分机制",
+"primary_url": "https://www.amz123.com/kx/8sYYrJTy",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.73,
-"category": "seller_action",
+"max_score": 0.85,
+"category": "listing_product",
 "items": [
 {
-"id": "3050067dbf42be4c5dde035cda46198beda0f1bf",
+"id": "db932f887727c19c51a977eb7b47acfba1759200",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "西班牙Kaufland上线marketplace，首发超3000卖家、在售约1000万件商品",
-"url": "https://www.amz123.com/kx/tXvN1bEC",
+"title": "亚马逊灰度测试退货流程内嵌评分机制",
+"url": "https://www.amz123.com/kx/8sYYrJTy",
 "published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
 "cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
+"cross_score": 0.85,
+"cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"marketplace",
-"卖家",
-"卖家"
+"亚马逊",
+"退货"
 ],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [
+"亚马逊"
+],
 "cross_sites": [],
-"title_zh": "西班牙Kaufland上线marketplace，首发超3000卖家、在售约1000万件商品"
+"title_zh": "亚马逊灰度测试退货流程内嵌评分机制"
 }
 ],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.6899999999999995,
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 7
+"age_hours": 0.01,
+"rank": 6
 },
 {
-"story_id": "bfdbdd373447",
-"primary_title": "2026年 秋季Prime会员大促 大家爆单了吗？ 我先来：没有。去年还有3.4倍，今年不到3倍了；加上前面2周的低迷流量，10月 好多货开始积压了-哭了",
-"primary_url": "https://www.wearesellers.com/question/125147",
+"story_id": "4c7ffa682db6",
+"primary_title": "FBA 订单卡在 Pending(等待付款验证),卖家有办法主动取消吗?",
+"primary_url": "https://www.wearesellers.com/question/125192",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "知无不言"
 ],
-"max_score": 0.71,
-"category": "advertising",
-"items": [
-{
-"id": "0e442059a260f4801fd97d360444a3e972a06016",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "2026年 秋季Prime会员大促 大家爆单了吗？ 我先来：没有。去年还有3.4倍，今年不到3倍了；加上前面2周的低迷流量，10月 好多货开始积压了-哭了",
-"url": "https://www.wearesellers.com/question/125147",
-"published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"流量"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"prime"
-],
-"cross_sites": [],
-"title_zh": "2026年 秋季Prime会员大促 大家爆单了吗？ 我先来：没有。去年还有3.4倍，今年不到3倍了；加上前面2周的低迷流量，10月 好多货开始积压了-哭了"
-}
-],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.63,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 8
-},
-{
-"story_id": "8d38399de34d",
-"primary_title": "越南90%卖家称越卖越亏，商家纷纷尝试将客户引流至站外",
-"primary_url": "https://www.amz123.com/kx/hXjmUPRQ",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.69,
+"max_score": 0.83,
 "category": "seller_action",
 "items": [
 {
-"id": "b52922605853b7b9db8ba87ef2122f8955d39988",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "越南90%卖家称越卖越亏，商家纷纷尝试将客户引流至站外",
-"url": "https://www.amz123.com/kx/hXjmUPRQ",
+"id": "600a40214f0e43f1f7a9733bc71be17b0d92e37e",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "FBA 订单卡在 Pending(等待付款验证),卖家有办法主动取消吗?",
+"url": "https://www.wearesellers.com/question/125192",
 "published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
 "cross_is_related": true,
-"cross_score": 0.69,
+"cross_score": 0.83,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"fba",
 "卖家",
 "卖家"
 ],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"fba"
+],
 "cross_sites": [],
-"title_zh": "越南90%卖家称越卖越亏，商家纷纷尝试将客户引流至站外"
+"title_zh": "FBA 订单卡在 Pending(等待付款验证),卖家有办法主动取消吗?"
 }
 ],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.57,
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 6.99,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 9
+"age_hours": 0.01,
+"rank": 7
 },
 {
-"story_id": "03bc785fb251",
-"primary_title": "这些品类大量稀缺！深圳跨境卖家在墨西哥，简直像开挂",
-"primary_url": "https://www.cifnews.com/article/189234",
+"story_id": "69667e3302e6",
+"primary_title": "家具大件用亚马逊FBA：费用优惠与库存管理指南",
+"primary_url": "https://globalselling.amazon.com/news/news-product-260924",
+"primary_site_id": "gs_amazon",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"亚马逊全球开店"
+],
+"max_score": 0.82,
+"category": "fee_logistics",
+"items": [
+{
+"id": "8746e16ed40898cdfaf7f0db16d8f8d9383cba46",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "家具大件用亚马逊FBA：费用优惠与库存管理指南",
+"url": "https://globalselling.amazon.com/news/news-product-260924",
+"published_at": null,
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊",
+"库存"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "家具大件用亚马逊FBA：费用优惠与库存管理指南"
+}
+],
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 6.96,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 8
+},
+{
+"story_id": "f5d8a6d7a3ad",
+"primary_title": "流量暴涨200%+，转化率提升35%！爆单卖家都在吃AI免费流量",
+"primary_url": "https://www.cifnews.com/article/189283",
 "primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "雨果跨境"
 ],
-"max_score": 0.68,
+"max_score": 0.8,
 "category": "seller_action",
 "items": [
 {
-"id": "58b4cb8e95154b05a8e8b0d8c07d8d967ff3e80e",
+"id": "9703aeb41fc134897f1e9cefb42a850b0ce18557",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "这些品类大量稀缺！深圳跨境卖家在墨西哥，简直像开挂",
-"url": "https://www.cifnews.com/article/189234",
+"title": "流量暴涨200%+，转化率提升35%！爆单卖家都在吃AI免费流量",
+"url": "https://www.cifnews.com/article/189283",
 "published_at": null,
-"first_seen_at": "2026-10-08T00:40:34.661783Z",
-"last_seen_at": "2026-10-08T00:40:34.661783Z",
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
 "cross_is_related": true,
-"cross_score": 0.68,
+"cross_score": 0.8,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "卖家",
-"跨境",
-"卖家"
+"卖家",
+"流量",
+"转化率"
 ],
 "cross_why": "卖家运营相关信号",
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "这些品类大量稀缺！深圳跨境卖家在墨西哥，简直像开挂"
+"title_zh": "流量暴涨200%+，转化率提升35%！爆单卖家都在吃AI免费流量"
 }
 ],
-"earliest_time": "2026-10-08T00:40:34.661783Z",
-"latest_time": "2026-10-08T00:40:34.661783Z",
-"hot_score": 6.54,
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 6.9,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
+"age_hours": 0.01,
+"rank": 9
+},
+{
+"story_id": "b110535b7819",
+"primary_title": "诚心求推荐欧洲站合规服务商（VAT + 欧代英代 + WEEE + 包装法），恳请大佬分享实操经验，顺带请教前辈几个实操问题……",
+"primary_url": "https://www.wearesellers.com/question/125184",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.8,
+"category": "policy_update",
+"items": [
+{
+"id": "9402c61ab91fb2d8fc3fe9e24faa9c0b45c93522",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "诚心求推荐欧洲站合规服务商（VAT + 欧代英代 + WEEE + 包装法），恳请大佬分享实操经验，顺带请教前辈几个实操问题……",
+"url": "https://www.wearesellers.com/question/125184",
+"published_at": null,
+"first_seen_at": "2026-10-09T00:40:18.765412Z",
+"last_seen_at": "2026-10-09T00:40:18.765412Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"vat",
+"合规"
+],
+"cross_why": "EU/UK 合规要求，影响 UK/EU 站在售产品",
+"cross_platforms": [],
+"cross_sites": [
+"uk",
+"eu"
+],
+"title_zh": "诚心求推荐欧洲站合规服务商（VAT + 欧代英代 + WEEE + 包装法），恳请大佬分享实操经验，顺带请教前辈几个实操问题……"
+}
+],
+"earliest_time": "2026-10-09T00:40:18.765412Z",
+"latest_time": "2026-10-09T00:40:18.765412Z",
+"hot_score": 6.9,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
 "rank": 10
 }
 ]
