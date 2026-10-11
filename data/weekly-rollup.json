@@ -1,24 +1,25 @@
 {
-"generated_at": "2026-10-10T00:40:51.309222Z",
+"generated_at": "2026-10-11T00:40:37.593105Z",
 "window_days": 7,
-"total_items": 406,
+"total_items": 475,
 "daily_counts": {
-"2026-10-04": 19,
 "2026-10-05": 20,
 "2026-10-06": 65,
 "2026-10-07": 42,
 "2026-10-08": 68,
 "2026-10-09": 106,
-"2026-10-10": 86
+"2026-10-10": 86,
+"2026-10-11": 88
 },
 "source_counts": {
-"amz123": 199,
-"wearesellers": 57,
-"ennews": 46,
-"cifnews": 40,
+"amz123": 227,
+"ennews": 68,
+"wearesellers": 65,
+"cifnews": 44,
 "channelx": 20,
 "amazon_newsroom": 18,
-"amalert": 13,
+"amalert": 12,
+"amzdh": 8,
 "ecommercenews": 4,
 "gs_amazon": 4,
 "amazon_ads": 2,
@@ -26,29 +27,21 @@
 "marketplace_pulse": 1
 },
 "label_counts": {
-"not_cross": 191,
-"advertising": 18,
-"platform_trend": 14,
-"listing_product": 17,
-"temu": 2,
-"fee_logistics": 13,
-"policy_update": 16,
-"general": 70,
-"compliance_deadline": 5,
-"seller_action": 49,
-"tiktok": 9,
-"walmart": 2
+"general": 78,
+"not_cross": 225,
+"listing_product": 18,
+"compliance_deadline": 4,
+"tiktok": 10,
+"walmart": 4,
+"seller_action": 57,
+"platform_trend": 17,
+"policy_update": 26,
+"fee_logistics": 12,
+"advertising": 23,
+"temu": 1
 },
 "uk_related_count": 8,
 "top_signals": [
-{
-"title": "奥地利开征2欧元包裹税，亚马逊、Temu等大型卖家须代缴",
-"url": "https://www.amz123.com/kx/7U6r55nH",
-"site_id": "amz123",
-"score": 1.0,
-"label": "temu",
-"time": "2026-10-04T00:40:15.837332Z"
-},
 {
 "title": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费",
 "url": "https://www.amz123.com/kx/ZUtYN1x7",
@@ -56,6 +49,14 @@
 "score": 0.93,
 "label": "fee_logistics",
 "time": "2026-10-09T00:40:18.765412Z"
+},
+{
+"title": "亚马逊欧洲站点，中企换成波兰公司主体之后，依旧代扣代缴VAT，如何解决？",
+"url": "https://www.wearesellers.com/question/125262",
+"site_id": "wearesellers",
+"score": 0.91,
+"label": "policy_update",
+"time": "2026-10-11T00:40:37.593105Z"
 },
 {
 "title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
