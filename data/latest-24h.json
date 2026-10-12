@@ -1,75 +1,45 @@
 {
-"generated_at": "2026-10-11T00:40:37.593105Z",
+"generated_at": "2026-10-12T00:40:16.563177Z",
 "window_hours": 24,
-"total_items": 29,
-"total_items_cross_raw": 85,
-"total_items_raw": 174,
-"total_items_all_mode": 174,
+"total_items": 25,
+"total_items_cross_raw": 56,
+"total_items_raw": 99,
+"total_items_all_mode": 99,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1578,
+"archive_total": 1589,
 "site_count": 16,
-"source_count": 9,
+"source_count": 4,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
-"count": 8,
-"raw_count": 75
+"count": 7,
+"raw_count": 41
 },
 {
 "site_id": "ennews",
 "site_name": "亿恩网",
-"count": 8,
-"raw_count": 45
+"count": 7,
+"raw_count": 22
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 25
+"raw_count": 18
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 3,
-"raw_count": 13
+"raw_count": 10
 },
 {
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "count": 3,
 "raw_count": 8
-},
-{
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"count": 1,
-"raw_count": 2
-},
-{
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"count": 1,
-"raw_count": 2
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"count": 0,
-"raw_count": 2
-},
-{
-"site_id": "ecomengine",
-"site_name": "EcomEngine",
-"count": 0,
-"raw_count": 1
-},
-{
-"site_id": "marketplace_pulse",
-"site_name": "Marketplace Pulse",
-"count": 0,
-"raw_count": 1
 }
 ],
 "items": [
@@ -82,7 +52,7 @@
 "url": "https://www.wearesellers.com/question/125262",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.91,
 "cross_label": "policy_update",
@@ -109,7 +79,7 @@
 "url": "https://www.wearesellers.com/question/125264",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "advertising",
@@ -134,7 +104,7 @@
 "url": "https://www.wearesellers.com/question/125257",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "advertising",
@@ -161,7 +131,7 @@
 "url": "https://www.wearesellers.com/question/125254",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "advertising",
@@ -172,8 +142,8 @@
 ],
 "cross_why": "广告政策/工具变化，影响投放策略",
 "cross_platforms": [
-"amazon",
-"亚马逊"
+"亚马逊",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "# Amazon案例分析 # 亚马逊化妆品类目广告CPA从$6涨到$15，点击和转化同时下降，该先查哪里？如何优化低样本搜索词和预算分配"
@@ -187,7 +157,7 @@
 "url": "https://www.cifnews.com/article/189326",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "platform_trend",
@@ -201,6 +171,30 @@
 "cross_platforms": [],
 "cross_sites": [],
 "title_zh": "2026领星跨境电商AI峰会圆满收官：共探AI实践和全球化增长新机遇"
+},
+{
+"id": "88312db42f401ee3326571bc8cec5c13ea4d4eff",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊后台新出的全流域广告活动（FFC）真实表现如何？",
+"url": "https://www.wearesellers.com/question/125269",
+"published_at": null,
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "亚马逊官方后台更新，留意后台通知",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊后台新出的全流域广告活动（FFC）真实表现如何？"
 },
 {
 "id": "1d1ca89cc0ca21e2ca8f842665f900a52e7d0f13",
@@ -259,7 +253,7 @@
 "url": "https://www.amz123.com/kx/7IqPTS1f",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "seller_action",
@@ -285,7 +279,7 @@
 "url": "https://www.amzdh.com/kjtt/10525.html",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "advertising",
@@ -309,7 +303,7 @@
 "url": "https://www.cifnews.com/article/189312",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -324,6 +318,55 @@
 "title_zh": "新店允许“跟卖”，80%首周即出单！这个平台狂抢中国卖家"
 },
 {
+"id": "fa4b8c754c576161e38a9ae7684a97c823aae6e9",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop将上线Sell Across EU功能，英欧卖家可互售12国",
+"url": "https://www.amz123.com/kx/NMvjn4pk",
+"published_at": null,
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"卖家",
+"卖家"
+],
+"cross_why": "政策相关更新",
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop将上线Sell Across EU功能，英欧卖家可互售12国"
+},
+{
+"id": "00b26a535fed01198b3b4bb23fee7fcad99dfef1",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "美USTR就欧盟碳关税CBAM扩围征集意见，拟新增300余种商品",
+"url": "https://www.amz123.com/kx/2jrkh3LO",
+"published_at": null,
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.62,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"关税"
+],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "美USTR就欧盟碳关税CBAM扩围征集意见，拟新增300余种商品"
+},
+{
 "id": "bcdf39011613da8b24b3d4425950a774d24c49a0",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
@@ -332,7 +375,7 @@
 "url": "https://www.cifnews.com/article/189311",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "listing_product",
@@ -348,6 +391,54 @@
 "title_zh": "亚马逊紧急封禁，Meta新上线的AI产品，有多“危险”？"
 },
 {
+"id": "25681126f08ffe3beff1da897a5afd9731bf4620",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon今年识别涉欺诈订单金额达114亿卢布，锁定32.2万笔可疑订单",
+"url": "https://www.amz123.com/kx/JWVkEkaO",
+"published_at": null,
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon今年识别涉欺诈订单金额达114亿卢布，锁定32.2万笔可疑订单"
+},
+{
+"id": "11885d600a21b53df7b6844c87b814175c201891",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ingosstrakh宣布终止与Ozon合作的商品无人机袭击险，保单将于10月12日到期",
+"url": "https://www.amz123.com/kx/IIqbOtRb",
+"published_at": null,
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ingosstrakh宣布终止与Ozon合作的商品无人机袭击险，保单将于10月12日到期"
+},
+{
 "id": "d07e770642120e8901b13236e324173a7537395f",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -356,7 +447,7 @@
 "url": "https://www.amzdh.com/kjtt/10526.html",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "seller_action",
@@ -383,7 +474,7 @@
 "url": "https://www.amzdh.com/kjtt/10523.html",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -399,6 +490,77 @@
 "title_zh": "Ozon延长FBO免仓租至年底，WB按品类锁定供货价60至90天"
 },
 {
+"id": "76a68b08cc3109c9a508a064a5cddcfb2cc6f5c3",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ingosstrakh将终止Ozon商品无人机袭击险 保单10月12日到期",
+"url": "https://www.ennews.com/news-145876.html",
+"published_at": "2026-10-10T16:08:41Z",
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ingosstrakh将终止Ozon商品无人机袭击险 保单10月12日到期"
+},
+{
+"id": "80ced6f749cec41697239d047151e60844cdc18e",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Ozon今年识别涉欺诈订单114亿卢布，锁定32.2万笔可疑单",
+"url": "https://www.ennews.com/news-145875.html",
+"published_at": "2026-10-10T16:03:54Z",
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon今年识别涉欺诈订单114亿卢布，锁定32.2万笔可疑单"
+},
+{
+"id": "d73458caebacc7fa20c8a84a9f88a8cf024a152a",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "USTR就欧盟碳关税（CBAM）及扩围计划征求公众意见",
+"url": "https://www.ennews.com/news-145874.html",
+"published_at": "2026-10-10T15:56:40Z",
+"first_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"关税"
+],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "USTR就欧盟碳关税（CBAM）及扩围计划征求公众意见"
+},
+{
 "id": "1b4bcdc81170c6044782043ff8b5f76ac1b1af8a",
 "site_id": "ennews",
 "site_name": "亿恩网",
@@ -407,9 +569,9 @@
 "url": "https://www.ennews.com/news-145873.html",
 "published_at": "2026-10-10T15:49:54Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
-"cross_score": 0.61,
+"cross_score": 0.6,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
@@ -430,9 +592,9 @@
 "url": "https://www.ennews.com/news-145870.html",
 "published_at": "2026-10-10T15:32:16Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
-"cross_score": 0.68,
+"cross_score": 0.63,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -454,9 +616,9 @@
 "url": "https://www.ennews.com/article-31940-1.html",
 "published_at": "2026-10-10T15:13:22Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
-"cross_score": 0.61,
+"cross_score": 0.6,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -478,9 +640,9 @@
 "url": "https://www.ennews.com/article-31938-1.html",
 "published_at": "2026-10-10T11:12:05Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
-"cross_score": 0.8,
+"cross_score": 0.75,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -494,292 +656,6 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊评价机制又变！卖家：花钱可能买来差评"
-},
-{
-"id": "409519d66eb8691627b34ba9569ed571707db636",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "调研显示仅23%亚马逊买家能识别搜索首位广告",
-"url": "https://www.amz123.com/kx/fwFCrI7o",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.85,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"买家"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "调研显示仅23%亚马逊买家能识别搜索首位广告"
-},
-{
-"id": "c5c9bbee44dd949adb7236322d014a4267994fe2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德国三大协会联合呼吁欧盟立法，要求第三国卖家指定境内授权代表",
-"url": "https://www.amz123.com/kx/erAg8vkf",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德国三大协会联合呼吁欧盟立法，要求第三国卖家指定境内授权代表"
-},
-{
-"id": "39523032d1e2d4008be6c768b630ad172cdcda43",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "同一个品牌，先在亚马逊A店铺备案，然后通过A店铺后台再将该品牌授权给B店铺（管理者/权利所有人），B店铺跟卖A店铺产品，现在想解除该品牌在A店铺的备案，请问怎么操作",
-"url": "https://www.wearesellers.com/question/125239",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"店铺"
-],
-"cross_why": "亚马逊官方后台更新，留意后台通知",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "同一个品牌，先在亚马逊A店铺备案，然后通过A店铺后台再将该品牌授权给B店铺（管理者/权利所有人），B店铺跟卖A店铺产品，现在想解除该品牌在A店铺的备案，请问怎么操作"
-},
-{
-"id": "05eed7b0a536231d34e1373079c81862bbd92f22",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Shopify向Meta智能体Muse开放商家连接器，支持建品改价及库存管理",
-"url": "https://www.amz123.com/kx/cTuB0HIz",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.73,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopify",
-"库存"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"shopify"
-],
-"cross_sites": [],
-"title_zh": "Shopify向Meta智能体Muse开放商家连接器，支持建品改价及库存管理"
-},
-{
-"id": "98e13c6becc9a90533944d98a2dd326236b8892c",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Yandex Market终止卖家推荐返利计划",
-"url": "https://www.amz123.com/kx/XZ89eXGY",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Yandex Market终止卖家推荐返利计划"
-},
-{
-"id": "9d7d57a443a4e3f95cec7f1fa3fc60f887ffeb65",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Amazon上线\"About You\"个人画像页面，用户可查看并修改推断信息",
-"url": "https://www.amz123.com/kx/eH5VS6tE",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Amazon上线\"About You\"个人画像页面，用户可查看并修改推断信息"
-},
-{
-"id": "e505d9e826e4106071d1f67bdc5679402df9ed4f",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "俄两大协会提议建立电商平台与卖家统一结算机制",
-"url": "https://www.ennews.com/news-145779.html",
-"published_at": "2026-10-09T17:29:04Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"电商",
-"电商平台"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄两大协会提议建立电商平台与卖家统一结算机制"
-},
-{
-"id": "7f0151821de0e2e9e34963f473b5baebef1a4796",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "广东小城，靠玩具做出500亿跨境生意",
-"url": "https://www.ennews.com/news-145774.html",
-"published_at": "2026-10-09T16:55:47Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"跨境"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "广东小城，靠玩具做出500亿跨境生意"
-},
-{
-"id": "b03675fe77d54e0876709ccc2d24dca915b8b9d2",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "德国三大协会呼吁欧盟立法，要求第三国卖家指定境内授权代表",
-"url": "https://www.ennews.com/news-145770.html",
-"published_at": "2026-10-09T16:31:56Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德国三大协会呼吁欧盟立法，要求第三国卖家指定境内授权代表"
-},
-{
-"id": "ecda3b315e670c1d657f1cc2e129a15076834cc4",
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"source": "欧洲电商新闻",
-"title": "Swedish ecommerce grew 8% in Q2",
-"url": "https://ecommercenews.eu/swedish-ecommerce-grew-8-in-q2",
-"published_at": "2026-10-09T15:19:56Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"ecommerce"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "瑞典电商第二季度增长8%"
-},
-{
-"id": "f225316b29554cde13d31491f67252d6ecf40a5e",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "秋促凉凉！一批卖家被报名费劝退",
-"url": "https://www.ennews.com/article-31937-1.html",
-"published_at": "2026-10-09T13:42:52Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "秋促凉凉！一批卖家被报名费劝退"
-},
-{
-"id": "873b8732ff25d9f8ff0915b97870088790d947d8",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "From zero to 1,000: How Amazon Leo built one of the world's largest satellite production lines",
-"url": "https://amalert.co.uk/updates/null",
-"published_at": "2026-10-08T16:01:58Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "从零到1000 ： Amazon Leo如何建造世界上最大的卫星生产线之一"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json",
@@ -799,20 +675,6 @@
 "item_count": 11
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"tier": 1,
-"ok": true,
-"item_count": 2
-},
-{
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"tier": 1,
-"ok": true,
-"item_count": 2
-},
-{
 "site_id": "amazon_ads",
 "site_name": "Amazon Ads Blog",
 "tier": 1,
@@ -820,8 +682,22 @@
 "item_count": 1
 },
 {
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"tier": 1,
+"ok": true,
+"item_count": 0
+},
+{
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
+"tier": 1,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "amalert",
+"site_name": "Amalert UK",
 "tier": 1,
 "ok": true,
 "item_count": 0
@@ -845,7 +721,7 @@
 "site_name": "亿恩网",
 "tier": 2,
 "ok": true,
-"item_count": 25
+"item_count": 22
 },
 {
 "site_id": "ecomengine",
@@ -853,6 +729,13 @@
 "tier": 2,
 "ok": true,
 "item_count": 20
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"tier": 2,
+"ok": true,
+"item_count": 15
 },
 {
 "site_id": "kjds365",
@@ -869,18 +752,11 @@
 "item_count": 10
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"tier": 2,
-"ok": true,
-"item_count": 10
-},
-{
 "site_id": "ecommercenews",
 "site_name": "Ecommerce News Europe",
 "tier": 2,
 "ok": true,
-"item_count": 2
+"item_count": 0
 },
 {
 "site_id": "channelx",
@@ -897,5 +773,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 165
+"total_stories": 93
 }

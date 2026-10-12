@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-11T00:40:37.593105Z",
+"generated_at": "2026-10-12T00:40:16.563177Z",
 "items": [
 {
 "story_id": "199057529d0f",
@@ -24,7 +24,7 @@
 "url": "https://www.ennews.com/news-145875.html",
 "published_at": "2026-10-10T16:03:54Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -48,7 +48,7 @@
 "url": "https://www.amz123.com/kx/JWVkEkaO",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -66,9 +66,9 @@
 ],
 "earliest_time": "2026-10-10T16:03:54Z",
 "latest_time": "2026-10-11T00:40:37.593105Z",
-"hot_score": 8.8,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
+"hot_score": 7.8,
+"freshness_bonus": 1.0,
+"age_hours": 24.0,
 "rank": 1
 },
 {
@@ -94,7 +94,7 @@
 "url": "https://www.ennews.com/news-145876.html",
 "published_at": "2026-10-10T16:08:41Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -118,7 +118,7 @@
 "url": "https://www.amz123.com/kx/IIqbOtRb",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -136,78 +136,10 @@
 ],
 "earliest_time": "2026-10-10T16:08:41Z",
 "latest_time": "2026-10-11T00:40:37.593105Z",
-"hot_score": 8.8,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 2
-},
-{
-"story_id": "054977c73651",
-"primary_title": "德国三大协会联合呼吁欧盟立法，要求第三国卖家指定境内授权代表",
-"primary_url": "https://www.amz123.com/kx/erAg8vkf",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.77,
-"category": "policy_update",
-"items": [
-{
-"id": "b03675fe77d54e0876709ccc2d24dca915b8b9d2",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "德国三大协会呼吁欧盟立法，要求第三国卖家指定境内授权代表",
-"url": "https://www.ennews.com/news-145770.html",
-"published_at": "2026-10-09T16:31:56Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.67,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德国三大协会呼吁欧盟立法，要求第三国卖家指定境内授权代表"
-},
-{
-"id": "c5c9bbee44dd949adb7236322d014a4267994fe2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "德国三大协会联合呼吁欧盟立法，要求第三国卖家指定境内授权代表",
-"url": "https://www.amz123.com/kx/erAg8vkf",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.77,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "德国三大协会联合呼吁欧盟立法，要求第三国卖家指定境内授权代表"
-}
-],
-"earliest_time": "2026-10-09T16:31:56Z",
-"latest_time": "2026-10-10T00:40:51.309222Z",
-"hot_score": 7.8100000000000005,
-"freshness_bonus": 0.5,
+"hot_score": 7.8,
+"freshness_bonus": 1.0,
 "age_hours": 24.0,
-"rank": 3
+"rank": 2
 },
 {
 "story_id": "66ad2f375934",
@@ -232,7 +164,7 @@
 "url": "https://www.ennews.com/news-145881.html",
 "published_at": "2026-10-10T16:42:56Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -252,7 +184,7 @@
 "url": "https://www.amz123.com/kx/RKN8hYGV",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": false,
 "cross_score": 0.15,
 "cross_label": "not_cross",
@@ -268,10 +200,10 @@
 ],
 "earliest_time": "2026-10-10T16:42:56Z",
 "latest_time": "2026-10-11T00:40:37.593105Z",
-"hot_score": 7.45,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 4
+"hot_score": 6.45,
+"freshness_bonus": 1.0,
+"age_hours": 24.0,
+"rank": 3
 },
 {
 "story_id": "4a19b6ea238e",
@@ -296,7 +228,7 @@
 "url": "https://www.ennews.com/news-145883.html",
 "published_at": "2026-10-10T16:52:46Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -316,7 +248,7 @@
 "url": "https://www.amz123.com/kx/pHWy9n8j",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": false,
 "cross_score": 0.15,
 "cross_label": "not_cross",
@@ -330,10 +262,10 @@
 ],
 "earliest_time": "2026-10-10T16:52:46Z",
 "latest_time": "2026-10-11T00:40:37.593105Z",
-"hot_score": 7.45,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 5
+"hot_score": 6.45,
+"freshness_bonus": 1.0,
+"age_hours": 24.0,
+"rank": 4
 },
 {
 "story_id": "daea35c50ac0",
@@ -358,7 +290,7 @@
 "url": "https://www.ennews.com/news-145877.html",
 "published_at": "2026-10-10T16:16:22Z",
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -378,7 +310,7 @@
 "url": "https://www.amz123.com/kx/8SZDExLU",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": false,
 "cross_score": 0.15,
 "cross_label": "not_cross",
@@ -392,158 +324,55 @@
 ],
 "earliest_time": "2026-10-10T16:16:22Z",
 "latest_time": "2026-10-11T00:40:37.593105Z",
-"hot_score": 7.45,
+"hot_score": 6.45,
+"freshness_bonus": 1.0,
+"age_hours": 24.0,
+"rank": 5
+},
+{
+"story_id": "5872cbeadb88",
+"primary_title": "巴西保健品品牌Growth Supplements正式入驻TikTok Shop",
+"primary_url": "https://www.amz123.com/kx/i5e5PGIK",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.59,
+"category": "listing_product",
+"items": [
+{
+"id": "0e7f6994fb5e3a184b9c6c896181a7a350aefeec",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "巴西保健品品牌Growth Supplements正式入驻TikTok Shop",
+"url": "https://www.amz123.com/kx/i5e5PGIK",
+"published_at": null,
+"first_seen_at": "2026-10-12T00:40:16.563177Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.59,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop"
+],
+"cross_why": "产品/listing 相关更新",
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "巴西保健品品牌Growth Supplements正式入驻TikTok Shop"
+}
+],
+"earliest_time": "2026-10-12T00:40:16.563177Z",
+"latest_time": "2026-10-12T00:40:16.563177Z",
+"hot_score": 6.27,
 "freshness_bonus": 2.0,
-"age_hours": 0.01,
+"age_hours": 0.0,
 "rank": 6
-},
-{
-"story_id": "48947f5c12ee",
-"primary_title": "Ozon上半年俄罗斯快消GMV达4405亿卢布，跃居线上最大卖家",
-"primary_url": "https://www.amz123.com/kx/1o6GZV89",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.6,
-"category": "seller_action",
-"items": [
-{
-"id": "5f6cd360d30e8bcbf7f0b4e58e682ff76c85bcad",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon上半年俄罗斯快消GMV达4405亿，成最大线上卖家",
-"url": "https://www.ennews.com/news-145764.html",
-"published_at": "2026-10-09T16:03:29Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon上半年俄罗斯快消GMV达4405亿，成最大线上卖家"
-},
-{
-"id": "a3ec489e1290e94fc3707c61b90e6987a22f00d7",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon上半年俄罗斯快消GMV达4405亿卢布，跃居线上最大卖家",
-"url": "https://www.amz123.com/kx/1o6GZV89",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon上半年俄罗斯快消GMV达4405亿卢布，跃居线上最大卖家"
-}
-],
-"earliest_time": "2026-10-09T16:03:29Z",
-"latest_time": "2026-10-10T00:40:51.309222Z",
-"hot_score": 7.3,
-"freshness_bonus": 0.5,
-"age_hours": 24.0,
-"rank": 7
-},
-{
-"story_id": "744d2606f63e",
-"primary_title": "Ozon将8万提货点升级为分布式仓库，卖家可就近备货",
-"primary_url": "https://www.amz123.com/kx/ndi0ol6C",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.6,
-"category": "seller_action",
-"items": [
-{
-"id": "e96b6de9b95301637341a21ec70630fcc32c8584",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Ozon将8万提货点变分布式仓库，卖家可就近备货",
-"url": "https://www.ennews.com/news-145763.html",
-"published_at": "2026-10-09T15:58:12Z",
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon将8万提货点变分布式仓库，卖家可就近备货"
-},
-{
-"id": "9a062387c70e9982c4988f960560f79d1e9e0be4",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon将8万提货点升级为分布式仓库，卖家可就近备货",
-"url": "https://www.amz123.com/kx/ndi0ol6C",
-"published_at": null,
-"first_seen_at": "2026-10-10T00:40:51.309222Z",
-"last_seen_at": "2026-10-10T00:40:51.309222Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon将8万提货点升级为分布式仓库，卖家可就近备货"
-}
-],
-"earliest_time": "2026-10-09T15:58:12Z",
-"latest_time": "2026-10-10T00:40:51.309222Z",
-"hot_score": 7.3,
-"freshness_bonus": 0.5,
-"age_hours": 24.0,
-"rank": 8
 },
 {
 "story_id": "881c1b9e03a3",
@@ -567,7 +396,7 @@
 "url": "https://www.wearesellers.com/question/125262",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
-"last_seen_at": "2026-10-11T00:40:37.593105Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
 "cross_is_related": true,
 "cross_score": 0.91,
 "cross_label": "policy_update",
@@ -588,55 +417,172 @@
 ],
 "earliest_time": "2026-10-11T00:40:37.593105Z",
 "latest_time": "2026-10-11T00:40:37.593105Z",
-"hot_score": 7.23,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 9
+"hot_score": 6.23,
+"freshness_bonus": 1.0,
+"age_hours": 24.0,
+"rank": 7
 },
 {
-"story_id": "40b2eec96d58",
-"primary_title": "# Amazon案例分析 # 新品期应该怎么设置广告?目前上架了一款新品，曝光较正常，点击率低，转化差，acos爆掉，怎么调整才能提高转化？",
-"primary_url": "https://www.wearesellers.com/question/125264",
+"story_id": "2e459266bcd1",
+"primary_title": "沃尔玛惊现9倍超高划线价，大佬们速来围观！！！应该是做的精品模式（店铺只有不到10条listing，每条listing都有几十上百个vp评论）......",
+"primary_url": "https://www.wearesellers.com/question/115153",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "知无不言"
 ],
-"max_score": 0.83,
-"category": "advertising",
+"max_score": 0.57,
+"category": "listing_product",
 "items": [
 {
-"id": "293cbeaa474c3213e73690a6129debac6fcb8167",
+"id": "614c9734c089aee70228e602836e39e24b4388aa",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "# Amazon案例分析 # 新品期应该怎么设置广告?目前上架了一款新品，曝光较正常，点击率低，转化差，acos爆掉，怎么调整才能提高转化？",
-"url": "https://www.wearesellers.com/question/125264",
+"title": "沃尔玛惊现9倍超高划线价，大佬们速来围观！！！应该是做的精品模式（店铺只有不到10条listing，每条listing都有几十上百个vp评论）......",
+"url": "https://www.wearesellers.com/question/115153",
+"published_at": null,
+"first_seen_at": "2026-10-12T00:40:16.563177Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.57,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"沃尔玛",
+"listing",
+"店铺"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "沃尔玛惊现9倍超高划线价，大佬们速来围观！！！应该是做的精品模式（店铺只有不到10条listing，每条listing都有几十上百个vp评论）......"
+}
+],
+"earliest_time": "2026-10-12T00:40:16.563177Z",
+"latest_time": "2026-10-12T00:40:16.563177Z",
+"hot_score": 6.21,
+"freshness_bonus": 2.0,
+"age_hours": 0.0,
+"rank": 8
+},
+{
+"story_id": "20a6c941da1c",
+"primary_title": "关于亚马逊陪跑的注意事项：准备在家里这边找位亚马逊运营进行陪跑答疑，有什么需要注意的地方吗？ 比如说如何判断他是否有真水平？或者如何尽量保证自己的隐私等？",
+"primary_url": "https://www.wearesellers.com/question/116301",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.53,
+"category": "seller_action",
+"items": [
+{
+"id": "0b79e6ac5cda13b6acc1a0bc6b3e73dd48ac9c27",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "关于亚马逊陪跑的注意事项：准备在家里这边找位亚马逊运营进行陪跑答疑，有什么需要注意的地方吗？ 比如说如何判断他是否有真水平？或者如何尽量保证自己的隐私等？",
+"url": "https://www.wearesellers.com/question/116301",
+"published_at": null,
+"first_seen_at": "2026-10-12T00:40:16.563177Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.53,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "关于亚马逊陪跑的注意事项：准备在家里这边找位亚马逊运营进行陪跑答疑，有什么需要注意的地方吗？ 比如说如何判断他是否有真水平？或者如何尽量保证自己的隐私等？"
+}
+],
+"earliest_time": "2026-10-12T00:40:16.563177Z",
+"latest_time": "2026-10-12T00:40:16.563177Z",
+"hot_score": 6.09,
+"freshness_bonus": 2.0,
+"age_hours": 0.0,
+"rank": 9
+},
+{
+"story_id": "d7743559134f",
+"primary_title": "美国站因为比价 反反复复丢失购物车 比价Temu上1个同功能产品 但是产品颜色不一致  双方的图片也不一致",
+"primary_url": "https://www.wearesellers.com/question/125265",
+"primary_site_id": "wearesellers",
+"item_count": 2,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.34,
+"category": "listing_product",
+"items": [
+{
+"id": "2463edfdec27bbf3345b04745db565104b369711",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "美国站因为比价 反反复复丢失购物车 比价Temu上1个同功能产品 但是产品颜色不一致 双方的图片也不一致",
+"url": "https://www.wearesellers.com/question/125265",
 "published_at": null,
 "first_seen_at": "2026-10-11T00:40:37.593105Z",
 "last_seen_at": "2026-10-11T00:40:37.593105Z",
 "cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "advertising",
+"cross_score": 0.34,
+"cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"amazon",
-"acos"
+"temu"
 ],
-"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_platforms": [
-"amazon"
+"temu"
 ],
-"cross_sites": [],
-"title_zh": "# Amazon案例分析 # 新品期应该怎么设置广告?目前上架了一款新品，曝光较正常，点击率低，转化差，acos爆掉，怎么调整才能提高转化？"
+"cross_sites": [
+"us"
+],
+"title_zh": "美国站因为比价 反反复复丢失购物车 比价Temu上1个同功能产品 但是产品颜色不一致 双方的图片也不一致"
+},
+{
+"id": "c648482a715a3a53e00c47e848594220dbc2cf12",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "美国站因为比价 反反复复丢失购物车 比价Temu上1个同功能产品 但是产品颜色不一致  双方的图片也不一致",
+"url": "https://www.wearesellers.com/question/125265",
+"published_at": null,
+"first_seen_at": "2026-10-12T00:40:16.563177Z",
+"last_seen_at": "2026-10-12T00:40:16.563177Z",
+"cross_is_related": true,
+"cross_score": 0.34,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"temu"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [
+"temu"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国站因为比价 反反复复丢失购物车 比价Temu上1个同功能产品 但是产品颜色不一致  双方的图片也不一致"
 }
 ],
 "earliest_time": "2026-10-11T00:40:37.593105Z",
-"latest_time": "2026-10-11T00:40:37.593105Z",
-"hot_score": 6.99,
+"latest_time": "2026-10-12T00:40:16.563177Z",
+"hot_score": 6.02,
 "freshness_bonus": 2.0,
-"age_hours": 0.01,
+"age_hours": 0.0,
 "rank": 10
 }
 ]
