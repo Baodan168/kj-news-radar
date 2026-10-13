@@ -1,47 +1,45 @@
 {
-"generated_at": "2026-10-12T00:40:16.563177Z",
+"generated_at": "2026-10-13T00:40:14.735144Z",
 "window_days": 7,
-"total_items": 486,
+"total_items": 510,
 "daily_counts": {
-"2026-10-05": 20,
-"2026-10-06": 65,
 "2026-10-07": 42,
 "2026-10-08": 68,
 "2026-10-09": 106,
 "2026-10-10": 86,
 "2026-10-11": 88,
-"2026-10-12": 11
+"2026-10-12": 11,
+"2026-10-13": 109
 },
 "source_counts": {
-"amz123": 231,
-"wearesellers": 70,
-"ennews": 68,
-"cifnews": 46,
+"amz123": 217,
+"ennews": 92,
+"wearesellers": 69,
+"cifnews": 59,
 "channelx": 20,
-"amazon_newsroom": 18,
-"amalert": 12,
-"amzdh": 8,
-"ecommercenews": 4,
+"amzdh": 16,
+"amazon_newsroom": 14,
+"amalert": 11,
+"ecommercenews": 5,
 "gs_amazon": 4,
-"amazon_ads": 2,
 "ecomengine": 2,
 "marketplace_pulse": 1
 },
 "label_counts": {
-"general": 78,
-"not_cross": 227,
-"listing_product": 22,
-"compliance_deadline": 4,
+"general": 70,
+"not_cross": 241,
+"seller_action": 64,
+"platform_trend": 20,
+"advertising": 29,
 "tiktok": 10,
-"walmart": 4,
-"seller_action": 59,
-"platform_trend": 18,
-"policy_update": 28,
+"compliance_deadline": 5,
+"listing_product": 22,
+"policy_update": 31,
 "fee_logistics": 12,
-"advertising": 23,
-"temu": 1
+"temu": 4,
+"walmart": 2
 },
-"uk_related_count": 8,
+"uk_related_count": 6,
 "top_signals": [
 {
 "title": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费",
@@ -68,20 +66,20 @@
 "time": "2026-10-08T00:40:34.661783Z"
 },
 {
+"title": "云途成为亚马逊FIST认证承运商，头程物流接入官方体系",
+"url": "https://www.amz123.com/kx/NZxXX7Xj",
+"site_id": "amz123",
+"score": 0.89,
+"label": "fee_logistics",
+"time": "2026-10-13T00:40:14.735144Z"
+},
+{
 "title": "亚马逊电动切割工具合规新规",
 "url": "https://www.cifnews.com/article/189295",
 "site_id": "cifnews",
 "score": 0.88,
 "label": "policy_update",
 "time": "2026-10-09T00:40:18.765412Z"
-},
-{
-"title": "美国电商增速上调至约10%，Walmart与Shopify增速超越Amazon",
-"url": "https://www.amz123.com/kx/iYDI7aIb",
-"site_id": "amz123",
-"score": 0.86,
-"label": "walmart",
-"time": "2026-10-06T00:40:05.643367Z"
 }
 ]
 }
