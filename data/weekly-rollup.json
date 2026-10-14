@@ -1,45 +1,45 @@
 {
-"generated_at": "2026-10-13T00:40:14.735144Z",
+"generated_at": "2026-10-14T00:40:50.473194Z",
 "window_days": 7,
-"total_items": 510,
+"total_items": 564,
 "daily_counts": {
-"2026-10-07": 42,
 "2026-10-08": 68,
 "2026-10-09": 106,
 "2026-10-10": 86,
 "2026-10-11": 88,
 "2026-10-12": 11,
-"2026-10-13": 109
+"2026-10-13": 109,
+"2026-10-14": 96
 },
 "source_counts": {
-"amz123": 217,
-"ennews": 92,
-"wearesellers": 69,
-"cifnews": 59,
+"amz123": 231,
+"ennews": 114,
+"wearesellers": 76,
+"cifnews": 73,
 "channelx": 20,
-"amzdh": 16,
-"amazon_newsroom": 14,
-"amalert": 11,
+"amzdh": 20,
+"amazon_newsroom": 11,
+"amalert": 7,
 "ecommercenews": 5,
 "gs_amazon": 4,
 "ecomengine": 2,
 "marketplace_pulse": 1
 },
 "label_counts": {
-"general": 70,
-"not_cross": 241,
-"seller_action": 64,
-"platform_trend": 20,
-"advertising": 29,
+"not_cross": 272,
+"general": 72,
 "tiktok": 10,
-"compliance_deadline": 5,
+"seller_action": 70,
+"platform_trend": 23,
 "listing_product": 22,
-"policy_update": 31,
-"fee_logistics": 12,
-"temu": 4,
+"advertising": 33,
+"policy_update": 37,
+"fee_logistics": 13,
+"compliance_deadline": 5,
+"temu": 5,
 "walmart": 2
 },
-"uk_related_count": 6,
+"uk_related_count": 5,
 "top_signals": [
 {
 "title": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费",
@@ -58,6 +58,14 @@
 "time": "2026-10-11T00:40:37.593105Z"
 },
 {
+"title": "营业执照地址变更后，亚马逊各站点，VAT, 收款账号修改地址节点。这套资料有开通欧洲，北美，日本站点，由于执照上的地址已变更了，是否需要主动去亚马逊后台变更公司地址地址？是上面所有站点都建议主动去变更吗？",
+"url": "https://www.wearesellers.com/question/125358",
+"site_id": "wearesellers",
+"score": 0.91,
+"label": "policy_update",
+"time": "2026-10-14T00:40:50.473194Z"
+},
+{
 "title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
 "url": "https://www.amz123.com/kx/mXQBjtNu",
 "site_id": "amz123",
@@ -72,14 +80,6 @@
 "score": 0.89,
 "label": "fee_logistics",
 "time": "2026-10-13T00:40:14.735144Z"
-},
-{
-"title": "亚马逊电动切割工具合规新规",
-"url": "https://www.cifnews.com/article/189295",
-"site_id": "cifnews",
-"score": 0.88,
-"label": "policy_update",
-"time": "2026-10-09T00:40:18.765412Z"
 }
 ]
 }
