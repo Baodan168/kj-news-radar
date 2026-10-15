@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-14T00:40:50.473194Z",
+"generated_at": "2026-10-15T00:40:15.093977Z",
 "items": [
 {
 "story_id": "5a78dec906b9",
@@ -24,7 +24,7 @@
 "url": "https://www.cifnews.com/article/189410",
 "published_at": null,
 "first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "advertising",
@@ -35,8 +35,8 @@
 ],
 "cross_why": "广告政策/工具变化，影响投放策略",
 "cross_platforms": [
-"amazon",
-"亚马逊"
+"亚马逊",
+"amazon"
 ],
 "cross_sites": [],
 "title_zh": "亚马逊广告发布以智能体AI为核心的亚马逊AI广告平台（Amazon Ads Agent）"
@@ -68,9 +68,9 @@
 ],
 "earliest_time": "2026-10-14T00:40:50.473194Z",
 "latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 9.43,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
+"hot_score": 7.93,
+"freshness_bonus": 0.5,
+"age_hours": 24.0,
 "rank": 1
 },
 {
@@ -138,10 +138,76 @@
 ],
 "earliest_time": "2026-10-13T17:16:01Z",
 "latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 9.25,
+"hot_score": 7.75,
+"freshness_bonus": 0.5,
+"age_hours": 24.0,
+"rank": 2
+},
+{
+"story_id": "f640381add74",
+"primary_title": "TikTok美区感应眼镜灯近7天销量达3864件、GMV约54万元",
+"primary_url": "https://www.amz123.com/kx/DUq7ovgg",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "1486d6d7333ebaa60707551fe23b6fb978f44a60",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "TikTok美区感应眼镜灯7天卖3864件，GMV约54万元",
+"url": "https://www.ennews.com/news-146221.html",
+"published_at": "2026-10-14T17:26:07Z",
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "TikTok美区感应眼镜灯7天卖3864件，GMV约54万元"
+},
+{
+"id": "add00c87c840ad563de0f7f7a7d9702f9c0629e8",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok美区感应眼镜灯近7天销量达3864件、GMV约54万元",
+"url": "https://www.amz123.com/kx/DUq7ovgg",
+"published_at": null,
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "TikTok美区感应眼镜灯近7天销量达3864件、GMV约54万元"
+}
+],
+"earliest_time": "2026-10-14T17:26:07Z",
+"latest_time": "2026-10-15T00:40:15.093977Z",
+"hot_score": 7.45,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
-"rank": 2
+"rank": 3
 },
 {
 "story_id": "4ee8a82d5700",
@@ -168,7 +234,7 @@
 "first_seen_at": "2026-10-14T00:40:50.473194Z",
 "last_seen_at": "2026-10-14T00:40:50.473194Z",
 "cross_is_related": true,
-"cross_score": 0.53,
+"cross_score": 0.48,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
@@ -206,429 +272,291 @@
 ],
 "earliest_time": "2026-10-13T16:32:53Z",
 "latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 8.74,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 3
-},
-{
-"story_id": "2b70759311b2",
-"primary_title": "TikTok Shop巴西黑五投入1亿雷亚尔发券，折扣最高达七成",
-"primary_url": "https://www.amz123.com/kx/lZhhoBFy",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.44,
-"category": "advertising",
-"items": [
-{
-"id": "06e373c44a4ae413e0f299eec60296a36078bee9",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "TikTok Shop巴西黑五投1亿雷亚尔发券，折扣最高七成",
-"url": "https://www.ennews.com/news-146103.html",
-"published_at": "2026-10-13T16:36:54Z",
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop巴西黑五投1亿雷亚尔发券，折扣最高七成"
-},
-{
-"id": "330efeca124b2ff2a2393a54961be4684f5547f3",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok Shop巴西黑五投入1亿雷亚尔发券，折扣最高达七成",
-"url": "https://www.amz123.com/kx/lZhhoBFy",
-"published_at": null,
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop巴西黑五投入1亿雷亚尔发券，折扣最高达七成"
-}
-],
-"earliest_time": "2026-10-13T16:36:54Z",
-"latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 8.32,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
+"hot_score": 7.24,
+"freshness_bonus": 0.5,
+"age_hours": 24.0,
 "rank": 4
 },
 {
-"story_id": "76d8befa341a",
-"primary_title": "美国10月消费者信心降至46.3，为1952年以来第二低",
-"primary_url": "https://www.amz123.com/kx/bDtDPQvr",
+"story_id": "c26c46fbc12b",
+"primary_title": "亚马逊波兰第12个物流中心启用，面积超20万平方米",
+"primary_url": "https://www.amz123.com/kx/Fvr941HR",
 "primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
+"item_count": 1,
+"source_count": 1,
 "source_names": [
-"亿恩网",
 "AMZ123"
 ],
-"max_score": 0.15,
-"category": "not_cross",
+"max_score": 0.85,
+"category": "fee_logistics",
 "items": [
 {
-"id": "f2ae36eaaa872669101581584bf415240dfcbf42",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "美国10月消费者信心指数降至46.3，为74年来第二低",
-"url": "https://www.ennews.com/news-146104.html",
-"published_at": "2026-10-13T16:36:58Z",
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国10月消费者信心指数降至46.3，为74年来第二低"
-},
-{
-"id": "e5a708c098c23c9779aca95fb1ef7376b8a827f7",
+"id": "5995a6c5e4f7373ef725fbf6fea80a8b914c4426",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "美国10月消费者信心降至46.3，为1952年以来第二低",
-"url": "https://www.amz123.com/kx/bDtDPQvr",
+"title": "亚马逊波兰第12个物流中心启用，面积超20万平方米",
+"url": "https://www.amz123.com/kx/Fvr941HR",
 "published_at": null,
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [
-"us"
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
 ],
-"title_zh": "美国10月消费者信心降至46.3，为1952年以来第二低"
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊波兰第12个物流中心启用，面积超20万平方米"
 }
 ],
-"earliest_time": "2026-10-13T16:36:58Z",
-"latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 7.45,
+"earliest_time": "2026-10-15T00:40:15.093977Z",
+"latest_time": "2026-10-15T00:40:15.093977Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 5
 },
 {
-"story_id": "f0b65573374a",
-"primary_title": "印度Meesho大促首日订单增长75%，AI推荐驱动85%订单成交",
-"primary_url": "https://www.amz123.com/kx/TtxFngoC",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
+"story_id": "05435d6ff67c",
+"primary_title": "英国站进口商被DHL报错，货件已入仓，IEN截止前来不及更正，亚马逊后台该怎么处理？",
+"primary_url": "https://www.wearesellers.com/question/125370",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
 "source_names": [
-"亿恩网",
-"AMZ123"
+"知无不言"
 ],
-"max_score": 0.15,
-"category": "not_cross",
+"max_score": 0.85,
+"category": "policy_update",
 "items": [
 {
-"id": "dbcace062a08ec670a2c07a74b6f97afc837b9b6",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Meesho大促首日订单增约75%，AI推荐促成85%订单",
-"url": "https://www.ennews.com/news-146106.html",
-"published_at": "2026-10-13T16:42:12Z",
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Meesho大促首日订单增约75%，AI推荐促成85%订单"
-},
-{
-"id": "dd6e9ffb46ee0d2799825079028b7a4b149b2414",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "印度Meesho大促首日订单增长75%，AI推荐驱动85%订单成交",
-"url": "https://www.amz123.com/kx/TtxFngoC",
+"id": "6b81b533f2ee5c452fc2a919ee62470d0853a00e",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "英国站进口商被DHL报错，货件已入仓，IEN截止前来不及更正，亚马逊后台该怎么处理？",
+"url": "https://www.wearesellers.com/question/125370",
 "published_at": null,
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "印度Meesho大促首日订单增长75%，AI推荐驱动85%订单成交"
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"dhl"
+],
+"cross_why": "合规截止临近，需立即确认是否受影响",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "英国站进口商被DHL报错，货件已入仓，IEN截止前来不及更正，亚马逊后台该怎么处理？"
 }
 ],
-"earliest_time": "2026-10-13T16:42:12Z",
-"latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 7.45,
+"earliest_time": "2026-10-15T00:40:15.093977Z",
+"latest_time": "2026-10-15T00:40:15.093977Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 6
 },
 {
-"story_id": "3a2f6a066561",
-"primary_title": "TikTok美区蕾丝网眼打底衫7天销售1.25万单登顶女装榜",
-"primary_url": "https://www.amz123.com/kx/Gx1J0ntq",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
+"story_id": "2ddace30d71e",
+"primary_title": "TEMU卖家转型Amazon的煎熬和挣扎（求一些实战的垂直店铺精铺的案例和方法）",
+"primary_url": "https://www.wearesellers.com/question/125415",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
 "source_names": [
-"亿恩网",
-"AMZ123"
+"知无不言"
 ],
-"max_score": 0.15,
-"category": "not_cross",
+"max_score": 0.83,
+"category": "temu",
 "items": [
 {
-"id": "8d195d4b46984e4582e9341a41fece21be4d3fda",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "TikTok美区蕾丝内搭7天卖1.25万单，登顶女装类目榜",
-"url": "https://www.ennews.com/news-146107.html",
-"published_at": "2026-10-13T16:47:08Z",
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "TikTok美区蕾丝内搭7天卖1.25万单，登顶女装类目榜"
-},
-{
-"id": "106f640e51e3a30e074cd44c153cac256fa95c03",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "TikTok美区蕾丝网眼打底衫7天销售1.25万单登顶女装榜",
-"url": "https://www.amz123.com/kx/Gx1J0ntq",
+"id": "1878c740f62011b7dcf71dc379232234195447e9",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "TEMU卖家转型Amazon的煎熬和挣扎（求一些实战的垂直店铺精铺的案例和方法）",
+"url": "https://www.wearesellers.com/question/125415",
 "published_at": null,
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [
-"us"
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"temu",
+"卖家",
+"卖家",
+"店铺"
 ],
-"title_zh": "TikTok美区蕾丝网眼打底衫7天销售1.25万单登顶女装榜"
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"temu",
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "TEMU卖家转型Amazon的煎熬和挣扎（求一些实战的垂直店铺精铺的案例和方法）"
 }
 ],
-"earliest_time": "2026-10-13T16:47:08Z",
-"latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 7.45,
+"earliest_time": "2026-10-15T00:40:15.093977Z",
+"latest_time": "2026-10-15T00:40:15.093977Z",
+"hot_score": 6.99,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 7
 },
 {
-"story_id": "abe22f7fd618",
-"primary_title": "阿联酋线上及App支付占比达55%，沙发经济趋势显现",
-"primary_url": "https://www.amz123.com/kx/tqZwcb8V",
+"story_id": "f51850b6cc07",
+"primary_title": "阿里广告支出增至302亿美元，超越亚马逊跃居全球首位",
+"primary_url": "https://www.amz123.com/kx/ojbzJZcG",
 "primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
+"item_count": 1,
+"source_count": 1,
 "source_names": [
-"亿恩网",
 "AMZ123"
 ],
-"max_score": 0.15,
-"category": "not_cross",
+"max_score": 0.81,
+"category": "advertising",
 "items": [
 {
-"id": "214d4657ec6e22827ec06f4896900dad6a52e3f0",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "阿联酋线上及App支付占比达55%,沙发经济崛起",
-"url": "https://www.ennews.com/news-146101.html",
-"published_at": "2026-10-13T16:30:17Z",
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "阿联酋线上及App支付占比达55%,沙发经济崛起"
-},
-{
-"id": "c620a9d8e96ebd589132c352a93b467d5fc8ad50",
+"id": "0f77e60a42a0ddbf086f2e16298f1bfbf1c55c99",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "阿联酋线上及App支付占比达55%，沙发经济趋势显现",
-"url": "https://www.amz123.com/kx/tqZwcb8V",
+"title": "阿里广告支出增至302亿美元，超越亚马逊跃居全球首位",
+"url": "https://www.amz123.com/kx/ojbzJZcG",
 "published_at": null,
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [],
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [
+"亚马逊"
+],
 "cross_sites": [],
-"title_zh": "阿联酋线上及App支付占比达55%，沙发经济趋势显现"
+"title_zh": "阿里广告支出增至302亿美元，超越亚马逊跃居全球首位"
 }
 ],
-"earliest_time": "2026-10-13T16:30:17Z",
-"latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 7.45,
+"earliest_time": "2026-10-15T00:40:15.093977Z",
+"latest_time": "2026-10-15T00:40:15.093977Z",
+"hot_score": 6.93,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 8
 },
 {
-"story_id": "765383b7ae63",
-"primary_title": "营业执照地址变更后，亚马逊各站点，VAT, 收款账号修改地址节点。这套资料有开通欧洲，北美，日本站点，由于执照上的地址已变更了，是否需要主动去亚马逊后台变更公司地址地址？是上面所有站点都建议主动去变更吗？",
-"primary_url": "https://www.wearesellers.com/question/125358",
-"primary_site_id": "wearesellers",
+"story_id": "52313e238b27",
+"primary_title": "多地亚马逊卖家收到税务短信：一季度申报收入低于平台报送金额！",
+"primary_url": "https://www.cifnews.com/article/189426",
+"primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"知无不言"
+"雨果跨境"
 ],
-"max_score": 0.91,
-"category": "policy_update",
+"max_score": 0.8,
+"category": "platform_trend",
 "items": [
 {
-"id": "2a3c6e54b590f110888ec8a5ad0900fb0a2ff9da",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "营业执照地址变更后，亚马逊各站点，VAT, 收款账号修改地址节点。这套资料有开通欧洲，北美，日本站点，由于执照上的地址已变更了，是否需要主动去亚马逊后台变更公司地址地址？是上面所有站点都建议主动去变更吗？",
-"url": "https://www.wearesellers.com/question/125358",
+"id": "ef5cbf6be2a4f3ca7fe840749b7ad63f01d38526",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "多地亚马逊卖家收到税务短信：一季度申报收入低于平台报送金额！",
+"url": "https://www.cifnews.com/article/189426",
 "published_at": null,
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
 "cross_is_related": true,
-"cross_score": 0.91,
-"cross_label": "policy_update",
+"cross_score": 0.8,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"vat",
-"亚马逊"
+"亚马逊",
+"卖家",
+"卖家"
 ],
 "cross_why": "税务/关税变动，影响成本核算",
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [
-"eu",
-"jp"
-],
-"title_zh": "营业执照地址变更后，亚马逊各站点，VAT, 收款账号修改地址节点。这套资料有开通欧洲，北美，日本站点，由于执照上的地址已变更了，是否需要主动去亚马逊后台变更公司地址地址？是上面所有站点都建议主动去变更吗？"
+"cross_sites": [],
+"title_zh": "多地亚马逊卖家收到税务短信：一季度申报收入低于平台报送金额！"
 }
 ],
-"earliest_time": "2026-10-14T00:40:50.473194Z",
-"latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 7.23,
+"earliest_time": "2026-10-15T00:40:15.093977Z",
+"latest_time": "2026-10-15T00:40:15.093977Z",
+"hot_score": 6.9,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 9
 },
 {
-"story_id": "e5c9a06a7032",
-"primary_title": "收到邮件关于【亚马逊商城交易保障索赔政策索赔】，买家问题为财产损失或人身伤害事件。索赔已解决，但我怀疑是恶意索赔，我有必要继续操作吗？",
-"primary_url": "https://www.wearesellers.com/question/125356",
+"story_id": "da84258b9d6b",
+"primary_title": "退货缺件还被当作新品发出去？亚马逊这个新功能，终于让卖家自己定规矩了",
+"primary_url": "https://www.wearesellers.com/question/125409",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "知无不言"
 ],
-"max_score": 0.87,
-"category": "policy_update",
+"max_score": 0.79,
+"category": "listing_product",
 "items": [
 {
-"id": "d13a9af209517ee1b55b92f02265e5fcea478864",
+"id": "46b516e48d217bd59795e6087b1ff78c72576e1a",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "收到邮件关于【亚马逊商城交易保障索赔政策索赔】，买家问题为财产损失或人身伤害事件。索赔已解决，但我怀疑是恶意索赔，我有必要继续操作吗？",
-"url": "https://www.wearesellers.com/question/125356",
+"title": "退货缺件还被当作新品发出去？亚马逊这个新功能，终于让卖家自己定规矩了",
+"url": "https://www.wearesellers.com/question/125409",
 "published_at": null,
-"first_seen_at": "2026-10-14T00:40:50.473194Z",
-"last_seen_at": "2026-10-14T00:40:50.473194Z",
+"first_seen_at": "2026-10-15T00:40:15.093977Z",
+"last_seen_at": "2026-10-15T00:40:15.093977Z",
 "cross_is_related": true,
-"cross_score": 0.87,
-"cross_label": "policy_update",
+"cross_score": 0.79,
+"cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
-"买家",
-"政策"
+"卖家",
+"卖家",
+"退货"
 ],
-"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "收到邮件关于【亚马逊商城交易保障索赔政策索赔】，买家问题为财产损失或人身伤害事件。索赔已解决，但我怀疑是恶意索赔，我有必要继续操作吗？"
+"title_zh": "退货缺件还被当作新品发出去？亚马逊这个新功能，终于让卖家自己定规矩了"
 }
 ],
-"earliest_time": "2026-10-14T00:40:50.473194Z",
-"latest_time": "2026-10-14T00:40:50.473194Z",
-"hot_score": 7.109999999999999,
+"earliest_time": "2026-10-15T00:40:15.093977Z",
+"latest_time": "2026-10-15T00:40:15.093977Z",
+"hot_score": 6.87,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 10
