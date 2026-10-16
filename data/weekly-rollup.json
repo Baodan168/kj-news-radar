@@ -1,25 +1,25 @@
 {
-"generated_at": "2026-10-15T00:40:15.093977Z",
+"generated_at": "2026-10-16T00:40:12.921664Z",
 "window_days": 7,
-"total_items": 653,
+"total_items": 676,
 "daily_counts": {
-"2026-10-08": 68,
 "2026-10-09": 106,
 "2026-10-10": 86,
 "2026-10-11": 88,
 "2026-10-12": 11,
 "2026-10-13": 109,
 "2026-10-14": 96,
-"2026-10-15": 89
+"2026-10-15": 89,
+"2026-10-16": 91
 },
 "source_counts": {
 "amz123": 268,
-"ennews": 136,
-"wearesellers": 93,
-"cifnews": 80,
-"channelx": 21,
+"ennews": 158,
+"wearesellers": 92,
+"cifnews": 86,
 "amzdh": 20,
-"amazon_newsroom": 14,
+"channelx": 19,
+"amazon_newsroom": 12,
 "amalert": 8,
 "ecommercenews": 5,
 "gs_amazon": 4,
@@ -28,20 +28,20 @@
 "sp_api": 1
 },
 "label_counts": {
-"not_cross": 312,
-"general": 91,
-"tiktok": 11,
-"seller_action": 79,
-"platform_trend": 27,
-"listing_product": 27,
-"advertising": 38,
-"policy_update": 39,
-"fee_logistics": 15,
-"compliance_deadline": 6,
+"policy_update": 45,
+"not_cross": 314,
+"general": 95,
+"fee_logistics": 21,
+"advertising": 37,
+"platform_trend": 29,
+"seller_action": 84,
+"listing_product": 29,
 "temu": 6,
+"tiktok": 9,
+"compliance_deadline": 5,
 "walmart": 2
 },
-"uk_related_count": 8,
+"uk_related_count": 7,
 "top_signals": [
 {
 "title": "亚马逊全球物流中美空运新增两档服务，快车入库免收配置费",
@@ -68,12 +68,12 @@
 "time": "2026-10-14T00:40:50.473194Z"
 },
 {
-"title": "Shopify调查：英国消费者黑五周末人均消费165英镑，AI重度用户更偏好独立品牌",
-"url": "https://www.amz123.com/kx/mXQBjtNu",
-"site_id": "amz123",
-"score": 0.89,
-"label": "advertising",
-"time": "2026-10-08T00:40:34.661783Z"
+"title": "针对10月份电商税税务新规的看法，以及应对措施。政策没真正落地实施一下，根本不知道会怎么样，最重要的是亚马逊的态度，他们如果态度明确申报或者不申报，我们就能确定应对的方案。目前合规可落地的方式应该有四种",
+"url": "https://www.wearesellers.com/question/109634",
+"site_id": "wearesellers",
+"score": 0.91,
+"label": "policy_update",
+"time": "2026-10-16T00:40:12.921664Z"
 },
 {
 "title": "云途成为亚马逊FIST认证承运商，头程物流接入官方体系",
