@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-17T00:40:35.897354Z",
+"generated_at": "2026-10-18T00:40:23.444643Z",
 "items": [
 {
 "story_id": "8694299beafb",
@@ -24,7 +24,7 @@
 "url": "https://www.ennews.com/news-146438.html",
 "published_at": "2026-10-16T16:58:45Z",
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -66,10 +66,103 @@
 ],
 "earliest_time": "2026-10-16T16:58:45Z",
 "latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 8.8,
+"hot_score": 7.3,
+"freshness_bonus": 0.5,
+"age_hours": 24.0,
+"rank": 1
+},
+{
+"story_id": "aaeb9d087412",
+"primary_title": "亚马逊税务合规问题：有两个店铺是朋友当法人开的，自己没有当股东，亚马逊也没法同时当股东会关联，现在税务问题都需要合规，那回到对公账户的钱，怎么合理回到自己手里呢？",
+"primary_url": "https://www.wearesellers.com/question/125559",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.87,
+"category": "policy_update",
+"items": [
+{
+"id": "10f2c7b22e8280638e9da6cf930471f1b64c5223",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊税务合规问题：有两个店铺是朋友当法人开的，自己没有当股东，亚马逊也没法同时当股东会关联，现在税务问题都需要合规，那回到对公账户的钱，怎么合理回到自己手里呢？",
+"url": "https://www.wearesellers.com/question/125559",
+"published_at": null,
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
+"cross_is_related": true,
+"cross_score": 0.87,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺",
+"合规"
+],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊税务合规问题：有两个店铺是朋友当法人开的，自己没有当股东，亚马逊也没法同时当股东会关联，现在税务问题都需要合规，那回到对公账户的钱，怎么合理回到自己手里呢？"
+}
+],
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 7.109999999999999,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
-"rank": 1
+"rank": 2
+},
+{
+"story_id": "542ccdfea948",
+"primary_title": "东南亚70%线上销售集中在电商平台，佣金上涨推动卖家寻求多元渠道",
+"primary_url": "https://www.amz123.com/kx/VS92HPyb",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.85,
+"category": "seller_action",
+"items": [
+{
+"id": "beb202f3c60b32a0d2c71dded29ed8ec61ba7453",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "东南亚70%线上销售集中在电商平台，佣金上涨推动卖家寻求多元渠道",
+"url": "https://www.amz123.com/kx/VS92HPyb",
+"published_at": null,
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"电商平台"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "东南亚70%线上销售集中在电商平台，佣金上涨推动卖家寻求多元渠道"
+}
+],
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 7.05,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 3
 },
 {
 "story_id": "65f8a5f2efd3",
@@ -94,9 +187,9 @@
 "url": "https://www.ennews.com/news-146428.html",
 "published_at": "2026-10-16T16:08:47Z",
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
-"cross_score": 0.29,
+"cross_score": 0.24,
 "cross_label": "platform_trend",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
@@ -132,394 +225,279 @@
 ],
 "earliest_time": "2026-10-16T16:08:47Z",
 "latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 8.02,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 2
-},
-{
-"story_id": "fb9215f82a76",
-"primary_title": "英国拟要求Amazon、eBay、Temu为年销超9万英镑卖家代扣增值税",
-"primary_url": "https://www.amz123.com/kx/IvbPN4ex",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 1.0,
-"category": "temu",
-"items": [
-{
-"id": "4b93321654f15e337ca5e8b51b57ad811a01f92d",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "英国拟要求Amazon、eBay、Temu为年销超9万英镑卖家代扣增值税",
-"url": "https://www.amz123.com/kx/IvbPN4ex",
-"published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"ebay",
-"temu",
-"卖家",
-"卖家",
-"增值税"
-],
-"cross_why": "税务/关税变动，影响成本核算",
-"cross_platforms": [
-"temu",
-"amazon",
-"ebay"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "英国拟要求Amazon、eBay、Temu为年销超9万英镑卖家代扣增值税"
-}
-],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 7.5,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 3
-},
-{
-"story_id": "67a93c0a0874",
-"primary_title": "亚马逊广告整合为Amazon Ads Agent，全漏斗投放已向美国卖家开放",
-"primary_url": "https://www.amz123.com/kx/is9ByUGH",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.89,
-"category": "advertising",
-"items": [
-{
-"id": "3e27eed54bc2e7da0ff2a27f3ace1fea48cc141e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊广告整合为Amazon Ads Agent，全漏斗投放已向美国卖家开放",
-"url": "https://www.amz123.com/kx/is9ByUGH",
-"published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_platforms": [
-"亚马逊",
-"amazon"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊广告整合为Amazon Ads Agent，全漏斗投放已向美国卖家开放"
-}
-],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 7.17,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
+"hot_score": 6.52,
+"freshness_bonus": 0.5,
+"age_hours": 24.0,
 "rank": 4
 },
 {
-"story_id": "2a6b5b50e227",
-"primary_title": "亚马逊美国站FBA大件费率下调，新品入仓福利同步升级",
-"primary_url": "https://www.cifnews.com/article/189483",
+"story_id": "d3b1640136a6",
+"primary_title": "深圳工厂卖家靠“借港出海”+AI，在海外赚得盆满钵满",
+"primary_url": "https://www.cifnews.com/article/189451",
 "primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "雨果跨境"
 ],
-"max_score": 0.88,
-"category": "general",
+"max_score": 0.64,
+"category": "seller_action",
 "items": [
 {
-"id": "999fcec514606af52bd05b45e7c98f95deed45ed",
+"id": "38621c289bbc1a57f2aa8f832704868db1394450",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "亚马逊美国站FBA大件费率下调，新品入仓福利同步升级",
-"url": "https://www.cifnews.com/article/189483",
+"title": "深圳工厂卖家靠“借港出海”+AI，在海外赚得盆满钵满",
+"url": "https://www.cifnews.com/article/189451",
 "published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "general",
+"cross_score": 0.64,
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"fba",
-"亚马逊"
+"卖家",
+"卖家"
 ],
-"cross_why": "费用调整，直接影响利润率",
-"cross_platforms": [
-"fba",
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国站FBA大件费率下调，新品入仓福利同步升级"
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "深圳工厂卖家靠“借港出海”+AI，在海外赚得盆满钵满"
 }
 ],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 7.140000000000001,
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 6.42,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 5
 },
 {
-"story_id": "4ffbb440ae87",
-"primary_title": "印尼电商平台须为本土小微卖家减半服务费，10月25日起实施",
-"primary_url": "https://www.amz123.com/kx/Djqc8YM5",
+"story_id": "0e277ae175cc",
+"primary_title": "Wildberries将延迟打款定性为卖家商业风险，逾期罚息照常执行",
+"primary_url": "https://www.amz123.com/kx/qS4k5dje",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.85,
+"max_score": 0.6,
 "category": "seller_action",
 "items": [
 {
-"id": "2fa17df2a40946c05fe25c43b18c104f6d5d318a",
+"id": "86294bd8ff8917ab15766d9cdf14b17fa37d3eb8",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "印尼电商平台须为本土小微卖家减半服务费，10月25日起实施",
-"url": "https://www.amz123.com/kx/Djqc8YM5",
+"title": "Wildberries将延迟打款定性为卖家商业风险，逾期罚息照常执行",
+"url": "https://www.amz123.com/kx/qS4k5dje",
 "published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
-"cross_score": 0.85,
+"cross_score": 0.6,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
+"wildberries",
 "卖家",
-"卖家",
-"电商",
-"电商平台"
+"卖家"
 ],
 "cross_why": "卖家运营相关信号",
-"cross_platforms": [],
+"cross_platforms": [
+"wildberries"
+],
 "cross_sites": [],
-"title_zh": "印尼电商平台须为本土小微卖家减半服务费，10月25日起实施"
+"title_zh": "Wildberries将延迟打款定性为卖家商业风险，逾期罚息照常执行"
 }
 ],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 7.05,
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 6.3,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 6
 },
 {
-"story_id": "7124b5649ba2",
-"primary_title": "亚马逊英德站旺季配送费10月15日生效，费率、适用范围与叠加规则全解读",
-"primary_url": "https://www.cifnews.com/article/189482",
-"primary_site_id": "cifnews",
+"story_id": "264639a2b53d",
+"primary_title": "Ozon调查：40%俄罗斯消费者长期在固定自提点取货",
+"primary_url": "https://www.amz123.com/kx/8UIYo8kb",
+"primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"雨果跨境"
+"AMZ123"
 ],
-"max_score": 0.84,
-"category": "policy_update",
+"max_score": 0.6,
+"category": "general",
 "items": [
 {
-"id": "8aa7614bd664510478c21f84fc1fbbf97bc8c858",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊英德站旺季配送费10月15日生效，费率、适用范围与叠加规则全解读",
-"url": "https://www.cifnews.com/article/189482",
+"id": "c1bda42f790ddf8742f36f25bef8f0e8fa9cd074",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon调查：40%俄罗斯消费者长期在固定自提点取货",
+"url": "https://www.amz123.com/kx/8UIYo8kb",
 "published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "policy_update",
+"cross_score": 0.6,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"ozon"
 ],
-"cross_why": "费用调整，直接影响利润率",
+"cross_why": "跨境电商行业动态",
 "cross_platforms": [
-"亚马逊"
+"ozon"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊英德站旺季配送费10月15日生效，费率、适用范围与叠加规则全解读"
+"title_zh": "Ozon调查：40%俄罗斯消费者长期在固定自提点取货"
 }
 ],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 7.02,
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 6.3,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 7
 },
 {
-"story_id": "8e3a94bf466f",
-"primary_title": "欧盟海关新政落地！低值小包关税 + 处理费双双来了，跨境卖家速看",
-"primary_url": "https://www.amzdh.com/kjtt/10548.html",
-"primary_site_id": "amzdh",
+"story_id": "05863acee7ac",
+"primary_title": "Ozon在俄设立两家自有保险公司，聚焦中小企业与个人市场",
+"primary_url": "https://www.amz123.com/kx/CTn6ZHLF",
+"primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"AMZDH"
+"AMZ123"
 ],
-"max_score": 0.82,
-"category": "policy_update",
+"max_score": 0.6,
+"category": "platform_trend",
 "items": [
 {
-"id": "a20d6343f42dbe310a17f1591ce1af6e45b13452",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "欧盟海关新政落地！低值小包关税 + 处理费双双来了，跨境卖家速看",
-"url": "https://www.amzdh.com/kjtt/10548.html",
+"id": "5225b65b228ce6616cb41127894d53479b9ad9cc",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon在俄设立两家自有保险公司，聚焦中小企业与个人市场",
+"url": "https://www.amz123.com/kx/CTn6ZHLF",
 "published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
-"cross_score": 0.82,
-"cross_label": "policy_update",
+"cross_score": 0.6,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"关税",
-"卖家",
-"海关",
-"跨境",
-"卖家",
-"关税"
+"ozon"
 ],
-"cross_why": "税务/关税变动，影响成本核算",
-"cross_platforms": [],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [
+"ozon"
+],
 "cross_sites": [],
-"title_zh": "欧盟海关新政落地！低值小包关税 + 处理费双双来了，跨境卖家速看"
+"title_zh": "Ozon在俄设立两家自有保险公司，聚焦中小企业与个人市场"
 }
 ],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 6.96,
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 6.3,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 8
 },
 {
-"story_id": "90440b7cdc72",
-"primary_title": "亚马逊单链接review超1万！ORORO 的品类策略值得借鉴丨1天1个出海案例",
-"primary_url": "https://www.cifnews.com/article/189488",
-"primary_site_id": "cifnews",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"雨果跨境"
-],
-"max_score": 0.8,
-"category": "listing_product",
-"items": [
-{
-"id": "c2d409d68adb78c4979c79666cac62a09117a398",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊单链接review超1万！ORORO 的品类策略值得借鉴丨1天1个出海案例",
-"url": "https://www.cifnews.com/article/189488",
-"published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"review"
-],
-"cross_why": "产品/listing 相关变化，关注运营调整",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊单链接review超1万！ORORO 的品类策略值得借鉴丨1天1个出海案例"
-}
-],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 6.9,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 9
-},
-{
-"story_id": "5b3868cc1c9e",
-"primary_title": "亚马逊新版本页面即将推出“买家实时聊天功能”？买家还能看到卖家是否在线，这个功能对卖家是否利好？",
-"primary_url": "https://www.wearesellers.com/question/125535",
+"story_id": "077ddbdff2a7",
+"primary_title": "大家都爆单了吗？还是这波旺季唯独漏了我？还是说今年的旺季已经开始了，只是亚马逊忘记给我发邀请函？有同款难兄难弟吗？出来吱个声，让我知道不是一个人在扛",
+"primary_url": "https://www.wearesellers.com/question/125276",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "知无不言"
 ],
-"max_score": 0.79,
-"category": "seller_action",
+"max_score": 0.6,
+"category": "platform_trend",
 "items": [
 {
-"id": "0e25bcb8e4af4d33f372af02018ced5701b674dd",
+"id": "4c5152ef768b122539787603b831a270c1efac82",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "亚马逊新版本页面即将推出“买家实时聊天功能”？买家还能看到卖家是否在线，这个功能对卖家是否利好？",
-"url": "https://www.wearesellers.com/question/125535",
+"title": "大家都爆单了吗？还是这波旺季唯独漏了我？还是说今年的旺季已经开始了，只是亚马逊忘记给我发邀请函？有同款难兄难弟吗？出来吱个声，让我知道不是一个人在扛",
+"url": "https://www.wearesellers.com/question/125276",
 "published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "seller_action",
+"cross_score": 0.6,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"卖家",
-"买家",
-"卖家"
+"亚马逊"
 ],
-"cross_why": "卖家运营相关信号",
+"cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊新版本页面即将推出“买家实时聊天功能”？买家还能看到卖家是否在线，这个功能对卖家是否利好？"
+"title_zh": "大家都爆单了吗？还是这波旺季唯独漏了我？还是说今年的旺季已经开始了，只是亚马逊忘记给我发邀请函？有同款难兄难弟吗？出来吱个声，让我知道不是一个人在扛"
 }
 ],
-"earliest_time": "2026-10-17T00:40:35.897354Z",
-"latest_time": "2026-10-17T00:40:35.897354Z",
-"hot_score": 6.87,
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 6.3,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 9
+},
+{
+"story_id": "1f6ed0cf1ab4",
+"primary_title": "# 超级话题 # 抛开产品供应链，亚马逊运营本身靠什么吃饭？",
+"primary_url": "https://www.wearesellers.com/question/117081",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.6,
+"category": "listing_product",
+"items": [
+{
+"id": "cda40b793df139a83c010efc802a5d510427810a",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "# 超级话题 # 抛开产品供应链，亚马逊运营本身靠什么吃饭？",
+"url": "https://www.wearesellers.com/question/117081",
+"published_at": null,
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"供应链"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "# 超级话题 # 抛开产品供应链，亚马逊运营本身靠什么吃饭？"
+}
+],
+"earliest_time": "2026-10-18T00:40:23.444643Z",
+"latest_time": "2026-10-18T00:40:23.444643Z",
+"hot_score": 6.3,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 10

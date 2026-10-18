@@ -1,13 +1,13 @@
 {
-"generated_at": "2026-10-17T00:40:35.897354Z",
+"generated_at": "2026-10-18T00:40:23.444643Z",
 "window_hours": 24,
-"total_items": 29,
-"total_items_cross_raw": 65,
-"total_items_raw": 100,
-"total_items_all_mode": 100,
+"total_items": 31,
+"total_items_cross_raw": 89,
+"total_items_raw": 148,
+"total_items_all_mode": 148,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1591,
+"archive_total": 1639,
 "site_count": 16,
 "source_count": 5,
 "site_stats": [
@@ -15,13 +15,13 @@
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 38
+"raw_count": 77
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 8,
-"raw_count": 20
+"raw_count": 23
 },
 {
 "site_id": "amzdh",
@@ -32,8 +32,8 @@
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
-"count": 3,
-"raw_count": 11
+"count": 5,
+"raw_count": 17
 },
 {
 "site_id": "ennews",
@@ -49,6 +49,81 @@
 }
 ],
 "items": [
+{
+"id": "10f2c7b22e8280638e9da6cf930471f1b64c5223",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊税务合规问题：有两个店铺是朋友当法人开的，自己没有当股东，亚马逊也没法同时当股东会关联，现在税务问题都需要合规，那回到对公账户的钱，怎么合理回到自己手里呢？",
+"url": "https://www.wearesellers.com/question/125559",
+"published_at": null,
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
+"cross_is_related": true,
+"cross_score": 0.87,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺",
+"合规"
+],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊税务合规问题：有两个店铺是朋友当法人开的，自己没有当股东，亚马逊也没法同时当股东会关联，现在税务问题都需要合规，那回到对公账户的钱，怎么合理回到自己手里呢？"
+},
+{
+"id": "beb202f3c60b32a0d2c71dded29ed8ec61ba7453",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "东南亚70%线上销售集中在电商平台，佣金上涨推动卖家寻求多元渠道",
+"url": "https://www.amz123.com/kx/VS92HPyb",
+"published_at": null,
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"电商",
+"电商平台"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "东南亚70%线上销售集中在电商平台，佣金上涨推动卖家寻求多元渠道"
+},
+{
+"id": "4c5152ef768b122539787603b831a270c1efac82",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "大家都爆单了吗？还是这波旺季唯独漏了我？还是说今年的旺季已经开始了，只是亚马逊忘记给我发邀请函？有同款难兄难弟吗？出来吱个声，让我知道不是一个人在扛",
+"url": "https://www.wearesellers.com/question/125276",
+"published_at": null,
+"first_seen_at": "2026-10-18T00:40:23.444643Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "大家都爆单了吗？还是这波旺季唯独漏了我？还是说今年的旺季已经开始了，只是亚马逊忘记给我发邀请函？有同款难兄难弟吗？出来吱个声，让我知道不是一个人在扛"
+},
 {
 "id": "4b93321654f15e337ca5e8b51b57ad811a01f92d",
 "site_id": "amz123",
@@ -73,9 +148,9 @@
 ],
 "cross_why": "税务/关税变动，影响成本核算",
 "cross_platforms": [
-"temu",
+"ebay",
 "amazon",
-"ebay"
+"temu"
 ],
 "cross_sites": [
 "uk"
@@ -104,8 +179,8 @@
 ],
 "cross_why": "广告政策/工具变化，影响投放策略",
 "cross_platforms": [
-"亚马逊",
-"amazon"
+"amazon",
+"亚马逊"
 ],
 "cross_sites": [
 "us"
@@ -121,7 +196,7 @@
 "url": "https://www.cifnews.com/article/189483",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.88,
 "cross_label": "general",
@@ -174,7 +249,7 @@
 "url": "https://www.cifnews.com/article/189482",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.84,
 "cross_label": "policy_update",
@@ -225,7 +300,7 @@
 "url": "https://www.cifnews.com/article/189488",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.8,
 "cross_label": "listing_product",
@@ -301,7 +376,7 @@
 "url": "https://www.cifnews.com/article/189486",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.76,
 "cross_label": "seller_action",
@@ -356,7 +431,7 @@
 "url": "https://www.wearesellers.com/question/125506",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "listing_product",
@@ -430,7 +505,7 @@
 "url": "https://www.cifnews.com/article/189481",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "listing_product",
@@ -455,7 +530,7 @@
 "url": "https://www.cifnews.com/article/189475",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "seller_action",
@@ -492,9 +567,9 @@
 ],
 "cross_why": "平台趋势动态",
 "cross_platforms": [
-"temu",
 "aliexpress",
-"amazon"
+"amazon",
+"temu"
 ],
 "cross_sites": [
 "eu"
@@ -510,7 +585,7 @@
 "url": "https://www.cifnews.com/article/189472",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.68,
 "cross_label": "seller_action",
@@ -550,30 +625,6 @@
 "title_zh": "亚马逊举报工具全面升级：覆盖范围由IP侵权扩展至五大类别"
 },
 {
-"id": "2335085efc6a635c7927e47a46bdaa0d04db9602",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊全球集货仓GXD正式落地天津东疆综保区，华北货源直通欧美",
-"url": "https://www.amz123.com/kx/GKEffHvk",
-"published_at": null,
-"first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊全球集货仓GXD正式落地天津东疆综保区，华北货源直通欧美"
-},
-{
 "id": "b80e79561b45efe4d28a00388086baf0280e4727",
 "site_id": "amzdh",
 "site_name": "AMZDH",
@@ -607,7 +658,7 @@
 "url": "https://www.cifnews.com/article/189480",
 "published_at": null,
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -702,7 +753,7 @@
 "url": "https://www.ennews.com/news-146440.html",
 "published_at": "2026-10-16T17:10:05Z",
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -726,7 +777,7 @@
 "url": "https://www.ennews.com/news-146438.html",
 "published_at": "2026-10-16T16:58:45Z",
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -750,9 +801,9 @@
 "url": "https://www.ennews.com/article-31954-1.html",
 "published_at": "2026-10-16T11:19:40Z",
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
-"cross_score": 0.8,
+"cross_score": 0.75,
 "cross_label": "tiktok",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -776,7 +827,7 @@
 "url": "https://amalert.co.uk/updates/null",
 "published_at": "2026-10-15T20:14:12Z",
 "first_seen_at": "2026-10-17T00:40:35.897354Z",
-"last_seen_at": "2026-10-17T00:40:35.897354Z",
+"last_seen_at": "2026-10-18T00:40:23.444643Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -809,22 +860,15 @@
 "item_count": 11
 },
 {
-"site_id": "amalert",
-"site_name": "Amalert UK",
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads Blog",
 "tier": 1,
 "ok": true,
-"item_count": 4
+"item_count": 1
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
-"tier": 1,
-"ok": true,
-"item_count": 3
-},
-{
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads Blog",
 "tier": 1,
 "ok": true,
 "item_count": 1
@@ -837,11 +881,18 @@
 "item_count": 1
 },
 {
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"tier": 1,
+"ok": true,
+"item_count": 1
+},
+{
 "site_id": "amz123",
 "site_name": "AMZ123",
 "tier": 2,
 "ok": true,
-"item_count": 40
+"item_count": 39
 },
 {
 "site_id": "cifnews",
@@ -855,7 +906,7 @@
 "site_name": "亿恩网",
 "tier": 2,
 "ok": true,
-"item_count": 25
+"item_count": 23
 },
 {
 "site_id": "ecomengine",
@@ -865,6 +916,13 @@
 "item_count": 20
 },
 {
+"site_id": "kjds365",
+"site_name": "跨境电商365",
+"tier": 2,
+"ok": true,
+"item_count": 10
+},
+{
 "site_id": "marketplace_pulse",
 "site_name": "Marketplace Pulse",
 "tier": 2,
@@ -872,29 +930,22 @@
 "item_count": 10
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
 "tier": 2,
 "ok": true,
-"item_count": 10
+"item_count": 0
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
 "tier": 2,
 "ok": true,
-"item_count": 2
+"item_count": 0
 },
 {
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"tier": 2,
-"ok": true,
-"item_count": 1
-},
-{
-"site_id": "kjds365",
-"site_name": "跨境电商365",
+"site_id": "amzdh",
+"site_name": "AMZDH",
 "tier": 2,
 "ok": true,
 "item_count": 0
@@ -907,5 +958,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 97
+"total_stories": 145
 }
