@@ -1,45 +1,47 @@
 {
-"generated_at": "2026-10-20T00:40:17.077772Z",
+"generated_at": "2026-10-21T00:40:07.893088Z",
 "window_days": 7,
-"total_items": 545,
+"total_items": 664,
 "daily_counts": {
-"2026-10-14": 97,
+"2026-10-14": 98,
 "2026-10-15": 89,
 "2026-10-16": 91,
 "2026-10-17": 100,
 "2026-10-18": 48,
 "2026-10-19": 29,
-"2026-10-20": 91
+"2026-10-20": 91,
+"2026-10-21": 118
 },
 "source_counts": {
-"amz123": 239,
-"ennews": 112,
-"wearesellers": 87,
-"cifnews": 58,
-"channelx": 17,
-"amzdh": 11,
-"amazon_newsroom": 10,
-"amalert": 6,
-"sp_api": 2,
-"ecommercenews": 2,
-"ecomengine": 1
+"amz123": 278,
+"ennews": 135,
+"wearesellers": 101,
+"cifnews": 78,
+"channelx": 21,
+"amzdh": 21,
+"amazon_newsroom": 13,
+"amalert": 9,
+"sp_api": 3,
+"ecommercenews": 3,
+"ecomengine": 1,
+"amazon_ads": 1
 },
 "label_counts": {
-"general": 98,
-"not_cross": 230,
-"advertising": 21,
-"seller_action": 72,
-"fee_logistics": 15,
-"platform_trend": 28,
-"policy_update": 31,
-"tiktok": 9,
-"temu": 4,
-"listing_product": 32,
-"compliance_deadline": 3,
+"general": 117,
+"not_cross": 282,
+"advertising": 27,
+"seller_action": 88,
+"fee_logistics": 18,
+"platform_trend": 31,
+"policy_update": 38,
+"tiktok": 11,
+"temu": 5,
+"listing_product": 40,
+"compliance_deadline": 4,
 "domestic_ecommerce_noise": 1,
-"walmart": 1
+"walmart": 2
 },
-"uk_related_count": 8,
+"uk_related_count": 9,
 "top_signals": [
 {
 "title": "英国拟要求Amazon、eBay、Temu为年销超9万英镑卖家代扣增值税",
@@ -66,20 +68,20 @@
 "time": "2026-10-20T00:40:17.077772Z"
 },
 {
-"title": "营业执照地址变更后，亚马逊各站点，VAT, 收款账号修改地址节点。这套资料有开通欧洲，北美，日本站点，由于执照上的地址已变更了，是否需要主动去亚马逊后台变更公司地址地址？是上面所有站点都建议主动去变更吗？",
-"url": "https://www.wearesellers.com/question/125358",
-"site_id": "wearesellers",
-"score": 0.91,
-"label": "policy_update",
-"time": "2026-10-14T00:40:50.473194Z"
+"title": "亚马逊eBay Etsy三大平台TOP100卖家榜：中国卖家法国站占比达19%",
+"url": "https://www.amz123.com/kx/98niDJeU",
+"site_id": "amz123",
+"score": 1.0,
+"label": "seller_action",
+"time": "2026-10-21T00:40:07.893088Z"
 },
 {
-"title": "针对10月份电商税税务新规的看法，以及应对措施。政策没真正落地实施一下，根本不知道会怎么样，最重要的是亚马逊的态度，他们如果态度明确申报或者不申报，我们就能确定应对的方案。目前合规可落地的方式应该有四种",
-"url": "https://www.wearesellers.com/question/109634",
-"site_id": "wearesellers",
-"score": 0.91,
-"label": "policy_update",
-"time": "2026-10-16T00:40:12.921664Z"
+"title": "沃尔玛推出山姆会员与Walmart+捆绑套餐，年费120美元低于Prime",
+"url": "https://www.amz123.com/kx/TMCagwHm",
+"site_id": "amz123",
+"score": 0.93,
+"label": "walmart",
+"time": "2026-10-21T00:40:07.893088Z"
 }
 ]
 }

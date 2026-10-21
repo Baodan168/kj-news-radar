@@ -1,45 +1,57 @@
 {
-"generated_at": "2026-10-20T00:40:17.077772Z",
+"generated_at": "2026-10-21T00:40:07.893088Z",
 "window_hours": 24,
-"total_items": 27,
-"total_items_cross_raw": 67,
-"total_items_raw": 120,
-"total_items_all_mode": 120,
+"total_items": 42,
+"total_items_cross_raw": 118,
+"total_items_raw": 209,
+"total_items_all_mode": 209,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1651,
+"archive_total": 1707,
 "site_count": 16,
-"source_count": 8,
+"source_count": 10,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 49
+"raw_count": 75
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 8,
+"raw_count": 46
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 7,
+"raw_count": 20
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"count": 6,
+"raw_count": 7
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "count": 5,
-"raw_count": 30
+"raw_count": 32
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
-"count": 5,
-"raw_count": 23
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
+"site_id": "amalert",
+"site_name": "Amalert UK",
 "count": 3,
-"raw_count": 4
+"raw_count": 3
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"site_id": "amzdh",
+"site_name": "AMZDH",
 "count": 2,
-"raw_count": 3
+"raw_count": 10
 },
 {
 "site_id": "ecomengine",
@@ -48,25 +60,599 @@
 "raw_count": 1
 },
 {
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads 更新",
+"count": 1,
+"raw_count": 1
+},
+{
 "site_id": "ecommercenews",
 "site_name": "Ecommerce News Europe",
 "count": 1,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "channelx",
 "site_name": "ChannelX",
-"count": 1,
-"raw_count": 8
-},
-{
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"count": 1,
-"raw_count": 1
+"count": 0,
+"raw_count": 12
 }
 ],
 "items": [
+{
+"id": "77ed86c7c87c38218d8b843350a38b9f89c70c39",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊eBay Etsy三大平台TOP100卖家榜：中国卖家法国站占比达19%",
+"url": "https://www.amz123.com/kx/98niDJeU",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ebay",
+"etsy",
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_platforms": [
+"ebay",
+"etsy",
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊eBay Etsy三大平台TOP100卖家榜：中国卖家法国站占比达19%"
+},
+{
+"id": "9b520d722626637d1a9dbb146b265fe6b9fb3cfc",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "沃尔玛推出山姆会员与Walmart+捆绑套餐，年费120美元低于Prime",
+"url": "https://www.amz123.com/kx/TMCagwHm",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "walmart",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"walmart",
+"沃尔玛"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"walmart",
+"prime"
+],
+"cross_sites": [],
+"title_zh": "沃尔玛推出山姆会员与Walmart+捆绑套餐，年费120美元低于Prime"
+},
+{
+"id": "0d5cbd251d2621f6597b859fafc33fcec6a26619",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊宣布2027年前在德国投资逾160亿欧元，重点布局数据中心与物流",
+"url": "https://www.amz123.com/kx/Han9SIvz",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊宣布2027年前在德国投资逾160亿欧元，重点布局数据中心与物流"
+},
+{
+"id": "cca71fece74640a014de34ae86f2c151cf656eae",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊品类费用两年涨两轮，抽成占比仍维持售价四成左右",
+"url": "https://www.amz123.com/kx/EqJ9FuVN",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊品类费用两年涨两轮，抽成占比仍维持售价四成左右"
+},
+{
+"id": "63e0ea9f8a4f9c6ff6bba33560e4d18cd9be5e33",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "黑五前突发！亚马逊一批商品或被移除，卖家只剩8天处理库存",
+"url": "https://www.cifnews.com/article/189542",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"库存"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "黑五前突发！亚马逊一批商品或被移除，卖家只剩8天处理库存"
+},
+{
+"id": "4833c30bfb1bfcc5703bd5ad033dbc80eb2432dc",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊收到投诉：与描述不符 - 不同商品，实物与 Listing 完全一致，该怎么去申诉？",
+"url": "https://www.wearesellers.com/question/125673",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"listing"
+],
+"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊收到投诉：与描述不符 - 不同商品，实物与 Listing 完全一致，该怎么去申诉？"
+},
+{
+"id": "93b143f3a8e08efdc4cf21ccb39bffb406046106",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "西班牙宠物主人月均花费147欧元，亚马逊配件线上提及量占比58%",
+"url": "https://www.amz123.com/kx/Za6L0NLS",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "西班牙宠物主人月均花费147欧元，亚马逊配件线上提及量占比58%"
+},
+{
+"id": "d7fc4f44b8f4a40e66cdc1404b24eabc2722333a",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊广告 ACOS 降不下来？我们先来算一笔账",
+"url": "https://www.cifnews.com/article/189538",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"acos"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊广告 ACOS 降不下来？我们先来算一笔账"
+},
+{
+"id": "e2e0a1033bda2ad9416755d538dfadd56e05abe3",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "亚马逊TOP100卖家数据出炉！法国站中国大陆卖家占比19%，领跑欧洲各大站点",
+"url": "https://www.amzdh.com/kjtt/10567.html",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.78,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊TOP100卖家数据出炉！法国站中国大陆卖家占比19%，领跑欧洲各大站点"
+},
+{
+"id": "2c089189a8f97793d9cc318282afd2b30c5cd5c3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南电商协会联手亚马逊，扶持年轻创业者拓展跨境业务",
+"url": "https://www.amz123.com/kx/AcPAaSfI",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"跨境",
+"电商"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "越南电商协会联手亚马逊，扶持年轻创业者拓展跨境业务"
+},
+{
+"id": "87a26cd94681571ab23be954897989c42758d86b",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊美国站商业责任险新规2026年11月2日起正式落地",
+"url": "https://www.cifnews.com/article/189536",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国站商业责任险新规2026年11月2日起正式落地"
+},
+{
+"id": "1c4dda8c3f7b479132833d8ba6299120208d2829",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "变被动为主动！2026中国跨境卖家如何用3步布局海外自主知产体系？",
+"url": "https://www.cifnews.com/article/189534",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "变被动为主动！2026中国跨境卖家如何用3步布局海外自主知产体系？"
+},
+{
+"id": "f71f1454994a939bc555c3e110a195ca037f4f26",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊数据太多太乱，如何让AI代替巡检店铺",
+"url": "https://www.cifnews.com/article/189537",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.65,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊数据太多太乱，如何让AI代替巡检店铺"
+},
+{
+"id": "a235ca226f9c28e1c3516d811da01b4bc44ea42f",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "罗马尼亚艺术家彩虹树插画发案！定制类卖家需重点自查！",
+"url": "https://www.cifnews.com/article/189547",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "罗马尼亚艺术家彩虹树插画发案！定制类卖家需重点自查！"
+},
+{
+"id": "fdf9c94d0abfa6e6ddb23e4a0320bc5dbe9b5514",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "IRS全国执法升级，跨境老板先查这3笔账",
+"url": "https://www.cifnews.com/article/189532",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "IRS全国执法升级，跨境老板先查这3笔账"
+},
+{
+"id": "2da4a5b5af0774f42182f84e6076fc0f5d0d650e",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "Ozon调研｜俄罗斯买家 “恋旧”，40%消费者长期在固定自提点取货",
+"url": "https://www.amzdh.com/kjtt/10561.html",
+"published_at": null,
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"买家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon调研｜俄罗斯买家 “恋旧”，40%消费者长期在固定自提点取货"
+},
+{
+"id": "e43412e26d81a81704b5683d551bc50b858dc669",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon commits 30,000 jobs to young people in the UK by 2030—no experience required",
+"url": "https://www.aboutamazon.com/news/company-news/amazon-youth-promise-uk",
+"published_at": "2026-10-20T21:25:08Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊承诺到2030年为英国年轻人提供3万个工作岗位-无需经验"
+},
+{
+"id": "6fe5b02488f5c09650dc70f60df2a66ee6eb9549",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Marketplace Pulse更新三大平台TOP100卖家榜，中国卖家多点上榜",
+"url": "https://www.ennews.com/news-146653.html",
+"published_at": "2026-10-20T16:32:08Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"marketplace",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Marketplace Pulse更新三大平台TOP100卖家榜，中国卖家多点上榜"
+},
+{
+"id": "a89fe72891c75c6abf6e660ec5a636ffa4d83d34",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "德国手工制品线上销售须履行制造商与卖家双重义务",
+"url": "https://www.ennews.com/news-146651.html",
+"published_at": "2026-10-20T16:26:10Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国手工制品线上销售须履行制造商与卖家双重义务"
+},
+{
+"id": "2e8e4ca15ce82e11c1c095ea77f3cadb352f587b",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "欧盟产品安全法规不豁免手工卖家 玩具需贴CE标识",
+"url": "https://www.ennews.com/news-146644.html",
+"published_at": "2026-10-20T16:00:55Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"法规"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "欧盟产品安全法规不豁免手工卖家 玩具需贴CE标识"
+},
+{
+"id": "a15a6daa469020ac2b4f009436012bf37cec8467",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon is creating over 300,000 new US jobs this holiday season with increased pay and expanded benefits",
+"url": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare",
+"published_at": "2026-10-20T12:30:09Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在这个假日季节为美国创造了超过30万个新工作岗位，增加了工资和福利"
+},
+{
+"id": "17cc716d4420cd2fab1065f42dde21c90fecfbc0",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "AI购物前夜，跨境卖家如何把新入口变成真实订单？",
+"url": "https://www.ennews.com/article-31964-1.html",
+"published_at": "2026-10-20T10:38:50Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"跨境",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "AI购物前夜，跨境卖家如何把新入口变成真实订单？"
+},
+{
+"id": "112af7d7a06b7ecc6242e228d38f6b1c1ae69dbb",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon announces plan to invest €16 billion in Germany in 2027",
+"url": "https://www.aboutamazon.com/company-news/amazon-germany-investment",
+"published_at": "2026-10-20T09:04:23Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊宣布计划2027年在德国投资160 €"
+},
 {
 "id": "620b7cd3777963834e9ad1e3350d1981511383e9",
 "site_id": "wearesellers",
@@ -104,7 +690,7 @@
 "url": "https://www.wearesellers.com/question/125605",
 "published_at": null,
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "policy_update",
@@ -145,6 +731,32 @@
 "title_zh": "# 运营案例分析 # 亚马逊小白运营求教，季节性非标品，广告框架应该怎么调整，麻烦各位大神指点！"
 },
 {
+"id": "b15b499b58d840eca51def770389e0eff234e2c9",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "从信息差到被推荐：如何用Q&A和Podcast影响Alexa的选择｜亚马逊卖家一定要看看",
+"url": "https://www.wearesellers.com/question/125613",
+"published_at": null,
+"first_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "从信息差到被推荐：如何用Q&A和Podcast影响Alexa的选择｜亚马逊卖家一定要看看"
+},
+{
 "id": "205471cc00a7ade269150f313a222811e1fd92a4",
 "site_id": "amz123",
 "site_name": "AMZ123",
@@ -153,7 +765,7 @@
 "url": "https://www.amz123.com/kx/LG6q7dpk",
 "published_at": null,
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
 "cross_score": 0.74,
 "cross_label": "general",
@@ -192,104 +804,6 @@
 "title_zh": "InPost联手Packeta布局捷克与斯洛伐克，波兰卖家可调用1.4万个取件点"
 },
 {
-"id": "f202d73f34c6bae5ab26eae21860da2ee5c4578e",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美国站灰度测试AI商品摘要功能 购物助手月活同比增长149%",
-"url": "https://www.amz123.com/kx/eKUBYKhD",
-"published_at": null,
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国站灰度测试AI商品摘要功能 购物助手月活同比增长149%"
-},
-{
-"id": "deea6381e22b6a98bac1b04da48f3689e8d67ebb",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧洲货运失窃隐性成本达货值四至七倍，半年损失逾10亿欧元",
-"url": "https://www.amz123.com/kx/duMvvfjy",
-"published_at": null,
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"货运"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "欧洲货运失窃隐性成本达货值四至七倍，半年损失逾10亿欧元"
-},
-{
-"id": "6eef3abdf02bb99d9d9648f6de7a175c67864c92",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯消费者平替需求升温，Wildberries品牌搜索量同比增长27%",
-"url": "https://www.amz123.com/kx/OXZq2th0",
-"published_at": null,
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"wildberries"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"wildberries"
-],
-"cross_sites": [],
-"title_zh": "俄罗斯消费者平替需求升温，Wildberries品牌搜索量同比增长27%"
-},
-{
-"id": "96ac85e45c2359a0f6b6624f8403c2d28ba14572",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Ozon将于12月1日起取消折扣积分并新增配送费用",
-"url": "https://www.amz123.com/kx/wUmhbUlN",
-"published_at": null,
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
-"cross_is_related": true,
-"cross_score": 0.62,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ozon"
-],
-"cross_why": "费用调整，直接影响利润率",
-"cross_platforms": [
-"ozon"
-],
-"cross_sites": [],
-"title_zh": "Ozon将于12月1日起取消折扣积分并新增配送费用"
-},
-{
 "id": "5e6afec4d8f47c8e6f8afb33f49632bfc1bac55c",
 "site_id": "ecomengine",
 "site_name": "EcomEngine",
@@ -298,7 +812,7 @@
 "url": "https://www.ecomengine.com/blog/amazon-fba-reimbursement-audit",
 "published_at": null,
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
 "cross_score": 0.61,
 "cross_label": "general",
@@ -312,6 +826,31 @@
 ],
 "cross_sites": [],
 "title_zh": "亚马逊悄悄欠您多少钱？ 20分钟报销审核"
+},
+{
+"id": "b6bfb932c7f3aa8505a738c670ff2dbce514aa71",
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads 更新",
+"source": "亚马逊广告",
+"title": "Promotional signals now available in the Amazon Retail Purchases dataset",
+"url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index",
+"published_at": "2026-10-20T00:00:00Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.76,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "促销信号现已在Amazon Retail Purchases数据集中提供"
 },
 {
 "id": "1fe859c7582a448a4ce0f371f33628a450e0cc33",
@@ -348,7 +887,7 @@
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
 "last_seen_at": "2026-10-20T00:40:17.077772Z",
 "cross_is_related": true,
-"cross_score": 0.68,
+"cross_score": 0.63,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -371,7 +910,7 @@
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
 "last_seen_at": "2026-10-20T00:40:17.077772Z",
 "cross_is_related": true,
-"cross_score": 0.72,
+"cross_score": 0.67,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -395,7 +934,7 @@
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
 "last_seen_at": "2026-10-20T00:40:17.077772Z",
 "cross_is_related": true,
-"cross_score": 0.72,
+"cross_score": 0.67,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -417,9 +956,9 @@
 "url": "https://ecommercenews.eu/uk-plans-to-extend-vat-liability-for-marketplaces",
 "published_at": "2026-10-19T14:57:17Z",
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.69,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -441,9 +980,9 @@
 "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
 "published_at": "2026-10-19T13:00:10Z",
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
-"cross_score": 0.71,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -457,24 +996,28 @@
 "title_zh": "亚马逊向每位PyTorch开发人员开放其AWS Trainium AI芯片，无需重写"
 },
 {
-"id": "c92091995492dfe9a96e159554cdb81f86b4ca07",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Ask your warehouse. Get answers. StoreFeeder prepares to unveil D.A.V.E.",
-"url": "https://channelx.world/2026/10/ask-your-warehouse-get-answers-storefeeder-prepares-to-unveil-d-a-v-e",
-"published_at": "2026-10-19T12:35:42Z",
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"id": "6df671777902934bee708576462f6ecd980444f0",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed",
+"url": "https://amalert.co.uk/updates/null",
+"published_at": "2026-10-19T13:00:10Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.66,
 "cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [],
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
 "cross_why": "跨境电商行业动态",
-"cross_platforms": [],
+"cross_platforms": [
+"amazon"
+],
 "cross_sites": [],
-"title_zh": "询问您的仓库。获取答案。StoreFeeder准备推出D.A.V.E."
+"title_zh": "亚马逊向每位PyTorch开发人员开放其AWS Trainium AI芯片，无需重写"
 },
 {
 "id": "301bb57cb986299b3806b4e7b8bed7af01d935d6",
@@ -485,9 +1028,9 @@
 "url": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep",
 "published_at": "2026-10-19T12:30:08Z",
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
-"cross_score": 0.71,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -501,26 +1044,52 @@
 "title_zh": "亚马逊投资核能项目，旨在为印第安纳州提供近1千兆瓦的无碳能源"
 },
 {
-"id": "13bf00d49d3700f0672ae32f4777271425eebb09",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "几个月前还是跨境老板，现在开始投简历了！",
-"url": "https://www.ennews.com/article-31960-1.html",
-"published_at": "2026-10-19T11:20:43Z",
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"id": "8def86b9c3b352f13bc0ddaa033225eb1ddaf85e",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon invests in nuclear energy project targeting nearly 1 gigawatt of carbon-free energy for Indiana",
+"url": "https://amalert.co.uk/updates/amazon-invests-in-nuclear-energy-project-targeting-nearly-1-gigawatt-of-carbon-free-energy-for-indiana-77338a42",
+"published_at": "2026-10-19T12:30:08Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
-"cross_score": 0.64,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"跨境"
+"amazon"
 ],
 "cross_why": "跨境电商行业动态",
-"cross_platforms": [],
+"cross_platforms": [
+"amazon"
+],
 "cross_sites": [],
-"title_zh": "几个月前还是跨境老板，现在开始投简历了！"
+"title_zh": "亚马逊投资核能项目，旨在为印第安纳州提供近1千兆瓦的无碳能源"
+},
+{
+"id": "b3ec7bd778052f7bef81eae3603c12ee89a6c77a",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon SPN and The Client Acquisition Channel Agencies Are Sleeping On",
+"url": "https://amalert.co.uk/updates/amazon-spn-and-the-client-acquisition-channel-agencies-are-sleeping-on-4bd32d6c",
+"published_at": "2026-10-19T11:30:00Z",
+"first_seen_at": "2026-10-21T00:40:07.893088Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "亚马逊SPN和客户获取渠道代理商正在休眠"
 },
 {
 "id": "7e8a24e8dba4dd0488b22750be0ff2a33487d5ea",
@@ -531,9 +1100,9 @@
 "url": "https://www.aboutamazon.com/news/retail/amazon-holiday-beauty-event-2026",
 "published_at": "2026-10-19T07:13:00Z",
 "first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"last_seen_at": "2026-10-21T00:40:07.893088Z",
 "cross_is_related": true,
-"cross_score": 0.71,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -545,187 +1114,6 @@
 ],
 "cross_sites": [],
 "title_zh": "购买亚马逊2026年假日美容活动的热门优惠"
-},
-{
-"id": "d1b508934d2fe83da79747b4fef749710fafbc3a",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊NWD品牌限售政策收紧，卖家须于10月27日前完成库存处理",
-"url": "https://www.amz123.com/kx/Isead6N8",
-"published_at": null,
-"first_seen_at": "2026-10-19T00:40:40.419064Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"库存",
-"政策"
-],
-"cross_why": "平台或监管政策变动，需评估运营影响",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊NWD品牌限售政策收紧，卖家须于10月27日前完成库存处理"
-},
-{
-"id": "6ad69759e8650b1019a4ef1b7882c51c41ee1b49",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊违反买家评论政策，想走承认申诉，但担心承认会坐实站外联系客户、影响店铺安全；授权店铺填主账号信息会不会品牌连坐、判定二刷？",
-"url": "https://www.wearesellers.com/question/125556",
-"published_at": null,
-"first_seen_at": "2026-10-19T00:40:40.419064Z",
-"last_seen_at": "2026-10-19T00:40:40.419064Z",
-"cross_is_related": true,
-"cross_score": 0.91,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"买家",
-"店铺",
-"政策"
-],
-"cross_why": "账号安全类信号，涉及封号/申诉风险",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊违反买家评论政策，想走承认申诉，但担心承认会坐实站外联系客户、影响店铺安全；授权店铺填主账号信息会不会品牌连坐、判定二刷？"
-},
-{
-"id": "d3ead249a387b6dcb11e8ebdbc2650d3aeb4f0bc",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "划线价集体蒸发，旺季费又来了：亚马逊卖家的Q4，得换一种活法",
-"url": "https://www.wearesellers.com/question/125577",
-"published_at": null,
-"first_seen_at": "2026-10-19T00:40:40.419064Z",
-"last_seen_at": "2026-10-19T00:40:40.419064Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "划线价集体蒸发，旺季费又来了：亚马逊卖家的Q4，得换一种活法"
-},
-{
-"id": "1607d68d743ecba85b897aff1dd1d59912200dbc",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "销量大幅增长！湖南陶瓷卖家靠亚马逊多站点突围",
-"url": "https://www.cifnews.com/article/189450",
-"published_at": null,
-"first_seen_at": "2026-10-19T00:40:40.419064Z",
-"last_seen_at": "2026-10-19T00:40:40.419064Z",
-"cross_is_related": true,
-"cross_score": 0.8,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "销量大幅增长！湖南陶瓷卖家靠亚马逊多站点突围"
-},
-{
-"id": "7c5cf72a17692d2cd9e374e224ac3bcd53bf1ee3",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "卖家快自查！又有旺季爆款暴雷",
-"url": "https://www.cifnews.com/article/189491",
-"published_at": null,
-"first_seen_at": "2026-10-19T00:40:40.419064Z",
-"last_seen_at": "2026-10-19T00:40:40.419064Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家",
-"爆款"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "卖家快自查！又有旺季爆款暴雷"
-},
-{
-"id": "1156216eb247e504c5b76bcca021e58288df2fdc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊在部分美国账号商品页测试AI生成摘要功能",
-"url": "https://www.amz123.com/kx/A0NHKXfX",
-"published_at": null,
-"first_seen_at": "2026-10-19T00:40:40.419064Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊在部分美国账号商品页测试AI生成摘要功能"
-},
-{
-"id": "d028a60596b0c090bd76eebe2c84455ede0db924",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon DSP for New to Brand Growth Backed by SellerApp 2026 Benchmark Data",
-"url": "https://amalert.co.uk/updates/amazon-dsp-for-new-to-brand-growth-backed-by-sellerapp-2026-benchmark-data-e8655fae",
-"published_at": "2026-10-17T11:30:00Z",
-"first_seen_at": "2026-10-19T00:40:40.419064Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "由SellerApp 2026基准数据支持的新品牌增长的亚马逊DSP"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json",
@@ -749,25 +1137,25 @@
 "site_name": "Amazon Newsroom",
 "tier": 1,
 "ok": true,
-"item_count": 4
+"item_count": 7
+},
+{
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"tier": 1,
+"ok": true,
+"item_count": 3
 },
 {
 "site_id": "amazon_ads",
 "site_name": "Amazon Ads Blog",
 "tier": 1,
 "ok": true,
-"item_count": 1
+"item_count": 2
 },
 {
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
-"tier": 1,
-"ok": true,
-"item_count": 1
-},
-{
-"site_id": "amalert",
-"site_name": "Amalert UK",
 "tier": 1,
 "ok": true,
 "item_count": 1
@@ -780,11 +1168,18 @@
 "item_count": 40
 },
 {
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"tier": 2,
+"ok": true,
+"item_count": 30
+},
+{
 "site_id": "ennews",
 "site_name": "亿恩网",
 "tier": 2,
 "ok": true,
-"item_count": 23
+"item_count": 26
 },
 {
 "site_id": "ecomengine",
@@ -794,8 +1189,22 @@
 "item_count": 20
 },
 {
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"tier": 2,
+"ok": true,
+"item_count": 15
+},
+{
 "site_id": "kjds365",
 "site_name": "跨境电商365",
+"tier": 2,
+"ok": true,
+"item_count": 10
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
 "tier": 2,
 "ok": true,
 "item_count": 10
@@ -808,32 +1217,11 @@
 "item_count": 10
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
-"tier": 2,
-"ok": true,
-"item_count": 8
-},
-{
 "site_id": "ecommercenews",
 "site_name": "Ecommerce News Europe",
 "tier": 2,
 "ok": true,
-"item_count": 1
-},
-{
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"tier": 2,
-"ok": true,
-"item_count": 1
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"tier": 2,
-"ok": true,
-"item_count": 0
+"item_count": 2
 },
 {
 "site_id": "wearesellers",
@@ -843,5 +1231,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 119
+"total_stories": 205
 }
