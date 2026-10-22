@@ -258,14 +258,15 @@ PLATFORM_KEYWORDS = [
     "美客多", "乐天", "rakuten",
 ]
 
-# Site/region detection
+# Site/region detection（2026-10-22 扩充：AU/FR 词太薄导致澳洲/法国信号识别不出）
+# 注意：text 已 lower()，关键词须小写；用子串匹配，禁加短词（如裸 us/au）防误命中
 SITE_KEYWORDS = {
-    "us": ["美国站", "amazon.com", "us站", "美区", "美国"],
-    "uk": ["英国站", "amazon.co.uk", "uk站", "英区", "英国", "英代"],
-    "eu": ["欧洲站", "amazon.de", "amazon.fr", "amazon.it", "amazon.es", "eu站", "欧区", "欧洲", "德国站", "法国站", "意大利站", "西班牙站"],
+    "us": ["美国站", "amazon.com", "us站", "美区", "美国", "united states"],
+    "uk": ["英国站", "amazon.co.uk", "uk站", "英区", "英国", "英代", "united kingdom"],
+    "eu": ["欧洲站", "amazon.de", "amazon.fr", "amazon.it", "amazon.es", "eu站", "欧区", "欧洲", "德国站", "法国站", "意大利站", "西班牙站", "欧代", "france", "french", "allemagne", "italie", "espagne", "allemand"],
     "jp": ["日本站", "amazon.co.jp", "jp站", "日区", "日本"],
-    "au": ["澳洲站", "amazon.com.au", "au站", "澳大利亚"],
-    "ca": ["加拿大站", "amazon.ca", "ca站"],
+    "au": ["澳洲站", "amazon.com.au", "au站", "澳大利亚", "澳洲", "澳区", "australia", "australian", "aussie"],
+    "ca": ["加拿大站", "amazon.ca", "ca站", "加拿大"],
 }
 
 # ──────────────────────────────────────────────────────────────

@@ -1,33 +1,51 @@
 {
-"generated_at": "2026-10-22T00:40:44.535281Z",
+"generated_at": "2026-10-22T16:02:16.220464Z",
 "window_hours": 24,
-"total_items": 18,
-"total_items_cross_raw": 45,
-"total_items_raw": 86,
-"total_items_all_mode": 86,
+"total_items": 34,
+"total_items_cross_raw": 93,
+"total_items_raw": 183,
+"total_items_all_mode": 183,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 1687,
+"archive_total": 1740,
 "site_count": 16,
-"source_count": 8,
+"source_count": 10,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 40
+"raw_count": 77
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"count": 6,
+"raw_count": 20
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
-"count": 4,
-"raw_count": 10
+"count": 5,
+"raw_count": 18
 },
 {
 "site_id": "amalert",
 "site_name": "Amalert UK",
-"count": 3,
-"raw_count": 3
+"count": 5,
+"raw_count": 5
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"count": 4,
+"raw_count": 44
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"count": 2,
+"raw_count": 8
 },
 {
 "site_id": "amzdh",
@@ -36,10 +54,16 @@
 "raw_count": 4
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
 "count": 1,
-"raw_count": 22
+"raw_count": 2
+},
+{
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"count": 1,
+"raw_count": 2
 },
 {
 "site_id": "amazon_newsroom",
@@ -52,15 +76,465 @@
 "site_name": "SP-API Changelog",
 "count": 0,
 "raw_count": 1
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"count": 0,
-"raw_count": 4
 }
 ],
 "items": [
+{
+"id": "59006af494bfb7402cfde3440978defeb3f6b79d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家",
+"url": "https://www.ennews.com/news-146870.html",
+"published_at": "2026-10-22T16:40:27Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"temu",
+"tiktok shop",
+"卖家",
+"卖家"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"tiktok shop",
+"amazon",
+"temu"
+],
+"cross_sites": [],
+"title_zh": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家"
+},
+{
+"id": "dd914615aa12e3347cd5d1060b8e33f7f1b88866",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元",
+"url": "https://www.ennews.com/news-146865.html",
+"published_at": "2026-10-22T16:08:48Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [
+"au"
+],
+"title_zh": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元"
+},
+{
+"id": "b1bb257005145b2f6b54a1a6e30f1a3d29498c65",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧盟PPWR规定电商包裹空隙率不得超过50%",
+"url": "https://www.amz123.com/kx/9t3F0Q4X",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.9,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ppwr",
+"电商",
+"包裹"
+],
+"cross_why": "EU/UK 合规要求，影响 UK/EU 站在售产品",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "欧盟PPWR规定电商包裹空隙率不得超过50%"
+},
+{
+"id": "0dd79a670ab5a0e0174749ca4de7d824fbac5200",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元",
+"url": "https://www.amz123.com/kx/GLvW9qhT",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.89,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"prime",
+"亚马逊"
+],
+"cross_sites": [
+"au"
+],
+"title_zh": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元"
+},
+{
+"id": "51dcfd5a28ad5683ce0aa3988153a6d81f67f1d6",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "美国IOR新规已启动，亚马逊卖家速查进口商身份！",
+"url": "https://www.cifnews.com/article/189596",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "美国IOR新规已启动，亚马逊卖家速查进口商身份！"
+},
+{
+"id": "0ab2218ee2fdce12d3b1295cec87ad38ec138888",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊墨西哥拟扩建物流中心，预计新增1300个岗位",
+"url": "https://www.amz123.com/kx/Wb7diiEr",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊墨西哥拟扩建物流中心，预计新增1300个岗位"
+},
+{
+"id": "5aadd0f5450bcf998a2cb3f1e0ff285fc503504b",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "政策在变、AI在变，亚马逊把答案放在厦门这三天",
+"url": "https://www.wearesellers.com/question/125769",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"政策"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "政策在变、AI在变，亚马逊把答案放在厦门这三天"
+},
+{
+"id": "25a6fa7b6294f1c25668c4c06afc72575e46a8d6",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "速卖通双11前推出欧洲配送优惠 最高返还30%物流费",
+"url": "https://www.amz123.com/kx/545od3QT",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"速卖通",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"速卖通"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "速卖通双11前推出欧洲配送优惠 最高返还30%物流费"
+},
+{
+"id": "12b5876ce6bd4895c2097d0659613c24e4b6b0ab",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "黑五网一前必看：亚马逊卖家自配送4步自查",
+"url": "https://globalselling.amazon.com/news/news-brand-261019",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.7,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "黑五网一前必看：亚马逊卖家自配送4步自查"
+},
+{
+"id": "a4a1865778997b99ff5b222616bb3f337ee85e70",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊10月26日危险品新规",
+"url": "https://www.cifnews.com/article/189593",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊10月26日危险品新规"
+},
+{
+"id": "1eb44aa65110cbe1b3d3763e85b662187826dbb5",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "百世快运拓展跨境货物国内运输业务 全国网络迎来新增长",
+"url": "https://www.cifnews.com/article/189605",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"百世"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "百世快运拓展跨境货物国内运输业务 全国网络迎来新增长"
+},
+{
+"id": "b01e6f9b1a94cc6786418122e0fde16d65124340",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊突发！IOR核查升级，你的货可能卡在美国",
+"url": "https://www.cifnews.com/article/189601",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊突发！IOR核查升级，你的货可能卡在美国"
+},
+{
+"id": "0493b3f2ec891552ee5ee667d3908f111cb1a001",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "成本砍半、单量数倍攀升！内贸商家转跨境，靠全托管实现降本放量双爆发",
+"url": "https://www.cifnews.com/article/189602",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "成本砍半、单量数倍攀升！内贸商家转跨境，靠全托管实现降本放量双爆发"
+},
+{
+"id": "624a7b10762d3586b30751ff9311b8f6e076ff3f",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊前台新版块-AI摘要",
+"url": "https://www.cifnews.com/article/189594",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊前台新版块-AI摘要"
+},
+{
+"id": "0cbeedad22edebbb1e1f12161fc91fa53c3f70b9",
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"source": "欧洲电商新闻",
+"title": "German SMEs generate over 20 billion euros in sales on Amazon",
+"url": "https://ecommercenews.eu/german-smes-generate-over-20-billion-euros-in-sales-on-amazon",
+"published_at": "2026-10-22T11:44:33Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "德国中小企业在亚马逊上的销售额超过200亿欧元"
+},
+{
+"id": "529e2bd6055aa4e95e3e4d1197c863e99dd1bf3e",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Prime Big Deal Days 2026: 3P grew twice as fast as 1P, and discounted less",
+"url": "https://channelx.world/2026/10/prime-big-deal-days-2026-3p-grew-twice-as-fast-as-1p-and-discounted-less",
+"published_at": "2026-10-22T09:49:30Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.82,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"prime"
+],
+"cross_sites": [],
+"title_zh": "Prime Big Deal Days 2026 ： 3P增长速度是1P的两倍，折扣更少"
+},
+{
+"id": "d4a998b0531fc4cd2aed7c1d41dcadb9a23ec765",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "马斯克要下场刚亚马逊？大批卖家表示支持",
+"url": "https://www.ennews.com/article-31968-1.html",
+"published_at": "2026-10-22T09:46:29Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "马斯克要下场刚亚马逊？大批卖家表示支持"
+},
+{
+"id": "b4e4b27e85d5b0c2514b794a7c2c82c828c2f01e",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Eco 360 Group joined Temu to build visibility for new brand of mops and buckets",
+"url": "https://channelx.world/2026/10/eco-360-group-joined-temu-to-build-visibility-for-new-brand-of-mops-and-buckets",
+"published_at": "2026-10-22T07:46:59Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"temu"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"temu"
+],
+"cross_sites": [],
+"title_zh": "Eco 360 Group加入Temu ，为新品牌的拖把和水桶打造知名度"
+},
 {
 "id": "05a7c1cf8bab96b49073838c4480c7d893533a01",
 "site_id": "amz123",
@@ -177,7 +651,7 @@
 "url": "https://www.wearesellers.com/question/125720",
 "published_at": null,
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "policy_update",
@@ -222,106 +696,6 @@
 "title_zh": "UPS逆向物流接入TikTok Shop，全美1万个退货点支持免箱免标签退货"
 },
 {
-"id": "2ce9a2b2ed62854962aa58ce9b421f367181da14",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美国用户年均下单22次，领先沃尔玛7次",
-"url": "https://www.amz123.com/kx/tzrmZfwJ",
-"published_at": null,
-"first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "walmart",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"沃尔玛"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国用户年均下单22次，领先沃尔玛7次"
-},
-{
-"id": "0a29dfd7508d8fa15c1a8e855c0f08bf370b30b1",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Debenhams与Storfund合作推出按日结算服务，覆盖3万家品牌卖家",
-"url": "https://www.amz123.com/kx/lUTYaOAY",
-"published_at": null,
-"first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "产品/listing 相关更新",
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Debenhams与Storfund合作推出按日结算服务，覆盖3万家品牌卖家"
-},
-{
-"id": "5c004713b8a6b163786546821603d20b27a71a76",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊全球集货仓（GXD）落地天津 助力京津冀产业带直通全球",
-"url": "https://www.amz123.com/kx/zn4qWrUU",
-"published_at": null,
-"first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊全球集货仓（GXD）落地天津 助力京津冀产业带直通全球"
-},
-{
-"id": "3daed94c0d490fad0ccdd5a33309ca4b2dcf8537",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美区基督教车载挂饰售价9.48美元，近30天毛利率达53%",
-"url": "https://www.amz123.com/kx/A1hdAfwB",
-"published_at": null,
-"first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美区基督教车载挂饰售价9.48美元，近30天毛利率达53%"
-},
-{
 "id": "10aabe79d95d86241eda530ee56b4de626955b85",
 "site_id": "wearesellers",
 "site_name": "知无不言",
@@ -330,7 +704,7 @@
 "url": "https://www.wearesellers.com/question/125731",
 "published_at": null,
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "general",
@@ -422,6 +796,55 @@
 "title_zh": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后"
 },
 {
+"id": "c06666ae561f0d2385a2d583c8c6f9d9a248ac6f",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "SP-API Updates: New Shipment Notification for Tracking Number Changes in MCF, New EU Customs Product Identifiers Requirement, and New Enum Value for Finances API",
+"url": "https://amalert.co.uk/updates/sp-api-updates-new-shipment-notification-for-tracking-number-changes-in-mcf-new-eu-customs-product-identifiers-requirement-and-new-enum-value-for-finances-api-1d82e5c8",
+"published_at": "2026-10-21T20:17:22Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.63,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"mcf",
+"tracking"
+],
+"cross_why": "政策相关更新",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "SP-API更新：跟踪MCF编号变更的新发货通知、新的欧盟海关产品标识符要求和财务API的新枚举值"
+},
+{
+"id": "3963e3e1a411a15c38ac33efa640962b4cf520cd",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon DSP for Brands Under $20K a Month: A 2026 Starter Guide",
+"url": "https://amalert.co.uk/updates/amazon-dsp-for-brands-under-20k-a-month-a-2026-starter-guide-1036dabd",
+"published_at": "2026-10-21T11:30:00Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "每月2万$以下品牌的亚马逊DSP ： 2026年入门指南"
+},
+{
 "id": "0f32e9cef77ec23f4482dd8a8848f1fbeb6aaa21",
 "site_id": "ennews",
 "site_name": "亿恩网",
@@ -430,9 +853,9 @@
 "url": "https://www.ennews.com/article-31966-1.html",
 "published_at": "2026-10-21T10:30:24Z",
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
 "cross_is_related": true,
-"cross_score": 0.64,
+"cross_score": 0.6,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -453,7 +876,7 @@
 "url": "https://amalert.co.uk/updates/null",
 "published_at": "2026-10-20T21:25:08Z",
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -477,7 +900,7 @@
 "url": "https://amalert.co.uk/updates/null",
 "published_at": "2026-10-20T12:30:09Z",
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -501,7 +924,7 @@
 "url": "https://amalert.co.uk/updates/null",
 "published_at": "2026-10-20T09:04:23Z",
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T16:02:16.220464Z",
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -538,25 +961,25 @@
 "site_name": "Amalert UK",
 "tier": 1,
 "ok": true,
-"item_count": 6
+"item_count": 5
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "tier": 1,
 "ok": true,
-"item_count": 5
+"item_count": 3
 },
 {
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads Blog",
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
 "tier": 1,
 "ok": true,
 "item_count": 1
 },
 {
-"site_id": "sp_api",
-"site_name": "SP-API Changelog",
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads Blog",
 "tier": 1,
 "ok": true,
 "item_count": 1
@@ -569,11 +992,18 @@
 "item_count": 40
 },
 {
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"tier": 2,
+"ok": true,
+"item_count": 30
+},
+{
 "site_id": "ennews",
 "site_name": "亿恩网",
 "tier": 2,
 "ok": true,
-"item_count": 25
+"item_count": 24
 },
 {
 "site_id": "ecomengine",
@@ -597,13 +1027,6 @@
 "item_count": 10
 },
 {
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"tier": 2,
-"ok": true,
-"item_count": 10
-},
-{
 "site_id": "channelx",
 "site_name": "ChannelX",
 "tier": 2,
@@ -615,14 +1038,14 @@
 "site_name": "Ecommerce News Europe",
 "tier": 2,
 "ok": true,
-"item_count": 1
+"item_count": 2
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"site_id": "amzdh",
+"site_name": "AMZDH",
 "tier": 2,
 "ok": true,
-"item_count": 1
+"item_count": 0
 },
 {
 "site_id": "wearesellers",
@@ -632,5 +1055,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 80
+"total_stories": 171
 }

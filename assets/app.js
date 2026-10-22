@@ -54,6 +54,26 @@ const LABEL_EMOJI = {
   general:         "📰",
 };
 
+/** 市场视图映射（对应打分器 cross_relevance.py 的 SITE_KEYWORDS 检测键） */
+const MARKETS = {
+  "home": { name: "本站优先", short: "本站优先" },
+  "all":  { name: "全部市场", short: "全部" },
+  uk: { name: "🇬🇧 英国站", short: "🇬🇧" },
+  eu: { name: "🇪🇺 欧洲站", short: "🇪🇺" },
+  au: { name: "🇦🇺 澳洲站", short: "🇦🇺" },
+  us: { name: "🇺🇸 美国站", short: "🇺🇸" },
+  jp: { name: "🇯🇵 日本站", short: "🇯🇵" },
+  ca: { name: "🇨🇦 加拿大站", short: "🇨🇦" },
+};
+
+/** 单条信号的市场徽章文案（cross_sites 检测结果 → 可读标签） */
+function marketOf(it) {
+  const sites = it.cross_sites || [];
+  if (!sites.length) return "🌐 全球";
+  const map = { uk: "🇬🇧 英国", eu: "🇪🇺 欧洲", au: "🇦🇺 澳洲", us: "🇺🇸 美国", jp: "🇯🇵 日本", ca: "🇨🇦 加拿大" };
+  return sites.map(s => map[s] || s).join("+");
+}
+
 /* ========== 全局状态 ========== */
 
 const state = {
@@ -71,6 +91,8 @@ const state = {
   siteFilter: "",
   impactFilter: "",      // 影响维度筛选
   platformFilter: "",    // 平台维度筛选
+  homeMarket: "",        // 本站市场，由 URL ?market= 决定（uk/eu/au/us/jp/ca，空=无市场视图）
+  market: "home",        // 当前市场视图：home=本站优先 all=全部 uk/eu/au/us/jp/ca=指定市场
   query: "",
   mode: "cross",         // 'cross' | 'all'
   policyData: null,
@@ -228,8 +250,8 @@ function renderSiteFilters() {
   const wrap = $("sitePills");
   if (!wrap) return;
 
-  // 收集当前数据中出现的来源
-  const items = state.mode === "cross" ? state.itemsAi : state.itemsAll;
+  // 收集当前数据中出现的来源（市场视图激活时只统计当前市场池）
+  const items = marketPool();
   const siteMap = new Map();
 
   for (const it of items) {
@@ -303,9 +325,9 @@ function renderPlatformFilter() {
   const wrap = $("platformPills");
   if (!wrap) return;
   
-  // Count platforms from items
+  // Count platforms from items (市场视图激活时只统计当前市场池)
   const platMap = new Map();
-  const items = state.mode === "cross" ? state.itemsAi : (state.allDedup ? state.itemsAll : state.itemsAllRaw);
+  const items = marketPool();
   items.forEach(it => {
     (it.cross_platforms || []).forEach(p => {
       platMap.set(p, (platMap.get(p) || 0) + 1);
@@ -326,6 +348,62 @@ function renderPlatformFilter() {
     btn.onclick = () => { state.platformFilter = plat; renderPlatformFilter(); renderList(); };
     wrap.appendChild(btn);
   });
+}
+
+/* ========== 市场视图筛选 ========== */
+
+/** 市场过滤后的条目池：home=全部（排序分层） all=全部 指定市场=硬过滤 */
+function marketPool() {
+  const base = state.mode === "cross" ? state.itemsAi : (state.allDedup ? state.itemsAll : state.itemsAllRaw);
+  if (state.market && state.market !== "all" && state.market !== "home") {
+    return base.filter(it => (it.cross_sites || []).includes(state.market));
+  }
+  return base;
+}
+
+/**
+ * 渲染市场视图按钮（?market= 存在时才显示整栏）
+ */
+function renderMarketFilter() {
+  const sectionEl = $("marketFilter");
+  const wrap = $("marketPills");
+  if (!sectionEl || !wrap) return;
+
+  // 无 ?market= 参数（直接访问）→ 不显示市场栏，行为与旧版完全一致
+  if (!state.homeMarket) {
+    sectionEl.style.display = "none";
+    return;
+  }
+  sectionEl.style.display = "";
+
+  // 统计各市场条数（基于当前模式数据池，切视图不影响按钮可见性）
+  const base = state.mode === "cross" ? state.itemsAi : state.itemsAll;
+  const counts = { all: base.length };
+  base.forEach(it => {
+    (it.cross_sites || []).forEach(s => { counts[s] = (counts[s] || 0) + 1; });
+  });
+
+  // 按钮：本站优先 / 全部 / 有数据的具体市场（固定顺序）
+  const order = ["uk", "eu", "us", "au", "jp", "ca"];
+  let html = `<button class="pill ${state.market === "home" ? "active" : ""}" data-market="home">本站优先</button>`;
+  html += `<button class="pill ${state.market === "all" ? "active" : ""}" data-market="all">全部市场 <span class="pill-count">${counts.all || 0}</span></button>`;
+  order.forEach(mk => {
+    if (!counts[mk]) return;
+    html += `<button class="pill ${state.market === mk ? "active" : ""}" data-market="${mk}">${MARKETS[mk].name} <span class="pill-count">${counts[mk]}</span></button>`;
+  });
+  wrap.innerHTML = html;
+
+  wrap.onclick = (e) => {
+    const btn = e.target.closest("[data-market]");
+    if (!btn) return;
+    state.market = btn.dataset.market;
+    renderMarketFilter();
+    renderSiteFilters();
+    renderImpactFilter();
+    renderPlatformFilter();
+    renderList();
+    renderCrossPicks();
+  };
 }
 
 /* ========== 行动清单 ========== */
@@ -457,6 +535,11 @@ function dedupItems(items) {
 function getFilteredItems() {
   let items = state.mode === "cross" ? [...state.itemsAi] : (state.allDedup ? [...state.itemsAll] : [...state.itemsAllRaw]);
 
+  // 指定市场视图（uk/eu/au/us/jp/ca 具体键）→ 仅保留该市场信号；home/all 不在此过滤
+  if (state.market && state.market !== "all" && state.market !== "home") {
+    items = items.filter(it => (it.cross_sites || []).includes(state.market));
+  }
+
   // 来源筛选
   if (state.siteFilter) {
     items = items.filter(it => it.site_id === state.siteFilter);
@@ -481,12 +564,29 @@ function getFilteredItems() {
     });
   }
 
-  // 按 cross_score 降序，再按时间降序
-  items.sort((a, b) => {
-    const sd = (b.cross_score || 0) - (a.cross_score || 0);
-    if (Math.abs(sd) > 0.01) return sd;
-    return new Date(b.published_at || 0) - new Date(a.published_at || 0);
-  });
+  // 排序：本站优先视图下市场权重先行（本市场→全球通用→其他市场），其余视图按评分/时间
+  if (state.market === "home") {
+    const home = state.homeMarket;
+    const rank = it => {
+      const sites = it.cross_sites || [];
+      if (sites.includes(home)) return 0;   // 本市场 → 最前
+      if (!sites.length) return 1;          // 全球通用 → 次之
+      return 2;                             // 其他市场 → 沉底（不隐藏）
+    };
+    items.sort((a, b) => {
+      const rd = rank(a) - rank(b);
+      if (rd !== 0) return rd;
+      const sd = (b.cross_score || 0) - (a.cross_score || 0);
+      if (Math.abs(sd) > 0.01) return sd;
+      return new Date(b.published_at || 0) - new Date(a.published_at || 0);
+    });
+  } else {
+    items.sort((a, b) => {
+      const sd = (b.cross_score || 0) - (a.cross_score || 0);
+      if (Math.abs(sd) > 0.01) return sd;
+      return new Date(b.published_at || 0) - new Date(a.published_at || 0);
+    });
+  }
 
   return items;
 }
@@ -513,13 +613,60 @@ function renderList() {
     return;
   }
 
-  if (state.siteFilter) {
+  if (state.homeMarket && state.market === "home") {
+    // 本站优先视图 → 按市场分层（本市场→全球通用→其他市场）
+    renderGroupedByMarket(items, listEl);
+  } else if (state.siteFilter) {
     // 站点筛选激活时 → 按来源分组
     renderGroupedBySource(items, listEl);
   } else {
     // 默认 → 按站点分组，站点内按来源分组
     renderGroupedBySiteAndSource(items, listEl);
   }
+}
+
+/** 按市场分层渲染（本站优先视图：本市场→全球通用→其他市场，层内沿用站点→来源分组） */
+function renderGroupedByMarket(items, container) {
+  const home = state.homeMarket;
+  const layers = [
+    { key: "home", name: MARKETS[home] ? MARKETS[home].name : home, test: it => (it.cross_sites || []).includes(home) },
+    { key: "global", name: "🌐 全球通用", test: it => !(it.cross_sites || []).length },
+    { key: "other", name: "其他市场", test: () => true },
+  ];
+  const frag = document.createDocumentFragment();
+  layers.forEach(layer => {
+    const layerItems = items.filter(it => {
+      // 逐层消耗：已归属上层的不再进入下层
+      if (layer.key === "other") {
+        const sites = it.cross_sites || [];
+        return sites.length && !sites.includes(home);
+      }
+      return layer.test(it);
+    });
+    if (!layerItems.length) return;
+    const section = document.createElement("section");
+    section.className = "site-group market-layer";
+    const header = document.createElement("header");
+    header.className = "site-group-head";
+    header.innerHTML = `<h3>${esc(layer.name)}</h3><span>${fmtNumber(layerItems.length)} 条</span>`;
+    const list = document.createElement("div");
+    list.className = "site-group-list";
+
+    // 层内按站点→来源分组（复用现有结构）
+    const sourceMap = new Map();
+    layerItems.forEach(it => {
+      const key = it.source || "未分区";
+      if (!sourceMap.has(key)) sourceMap.set(key, []);
+      sourceMap.get(key).push(it);
+    });
+    [...sourceMap.entries()].sort((a, b) => b[1].length - a[1].length)
+      .forEach(([source, groupItems]) => list.appendChild(buildSourceGroupNode(source, groupItems)));
+
+    section.append(header, list);
+    frag.appendChild(section);
+  });
+  // 注：三层判定互斥且完备（无标记→全球层；含本市场→本市场层；其余→其他层），不会丢条目
+  container.appendChild(frag);
 }
 
 /** 按来源分组 */
@@ -603,11 +750,15 @@ function renderItemNode(it) {
   node.querySelector(".source").textContent = it.source || "";
   node.querySelector(".time").textContent = timeAgo(it.published_at) || fmtTime(it.published_at);
 
-  // Add platform tags
+  // Add market badge + platform tags
+  const metaRow = node.querySelector(".meta-row");
+  const timeEl = node.querySelector(".time");
+  const marketSpan = document.createElement("span");
+  marketSpan.className = "market-badge";
+  marketSpan.textContent = marketOf(it);
+  metaRow.insertBefore(marketSpan, timeEl);
   const platformTags = (it.cross_platforms || []).map(p => `<span class="platform-tag">${esc(p)}</span>`).join("");
   if (platformTags) {
-    const metaRow = node.querySelector(".meta-row");
-    const timeEl = node.querySelector(".time");
     const platformSpan = document.createElement("span");
     platformSpan.innerHTML = platformTags;
     metaRow.insertBefore(platformSpan, timeEl);
@@ -830,11 +981,11 @@ function renderCrossPicks() {
   const metaEl = $("crossPicksMeta");
   if (!listEl) return;
 
-  const picks = pickCrossItems(state.itemsAi);
+  const picks = pickCrossItems(marketPool());
 
   if (metaEl) {
     metaEl.textContent = picks.length > 0
-      ? `基于 ${state.itemsAi.length} 条信号，聚类出 ${picks.length} 个跨源事件`
+      ? `基于 ${marketPool().length} 条信号，聚类出 ${picks.length} 个跨源事件`
       : "暂无足够数据进行事件聚类";
   }
 
@@ -1010,6 +1161,7 @@ function bindSearchBtn() {
 function renderAll() {
   setStats();
   renderCoverageStrip();
+  renderMarketFilter();
   renderSiteFilters();
   renderImpactFilter();
   renderPlatformFilter();
@@ -1075,6 +1227,13 @@ function bindFilterScroll() {
 
 async function init() {
   try {
+    // 市场视图参数：?market=uk/au/eu/us/jp/ca（各站门户带参打开，空参=无市场视图）
+    const mkParam = new URLSearchParams(window.location.search).get("market");
+    if (mkParam && MARKETS[mkParam] && mkParam !== "home" && mkParam !== "all") {
+      state.homeMarket = mkParam;
+      state.market = "home";
+    }
+
     // 并行加载 AI 数据、来源状态、政策日历
     const [aiRes, statusRes, policyRes] = await Promise.allSettled([
       fetch("data/latest-24h.json").then(r => {

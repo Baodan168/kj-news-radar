@@ -744,3 +744,27 @@ input:focus, select:focus, button:focus-visible {
   margin-left: 6px;
 }
 .rss-link:hover { text-decoration: underline; }
+
+/* ===== 市场视图（2026-10-22 新增）===== */
+
+/* 单条信号的市场徽章 */
+.market-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--oa-sub, #6b7280);
+  background: var(--oa-surface-2, #f3f4f6);
+  border: 1px solid var(--oa-border, #e5e7eb);
+  border-radius: 999px;
+  padding: 1px 8px;
+  white-space: nowrap;
+}
+
+/* 本站优先视图下，本市场/全球通用信号卡片高亮左边条 */
+.site-group-list .news-card:has(.market-badge) { transition: border-color .2s ease; }
+
+/* 市场分层组标题微调（本站优先视图） */
+.market-layer > .site-group-head h3 { letter-spacing: .3px; }
+
+/* 市场筛选栏与其他筛选栏保持一致节奏 */
+.market-bar { margin-top: -4px; }
+.market-bar .filter-label { color: var(--oa-primary, #2563eb); font-weight: 700; }
