@@ -1,80 +1,88 @@
 {
-"generated_at": "2026-10-21T00:40:07.893088Z",
+"generated_at": "2026-10-22T00:40:44.535281Z",
 "items": [
 {
-"story_id": "ef991dfcca97",
-"primary_title": "爱尔兰2026年电商规模预计达178亿欧元，网购普及率位居欧洲第一",
-"primary_url": "https://www.amz123.com/kx/lUMonxRi",
-"primary_site_id": "amz123",
+"story_id": "605d0bbfc699",
+"primary_title": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后",
+"primary_url": "https://www.amzdh.com/kjtt/10570.html",
+"primary_site_id": "amzdh",
 "item_count": 2,
 "source_count": 2,
 "source_names": [
 "AMZ123",
 "AMZDH"
 ],
-"max_score": 0.57,
-"category": "seller_action",
+"max_score": 0.7,
+"category": "walmart",
 "items": [
 {
-"id": "e2ed51c8bf4e03ee3643afdbd343f1be09b8db54",
+"id": "2ce9a2b2ed62854962aa58ce9b421f367181da14",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "爱尔兰2026年电商规模预计达178亿欧元，网购普及率位居欧洲第一",
-"url": "https://www.amz123.com/kx/lUMonxRi",
+"title": "亚马逊美国用户年均下单22次，领先沃尔玛7次",
+"url": "https://www.amz123.com/kx/tzrmZfwJ",
 "published_at": null,
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-20T00:40:17.077772Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
 "cross_is_related": true,
-"cross_score": 0.57,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_score": 0.7,
+"cross_label": "walmart",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"电商"
+"亚马逊",
+"沃尔玛"
 ],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊"
+],
 "cross_sites": [
-"eu"
+"us"
 ],
-"title_zh": "爱尔兰2026年电商规模预计达178亿欧元，网购普及率位居欧洲第一"
+"title_zh": "亚马逊美国用户年均下单22次，领先沃尔玛7次"
 },
 {
-"id": "ee3695b2b69c13385eb9694eec4e02852bfb26d1",
+"id": "4e9b21208dd87a54432932227168b58425874f06",
 "site_id": "amzdh",
 "site_name": "AMZDH",
 "source": "跨境头条",
-"title": "网购普及率欧洲第一！2026爱尔兰电商规模将达178亿欧元",
-"url": "https://www.amzdh.com/kjtt/10565.html",
+"title": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后",
+"url": "https://www.amzdh.com/kjtt/10570.html",
 "published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
 "cross_is_related": true,
-"cross_score": 0.42,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_score": 0.6,
+"cross_label": "walmart",
+"cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"电商"
+"ebay",
+"亚马逊",
+"沃尔玛"
 ],
-"cross_why": "卖家运营相关信号",
-"cross_platforms": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"亚马逊",
+"ebay"
+],
 "cross_sites": [
-"eu"
+"us"
 ],
-"title_zh": "网购普及率欧洲第一！2026爱尔兰电商规模将达178亿欧元"
+"title_zh": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后"
 }
 ],
-"earliest_time": "2026-10-20T00:40:17.077772Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 8.71,
+"earliest_time": "2026-10-22T00:40:44.535281Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 9.1,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 1
 },
 {
-"story_id": "7d794319e47e",
-"primary_title": "亚马逊eBay Etsy三大平台TOP100卖家榜：中国卖家法国站占比达19%",
-"primary_url": "https://www.amz123.com/kx/98niDJeU",
+"story_id": "c18549ca3b54",
+"primary_title": "亚马逊欧洲站燃油与物流附加费上调至2%，11月2日起执行",
+"primary_url": "https://www.amz123.com/kx/nzGImUn4",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
@@ -82,445 +90,412 @@
 "AMZ123"
 ],
 "max_score": 1.0,
-"category": "seller_action",
-"items": [
-{
-"id": "77ed86c7c87c38218d8b843350a38b9f89c70c39",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊eBay Etsy三大平台TOP100卖家榜：中国卖家法国站占比达19%",
-"url": "https://www.amz123.com/kx/98niDJeU",
-"published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ebay",
-"etsy",
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_platforms": [
-"ebay",
-"etsy",
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊eBay Etsy三大平台TOP100卖家榜：中国卖家法国站占比达19%"
-}
-],
-"earliest_time": "2026-10-21T00:40:07.893088Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 7.5,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 2
-},
-{
-"story_id": "09c76833db69",
-"primary_title": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed",
-"primary_url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
-"primary_site_id": "amazon_newsroom",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"Amazon Newsroom",
-"Amalert UK"
-],
-"max_score": 0.66,
-"category": "general",
-"items": [
-{
-"id": "b2e98cad98b317ab9800bfaeff9fcbbd048bffbb",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed",
-"url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
-"published_at": "2026-10-19T13:00:10Z",
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊向每位PyTorch开发人员开放其AWS Trainium AI芯片，无需重写"
-},
-{
-"id": "6df671777902934bee708576462f6ecd980444f0",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed",
-"url": "https://amalert.co.uk/updates/null",
-"published_at": "2026-10-19T13:00:10Z",
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊向每位PyTorch开发人员开放其AWS Trainium AI芯片，无需重写"
-}
-],
-"earliest_time": "2026-10-19T13:00:10Z",
-"latest_time": "2026-10-19T13:00:10Z",
-"hot_score": 7.48,
-"freshness_bonus": 0.5,
-"age_hours": 35.68,
-"rank": 3
-},
-{
-"story_id": "7b493a26f760",
-"primary_title": "Amazon invests in nuclear energy project targeting nearly 1 gigawatt of carbon-free energy for Indiana",
-"primary_url": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep",
-"primary_site_id": "amazon_newsroom",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"Amazon Newsroom",
-"Amalert UK"
-],
-"max_score": 0.66,
-"category": "general",
-"items": [
-{
-"id": "301bb57cb986299b3806b4e7b8bed7af01d935d6",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon invests in nuclear energy project targeting nearly 1 gigawatt of carbon-free energy for Indiana",
-"url": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep",
-"published_at": "2026-10-19T12:30:08Z",
-"first_seen_at": "2026-10-20T00:40:17.077772Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊投资核能项目，旨在为印第安纳州提供近1千兆瓦的无碳能源"
-},
-{
-"id": "8def86b9c3b352f13bc0ddaa033225eb1ddaf85e",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon invests in nuclear energy project targeting nearly 1 gigawatt of carbon-free energy for Indiana",
-"url": "https://amalert.co.uk/updates/amazon-invests-in-nuclear-energy-project-targeting-nearly-1-gigawatt-of-carbon-free-energy-for-indiana-77338a42",
-"published_at": "2026-10-19T12:30:08Z",
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊投资核能项目，旨在为印第安纳州提供近1千兆瓦的无碳能源"
-}
-],
-"earliest_time": "2026-10-19T12:30:08Z",
-"latest_time": "2026-10-19T12:30:08Z",
-"hot_score": 7.48,
-"freshness_bonus": 0.5,
-"age_hours": 36.18,
-"rank": 4
-},
-{
-"story_id": "dcbf6cf3e63c",
-"primary_title": "沃尔玛推出山姆会员与Walmart+捆绑套餐，年费120美元低于Prime",
-"primary_url": "https://www.amz123.com/kx/TMCagwHm",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.93,
-"category": "walmart",
-"items": [
-{
-"id": "9b520d722626637d1a9dbb146b265fe6b9fb3cfc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "沃尔玛推出山姆会员与Walmart+捆绑套餐，年费120美元低于Prime",
-"url": "https://www.amz123.com/kx/TMCagwHm",
-"published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
-"cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "walmart",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"walmart",
-"沃尔玛"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"walmart",
-"prime"
-],
-"cross_sites": [],
-"title_zh": "沃尔玛推出山姆会员与Walmart+捆绑套餐，年费120美元低于Prime"
-}
-],
-"earliest_time": "2026-10-21T00:40:07.893088Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 7.29,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 5
-},
-{
-"story_id": "82ed93cd4935",
-"primary_title": "亚马逊宣布2027年前在德国投资逾160亿欧元，重点布局数据中心与物流",
-"primary_url": "https://www.amz123.com/kx/Han9SIvz",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.93,
 "category": "fee_logistics",
 "items": [
 {
-"id": "0d5cbd251d2621f6597b859fafc33fcec6a26619",
+"id": "05a7c1cf8bab96b49073838c4480c7d893533a01",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊宣布2027年前在德国投资逾160亿欧元，重点布局数据中心与物流",
-"url": "https://www.amz123.com/kx/Han9SIvz",
+"title": "亚马逊欧洲站燃油与物流附加费上调至2%，11月2日起执行",
+"url": "https://www.amz123.com/kx/nzGImUn4",
 "published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
 "cross_is_related": true,
-"cross_score": 0.93,
+"cross_score": 1.0,
 "cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
 "物流"
 ],
-"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_why": "费用调整，直接影响利润率",
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
-"title_zh": "亚马逊宣布2027年前在德国投资逾160亿欧元，重点布局数据中心与物流"
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊欧洲站燃油与物流附加费上调至2%，11月2日起执行"
 }
 ],
-"earliest_time": "2026-10-21T00:40:07.893088Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 7.29,
+"earliest_time": "2026-10-22T00:40:44.535281Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 7.5,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 2
+},
+{
+"story_id": "569a07078989",
+"primary_title": "匈牙利2027年广告税由零恢复至3.75%，保险银行电信成本或将上行",
+"primary_url": "https://www.amz123.com/kx/iSXmcL1F",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "4ec623c57fde4498ef461f0efeaf3034982d144b",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "匈牙利2027年广告税由零恢复至3.75%",
+"url": "https://www.ennews.com/news-146759.html",
+"published_at": "2026-10-21T16:23:52Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "匈牙利2027年广告税由零恢复至3.75%"
+},
+{
+"id": "066a9150c07e616092509fa59268234a7644e751",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "匈牙利2027年广告税由零恢复至3.75%，保险银行电信成本或将上行",
+"url": "https://www.amz123.com/kx/iSXmcL1F",
+"published_at": null,
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "匈牙利2027年广告税由零恢复至3.75%，保险银行电信成本或将上行"
+}
+],
+"earliest_time": "2026-10-21T16:23:52Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 3
+},
+{
+"story_id": "3173b5bc8559",
+"primary_title": "拉脱维亚11月1日起对第三国货件按商品条目加收2欧元处理费",
+"primary_url": "https://www.amz123.com/kx/N4pN3Ptc",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "343c78d850b82bb2daecc2738bc5f7022ddd0bb3",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "拉脱维亚11月1日起对第三国货件按商品条目加收2欧元处理费",
+"url": "https://www.ennews.com/news-146761.html",
+"published_at": "2026-10-21T16:32:39Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "拉脱维亚11月1日起对第三国货件按商品条目加收2欧元处理费"
+},
+{
+"id": "4f9ac910c1dd329b98e45296ce7fc80d2701d771",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "拉脱维亚11月1日起对第三国货件按商品条目加收2欧元处理费",
+"url": "https://www.amz123.com/kx/N4pN3Ptc",
+"published_at": null,
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "拉脱维亚11月1日起对第三国货件按商品条目加收2欧元处理费"
+}
+],
+"earliest_time": "2026-10-21T16:32:39Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 4
+},
+{
+"story_id": "7002c4424b17",
+"primary_title": "德国万圣节零售额预计达5.37亿欧元，装饰与饮料支出占比提升",
+"primary_url": "https://www.amz123.com/kx/SVtVt2kB",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "8bf01ec1609f6dd66e77a2e24e124e74a9d89467",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "德国万圣节零售预计5.37亿欧元，装饰与饮料支出抬头",
+"url": "https://www.ennews.com/news-146762.html",
+"published_at": "2026-10-21T16:36:08Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国万圣节零售预计5.37亿欧元，装饰与饮料支出抬头"
+},
+{
+"id": "d862ff81e77338fd14479de43fea8680a6271b38",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德国万圣节零售额预计达5.37亿欧元，装饰与饮料支出占比提升",
+"url": "https://www.amz123.com/kx/SVtVt2kB",
+"published_at": null,
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国万圣节零售额预计达5.37亿欧元，装饰与饮料支出占比提升"
+}
+],
+"earliest_time": "2026-10-21T16:36:08Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 5
+},
+{
+"story_id": "8f87804fbcd6",
+"primary_title": "益普索调研：九成西班牙消费者下单前习惯比价",
+"primary_url": "https://www.amz123.com/kx/vRM1nwP1",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "17bb5d8dc9ccb3ab386c2dfe8e24ed7ceeef925e",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "调研：九成西班牙消费者下单前先比价",
+"url": "https://www.ennews.com/news-146766.html",
+"published_at": "2026-10-21T16:48:33Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "调研：九成西班牙消费者下单前先比价"
+},
+{
+"id": "7ee87e5cb041a4a6349d8ec7eabd9616b0174c63",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "益普索调研：九成西班牙消费者下单前习惯比价",
+"url": "https://www.amz123.com/kx/vRM1nwP1",
+"published_at": null,
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "益普索调研：九成西班牙消费者下单前习惯比价"
+}
+],
+"earliest_time": "2026-10-21T16:48:33Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 7.45,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 6
 },
 {
-"story_id": "99dc05da7fa4",
-"primary_title": "亚马逊品类费用两年涨两轮，抽成占比仍维持售价四成左右",
-"primary_url": "https://www.amz123.com/kx/EqJ9FuVN",
+"story_id": "0c00701017dc",
+"primary_title": "英国拟要求电商平台代扣增值税，年销9万英镑以上卖家适用",
+"primary_url": "https://www.amz123.com/kx/N6jhHtY4",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.89,
-"category": "fee_logistics",
+"max_score": 0.93,
+"category": "seller_action",
 "items": [
 {
-"id": "cca71fece74640a014de34ae86f2c151cf656eae",
+"id": "126e8b205f1983195d37ca5ab6e86213c9d19a36",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊品类费用两年涨两轮，抽成占比仍维持售价四成左右",
-"url": "https://www.amz123.com/kx/EqJ9FuVN",
+"title": "英国拟要求电商平台代扣增值税，年销9万英镑以上卖家适用",
+"url": "https://www.amz123.com/kx/N6jhHtY4",
 "published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
 "cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "fee_logistics",
+"cross_score": 0.93,
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"卖家",
+"卖家",
+"电商",
+"电商平台",
+"增值税"
 ],
-"cross_why": "费用调整，直接影响利润率",
-"cross_platforms": [
-"亚马逊"
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_platforms": [],
+"cross_sites": [
+"uk"
 ],
-"cross_sites": [],
-"title_zh": "亚马逊品类费用两年涨两轮，抽成占比仍维持售价四成左右"
+"title_zh": "英国拟要求电商平台代扣增值税，年销9万英镑以上卖家适用"
 }
 ],
-"earliest_time": "2026-10-21T00:40:07.893088Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 7.17,
+"earliest_time": "2026-10-22T00:40:44.535281Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 7.29,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 7
 },
 {
-"story_id": "bbfe02e975f0",
-"primary_title": "黑五前突发！亚马逊一批商品或被移除，卖家只剩8天处理库存",
-"primary_url": "https://www.cifnews.com/article/189542",
-"primary_site_id": "cifnews",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"雨果跨境"
-],
-"max_score": 0.84,
-"category": "advertising",
-"items": [
-{
-"id": "63e0ea9f8a4f9c6ff6bba33560e4d18cd9be5e33",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "黑五前突发！亚马逊一批商品或被移除，卖家只剩8天处理库存",
-"url": "https://www.cifnews.com/article/189542",
-"published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"库存"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "黑五前突发！亚马逊一批商品或被移除，卖家只剩8天处理库存"
-}
-],
-"earliest_time": "2026-10-21T00:40:07.893088Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 7.02,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 8
-},
-{
-"story_id": "a23c6642c646",
-"primary_title": "亚马逊收到投诉：与描述不符 - 不同商品，实物与 Listing 完全一致，该怎么去申诉？",
-"primary_url": "https://www.wearesellers.com/question/125673",
+"story_id": "bdf01e565e33",
+"primary_title": "中东 沙特站 好多lisitng从英国站同步过来了，但是没有FNSKU，无法发货到沙特FBA",
+"primary_url": "https://www.wearesellers.com/question/125726",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "知无不言"
 ],
-"max_score": 0.83,
-"category": "listing_product",
+"max_score": 0.88,
+"category": "general",
 "items": [
 {
-"id": "4833c30bfb1bfcc5703bd5ad033dbc80eb2432dc",
+"id": "655d29bca62588051f43917d81b98662dd61c867",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "亚马逊收到投诉：与描述不符 - 不同商品，实物与 Listing 完全一致，该怎么去申诉？",
-"url": "https://www.wearesellers.com/question/125673",
+"title": "中东 沙特站 好多lisitng从英国站同步过来了，但是没有FNSKU，无法发货到沙特FBA",
+"url": "https://www.wearesellers.com/question/125726",
 "published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
 "cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "listing_product",
+"cross_score": 0.88,
+"cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"listing"
+"fba"
 ],
-"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_why": "UK 市场动态，与英国站业务直接相关",
 "cross_platforms": [
-"亚马逊"
+"fba"
 ],
-"cross_sites": [],
-"title_zh": "亚马逊收到投诉：与描述不符 - 不同商品，实物与 Listing 完全一致，该怎么去申诉？"
+"cross_sites": [
+"uk"
+],
+"title_zh": "中东 沙特站 好多lisitng从英国站同步过来了，但是没有FNSKU，无法发货到沙特FBA"
 }
 ],
-"earliest_time": "2026-10-21T00:40:07.893088Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 6.99,
+"earliest_time": "2026-10-22T00:40:44.535281Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 7.140000000000001,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
-"rank": 9
+"rank": 8
 },
 {
-"story_id": "9c5437320073",
-"primary_title": "西班牙宠物主人月均花费147欧元，亚马逊配件线上提及量占比58%",
-"primary_url": "https://www.amz123.com/kx/Za6L0NLS",
+"story_id": "87168190e7aa",
+"primary_title": "美国青少年支出回升6% 亚马逊占线上消费近半",
+"primary_url": "https://www.amz123.com/kx/qPZjx4Ec",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.82,
+"max_score": 0.74,
 "category": "general",
 "items": [
 {
-"id": "93b143f3a8e08efdc4cf21ccb39bffb406046106",
+"id": "b47e97a7dfb7b54bdda0d8fc96a762a21f46aa24",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "西班牙宠物主人月均花费147欧元，亚马逊配件线上提及量占比58%",
-"url": "https://www.amz123.com/kx/Za6L0NLS",
+"title": "美国青少年支出回升6% 亚马逊占线上消费近半",
+"url": "https://www.amz123.com/kx/qPZjx4Ec",
 "published_at": null,
-"first_seen_at": "2026-10-21T00:40:07.893088Z",
-"last_seen_at": "2026-10-21T00:40:07.893088Z",
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
 "cross_is_related": true,
-"cross_score": 0.82,
+"cross_score": 0.74,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -530,13 +505,62 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
-"title_zh": "西班牙宠物主人月均花费147欧元，亚马逊配件线上提及量占比58%"
+"cross_sites": [
+"us"
+],
+"title_zh": "美国青少年支出回升6% 亚马逊占线上消费近半"
 }
 ],
-"earliest_time": "2026-10-21T00:40:07.893088Z",
-"latest_time": "2026-10-21T00:40:07.893088Z",
-"hot_score": 6.96,
+"earliest_time": "2026-10-22T00:40:44.535281Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 6.72,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 9
+},
+{
+"story_id": "72997cd867f6",
+"primary_title": "亚马逊欧洲秒杀新规后推新应该怎么应对？限价产品只能做15%-20%优惠，新规后秒杀总是报错、价格越跑越低，低于限价就没法卖，该怎么推新稳住排名，又该怎么跑秒杀才能不报错？",
+"primary_url": "https://www.wearesellers.com/question/125720",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.72,
+"category": "policy_update",
+"items": [
+{
+"id": "35a678e94d855d9e69cf33231e99a278bc84631f",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊欧洲秒杀新规后推新应该怎么应对？限价产品只能做15%-20%优惠，新规后秒杀总是报错、价格越跑越低，低于限价就没法卖，该怎么推新稳住排名，又该怎么跑秒杀才能不报错？",
+"url": "https://www.wearesellers.com/question/125720",
+"published_at": null,
+"first_seen_at": "2026-10-22T00:40:44.535281Z",
+"last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊欧洲秒杀新规后推新应该怎么应对？限价产品只能做15%-20%优惠，新规后秒杀总是报错、价格越跑越低，低于限价就没法卖，该怎么推新稳住排名，又该怎么跑秒杀才能不报错？"
+}
+],
+"earliest_time": "2026-10-22T00:40:44.535281Z",
+"latest_time": "2026-10-22T00:40:44.535281Z",
+"hot_score": 6.66,
 "freshness_bonus": 2.0,
 "age_hours": 0.01,
 "rank": 10
