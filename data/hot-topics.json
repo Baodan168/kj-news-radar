@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-22T16:02:16.220464Z",
+"generated_at": "2026-10-22T16:40:34.325137Z",
 "items": [
 {
 "story_id": "79c120571100",
@@ -24,7 +24,10 @@
 "url": "https://www.amz123.com/kx/GLvW9qhT",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [
+"au"
+],
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "general",
@@ -37,9 +40,6 @@
 "prime",
 "亚马逊"
 ],
-"cross_sites": [
-"au"
-],
 "title_zh": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元"
 },
 {
@@ -51,9 +51,12 @@
 "url": "https://www.ennews.com/news-146865.html",
 "published_at": "2026-10-22T16:08:48Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [
+"au"
+],
 "cross_is_related": true,
-"cross_score": 0.84,
+"cross_score": 0.87,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -64,9 +67,6 @@
 "prime",
 "亚马逊"
 ],
-"cross_sites": [
-"au"
-],
 "title_zh": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元"
 }
 ],
@@ -74,7 +74,7 @@
 "latest_time": "2026-10-22T16:08:48Z",
 "hot_score": 9.67,
 "freshness_bonus": 2.0,
-"age_hours": 0.0,
+"age_hours": 0.59,
 "rank": 1
 },
 {
@@ -100,7 +100,10 @@
 "url": "https://www.ennews.com/news-146864.html",
 "published_at": "2026-10-22T16:00:46Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [
+"us"
+],
 "cross_is_related": true,
 "cross_score": 0.42,
 "cross_label": "general",
@@ -111,9 +114,6 @@
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [
 "shein"
-],
-"cross_sites": [
-"us"
 ],
 "title_zh": "Shein调研24863名美国用户：61%圣诞最想送礼自己"
 },
@@ -126,7 +126,10 @@
 "url": "https://www.amz123.com/kx/MdsP3GgB",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [
+"us"
+],
 "cross_is_related": true,
 "cross_score": 0.44,
 "cross_label": "general",
@@ -138,9 +141,6 @@
 "cross_platforms": [
 "shein"
 ],
-"cross_sites": [
-"us"
-],
 "title_zh": "Shein调研：61%的美国用户圣诞节首选送礼给自己"
 }
 ],
@@ -148,7 +148,7 @@
 "latest_time": "2026-10-22T16:02:16.220464Z",
 "hot_score": 8.32,
 "freshness_bonus": 2.0,
-"age_hours": 0.01,
+"age_hours": 0.7,
 "rank": 2
 },
 {
@@ -175,6 +175,9 @@
 "published_at": null,
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
 "last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_sites": [
+"us"
+],
 "cross_is_related": true,
 "cross_score": 0.7,
 "cross_label": "walmart",
@@ -186,9 +189,6 @@
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [
 "亚马逊"
-],
-"cross_sites": [
-"us"
 ],
 "title_zh": "亚马逊美国用户年均下单22次，领先沃尔玛7次"
 },
@@ -202,6 +202,9 @@
 "published_at": null,
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
 "last_seen_at": "2026-10-22T00:40:44.535281Z",
+"cross_sites": [
+"us"
+],
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "walmart",
@@ -213,11 +216,8 @@
 ],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [
-"亚马逊",
-"ebay"
-],
-"cross_sites": [
-"us"
+"ebay",
+"亚马逊"
 ],
 "title_zh": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后"
 }
@@ -226,7 +226,7 @@
 "latest_time": "2026-10-22T00:40:44.535281Z",
 "hot_score": 8.1,
 "freshness_bonus": 1.0,
-"age_hours": 15.37,
+"age_hours": 16.06,
 "rank": 3
 },
 {
@@ -252,7 +252,8 @@
 "url": "https://developer-docs.amazon/sp-api/changelog/sp-api-updates-new-shipment-notification-for-tracking-number-changes-in-mcf-new-eu-customs-product-identifiers-requirement-and-new-enum-value-for-finances-api",
 "published_at": "2026-10-21T20:17:22Z",
 "first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.43,
 "cross_label": "policy_update",
@@ -263,7 +264,6 @@
 ],
 "cross_why": "政策相关更新",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "SP-API更新：跟踪MCF编号变更的新发货通知、新的欧盟海关产品标识符要求和财务API的新枚举值"
 },
 {
@@ -275,7 +275,10 @@
 "url": "https://amalert.co.uk/updates/sp-api-updates-new-shipment-notification-for-tracking-number-changes-in-mcf-new-eu-customs-product-identifiers-requirement-and-new-enum-value-for-finances-api-1d82e5c8",
 "published_at": "2026-10-21T20:17:22Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": true,
 "cross_score": 0.63,
 "cross_label": "policy_update",
@@ -288,7 +291,6 @@
 "cross_platforms": [
 "amazon"
 ],
-"cross_sites": [],
 "title_zh": "SP-API更新：跟踪MCF编号变更的新发货通知、新的欧盟海关产品标识符要求和财务API的新枚举值"
 }
 ],
@@ -296,7 +298,7 @@
 "latest_time": "2026-10-21T20:17:22Z",
 "hot_score": 7.890000000000001,
 "freshness_bonus": 1.0,
-"age_hours": 19.76,
+"age_hours": 20.45,
 "rank": 4
 },
 {
@@ -322,7 +324,8 @@
 "url": "https://www.amz123.com/kx/0uAic7ht",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.15,
 "cross_label": "not_cross",
@@ -330,7 +333,6 @@
 "cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "马来西亚支付商Axaipay推出AxaiCart+一体化建站收款方案"
 },
 {
@@ -342,7 +344,8 @@
 "url": "https://www.ennews.com/news-146879.html",
 "published_at": "2026-10-22T17:23:14Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -350,7 +353,6 @@
 "cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "马来西亚支付商Axaipay推AxaiCart+捆绑建站收款"
 }
 ],
@@ -384,7 +386,8 @@
 "url": "https://www.amz123.com/kx/SW2weMbB",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.15,
 "cross_label": "not_cross",
@@ -392,7 +395,6 @@
 "cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "俄罗斯日常消费品门店购买频次同比下降4.8%"
 },
 {
@@ -404,7 +406,8 @@
 "url": "https://www.ennews.com/news-146872.html",
 "published_at": "2026-10-22T16:50:16Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -412,7 +415,6 @@
 "cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "俄日常消费品店购买频次同比下降4.8%"
 }
 ],
@@ -446,7 +448,8 @@
 "url": "https://www.amz123.com/kx/31f1tXf2",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.15,
 "cross_label": "not_cross",
@@ -454,7 +457,6 @@
 "cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "电子提单全球使用率首次突破50%"
 },
 {
@@ -466,7 +468,8 @@
 "url": "https://www.ennews.com/news-146871.html",
 "published_at": "2026-10-22T16:46:17Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.1,
 "cross_label": "not_cross",
@@ -474,7 +477,6 @@
 "cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "电子提单全球使用率首破50%"
 }
 ],
@@ -484,6 +486,124 @@
 "freshness_bonus": 2.0,
 "age_hours": 0.0,
 "rank": 7
+},
+{
+"story_id": "ba197e6f708d",
+"primary_title": "Mode : le cofondateur de Nous anti-gaspi, Vincent Justin, rejoint Kiabi pour y prendre la direction de la seconde main",
+"primary_url": "https://www.lsa-conso.fr/distributeurs-non-alimentaires/mode-sport/kiabi/mode-le-co-fondateur-de-nous-anti-gaspi-vincent-justin-rejoint-kiabi-pour-y-prendre-la-direction-de-la-seconde-main.4PDHUBNBNRHUTG72UYESNDETXI.html",
+"primary_site_id": "lsa_fr",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"EcommerceMag FR",
+"LSA Conso"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "75883416898077a07104bd367026afe28e9d2002",
+"site_id": "ecommercemag_fr",
+"site_name": "EcommerceMag FR",
+"source": "法国电商",
+"title": "Kiabi confie sa seconde main au cofondateur de NOUS anti-gaspi",
+"url": "https://www.ecommercemag.fr/retail-1220/nominations-2167/kiabi-confie-sa-seconde-main-au-cofondateur-de-nous-anti-gaspi-60439",
+"published_at": "2026-10-22T07:49:33Z",
+"first_seen_at": "2026-10-22T16:40:34.325137Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+]
+},
+{
+"id": "d241b4c073216a732b59931a0f687237d44b2f69",
+"site_id": "lsa_fr",
+"site_name": "LSA Conso",
+"source": "法国零售",
+"title": "Mode : le cofondateur de Nous anti-gaspi, Vincent Justin, rejoint Kiabi pour y prendre la direction de la seconde main",
+"url": "https://www.lsa-conso.fr/distributeurs-non-alimentaires/mode-sport/kiabi/mode-le-co-fondateur-de-nous-anti-gaspi-vincent-justin-rejoint-kiabi-pour-y-prendre-la-direction-de-la-seconde-main.4PDHUBNBNRHUTG72UYESNDETXI.html",
+"published_at": "2026-10-22T15:19:17Z",
+"first_seen_at": "2026-10-22T16:40:34.325137Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [],
+"cross_sites": [
+"eu"
+],
+"title_zh": "模式： le cofondateur de Nous anti-gaspi ， Vincent Justin ， rejoint Kiabi pour y prendre la direction de la seconde main"
+}
+],
+"earliest_time": "2026-10-22T07:49:33Z",
+"latest_time": "2026-10-22T15:19:17Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 1.41,
+"rank": 8
+},
+{
+"story_id": "c860aa03218b",
+"primary_title": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家",
+"primary_url": "https://www.ennews.com/news-146870.html",
+"primary_site_id": "ennews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"亿恩网"
+],
+"max_score": 0.91,
+"category": "temu",
+"items": [
+{
+"id": "59006af494bfb7402cfde3440978defeb3f6b79d",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家",
+"url": "https://www.ennews.com/news-146870.html",
+"published_at": "2026-10-22T16:40:27Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [
+"us"
+],
+"cross_is_related": true,
+"cross_score": 0.91,
+"cross_label": "temu",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon",
+"temu",
+"tiktok shop",
+"卖家",
+"卖家"
+],
+"cross_why": "跨境电商行业动态",
+"cross_platforms": [
+"tiktok shop",
+"amazon",
+"temu"
+],
+"title_zh": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家"
+}
+],
+"earliest_time": "2026-10-22T16:40:27Z",
+"latest_time": "2026-10-22T16:40:27Z",
+"hot_score": 7.23,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 9
 },
 {
 "story_id": "3be99bf755d5",
@@ -507,7 +627,10 @@
 "url": "https://www.amz123.com/kx/9t3F0Q4X",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-22T16:40:34.325137Z",
+"cross_sites": [
+"eu"
+],
 "cross_is_related": true,
 "cross_score": 0.9,
 "cross_label": "policy_update",
@@ -519,7 +642,6 @@
 ],
 "cross_why": "EU/UK 合规要求，影响 UK/EU 站在售产品",
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "欧盟PPWR规定电商包裹空隙率不得超过50%"
 }
 ],
@@ -527,107 +649,7 @@
 "latest_time": "2026-10-22T16:02:16.220464Z",
 "hot_score": 7.2,
 "freshness_bonus": 2.0,
-"age_hours": 0.01,
-"rank": 8
-},
-{
-"story_id": "c860aa03218b",
-"primary_title": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家",
-"primary_url": "https://www.ennews.com/news-146870.html",
-"primary_site_id": "ennews",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"亿恩网"
-],
-"max_score": 0.88,
-"category": "temu",
-"items": [
-{
-"id": "59006af494bfb7402cfde3440978defeb3f6b79d",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家",
-"url": "https://www.ennews.com/news-146870.html",
-"published_at": "2026-10-22T16:40:27Z",
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "temu",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon",
-"temu",
-"tiktok shop",
-"卖家",
-"卖家"
-],
-"cross_why": "跨境电商行业动态",
-"cross_platforms": [
-"tiktok shop",
-"amazon",
-"temu"
-],
-"cross_sites": [],
-"title_zh": "FDA召回430万支儿童牙膏，波及Amazon/Temu/TikTok Shop卖家"
-}
-],
-"earliest_time": "2026-10-22T16:40:27Z",
-"latest_time": "2026-10-22T16:40:27Z",
-"hot_score": 7.140000000000001,
-"freshness_bonus": 2.0,
-"age_hours": 0.0,
-"rank": 9
-},
-{
-"story_id": "660f71e48e42",
-"primary_title": "美国IOR新规已启动，亚马逊卖家速查进口商身份！",
-"primary_url": "https://www.cifnews.com/article/189596",
-"primary_site_id": "cifnews",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"雨果跨境"
-],
-"max_score": 0.88,
-"category": "policy_update",
-"items": [
-{
-"id": "51dcfd5a28ad5683ce0aa3988153a6d81f67f1d6",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "美国IOR新规已启动，亚马逊卖家速查进口商身份！",
-"url": "https://www.cifnews.com/article/189596",
-"published_at": null,
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:02:16.220464Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "平台或监管政策变动，需评估运营影响",
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "美国IOR新规已启动，亚马逊卖家速查进口商身份！"
-}
-],
-"earliest_time": "2026-10-22T16:02:16.220464Z",
-"latest_time": "2026-10-22T16:02:16.220464Z",
-"hot_score": 7.140000000000001,
-"freshness_bonus": 2.0,
-"age_hours": 0.01,
+"age_hours": 0.7,
 "rank": 10
 }
 ]
