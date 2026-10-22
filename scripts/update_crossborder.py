@@ -28,9 +28,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 try:
-    from scripts.cross_relevance import add_cross_relevance_fields, score_cross_relevance
+    from scripts.cross_relevance import add_cross_relevance_fields, score_cross_relevance, detect_market_sites
 except ModuleNotFoundError:
-    from cross_relevance import add_cross_relevance_fields, score_cross_relevance
+    from cross_relevance import add_cross_relevance_fields, score_cross_relevance, detect_market_sites
 
 try:
     from scripts.stories_merger import merge_stories, rank_hot_topics
@@ -591,6 +591,69 @@ def fetch_amalert(session: requests.Session, now: datetime) -> list[RawItem]:
     return fetch_rss(session, "https://amalert.co.uk/feed.xml",
                      "amalert", "Amalert UK", "Amazon官方聚合",
                      max_age_hours=72)
+
+
+def fetch_insideretail_au(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Inside Retail AU — 澳洲零售业头部媒体（2026-10-22 接入，多站点市场视图）。
+
+    澳洲零售/电商一线报道（Bunnings/Woolworths/澳洲DTC品牌），是 AU 视图
+    除全球通用内容外的主要本土信号来源。实测 RSS 直连可用，约 5-8 条/天。
+    """
+    return fetch_rss(session, "https://insideretail.com.au/feed",
+                     "insideretail_au", "Inside Retail AU", "澳洲零售",
+                     max_age_hours=48)
+
+
+def fetch_internetretailing_au(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Internet Retailing AU — 澳洲电商专业媒体（2026-10-22 接入）。
+
+    电商向（marketplace/物流/平台动态），与 Inside Retail 的实体零售向互补。
+    实测 RSS 直连可用。
+    """
+    return fetch_rss(session, "https://internetretailing.com.au/feed",
+                     "internetretailing_au", "Internet Retailing AU", "澳洲电商",
+                     max_age_hours=48)
+
+
+def fetch_powerretail_au(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Power Retail AU — 澳洲电商与消费者行为媒体（2026-10-22 接入）。
+
+    偏消费趋势/营销/支付（如附加费禁令、节日消费报告），体量小于前两者。
+    """
+    return fetch_rss(session, "https://powerretail.com.au/feed/",
+                     "powerretail_au", "Power Retail AU", "澳洲电商",
+                     max_age_hours=48)
+
+
+def fetch_lsa_fr(session: requests.Session, now: datetime) -> list[RawItem]:
+    """LSA Conso — 法国零售/消费品头部行业媒体（2026-10-22 接入）。
+
+    法国零售业风向标（约15条/天），覆盖 amazon.fr/marketplace/物流/消费趋势。
+    FR 市场视图（?market=eu）法国本土内容的主要来源。
+    """
+    return fetch_rss(session, "https://www.lsa-conso.fr/arc/outboundfeeds/rss/",
+                     "lsa_fr", "LSA Conso", "法国零售",
+                     max_age_hours=48)
+
+
+def fetch_jdn_fr(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Journal du Net retail — 法国电商/零售科技媒体（2026-10-22 接入）。
+
+    偏数字化/marketplace/消费者科技视角，法语。
+    """
+    return fetch_rss(session, "https://www.journaldunet.com/retail/rss/",
+                     "jdn_fr", "JDN Retail", "法国电商",
+                     max_age_hours=48)
+
+
+def fetch_ecommercemag_fr(session: requests.Session, now: datetime) -> list[RawItem]:
+    """EcommerceMag FR — 法国电商专业媒体（2026-10-22 接入）。
+
+    电商运营向（物流/平台/支付），与 LSA（零售大行业）和 JDN（科技）互补。
+    """
+    return fetch_rss(session, "https://www.ecommercemag.fr/feed",
+                     "ecommercemag_fr", "EcommerceMag FR", "法国电商",
+                     max_age_hours=48)
 
 
 def fetch_sp_api_changelog(session: requests.Session, now: datetime) -> list[RawItem]:
@@ -1249,6 +1312,13 @@ BUILTIN_SOURCES: list[dict[str, Any]] = [
     {"func": "fetch_amalert", "site_id": "amalert", "site_name": "Amalert UK", "kind": "official"},
     {"func": "fetch_wearesellers", "site_id": "wearesellers", "site_name": "知无不言", "kind": "community"},
     {"func": "fetch_ennews", "site_id": "ennews", "site_name": "亿恩网", "kind": "aggregate"},
+    # 2026-10-22 多站点扩充：AU 本土源 + FR 本土源（市场视图数据基座）
+    {"func": "fetch_insideretail_au", "site_id": "insideretail_au", "site_name": "Inside Retail AU", "kind": "industry"},
+    {"func": "fetch_internetretailing_au", "site_id": "internetretailing_au", "site_name": "Internet Retailing AU", "kind": "industry"},
+    {"func": "fetch_powerretail_au", "site_id": "powerretail_au", "site_name": "Power Retail AU", "kind": "industry"},
+    {"func": "fetch_lsa_fr", "site_id": "lsa_fr", "site_name": "LSA Conso", "kind": "industry"},
+    {"func": "fetch_jdn_fr", "site_id": "jdn_fr", "site_name": "JDN Retail", "kind": "industry"},
+    {"func": "fetch_ecommercemag_fr", "site_id": "ecommercemag_fr", "site_name": "EcommerceMag FR", "kind": "industry"},
 ]
 
 FETCH_FUNC_MAP: dict[str, Any] = {
@@ -1268,6 +1338,12 @@ FETCH_FUNC_MAP: dict[str, Any] = {
     "fetch_wearesellers": fetch_wearesellers,
     "fetch_ennews": fetch_ennews,
     "fetch_amalert": fetch_amalert,
+    "fetch_insideretail_au": fetch_insideretail_au,
+    "fetch_internetretailing_au": fetch_internetretailing_au,
+    "fetch_powerretail_au": fetch_powerretail_au,
+    "fetch_lsa_fr": fetch_lsa_fr,
+    "fetch_jdn_fr": fetch_jdn_fr,
+    "fetch_ecommercemag_fr": fetch_ecommercemag_fr,
 }
 
 
@@ -1605,6 +1681,19 @@ def main() -> int:
         if item.get("site_id") == "ennews" and "www.en.com" in (item.get("url") or ""):
             item["url"] = item["url"].replace("www.en.com", "www.ennews.com").replace("http://", "https://")
     title_cache = load_title_cache(title_cache_path)
+
+    # 2026-10-22 多站点市场视图：归档条目补 cross_sites 标记（一次性回填+增量写入，
+    # 幂等）。统一走 cross_relevance.detect_market_sites 保证口径一致。
+    backfilled = 0
+    for entry in archive.values():
+        if "cross_sites" not in entry:
+            entry["cross_sites"] = detect_market_sites(
+                f"{entry.get('title', '')} {entry.get('source', '')} {entry.get('site_name', '')} {entry.get('url', '')}",
+                site_id=str(entry.get('site_id') or ''),
+            )
+            backfilled += 1
+    if backfilled:
+        print(f"[INFO] 归档 cross_sites 回填: {backfilled} 条")
 
     session = create_session()
 
