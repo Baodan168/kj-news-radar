@@ -261,13 +261,39 @@ PLATFORM_KEYWORDS = [
 # Site/region detection（2026-10-22 扩充：AU/FR 词太薄导致澳洲/法国信号识别不出）
 # 注意：text 已 lower()，关键词须小写；用子串匹配，禁加短词（如裸 us/au）防误命中
 SITE_KEYWORDS = {
-    "us": ["美国站", "amazon.com", "us站", "美区", "美国", "united states"],
     "uk": ["英国站", "amazon.co.uk", "uk站", "英区", "英国", "英代", "united kingdom"],
-    "eu": ["欧洲站", "amazon.de", "amazon.fr", "amazon.it", "amazon.es", "eu站", "欧区", "欧洲", "德国站", "法国站", "意大利站", "西班牙站", "欧代", "france", "french", "allemagne", "italie", "espagne", "allemand"],
+    "eu": ["欧洲站", "amazon.de", "amazon.fr", "amazon.it", "amazon.es", "eu站", "欧区", "欧洲", "德国站", "法国站", "意大利站", "西班牙站", "欧代", "france", "french", "allemagne", "italie", "espagne", "allemand", "欧盟", "ppwr", "epr", "gdpr", "数字服务法"],
     "jp": ["日本站", "amazon.co.jp", "jp站", "日区", "日本"],
     "au": ["澳洲站", "amazon.com.au", "au站", "澳大利亚", "澳洲", "澳区", "australia", "australian", "aussie"],
     "ca": ["加拿大站", "amazon.ca", "ca站", "加拿大"],
+    "us": ["美国站", "amazon.com", "us站", "美区", "美国", "united states", "fda", "cpsc", "ftc", "美国海关"],
 }
+
+# 来源站点 → 市场硬关联（本土媒体的内容天然面向该市场，不依赖标题关键词命中）
+# 2026-10-22 多站点扩充：AU/FR 本土源接入时同步建立
+SOURCE_SITE_HINTS = {
+    "amalert": ["uk"],                    # UK 官方公告聚合器
+    "insideretail_au": ["au"],
+    "internetretailing_au": ["au"],
+    "powerretail_au": ["au"],
+    "lsa_fr": ["eu"],
+    "jdn_fr": ["eu"],
+    "ecommercemag_fr": ["eu"],
+}
+
+
+def detect_market_sites(text: str, site_id: str = "") -> list[str]:
+    """市场标签统一检测入口：关键词命中 + 来源站点硬关联。
+
+    update_crossborder.py 的归档回填与 add_cross_relevance_fields 的打分
+    都走这里，保证口径一致。
+    """
+    t = (text or "").lower()
+    sites = [key for key, kws in SITE_KEYWORDS.items() if any(kw in t for kw in kws)]
+    for hint in SOURCE_SITE_HINTS.get(site_id, []):
+        if hint not in sites:
+            sites.append(hint)
+    return sites
 
 # ──────────────────────────────────────────────────────────────
 # Noise keywords (reduce relevance)
@@ -475,6 +501,14 @@ SOURCE_PRIORS = {
     # Community / user-generated (lowest prior)
     "wearesellers": 0.05,
     "kjds365": 0.05,
+    # 2026-10-22 多站点扩充：AU 本土源（澳洲站市场视图数据基座）
+    "insideretail_au": 0.15,
+    "internetretailing_au": 0.15,
+    "powerretail_au": 0.10,
+    # 2026-10-22 多站点扩充：FR 本土源（法国站→EU 市场视图数据基座）
+    "lsa_fr": 0.15,
+    "jdn_fr": 0.15,
+    "ecommercemag_fr": 0.10,
     # Remaining (low volume / niche)
     "payoneer": 0.15,
     "worldfirst": 0.15,
@@ -1011,11 +1045,10 @@ def add_cross_relevance_fields(record: dict[str, Any]) -> dict[str, Any]:
             platforms.append(pk)
     out["cross_platforms"] = list(set(platforms))
 
-    # Site/region detection
-    sites = []
-    for site_key, site_kws in SITE_KEYWORDS.items():
-        if any(kw in text for kw in site_kws):
-            sites.append(site_key)
-    out["cross_sites"] = sites
+    # Site/region detection（统一走 detect_market_sites：关键词 + 来源站点硬关联）
+    out["cross_sites"] = detect_market_sites(
+        f"{out.get('title','')} {out.get('source','')} {out.get('site_name','')}",
+        site_id=str(out.get('site_id') or ''),
+    )
 
     return out
