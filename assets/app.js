@@ -30,6 +30,13 @@ const SOURCE_KINDS = {
   marketplace_pulse:  { label: "Marketplace Pulse", tone: "industry" },
   wearesellers:       { label: "知无不言", tone: "community" },
   opmlrss:            { label: "OPML",      tone: "private" },
+  // 2026-10-22 多站点扩充：AU/FR 本土源
+  insideretail_au:    { label: "澳洲零售媒体", tone: "industry" },
+  internetretailing_au: { label: "澳洲电商", tone: "industry" },
+  powerretail_au:     { label: "澳洲消费", tone: "industry" },
+  lsa_fr:             { label: "法国零售", tone: "industry" },
+  jdn_fr:             { label: "法国电商", tone: "industry" },
+  ecommercemag_fr:    { label: "法国电商", tone: "industry" },
 };
 
 /** 影响维度标签 */
