@@ -2,7 +2,7 @@
 
 ## 一句话定位
 
-24h 跨境电商资讯聚合器，20+ 源自动采集 → 打分 → 聚类 → 展示，专为 Amazon UK 卖家设计。零 LLM 消耗，纯关键词规则打分。
+24h 跨境电商资讯聚合器，26 源自动采集 → 打分 → 聚类 → 展示，多站点市场视图（?market=uk/au/eu/us）。零 LLM 消耗，纯关键词规则打分。
 
 ## 怎么跑起来
 
@@ -63,6 +63,7 @@ python3 -m http.server 8080
 ## 当前状态
 
 - 本地 cron 采集（每天 08:40），管道正常：采集 → API 推送 → Pages 重建
+- **2026-10-22 多站点内容升级**：AU 本土源×3（Inside Retail/Internet Retailing/Power Retail）+ FR 本土源×3（LSA/JDN/EcommerceMag）接入；`detect_market_sites()` 统一市场检测口径（关键词+SOURCE_SITE_HINTS 站点硬关联，LSA 出的内容天然算 eu）；EU/US 监管词补漏（欧盟/PPWR/EPR/FDA/CPSC/FTC）；归档 cross_sites 全量回填（1824条）。 git push 被 GFW 间歇吞，代码文件用 api_commit.py 显式推 master 分支（缺分支参数=404）
 - ⚠️ **ennews（亿恩网）2026-09-24 起停更**：feed 最新文章停在 9/24，站点首页被滑块验证码拦截（HTTP 200 但返回人机验证页），RSS 端点仍可访问。连续 2 轮 0 条会触发健康告警，属真实停更而非采集 bug。恢复探测：直接 curl feed 看最新文章日期
 - parse_iso 修复（2026-09-27）：ennews 式异常 pubDate（"39, 24 Sep 2026 17:34:00"）重建时保留时分秒，晚间文章不再被提前老化 24h
 - 周末采集量自然偏低（约为工作日 1/3，各源发文少），raw 40 条左右属正常；工作日基线 raw ≈ 140
