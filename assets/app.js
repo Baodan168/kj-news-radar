@@ -69,15 +69,13 @@ const MARKETS = {
   eu: { name: "🇪🇺 欧洲站", short: "🇪🇺" },
   au: { name: "🇦🇺 澳洲站", short: "🇦🇺" },
   us: { name: "🇺🇸 美国站", short: "🇺🇸" },
-  jp: { name: "🇯🇵 日本站", short: "🇯🇵" },
-  ca: { name: "🇨🇦 加拿大站", short: "🇨🇦" },
 };
 
 /** 单条信号的市场徽章文案（cross_sites 检测结果 → 可读标签） */
 function marketOf(it) {
-  const sites = it.cross_sites || [];
+  const sites = (it.cross_sites || []).filter(s => s !== "jp" && s !== "ca");
   if (!sites.length) return "🌐 全球";
-  const map = { uk: "🇬🇧 英国", eu: "🇪🇺 欧洲", au: "🇦🇺 澳洲", us: "🇺🇸 美国", jp: "🇯🇵 日本", ca: "🇨🇦 加拿大" };
+  const map = { uk: "🇬🇧 英国", eu: "🇪🇺 欧洲", au: "🇦🇺 澳洲", us: "🇺🇸 美国" };
   return sites.map(s => map[s] || s).join("+");
 }
 
@@ -98,8 +96,8 @@ const state = {
   siteFilter: "",
   impactFilter: "",      // 影响维度筛选
   platformFilter: "",    // 平台维度筛选
-  homeMarket: "",        // 本站市场，由 URL ?market= 决定（uk/eu/au/us/jp/ca，空=无市场视图）
-  market: "home",        // 当前市场视图：home=本站优先 all=全部 uk/eu/au/us/jp/ca=指定市场
+  homeMarket: "",        // 本站市场，由 URL ?market= 决定（uk/eu/au/us，空=无市场视图）
+  market: "home",        // 当前市场视图：home=本站优先 all=全部 uk/eu/au/us=指定市场
   query: "",
   mode: "cross",         // 'cross' | 'all'
   policyData: null,
@@ -390,8 +388,8 @@ function renderMarketFilter() {
     (it.cross_sites || []).forEach(s => { counts[s] = (counts[s] || 0) + 1; });
   });
 
-  // 按钮：本站优先 / 全部 / 有数据的具体市场（固定顺序）
-  const order = ["uk", "eu", "us", "au", "jp", "ca"];
+  // 按钮：本站优先 / 全部 / 有数据的具体市场（固定顺序，jp/ca 已移除——非运营站点）
+  const order = ["uk", "eu", "us", "au"];
   let html = `<button class="pill ${state.market === "home" ? "active" : ""}" data-market="home">本站优先</button>`;
   html += `<button class="pill ${state.market === "all" ? "active" : ""}" data-market="all">全部市场 <span class="pill-count">${counts.all || 0}</span></button>`;
   order.forEach(mk => {
@@ -542,7 +540,7 @@ function dedupItems(items) {
 function getFilteredItems() {
   let items = state.mode === "cross" ? [...state.itemsAi] : (state.allDedup ? [...state.itemsAll] : [...state.itemsAllRaw]);
 
-  // 指定市场视图（uk/eu/au/us/jp/ca 具体键）→ 仅保留该市场信号；home/all 不在此过滤
+  // 指定市场视图（uk/eu/au/us 具体键）→ 仅保留该市场信号；home/all 不在此过滤
   if (state.market && state.market !== "all" && state.market !== "home") {
     items = items.filter(it => (it.cross_sites || []).includes(state.market));
   }
@@ -1245,7 +1243,7 @@ function bindFilterScroll() {
 
 async function init() {
   try {
-    // 市场视图参数：?market=uk/au/eu/us/jp/ca（各站门户带参打开，空参=无市场视图）
+    // 市场视图参数：?market=uk/au/eu/us（各站门户带参打开，空参=无市场视图）
     const mkParam = new URLSearchParams(window.location.search).get("market");
     if (mkParam && MARKETS[mkParam] && mkParam !== "home" && mkParam !== "all") {
       state.homeMarket = mkParam;
