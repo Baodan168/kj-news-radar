@@ -572,6 +572,7 @@ function getFilteredItems() {
   }
 
   // 排序：本站优先视图下市场权重先行（本市场→全球通用→其他市场），其余视图按评分/时间
+  // 2026-10-23：指定市场视图（uk/eu/au/us）改用 cross_market_scores 市场分层分排序
   if (state.market === "home") {
     const home = state.homeMarket;
     const rank = it => {
@@ -580,16 +581,26 @@ function getFilteredItems() {
       if (!sites.length) return 1;          // 全球通用 → 次之
       return 2;                             // 其他市场 → 沉底（不隐藏）
     };
+    const mktScore = it => {
+      const ms = it.cross_market_scores || {};
+      return typeof ms[home] === "number" ? ms[home] : (it.cross_score || 0);
+    };
     items.sort((a, b) => {
       const rd = rank(a) - rank(b);
       if (rd !== 0) return rd;
-      const sd = (b.cross_score || 0) - (a.cross_score || 0);
+      const sd = mktScore(b) - mktScore(a);
       if (Math.abs(sd) > 0.01) return sd;
       return new Date(b.published_at || 0) - new Date(a.published_at || 0);
     });
   } else {
+    const useMkt = ["uk", "eu", "au", "us"].includes(state.market);
+    const mktScore = it => {
+      const ms = it.cross_market_scores || {};
+      return typeof ms[state.market] === "number" ? ms[state.market] : (it.cross_score || 0);
+    };
     items.sort((a, b) => {
-      const sd = (b.cross_score || 0) - (a.cross_score || 0);
+      const sd = useMkt ? mktScore(b) - mktScore(a)
+                        : (b.cross_score || 0) - (a.cross_score || 0);
       if (Math.abs(sd) > 0.01) return sd;
       return new Date(b.published_at || 0) - new Date(a.published_at || 0);
     });
