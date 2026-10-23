@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-23T00:40:29.334258Z",
+"generated_at": "2026-10-23T00:44:33.312375Z",
 "items": [
 {
 "story_id": "79c120571100",
@@ -24,7 +24,7 @@
 "url": "https://www.amz123.com/kx/GLvW9qhT",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [
 "au"
 ],
@@ -54,7 +54,7 @@
 "url": "https://www.ennews.com/news-146865.html",
 "published_at": "2026-10-22T16:08:48Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [
 "au"
 ],
@@ -80,92 +80,8 @@
 "latest_time": "2026-10-22T16:08:48Z",
 "hot_score": 8.67,
 "freshness_bonus": 1.0,
-"age_hours": 8.56,
+"age_hours": 8.63,
 "rank": 1
-},
-{
-"story_id": "605d0bbfc699",
-"primary_title": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后",
-"primary_url": "https://www.amzdh.com/kjtt/10570.html",
-"primary_site_id": "amzdh",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"AMZ123",
-"AMZDH"
-],
-"max_score": 0.7,
-"category": "walmart",
-"items": [
-{
-"id": "2ce9a2b2ed62854962aa58ce9b421f367181da14",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊美国用户年均下单22次，领先沃尔玛7次",
-"url": "https://www.amz123.com/kx/tzrmZfwJ",
-"published_at": null,
-"first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-22T00:40:44.535281Z",
-"cross_sites": [
-"us"
-],
-"cross_is_related": true,
-"cross_score": 0.7,
-"cross_label": "walmart",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"沃尔玛"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"us": 0.18
-},
-"cross_platforms": [
-"亚马逊"
-],
-"title_zh": "亚马逊美国用户年均下单22次，领先沃尔玛7次"
-},
-{
-"id": "4e9b21208dd87a54432932227168b58425874f06",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后",
-"url": "https://www.amzdh.com/kjtt/10570.html",
-"published_at": null,
-"first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
-"cross_sites": [
-"us"
-],
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "walmart",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"ebay",
-"亚马逊",
-"沃尔玛"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"us": 0.18
-},
-"cross_platforms": [
-"ebay",
-"亚马逊"
-],
-"title_zh": "亚马逊美国用户年均下单22次，沃尔玛、eBay紧随其后"
-}
-],
-"earliest_time": "2026-10-22T00:40:44.535281Z",
-"latest_time": "2026-10-22T00:40:44.535281Z",
-"hot_score": 7.6,
-"freshness_bonus": 0.5,
-"age_hours": 24.03,
-"rank": 2
 },
 {
 "story_id": "78c745d8e9cc",
@@ -190,7 +106,7 @@
 "url": "https://www.ennews.com/news-146864.html",
 "published_at": "2026-10-22T16:00:46Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [
 "us"
 ],
@@ -244,84 +160,8 @@
 "latest_time": "2026-10-22T16:02:16.220464Z",
 "hot_score": 7.32,
 "freshness_bonus": 1.0,
-"age_hours": 8.67,
-"rank": 3
-},
-{
-"story_id": "5f048f33d20c",
-"primary_title": "SP-API Updates: New Shipment Notification for Tracking Number Changes in MCF, New EU Customs Product Identifiers Requirement, and New Enum Value for Finances API",
-"primary_url": "https://amalert.co.uk/updates/sp-api-updates-new-shipment-notification-for-tracking-number-changes-in-mcf-new-eu-customs-product-identifiers-requirement-and-new-enum-value-for-finances-api-1d82e5c8",
-"primary_site_id": "amalert",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"SP-API Changelog",
-"Amalert UK"
-],
-"max_score": 0.58,
-"category": "policy_update",
-"items": [
-{
-"id": "27990a086cda7f3d89ecebc23439129f8034a62b",
-"site_id": "sp_api",
-"site_name": "SP-API Changelog",
-"source": "SP-API变更",
-"title": "SP-API Updates: New Shipment Notification for Tracking Number Changes in MCF, New EU Customs Product Identifiers Requirement, and New Enum Value for Finances API",
-"url": "https://developer-docs.amazon/sp-api/changelog/sp-api-updates-new-shipment-notification-for-tracking-number-changes-in-mcf-new-eu-customs-product-identifiers-requirement-and-new-enum-value-for-finances-api",
-"published_at": "2026-10-21T20:17:22Z",
-"first_seen_at": "2026-10-22T00:40:44.535281Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.38,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"mcf",
-"tracking"
-],
-"cross_why": "政策相关更新",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "SP-API更新：跟踪MCF编号变更的新发货通知、新的欧盟海关产品标识符要求和财务API的新枚举值"
-},
-{
-"id": "c06666ae561f0d2385a2d583c8c6f9d9a248ac6f",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "SP-API Updates: New Shipment Notification for Tracking Number Changes in MCF, New EU Customs Product Identifiers Requirement, and New Enum Value for Finances API",
-"url": "https://amalert.co.uk/updates/sp-api-updates-new-shipment-notification-for-tracking-number-changes-in-mcf-new-eu-customs-product-identifiers-requirement-and-new-enum-value-for-finances-api-1d82e5c8",
-"published_at": "2026-10-21T20:17:22Z",
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
-"cross_sites": [
-"uk"
-],
-"cross_is_related": true,
-"cross_score": 0.58,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"mcf",
-"tracking"
-],
-"cross_why": "政策相关更新",
-"cross_market_scores": {
-"uk": 0.45
-},
-"cross_platforms": [
-"amazon"
-],
-"title_zh": "SP-API更新：跟踪MCF编号变更的新发货通知、新的欧盟海关产品标识符要求和财务API的新枚举值"
-}
-],
-"earliest_time": "2026-10-21T20:17:22Z",
-"latest_time": "2026-10-21T20:17:22Z",
-"hot_score": 7.24,
-"freshness_bonus": 0.5,
-"age_hours": 28.42,
-"rank": 4
+"age_hours": 8.74,
+"rank": 2
 },
 {
 "story_id": "6e5e57071e4c",
@@ -345,7 +185,7 @@
 "url": "https://www.wearesellers.com/question/125763",
 "published_at": null,
 "first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [
 "uk",
 "eu"
@@ -372,8 +212,8 @@
 "latest_time": "2026-10-23T00:35:34.343674Z",
 "hot_score": 7.02,
 "freshness_bonus": 2.0,
-"age_hours": 0.12,
-"rank": 5
+"age_hours": 0.18,
+"rank": 3
 },
 {
 "story_id": "7a30e7f2ac37",
@@ -397,7 +237,10 @@
 "url": "https://www.amz123.com/kx/waeW6uZ5",
 "published_at": null,
 "first_seen_at": "2026-10-23T00:40:29.334258Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
+"cross_sites": [
+"eu"
+],
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "tiktok",
@@ -416,9 +259,6 @@
 "cross_platforms": [
 "tiktok shop"
 ],
-"cross_sites": [
-"eu"
-],
 "title_zh": "TikTok Shop欧洲跨境铺货扩至12国，卖家可通过同一后台统一管理"
 }
 ],
@@ -426,8 +266,8 @@
 "latest_time": "2026-10-23T00:40:29.334258Z",
 "hot_score": 6.87,
 "freshness_bonus": 2.0,
-"age_hours": 0.04,
-"rank": 6
+"age_hours": 0.1,
+"rank": 4
 },
 {
 "story_id": "4ef1614d39d2",
@@ -476,7 +316,7 @@
 "url": "https://www.cifnews.com/article/189594",
 "published_at": null,
 "first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.61,
@@ -497,8 +337,8 @@
 "latest_time": "2026-10-23T00:35:34.343674Z",
 "hot_score": 6.83,
 "freshness_bonus": 2.0,
-"age_hours": 0.12,
-"rank": 7
+"age_hours": 0.18,
+"rank": 5
 },
 {
 "story_id": "dd3ea23603fd",
@@ -522,7 +362,7 @@
 "url": "https://www.wearesellers.com/question/125762",
 "published_at": null,
 "first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.75,
@@ -545,8 +385,8 @@
 "latest_time": "2026-10-23T00:35:34.343674Z",
 "hot_score": 6.75,
 "freshness_bonus": 2.0,
-"age_hours": 0.12,
-"rank": 8
+"age_hours": 0.18,
+"rank": 6
 },
 {
 "story_id": "d65a5bd799f0",
@@ -570,7 +410,7 @@
 "url": "https://www.amzdh.com/kjtt/10572.html",
 "published_at": null,
 "first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.74,
@@ -591,8 +431,8 @@
 "latest_time": "2026-10-23T00:35:34.343674Z",
 "hot_score": 6.72,
 "freshness_bonus": 2.0,
-"age_hours": 0.12,
-"rank": 9
+"age_hours": 0.18,
+"rank": 7
 },
 {
 "story_id": "5c3f0a1d2fa1",
@@ -617,7 +457,7 @@
 "url": "https://www.amz123.com/kx/0uAic7ht",
 "published_at": null,
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.15,
@@ -638,7 +478,7 @@
 "url": "https://www.ennews.com/news-146879.html",
 "published_at": "2026-10-22T17:23:14Z",
 "first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:40:29.334258Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
 "cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.1,
@@ -655,7 +495,135 @@
 "latest_time": "2026-10-22T17:23:14Z",
 "hot_score": 6.45,
 "freshness_bonus": 1.0,
-"age_hours": 7.32,
+"age_hours": 7.39,
+"rank": 8
+},
+{
+"story_id": "08456c5e58a4",
+"primary_title": "俄罗斯日常消费品门店购买频次同比下降4.8%",
+"primary_url": "https://www.amz123.com/kx/SW2weMbB",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"AMZ123",
+"亿恩网"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "7b8f6d38ac587eb4306ed2a72e929e6f97dc8429",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯日常消费品门店购买频次同比下降4.8%",
+"url": "https://www.amz123.com/kx/SW2weMbB",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
+"cross_sites": [],
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "俄罗斯日常消费品门店购买频次同比下降4.8%"
+},
+{
+"id": "9970c64948bb0355a01d6fc7439485b2ee55bdd6",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "俄日常消费品店购买频次同比下降4.8%",
+"url": "https://www.ennews.com/news-146872.html",
+"published_at": "2026-10-22T16:50:16Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
+"cross_sites": [],
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "俄日常消费品店购买频次同比下降4.8%"
+}
+],
+"earliest_time": "2026-10-22T16:02:16.220464Z",
+"latest_time": "2026-10-22T16:50:16Z",
+"hot_score": 6.45,
+"freshness_bonus": 1.0,
+"age_hours": 7.94,
+"rank": 9
+},
+{
+"story_id": "35259e8b0b03",
+"primary_title": "电子提单全球使用率首次突破50%",
+"primary_url": "https://www.amz123.com/kx/31f1tXf2",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"AMZ123",
+"亿恩网"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "7014e0329da78615fee0ec051b27cd38bf60ac54",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "电子提单全球使用率首次突破50%",
+"url": "https://www.amz123.com/kx/31f1tXf2",
+"published_at": null,
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
+"cross_sites": [],
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "电子提单全球使用率首次突破50%"
+},
+{
+"id": "02c09156c7ef05047db0c947ccb4073637477505",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "电子提单全球使用率首破50%",
+"url": "https://www.ennews.com/news-146871.html",
+"published_at": "2026-10-22T16:46:17Z",
+"first_seen_at": "2026-10-22T16:02:16.220464Z",
+"last_seen_at": "2026-10-23T00:44:33.312375Z",
+"cross_sites": [],
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "电子提单全球使用率首破50%"
+}
+],
+"earliest_time": "2026-10-22T16:02:16.220464Z",
+"latest_time": "2026-10-22T16:46:17Z",
+"hot_score": 6.45,
+"freshness_bonus": 1.0,
+"age_hours": 8.01,
 "rank": 10
 }
 ]
