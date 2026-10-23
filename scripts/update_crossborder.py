@@ -656,6 +656,102 @@ def fetch_ecommercemag_fr(session: requests.Session, now: datetime) -> list[RawI
                      max_age_hours=48)
 
 
+# ---------------------------------------------------------------------------
+# 2026-10-23 多站点源扩充（第三批）：UK/EU/AU/US 本土源
+# 全部实测 RSS 直连可用（CN 网络环境 curl 验证，2026-10-23）
+# ---------------------------------------------------------------------------
+
+def fetch_hmrc_uk(session: requests.Session, now: datetime) -> list[RawItem]:
+    """HMRC (UK海关与税务署) — GOV.UK 官方 atom。
+
+    VAT/关税/海关/贸易统计一手公告，UK 合规信号的官方源头。
+    max_age_hours=72：官方发布频率不高，放宽窗口避免漏抓。
+    """
+    return fetch_rss(session, "https://www.gov.uk/government/organisations/hm-revenue-customs.atom",
+                     "hmrc_uk", "HMRC 官方", "英国税务海关",
+                     max_age_hours=72)
+
+
+def fetch_tamebay(session: requests.Session, now: datetime) -> list[RawItem]:
+    """TameBay — UK 卖家圈老牌媒体（2026-10-23 接入）。
+
+    eBay/Amazon UK 卖家视角的市场动态与政策解读。
+    """
+    return fetch_rss(session, "https://tamebay.com/feed",
+                     "tamebay", "TameBay", "UK卖家资讯",
+                     max_age_hours=48)
+
+
+def fetch_retailtimes_uk(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Retail Times — UK 零售行业媒体（2026-10-23 接入）。
+
+    UK 零售大盘动态（线上线下、消费趋势），与 amalert 的平台公告互补。
+    """
+    return fetch_rss(session, "https://www.retailtimes.co.uk/feed/",
+                     "retailtimes_uk", "Retail Times UK", "英国零售",
+                     max_age_hours=48)
+
+
+def fetch_ecommercenews_nl(session: requests.Session, now: datetime) -> list[RawItem]:
+    """EcommerceNews NL — 荷兰电商专业媒体（2026-10-23 接入）。
+
+    与 ecommercenews.eu（EN 版）同集团但有 NL 本土独家内容（本土平台/物流/政策）。
+    """
+    return fetch_rss(session, "https://www.ecommercenews.nl/feed/",
+                     "ecommercenews_nl", "EcommerceNews NL", "荷兰电商",
+                     max_age_hours=48)
+
+
+def fetch_shopanbieter_de(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Shopanbieter — 德国电商从业者博客（2026-10-23 接入）。
+
+    DE 站运营视角（平台政策/店铺运营/物流），EU 视图的 DE 本土补充。
+    """
+    return fetch_rss(session, "https://www.shopanbieter.de/rss/",
+                     "shopanbieter_de", "Shopanbieter DE", "德国电商",
+                     max_age_hours=48)
+
+
+def fetch_smartcompany_au(session: requests.Session, now: datetime) -> list[RawItem]:
+    """SmartCompany — 澳洲商业媒体头部（2026-10-23 接入）。
+
+    澳洲商业/零售/电商动态，体量大（约10条/天），AU 视图主源补充。
+    """
+    return fetch_rss(session, "https://smartcompany.com.au/feed/",
+                     "smartcompany_au", "SmartCompany AU", "澳洲商业",
+                     max_age_hours=48)
+
+
+def fetch_retailbiz_au(session: requests.Session, now: datetime) -> list[RawItem]:
+    """RetailBiz AU — 澳洲零售行业媒体（2026-10-23 接入）。
+
+    物流/零售运营向（如 AusPost 运力动态），与 Inside Retail 互补。
+    """
+    return fetch_rss(session, "https://www.retailbiz.com.au/feed/",
+                     "retailbiz_au", "RetailBiz AU", "澳洲零售",
+                     max_age_hours=48)
+
+
+def fetch_pymnts_us(session: requests.Session, now: datetime) -> list[RawItem]:
+    """PYMNTS — 美国零售支付/电商科技媒体（2026-10-23 接入）。
+
+    US 市场视图主源：Amazon/平台经济/支付动态，更新频繁。
+    """
+    return fetch_rss(session, "https://www.pymnts.com/feed/",
+                     "pymnts_us", "PYMNTS", "美国电商支付",
+                     max_age_hours=48)
+
+
+def fetch_modernretail_us(session: requests.Session, now: datetime) -> list[RawItem]:
+    """Modern Retail — 美国零售科技/DTC媒体（2026-10-23 接入）。
+
+    US 零售运营向（marketplace/品牌/渠道），与 PYMNTS 的支付向互补。
+    """
+    return fetch_rss(session, "https://modernretail.co/feed/",
+                     "modernretail_us", "Modern Retail", "美国零售科技",
+                     max_age_hours=48)
+
+
 def fetch_sp_api_changelog(session: requests.Session, now: datetime) -> list[RawItem]:
     """SP-API 变更日志。"""
     return fetch_rss(session, "https://developer-docs.amazon.com/sp-api/changelog.rss",
@@ -1319,6 +1415,16 @@ BUILTIN_SOURCES: list[dict[str, Any]] = [
     {"func": "fetch_lsa_fr", "site_id": "lsa_fr", "site_name": "LSA Conso", "kind": "industry"},
     {"func": "fetch_jdn_fr", "site_id": "jdn_fr", "site_name": "JDN Retail", "kind": "industry"},
     {"func": "fetch_ecommercemag_fr", "site_id": "ecommercemag_fr", "site_name": "EcommerceMag FR", "kind": "industry"},
+    # 2026-10-23 源扩充第三批：UK/EU/AU/US 本土源（全部实测 RSS 直连可用）
+    {"func": "fetch_hmrc_uk", "site_id": "hmrc_uk", "site_name": "HMRC 官方", "kind": "official"},
+    {"func": "fetch_tamebay", "site_id": "tamebay", "site_name": "TameBay", "kind": "industry"},
+    {"func": "fetch_retailtimes_uk", "site_id": "retailtimes_uk", "site_name": "Retail Times UK", "kind": "industry"},
+    {"func": "fetch_ecommercenews_nl", "site_id": "ecommercenews_nl", "site_name": "EcommerceNews NL", "kind": "industry"},
+    {"func": "fetch_shopanbieter_de", "site_id": "shopanbieter_de", "site_name": "Shopanbieter DE", "kind": "industry"},
+    {"func": "fetch_smartcompany_au", "site_id": "smartcompany_au", "site_name": "SmartCompany AU", "kind": "industry"},
+    {"func": "fetch_retailbiz_au", "site_id": "retailbiz_au", "site_name": "RetailBiz AU", "kind": "industry"},
+    {"func": "fetch_pymnts_us", "site_id": "pymnts_us", "site_name": "PYMNTS", "kind": "industry"},
+    {"func": "fetch_modernretail_us", "site_id": "modernretail_us", "site_name": "Modern Retail", "kind": "industry"},
 ]
 
 FETCH_FUNC_MAP: dict[str, Any] = {
@@ -1344,6 +1450,15 @@ FETCH_FUNC_MAP: dict[str, Any] = {
     "fetch_lsa_fr": fetch_lsa_fr,
     "fetch_jdn_fr": fetch_jdn_fr,
     "fetch_ecommercemag_fr": fetch_ecommercemag_fr,
+    "fetch_hmrc_uk": fetch_hmrc_uk,
+    "fetch_tamebay": fetch_tamebay,
+    "fetch_retailtimes_uk": fetch_retailtimes_uk,
+    "fetch_ecommercenews_nl": fetch_ecommercenews_nl,
+    "fetch_shopanbieter_de": fetch_shopanbieter_de,
+    "fetch_smartcompany_au": fetch_smartcompany_au,
+    "fetch_retailbiz_au": fetch_retailbiz_au,
+    "fetch_pymnts_us": fetch_pymnts_us,
+    "fetch_modernretail_us": fetch_modernretail_us,
 }
 
 
