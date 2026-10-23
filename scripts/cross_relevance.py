@@ -125,6 +125,9 @@ ECOMMERCE_KEYWORDS = [
     "采购",
     "批发",
     "库存",
+    # 2026-10-23 补英文电商词（本土英文源：NL/DE/TameBay 等标题命中）
+    "marketplace", "marketplaces", "online shop", "webshop", "retailer",
+    "online retail",
 ]
 
 # ──────────────────────────────────────────────────────────────
@@ -150,6 +153,8 @@ POLICY_KEYWORDS = [
     "税务总局",
     "外汇",
     "汇率",
+    # 2026-10-23 补英文政策词（UK/EU/AU/US 本土英文源，中文词命中不了）
+    "tax", "hmrc", "regulation", "new rules", "cma", "ofcom", "accc",
 ]
 
 LOGISTICS_KEYWORDS = [
@@ -173,6 +178,9 @@ LOGISTICS_KEYWORDS = [
     "包裹",
     "tracking",
     "追踪",
+    # 2026-10-23 补英文物流词（本土英文源：AusPost运力/皇家邮政/USPS等）
+    "auspost", "australia post", "royal mail", "usps", "canada post",
+    "parcels surge", "postage", "haulage", "carrier", "evri", "dpd",
 ]
 
 # ──────────────────────────────────────────────────────────────
@@ -261,7 +269,8 @@ PLATFORM_KEYWORDS = [
 # Site/region detection（2026-10-22 扩充：AU/FR 词太薄导致澳洲/法国信号识别不出）
 # 注意：text 已 lower()，关键词须小写；用子串匹配，禁加短词（如裸 us/au）防误命中
 SITE_KEYWORDS = {
-    "uk": ["英国站", "amazon.co.uk", "uk站", "英区", "英国", "英代", "united kingdom"],
+    # 2026-10-23 补 "uk" 裸词（TameBay 等英文源标题常写 "UK marketplaces"，词边界由 _keyword_pattern 保证）
+    "uk": ["英国站", "amazon.co.uk", "uk站", "英区", "英国", "英代", "united kingdom", "uk retail", "uk market"],
     "eu": ["欧洲站", "amazon.de", "amazon.fr", "amazon.it", "amazon.es", "eu站", "欧区", "欧洲", "德国站", "法国站", "意大利站", "西班牙站", "欧代", "france", "french", "allemagne", "italie", "espagne", "allemand", "欧盟", "ppwr", "epr", "gdpr", "数字服务法"],
     "jp": ["日本站", "amazon.co.jp", "jp站", "日区", "日本"],
     "au": ["澳洲站", "amazon.com.au", "au站", "澳大利亚", "澳洲", "澳区", "australia", "australian", "aussie"],
@@ -271,6 +280,7 @@ SITE_KEYWORDS = {
 
 # 来源站点 → 市场硬关联（本土媒体的内容天然面向该市场，不依赖标题关键词命中）
 # 2026-10-22 多站点扩充：AU/FR 本土源接入时同步建立
+# 2026-10-23 源扩充第三批：UK/EU(DE/NL)/AU/US 新源同步建立
 SOURCE_SITE_HINTS = {
     "amalert": ["uk"],                    # UK 官方公告聚合器
     "insideretail_au": ["au"],
@@ -279,6 +289,16 @@ SOURCE_SITE_HINTS = {
     "lsa_fr": ["eu"],
     "jdn_fr": ["eu"],
     "ecommercemag_fr": ["eu"],
+    # 第三批
+    "hmrc_uk": ["uk"],                    # UK 税务海关官方
+    "tamebay": ["uk"],                    # UK 卖家媒体
+    "retailtimes_uk": ["uk"],
+    "ecommercenews_nl": ["eu"],           # NL 电商（EU 视图）
+    "shopanbieter_de": ["eu"],            # DE 电商（EU 视图）
+    "smartcompany_au": ["au"],
+    "retailbiz_au": ["au"],
+    "pymnts_us": ["us"],
+    "modernretail_us": ["us"],
 }
 
 
@@ -505,6 +525,17 @@ SOURCE_PRIORS = {
     "insideretail_au": 0.15,
     "internetretailing_au": 0.15,
     "powerretail_au": 0.10,
+    # 2026-10-23 源扩充第三批：UK/EU/AU/US 本土源
+    # prior 分层：官方监管(0.20) > 卖家专业媒体(0.15) > 行业零售(0.10) > 泛商业(0.05)
+    "hmrc_uk": 0.20,
+    "tamebay": 0.15,
+    "retailtimes_uk": 0.10,
+    "ecommercenews_nl": 0.15,
+    "shopanbieter_de": 0.10,
+    "smartcompany_au": 0.05,
+    "retailbiz_au": 0.10,
+    "pymnts_us": 0.10,
+    "modernretail_us": 0.10,
     # 2026-10-22 多站点扩充：FR 本土源（法国站→EU 市场视图数据基座）
     "lsa_fr": 0.15,
     "jdn_fr": 0.15,
@@ -786,6 +817,12 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
     has_platform = contains_any_keyword(text, PLATFORM_KEYWORDS)
     has_seller_relevance = contains_any_keyword(text, SELLER_RELEVANCE_KEYWORDS)
 
+    # 本土源兜底通道（2026-10-23 新增）：UK/EU/AU/US 运营市场的本土源内容，
+    # 命中政策/物流信号时允许进入精选链路（如 HMRC 关税公告、本土邮政运力变化）。
+    # 纯零售软文（无政策/物流/跨境信号）仍被下面的无信号早返回拦截。
+    LOCAL_MARKET_SOURCE_HINTS = SOURCE_SITE_HINTS.get(site_id, [])
+    is_local_market_source = bool(LOCAL_MARKET_SOURCE_HINTS)
+
     # ── No signal at all ───────────────────────────────────────
     if not (has_cross or has_ecommerce or has_en_signal or has_policy_logistics):
         return _result(
@@ -961,11 +998,12 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
         score += 0.05
 
     # 非目标市场降权（避免印度/俄罗斯/中东等非相关市场占据精选）
+    # 2026-10-23 移除"澳洲站"：AU 已是运营站点（产品雷达AU站），不再当非目标市场降权
     non_target_market_keywords = [
         "印度", "印度站", "india",
         "俄罗斯", "俄", "ozon", "wildberries",
         "中东", "noon", "迪拜", "沙特", "阿联酋",
-        "日本站", "澳洲站", "加拿大站",
+        "日本站", "加拿大站",
     ]
     has_non_target = contains_any_keyword(text, non_target_market_keywords)
     if has_non_target and not (has_uk or has_eu):
@@ -994,6 +1032,10 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
         elif has_policy_logistics and (has_uk or has_eu):
             # 政策/物流信号 + UK/EU上下文 → 允许过线（如皇家邮政关税提醒）
             score = max(score, CROSS_RELEVANCE_THRESHOLD)
+        elif is_local_market_source and has_policy_logistics:
+            # 本土源政策/物流兜底（2026-10-23）：HMRC关税/澳洲邮政运力等
+            # 本土政策物流内容对对应站点有决策价值，允许过线
+            score = max(score, CROSS_RELEVANCE_THRESHOLD)
 
     return _result(
         is_cross_related=True,
@@ -1008,6 +1050,93 @@ def score_cross_relevance(record: dict[str, Any]) -> dict[str, Any]:
 # ──────────────────────────────────────────────────────────────
 # Convenience functions
 # ──────────────────────────────────────────────────────────────
+
+
+# ──────────────────────────────────────────────────────────────
+# 市场分层打分（2026-10-23 新增）
+# cross_score 是 UK 导向的全局分（历史兼容，前端全量流继续用）；
+# cross_market_scores 给每个运营市场（uk/eu/au/us）各自的"该市场视角
+# 相关性分"，供前端市场视图（?market=uk/au/...）按对应市场排序。
+# 口径：市场本土源 prior + 基础关联 + 行动类/高价值 label 加成，
+# 零 LLM。与市场无关联（无站点硬关联且无市场词命中）的市场不出现。
+# ──────────────────────────────────────────────────────────────
+
+# 各市场视角下的来源站点先验分（本土源最高，官方源次之，聚合源最低）
+MARKET_SOURCE_PRIORS: dict[str, dict[str, float]] = {
+    "uk": {
+        "hmrc_uk": 0.35, "amalert": 0.30, "tamebay": 0.25, "retailtimes_uk": 0.20,
+        "amazon_newsroom": 0.15, "sp_api": 0.15, "amazon_ads": 0.15,
+        "amazon_seller_blog": 0.15, "gs_amazon": 0.10,
+        "marketplace_pulse": 0.12, "ecommercenews": 0.10, "channelx": 0.10,
+        "amz123": 0.08, "amzdh": 0.08, "cifnews": 0.08, "ennews": 0.08,
+        "ecomengine": 0.08, "wearesellers": 0.05, "kjds365": 0.05,
+    },
+    "eu": {
+        "lsa_fr": 0.30, "jdn_fr": 0.30, "ecommercenews_nl": 0.25,
+        "shopanbieter_de": 0.25, "ecommercemag_fr": 0.25,
+        "ecommercenews": 0.20, "marketplace_pulse": 0.12, "channelx": 0.10,
+        "amazon_newsroom": 0.10, "gs_amazon": 0.10,
+        "amz123": 0.08, "amzdh": 0.08, "cifnews": 0.08, "ennews": 0.08,
+    },
+    "au": {
+        "insideretail_au": 0.30, "internetretailing_au": 0.28,
+        "powerretail_au": 0.25, "smartcompany_au": 0.25, "retailbiz_au": 0.22,
+        "channelx": 0.12, "marketplace_pulse": 0.12,
+        "amazon_newsroom": 0.10,
+        "amz123": 0.10, "amzdh": 0.10, "cifnews": 0.10, "ennews": 0.10,
+    },
+    "us": {
+        "pymnts_us": 0.28, "modernretail_us": 0.25,
+        "amazon_newsroom": 0.18, "sp_api": 0.15, "amazon_ads": 0.15,
+        "amazon_seller_blog": 0.15, "marketplace_pulse": 0.15,
+        "channelx": 0.10, "amz123": 0.08, "amzdh": 0.08, "cifnews": 0.08,
+    },
+}
+
+# 任何市场视角下都算"有决策价值"的行动类关键词（合规/费用/账号/物流/广告/大促）
+MARKET_ACTION_KEYWORDS = [
+    "政策", "合规", "compliance", "新规", "法规", "生效", "截止", "deadline",
+    "费用", "fee", "涨价", "上调", "佣金", "费率", "仓储费", "配送费",
+    "封号", "冻结", "受限", "suspension", "appeal", "申诉",
+    "vat", "关税", "tariff", "tax", "epr", "gpsr", "ppwr", "ukca",
+    "ce marking", "英代", "欧代", "fda", "cpsc", "ftc",
+    "fba", "物流", "配送", "仓储", "海外仓", "发货", "补货", "inventory",
+    "广告", "ppc", "acos", "cpc", "sponsored",
+    "listing", "review", "退货", "退款", "refund",
+    "seller central", "卖家中心", "后台",
+    "黑五", "black friday", "cyber monday", "prime day", "大促", "旺季",
+    # 2026-10-23 补英文物流/供应链词（AU/US 本土源为英文标题，无中文词命中）
+    "shipping", "parcel", "parcels", "freight", "supply chain", "customs",
+    "postcode", "delivery", "warehouse",
+]
+
+
+def compute_market_scores(record: dict[str, Any], relevance: dict[str, Any]) -> dict[str, float]:
+    """按市场视角计算分层分，返回 {"uk": 0.45, "au": 0.62} 形式。
+
+    市场关联判定复用 detect_market_sites（站点硬关联 + 关键词命中），
+    与 cross_sites 字段口径一致：出现在 cross_sites 里的运营市场
+    （uk/eu/au/us）才会有分。
+    """
+    site_id = str(record.get("site_id") or "")
+    text = (f"{record.get('title') or ''} {record.get('source') or ''} "
+            f"{record.get('site_name') or ''}").lower()
+    label = str(relevance.get("label") or "general")
+
+    scores: dict[str, float] = {}
+    for market in detect_market_sites(text, site_id=site_id):
+        priors = MARKET_SOURCE_PRIORS.get(market)
+        if priors is None:
+            continue  # jp/ca 暂无运营站点，不产出市场分
+        score = priors.get(site_id, 0.0) + 0.10  # 基础关联分
+        if contains_any_keyword(text, MARKET_ACTION_KEYWORDS):
+            score += 0.15  # 行动类内容：任何市场都加权
+        if label in ("compliance_deadline", "seller_action", "policy_update", "fee_logistics"):
+            score += 0.05  # 高决策价值 label 微加成
+        elif label in ("advertising", "listing_product"):
+            score += 0.03
+        scores[market] = round(min(1.0, max(0.0, score)), 2)
+    return scores
 
 
 def is_cross_related_record(record: dict[str, Any]) -> bool:
@@ -1036,6 +1165,10 @@ def add_cross_relevance_fields(record: dict[str, Any]) -> dict[str, Any]:
     out["cross_signals"] = relevance["signals"]
     # 用户可读理由（借鉴 aihot reason 字段，2026-09-27 新增）
     out["cross_why"] = _why_for_text(str(record.get("title") or "").lower(), relevance["label"])
+
+    # 市场分层分（2026-10-23 新增）：{"uk": 0.45, "au": 0.62}，
+    # 前端市场视图按对应市场分排序
+    out["cross_market_scores"] = compute_market_scores(record, relevance)
 
     # Platform detection
     text = f"{out.get('title','')} {out.get('source','')} {out.get('site_name','')}".lower()
