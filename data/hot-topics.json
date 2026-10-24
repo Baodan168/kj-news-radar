@@ -1,629 +1,631 @@
 {
-"generated_at": "2026-10-23T00:44:33.312375Z",
+"generated_at": "2026-10-24T00:40:51.273336Z",
 "items": [
 {
-"story_id": "79c120571100",
-"primary_title": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元",
-"primary_url": "https://www.amz123.com/kx/GLvW9qhT",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
+"story_id": "14769419a330",
+"primary_title": "Guidance: Alcohol and Tobacco Warehousing Declarations: service availability and issues",
+"primary_url": "https://www.gov.uk/government/publications/alcohol-and-tobacco-warehousing-declarations-service-availability-and-issues",
+"primary_site_id": "hmrc_uk",
+"item_count": 5,
+"source_count": 1,
 "source_names": [
-"AMZ123",
-"亿恩网"
+"HMRC 官方"
 ],
-"max_score": 0.89,
-"category": "general",
+"max_score": 0.74,
+"category": "not_cross",
 "items": [
 {
-"id": "0dd79a670ab5a0e0174749ca4de7d824fbac5200",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元",
-"url": "https://www.amz123.com/kx/GLvW9qhT",
-"published_at": null,
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [
-"au"
-],
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
+"id": "d3c8adece74618c7fa1349f15d47ded43aefe6fa",
+"site_id": "hmrc_uk",
+"site_name": "HMRC 官方",
+"source": "英国税务海关",
+"title": "Guidance: Alcohol and Tobacco Warehousing Declarations: service availability and issues",
+"url": "https://www.gov.uk/government/publications/alcohol-and-tobacco-warehousing-declarations-service-availability-and-issues",
+"published_at": "2026-10-23T10:04:10Z",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.2,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {
-"au": 0.2
+"uk": 0.45
 },
-"cross_platforms": [
-"prime",
-"亚马逊"
-],
-"title_zh": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元"
+"cross_platforms": [],
+"cross_sites": [
+"uk"
+]
 },
 {
-"id": "dd914615aa12e3347cd5d1060b8e33f7f1b88866",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元",
-"url": "https://www.ennews.com/news-146865.html",
-"published_at": "2026-10-22T16:08:48Z",
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [
-"au"
-],
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
+"id": "e10d26a3a8b7b0ccf8cd4d6f64ad405b9ec07baf",
+"site_id": "hmrc_uk",
+"site_name": "HMRC 官方",
+"source": "英国税务海关",
+"title": "Guidance: Employers PAYE payment plan: service availability and issues",
+"url": "https://www.gov.uk/government/publications/employers-paye-payment-plan-service-availability-and-issues",
+"published_at": "2026-10-23T15:07:54Z",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.2,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {
-"au": 0.2
+"uk": 0.45
 },
-"cross_platforms": [
-"prime",
-"亚马逊"
+"cross_platforms": [],
+"cross_sites": [
+"uk"
 ],
-"title_zh": "亚马逊澳洲Prime会员费月费涨30%至12.99澳元"
+"title_zh": "指导：雇主PAYE付款计划：服务可用性和问题"
+},
+{
+"id": "9a3871594ae4789d1717a78a030bd58540f60370",
+"site_id": "hmrc_uk",
+"site_name": "HMRC 官方",
+"source": "英国税务海关",
+"title": "Guidance: VAT payment plan: service availability and issues",
+"url": "https://www.gov.uk/government/publications/vat-payment-plan-service-availability-and-issues",
+"published_at": "2026-10-23T15:15:14Z",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"vat"
+],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_market_scores": {
+"uk": 0.65
+},
+"cross_platforms": [],
+"cross_sites": [
+"uk"
+],
+"title_zh": "指南：增值税缴纳计划：服务可用性和问题"
+},
+{
+"id": "5d34e4e8bf072239116cdb497d850bee0fbaf279",
+"site_id": "hmrc_uk",
+"site_name": "HMRC 官方",
+"source": "英国税务海关",
+"title": "Guidance: Self Assessment payment plan: service availability and issues",
+"url": "https://www.gov.uk/government/publications/self-assessment-payment-plan-service-availability-and-issues",
+"published_at": "2026-10-23T15:21:03Z",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.2,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"uk": 0.45
+},
+"cross_platforms": [],
+"cross_sites": [
+"uk"
+],
+"title_zh": "指导：自我评估付款计划：服务可用性和问题"
+},
+{
+"id": "427691383a92dc6baccb4e9a5ebe31d05956fcb3",
+"site_id": "hmrc_uk",
+"site_name": "HMRC 官方",
+"source": "英国税务海关",
+"title": "Guidance: Simple Assessment payment plan: service availability and issues",
+"url": "https://www.gov.uk/government/publications/simple-assessment-payment-plan-service-availability-and-issues",
+"published_at": "2026-10-23T15:24:32Z",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.2,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"uk": 0.45
+},
+"cross_platforms": [],
+"cross_sites": [
+"uk"
+],
+"title_zh": "指导：简单评估付款计划：服务可用性和问题"
 }
 ],
-"earliest_time": "2026-10-22T16:02:16.220464Z",
-"latest_time": "2026-10-22T16:08:48Z",
-"hot_score": 8.67,
+"earliest_time": "2026-10-23T10:04:10Z",
+"latest_time": "2026-10-23T15:24:32Z",
+"hot_score": 7.72,
 "freshness_bonus": 1.0,
-"age_hours": 8.63,
+"age_hours": 9.33,
 "rank": 1
 },
 {
-"story_id": "78c745d8e9cc",
-"primary_title": "Shein调研24863名美国用户：61%圣诞最想送礼自己",
-"primary_url": "https://www.ennews.com/news-146864.html",
-"primary_site_id": "ennews",
+"story_id": "a454623d1334",
+"primary_title": "欧洲FBA燃油及物流附加费11月2日起由1.5%上调至2%",
+"primary_url": "https://www.amz123.com/kx/nFIa68dw",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 1.0,
+"category": "fee_logistics",
+"items": [
+{
+"id": "79c0d3ce4894b8343f8a78e12430a2553ae33800",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧洲FBA燃油及物流附加费11月2日起由1.5%上调至2%",
+"url": "https://www.amz123.com/kx/nFIa68dw",
+"published_at": null,
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"物流"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_market_scores": {
+"eu": 0.38
+},
+"cross_platforms": [
+"fba"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧洲FBA燃油及物流附加费11月2日起由1.5%上调至2%"
+}
+],
+"earliest_time": "2026-10-24T00:40:51.273336Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.5,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 2
+},
+{
+"story_id": "da5d6ee7c259",
+"primary_title": "欧盟2025年查获1.96亿件假冒商品，估值63亿欧元创历史纪录",
+"primary_url": "https://www.amz123.com/kx/z0gA84KY",
+"primary_site_id": "amz123",
 "item_count": 2,
 "source_count": 2,
 "source_names": [
 "亿恩网",
 "AMZ123"
 ],
-"max_score": 0.44,
-"category": "general",
+"max_score": 0.15,
+"category": "not_cross",
 "items": [
 {
-"id": "3f95f1773eec0fae2fedc122aafa4f31a6832087",
+"id": "40c015a93da470113146dfcfc83f0588f3bc7830",
 "site_id": "ennews",
 "site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "Shein调研24863名美国用户：61%圣诞最想送礼自己",
-"url": "https://www.ennews.com/news-146864.html",
-"published_at": "2026-10-22T16:00:46Z",
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [
-"us"
-],
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shein"
-],
-"cross_why": "跨境电商行业动态",
+"title": "欧盟2025年查获假冒商品超1.96亿件，估值63亿欧元",
+"url": "https://www.ennews.com/news-146984.html",
+"published_at": "2026-10-23T16:48:35Z",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
 "cross_market_scores": {
-"us": 0.1
+"eu": 0.18
 },
-"cross_platforms": [
-"shein"
+"cross_platforms": [],
+"cross_sites": [
+"eu"
 ],
-"title_zh": "Shein调研24863名美国用户：61%圣诞最想送礼自己"
+"title_zh": "欧盟2025年查获假冒商品超1.96亿件，估值63亿欧元"
 },
 {
-"id": "9d75a3f38e23cc386298777836a2a00239bea5fd",
+"id": "562ae8911263aa2528d4f6f7c01805a476f1772a",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "Shein调研：61%的美国用户圣诞节首选送礼给自己",
-"url": "https://www.amz123.com/kx/MdsP3GgB",
+"title": "欧盟2025年查获1.96亿件假冒商品，估值63亿欧元创历史纪录",
+"url": "https://www.amz123.com/kx/z0gA84KY",
 "published_at": null,
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:35:34.343674Z",
-"cross_sites": [
-"us"
-],
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shein"
-],
-"cross_why": "跨境电商行业动态",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
 "cross_market_scores": {
-"us": 0.18
+"eu": 0.18
 },
-"cross_platforms": [
-"shein"
+"cross_platforms": [],
+"cross_sites": [
+"eu"
 ],
-"title_zh": "Shein调研：61%的美国用户圣诞节首选送礼给自己"
+"title_zh": "欧盟2025年查获1.96亿件假冒商品，估值63亿欧元创历史纪录"
 }
 ],
-"earliest_time": "2026-10-22T16:00:46Z",
-"latest_time": "2026-10-22T16:02:16.220464Z",
-"hot_score": 7.32,
-"freshness_bonus": 1.0,
-"age_hours": 8.74,
-"rank": 2
+"earliest_time": "2026-10-23T16:48:35Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 3
 },
 {
-"story_id": "6e5e57071e4c",
-"primary_title": "旺季前夕换欧洲合规代理｜英德法西波捷 VAT + 全套 EPR + 英代欧代，担忧注销 / 解绑风险，求经验",
-"primary_url": "https://www.wearesellers.com/question/125763",
-"primary_site_id": "wearesellers",
+"story_id": "27562fcbf97b",
+"primary_title": "Newegg接入Google通用商务协议，用户可在搜索内直接下单",
+"primary_url": "https://www.amz123.com/kx/2s90Qz91",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "9e55f7e39f66639198246031c1b7e050056312ec",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Newegg 接入 Google 通用商务协议 搜索内直接下单",
+"url": "https://www.ennews.com/news-146975.html",
+"published_at": "2026-10-23T16:05:48Z",
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Newegg 接入 Google 通用商务协议 搜索内直接下单"
+},
+{
+"id": "07305c4057b464a9ab310e70ab43c36db725e3e5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Newegg接入Google通用商务协议，用户可在搜索内直接下单",
+"url": "https://www.amz123.com/kx/2s90Qz91",
+"published_at": null,
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Newegg接入Google通用商务协议，用户可在搜索内直接下单"
+}
+],
+"earliest_time": "2026-10-23T16:05:48Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 4
+},
+{
+"story_id": "6789f8bf0427",
+"primary_title": "即将生效！亚马逊要求卖家提交奥地利EPR注册号",
+"primary_url": "https://www.cifnews.com/article/189649",
+"primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"知无不言"
+"雨果跨境"
 ],
-"max_score": 0.84,
+"max_score": 0.97,
 "category": "policy_update",
 "items": [
 {
-"id": "b4c4c5eb781e9cc7d848bb74d612463340b7d3c7",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "旺季前夕换欧洲合规代理｜英德法西波捷 VAT + 全套 EPR + 英代欧代，担忧注销 / 解绑风险，求经验",
-"url": "https://www.wearesellers.com/question/125763",
+"id": "f0fd106d33935316cad35ed2de3079371e857d21",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "即将生效！亚马逊要求卖家提交奥地利EPR注册号",
+"url": "https://www.cifnews.com/article/189649",
 "published_at": null,
-"first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [
-"uk",
-"eu"
-],
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
 "cross_is_related": true,
-"cross_score": 0.84,
+"cross_score": 0.97,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "epr",
-"vat",
-"合规"
+"亚马逊",
+"卖家",
+"卖家"
 ],
 "cross_why": "EU/UK 合规要求，影响 UK/EU 站在售产品",
 "cross_market_scores": {
-"uk": 0.35,
-"eu": 0.3
+"eu": 0.38
 },
-"cross_platforms": [],
-"title_zh": "旺季前夕换欧洲合规代理｜英德法西波捷 VAT + 全套 EPR + 英代欧代，担忧注销 / 解绑风险，求经验"
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "即将生效！亚马逊要求卖家提交奥地利EPR注册号"
 }
 ],
-"earliest_time": "2026-10-23T00:35:34.343674Z",
-"latest_time": "2026-10-23T00:35:34.343674Z",
-"hot_score": 7.02,
+"earliest_time": "2026-10-24T00:40:51.273336Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.41,
 "freshness_bonus": 2.0,
-"age_hours": 0.18,
-"rank": 3
+"age_hours": 0.06,
+"rank": 5
 },
 {
-"story_id": "7a30e7f2ac37",
-"primary_title": "TikTok Shop欧洲跨境铺货扩至12国，卖家可通过同一后台统一管理",
-"primary_url": "https://www.amz123.com/kx/waeW6uZ5",
+"story_id": "780295636067",
+"primary_title": "亚马逊FBA附加费上涨，11月2日生效",
+"primary_url": "https://www.cifnews.com/article/189645",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"雨果跨境"
+],
+"max_score": 0.88,
+"category": "general",
+"items": [
+{
+"id": "f633d2e3cb1f2df84484d1039435fd6741211acd",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊FBA附加费上涨，11月2日生效",
+"url": "https://www.cifnews.com/article/189645",
+"published_at": null,
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_market_scores": {},
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊FBA附加费上涨，11月2日生效"
+}
+],
+"earliest_time": "2026-10-24T00:40:51.273336Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.140000000000001,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 6
+},
+{
+"story_id": "1c5fa7e5a876",
+"primary_title": "紧急｜亚马逊NWD下架倒计时：10月27日截止，不处理库存或被弃置",
+"primary_url": "https://www.cifnews.com/article/189639",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"雨果跨境"
+],
+"max_score": 0.88,
+"category": "policy_update",
+"items": [
+{
+"id": "f1713c5b5885380f9882b88e1feb42236740d59e",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "紧急｜亚马逊NWD下架倒计时：10月27日截止，不处理库存或被弃置",
+"url": "https://www.cifnews.com/article/189639",
+"published_at": null,
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": true,
+"cross_score": 0.88,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"库存"
+],
+"cross_why": "合规截止临近，需立即确认是否受影响",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "紧急｜亚马逊NWD下架倒计时：10月27日截止，不处理库存或被弃置"
+}
+],
+"earliest_time": "2026-10-24T00:40:51.273336Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.140000000000001,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 7
+},
+{
+"story_id": "5381f5783fdb",
+"primary_title": "商务部：前9月网上零售增长4.4%，跨境电商进出口同步增长4.4%",
+"primary_url": "https://www.amz123.com/kx/rtZfWGki",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.79,
-"category": "tiktok",
+"max_score": 0.85,
+"category": "platform_trend",
 "items": [
 {
-"id": "d4b0ee474cc0cbc2cfa528a43a0bdfa323665b21",
+"id": "d3380657c810d38d6a63390c8884c980d87527dd",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "TikTok Shop欧洲跨境铺货扩至12国，卖家可通过同一后台统一管理",
-"url": "https://www.amz123.com/kx/waeW6uZ5",
+"title": "商务部：前9月网上零售增长4.4%，跨境电商进出口同步增长4.4%",
+"url": "https://www.amz123.com/kx/rtZfWGki",
 "published_at": null,
-"first_seen_at": "2026-10-23T00:40:29.334258Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [
-"eu"
-],
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
 "cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "tiktok",
+"cross_score": 0.85,
+"cross_label": "platform_trend",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"tiktok shop",
-"卖家",
 "跨境",
-"卖家",
-"铺货"
+"跨境电商",
+"进出口",
+"电商",
+"商务部"
 ],
-"cross_why": "亚马逊官方后台更新，留意后台通知",
-"cross_market_scores": {
-"eu": 0.33
-},
-"cross_platforms": [
-"tiktok shop"
-],
-"title_zh": "TikTok Shop欧洲跨境铺货扩至12国，卖家可通过同一后台统一管理"
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "商务部：前9月网上零售增长4.4%，跨境电商进出口同步增长4.4%"
 }
 ],
-"earliest_time": "2026-10-23T00:40:29.334258Z",
-"latest_time": "2026-10-23T00:40:29.334258Z",
-"hot_score": 6.87,
+"earliest_time": "2026-10-24T00:40:51.273336Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
-"age_hours": 0.1,
-"rank": 4
+"age_hours": 0.06,
+"rank": 8
 },
 {
-"story_id": "4ef1614d39d2",
-"primary_title": "亚马逊前台新版块---AI摘要",
-"primary_url": "https://www.cifnews.com/article/189594",
+"story_id": "1c09625dcc0d",
+"primary_title": "法国站卖家注意！电子发票改革实施，有VAT税号就要做e-reporting？",
+"primary_url": "https://www.cifnews.com/article/189653",
 "primary_site_id": "cifnews",
-"item_count": 2,
+"item_count": 1,
 "source_count": 1,
 "source_names": [
 "雨果跨境"
 ],
-"max_score": 0.61,
-"category": "general",
+"max_score": 0.84,
+"category": "policy_update",
 "items": [
 {
-"id": "624a7b10762d3586b30751ff9311b8f6e076ff3f",
+"id": "04c299708878928a90636dcf56b396cfec271e4b",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "亚马逊前台新版块-AI摘要",
-"url": "https://www.cifnews.com/article/189594",
+"title": "法国站卖家注意！电子发票改革实施，有VAT税号就要做e-reporting？",
+"url": "https://www.cifnews.com/article/189653",
 "published_at": null,
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-22T16:40:34.325137Z",
-"cross_sites": [],
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
 "cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
+"cross_score": 0.84,
+"cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
-"title_zh": "亚马逊前台新版块-AI摘要"
-},
-{
-"id": "1db93add0f52ea224e6be44a97423ca626c7a6a9",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "亚马逊前台新版块---AI摘要",
-"url": "https://www.cifnews.com/article/189594",
-"published_at": null,
-"first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.61,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
-"title_zh": "亚马逊前台新版块---AI摘要"
-}
-],
-"earliest_time": "2026-10-22T16:02:16.220464Z",
-"latest_time": "2026-10-23T00:35:34.343674Z",
-"hot_score": 6.83,
-"freshness_bonus": 2.0,
-"age_hours": 0.18,
-"rank": 5
-},
-{
-"story_id": "dd3ea23603fd",
-"primary_title": "作为亚马逊卖家/运营，现阶段时间和精力都放在哪里可以提高竞争力？用过哪些途径和AI工具可以提高效率",
-"primary_url": "https://www.wearesellers.com/question/125762",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.75,
-"category": "seller_action",
-"items": [
-{
-"id": "f438af830fba2e4b1afb32a5e98caaab03d5f57f",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "作为亚马逊卖家/运营，现阶段时间和精力都放在哪里可以提高竞争力？用过哪些途径和AI工具可以提高效率",
-"url": "https://www.wearesellers.com/question/125762",
-"published_at": null,
-"first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
+"vat",
 "卖家",
 "卖家"
 ],
-"cross_why": "卖家运营相关信号",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_market_scores": {
+"eu": 0.38
+},
+"cross_platforms": [],
+"cross_sites": [
+"eu"
 ],
-"title_zh": "作为亚马逊卖家/运营，现阶段时间和精力都放在哪里可以提高竞争力？用过哪些途径和AI工具可以提高效率"
+"title_zh": "法国站卖家注意！电子发票改革实施，有VAT税号就要做e-reporting？"
 }
 ],
-"earliest_time": "2026-10-23T00:35:34.343674Z",
-"latest_time": "2026-10-23T00:35:34.343674Z",
-"hot_score": 6.75,
+"earliest_time": "2026-10-24T00:40:51.273336Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 7.02,
 "freshness_bonus": 2.0,
-"age_hours": 0.18,
-"rank": 6
-},
-{
-"story_id": "d65a5bd799f0",
-"primary_title": "亚马逊 AWD 仓网大调整！新增美西托盘仓，发货能省钱，这些仓库停用",
-"primary_url": "https://www.amzdh.com/kjtt/10572.html",
-"primary_site_id": "amzdh",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZDH"
-],
-"max_score": 0.74,
-"category": "general",
-"items": [
-{
-"id": "085573be6308731f1b3ade41ba7f5c2340b81a63",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊 AWD 仓网大调整！新增美西托盘仓，发货能省钱，这些仓库停用",
-"url": "https://www.amzdh.com/kjtt/10572.html",
-"published_at": null,
-"first_seen_at": "2026-10-23T00:35:34.343674Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
-"title_zh": "亚马逊 AWD 仓网大调整！新增美西托盘仓，发货能省钱，这些仓库停用"
-}
-],
-"earliest_time": "2026-10-23T00:35:34.343674Z",
-"latest_time": "2026-10-23T00:35:34.343674Z",
-"hot_score": 6.72,
-"freshness_bonus": 2.0,
-"age_hours": 0.18,
-"rank": 7
-},
-{
-"story_id": "5c3f0a1d2fa1",
-"primary_title": "马来西亚支付商Axaipay推出AxaiCart+一体化建站收款方案",
-"primary_url": "https://www.amz123.com/kx/0uAic7ht",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"AMZ123",
-"亿恩网"
-],
-"max_score": 0.15,
-"category": "not_cross",
-"items": [
-{
-"id": "d38c56cd0a84e9315c09a21fe628bc199cb1a3cc",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "马来西亚支付商Axaipay推出AxaiCart+一体化建站收款方案",
-"url": "https://www.amz123.com/kx/0uAic7ht",
-"published_at": null,
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "马来西亚支付商Axaipay推出AxaiCart+一体化建站收款方案"
-},
-{
-"id": "6ddd6f6a638525fd21f5911362e8f2c6464915b6",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "马来西亚支付商Axaipay推AxaiCart+捆绑建站收款",
-"url": "https://www.ennews.com/news-146879.html",
-"published_at": "2026-10-22T17:23:14Z",
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "马来西亚支付商Axaipay推AxaiCart+捆绑建站收款"
-}
-],
-"earliest_time": "2026-10-22T16:02:16.220464Z",
-"latest_time": "2026-10-22T17:23:14Z",
-"hot_score": 6.45,
-"freshness_bonus": 1.0,
-"age_hours": 7.39,
-"rank": 8
-},
-{
-"story_id": "08456c5e58a4",
-"primary_title": "俄罗斯日常消费品门店购买频次同比下降4.8%",
-"primary_url": "https://www.amz123.com/kx/SW2weMbB",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"AMZ123",
-"亿恩网"
-],
-"max_score": 0.15,
-"category": "not_cross",
-"items": [
-{
-"id": "7b8f6d38ac587eb4306ed2a72e929e6f97dc8429",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯日常消费品门店购买频次同比下降4.8%",
-"url": "https://www.amz123.com/kx/SW2weMbB",
-"published_at": null,
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "俄罗斯日常消费品门店购买频次同比下降4.8%"
-},
-{
-"id": "9970c64948bb0355a01d6fc7439485b2ee55bdd6",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "俄日常消费品店购买频次同比下降4.8%",
-"url": "https://www.ennews.com/news-146872.html",
-"published_at": "2026-10-22T16:50:16Z",
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "俄日常消费品店购买频次同比下降4.8%"
-}
-],
-"earliest_time": "2026-10-22T16:02:16.220464Z",
-"latest_time": "2026-10-22T16:50:16Z",
-"hot_score": 6.45,
-"freshness_bonus": 1.0,
-"age_hours": 7.94,
+"age_hours": 0.06,
 "rank": 9
 },
 {
-"story_id": "35259e8b0b03",
-"primary_title": "电子提单全球使用率首次突破50%",
-"primary_url": "https://www.amz123.com/kx/31f1tXf2",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
+"story_id": "94cb1f145daf",
+"primary_title": "亚马逊Listing下架，你的搅拌碗硅胶内衬是真侵权，还是&quot;长得像&quot;？",
+"primary_url": "https://www.cifnews.com/article/189656",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
 "source_names": [
-"AMZ123",
-"亿恩网"
+"雨果跨境"
 ],
-"max_score": 0.15,
-"category": "not_cross",
+"max_score": 0.8,
+"category": "listing_product",
 "items": [
 {
-"id": "7014e0329da78615fee0ec051b27cd38bf60ac54",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "电子提单全球使用率首次突破50%",
-"url": "https://www.amz123.com/kx/31f1tXf2",
-"published_at": null,
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "电子提单全球使用率首次突破50%"
-},
-{
-"id": "02c09156c7ef05047db0c947ccb4073637477505",
-"site_id": "ennews",
-"site_name": "亿恩网",
+"id": "71efd315af910e0e1266e5015c2c0497b17f07f7",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "电子提单全球使用率首破50%",
-"url": "https://www.ennews.com/news-146871.html",
-"published_at": "2026-10-22T16:46:17Z",
-"first_seen_at": "2026-10-22T16:02:16.220464Z",
-"last_seen_at": "2026-10-23T00:44:33.312375Z",
-"cross_sites": [],
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
+"title": "亚马逊Listing下架，你的搅拌碗硅胶内衬是真侵权，还是&quot;长得像&quot;？",
+"url": "https://www.cifnews.com/article/189656",
+"published_at": null,
+"first_seen_at": "2026-10-24T00:40:51.273336Z",
+"last_seen_at": "2026-10-24T00:40:51.273336Z",
+"cross_is_related": true,
+"cross_score": 0.8,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"listing"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "电子提单全球使用率首破50%"
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊Listing下架，你的搅拌碗硅胶内衬是真侵权，还是&quot;长得像&quot;？"
 }
 ],
-"earliest_time": "2026-10-22T16:02:16.220464Z",
-"latest_time": "2026-10-22T16:46:17Z",
-"hot_score": 6.45,
-"freshness_bonus": 1.0,
-"age_hours": 8.01,
+"earliest_time": "2026-10-24T00:40:51.273336Z",
+"latest_time": "2026-10-24T00:40:51.273336Z",
+"hot_score": 6.9,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
 "rank": 10
 }
 ]
