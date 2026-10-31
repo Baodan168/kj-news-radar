@@ -1,6 +1,316 @@
 {
-"generated_at": "2026-10-30T00:40:20.997082Z",
+"generated_at": "2026-10-31T00:40:20.178362Z",
 "items": [
+{
+"story_id": "2a80e518a0e3",
+"primary_title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
+"primary_url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
+"primary_site_id": "amazon_newsroom",
+"item_count": 3,
+"source_count": 3,
+"source_names": [
+"Amazon Newsroom",
+"Amalert UK",
+"PYMNTS"
+],
+"max_score": 0.6,
+"category": "not_cross",
+"items": [
+{
+"id": "fa69296644ce820360ac971db7e9834915309d1d",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
+"url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
+"published_at": "2026-10-29T12:55:32Z",
+"first_seen_at": "2026-10-30T00:40:20.997082Z",
+"last_seen_at": "2026-10-30T00:40:20.997082Z",
+"cross_sites": [],
+"cross_is_related": false,
+"cross_score": 0.2,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"amazon"
+],
+"title_zh": "Alexa for Shopping增加了100多项新功能，使购物更快、更轻松"
+},
+{
+"id": "7d6358b0e4f9407c724dde6cb04865c288a186d2",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
+"url": "https://amalert.co.uk/updates/null",
+"published_at": "2026-10-29T12:55:32Z",
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": false,
+"cross_score": 0.2,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"uk": 0.4
+},
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "Alexa for Shopping增加了100多项新功能，使购物更快、更轻松"
+},
+{
+"id": "6e17d9e1306ff4730a09a1613340b144dbf2b72a",
+"site_id": "pymnts_us",
+"site_name": "PYMNTS",
+"source": "美国电商支付",
+"title": "Amazon Adds 100-Plus Capabilities to Alexa for Shopping",
+"url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant",
+"published_at": "2026-10-29T20:21:26Z",
+"first_seen_at": "2026-10-30T00:40:20.997082Z",
+"last_seen_at": "2026-10-30T00:40:20.997082Z",
+"cross_sites": [
+"us"
+],
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"us": 0.38
+},
+"cross_platforms": [
+"amazon"
+],
+"title_zh": "亚马逊为Alexa增加了100多项购物功能"
+}
+],
+"earliest_time": "2026-10-29T12:55:32Z",
+"latest_time": "2026-10-29T20:21:26Z",
+"hot_score": 9.8,
+"freshness_bonus": 0.5,
+"age_hours": 28.37,
+"rank": 1
+},
+{
+"story_id": "07eafb777633",
+"primary_title": "法国圣诞消费调研：27%消费者将黑五作为主要采购节点",
+"primary_url": "https://www.amz123.com/kx/sTALhskK",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.49,
+"category": "advertising",
+"items": [
+{
+"id": "1bca75f7c5c02c4919458b22b3f1c3a267a202ed",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "法国圣诞消费调研：27%消费者将黑五作为采购主节点",
+"url": "https://www.ennews.com/news-147540.html",
+"published_at": "2026-10-30T17:14:16Z",
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"采购"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "法国圣诞消费调研：27%消费者将黑五作为采购主节点"
+},
+{
+"id": "69cd8b434a30638a65223158d2236bed7eef6a83",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "法国圣诞消费调研：27%消费者将黑五作为主要采购节点",
+"url": "https://www.amz123.com/kx/sTALhskK",
+"published_at": null,
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 0.49,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"采购"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "法国圣诞消费调研：27%消费者将黑五作为主要采购节点"
+}
+],
+"earliest_time": "2026-10-30T17:14:16Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 8.469999999999999,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 2
+},
+{
+"story_id": "666a36465941",
+"primary_title": "Shopee巴西新开4个配送中心，订单处理能力较去年提升60%",
+"primary_url": "https://www.amz123.com/kx/MjEM8Yxu",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.44,
+"category": "fee_logistics",
+"items": [
+{
+"id": "7529e0fa91944c11fcd5505a9b2fbfd80fdc27f4",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Shopee巴西新开4个配送中心 订单处理能力较去年升60%",
+"url": "https://www.ennews.com/news-147531.html",
+"published_at": "2026-10-30T16:55:40Z",
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 0.39,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shopee"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_market_scores": {},
+"cross_platforms": [
+"shopee"
+],
+"cross_sites": [],
+"title_zh": "Shopee巴西新开4个配送中心 订单处理能力较去年升60%"
+},
+{
+"id": "6c25ba7a5cb93247ce40754b0aeb463f51567d66",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Shopee巴西新开4个配送中心，订单处理能力较去年提升60%",
+"url": "https://www.amz123.com/kx/MjEM8Yxu",
+"published_at": null,
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"shopee"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_market_scores": {},
+"cross_platforms": [
+"shopee"
+],
+"cross_sites": [],
+"title_zh": "Shopee巴西新开4个配送中心，订单处理能力较去年提升60%"
+}
+],
+"earliest_time": "2026-10-30T16:55:40Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 8.32,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 3
+},
+{
+"story_id": "6aa99eb77da9",
+"primary_title": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo",
+"primary_url": "https://www.wearesellers.com/question/126004",
+"primary_site_id": "wearesellers",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"知无不言",
+"雨果跨境"
+],
+"max_score": 0.44,
+"category": "listing_product",
+"items": [
+{
+"id": "31066098897f1d9454fcdd0b7fc295b7c236473a",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo",
+"url": "https://www.wearesellers.com/question/126004",
+"published_at": null,
+"first_seen_at": "2026-10-30T00:40:20.997082Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_sites": [],
+"cross_is_related": true,
+"cross_score": 0.39,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo"
+},
+{
+"id": "abe3883a168e78f3b7a2e3782228dbfa8fa61180",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "电商产品设计工作流：用AI一键生成可交互、可拆解的产品3D demo",
+"url": "https://www.cifnews.com/article/189796",
+"published_at": null,
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "电商产品设计工作流：用AI一键生成可交互、可拆解的产品3D demo"
+}
+],
+"earliest_time": "2026-10-30T00:40:20.997082Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 8.32,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 4
+},
 {
 "story_id": "3b1a639a972f",
 "primary_title": "英国2026预算案调整平台卖家税务，免税额提至3000英镑",
@@ -25,8 +335,11 @@
 "published_at": "2026-10-29T16:24:11Z",
 "first_seen_at": "2026-10-30T00:40:20.997082Z",
 "last_seen_at": "2026-10-30T00:40:20.997082Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": true,
-"cross_score": 0.84,
+"cross_score": 0.79,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -38,9 +351,6 @@
 "uk": 0.23
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "英国预算案调整市场平台卖家税务规则"
 },
 {
@@ -53,6 +363,9 @@
 "published_at": null,
 "first_seen_at": "2026-10-30T00:40:20.997082Z",
 "last_seen_at": "2026-10-30T00:40:20.997082Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "seller_action",
@@ -66,324 +379,287 @@
 "uk": 0.23
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "英国2026预算案调整平台卖家税务，免税额提至3000英镑"
 }
 ],
 "earliest_time": "2026-10-29T16:24:11Z",
 "latest_time": "2026-10-30T00:40:20.997082Z",
-"hot_score": 9.67,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 1
-},
-{
-"story_id": "2a80e518a0e3",
-"primary_title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
-"primary_url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
-"primary_site_id": "amazon_newsroom",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"Amazon Newsroom",
-"PYMNTS"
-],
-"max_score": 0.64,
-"category": "not_cross",
-"items": [
-{
-"id": "fa69296644ce820360ac971db7e9834915309d1d",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
-"url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
-"published_at": "2026-10-29T12:55:32Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": []
-},
-{
-"id": "6e17d9e1306ff4730a09a1613340b144dbf2b72a",
-"site_id": "pymnts_us",
-"site_name": "PYMNTS",
-"source": "美国电商支付",
-"title": "Amazon Adds 100-Plus Capabilities to Alexa for Shopping",
-"url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant",
-"published_at": "2026-10-29T20:21:26Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.64,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"us": 0.38
-},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊为Alexa增加了100多项购物功能"
-}
-],
-"earliest_time": "2026-10-29T12:55:32Z",
-"latest_time": "2026-10-29T20:21:26Z",
-"hot_score": 8.92,
-"freshness_bonus": 2.0,
-"age_hours": 4.37,
-"rank": 2
-},
-{
-"story_id": "251d92d16895",
-"primary_title": "Amazon's most advanced chip helps power the AI behind Prime 360—here's how",
-"primary_url": "https://www.aboutamazon.com/news/innovation/trainium-ai-chip-prime-360-nba-highlights",
-"primary_site_id": "amazon_newsroom",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"Amazon Newsroom",
-"Amalert UK"
-],
-"max_score": 0.81,
-"category": "general",
-"items": [
-{
-"id": "401cb331cddbc714ad28baa344873e489055f019",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon's most advanced chip helps power the AI behind Prime 360—here's how",
-"url": "https://www.aboutamazon.com/news/innovation/trainium-ai-chip-prime-360-nba-highlights",
-"published_at": "2026-10-28T16:00:00Z",
-"first_seen_at": "2026-10-29T00:40:22.935543Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"title_zh": "亚马逊最先进的芯片有助于为Prime 360背后的人工智能提供支持，具体方法如下"
-},
-{
-"id": "3feffac8f28843fad90566c8901d89c52cf985eb",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon's most advanced chip helps power the AI behind Prime 360—here's how",
-"url": "https://amalert.co.uk/updates/null",
-"published_at": "2026-10-28T16:00:00Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.4
-},
-"cross_platforms": [
-"amazon",
-"prime"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "亚马逊最先进的芯片有助于为Prime 360背后的人工智能提供支持，具体方法如下"
-}
-],
-"earliest_time": "2026-10-28T16:00:00Z",
-"latest_time": "2026-10-28T16:00:00Z",
-"hot_score": 7.93,
+"hot_score": 8.17,
 "freshness_bonus": 0.5,
-"age_hours": 32.73,
-"rank": 3
-},
-{
-"story_id": "d31d92061cd0",
-"primary_title": "Industry Vertical Pricing Audience Values Available in EU, JP, and CA Amazon Stores",
-"primary_url": "https://amalert.co.uk/updates/industry-vertical-pricing-audience-values-available-in-eu-jp-and-ca-amazon-stores-f9f003cf",
-"primary_site_id": "amalert",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"SP-API Changelog",
-"Amalert UK"
-],
-"max_score": 0.66,
-"category": "policy_update",
-"items": [
-{
-"id": "efeaac143744975b22cd22ae174d84500e1cf3dd",
-"site_id": "sp_api",
-"site_name": "SP-API Changelog",
-"source": "SP-API变更",
-"title": "Industry Vertical Pricing Audience Values Available in EU, JP, and CA Amazon Stores",
-"url": "https://developer-docs.amazon/sp-api/changelog/industry-vertical-pricing-audience-values-now-available-in-eu-jp-and-ca-amazon-stores",
-"published_at": "2026-10-28T19:55:51Z",
-"first_seen_at": "2026-10-29T00:40:22.935543Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "政策相关更新",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon"
-],
-"title_zh": "行业垂直定价受众价值适用于欧盟、日本和加拿大亚马逊商店"
-},
-{
-"id": "979ebc38c698d7a782a41b336719410292509085",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Industry Vertical Pricing Audience Values Available in EU, JP, and CA Amazon Stores",
-"url": "https://amalert.co.uk/updates/industry-vertical-pricing-audience-values-available-in-eu-jp-and-ca-amazon-stores-f9f003cf",
-"published_at": "2026-10-28T19:55:51Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "政策相关更新",
-"cross_market_scores": {
-"uk": 0.45
-},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "行业垂直定价受众价值适用于欧盟、日本和加拿大亚马逊商店"
-}
-],
-"earliest_time": "2026-10-28T19:55:51Z",
-"latest_time": "2026-10-28T19:55:51Z",
-"hot_score": 7.48,
-"freshness_bonus": 0.5,
-"age_hours": 28.8,
-"rank": 4
-},
-{
-"story_id": "4ca9cda93a47",
-"primary_title": "Amazon Ads Inventory Management Unified APIs October 2026 Update",
-"primary_url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index",
-"primary_site_id": "amazon_ads",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"Amazon Ads 更新"
-],
-"max_score": 0.99,
-"category": "general",
-"items": [
-{
-"id": "d984d6f70d05d9d7d7e21e7729ebb1d47b3bdc7d",
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads 更新",
-"source": "亚马逊广告",
-"title": "Amazon Ads Inventory Management Unified APIs October 2026 Update",
-"url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index",
-"published_at": "2026-10-30T00:00:00Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.99,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "Amazon Ads Inventory Management统一API 2026年10月更新"
-}
-],
-"earliest_time": "2026-10-30T00:00:00Z",
-"latest_time": "2026-10-30T00:00:00Z",
-"hot_score": 7.47,
-"freshness_bonus": 2.0,
-"age_hours": 0.73,
+"age_hours": 24.05,
 "rank": 5
 },
 {
-"story_id": "e65946ad4de9",
-"primary_title": "亚马逊2026假日退货政策定了！自动生效，以后每年都按这个来",
-"primary_url": "https://www.amzdh.com/kjtt/10601.html",
-"primary_site_id": "amzdh",
-"item_count": 1,
-"source_count": 1,
+"story_id": "b5f4ada4df73",
+"primary_title": "特朗普放弃对机器人及工业机械加征关税，转而启动贸易谈判",
+"primary_url": "https://www.amz123.com/kx/D8AlXHxg",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
 "source_names": [
-"AMZDH"
+"亿恩网",
+"AMZ123"
 ],
-"max_score": 0.82,
+"max_score": 0.24,
 "category": "policy_update",
 "items": [
 {
-"id": "ca4da8657adf8b4ccb6719055933a62be218c48c",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊2026假日退货政策定了！自动生效，以后每年都按这个来",
-"url": "https://www.amzdh.com/kjtt/10601.html",
+"id": "5a72c578f6f5e32cc1f624c6504e6b5b33eee9af",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "特朗普放弃加税改谈贸易 机器人及工业机械进口在列",
+"url": "https://www.ennews.com/news-147538.html",
+"published_at": "2026-10-30T17:05:02Z",
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "特朗普放弃加税改谈贸易 机器人及工业机械进口在列"
+},
+{
+"id": "c19173938f113e67225faaa2c12085cf3b18a645",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "特朗普放弃对机器人及工业机械加征关税，转而启动贸易谈判",
+"url": "https://www.amz123.com/kx/D8AlXHxg",
 "published_at": null,
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
 "cross_is_related": true,
-"cross_score": 0.82,
+"cross_score": 0.24,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"关税",
+"关税"
+],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "特朗普放弃对机器人及工业机械加征关税，转而启动贸易谈判"
+}
+],
+"earliest_time": "2026-10-30T17:05:02Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 7.72,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 6
+},
+{
+"story_id": "7b17c32838cd",
+"primary_title": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元",
+"primary_url": "https://www.amz123.com/kx/uTY1xfgl",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 1.0,
+"category": "listing_product",
+"items": [
+{
+"id": "11ba56534ebdab936bc65ff25e55d4ebbd478ed3",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元",
+"url": "https://www.amz123.com/kx/uTY1xfgl",
+"published_at": null,
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊",
+"退款",
+"退货"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_market_scores": {
+"eu": 0.36
+},
+"cross_platforms": [
+"亚马逊",
+"fba"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元"
+}
+],
+"earliest_time": "2026-10-31T00:40:20.178362Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 7.5,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 7
+},
+{
+"story_id": "b302368caa39",
+"primary_title": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%",
+"primary_url": "https://www.amz123.com/kx/nd6ey9cM",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "9aa9148dd135b0c190ff409ed14008c332440bd5",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%",
+"url": "https://www.ennews.com/news-147539.html",
+"published_at": "2026-10-30T17:10:08Z",
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%"
+},
+{
+"id": "7ae778c34f2b411aae60304439358db08871e428",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%",
+"url": "https://www.amz123.com/kx/nd6ey9cM",
+"published_at": null,
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%"
+}
+],
+"earliest_time": "2026-10-30T17:10:08Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 8
+},
+{
+"story_id": "bd6a53c77864",
+"primary_title": "亚马逊延长德国站年末退货期，当地卖家等待官方细则",
+"primary_url": "https://www.amz123.com/kx/XYW4NBGU",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.97,
+"category": "listing_product",
+"items": [
+{
+"id": "6d6f877e762b53b4325218ef55e2d494262519cf",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊延长德国站年末退货期，当地卖家等待官方细则",
+"url": "https://www.amz123.com/kx/XYW4NBGU",
+"published_at": null,
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 0.97,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家",
+"退货"
+],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_market_scores": {
+"eu": 0.36
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊延长德国站年末退货期，当地卖家等待官方细则"
+}
+],
+"earliest_time": "2026-10-31T00:40:20.178362Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 7.41,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 9
+},
+{
+"story_id": "8b6a003e52a3",
+"primary_title": "亚马逊卖家必看｜账户合规 &amp; 账户健康管理，守住店铺生命线",
+"primary_url": "https://www.cifnews.com/article/189816",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"雨果跨境"
+],
+"max_score": 0.96,
+"category": "policy_update",
+"items": [
+{
+"id": "091690ca75f349e0edf6e10a84fdc8e84c7962b9",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "亚马逊卖家必看｜账户合规 &amp; 账户健康管理，守住店铺生命线",
+"url": "https://www.cifnews.com/article/189816",
+"published_at": null,
+"first_seen_at": "2026-10-31T00:40:20.178362Z",
+"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"cross_is_related": true,
+"cross_score": 0.96,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
-"退货",
-"政策"
+"卖家",
+"卖家",
+"店铺",
+"合规"
 ],
 "cross_why": "平台或监管政策变动，需评估运营影响",
 "cross_market_scores": {},
@@ -391,203 +667,14 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊2026假日退货政策定了！自动生效，以后每年都按这个来"
+"title_zh": "亚马逊卖家必看｜账户合规 &amp; 账户健康管理，守住店铺生命线"
 }
 ],
-"earliest_time": "2026-10-30T00:40:20.997082Z",
-"latest_time": "2026-10-30T00:40:20.997082Z",
-"hot_score": 6.96,
+"earliest_time": "2026-10-31T00:40:20.178362Z",
+"latest_time": "2026-10-31T00:40:20.178362Z",
+"hot_score": 7.38,
 "freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 6
-},
-{
-"story_id": "52d190f4a724",
-"primary_title": "亚马逊东京举办高科技产品展，中国智能硬件品牌加速布局日本市场",
-"primary_url": "https://www.amz123.com/kx/c2Vo8YBX",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.81,
-"category": "listing_product",
-"items": [
-{
-"id": "8bb10c0f3ba72ec8561ae1eaeebca633a5605907",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊东京举办高科技产品展，中国智能硬件品牌加速布局日本市场",
-"url": "https://www.amz123.com/kx/c2Vo8YBX",
-"published_at": null,
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "产品/listing 相关变化，关注运营调整",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"jp"
-],
-"title_zh": "亚马逊东京举办高科技产品展，中国智能硬件品牌加速布局日本市场"
-}
-],
-"earliest_time": "2026-10-30T00:40:20.997082Z",
-"latest_time": "2026-10-30T00:40:20.997082Z",
-"hot_score": 6.93,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 7
-},
-{
-"story_id": "899f2546737e",
-"primary_title": "亚马逊FBA同款产品的两个颜色在补货的时候标签贴反了，目前全部入库该如何补救",
-"primary_url": "https://www.wearesellers.com/question/126028",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.75,
-"category": "listing_product",
-"items": [
-{
-"id": "1de5a5ebd19bb2796d040f560a345e2bf65a4070",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊FBA同款产品的两个颜色在补货的时候标签贴反了，目前全部入库该如何补救",
-"url": "https://www.wearesellers.com/question/126028",
-"published_at": null,
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {},
-"cross_platforms": [
-"fba",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊FBA同款产品的两个颜色在补货的时候标签贴反了，目前全部入库该如何补救"
-}
-],
-"earliest_time": "2026-10-30T00:40:20.997082Z",
-"latest_time": "2026-10-30T00:40:20.997082Z",
-"hot_score": 6.75,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 8
-},
-{
-"story_id": "b6a343ce678f",
-"primary_title": "亚马逊广告钻进ChatGPT，流量要变天？我想先给朋友们泼三盆冷水",
-"primary_url": "https://www.wearesellers.com/question/126033",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.75,
-"category": "advertising",
-"items": [
-{
-"id": "2221847a26386676f01c8feae3fe74288e3bf956",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊广告钻进ChatGPT，流量要变天？我想先给朋友们泼三盆冷水",
-"url": "https://www.wearesellers.com/question/126033",
-"published_at": null,
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"流量"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊广告钻进ChatGPT，流量要变天？我想先给朋友们泼三盆冷水"
-}
-],
-"earliest_time": "2026-10-30T00:40:20.997082Z",
-"latest_time": "2026-10-30T00:40:20.997082Z",
-"hot_score": 6.75,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 9
-},
-{
-"story_id": "07e7cfba7a00",
-"primary_title": "Highlights from Amazon's third quarter",
-"primary_url": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview",
-"primary_site_id": "amazon_newsroom",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"Amazon Newsroom"
-],
-"max_score": 0.74,
-"category": "general",
-"items": [
-{
-"id": "a59477dc626cd5b2c691d6213712a9843e99ad1e",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Highlights from Amazon's third quarter",
-"url": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview",
-"published_at": "2026-10-29T22:44:00Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_is_related": true,
-"cross_score": 0.74,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "亚马逊第三季度亮点"
-}
-],
-"earliest_time": "2026-10-29T22:44:00Z",
-"latest_time": "2026-10-29T22:44:00Z",
-"hot_score": 6.72,
-"freshness_bonus": 2.0,
-"age_hours": 1.99,
+"age_hours": 0.05,
 "rank": 10
 }
 ]
