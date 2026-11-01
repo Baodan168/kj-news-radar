@@ -1,635 +1,9 @@
 {
-"generated_at": "2026-10-31T00:40:20.178362Z",
+"generated_at": "2026-11-01T00:41:00.230199Z",
 "items": [
 {
-"story_id": "2a80e518a0e3",
-"primary_title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
-"primary_url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
-"primary_site_id": "amazon_newsroom",
-"item_count": 3,
-"source_count": 3,
-"source_names": [
-"Amazon Newsroom",
-"Amalert UK",
-"PYMNTS"
-],
-"max_score": 0.6,
-"category": "not_cross",
-"items": [
-{
-"id": "fa69296644ce820360ac971db7e9834915309d1d",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
-"url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
-"published_at": "2026-10-29T12:55:32Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_sites": [],
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon"
-],
-"title_zh": "Alexa for Shopping增加了100多项新功能，使购物更快、更轻松"
-},
-{
-"id": "7d6358b0e4f9407c724dde6cb04865c288a186d2",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
-"url": "https://amalert.co.uk/updates/null",
-"published_at": "2026-10-29T12:55:32Z",
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.4
-},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "Alexa for Shopping增加了100多项新功能，使购物更快、更轻松"
-},
-{
-"id": "6e17d9e1306ff4730a09a1613340b144dbf2b72a",
-"site_id": "pymnts_us",
-"site_name": "PYMNTS",
-"source": "美国电商支付",
-"title": "Amazon Adds 100-Plus Capabilities to Alexa for Shopping",
-"url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant",
-"published_at": "2026-10-29T20:21:26Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_sites": [
-"us"
-],
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"us": 0.38
-},
-"cross_platforms": [
-"amazon"
-],
-"title_zh": "亚马逊为Alexa增加了100多项购物功能"
-}
-],
-"earliest_time": "2026-10-29T12:55:32Z",
-"latest_time": "2026-10-29T20:21:26Z",
-"hot_score": 9.8,
-"freshness_bonus": 0.5,
-"age_hours": 28.37,
-"rank": 1
-},
-{
-"story_id": "07eafb777633",
-"primary_title": "法国圣诞消费调研：27%消费者将黑五作为主要采购节点",
-"primary_url": "https://www.amz123.com/kx/sTALhskK",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.49,
-"category": "advertising",
-"items": [
-{
-"id": "1bca75f7c5c02c4919458b22b3f1c3a267a202ed",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "法国圣诞消费调研：27%消费者将黑五作为采购主节点",
-"url": "https://www.ennews.com/news-147540.html",
-"published_at": "2026-10-30T17:14:16Z",
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"采购"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "法国圣诞消费调研：27%消费者将黑五作为采购主节点"
-},
-{
-"id": "69cd8b434a30638a65223158d2236bed7eef6a83",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "法国圣诞消费调研：27%消费者将黑五作为主要采购节点",
-"url": "https://www.amz123.com/kx/sTALhskK",
-"published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 0.49,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"采购"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "法国圣诞消费调研：27%消费者将黑五作为主要采购节点"
-}
-],
-"earliest_time": "2026-10-30T17:14:16Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
-"hot_score": 8.469999999999999,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 2
-},
-{
-"story_id": "666a36465941",
-"primary_title": "Shopee巴西新开4个配送中心，订单处理能力较去年提升60%",
-"primary_url": "https://www.amz123.com/kx/MjEM8Yxu",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.44,
-"category": "fee_logistics",
-"items": [
-{
-"id": "7529e0fa91944c11fcd5505a9b2fbfd80fdc27f4",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Shopee巴西新开4个配送中心 订单处理能力较去年升60%",
-"url": "https://www.ennews.com/news-147531.html",
-"published_at": "2026-10-30T16:55:40Z",
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {},
-"cross_platforms": [
-"shopee"
-],
-"cross_sites": [],
-"title_zh": "Shopee巴西新开4个配送中心 订单处理能力较去年升60%"
-},
-{
-"id": "6c25ba7a5cb93247ce40754b0aeb463f51567d66",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Shopee巴西新开4个配送中心，订单处理能力较去年提升60%",
-"url": "https://www.amz123.com/kx/MjEM8Yxu",
-"published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"shopee"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {},
-"cross_platforms": [
-"shopee"
-],
-"cross_sites": [],
-"title_zh": "Shopee巴西新开4个配送中心，订单处理能力较去年提升60%"
-}
-],
-"earliest_time": "2026-10-30T16:55:40Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
-"hot_score": 8.32,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 3
-},
-{
-"story_id": "6aa99eb77da9",
-"primary_title": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo",
-"primary_url": "https://www.wearesellers.com/question/126004",
-"primary_site_id": "wearesellers",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"知无不言",
-"雨果跨境"
-],
-"max_score": 0.44,
-"category": "listing_product",
-"items": [
-{
-"id": "31066098897f1d9454fcdd0b7fc295b7c236473a",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo",
-"url": "https://www.wearesellers.com/question/126004",
-"published_at": null,
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商"
-],
-"cross_why": "产品/listing 相关变化，关注运营调整",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo"
-},
-{
-"id": "abe3883a168e78f3b7a2e3782228dbfa8fa61180",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "电商产品设计工作流：用AI一键生成可交互、可拆解的产品3D demo",
-"url": "https://www.cifnews.com/article/189796",
-"published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商"
-],
-"cross_why": "产品/listing 相关变化，关注运营调整",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "电商产品设计工作流：用AI一键生成可交互、可拆解的产品3D demo"
-}
-],
-"earliest_time": "2026-10-30T00:40:20.997082Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
-"hot_score": 8.32,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 4
-},
-{
-"story_id": "3b1a639a972f",
-"primary_title": "英国2026预算案调整平台卖家税务，免税额提至3000英镑",
-"primary_url": "https://www.amz123.com/kx/L0otzcRF",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.89,
-"category": "seller_action",
-"items": [
-{
-"id": "cba8e5f372384026951ed8296d5ea19277b2780b",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "英国预算案调整市场平台卖家税务规则",
-"url": "https://www.ennews.com/news-147419.html",
-"published_at": "2026-10-29T16:24:11Z",
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_sites": [
-"uk"
-],
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "税务/关税变动，影响成本核算",
-"cross_market_scores": {
-"uk": 0.23
-},
-"cross_platforms": [],
-"title_zh": "英国预算案调整市场平台卖家税务规则"
-},
-{
-"id": "4e355d8650a144302af82af0a4cabe32e03d2a54",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "英国2026预算案调整平台卖家税务，免税额提至3000英镑",
-"url": "https://www.amz123.com/kx/L0otzcRF",
-"published_at": null,
-"first_seen_at": "2026-10-30T00:40:20.997082Z",
-"last_seen_at": "2026-10-30T00:40:20.997082Z",
-"cross_sites": [
-"uk"
-],
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"卖家",
-"卖家"
-],
-"cross_why": "税务/关税变动，影响成本核算",
-"cross_market_scores": {
-"uk": 0.23
-},
-"cross_platforms": [],
-"title_zh": "英国2026预算案调整平台卖家税务，免税额提至3000英镑"
-}
-],
-"earliest_time": "2026-10-29T16:24:11Z",
-"latest_time": "2026-10-30T00:40:20.997082Z",
-"hot_score": 8.17,
-"freshness_bonus": 0.5,
-"age_hours": 24.05,
-"rank": 5
-},
-{
-"story_id": "b5f4ada4df73",
-"primary_title": "特朗普放弃对机器人及工业机械加征关税，转而启动贸易谈判",
-"primary_url": "https://www.amz123.com/kx/D8AlXHxg",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.24,
-"category": "policy_update",
-"items": [
-{
-"id": "5a72c578f6f5e32cc1f624c6504e6b5b33eee9af",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "特朗普放弃加税改谈贸易 机器人及工业机械进口在列",
-"url": "https://www.ennews.com/news-147538.html",
-"published_at": "2026-10-30T17:05:02Z",
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "税务/关税变动，影响成本核算",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "特朗普放弃加税改谈贸易 机器人及工业机械进口在列"
-},
-{
-"id": "c19173938f113e67225faaa2c12085cf3b18a645",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "特朗普放弃对机器人及工业机械加征关税，转而启动贸易谈判",
-"url": "https://www.amz123.com/kx/D8AlXHxg",
-"published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 0.24,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"关税",
-"关税"
-],
-"cross_why": "税务/关税变动，影响成本核算",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "特朗普放弃对机器人及工业机械加征关税，转而启动贸易谈判"
-}
-],
-"earliest_time": "2026-10-30T17:05:02Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
-"hot_score": 7.72,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 6
-},
-{
-"story_id": "7b17c32838cd",
-"primary_title": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元",
-"primary_url": "https://www.amz123.com/kx/uTY1xfgl",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 1.0,
-"category": "listing_product",
-"items": [
-{
-"id": "11ba56534ebdab936bc65ff25e55d4ebbd478ed3",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元",
-"url": "https://www.amz123.com/kx/uTY1xfgl",
-"published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊",
-"退款",
-"退货"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {
-"eu": 0.36
-},
-"cross_platforms": [
-"亚马逊",
-"fba"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元"
-}
-],
-"earliest_time": "2026-10-31T00:40:20.178362Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
-"hot_score": 7.5,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 7
-},
-{
-"story_id": "b302368caa39",
-"primary_title": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%",
-"primary_url": "https://www.amz123.com/kx/nd6ey9cM",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.15,
-"category": "not_cross",
-"items": [
-{
-"id": "9aa9148dd135b0c190ff409ed14008c332440bd5",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%",
-"url": "https://www.ennews.com/news-147539.html",
-"published_at": "2026-10-30T17:10:08Z",
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%"
-},
-{
-"id": "7ae778c34f2b411aae60304439358db08871e428",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%",
-"url": "https://www.amz123.com/kx/nd6ey9cM",
-"published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "Allegro披露波兰线上消费趋势，椰子水半年涨84.7%"
-}
-],
-"earliest_time": "2026-10-30T17:10:08Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
-"hot_score": 7.45,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 8
-},
-{
-"story_id": "bd6a53c77864",
-"primary_title": "亚马逊延长德国站年末退货期，当地卖家等待官方细则",
-"primary_url": "https://www.amz123.com/kx/XYW4NBGU",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.97,
-"category": "listing_product",
-"items": [
-{
-"id": "6d6f877e762b53b4325218ef55e2d494262519cf",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊延长德国站年末退货期，当地卖家等待官方细则",
-"url": "https://www.amz123.com/kx/XYW4NBGU",
-"published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
-"cross_is_related": true,
-"cross_score": 0.97,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家",
-"退货"
-],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_market_scores": {
-"eu": 0.36
-},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊延长德国站年末退货期，当地卖家等待官方细则"
-}
-],
-"earliest_time": "2026-10-31T00:40:20.178362Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
-"hot_score": 7.41,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 9
-},
-{
-"story_id": "8b6a003e52a3",
-"primary_title": "亚马逊卖家必看｜账户合规 &amp; 账户健康管理，守住店铺生命线",
+"story_id": "b2668130d7ae",
+"primary_title": "亚马逊卖家必看｜账户合规&amp;账户健康管理，守住店铺生命线",
 "primary_url": "https://www.cifnews.com/article/189816",
 "primary_site_id": "cifnews",
 "item_count": 1,
@@ -641,15 +15,15 @@
 "category": "policy_update",
 "items": [
 {
-"id": "091690ca75f349e0edf6e10a84fdc8e84c7962b9",
+"id": "a1b2967a90f1dda82b9bae8797650a2b3093de39",
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "source": "跨境资讯",
-"title": "亚马逊卖家必看｜账户合规 &amp; 账户健康管理，守住店铺生命线",
+"title": "亚马逊卖家必看｜账户合规&amp;账户健康管理，守住店铺生命线",
 "url": "https://www.cifnews.com/article/189816",
 "published_at": null,
-"first_seen_at": "2026-10-31T00:40:20.178362Z",
-"last_seen_at": "2026-10-31T00:40:20.178362Z",
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
 "cross_is_related": true,
 "cross_score": 0.96,
 "cross_label": "policy_update",
@@ -667,14 +41,431 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊卖家必看｜账户合规 &amp; 账户健康管理，守住店铺生命线"
+"title_zh": "亚马逊卖家必看｜账户合规&amp;账户健康管理，守住店铺生命线"
 }
 ],
-"earliest_time": "2026-10-31T00:40:20.178362Z",
-"latest_time": "2026-10-31T00:40:20.178362Z",
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
 "hot_score": 7.38,
 "freshness_bonus": 2.0,
-"age_hours": 0.05,
+"age_hours": 0.01,
+"rank": 1
+},
+{
+"story_id": "b981fa45973c",
+"primary_title": "5年亚马逊老运营单干求助｜10 万启动资金，深耕厨房木质小而美产品，求曹县工厂 & 小卖家起步建议",
+"primary_url": "https://www.wearesellers.com/question/117161",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.75,
+"category": "listing_product",
+"items": [
+{
+"id": "66750914a4807be88531c55e4abf34a89be705f7",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "5年亚马逊老运营单干求助｜10 万启动资金，深耕厨房木质小而美产品，求曹县工厂 & 小卖家起步建议",
+"url": "https://www.wearesellers.com/question/117161",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "5年亚马逊老运营单干求助｜10 万启动资金，深耕厨房木质小而美产品，求曹县工厂 & 小卖家起步建议"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.75,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 2
+},
+{
+"story_id": "c13ba6886fb9",
+"primary_title": "亚马逊美国站放宽入库时限，30至45天入仓缺陷费将自动退还",
+"primary_url": "https://www.amz123.com/kx/jSdFAkwe",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.74,
+"category": "general",
+"items": [
+{
+"id": "9f380bf5e10653bbe88c75092595d92d82bf8d9a",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美国站放宽入库时限，30至45天入仓缺陷费将自动退还",
+"url": "https://www.amz123.com/kx/jSdFAkwe",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.74,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"us": 0.18
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊美国站放宽入库时限，30至45天入仓缺陷费将自动退还"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.72,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 3
+},
+{
+"story_id": "66af30453be2",
+"primary_title": "马来西亚PayNet经Alipay+开通出境DuitNow二维码跨境支付",
+"primary_url": "https://www.amz123.com/kx/wgzWU12q",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.73,
+"category": "general",
+"items": [
+{
+"id": "080d6eb48917ea34c941d2f58d0bc7e30da164cd",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "马来西亚PayNet经Alipay+开通出境DuitNow二维码跨境支付",
+"url": "https://www.amz123.com/kx/wgzWU12q",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.73,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境支付"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "马来西亚PayNet经Alipay+开通出境DuitNow二维码跨境支付"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.6899999999999995,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 4
+},
+{
+"story_id": "955172631dbb",
+"primary_title": "阿里国际站（武汉）跨境创业孵化中心落户光谷跨境电商产业园",
+"primary_url": "https://www.cifnews.com/article/189820",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"雨果跨境"
+],
+"max_score": 0.72,
+"category": "seller_action",
+"items": [
+{
+"id": "74b685519a3a41f4c99ff73f5b980380abfa48fa",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "阿里国际站（武汉）跨境创业孵化中心落户光谷跨境电商产业园",
+"url": "https://www.cifnews.com/article/189820",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.72,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "阿里国际站（武汉）跨境创业孵化中心落户光谷跨境电商产业园"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.66,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 5
+},
+{
+"story_id": "676f90ad7bf2",
+"primary_title": "Yandex爱丽丝AI渠道卖家数三季度环比增51%",
+"primary_url": "https://www.amz123.com/kx/VwvzV8DU",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.69,
+"category": "platform_trend",
+"items": [
+{
+"id": "18c38aad72ed4c55539b3b116811446ac97b79aa",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Yandex爱丽丝AI渠道卖家数三季度环比增51%",
+"url": "https://www.amz123.com/kx/VwvzV8DU",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_why": "平台趋势动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "Yandex爱丽丝AI渠道卖家数三季度环比增51%"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.57,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 6
+},
+{
+"story_id": "f28fff15eb6b",
+"primary_title": "越南四平台Q3活跃卖家数同比降2.47%，销售额逆势增长5.16%",
+"primary_url": "https://www.amz123.com/kx/GO9Yateq",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.69,
+"category": "platform_trend",
+"items": [
+{
+"id": "5f56a2b2fd47d23fabadd187d00d2ad3052af40f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "越南四平台Q3活跃卖家数同比降2.47%，销售额逆势增长5.16%",
+"url": "https://www.amz123.com/kx/GO9Yateq",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "越南四平台Q3活跃卖家数同比降2.47%，销售额逆势增长5.16%"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.57,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 7
+},
+{
+"story_id": "c202e75ae2e2",
+"primary_title": "尼日利亚金融科技企业Grey推出跨境收款工资账户，覆盖70国300万用户",
+"primary_url": "https://www.amz123.com/kx/X5w99eXT",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.69,
+"category": "general",
+"items": [
+{
+"id": "295302a71f47d4a805908ebb96f9ff0a081e0751",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "尼日利亚金融科技企业Grey推出跨境收款工资账户，覆盖70国300万用户",
+"url": "https://www.amz123.com/kx/X5w99eXT",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "尼日利亚金融科技企业Grey推出跨境收款工资账户，覆盖70国300万用户"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.57,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 8
+},
+{
+"story_id": "aae67a71713d",
+"primary_title": "TikTok Shop马来西亚站上调美妆类目佣金3.24个百分点",
+"primary_url": "https://www.amz123.com/kx/s5j8XaQS",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.67,
+"category": "tiktok",
+"items": [
+{
+"id": "f6cb2df27ff2b4c3ff7f73d0f08d533951540b05",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop马来西亚站上调美妆类目佣金3.24个百分点",
+"url": "https://www.amz123.com/kx/s5j8XaQS",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "tiktok",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_market_scores": {},
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop马来西亚站上调美妆类目佣金3.24个百分点"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.51,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
+"rank": 9
+},
+{
+"story_id": "81726a729c53",
+"primary_title": "Ozon推出卖家自装验货封条服务，FBS模式11月17日上线免费使用",
+"primary_url": "https://www.amz123.com/kx/7BTHDmmb",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.66,
+"category": "seller_action",
+"items": [
+{
+"id": "8b2d5476eb64f3031d06ed0832165cd6843b6f5e",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Ozon推出卖家自装验货封条服务，FBS模式11月17日上线免费使用",
+"url": "https://www.amz123.com/kx/7BTHDmmb",
+"published_at": null,
+"first_seen_at": "2026-11-01T00:41:00.230199Z",
+"last_seen_at": "2026-11-01T00:41:00.230199Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"ozon",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [
+"ozon"
+],
+"cross_sites": [],
+"title_zh": "Ozon推出卖家自装验货封条服务，FBS模式11月17日上线免费使用"
+}
+],
+"earliest_time": "2026-11-01T00:41:00.230199Z",
+"latest_time": "2026-11-01T00:41:00.230199Z",
+"hot_score": 6.48,
+"freshness_bonus": 2.0,
+"age_hours": 0.01,
 "rank": 10
 }
 ]
