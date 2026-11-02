@@ -386,20 +386,23 @@ function renderMarketFilter() {
   }
   sectionEl.style.display = "";
 
-  // 统计各市场条数（基于当前模式数据池，切视图不影响按钮可见性）
+  // 统计各市场条数：全部市场=当前模式池；具体市场=全量池（2026-11-02 方案B：
+  // 指定市场视图已改用全量池，计数必须同源——否则本土源市场如AU计数恒为0，按钮被隐藏。
+  // allData 未加载完成时先按模式池渲染，loadAllData 完成后 renderAll 会重渲染修正）
   const base = state.mode === "cross" ? state.itemsAi : state.itemsAll;
   const counts = { all: base.length };
-  base.forEach(it => {
+  const fullBase = state.allDataLoaded ? (state.allDedup ? state.itemsAll : state.itemsAllRaw) : base;
+  fullBase.forEach(it => {
     (it.cross_sites || []).forEach(s => { counts[s] = (counts[s] || 0) + 1; });
   });
 
-  // 按钮：本站优先 / 全部 / 有数据的具体市场（固定顺序，jp/ca 已移除——非运营站点）
+  // 按钮：本站优先 / 全部 / 四个运营市场固定渲染（uk/eu/us/au 均为运营站点，
+  // 周末AU等本土源可能0条，不能因计数0隐藏按钮；jp/ca 已移除——非运营站点）
   const order = ["uk", "eu", "us", "au"];
   let html = `<button class="pill ${state.market === "home" ? "active" : ""}" data-market="home">本站优先</button>`;
   html += `<button class="pill ${state.market === "all" ? "active" : ""}" data-market="all">全部市场 <span class="pill-count">${counts.all || 0}</span></button>`;
   order.forEach(mk => {
-    if (!counts[mk]) return;
-    html += `<button class="pill ${state.market === mk ? "active" : ""}" data-market="${mk}">${MARKETS[mk].name} <span class="pill-count">${counts[mk]}</span></button>`;
+    html += `<button class="pill ${state.market === mk ? "active" : ""}" data-market="${mk}">${MARKETS[mk].name} <span class="pill-count">${counts[mk] || 0}</span></button>`;
   });
   wrap.innerHTML = html;
 
