@@ -1,7 +1,7 @@
 {
-"generated_at": "2026-11-01T00:41:00.230199Z",
+"generated_at": "2026-11-02T00:40:08.825356Z",
 "window_days": 7,
-"total_items": 1086,
+"total_items": 1132,
 "daily_counts": {
 "2026-10-26": 31,
 "2026-10-27": 206,
@@ -9,53 +9,54 @@
 "2026-10-29": 196,
 "2026-10-30": 212,
 "2026-10-31": 183,
-"2026-11-01": 58
+"2026-11-01": 58,
+"2026-11-02": 46
 },
 "source_counts": {
-"amz123": 226,
+"amz123": 235,
 "retailtimes_uk": 118,
 "ennews": 111,
-"lsa_fr": 88,
-"cifnews": 81,
-"hmrc_uk": 74,
-"wearesellers": 72,
-"pymnts_us": 59,
-"insideretail_au": 40,
-"smartcompany_au": 39,
+"lsa_fr": 92,
+"cifnews": 83,
+"hmrc_uk": 82,
+"wearesellers": 79,
+"pymnts_us": 65,
+"insideretail_au": 43,
+"smartcompany_au": 40,
+"amzdh": 26,
 "amazon_newsroom": 24,
 "channelx": 22,
-"amzdh": 22,
 "tamebay": 22,
 "retailbiz_au": 17,
-"amalert": 15,
+"amalert": 16,
 "ecommercemag_fr": 12,
 "modernretail_us": 12,
 "internetretailing_au": 10,
 "ecommercenews": 6,
 "jdn_fr": 4,
 "ecommercenews_nl": 3,
+"shopanbieter_de": 3,
 "gs_amazon": 3,
-"shopanbieter_de": 2,
 "sp_api": 2,
 "ecomengine": 1,
 "amazon_ads": 1
 },
 "label_counts": {
-"general": 158,
-"not_cross": 667,
-"listing_product": 32,
-"compliance_deadline": 3,
-"seller_action": 76,
-"policy_update": 47,
-"advertising": 28,
-"platform_trend": 19,
+"general": 159,
+"not_cross": 701,
+"listing_product": 34,
+"compliance_deadline": 4,
+"seller_action": 79,
+"policy_update": 48,
+"advertising": 29,
+"platform_trend": 21,
 "temu": 8,
-"fee_logistics": 23,
+"fee_logistics": 24,
 "tiktok": 20,
 "domestic_ecommerce_noise": 1,
 "walmart": 4
 },
-"uk_related_count": 245,
+"uk_related_count": 254,
 "top_signals": [
 {
 "title": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元",
@@ -64,6 +65,14 @@
 "score": 1.0,
 "label": "listing_product",
 "time": "2026-10-31T00:40:20.178362Z"
+},
+{
+"title": "亚马逊欧洲站FBA附加费将于11月2日上调至2%，覆盖十国",
+"url": "https://www.amz123.com/kx/JhHXOdr9",
+"site_id": "amz123",
+"score": 1.0,
+"label": "general",
+"time": "2026-11-02T00:40:08.825356Z"
 },
 {
 "title": "亚马逊延长德国站年末退货期，当地卖家等待官方细则",
@@ -88,14 +97,6 @@
 "score": 0.96,
 "label": "policy_update",
 "time": "2026-11-01T00:41:00.230199Z"
-},
-{
-"title": "亚马逊退货新规！7天不处理平台自动退款",
-"url": "https://www.cifnews.com/article/189797",
-"site_id": "cifnews",
-"score": 0.92,
-"label": "policy_update",
-"time": "2026-10-31T00:40:20.178362Z"
 }
 ]
 }
