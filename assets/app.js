@@ -357,12 +357,17 @@ function renderPlatformFilter() {
 
 /* ========== 市场视图筛选 ========== */
 
-/** 市场过滤后的条目池：home=全部（排序分层） all=全部 指定市场=硬过滤 */
+/** 市场过滤后的条目池：home=全部（排序分层） all=全部 指定市场=硬过滤
+ *  2026-11-02 方案B：指定市场视图（uk/eu/au/us）改用全量池——本土源内容
+ *  （AU本土媒体等）大多过不了精选 0.6 阈值，用精选池会导致市场视图长期接近空。
+ *  默认跨境精选流（mode=cross）不受影响，仍走严格阈值。 */
 function marketPool() {
-  const base = state.mode === "cross" ? state.itemsAi : (state.allDedup ? state.itemsAll : state.itemsAllRaw);
   if (state.market && state.market !== "all" && state.market !== "home") {
-    return base.filter(it => (it.cross_sites || []).includes(state.market));
+    // 指定市场：全量池优先（allData 加载完成后 itemsAll 才有数据，加载中回退精选池）
+    const full = state.allDataLoaded ? (state.allDedup ? state.itemsAll : state.itemsAllRaw) : state.itemsAi;
+    return full.filter(it => (it.cross_sites || []).includes(state.market));
   }
+  const base = state.mode === "cross" ? state.itemsAi : (state.allDedup ? state.itemsAll : state.itemsAllRaw);
   return base;
 }
 
@@ -502,7 +507,9 @@ function loadAllData() {
       return r.json();
     })
     .then(data => {
-      state.itemsAllRaw = Array.isArray(data.items) ? data.items : [];
+      // 2026-11-02 fix：v2 payload 的 key 是 items_all_raw（data.items 是旧版兼容兜底）
+      state.itemsAllRaw = Array.isArray(data.items_all_raw) ? data.items_all_raw
+                        : Array.isArray(data.items) ? data.items : [];
       state.totalAllMode = state.itemsAllRaw.length;
       state.itemsAll = dedupItems(state.itemsAllRaw);
       state.allDataLoaded = true;
@@ -538,7 +545,9 @@ function dedupItems(items) {
  * @returns {Array}
  */
 function getFilteredItems() {
-  let items = state.mode === "cross" ? [...state.itemsAi] : (state.allDedup ? [...state.itemsAll] : [...state.itemsAllRaw]);
+  // 2026-11-02 方案B：基底统一走 marketPool()（指定市场视图=全量池硬过滤，
+  // 其余视图=原模式基底），保证筛选pill计数与列表同源
+  let items = [...marketPool()];
 
   // 指定市场视图（uk/eu/au/us 具体键）→ 仅保留该市场信号；home/all 不在此过滤
   if (state.market && state.market !== "all" && state.market !== "home") {
@@ -650,15 +659,21 @@ function renderGroupedByMarket(items, container) {
     { key: "other", name: "其他市场", test: () => true },
   ];
   const frag = document.createDocumentFragment();
+  // 2026-11-02 方案B：本市场层用全量池——本土源内容大多过不了精选阈值，
+  // 用精选池会导致本市场层长期接近空。全球层/其他层维持原基底（精选/当前模式池）。
+  const fullPool = state.allDataLoaded ? (state.allDedup ? state.itemsAll : state.itemsAllRaw) : state.itemsAi;
   layers.forEach(layer => {
-    const layerItems = items.filter(it => {
-      // 逐层消耗：已归属上层的不再进入下层
-      if (layer.key === "other") {
+    let layerItems;
+    if (layer.key === "home") {
+      layerItems = fullPool.filter(it => (it.cross_sites || []).includes(home));
+    } else if (layer.key === "other") {
+      layerItems = items.filter(it => {
         const sites = it.cross_sites || [];
         return sites.length && !sites.includes(home);
-      }
-      return layer.test(it);
-    });
+      });
+    } else {
+      layerItems = items.filter(it => !(it.cross_sites || []).length);
+    }
     if (!layerItems.length) return;
     const section = document.createElement("section");
     section.className = "site-group market-layer";
