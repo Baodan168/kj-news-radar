@@ -1,190 +1,414 @@
 {
-"generated_at": "2026-11-02T00:40:08.825356Z",
+"generated_at": "2026-11-03T00:40:03.825457Z",
 "items": [
 {
-"story_id": "2dbe610a0036",
-"primary_title": "亚马逊欧洲站FBA附加费将于11月2日上调至2%，覆盖十国",
-"primary_url": "https://www.amz123.com/kx/JhHXOdr9",
+"story_id": "90d0c33857b2",
+"primary_title": "亚马逊德国重启生鲜自营配送，三城开通当日达服务",
+"primary_url": "https://www.amz123.com/kx/hzr6ooQD",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.81,
+"category": "fee_logistics",
+"items": [
+{
+"id": "cae69f4600e9bde9babc02bc3b71172bea32f62e",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊在德国三城重启生鲜当日达",
+"url": "https://www.ennews.com/news-147638.html",
+"published_at": "2026-11-02T16:18:51Z",
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊在德国三城重启生鲜当日达"
+},
+{
+"id": "9c761c582ea2c19e08e4f1e27231b66eff867c6b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊德国重启生鲜自营配送，三城开通当日达服务",
+"url": "https://www.amz123.com/kx/hzr6ooQD",
+"published_at": null,
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊德国重启生鲜自营配送，三城开通当日达服务"
+}
+],
+"earliest_time": "2026-11-02T16:18:51Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 9.43,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 1
+},
+{
+"story_id": "3baf3b43b1e9",
+"primary_title": "德国9月进口价格同比涨10.4% 创2022年11月以来新高 能源价格上涨61.8%",
+"primary_url": "https://www.amz123.com/kx/noBRzxqv",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "edfe477eb614daf62bdb1ac1fa4aa8c6fb276bf8",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "德国9月进口价格同比上涨10.4%，创2022年11月以来最大涨幅",
+"url": "https://www.ennews.com/news-147643.html",
+"published_at": "2026-11-02T16:41:56Z",
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国9月进口价格同比上涨10.4%，创2022年11月以来最大涨幅"
+},
+{
+"id": "0d344f041455cfba29ede00be92069607d5c7675",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "德国9月进口价格同比涨10.4% 创2022年11月以来新高 能源价格上涨61.8%",
+"url": "https://www.amz123.com/kx/noBRzxqv",
+"published_at": null,
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "德国9月进口价格同比涨10.4% 创2022年11月以来新高 能源价格上涨61.8%"
+}
+],
+"earliest_time": "2026-11-02T16:41:56Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 2
+},
+{
+"story_id": "4da88dab288e",
+"primary_title": "亚马逊招聘英国汽车电商大客户经理，英国或成其欧洲扩张首个落脚点",
+"primary_url": "https://www.amz123.com/kx/ibwo2iHq",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 1.0,
-"category": "general",
+"max_score": 0.87,
+"category": "seller_action",
 "items": [
 {
-"id": "70ada50a5b5803c3b4a5192b04ecfb0c3a41d732",
+"id": "992f941073ffef0375dac7c94ca61df1f7ba7246",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊欧洲站FBA附加费将于11月2日上调至2%，覆盖十国",
-"url": "https://www.amz123.com/kx/JhHXOdr9",
+"title": "亚马逊招聘英国汽车电商大客户经理，英国或成其欧洲扩张首个落脚点",
+"url": "https://www.amz123.com/kx/ibwo2iHq",
 "published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
 "cross_is_related": true,
-"cross_score": 1.0,
+"cross_score": 0.87,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"电商"
+],
+"cross_why": "UK 市场动态，与英国站业务直接相关",
+"cross_market_scores": {
+"uk": 0.23,
+"eu": 0.23
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"uk",
+"eu"
+],
+"title_zh": "亚马逊招聘英国汽车电商大客户经理，英国或成其欧洲扩张首个落脚点"
+}
+],
+"earliest_time": "2026-11-03T00:40:03.825457Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 7.109999999999999,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 3
+},
+{
+"story_id": "c809b48d42a4",
+"primary_title": "亚马逊Prime当日达超15亿件，Amazon Now覆盖450城，零售利润率持续提升",
+"primary_url": "https://www.amz123.com/kx/fhDMbFiv",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.85,
+"category": "general",
+"items": [
+{
+"id": "62350200aa9e6b38545f8cfea6b2f9a48210ac29",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊Prime当日达超15亿件，Amazon Now覆盖450城，零售利润率持续提升",
+"url": "https://www.amz123.com/kx/fhDMbFiv",
+"published_at": null,
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
+"cross_is_related": true,
+"cross_score": 0.85,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"fba",
+"amazon",
 "亚马逊"
 ],
-"cross_why": "费用调整，直接影响利润率",
-"cross_market_scores": {
-"eu": 0.33
-},
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
 "cross_platforms": [
-"fba",
+"prime",
+"amazon",
 "亚马逊"
 ],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊欧洲站FBA附加费将于11月2日上调至2%，覆盖十国"
+"cross_sites": [],
+"title_zh": "亚马逊Prime当日达超15亿件，Amazon Now覆盖450城，零售利润率持续提升"
 }
 ],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 7.5,
+"earliest_time": "2026-11-03T00:40:03.825457Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 1
+"age_hours": 0.06,
+"rank": 4
 },
 {
-"story_id": "6f8555f53300",
-"primary_title": "亚马逊欧洲五站上新！FBA自愿「退款不退货」来了，低客单卖家重点看",
-"primary_url": "https://www.amzdh.com/kjtt/10605.html",
-"primary_site_id": "amzdh",
+"story_id": "4e48263c860f",
+"primary_title": "XTransfer与中银香港签署跨境支付合作协议，助力外贸企业收款及外汇兑换",
+"primary_url": "https://www.amz123.com/kx/2hCuX6XT",
+"primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"AMZDH"
+"AMZ123"
 ],
-"max_score": 0.9,
+"max_score": 0.85,
+"category": "general",
+"items": [
+{
+"id": "ea118585ffdccd02cc7af9c35e17537cea773611",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "XTransfer与中银香港签署跨境支付合作协议，助力外贸企业收款及外汇兑换",
+"url": "https://www.amz123.com/kx/2hCuX6XT",
+"published_at": null,
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
+"cross_is_related": true,
+"cross_score": 0.85,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"xtransfer",
+"外贸",
+"跨境",
+"跨境支付",
+"外汇"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "XTransfer与中银香港签署跨境支付合作协议，助力外贸企业收款及外汇兑换"
+}
+],
+"earliest_time": "2026-11-03T00:40:03.825457Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 7.05,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 5
+},
+{
+"story_id": "f4f2ed26fa62",
+"primary_title": "对话亚马逊大卖：新消费品牌如何从单站点走向全球多市场",
+"primary_url": "https://www.cifnews.com/article/189822",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"雨果跨境"
+],
+"max_score": 0.84,
 "category": "listing_product",
 "items": [
 {
-"id": "da6ac691ca64404f3f28a562eda18b4e92d8e757",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊欧洲五站上新！FBA自愿「退款不退货」来了，低客单卖家重点看",
-"url": "https://www.amzdh.com/kjtt/10605.html",
+"id": "bd9e552d857f6fd0ab3f71f7f86a828502c58513",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "对话亚马逊大卖：新消费品牌如何从单站点走向全球多市场",
+"url": "https://www.cifnews.com/article/189822",
 "published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
 "cross_is_related": true,
-"cross_score": 0.9,
+"cross_score": 0.84,
 "cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"fba",
-"亚马逊",
-"卖家",
-"卖家",
-"退款",
-"退货"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {
-"eu": 0.36
-},
-"cross_platforms": [
-"fba",
 "亚马逊"
 ],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊欧洲五站上新！FBA自愿「退款不退货」来了，低客单卖家重点看"
-}
-],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 7.2,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 2
-},
-{
-"story_id": "0a69d45aa1f8",
-"primary_title": "亚马逊8.99低价产品广告时好时坏，该如何优化？后续都不知道思路了，后期类似这种情况怎么调整广告，广告费用后期要如何增加？",
-"primary_url": "https://www.wearesellers.com/question/126092",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.79,
-"category": "fee_logistics",
-"items": [
-{
-"id": "76e4b82916150e42aedc53e5420477608a9bae86",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊8.99低价产品广告时好时坏，该如何优化？后续都不知道思路了，后期类似这种情况怎么调整广告，广告费用后期要如何增加？",
-"url": "https://www.wearesellers.com/question/126092",
-"published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "费用调整，直接影响利润率",
+"cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_market_scores": {},
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊8.99低价产品广告时好时坏，该如何优化？后续都不知道思路了，后期类似这种情况怎么调整广告，广告费用后期要如何增加？"
+"title_zh": "对话亚马逊大卖：新消费品牌如何从单站点走向全球多市场"
 }
 ],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 6.87,
+"earliest_time": "2026-11-03T00:40:03.825457Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 7.02,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 3
+"age_hours": 0.06,
+"rank": 6
 },
 {
-"story_id": "249b50a13b77",
-"primary_title": "分享一个亚马逊广告 Skill：输入任意ASIN，一键反推竞品广告架构和广告组,关键词，绝对干货满满",
-"primary_url": "https://www.wearesellers.com/question/126084",
-"primary_site_id": "wearesellers",
+"story_id": "be1d8e6f833b",
+"primary_title": "外汇局就优化经常项目外汇管理征求意见 支付机构可扩展跨境电商等新业态结售汇业务",
+"primary_url": "https://www.amz123.com/kx/UGgsZFEh",
+"primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"知无不言"
+"AMZ123"
 ],
-"max_score": 0.75,
+"max_score": 0.81,
+"category": "seller_action",
+"items": [
+{
+"id": "51de04791acd4eeda58baf16bbc1e02c96ca6371",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "外汇局就优化经常项目外汇管理征求意见 支付机构可扩展跨境电商等新业态结售汇业务",
+"url": "https://www.amz123.com/kx/UGgsZFEh",
+"published_at": null,
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境",
+"跨境电商",
+"电商",
+"外汇"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "外汇局就优化经常项目外汇管理征求意见 支付机构可扩展跨境电商等新业态结售汇业务"
+}
+],
+"earliest_time": "2026-11-03T00:40:03.825457Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 6.93,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 7
+},
+{
+"story_id": "4cf4fd564be0",
+"primary_title": "亚马逊Q3广告业务增速放缓，同比仅增11%",
+"primary_url": "https://www.amz123.com/kx/Dn4gAVBb",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.81,
 "category": "advertising",
 "items": [
 {
-"id": "eda6ab7dcece0d8e13af74ab79f965b4ca8a277e",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "分享一个亚马逊广告 Skill：输入任意ASIN，一键反推竞品广告架构和广告组,关键词，绝对干货满满",
-"url": "https://www.wearesellers.com/question/126084",
+"id": "e5c5602d178b03bf5e6b427116ca0edbc1cf90ea",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊Q3广告业务增速放缓，同比仅增11%",
+"url": "https://www.amz123.com/kx/Dn4gAVBb",
 "published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
 "cross_is_related": true,
-"cross_score": 0.75,
+"cross_score": 0.81,
 "cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"asin"
+"亚马逊"
 ],
 "cross_why": "广告政策/工具变化，影响投放策略",
 "cross_market_scores": {},
@@ -192,41 +416,41 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "分享一个亚马逊广告 Skill：输入任意ASIN，一键反推竞品广告架构和广告组,关键词，绝对干货满满"
+"title_zh": "亚马逊Q3广告业务增速放缓，同比仅增11%"
 }
 ],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 6.75,
+"earliest_time": "2026-11-03T00:40:03.825457Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 6.93,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 4
+"age_hours": 0.06,
+"rank": 8
 },
 {
-"story_id": "a478a3b632f4",
-"primary_title": "Allegro推出“卖家保护计划”：欧洲蓝海不再只拼低价",
-"primary_url": "https://www.amzdh.com/kjtt/10607.html",
-"primary_site_id": "amzdh",
+"story_id": "510dfa7d917e",
+"primary_title": "1小时销售额超200万欧元！这个卖家是如何搞定欧洲消费者",
+"primary_url": "https://www.cifnews.com/article/189829",
+"primary_site_id": "cifnews",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"AMZDH"
+"雨果跨境"
 ],
-"max_score": 0.62,
+"max_score": 0.8,
 "category": "seller_action",
 "items": [
 {
-"id": "bd04dcdc481f1bda7730d6bcd1905c6583436888",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "Allegro推出“卖家保护计划”：欧洲蓝海不再只拼低价",
-"url": "https://www.amzdh.com/kjtt/10607.html",
+"id": "15a14c0705a2b8e5a2da5c0a02430f9ce28caa87",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "1小时销售额超200万欧元！这个卖家是如何搞定欧洲消费者",
+"url": "https://www.cifnews.com/article/189829",
 "published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
 "cross_is_related": true,
-"cross_score": 0.62,
+"cross_score": 0.8,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -241,22 +465,22 @@
 "cross_sites": [
 "eu"
 ],
-"title_zh": "Allegro推出“卖家保护计划”：欧洲蓝海不再只拼低价"
+"title_zh": "1小时销售额超200万欧元！这个卖家是如何搞定欧洲消费者"
 }
 ],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 6.359999999999999,
+"earliest_time": "2026-11-03T00:40:03.825457Z",
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 6.9,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 5
+"age_hours": 0.06,
+"rank": 9
 },
 {
-"story_id": "488f318ec18e",
-"primary_title": "感觉亚马逊的地址很吊诡，注册地址和营业地址是合并的，必选其一，但两个都无法自洽，是我的幻觉吗？",
+"story_id": "94f301bca393",
+"primary_title": "感觉亚马逊的地址很吊诡，注册地址和营业地址是合并的 ，必选其一，但两个都无法自洽，是我的幻觉吗 ？",
 "primary_url": "https://www.wearesellers.com/question/126095",
 "primary_site_id": "wearesellers",
-"item_count": 1,
+"item_count": 2,
 "source_count": 1,
 "source_names": [
 "知无不言"
@@ -274,6 +498,31 @@
 "published_at": null,
 "first_seen_at": "2026-11-02T00:40:08.825356Z",
 "last_seen_at": "2026-11-02T00:40:08.825356Z",
+"cross_sites": [],
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "compliance_deadline",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "合规截止类信号",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"title_zh": "感觉亚马逊的地址很吊诡，注册地址和营业地址是合并的，必选其一，但两个都无法自洽，是我的幻觉吗？"
+},
+{
+"id": "be6c2b8c495720b5724bb10b3dcbfba2ca45600c",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "感觉亚马逊的地址很吊诡，注册地址和营业地址是合并的 ，必选其一，但两个都无法自洽，是我的幻觉吗 ？",
+"url": "https://www.wearesellers.com/question/126095",
+"published_at": null,
+"first_seen_at": "2026-11-03T00:40:03.825457Z",
+"last_seen_at": "2026-11-03T00:40:03.825457Z",
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "compliance_deadline",
@@ -287,297 +536,14 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "感觉亚马逊的地址很吊诡，注册地址和营业地址是合并的，必选其一，但两个都无法自洽，是我的幻觉吗？"
+"title_zh": "感觉亚马逊的地址很吊诡，注册地址和营业地址是合并的 ，必选其一，但两个都无法自洽，是我的幻觉吗 ？"
 }
 ],
 "earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 6.3,
+"latest_time": "2026-11-03T00:40:03.825457Z",
+"hot_score": 6.8,
 "freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 6
-},
-{
-"story_id": "8608831c1a22",
-"primary_title": "TikTok Shop墨西哥站运费政策大改！10月21日生效，卖家成本降了",
-"primary_url": "https://www.amzdh.com/kjtt/10604.html",
-"primary_site_id": "amzdh",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZDH"
-],
-"max_score": 0.6,
-"category": "policy_update",
-"items": [
-{
-"id": "719b814ab0834a28a6a2e2e0ee49601c76b7b9af",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "TikTok Shop墨西哥站运费政策大改！10月21日生效，卖家成本降了",
-"url": "https://www.amzdh.com/kjtt/10604.html",
-"published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"卖家",
-"卖家",
-"政策"
-],
-"cross_why": "平台或监管政策变动，需评估运营影响",
-"cross_market_scores": {},
-"cross_platforms": [
-"tiktok shop"
-],
-"cross_sites": [],
-"title_zh": "TikTok Shop墨西哥站运费政策大改！10月21日生效，卖家成本降了"
-}
-],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 6.3,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 7
-},
-{
-"story_id": "41b373c88bf7",
-"primary_title": "Guidance: Submit your Vaping Products Duty return: service availability and issues",
-"primary_url": "https://www.gov.uk/government/publications/submit-your-vaping-products-duty-return-service-availability-and-issues",
-"primary_site_id": "hmrc_uk",
-"item_count": 5,
-"source_count": 1,
-"source_names": [
-"HMRC 官方"
-],
-"max_score": 0.2,
-"category": "not_cross",
-"items": [
-{
-"id": "1433530fdf054c00613dd8681c00e426e3353268",
-"site_id": "hmrc_uk",
-"site_name": "HMRC 官方",
-"source": "英国税务海关",
-"title": "Submit your Vaping Products Duty return",
-"url": "https://www.gov.uk/guidance/submit-your-vaping-products-duty-return",
-"published_at": "2026-11-01T10:00:02Z",
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.45
-},
-"cross_platforms": [],
-"cross_sites": [
-"uk"
-],
-"title_zh": "提交您的电子烟产品关税申报表"
-},
-{
-"id": "67ccd77f260fc79b1ff9bca135fee40a8329cdd8",
-"site_id": "hmrc_uk",
-"site_name": "HMRC 官方",
-"source": "英国税务海关",
-"title": "Guidance: Submit your Vaping Products Duty return: service availability and issues",
-"url": "https://www.gov.uk/government/publications/submit-your-vaping-products-duty-return-service-availability-and-issues",
-"published_at": "2026-11-01T10:00:02Z",
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.45
-},
-"cross_platforms": [],
-"cross_sites": [
-"uk"
-],
-"title_zh": "指南：提交您的电子烟产品关税申报表：服务可用性和问题"
-},
-{
-"id": "7f3620fdd62ffa0bdd259c7299ed36e44770f6e2",
-"site_id": "hmrc_uk",
-"site_name": "HMRC 官方",
-"source": "英国税务海关",
-"title": "Pay Vaping Products Duty",
-"url": "https://www.gov.uk/guidance/pay-vaping-products-duty",
-"published_at": "2026-11-01T10:00:02Z",
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.45
-},
-"cross_platforms": [],
-"cross_sites": [
-"uk"
-],
-"title_zh": "支付电子烟产品关税"
-},
-{
-"id": "7727bb21e3eab4a819c0fb98f5493a40e64cd94a",
-"site_id": "hmrc_uk",
-"site_name": "HMRC 官方",
-"source": "英国税务海关",
-"title": "Guidance: Pay Vaping Products Duty: service availability and issues",
-"url": "https://www.gov.uk/government/publications/pay-vaping-products-duty-service-availability-and-issues",
-"published_at": "2026-11-01T10:00:02Z",
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.45
-},
-"cross_platforms": [],
-"cross_sites": [
-"uk"
-],
-"title_zh": "指导：付费电子烟产品关税：服务可用性和问题"
-},
-{
-"id": "368136132b378beeac125d994d247eec00c87cdc",
-"site_id": "hmrc_uk",
-"site_name": "HMRC 官方",
-"source": "英国税务海关",
-"title": "How to pay Vaping Products Duty",
-"url": "https://www.gov.uk/guidance/how-to-pay-vaping-products-duty",
-"published_at": "2026-11-01T10:00:02Z",
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.45
-},
-"cross_platforms": [],
-"cross_sites": [
-"uk"
-],
-"title_zh": "如何支付电子烟产品关税"
-}
-],
-"earliest_time": "2026-11-01T10:00:02Z",
-"latest_time": "2026-11-01T10:00:02Z",
-"hot_score": 6.1,
-"freshness_bonus": 1.0,
-"age_hours": 14.7,
-"rank": 8
-},
-{
-"story_id": "bbb0dcc4456b",
-"primary_title": "年终旺季别踩雷！已有212家店铺被冻结",
-"primary_url": "https://www.cifnews.com/article/189818",
-"primary_site_id": "cifnews",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"雨果跨境"
-],
-"max_score": 0.52,
-"category": "platform_trend",
-"items": [
-{
-"id": "536136dc984b157c54ceb91c283c4f005a6ba2fc",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "年终旺季别踩雷！已有212家店铺被冻结",
-"url": "https://www.cifnews.com/article/189818",
-"published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": true,
-"cross_score": 0.52,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"店铺"
-],
-"cross_why": "账号安全类信号，涉及封号/申诉风险",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "年终旺季别踩雷！已有212家店铺被冻结"
-}
-],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 6.0600000000000005,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
-"rank": 9
-},
-{
-"story_id": "d8dc7122ee1e",
-"primary_title": "中秘自贸升级议定书11月1日生效，新增电商等五个章节",
-"primary_url": "https://www.amz123.com/kx/7Gy27zwV",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.49,
-"category": "seller_action",
-"items": [
-{
-"id": "8172250f384cfa8fc38106a24748b4edf40ada70",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "中秘自贸升级议定书11月1日生效，新增电商等五个章节",
-"url": "https://www.amz123.com/kx/7Gy27zwV",
-"published_at": null,
-"first_seen_at": "2026-11-02T00:40:08.825356Z",
-"last_seen_at": "2026-11-02T00:40:08.825356Z",
-"cross_is_related": true,
-"cross_score": 0.49,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商"
-],
-"cross_why": "卖家运营相关信号",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "中秘自贸升级议定书11月1日生效，新增电商等五个章节"
-}
-],
-"earliest_time": "2026-11-02T00:40:08.825356Z",
-"latest_time": "2026-11-02T00:40:08.825356Z",
-"hot_score": 5.97,
-"freshness_bonus": 2.0,
-"age_hours": 0.03,
+"age_hours": 0.06,
 "rank": 10
 }
 ]
