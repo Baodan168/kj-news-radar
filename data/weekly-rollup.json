@@ -1,7 +1,7 @@
 {
-"generated_at": "2026-11-06T00:40:50.615013Z",
+"generated_at": "2026-11-07T00:40:15.155773Z",
 "window_days": 7,
-"total_items": 1052,
+"total_items": 1230,
 "daily_counts": {
 "2026-10-31": 183,
 "2026-11-01": 58,
@@ -9,52 +9,53 @@
 "2026-11-03": 200,
 "2026-11-04": 198,
 "2026-11-05": 167,
-"2026-11-06": 200
+"2026-11-06": 200,
+"2026-11-07": 178
 },
 "source_counts": {
-"amz123": 214,
-"ennews": 114,
-"retailtimes_uk": 114,
+"amz123": 250,
+"retailtimes_uk": 139,
+"ennews": 136,
+"hmrc_uk": 103,
 "lsa_fr": 94,
-"hmrc_uk": 85,
-"cifnews": 71,
-"wearesellers": 68,
-"pymnts_us": 57,
-"insideretail_au": 40,
-"smartcompany_au": 28,
-"amzdh": 21,
-"channelx": 20,
-"tamebay": 20,
-"amazon_newsroom": 17,
-"amalert": 17,
-"retailbiz_au": 15,
-"ecommercemag_fr": 13,
-"modernretail_us": 12,
-"internetretailing_au": 11,
+"cifnews": 91,
+"wearesellers": 78,
+"pymnts_us": 67,
+"insideretail_au": 47,
+"smartcompany_au": 30,
+"channelx": 25,
+"tamebay": 25,
+"amzdh": 25,
+"amazon_newsroom": 19,
+"amalert": 18,
+"retailbiz_au": 18,
+"ecommercemag_fr": 14,
+"modernretail_us": 14,
+"internetretailing_au": 13,
 "jdn_fr": 8,
-"ecommercenews": 4,
-"ecommercenews_nl": 2,
-"shopanbieter_de": 2,
+"ecommercenews": 5,
+"ecommercenews_nl": 3,
+"shopanbieter_de": 3,
 "amazon_ads": 2,
 "gs_amazon": 1,
 "sp_api": 1,
 "marketplace_pulse": 1
 },
 "label_counts": {
-"general": 130,
-"not_cross": 671,
-"advertising": 17,
-"fee_logistics": 30,
-"seller_action": 61,
-"platform_trend": 27,
-"listing_product": 37,
-"policy_update": 42,
+"general": 162,
+"not_cross": 772,
+"advertising": 21,
+"fee_logistics": 33,
+"seller_action": 74,
+"platform_trend": 30,
+"listing_product": 43,
+"policy_update": 56,
 "tiktok": 13,
-"temu": 8,
+"temu": 9,
 "compliance_deadline": 6,
-"walmart": 10
+"walmart": 11
 },
-"uk_related_count": 246,
+"uk_related_count": 298,
 "top_signals": [
 {
 "title": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元",
@@ -73,6 +74,14 @@
 "time": "2026-11-02T00:40:08.825356Z"
 },
 {
+"title": "亚马逊英国站上线英镑钱包，海外卖家可留存英镑直付英国供应商",
+"url": "https://www.amz123.com/kx/yoDEjAIk",
+"site_id": "amz123",
+"score": 0.99,
+"label": "seller_action",
+"time": "2026-11-07T00:40:15.155773Z"
+},
+{
 "title": "亚马逊延长德国站年末退货期，当地卖家等待官方细则",
 "url": "https://www.amz123.com/kx/XYW4NBGU",
 "site_id": "amz123",
@@ -87,14 +96,6 @@
 "score": 0.96,
 "label": "policy_update",
 "time": "2026-10-31T00:40:20.178362Z"
-},
-{
-"title": "亚马逊卖家必看｜账户合规&amp;账户健康管理，守住店铺生命线",
-"url": "https://www.cifnews.com/article/189816",
-"site_id": "cifnews",
-"score": 0.96,
-"label": "policy_update",
-"time": "2026-11-01T00:41:00.230199Z"
 }
 ]
 }
