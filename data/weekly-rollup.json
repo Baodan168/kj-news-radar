@@ -1,70 +1,61 @@
 {
-"generated_at": "2026-11-07T00:40:15.155773Z",
+"generated_at": "2026-11-08T00:40:30.659382Z",
 "window_days": 7,
-"total_items": 1230,
+"total_items": 1102,
 "daily_counts": {
-"2026-10-31": 183,
 "2026-11-01": 58,
 "2026-11-02": 46,
 "2026-11-03": 200,
 "2026-11-04": 198,
 "2026-11-05": 167,
 "2026-11-06": 200,
-"2026-11-07": 178
+"2026-11-07": 178,
+"2026-11-08": 55
 },
 "source_counts": {
-"amz123": 250,
-"retailtimes_uk": 139,
-"ennews": 136,
-"hmrc_uk": 103,
-"lsa_fr": 94,
-"cifnews": 91,
-"wearesellers": 78,
-"pymnts_us": 67,
-"insideretail_au": 47,
-"smartcompany_au": 30,
-"channelx": 25,
-"tamebay": 25,
+"amz123": 252,
+"retailtimes_uk": 128,
+"ennews": 113,
+"hmrc_uk": 88,
+"lsa_fr": 75,
+"cifnews": 75,
+"wearesellers": 75,
+"pymnts_us": 58,
+"insideretail_au": 40,
+"smartcompany_au": 27,
 "amzdh": 25,
-"amazon_newsroom": 19,
-"amalert": 18,
-"retailbiz_au": 18,
-"ecommercemag_fr": 14,
+"channelx": 21,
+"tamebay": 21,
+"amalert": 17,
+"amazon_newsroom": 15,
+"retailbiz_au": 15,
 "modernretail_us": 14,
-"internetretailing_au": 13,
+"ecommercemag_fr": 13,
+"internetretailing_au": 10,
 "jdn_fr": 8,
-"ecommercenews": 5,
-"ecommercenews_nl": 3,
+"ecommercenews": 4,
 "shopanbieter_de": 3,
 "amazon_ads": 2,
-"gs_amazon": 1,
 "sp_api": 1,
-"marketplace_pulse": 1
+"marketplace_pulse": 1,
+"ecommercenews_nl": 1
 },
 "label_counts": {
-"general": 162,
-"not_cross": 772,
-"advertising": 21,
-"fee_logistics": 33,
-"seller_action": 74,
+"general": 150,
+"not_cross": 688,
 "platform_trend": 30,
-"listing_product": 43,
-"policy_update": 56,
-"tiktok": 13,
-"temu": 9,
+"listing_product": 39,
+"seller_action": 65,
+"tiktok": 10,
+"fee_logistics": 29,
+"policy_update": 50,
 "compliance_deadline": 6,
-"walmart": 11
+"walmart": 9,
+"advertising": 18,
+"temu": 8
 },
-"uk_related_count": 298,
+"uk_related_count": 264,
 "top_signals": [
-{
-"title": "亚马逊FBA欧洲五站推出\"退款不退货\"方案，单件门槛最高75欧元",
-"url": "https://www.amz123.com/kx/uTY1xfgl",
-"site_id": "amz123",
-"score": 1.0,
-"label": "listing_product",
-"time": "2026-10-31T00:40:20.178362Z"
-},
 {
 "title": "亚马逊欧洲站FBA附加费将于11月2日上调至2%，覆盖十国",
 "url": "https://www.amz123.com/kx/JhHXOdr9",
@@ -82,20 +73,28 @@
 "time": "2026-11-07T00:40:15.155773Z"
 },
 {
-"title": "亚马逊延长德国站年末退货期，当地卖家等待官方细则",
-"url": "https://www.amz123.com/kx/XYW4NBGU",
+"title": "亚马逊退货退款3.095亿美元集体和解获批，索赔截止日期为12月1日",
+"url": "https://www.amz123.com/kx/gY9F1KeM",
 "site_id": "amz123",
 "score": 0.97,
-"label": "listing_product",
-"time": "2026-10-31T00:40:20.178362Z"
+"label": "policy_update",
+"time": "2026-11-08T00:40:30.659382Z"
 },
 {
-"title": "亚马逊卖家必看｜账户合规 &amp; 账户健康管理，守住店铺生命线",
+"title": "亚马逊卖家必看｜账户合规&amp;账户健康管理，守住店铺生命线",
 "url": "https://www.cifnews.com/article/189816",
 "site_id": "cifnews",
 "score": 0.96,
 "label": "policy_update",
-"time": "2026-10-31T00:40:20.178362Z"
+"time": "2026-11-01T00:41:00.230199Z"
+},
+{
+"title": "【亚马逊卖家注意】2027欧盟电池新规要求将强制执行",
+"url": "https://www.cifnews.com/article/189901",
+"site_id": "cifnews",
+"score": 0.96,
+"label": "policy_update",
+"time": "2026-11-06T00:40:50.615013Z"
 }
 ]
 }
