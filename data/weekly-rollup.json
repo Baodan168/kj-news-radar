@@ -1,7 +1,7 @@
 {
-"generated_at": "2026-11-10T00:40:52.249288Z",
+"generated_at": "2026-11-11T00:40:05.007152Z",
 "window_days": 7,
-"total_items": 1012,
+"total_items": 1210,
 "daily_counts": {
 "2026-11-04": 198,
 "2026-11-05": 167,
@@ -9,51 +9,53 @@
 "2026-11-07": 178,
 "2026-11-08": 55,
 "2026-11-09": 36,
-"2026-11-10": 178
+"2026-11-10": 178,
+"2026-11-11": 198
 },
 "source_counts": {
-"amz123": 216,
-"retailtimes_uk": 130,
-"ennews": 112,
-"hmrc_uk": 80,
-"wearesellers": 69,
-"cifnews": 67,
-"pymnts_us": 57,
+"amz123": 254,
+"retailtimes_uk": 155,
+"ennews": 134,
+"hmrc_uk": 95,
+"cifnews": 87,
+"wearesellers": 81,
+"pymnts_us": 67,
+"insideretail_au": 48,
 "lsa_fr": 47,
-"insideretail_au": 39,
-"amzdh": 31,
-"smartcompany_au": 28,
-"channelx": 19,
-"amazon_newsroom": 17,
-"retailbiz_au": 17,
-"tamebay": 15,
-"amalert": 13,
-"modernretail_us": 13,
-"ecommercemag_fr": 12,
-"internetretailing_au": 10,
+"amzdh": 35,
+"smartcompany_au": 34,
+"channelx": 26,
+"tamebay": 25,
+"retailbiz_au": 22,
+"amazon_newsroom": 19,
+"amalert": 16,
+"internetretailing_au": 15,
+"modernretail_us": 15,
+"ecommercemag_fr": 13,
 "jdn_fr": 8,
-"ecommercenews": 5,
+"ecommercenews": 6,
 "shopanbieter_de": 2,
 "ecommercenews_nl": 2,
 "sp_api": 1,
 "marketplace_pulse": 1,
-"gs_amazon": 1
+"gs_amazon": 1,
+"amazon_ads": 1
 },
 "label_counts": {
-"general": 133,
-"fee_logistics": 25,
-"not_cross": 640,
-"policy_update": 51,
+"general": 165,
+"fee_logistics": 26,
+"not_cross": 768,
+"policy_update": 60,
 "walmart": 8,
-"listing_product": 40,
-"platform_trend": 22,
+"listing_product": 47,
+"platform_trend": 28,
 "temu": 9,
-"seller_action": 54,
-"tiktok": 8,
-"advertising": 19,
-"compliance_deadline": 3
+"seller_action": 63,
+"tiktok": 10,
+"advertising": 22,
+"compliance_deadline": 4
 },
-"uk_related_count": 253,
+"uk_related_count": 309,
 "top_signals": [
 {
 "title": "亚马逊英国站上线英镑钱包，海外卖家可留存英镑直付英国供应商",
@@ -62,6 +64,14 @@
 "score": 0.99,
 "label": "seller_action",
 "time": "2026-11-07T00:40:15.155773Z"
+},
+{
+"title": "关于独立站的两个问题：欧洲Shopify独立站不交VAT的话，客户要求开0%税务发票如何解决？独立站订单通过亚马逊多渠道配送，长期操作是否会有什么影响？",
+"url": "https://www.wearesellers.com/question/126408",
+"site_id": "wearesellers",
+"score": 0.99,
+"label": "policy_update",
+"time": "2026-11-11T00:40:05.007152Z"
 },
 {
 "title": "亚马逊退货退款3.095亿美元集体和解获批，索赔截止日期为12月1日",
@@ -86,14 +96,6 @@
 "score": 0.93,
 "label": "policy_update",
 "time": "2026-11-04T00:40:58.683648Z"
-},
-{
-"title": "亚马逊上调2027年卖家费用，每件平均多收19美分，1月15日起生效",
-"url": "https://www.amz123.com/kx/EWOXVkYm",
-"site_id": "amz123",
-"score": 0.93,
-"label": "fee_logistics",
-"time": "2026-11-06T00:40:50.615013Z"
 }
 ]
 }
