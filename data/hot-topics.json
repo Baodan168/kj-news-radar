@@ -1,6 +1,78 @@
 {
-"generated_at": "2026-11-12T00:40:13.632836Z",
+"generated_at": "2026-11-13T00:40:04.646794Z",
 "items": [
+{
+"story_id": "62b7fc18a495",
+"primary_title": "亚马逊文艺复兴腰包皮带近30天销量499件，售价26.49美元",
+"primary_url": "https://www.amz123.com/kx/XQHTw65i",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.66,
+"category": "general",
+"items": [
+{
+"id": "fc453c6a12e93bf260cee9444c443fb5378a1777",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "亚马逊文艺复兴腰包皮带近30天销量499件 售价26.49美元",
+"url": "https://www.ennews.com/news-148533.html",
+"published_at": "2026-11-12T17:37:52Z",
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": true,
+"cross_score": 0.61,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊文艺复兴腰包皮带近30天销量499件 售价26.49美元"
+},
+{
+"id": "a86f410c42235a0a7968cffea989c629cfde662d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊文艺复兴腰包皮带近30天销量499件，售价26.49美元",
+"url": "https://www.amz123.com/kx/XQHTw65i",
+"published_at": null,
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊文艺复兴腰包皮带近30天销量499件，售价26.49美元"
+}
+],
+"earliest_time": "2026-11-12T17:37:52Z",
+"latest_time": "2026-11-13T00:40:04.646794Z",
+"hot_score": 8.98,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 1
+},
 {
 "story_id": "a645d8f724ab",
 "primary_title": "Guidance: Fulfilment House Due Diligence Scheme: service availability and issues",
@@ -11,7 +83,7 @@
 "source_names": [
 "HMRC 官方"
 ],
-"max_score": 0.74,
+"max_score": 0.69,
 "category": "not_cross",
 "items": [
 {
@@ -24,6 +96,9 @@
 "published_at": "2026-11-11T10:16:06Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": false,
 "cross_score": 0.2,
 "cross_label": "not_cross",
@@ -34,9 +109,7 @@
 "uk": 0.45
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-]
+"title_zh": "指南：一站式工会计划：服务可用性和问题"
 },
 {
 "id": "420c963181ff642b76580157b9e2197792ccb99c",
@@ -48,8 +121,11 @@
 "published_at": "2026-11-11T10:24:43Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": true,
-"cross_score": 0.74,
+"cross_score": 0.69,
 "cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -60,9 +136,6 @@
 "uk": 0.65
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "指南：增值税进口一站式申报机制：服务可用性和问题"
 },
 {
@@ -75,6 +148,9 @@
 "published_at": "2026-11-11T15:11:54Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": false,
 "cross_score": 0.2,
 "cross_label": "not_cross",
@@ -85,9 +161,7 @@
 "uk": 0.45
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-]
+"title_zh": "指南：经济犯罪征费：服务可用性和问题"
 },
 {
 "id": "a420048b5a6121aeb9a6e0e129dfdca24feb0c17",
@@ -99,6 +173,9 @@
 "published_at": "2026-11-11T15:18:41Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": false,
 "cross_score": 0.2,
 "cross_label": "not_cross",
@@ -109,9 +186,7 @@
 "uk": 0.45
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-]
+"title_zh": "指南：反洗钱：服务可用性和问题"
 },
 {
 "id": "d869875544fdeb287941059abe4428d64d3fde51",
@@ -123,6 +198,9 @@
 "published_at": "2026-11-11T15:29:51Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": false,
 "cross_score": 0.2,
 "cross_label": "not_cross",
@@ -133,9 +211,6 @@
 "uk": 0.45
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "指南：慈善机构：服务可用性和问题"
 },
 {
@@ -148,6 +223,9 @@
 "published_at": "2026-11-11T15:32:53Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": false,
 "cross_score": 0.2,
 "cross_label": "not_cross",
@@ -158,9 +236,6 @@
 "uk": 0.45
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "指南：软饮料行业税：服务可用性和问题"
 },
 {
@@ -173,6 +248,9 @@
 "published_at": "2026-11-11T15:36:17Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": false,
 "cross_score": 0.2,
 "cross_label": "not_cross",
@@ -183,9 +261,6 @@
 "uk": 0.45
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "指南：与雇佣相关的证券：服务可用性和问题"
 },
 {
@@ -198,6 +273,9 @@
 "published_at": "2026-11-11T17:24:31Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": false,
 "cross_score": 0.2,
 "cross_label": "not_cross",
@@ -208,18 +286,194 @@
 "uk": 0.45
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "指南：履行中心尽职调查计划：服务可用性和问题"
 }
 ],
 "earliest_time": "2026-11-11T10:16:06Z",
 "latest_time": "2026-11-11T17:24:31Z",
-"hot_score": 9.219999999999999,
-"freshness_bonus": 1.0,
-"age_hours": 7.32,
-"rank": 1
+"hot_score": 8.57,
+"freshness_bonus": 0.5,
+"age_hours": 31.31,
+"rank": 2
+},
+{
+"story_id": "1ae525d506dc",
+"primary_title": "亚马逊AWD德国站新增非泛欧模式，欧洲仓储费限免至年底",
+"primary_url": "https://www.amz123.com/kx/DQjouB39",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 1.0,
+"category": "fee_logistics",
+"items": [
+{
+"id": "e3d7ad38954bb1eb0ec0112677fd450c70c42a55",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊AWD德国站新增非泛欧模式，欧洲仓储费限免至年底",
+"url": "https://www.amz123.com/kx/DQjouB39",
+"published_at": null,
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"仓储"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_market_scores": {
+"eu": 0.38
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊AWD德国站新增非泛欧模式，欧洲仓储费限免至年底"
+}
+],
+"earliest_time": "2026-11-13T00:40:04.646794Z",
+"latest_time": "2026-11-13T00:40:04.646794Z",
+"hot_score": 7.5,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 3
+},
+{
+"story_id": "00c615992ec0",
+"primary_title": "阳明海运第三季财报：税后净利185.7亿台币，为前两季合计的2.6倍",
+"primary_url": "https://www.amz123.com/kx/EAyfHCOj",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "f07fb7da0018bff8f50a20d106c8e5d3e7c8d849",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "阳明海运通过第三季税后净利185.7亿台币",
+"url": "https://www.ennews.com/news-148527.html",
+"published_at": "2026-11-12T17:00:19Z",
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "阳明海运通过第三季税后净利185.7亿台币"
+},
+{
+"id": "f5a2edace7feb7ceb47e8918b4036dcd2c2a3b98",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "阳明海运第三季财报：税后净利185.7亿台币，为前两季合计的2.6倍",
+"url": "https://www.amz123.com/kx/EAyfHCOj",
+"published_at": null,
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "税务/关税变动，影响成本核算",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "阳明海运第三季财报：税后净利185.7亿台币，为前两季合计的2.6倍"
+}
+],
+"earliest_time": "2026-11-12T17:00:19Z",
+"latest_time": "2026-11-13T00:40:04.646794Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 4
+},
+{
+"story_id": "2ab6d19e40fe",
+"primary_title": "MSC发布12月欧线运价公告：北欧4600美元、西地中海6500美元，12月1日起生效",
+"primary_url": "https://www.amz123.com/kx/FDYLbMyV",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.15,
+"category": "not_cross",
+"items": [
+{
+"id": "26e1f93e511e2f2a1bec8c218fad0b03564a2e49",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "MSC挂出12月欧线运价公告：12月1日生效",
+"url": "https://www.ennews.com/news-148529.html",
+"published_at": "2026-11-12T17:10:17Z",
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "MSC挂出12月欧线运价公告：12月1日生效"
+},
+{
+"id": "4a76aef5068d84565136ea6568ae608ee6fef53f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "MSC发布12月欧线运价公告：北欧4600美元、西地中海6500美元，12月1日起生效",
+"url": "https://www.amz123.com/kx/FDYLbMyV",
+"published_at": null,
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "MSC发布12月欧线运价公告：北欧4600美元、西地中海6500美元，12月1日起生效"
+}
+],
+"earliest_time": "2026-11-12T17:10:17Z",
+"latest_time": "2026-11-13T00:40:04.646794Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 5
 },
 {
 "story_id": "6d107ef7cb80",
@@ -245,6 +499,7 @@
 "published_at": "2026-11-11T17:25:31Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -257,7 +512,6 @@
 "cross_platforms": [
 "wildberries"
 ],
-"cross_sites": [],
 "title_zh": "Wildberries：俄消费者对白俄罗斯婴幼儿商品需求增超四倍"
 },
 {
@@ -270,6 +524,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
 "last_seen_at": "2026-11-12T00:40:13.632836Z",
+"cross_sites": [],
 "cross_is_related": false,
 "cross_score": 0.15,
 "cross_label": "not_cross",
@@ -278,363 +533,217 @@
 "cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "俄罗斯消费者对白俄罗斯婴幼儿用品需求同比增长超四倍"
 }
 ],
 "earliest_time": "2026-11-11T17:25:31Z",
 "latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 8.8,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 2
-},
-{
-"story_id": "cceea7bc7b1a",
-"primary_title": "Walmart在孟菲斯开通无人机配送，最快30分钟送达",
-"primary_url": "https://www.amz123.com/kx/NBUUY7nB",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.44,
-"category": "fee_logistics",
-"items": [
-{
-"id": "c3770db92b9bde7ce0dd535c64a98a14497424c9",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "Walmart在孟菲斯开通无人机配送 30分钟送达",
-"url": "https://www.ennews.com/news-148421.html",
-"published_at": "2026-11-11T17:17:28Z",
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"walmart"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {},
-"cross_platforms": [
-"walmart"
-],
-"cross_sites": [],
-"title_zh": "Walmart在孟菲斯开通无人机配送 30分钟送达"
-},
-{
-"id": "ff4fa80fcc313f68c5d3132aa7879c9c65f1deb7",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "Walmart在孟菲斯开通无人机配送，最快30分钟送达",
-"url": "https://www.amz123.com/kx/NBUUY7nB",
-"published_at": null,
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"walmart"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {},
-"cross_platforms": [
-"walmart"
-],
-"cross_sites": [],
-"title_zh": "Walmart在孟菲斯开通无人机配送，最快30分钟送达"
-}
-],
-"earliest_time": "2026-11-11T17:17:28Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 8.32,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 3
-},
-{
-"story_id": "3ad855be0543",
-"primary_title": "四大货代三季度营收齐增，DHL快递利润增近50%",
-"primary_url": "https://www.amz123.com/kx/dlxZu6D9",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.43,
-"category": "platform_trend",
-"items": [
-{
-"id": "68ccba3aefd71f705062c485b30e9a8d0f840095",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "航空货运走强，全球四大货代三季度营收齐增长",
-"url": "https://www.ennews.com/news-148423.html",
-"published_at": "2026-11-11T17:35:01Z",
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.34,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"货运"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "航空货运走强，全球四大货代三季度营收齐增长"
-},
-{
-"id": "a846e694ef21657ae72b558c3e8502bd7cd1d447",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "四大货代三季度营收齐增，DHL快递利润增近50%",
-"url": "https://www.amz123.com/kx/dlxZu6D9",
-"published_at": null,
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.43,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"dhl",
-"快递"
-],
-"cross_why": "平台趋势动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "四大货代三季度营收齐增，DHL快递利润增近50%"
-}
-],
-"earliest_time": "2026-11-11T17:35:01Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 8.29,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 4
-},
-{
-"story_id": "5d65a6c0693a",
-"primary_title": "日本公平交易委员会认定亚马逊整改计划，推荐报价规则须调整",
-"primary_url": "https://www.amz123.com/kx/mGeA5GWY",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.89,
-"category": "policy_update",
-"items": [
-{
-"id": "45c883c43cf3581000bb8ba8648ce9c39af4a8fa",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "日本公平交易委员会认定亚马逊整改计划，推荐报价规则须调整",
-"url": "https://www.amz123.com/kx/mGeA5GWY",
-"published_at": null,
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.89,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "政策相关更新",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"jp"
-],
-"title_zh": "日本公平交易委员会认定亚马逊整改计划，推荐报价规则须调整"
-}
-],
-"earliest_time": "2026-11-12T00:40:13.632836Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 7.17,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 5
-},
-{
-"story_id": "65a18b0cf523",
-"primary_title": "对标亚马逊？欧洲新平台开放21国，中国卖家机会来了",
-"primary_url": "https://www.cifnews.com/article/190040",
-"primary_site_id": "cifnews",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"雨果跨境"
-],
-"max_score": 0.88,
-"category": "seller_action",
-"items": [
-{
-"id": "bde64db410404852982029abc5d3c4e40a0a0545",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "对标亚马逊？欧洲新平台开放21国，中国卖家机会来了",
-"url": "https://www.cifnews.com/article/190040",
-"published_at": null,
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.88,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"卖家",
-"卖家"
-],
-"cross_why": "卖家运营相关信号",
-"cross_market_scores": {
-"eu": 0.23
-},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "对标亚马逊？欧洲新平台开放21国，中国卖家机会来了"
-}
-],
-"earliest_time": "2026-11-12T00:40:13.632836Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 7.140000000000001,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
+"hot_score": 7.3,
+"freshness_bonus": 0.5,
+"age_hours": 24.05,
 "rank": 6
 },
 {
-"story_id": "b586ebfe3203",
-"primary_title": "【雨果快报】TikTok Shop美国试点付费会员月费9.99美元，低于Prime；中国前10月顺差再破万亿美元",
-"primary_url": "https://www.cifnews.com/article/190062",
-"primary_site_id": "cifnews",
-"item_count": 1,
+"story_id": "aa67705aaa9a",
+"primary_title": "TikTok Shop印尼站扩大无理由退货类目，11月13日正式生效",
+"primary_url": "https://www.amz123.com/kx/1VSO9ZR9",
+"primary_site_id": "amz123",
+"item_count": 2,
 "source_count": 1,
 "source_names": [
-"雨果跨境"
+"AMZ123"
 ],
-"max_score": 0.84,
-"category": "tiktok",
+"max_score": 0.71,
+"category": "listing_product",
 "items": [
 {
-"id": "df2f093e9db47763a6de2c1743756c75c8f4e93d",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "【雨果快报】TikTok Shop美国试点付费会员月费9.99美元，低于Prime；中国前10月顺差再破万亿美元",
-"url": "https://www.cifnews.com/article/190062",
+"id": "f7f2e04b5c6f149f0c98380b4a2b5682ef54172c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop印尼站扩大无理由退货范围，服装鞋靴类目承压",
+"url": "https://www.amz123.com/kx/Skzqqssb",
 "published_at": null,
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
 "cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "tiktok",
+"cross_score": 0.63,
+"cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"tiktok shop"
+"tiktok shop",
+"退货"
 ],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"us": 0.18
-},
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
 "cross_platforms": [
-"prime",
 "tiktok shop"
 ],
-"cross_sites": [
-"us"
+"cross_sites": [],
+"title_zh": "TikTok Shop印尼站扩大无理由退货范围，服装鞋靴类目承压"
+},
+{
+"id": "c5e6559beda5a7dd397044bddaa5e65b65084a9d",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "TikTok Shop印尼站扩大无理由退货类目，11月13日正式生效",
+"url": "https://www.amz123.com/kx/1VSO9ZR9",
+"published_at": null,
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"tiktok shop",
+"退货"
 ],
-"title_zh": "【雨果快报】TikTok Shop美国试点付费会员月费9.99美元，低于Prime；中国前10月顺差再破万亿美元"
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
+"cross_platforms": [
+"tiktok shop"
+],
+"cross_sites": [],
+"title_zh": "TikTok Shop印尼站扩大无理由退货类目，11月13日正式生效"
 }
 ],
-"earliest_time": "2026-11-12T00:40:13.632836Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 7.02,
+"earliest_time": "2026-11-13T00:40:04.646794Z",
+"latest_time": "2026-11-13T00:40:04.646794Z",
+"hot_score": 7.13,
 "freshness_bonus": 2.0,
 "age_hours": 0.06,
 "rank": 7
 },
 {
-"story_id": "34dd0ec66988",
-"primary_title": "知无不言 | 同城会 11-12 月活动推荐，主题涵盖亚马逊广告与选品、AI自动化、TikTok Shop及沃尔玛运营……",
-"primary_url": "https://www.wearesellers.com/question/126434",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
+"story_id": "fd4473321def",
+"primary_title": "November Updates to Listing Attribute Usage and Enumeration Values",
+"primary_url": "https://amalert.co.uk/updates/november-updates-to-listing-attribute-usage-and-enumeration-values-f2fb96cb",
+"primary_site_id": "amalert",
+"item_count": 2,
+"source_count": 2,
 "source_names": [
-"知无不言"
+"SP-API Changelog",
+"Amalert UK"
 ],
-"max_score": 0.83,
-"category": "advertising",
+"max_score": 0.49,
+"category": "listing_product",
 "items": [
 {
-"id": "90a34db2012c78f8168435445da020cc1ae82c7c",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "知无不言 | 同城会 11-12 月活动推荐，主题涵盖亚马逊广告与选品、AI自动化、TikTok Shop及沃尔玛运营……",
-"url": "https://www.wearesellers.com/question/126434",
-"published_at": null,
+"id": "3e26039104de2b97fd577f834bc0f6e8e9ee5262",
+"site_id": "sp_api",
+"site_name": "SP-API Changelog",
+"source": "SP-API变更",
+"title": "November Updates to Listing Attribute Usage and Enumeration Values",
+"url": "https://developer-docs.amazon/sp-api/changelog/november-updates-to-listing-attribute-usage-and-enumeration-values",
+"published_at": "2026-11-11T21:20:20Z",
 "first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"tiktok shop",
-"亚马逊",
-"沃尔玛",
-"选品"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊",
-"tiktok shop"
-],
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
 "cross_sites": [],
-"title_zh": "知无不言 | 同城会 11-12 月活动推荐，主题涵盖亚马逊广告与选品、AI自动化、TikTok Shop及沃尔玛运营……"
+"cross_is_related": true,
+"cross_score": 0.29,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"listing"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "11 月房源属性使用情况和枚举值更新"
+},
+{
+"id": "b42f10fcff2ed902317fb1d8f1dc6ae01d1a9062",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "November Updates to Listing Attribute Usage and Enumeration Values",
+"url": "https://amalert.co.uk/updates/november-updates-to-listing-attribute-usage-and-enumeration-values-f2fb96cb",
+"published_at": "2026-11-11T21:20:20Z",
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": true,
+"cross_score": 0.49,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"listing"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {
+"uk": 0.58
+},
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "11 月房源属性使用情况和枚举值更新"
 }
 ],
-"earliest_time": "2026-11-12T00:40:13.632836Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 6.99,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
+"earliest_time": "2026-11-11T21:20:20Z",
+"latest_time": "2026-11-11T21:20:20Z",
+"hot_score": 6.97,
+"freshness_bonus": 0.5,
+"age_hours": 27.38,
 "rank": 8
 },
 {
-"story_id": "8a5c9dcd8121",
-"primary_title": "FBA货件已送达亚马逊仓库一个月，至今未开始接收，有卖家遇到过这种情况吗？有没有什么有效的方法可以推动仓库核实货件状态？",
-"primary_url": "https://www.wearesellers.com/question/126446",
+"story_id": "844cb9928e78",
+"primary_title": "FTC与22州更新诉状，指控亚马逊广告竞价隐性加价最高达250%",
+"primary_url": "https://www.amz123.com/kx/uTDEaviP",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.81,
+"category": "advertising",
+"items": [
+{
+"id": "dca19f967f9888176e5f092a00ddb0c840a1953b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "FTC与22州更新诉状，指控亚马逊广告竞价隐性加价最高达250%",
+"url": "https://www.amz123.com/kx/uTDEaviP",
+"published_at": null,
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
+"cross_is_related": true,
+"cross_score": 0.81,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_market_scores": {
+"us": 0.36
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "FTC与22州更新诉状，指控亚马逊广告竞价隐性加价最高达250%"
+}
+],
+"earliest_time": "2026-11-13T00:40:04.646794Z",
+"latest_time": "2026-11-13T00:40:04.646794Z",
+"hot_score": 6.93,
+"freshness_bonus": 2.0,
+"age_hours": 0.06,
+"rank": 9
+},
+{
+"story_id": "fec3d942c107",
+"primary_title": "FBA可售库存突然变成 FC Processing 预留超 1 个月，开case客服说有效期核验已经通过，但库存一直不释放，求大佬支招，感激不尽！",
+"primary_url": "https://www.wearesellers.com/question/126469",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
@@ -645,83 +754,35 @@
 "category": "seller_action",
 "items": [
 {
-"id": "e8cc52e924c666f6dacb5c19921b79d63884ea68",
+"id": "e3d78f04ead8dffc3c4c3245cfb345197698de92",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "FBA货件已送达亚马逊仓库一个月，至今未开始接收，有卖家遇到过这种情况吗？有没有什么有效的方法可以推动仓库核实货件状态？",
-"url": "https://www.wearesellers.com/question/126446",
+"title": "FBA可售库存突然变成 FC Processing 预留超 1 个月，开case客服说有效期核验已经通过，但库存一直不释放，求大佬支招，感激不尽！",
+"url": "https://www.wearesellers.com/question/126469",
 "published_at": null,
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
+"first_seen_at": "2026-11-13T00:40:04.646794Z",
+"last_seen_at": "2026-11-13T00:40:04.646794Z",
 "cross_is_related": true,
 "cross_score": 0.79,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "fba",
-"亚马逊",
-"卖家",
-"卖家"
+"客服",
+"库存"
 ],
 "cross_why": "FBA/物流动态，影响补货和时效",
 "cross_market_scores": {},
 "cross_platforms": [
-"亚马逊",
 "fba"
 ],
 "cross_sites": [],
-"title_zh": "FBA货件已送达亚马逊仓库一个月，至今未开始接收，有卖家遇到过这种情况吗？有没有什么有效的方法可以推动仓库核实货件状态？"
+"title_zh": "FBA可售库存突然变成 FC Processing 预留超 1 个月，开case客服说有效期核验已经通过，但库存一直不释放，求大佬支招，感激不尽！"
 }
 ],
-"earliest_time": "2026-11-12T00:40:13.632836Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
-"hot_score": 6.87,
-"freshness_bonus": 2.0,
-"age_hours": 0.06,
-"rank": 9
-},
-{
-"story_id": "4d86e27f2fbf",
-"primary_title": "FBA没有购物车，提交了申诉也没用，现在偶尔出5-6单，这种情况还有救吗？",
-"primary_url": "https://www.wearesellers.com/question/126426",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.79,
-"category": "general",
-"items": [
-{
-"id": "436f3b5e8a833b1a26c27c5a9e58294cc33219de",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "FBA没有购物车，提交了申诉也没用，现在偶尔出5-6单，这种情况还有救吗？",
-"url": "https://www.wearesellers.com/question/126426",
-"published_at": null,
-"first_seen_at": "2026-11-12T00:40:13.632836Z",
-"last_seen_at": "2026-11-12T00:40:13.632836Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba"
-],
-"cross_why": "账号安全类信号，涉及封号/申诉风险",
-"cross_market_scores": {},
-"cross_platforms": [
-"fba"
-],
-"cross_sites": [],
-"title_zh": "FBA没有购物车，提交了申诉也没用，现在偶尔出5-6单，这种情况还有救吗？"
-}
-],
-"earliest_time": "2026-11-12T00:40:13.632836Z",
-"latest_time": "2026-11-12T00:40:13.632836Z",
+"earliest_time": "2026-11-13T00:40:04.646794Z",
+"latest_time": "2026-11-13T00:40:04.646794Z",
 "hot_score": 6.87,
 "freshness_bonus": 2.0,
 "age_hours": 0.06,
