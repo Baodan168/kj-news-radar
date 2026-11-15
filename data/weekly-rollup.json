@@ -1,24 +1,24 @@
 {
-"generated_at": "2026-11-14T00:40:44.060463Z",
+"generated_at": "2026-11-15T00:40:52.232368Z",
 "window_days": 7,
-"total_items": 1012,
+"total_items": 1014,
 "daily_counts": {
-"2026-11-08": 55,
 "2026-11-09": 36,
 "2026-11-10": 178,
 "2026-11-11": 198,
 "2026-11-12": 168,
 "2026-11-13": 175,
-"2026-11-14": 202
+"2026-11-14": 202,
+"2026-11-15": 57
 },
 "source_counts": {
 "amz123": 237,
-"retailtimes_uk": 130,
+"retailtimes_uk": 129,
 "ennews": 109,
 "hmrc_uk": 75,
-"cifnews": 73,
-"wearesellers": 70,
-"pymnts_us": 57,
+"cifnews": 72,
+"wearesellers": 72,
+"pymnts_us": 59,
 "insideretail_au": 44,
 "smartcompany_au": 33,
 "lsa_fr": 30,
@@ -26,8 +26,8 @@
 "channelx": 20,
 "tamebay": 19,
 "amzdh": 18,
-"amalert": 13,
 "modernretail_us": 12,
+"amalert": 12,
 "amazon_newsroom": 11,
 "internetretailing_au": 10,
 "ecommercemag_fr": 8,
@@ -35,26 +35,26 @@
 "ecommercenews": 6,
 "amazon_ads": 3,
 "ecommercenews_nl": 2,
+"shopanbieter_de": 2,
 "gs_amazon": 1,
 "sp_api": 1,
-"shopanbieter_de": 1,
 "marketplace_pulse": 1
 },
 "label_counts": {
-"not_cross": 652,
-"general": 136,
+"listing_product": 37,
+"general": 140,
+"not_cross": 646,
 "policy_update": 34,
-"advertising": 28,
-"seller_action": 64,
-"compliance_deadline": 5,
+"seller_action": 66,
+"advertising": 27,
 "tiktok": 14,
-"fee_logistics": 17,
 "platform_trend": 22,
-"listing_product": 34,
+"fee_logistics": 18,
 "temu": 2,
+"compliance_deadline": 4,
 "walmart": 4
 },
-"uk_related_count": 251,
+"uk_related_count": 250,
 "top_signals": [
 {
 "title": "亚马逊AWD德国站新增非泛欧模式，欧洲仓储费限免至年底",
@@ -73,12 +73,12 @@
 "time": "2026-11-11T00:40:05.007152Z"
 },
 {
-"title": "亚马逊退货退款3.095亿美元集体和解获批，索赔截止日期为12月1日",
-"url": "https://www.amz123.com/kx/gY9F1KeM",
+"title": "亚马逊2027年FBA大件重新分档，两项处理费叠加最高近40美元",
+"url": "https://www.amz123.com/kx/xOoJJ3Eh",
 "site_id": "amz123",
-"score": 0.97,
-"label": "policy_update",
-"time": "2026-11-08T00:40:30.659382Z"
+"score": 0.93,
+"label": "general",
+"time": "2026-11-15T00:40:52.232368Z"
 },
 {
 "title": "Walmart 开放 AI 代理、Amazon 限制第三方：跨境卖家流量入口正在发生什么",
