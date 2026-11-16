@@ -1,39 +1,51 @@
 {
-"generated_at": "2026-11-15T00:40:52.232368Z",
+"generated_at": "2026-11-16T00:40:50.013498Z",
 "window_hours": 24,
-"total_items": 15,
-"total_items_cross_raw": 27,
-"total_items_raw": 57,
-"total_items_all_mode": 57,
+"total_items": 19,
+"total_items_cross_raw": 37,
+"total_items_raw": 96,
+"total_items_all_mode": 96,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 3392,
+"archive_total": 3314,
 "site_count": 31,
-"source_count": 7,
+"source_count": 10,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 40
+"raw_count": 58
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
-"count": 4,
-"raw_count": 7
+"count": 5,
+"raw_count": 14
+},
+{
+"site_id": "pymnts_us",
+"site_name": "PYMNTS",
+"count": 2,
+"raw_count": 9
 },
 {
 "site_id": "cifnews",
 "site_name": "雨果跨境",
 "count": 2,
-"raw_count": 3
+"raw_count": 6
 },
 {
-"site_id": "pymnts_us",
-"site_name": "PYMNTS",
+"site_id": "smartcompany_au",
+"site_name": "SmartCompany AU",
 "count": 1,
-"raw_count": 3
+"raw_count": 2
+},
+{
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"count": 1,
+"raw_count": 1
 },
 {
 "site_id": "retailtimes_uk",
@@ -45,16 +57,128 @@
 "site_id": "shopanbieter_de",
 "site_name": "Shopanbieter DE",
 "count": 0,
-"raw_count": 1
+"raw_count": 2
 },
 {
 "site_id": "modernretail_us",
 "site_name": "Modern Retail",
 "count": 0,
 "raw_count": 1
+},
+{
+"site_id": "insideretail_au",
+"site_name": "Inside Retail AU",
+"count": 0,
+"raw_count": 1
 }
 ],
 "items": [
+{
+"id": "8e48bd161a224b168637cefac82e00fc86b53095",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "新人别急着烧广告费，先花两个星期看看这个亚马逊官方网站",
+"url": "https://www.wearesellers.com/question/126528",
+"published_at": null,
+"first_seen_at": "2026-11-16T00:40:50.013498Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "advertising",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "新人别急着烧广告费，先花两个星期看看这个亚马逊官方网站"
+},
+{
+"id": "1affb5fa6c6ef8f9d0e2a0b1ab999877c671ab33",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "2026年年尾，亚马逊又在改前台界面了？亚马逊正从「货架」变成「心机导购」。在这个闭环里，卖家的话语权越来越弱，我们越来越像个单纯的供货商",
+"url": "https://www.wearesellers.com/question/126534",
+"published_at": null,
+"first_seen_at": "2026-11-16T00:40:50.013498Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "2026年年尾，亚马逊又在改前台界面了？亚马逊正从「货架」变成「心机导购」。在这个闭环里，卖家的话语权越来越弱，我们越来越像个单纯的供货商"
+},
+{
+"id": "4a2817fac094e3b222bd301330d9fcb5c67c78cc",
+"site_id": "smartcompany_au",
+"site_name": "SmartCompany AU",
+"source": "澳洲商业",
+"title": "Labor’s trust tax reforms could hinge on the Greens’ demand for public list of beneficiaries",
+"url": "https://www.smartcompany.com.au/tax/labors-trust-tax-reforms-could-hinge-on-the-greens-demand-for-public-list-of-beneficiaries",
+"published_at": "2026-11-16T00:30:28Z",
+"first_seen_at": "2026-11-16T00:40:50.013498Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"tax"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"au": 0.5
+},
+"cross_platforms": [],
+"cross_sites": [
+"au"
+],
+"title_zh": "工党的信托税改革可能取决于绿党要求公布受益人名单"
+},
+{
+"id": "f201a3bd23cf6b00006e7300f7820870a14c1443",
+"site_id": "pymnts_us",
+"site_name": "PYMNTS",
+"source": "美国电商支付",
+"title": "UK Tests Cross-Border Settlement With Singapore and Thailand",
+"url": "https://www.pymnts.com/news/cross-border-payments/2026/uk-tests-cross-border-settlement-with-singapore-and-thailand",
+"published_at": "2026-11-15T23:36:45Z",
+"first_seen_at": "2026-11-16T00:40:50.013498Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
+"cross_is_related": true,
+"cross_score": 0.67,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"cross-border"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"us": 0.38
+},
+"cross_platforms": [],
+"cross_sites": [
+"us"
+],
+"title_zh": "英国与新加坡和泰国开展跨境结算测试"
+},
 {
 "id": "475f0764e75721bb7e08f598d47ca617c3a7d3ed",
 "site_id": "amz123",
@@ -65,6 +189,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.93,
 "cross_label": "general",
@@ -76,10 +201,9 @@
 "cross_why": "FBA/物流动态，影响补货和时效",
 "cross_market_scores": {},
 "cross_platforms": [
-"亚马逊",
-"fba"
+"fba",
+"亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊2027年FBA大件重新分档，两项处理费叠加最高近40美元"
 },
 {
@@ -92,6 +216,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.91,
 "cross_label": "advertising",
@@ -107,7 +232,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊review付费广告已经可以开启，测试中：亚马逊首页（Homepage）：买家再次打开亚马逊购物时，可能看到之前购买商品的评价邀请。其他高流量页面：官方确认有这类展示位置，但尚未公开完整的广告位清单"
 },
 {
@@ -120,6 +244,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "seller_action",
@@ -133,7 +258,6 @@
 "cross_why": "卖家运营相关信号",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "非洲电商平台KiKUU宣布停止运营，卖家保证金及年费将按过渡期安排退还"
 },
 {
@@ -146,6 +270,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.85,
 "cross_label": "seller_action",
@@ -160,7 +285,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊质疑435个卖家账户资金被诉讼划转，涉467万美元"
 },
 {
@@ -173,6 +297,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "listing_product",
@@ -185,7 +310,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊品牌旗舰店禁用会员日商标，主图文字同步纳入规范"
 },
 {
@@ -198,6 +322,9 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": true,
 "cross_score": 0.78,
 "cross_label": "policy_update",
@@ -211,9 +338,6 @@
 "uk": 0.38
 },
 "cross_platforms": [],
-"cross_sites": [
-"uk"
-],
 "title_zh": "英国调研：35%消费者因退货政策收紧停止在部分商家购物"
 },
 {
@@ -226,6 +350,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.77,
 "cross_label": "policy_update",
@@ -237,7 +362,6 @@
 "cross_why": "合规截止临近，需立即确认是否受影响",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "印尼个人卖家NIB申请截止日期提前至12月底，持证率不足10%"
 },
 {
@@ -250,6 +374,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.75,
 "cross_label": "tiktok",
@@ -264,7 +389,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊小卖家，想做tiktok，请问下tiktok该开那种店"
 },
 {
@@ -276,7 +400,8 @@
 "url": "https://www.cifnews.com/article/190138",
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
-"last_seen_at": "2026-11-15T00:40:52.232368Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.72,
 "cross_label": "listing_product",
@@ -290,7 +415,6 @@
 "cross_why": "产品/listing 相关更新",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "突发！非洲电商KiKUU宣布停运，卖家分期退款"
 },
 {
@@ -303,6 +427,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -315,7 +440,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊Alexa购物助手扩展至15个国家，短信下单功能全面开放"
 },
 {
@@ -328,6 +452,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "listing_product",
@@ -340,7 +465,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊拟构建全球产品数据图谱以强化AI购物工具"
 },
 {
@@ -352,7 +476,8 @@
 "url": "https://www.cifnews.com/article/190061",
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
-"last_seen_at": "2026-11-15T00:40:52.232368Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -364,7 +489,6 @@
 "cross_why": "卖家运营相关信号",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "营收暴增61%！这个清洁小家电，正在杀入TOP卖家阵营"
 },
 {
@@ -377,6 +501,9 @@
 "published_at": null,
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
 "last_seen_at": "2026-11-15T00:40:52.232368Z",
+"cross_sites": [
+"us"
+],
 "cross_is_related": true,
 "cross_score": 0.6,
 "cross_label": "general",
@@ -391,35 +518,36 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [
-"us"
-],
 "title_zh": "32岁还在做亚马逊印度站精铺，日均300+订单但收入没突破，想转美国站做精品该先跳槽还是先自学？"
 },
 {
-"id": "c8b2864530457737be4598114ace565b435950c3",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "第一次发帖，记录一下做亚马逊的整个历程，有心酸 有彷徨 也有一点小成就：从月薪3.5k的新人做到年销1.5亿、底薪12k，亚马逊路上被辞退无数次，2026年又被15k承诺坑了……",
-"url": "https://www.wearesellers.com/question/126425",
-"published_at": null,
-"first_seen_at": "2026-11-15T00:40:52.232368Z",
-"last_seen_at": "2026-11-15T00:40:52.232368Z",
+"id": "956de9042f6ca9a80d38857e09238cd183440e1d",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Market Basket Analysis report for Turning Amazon Buying Patterns into Predictable Growth",
+"url": "https://amalert.co.uk/updates/market-basket-analysis-report-for-turning-amazon-buying-patterns-into-predictable-growth-ce60d492",
+"published_at": "2026-11-14T11:30:00Z",
+"first_seen_at": "2026-11-16T00:40:50.013498Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
 "cross_is_related": true,
-"cross_score": 0.6,
+"cross_score": 0.66,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊"
+"amazon"
 ],
 "cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
+"cross_market_scores": {
+"uk": 0.4
+},
 "cross_platforms": [
-"亚马逊"
+"amazon"
 ],
-"cross_sites": [],
-"title_zh": "第一次发帖，记录一下做亚马逊的整个历程，有心酸 有彷徨 也有一点小成就：从月薪3.5k的新人做到年销1.5亿、底薪12k，亚马逊路上被辞退无数次，2026年又被15k承诺坑了……"
+"cross_sites": [
+"uk"
+],
+"title_zh": "将亚马逊购买模式转化为可预测增长的市场篮子分析报告"
 },
 {
 "id": "3b90463ee7c8fc634605ff03cb5d71fa2d5691b3",
@@ -430,9 +558,12 @@
 "url": "https://www.pymnts.com/news/mobile-commerce/2026/amazon-expands-alexa-for-shopping-to-15-countries-and-lets-anyone-shop-by-text",
 "published_at": "2026-11-14T00:42:05Z",
 "first_seen_at": "2026-11-15T00:40:52.232368Z",
-"last_seen_at": "2026-11-15T00:40:52.232368Z",
+"last_seen_at": "2026-11-16T00:40:50.013498Z",
+"cross_sites": [
+"us"
+],
 "cross_is_related": true,
-"cross_score": 0.61,
+"cross_score": 0.6,
 "cross_label": "general",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
@@ -444,9 +575,6 @@
 },
 "cross_platforms": [
 "amazon"
-],
-"cross_sites": [
-"us"
 ],
 "title_zh": "亚马逊将Alexa购物功能扩展至15个国家/地区，并允许任何人通过短信购物"
 }
@@ -468,25 +596,11 @@
 "item_count": 11
 },
 {
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"tier": 1,
-"ok": true,
-"item_count": 4
-},
-{
 "site_id": "amazon_ads",
 "site_name": "Amazon Ads Blog",
 "tier": 1,
 "ok": true,
 "item_count": 2
-},
-{
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"tier": 1,
-"ok": true,
-"item_count": 1
 },
 {
 "site_id": "sp_api",
@@ -496,11 +610,18 @@
 "item_count": 1
 },
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
-"tier": 2,
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"tier": 1,
 "ok": true,
-"item_count": 40
+"item_count": 1
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"tier": 1,
+"ok": true,
+"item_count": 0
 },
 {
 "site_id": "cifnews",
@@ -508,20 +629,6 @@
 "tier": 2,
 "ok": true,
 "item_count": 30
-},
-{
-"site_id": "retailtimes_uk",
-"site_name": "Retail Times UK",
-"tier": 2,
-"ok": true,
-"item_count": 25
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"tier": 2,
-"ok": true,
-"item_count": 22
 },
 {
 "site_id": "ecomengine",
@@ -536,6 +643,13 @@
 "tier": 2,
 "ok": true,
 "item_count": 20
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"tier": 2,
+"ok": true,
+"item_count": 18
 },
 {
 "site_id": "kjds365",
@@ -563,95 +677,74 @@
 "site_name": "PYMNTS",
 "tier": 2,
 "ok": true,
-"item_count": 10
+"item_count": 9
 },
 {
-"site_id": "insideretail_au",
-"site_name": "Inside Retail AU",
+"site_id": "retailtimes_uk",
+"site_name": "Retail Times UK",
 "tier": 2,
 "ok": true,
-"item_count": 8
-},
-{
-"site_id": "modernretail_us",
-"site_name": "Modern Retail",
-"tier": 2,
-"ok": true,
-"item_count": 4
-},
-{
-"site_id": "internetretailing_au",
-"site_name": "Internet Retailing AU",
-"tier": 2,
-"ok": true,
-"item_count": 4
-},
-{
-"site_id": "channelx",
-"site_name": "ChannelX",
-"tier": 2,
-"ok": true,
-"item_count": 3
-},
-{
-"site_id": "tamebay",
-"site_name": "TameBay",
-"tier": 2,
-"ok": true,
-"item_count": 3
+"item_count": 2
 },
 {
 "site_id": "smartcompany_au",
 "site_name": "SmartCompany AU",
 "tier": 2,
 "ok": true,
-"item_count": 3
-},
-{
-"site_id": "jdn_fr",
-"site_name": "JDN Retail",
-"tier": 2,
-"ok": true,
 "item_count": 2
-},
-{
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"tier": 2,
-"ok": true,
-"item_count": 1
-},
-{
-"site_id": "ecommercemag_fr",
-"site_name": "EcommerceMag FR",
-"tier": 2,
-"ok": true,
-"item_count": 1
-},
-{
-"site_id": "ecommercenews_nl",
-"site_name": "EcommerceNews NL",
-"tier": 2,
-"ok": true,
-"item_count": 1
-},
-{
-"site_id": "retailbiz_au",
-"site_name": "RetailBiz AU",
-"tier": 2,
-"ok": true,
-"item_count": 1
 },
 {
 "site_id": "shopanbieter_de",
 "site_name": "Shopanbieter DE",
 "tier": 2,
 "ok": true,
+"item_count": 2
+},
+{
+"site_id": "insideretail_au",
+"site_name": "Inside Retail AU",
+"tier": 2,
+"ok": true,
 "item_count": 1
+},
+{
+"site_id": "modernretail_us",
+"site_name": "Modern Retail",
+"tier": 2,
+"ok": true,
+"item_count": 1
+},
+{
+"site_id": "ecommercenews",
+"site_name": "Ecommerce News Europe",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "ecommercemag_fr",
+"site_name": "EcommerceMag FR",
+"tier": 2,
+"ok": true,
+"item_count": 0
 },
 {
 "site_id": "powerretail_au",
 "site_name": "Power Retail AU",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "internetretailing_au",
+"site_name": "Internet Retailing AU",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "jdn_fr",
+"site_name": "JDN Retail",
 "tier": 2,
 "ok": true,
 "item_count": 0
@@ -664,6 +757,41 @@
 "item_count": 0
 },
 {
+"site_id": "ecommercenews_nl",
+"site_name": "EcommerceNews NL",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "retailbiz_au",
+"site_name": "RetailBiz AU",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "channelx",
+"site_name": "ChannelX",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "tamebay",
+"site_name": "TameBay",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "ennews",
+"site_name": "亿恩网",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "tier": 3,
@@ -671,5 +799,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 52
+"total_stories": 76
 }
