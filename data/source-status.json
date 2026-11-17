@@ -1,228 +1,228 @@
 {
-"generated_at": "2026-11-16T00:40:50.013498Z",
+"generated_at": "2026-11-17T00:40:28.899511Z",
 "sites": [
-{
-"site_id": "amazon_ads",
-"site_name": "Amazon Ads Blog",
-"ok": true,
-"item_count": 2,
-"duration_ms": 697
-},
 {
 "site_id": "kjds365",
 "site_name": "跨境电商365",
 "ok": true,
 "item_count": 10,
-"duration_ms": 813
+"duration_ms": 611
+},
+{
+"site_id": "amazon_ads",
+"site_name": "Amazon Ads Blog",
+"ok": true,
+"item_count": 4,
+"duration_ms": 695
 },
 {
 "site_id": "amazon_newsroom",
 "site_name": "Amazon Newsroom",
 "ok": true,
-"item_count": 0,
-"duration_ms": 902
+"item_count": 6,
+"duration_ms": 966
 },
 {
 "site_id": "sp_api",
 "site_name": "SP-API Changelog",
 "ok": true,
 "item_count": 1,
-"duration_ms": 1118
+"duration_ms": 1160
 },
 {
 "site_id": "gs_amazon",
 "site_name": "全球开店",
 "ok": true,
 "item_count": 30,
-"duration_ms": 1342
+"duration_ms": 1385
 },
 {
 "site_id": "ecommercenews",
 "site_name": "Ecommerce News Europe",
 "ok": true,
-"item_count": 0,
-"duration_ms": 1954
-},
-{
-"site_id": "marketplace_pulse",
-"site_name": "Marketplace Pulse",
-"ok": true,
-"item_count": 10,
-"duration_ms": 1745
+"item_count": 1,
+"duration_ms": 797
 },
 {
 "site_id": "amalert",
 "site_name": "Amalert UK",
 "ok": true,
 "item_count": 1,
-"duration_ms": 800
+"duration_ms": 854
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"ok": true,
-"item_count": 30,
-"duration_ms": 5810
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
+"site_id": "marketplace_pulse",
+"site_name": "Marketplace Pulse",
 "ok": true,
 "item_count": 10,
-"duration_ms": 7538
+"duration_ms": 1563
 },
 {
-"site_id": "amazon_seller_blog",
-"site_name": "Amazon卖家博客",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "ok": true,
-"item_count": 11,
-"duration_ms": 6518
+"item_count": 22,
+"duration_ms": 377
 },
 {
-"site_id": "amz123",
-"site_name": "AMZ123",
+"site_id": "channelx",
+"site_name": "ChannelX",
 "ok": true,
-"item_count": 18,
-"duration_ms": 7886
-},
-{
-"site_id": "insideretail_au",
-"site_name": "Inside Retail AU",
-"ok": true,
-"item_count": 1,
-"duration_ms": 2159
+"item_count": 5,
+"duration_ms": 2225
 },
 {
 "site_id": "ecomengine",
 "site_name": "EcomEngine",
 "ok": true,
 "item_count": 20,
-"duration_ms": 7567
-},
-{
-"site_id": "ecommercemag_fr",
-"site_name": "EcommerceMag FR",
-"ok": true,
-"item_count": 0,
-"duration_ms": 1131
+"duration_ms": 3157
 },
 {
 "site_id": "powerretail_au",
 "site_name": "Power Retail AU",
 "ok": true,
 "item_count": 0,
-"duration_ms": 1703
+"duration_ms": 1719
+},
+{
+"site_id": "insideretail_au",
+"site_name": "Inside Retail AU",
+"ok": true,
+"item_count": 10,
+"duration_ms": 2526
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"ok": true,
+"item_count": 30,
+"duration_ms": 5659
+},
+{
+"site_id": "amz123",
+"site_name": "AMZ123",
+"ok": true,
+"item_count": 40,
+"duration_ms": 5725
 },
 {
 "site_id": "hmrc_uk",
 "site_name": "HMRC 官方",
 "ok": true,
-"item_count": 20,
-"duration_ms": 232
-},
-{
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"ok": true,
-"item_count": 25,
-"duration_ms": 7227
+"item_count": 19,
+"duration_ms": 171
 },
 {
 "site_id": "internetretailing_au",
 "site_name": "Internet Retailing AU",
 "ok": true,
-"item_count": 0,
-"duration_ms": 2555
+"item_count": 2,
+"duration_ms": 2747
 },
 {
-"site_id": "jdn_fr",
-"site_name": "JDN Retail",
+"site_id": "ecommercemag_fr",
+"site_name": "EcommerceMag FR",
 "ok": true,
-"item_count": 0,
-"duration_ms": 2558
+"item_count": 5,
+"duration_ms": 823
 },
 {
 "site_id": "lsa_fr",
 "site_name": "LSA Conso",
 "ok": true,
 "item_count": 0,
-"duration_ms": 4406
+"duration_ms": 1200
+},
+{
+"site_id": "jdn_fr",
+"site_name": "JDN Retail",
+"ok": true,
+"item_count": 3,
+"duration_ms": 1412
+},
+{
+"site_id": "amazon_seller_blog",
+"site_name": "Amazon卖家博客",
+"ok": true,
+"item_count": 11,
+"duration_ms": 5721
+},
+{
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"ok": true,
+"item_count": 25,
+"duration_ms": 5400
+},
+{
+"site_id": "retailbiz_au",
+"site_name": "RetailBiz AU",
+"ok": true,
+"item_count": 7,
+"duration_ms": 792
 },
 {
 "site_id": "ecommercenews_nl",
 "site_name": "EcommerceNews NL",
 "ok": true,
 "item_count": 0,
-"duration_ms": 2583
+"duration_ms": 1424
+},
+{
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"ok": true,
+"item_count": 15,
+"duration_ms": 8072
 },
 {
 "site_id": "pymnts_us",
 "site_name": "PYMNTS",
 "ok": true,
-"item_count": 9,
-"duration_ms": 707
-},
-{
-"site_id": "retailtimes_uk",
-"site_name": "Retail Times UK",
-"ok": true,
-"item_count": 2,
-"duration_ms": 4404
-},
-{
-"site_id": "modernretail_us",
-"site_name": "Modern Retail",
-"ok": true,
-"item_count": 1,
-"duration_ms": 1410
-},
-{
-"site_id": "retailbiz_au",
-"site_name": "RetailBiz AU",
-"ok": true,
-"item_count": 0,
-"duration_ms": 2765
-},
-{
-"site_id": "smartcompany_au",
-"site_name": "SmartCompany AU",
-"ok": true,
-"item_count": 2,
-"duration_ms": 4669
+"item_count": 10,
+"duration_ms": 512
 },
 {
 "site_id": "shopanbieter_de",
 "site_name": "Shopanbieter DE",
 "ok": true,
-"item_count": 2,
-"duration_ms": 6079
+"item_count": 1,
+"duration_ms": 3088
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
+"site_id": "modernretail_us",
+"site_name": "Modern Retail",
 "ok": true,
-"item_count": 0,
-"duration_ms": 24940
+"item_count": 3,
+"duration_ms": 2148
+},
+{
+"site_id": "retailtimes_uk",
+"site_name": "Retail Times UK",
+"ok": true,
+"item_count": 25,
+"duration_ms": 4655
 },
 {
 "site_id": "tamebay",
 "site_name": "TameBay",
 "ok": true,
-"item_count": 0,
-"duration_ms": 28934
+"item_count": 5,
+"duration_ms": 8326
 },
 {
-"site_id": "ennews",
-"site_name": "亿恩网",
+"site_id": "smartcompany_au",
+"site_name": "SmartCompany AU",
 "ok": true,
-"item_count": 0,
-"duration_ms": 60871
+"item_count": 9,
+"duration_ms": 13067
 }
 ],
 "failed_sites": [],
 "successful_sites": 31,
-"fetched_raw_items": 205,
-"items_before_topic_filter": 96,
+"fetched_raw_items": 330,
+"items_before_topic_filter": 226,
 "rss_opml": {
 "enabled": false,
 "feed_count": 0,
