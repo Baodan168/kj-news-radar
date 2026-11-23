@@ -1,27 +1,33 @@
 {
-"generated_at": "2026-11-22T00:40:43.881959Z",
+"generated_at": "2026-11-23T00:40:34.089698Z",
 "window_hours": 24,
-"total_items": 10,
-"total_items_cross_raw": 18,
-"total_items_raw": 60,
-"total_items_all_mode": 60,
+"total_items": 16,
+"total_items_cross_raw": 35,
+"total_items_raw": 127,
+"total_items_all_mode": 127,
 "topic_filter": "cross_relevance_scoring_v1_0",
 "cross_relevance_threshold": 0.6,
-"archive_total": 3407,
+"archive_total": 3241,
 "site_count": 31,
-"source_count": 6,
+"source_count": 9,
 "site_stats": [
 {
 "site_id": "amz123",
 "site_name": "AMZ123",
 "count": 8,
-"raw_count": 40
+"raw_count": 80
 },
 {
 "site_id": "wearesellers",
 "site_name": "知无不言",
+"count": 5,
+"raw_count": 23
+},
+{
+"site_id": "pymnts_us",
+"site_name": "PYMNTS",
 "count": 1,
-"raw_count": 9
+"raw_count": 10
 },
 {
 "site_id": "cifnews",
@@ -30,25 +36,193 @@
 "raw_count": 3
 },
 {
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"count": 1,
+"raw_count": 1
+},
+{
 "site_id": "retailtimes_uk",
 "site_name": "Retail Times UK",
 "count": 0,
-"raw_count": 4
-},
-{
-"site_id": "pymnts_us",
-"site_name": "PYMNTS",
-"count": 0,
-"raw_count": 3
+"raw_count": 6
 },
 {
 "site_id": "modernretail_us",
 "site_name": "Modern Retail",
 "count": 0,
 "raw_count": 1
+},
+{
+"site_id": "insideretail_au",
+"site_name": "Inside Retail AU",
+"count": 0,
+"raw_count": 1
+},
+{
+"site_id": "smartcompany_au",
+"site_name": "SmartCompany AU",
+"count": 0,
+"raw_count": 2
 }
 ],
 "items": [
+{
+"id": "2ff72d276e0f4275db3e044867e488282dfc2a2c",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊前台搜索端不展示listing的品牌名称，品牌是R标并且有在亚马逊后台备案过的，不知道为什么突然不展示了。而很多店铺都可以，甚至是那些销量比我店铺差多的",
+"url": "https://www.wearesellers.com/question/126763",
+"published_at": null,
+"first_seen_at": "2026-11-23T00:40:34.089698Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
+"cross_is_related": true,
+"cross_score": 0.79,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"listing",
+"店铺"
+],
+"cross_why": "亚马逊官方后台更新，留意后台通知",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊前台搜索端不展示listing的品牌名称，品牌是R标并且有在亚马逊后台备案过的，不知道为什么突然不展示了。而很多店铺都可以，甚至是那些销量比我店铺差多的"
+},
+{
+"id": "f00bd4cb707010467d227c34ab503bfd6bf4a388",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "商品和食品安全违规行为链接下架如何恢复？当前的申诉思路是：开一个新的卖家支持Case，明确将问题定性为“链接恢复/系统同步”，而非“合规申诉”……",
+"url": "https://www.wearesellers.com/question/126758",
+"published_at": null,
+"first_seen_at": "2026-11-23T00:40:34.089698Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"卖家",
+"卖家",
+"合规"
+],
+"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "商品和食品安全违规行为链接下架如何恢复？当前的申诉思路是：开一个新的卖家支持Case，明确将问题定性为“链接恢复/系统同步”，而非“合规申诉”……"
+},
+{
+"id": "525ccbfbb7b9a879050c43917b9ad88e768f008b",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "非洲跨境平台KiKUU宣布停运，12月31日前可申请退还保证金与技术服务费",
+"url": "https://www.amz123.com/kx/v6geVQpS",
+"published_at": null,
+"first_seen_at": "2026-11-23T00:40:34.089698Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
+"cross_is_related": true,
+"cross_score": 0.69,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"跨境"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "非洲跨境平台KiKUU宣布停运，12月31日前可申请退还保证金与技术服务费"
+},
+{
+"id": "4bedecfb1351be47479ebc5e648940371d4faa0d",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "亚马逊新店铺协议三……准备资料阶段，如果有大佬有协议三的题库可以分享给我看看",
+"url": "https://www.wearesellers.com/question/126762",
+"published_at": null,
+"first_seen_at": "2026-11-23T00:40:34.089698Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"店铺"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊新店铺协议三……准备资料阶段，如果有大佬有协议三的题库可以分享给我看看"
+},
+{
+"id": "e9aa29f5727780fc05e0ea264b225c1e3c44f58c",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "自己折腾亚马逊2年、做了10多个SKU后刚清完尾货，人在国外又没精力盯运营，想找合伙人一起",
+"url": "https://www.wearesellers.com/question/126759",
+"published_at": null,
+"first_seen_at": "2026-11-23T00:40:34.089698Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
+"cross_is_related": true,
+"cross_score": 0.6,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"sku"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "自己折腾亚马逊2年、做了10多个SKU后刚清完尾货，人在国外又没精力盯运营，想找合伙人一起"
+},
+{
+"id": "137e92d4de51b55d979e8793523ae02f32da5f2b",
+"site_id": "pymnts_us",
+"site_name": "PYMNTS",
+"source": "美国电商支付",
+"title": "Amazon Nears $7.5 Billion Purchase of AI Startup Decart",
+"url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart",
+"published_at": "2026-11-22T22:29:27Z",
+"first_seen_at": "2026-11-23T00:40:34.089698Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
+"cross_is_related": true,
+"cross_score": 0.64,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"us": 0.38
+},
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"us"
+],
+"title_zh": "亚马逊接近以75亿美元收购人工智能初创公司Decart"
+},
 {
 "id": "5f839f3b1d55d4ad4af7117bbc328170d33f23df",
 "site_id": "amz123",
@@ -59,6 +233,9 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [
+"uk"
+],
 "cross_is_related": true,
 "cross_score": 1.0,
 "cross_label": "listing_product",
@@ -74,9 +251,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [
-"uk"
-],
 "title_zh": "亚马逊企业购英国上线采购返点，自有品牌最高返4%"
 },
 {
@@ -89,6 +263,9 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [
+"eu"
+],
 "cross_is_related": true,
 "cross_score": 0.89,
 "cross_label": "listing_product",
@@ -103,9 +280,6 @@
 "eu": 0.21
 },
 "cross_platforms": [],
-"cross_sites": [
-"eu"
-],
 "title_zh": "阿里国际站免费开放Accio选品专家，欧洲卖家上架商品增78%"
 },
 {
@@ -117,7 +291,8 @@
 "url": "https://www.wearesellers.com/question/126742",
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
-"last_seen_at": "2026-11-22T00:40:43.881959Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.83,
 "cross_label": "policy_update",
@@ -131,7 +306,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "如今亚马逊撸评非常严重，且差评权重极高的情况下，如何尽可能的合规和稳定积攒种子评论？"
 },
 {
@@ -144,6 +318,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "fee_logistics",
@@ -156,7 +331,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
 "title_zh": "亚马逊在App弹窗反对纽约配送法案，称每单或增加5美元成本"
 },
 {
@@ -169,6 +343,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.81,
 "cross_label": "policy_update",
@@ -182,7 +357,6 @@
 "cross_why": "税务/关税变动，影响成本核算",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "深圳龙岗税务局澄清跨境电商增值税申报规则"
 },
 {
@@ -195,6 +369,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "policy_update",
@@ -209,7 +384,6 @@
 "cross_why": "平台或监管政策变动，需评估运营影响",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "DHL快递在美洲10国推出AI拍照报关功能，数秒生成合规品名描述"
 },
 {
@@ -222,6 +396,9 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [
+"us"
+],
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "general",
@@ -236,9 +413,6 @@
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [
-"us"
-],
 "title_zh": "Instagram在美国上线亚马逊商品推广功能，单条Reels最多可添加30件商品"
 },
 {
@@ -251,6 +425,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.66,
 "cross_label": "listing_product",
@@ -264,7 +439,6 @@
 "cross_platforms": [
 "wildberries"
 ],
-"cross_sites": [],
 "title_zh": "Wildberries恢复提货点退货处理流程：7天未取将销毁，每件收费44卢布"
 },
 {
@@ -277,6 +451,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-22T00:40:43.881959Z",
 "last_seen_at": "2026-11-22T00:40:43.881959Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.64,
 "cross_label": "seller_action",
@@ -288,39 +463,36 @@
 "cross_why": "卖家运营相关信号",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "中国卖家不到20%！恒建家居撬开了新平台的品类缝隙"
 },
 {
-"id": "4803b2c96a85288553a99c2d360f608d2ca25ff8",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "阿里国际电商季度收入同比降8%至257.23亿元，速卖通受欧盟海关改革拖累",
-"url": "https://www.amz123.com/kx/cyyQWg48",
-"published_at": null,
-"first_seen_at": "2026-11-22T00:40:43.881959Z",
-"last_seen_at": "2026-11-22T00:40:43.881959Z",
+"id": "62afb4e8a55fd08e5f620c11d1df37f009d0ad88",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon PPC Freelancer vs Agency: What’s the Real Cost Difference?",
+"url": "https://amalert.co.uk/updates/amazon-ppc-freelancer-vs-agency-what-s-the-real-cost-difference-4a9fa3ba",
+"published_at": "2026-11-21T11:30:00Z",
+"first_seen_at": "2026-11-23T00:40:34.089698Z",
+"last_seen_at": "2026-11-23T00:40:34.089698Z",
 "cross_is_related": true,
-"cross_score": 0.6,
-"cross_label": "policy_update",
+"cross_score": 0.81,
+"cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"海关",
-"速卖通",
-"电商"
+"amazon"
 ],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_why": "广告政策/工具变化，影响投放策略",
 "cross_market_scores": {
-"eu": 0.23
+"uk": 0.58
 },
 "cross_platforms": [
-"速卖通"
+"amazon"
 ],
 "cross_sites": [
-"eu"
+"uk"
 ],
-"title_zh": "阿里国际电商季度收入同比降8%至257.23亿元，速卖通受欧盟海关改革拖累"
+"title_zh": "Amazon PPC 自由职业者与代理商：实际成本有何差异？"
 }
 ],
 "all_mode_data_url": "data/latest-24h-all.json",
@@ -354,15 +526,15 @@
 "item_count": 1
 },
 {
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"tier": 1,
-"ok": true,
-"item_count": 0
-},
-{
 "site_id": "amalert",
 "site_name": "Amalert UK",
+"tier": 1,
+"ok": true,
+"item_count": 1
+},
+{
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
 "tier": 1,
 "ok": true,
 "item_count": 0
@@ -375,27 +547,6 @@
 "item_count": 40
 },
 {
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"tier": 2,
-"ok": true,
-"item_count": 30
-},
-{
-"site_id": "retailtimes_uk",
-"site_name": "Retail Times UK",
-"tier": 2,
-"ok": true,
-"item_count": 25
-},
-{
-"site_id": "ennews",
-"site_name": "亿恩网",
-"tier": 2,
-"ok": true,
-"item_count": 21
-},
-{
 "site_id": "ecomengine",
 "site_name": "EcomEngine",
 "tier": 2,
@@ -405,13 +556,6 @@
 {
 "site_id": "hmrc_uk",
 "site_name": "HMRC 官方",
-"tier": 2,
-"ok": true,
-"item_count": 20
-},
-{
-"site_id": "amzdh",
-"site_name": "AMZDH",
 "tier": 2,
 "ok": true,
 "item_count": 15
@@ -431,13 +575,6 @@
 "item_count": 10
 },
 {
-"site_id": "insideretail_au",
-"site_name": "Inside Retail AU",
-"tier": 2,
-"ok": true,
-"item_count": 10
-},
-{
 "site_id": "pymnts_us",
 "site_name": "PYMNTS",
 "tier": 2,
@@ -445,15 +582,15 @@
 "item_count": 10
 },
 {
-"site_id": "channelx",
-"site_name": "ChannelX",
+"site_id": "amzdh",
+"site_name": "AMZDH",
 "tier": 2,
 "ok": true,
-"item_count": 6
+"item_count": 10
 },
 {
-"site_id": "tamebay",
-"site_name": "TameBay",
+"site_id": "retailtimes_uk",
+"site_name": "Retail Times UK",
 "tier": 2,
 "ok": true,
 "item_count": 6
@@ -463,39 +600,46 @@
 "site_name": "SmartCompany AU",
 "tier": 2,
 "ok": true,
-"item_count": 5
+"item_count": 2
+},
+{
+"site_id": "insideretail_au",
+"site_name": "Inside Retail AU",
+"tier": 2,
+"ok": true,
+"item_count": 1
+},
+{
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"tier": 2,
+"ok": true,
+"item_count": 1
 },
 {
 "site_id": "modernretail_us",
 "site_name": "Modern Retail",
 "tier": 2,
 "ok": true,
-"item_count": 4
-},
-{
-"site_id": "internetretailing_au",
-"site_name": "Internet Retailing AU",
-"tier": 2,
-"ok": true,
 "item_count": 1
 },
 {
-"site_id": "ecommercemag_fr",
-"site_name": "EcommerceMag FR",
+"site_id": "channelx",
+"site_name": "ChannelX",
 "tier": 2,
 "ok": true,
-"item_count": 1
-},
-{
-"site_id": "ecommercenews_nl",
-"site_name": "EcommerceNews NL",
-"tier": 2,
-"ok": true,
-"item_count": 1
+"item_count": 0
 },
 {
 "site_id": "ecommercenews",
 "site_name": "Ecommerce News Europe",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "internetretailing_au",
+"site_name": "Internet Retailing AU",
 "tier": 2,
 "ok": true,
 "item_count": 0
@@ -508,6 +652,13 @@
 "item_count": 0
 },
 {
+"site_id": "lsa_fr",
+"site_name": "LSA Conso",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
 "site_id": "jdn_fr",
 "site_name": "JDN Retail",
 "tier": 2,
@@ -515,8 +666,22 @@
 "item_count": 0
 },
 {
-"site_id": "lsa_fr",
-"site_name": "LSA Conso",
+"site_id": "ecommercemag_fr",
+"site_name": "EcommerceMag FR",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "ecommercenews_nl",
+"site_name": "EcommerceNews NL",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
+"site_id": "tamebay",
+"site_name": "TameBay",
 "tier": 2,
 "ok": true,
 "item_count": 0
@@ -536,6 +701,13 @@
 "item_count": 0
 },
 {
+"site_id": "ennews",
+"site_name": "亿恩网",
+"tier": 2,
+"ok": true,
+"item_count": 0
+},
+{
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "tier": 3,
@@ -543,5 +715,5 @@
 "item_count": 25
 }
 ],
-"total_stories": 45
+"total_stories": 87
 }

@@ -1,58 +1,58 @@
 {
-"generated_at": "2026-11-22T00:40:43.881959Z",
+"generated_at": "2026-11-23T00:40:34.089698Z",
 "window_days": 7,
-"total_items": 1045,
+"total_items": 1055,
 "daily_counts": {
-"2026-11-15": 57,
 "2026-11-16": 39,
 "2026-11-17": 187,
 "2026-11-18": 188,
 "2026-11-19": 157,
 "2026-11-20": 202,
 "2026-11-21": 155,
-"2026-11-22": 60
+"2026-11-22": 60,
+"2026-11-23": 67
 },
 "source_counts": {
 "amz123": 274,
 "retailtimes_uk": 130,
 "ennews": 111,
-"wearesellers": 84,
-"cifnews": 67,
+"wearesellers": 91,
 "hmrc_uk": 67,
-"pymnts_us": 62,
-"insideretail_au": 47,
-"smartcompany_au": 32,
+"pymnts_us": 66,
+"cifnews": 64,
+"insideretail_au": 48,
+"smartcompany_au": 34,
 "amzdh": 26,
 "channelx": 25,
 "tamebay": 25,
 "retailbiz_au": 17,
 "ecommercemag_fr": 15,
-"modernretail_us": 14,
-"amalert": 11,
+"modernretail_us": 13,
+"amalert": 12,
 "amazon_newsroom": 10,
 "internetretailing_au": 10,
 "jdn_fr": 4,
 "ecommercenews": 3,
 "amazon_seller_blog": 3,
-"shopanbieter_de": 2,
 "amazon_ads": 2,
+"shopanbieter_de": 1,
 "ecomengine": 1,
 "gs_amazon": 1,
 "sp_api": 1,
 "ecommercenews_nl": 1
 },
 "label_counts": {
-"not_cross": 686,
-"listing_product": 41,
+"general": 125,
+"listing_product": 40,
+"not_cross": 706,
 "seller_action": 57,
-"general": 129,
-"policy_update": 36,
-"advertising": 30,
-"platform_trend": 18,
-"fee_logistics": 24,
-"tiktok": 9,
+"advertising": 29,
 "compliance_deadline": 3,
-"walmart": 4,
+"policy_update": 36,
+"walmart": 5,
+"platform_trend": 17,
+"tiktok": 8,
+"fee_logistics": 21,
 "temu": 8
 },
 "uk_related_count": 244,
@@ -74,14 +74,6 @@
 "time": "2026-11-20T03:44:37.092793Z"
 },
 {
-"title": "亚马逊2027年FBA大件重新分档，两项处理费叠加最高近40美元",
-"url": "https://www.amz123.com/kx/xOoJJ3Eh",
-"site_id": "amz123",
-"score": 0.93,
-"label": "general",
-"time": "2026-11-15T00:40:52.232368Z"
-},
-{
 "title": "亚马逊2027年2月起调整仓储费，按库龄统一计费",
 "url": "https://www.amz123.com/kx/XFWB10ce",
 "site_id": "amz123",
@@ -90,12 +82,20 @@
 "time": "2026-11-19T00:41:08.923408Z"
 },
 {
-"title": "亚马逊review付费广告已经可以开启，测试中：亚马逊首页（Homepage）：买家再次打开亚马逊购物时，可能看到之前购买商品的评价邀请。其他高流量页面：官方确认有这类展示位置，但尚未公开完整的广告位清单",
-"url": "https://www.wearesellers.com/question/126516",
-"site_id": "wearesellers",
-"score": 0.91,
+"title": "亚马逊收紧健康类广告规范，背书与比较声明须提供24个月内证据",
+"url": "https://www.amz123.com/kx/6l0uxDrN",
+"site_id": "amz123",
+"score": 0.89,
 "label": "advertising",
-"time": "2026-11-15T00:40:52.232368Z"
+"time": "2026-11-18T00:40:18.389622Z"
+},
+{
+"title": "Pumo brings competitor-led listing optimisation to Amazon and Etsy sellers",
+"url": "https://channelx.world/2026/11/pumo-brings-competitor-led-listing-optimisation-to-amazon-and-etsy-sellers",
+"site_id": "channelx",
+"score": 0.89,
+"label": "listing_product",
+"time": "2026-11-19T00:41:08.923408Z"
 }
 ]
 }
