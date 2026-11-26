@@ -1,302 +1,10 @@
 {
-"generated_at": "2026-11-25T00:40:04.172939Z",
+"generated_at": "2026-11-26T00:41:07.503965Z",
 "items": [
 {
-"story_id": "8d55aeee5273",
-"primary_title": "同一个ASIN开3个不同CPC的自动广告，到底会不会互相影响？",
-"primary_url": "https://www.cifnews.com/article/190338",
-"primary_site_id": "cifnews",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"知无不言",
-"雨果跨境"
-],
-"max_score": 0.44,
-"category": "advertising",
-"items": [
-{
-"id": "a12f6b594f4c91e5291f271ca3bab49776cc1f36",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "同一个ASIN开3个不同CPC的自动广告，到底会不会互相影响？",
-"url": "https://www.wearesellers.com/question/126780",
-"published_at": null,
-"first_seen_at": "2026-11-24T00:40:27.844580Z",
-"last_seen_at": "2026-11-24T00:40:27.844580Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"asin"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "同一个ASIN开3个不同CPC的自动广告，到底会不会互相影响？"
-},
-{
-"id": "3c3f5b9dd309a817a5758564507bf674fac625e8",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
-"source": "跨境资讯",
-"title": "同一个ASIN开3个不同CPC的自动广告，到底会不会互相影响？",
-"url": "https://www.cifnews.com/article/190338",
-"published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": true,
-"cross_score": 0.44,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"asin"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "同一个ASIN开3个不同CPC的自动广告，到底会不会互相影响？"
-}
-],
-"earliest_time": "2026-11-24T00:40:27.844580Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
-"hot_score": 8.32,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 1
-},
-{
-"story_id": "7f2a68bb2bed",
-"primary_title": "OnBuy and Octopia expand partnership to accelerate cross-border growth across Europe",
-"primary_url": "https://channelx.world/2026/11/onbuy-and-octopia-expand-partnership-to-accelerate-cross-border-growth-across-europe",
-"primary_site_id": "tamebay",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"Ecommerce News Europe",
-"TameBay"
-],
-"max_score": 0.69,
-"category": "general",
-"items": [
-{
-"id": "2144e892f14772de560875046877f27f497b88ff",
-"site_id": "ecommercenews",
-"site_name": "Ecommerce News Europe",
-"source": "欧洲电商新闻",
-"title": "Onbuy and Octopia expand partnership",
-"url": "https://ecommercenews.eu/onbuy-and-octopia-expand-partnership",
-"published_at": "2026-11-24T16:25:24Z",
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": false,
-"cross_score": 0.2,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"eu": 0.3
-},
-"cross_platforms": [],
-"cross_sites": [
-"eu"
-],
-"title_zh": "Onbuy和Octopia扩大合作伙伴关系"
-},
-{
-"id": "9435f668718be6faeb2b27434333bbd0838b7453",
-"site_id": "tamebay",
-"site_name": "TameBay",
-"source": "UK卖家资讯",
-"title": "OnBuy and Octopia expand partnership to accelerate cross-border growth across Europe",
-"url": "https://channelx.world/2026/11/onbuy-and-octopia-expand-partnership-to-accelerate-cross-border-growth-across-europe",
-"published_at": "2026-11-24T17:18:05Z",
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": true,
-"cross_score": 0.69,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"cross-border"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.35
-},
-"cross_platforms": [
-"ebay"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "OnBuy和Octopia扩大合作伙伴关系，以加速欧洲跨境业务的增长"
-}
-],
-"earliest_time": "2026-11-24T16:25:24Z",
-"latest_time": "2026-11-24T17:18:05Z",
-"hot_score": 8.07,
-"freshness_bonus": 1.0,
-"age_hours": 7.42,
-"rank": 2
-},
-{
-"story_id": "1a489714d5db",
-"primary_title": "Amazon to purchase Decart's AI optimization technology to advance chip and model innovation for customers",
-"primary_url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
-"primary_site_id": "amazon_newsroom",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"Amazon Newsroom",
-"Amalert UK"
-],
-"max_score": 0.66,
-"category": "general",
-"items": [
-{
-"id": "333b988e8fc613deade3c568e370b0d324ab6600",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon to purchase Decart's AI optimization technology to advance chip and model innovation for customers",
-"url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
-"published_at": "2026-11-23T13:46:59Z",
-"first_seen_at": "2026-11-24T00:40:27.844580Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon"
-],
-"title_zh": "亚马逊将收购Decart的AI优化技术，以推进面向客户的芯片和模型创新"
-},
-{
-"id": "9a73d4451897d74f5d553dd7ce5438788c75e97c",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon to purchase Decart's AI optimization technology to advance chip and model innovation for customers",
-"url": "https://amalert.co.uk/updates/null",
-"published_at": "2026-11-23T13:46:59Z",
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.4
-},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "亚马逊将收购Decart的AI优化技术，以推进面向客户的芯片和模型创新"
-}
-],
-"earliest_time": "2026-11-23T13:46:59Z",
-"latest_time": "2026-11-23T13:46:59Z",
-"hot_score": 7.48,
-"freshness_bonus": 0.5,
-"age_hours": 34.94,
-"rank": 3
-},
-{
-"story_id": "179ef3650e50",
-"primary_title": "国产“拼接版”塑身衣在TikTok美区90天卖出7.33万件",
-"primary_url": "https://www.ennews.com/news-149397.html",
-"primary_site_id": "ennews",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.15,
-"category": "not_cross",
-"items": [
-{
-"id": "754e7e19f2c999ab81595cb761f99cbbd2b46132",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "国产“拼接版”塑身衣在TikTok美区90天卖出7.33万件",
-"url": "https://www.ennews.com/news-149397.html",
-"published_at": "2026-11-24T16:06:14Z",
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"us": 0.1
-},
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "国产“拼接版”塑身衣在TikTok美区90天卖出7.33万件"
-},
-{
-"id": "faab8276d57a7910af3b08c581b852ffd0e8ef37",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "国产连体塑身衣在TikTok美区90天累计售出7.33万件",
-"url": "https://www.amz123.com/kx/jQBHSPb4",
-"published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"us": 0.18
-},
-"cross_platforms": [],
-"cross_sites": [
-"us"
-],
-"title_zh": "国产连体塑身衣在TikTok美区90天累计售出7.33万件"
-}
-],
-"earliest_time": "2026-11-24T16:06:14Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
-"hot_score": 7.45,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 4
-},
-{
-"story_id": "59ae19958d38",
-"primary_title": "俄罗斯自提点报酬首次转负，单点月均盈余约2.25万卢布",
-"primary_url": "https://www.amz123.com/kx/eFMdOO2t",
+"story_id": "8d9c2c1ab836",
+"primary_title": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线",
+"primary_url": "https://www.amz123.com/kx/cidy4Q6E",
 "primary_site_id": "amz123",
 "item_count": 2,
 "source_count": 2,
@@ -304,63 +12,479 @@
 "亿恩网",
 "AMZ123"
 ],
-"max_score": 0.15,
-"category": "not_cross",
+"max_score": 0.58,
+"category": "general",
 "items": [
 {
-"id": "23218eb8568b7cfa9528a5e5a291afd301537df9",
+"id": "f987f903104e3622c79bd37d143e2b09cbf3d256",
 "site_id": "ennews",
 "site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "研究：俄自提点报酬首次转负，单点月剩约2.25万卢布",
-"url": "https://www.ennews.com/news-149410.html",
-"published_at": "2026-11-24T17:05:11Z",
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": false,
-"cross_score": 0.1,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
+"title": "DHL快递开通上海深圳至布鲁塞尔货运航线",
+"url": "https://www.ennews.com/news-149518.html",
+"published_at": "2026-11-25T17:12:51Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.57,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"dhl",
+"快递",
+"货运"
+],
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "研究：俄自提点报酬首次转负，单点月剩约2.25万卢布"
+"title_zh": "DHL快递开通上海深圳至布鲁塞尔货运航线"
 },
 {
-"id": "dfc6b6926b8c72b6c8ef0b93ca90804938fb1288",
+"id": "90c7f1aafe9744fb49e5daf7c068427ad1f15ec2",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "俄罗斯自提点报酬首次转负，单点月均盈余约2.25万卢布",
-"url": "https://www.amz123.com/kx/eFMdOO2t",
+"title": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线",
+"url": "https://www.amz123.com/kx/cidy4Q6E",
 "published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": false,
-"cross_score": 0.15,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
-"cross_signals": [],
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.58,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"dhl",
+"货运"
+],
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "俄罗斯自提点报酬首次转负，单点月均盈余约2.25万卢布"
+"title_zh": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线"
 }
 ],
-"earliest_time": "2026-11-24T17:05:11Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
-"hot_score": 7.45,
+"earliest_time": "2026-11-25T17:12:51Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 8.74,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 1
+},
+{
+"story_id": "738fcf5debb3",
+"primary_title": "巴西双十一电商销售额达38亿雷亚尔，同比增长44.9%",
+"primary_url": "https://www.amz123.com/kx/4UqPpIpm",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.49,
+"category": "platform_trend",
+"items": [
+{
+"id": "659a278195425973612bdf58340d261324bc2ee5",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "巴西11.11电商成交38亿雷亚尔 同比增44.9%",
+"url": "https://www.ennews.com/news-149520.html",
+"published_at": "2026-11-25T17:21:13Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.44,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "巴西11.11电商成交38亿雷亚尔 同比增44.9%"
+},
+{
+"id": "d30b36f9433a0f2c9fc00ef3b34a09a4e1dc5b8c",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "巴西双十一电商销售额达38亿雷亚尔，同比增长44.9%",
+"url": "https://www.amz123.com/kx/4UqPpIpm",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.49,
+"cross_label": "platform_trend",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"电商"
+],
+"cross_why": "行业趋势/大促节点，提前布局参考",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "巴西双十一电商销售额达38亿雷亚尔，同比增长44.9%"
+}
+],
+"earliest_time": "2026-11-25T17:21:13Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 8.469999999999999,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 2
+},
+{
+"story_id": "e06c1111c262",
+"primary_title": "俄罗斯邮政全国网点开通数字卢布支付，个人免手续费",
+"primary_url": "https://www.amz123.com/kx/AXuDWDEC",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"亿恩网",
+"AMZ123"
+],
+"max_score": 0.39,
+"category": "general",
+"items": [
+{
+"id": "81c0acc2671b38fc83fff335853789e402686e2c",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "俄罗斯邮政全国网点开通数字卢布支付",
+"url": "https://www.ennews.com/news-149516.html",
+"published_at": "2026-11-25T17:02:40Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.34,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"邮政"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯邮政全国网点开通数字卢布支付"
+},
+{
+"id": "a32cfee944cf85f8a64a15cb4487bc1ce40af8a2",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "俄罗斯邮政全国网点开通数字卢布支付，个人免手续费",
+"url": "https://www.amz123.com/kx/AXuDWDEC",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.39,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"邮政"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "俄罗斯邮政全国网点开通数字卢布支付，个人免手续费"
+}
+],
+"earliest_time": "2026-11-25T17:02:40Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 8.17,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 3
+},
+{
+"story_id": "47512202e0dc",
+"primary_title": "Amazon Autos is coming to the UK—the first country outside the US",
+"primary_url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
+"primary_site_id": "amazon_newsroom",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"Amazon Newsroom",
+"ChannelX"
+],
+"max_score": 0.71,
+"category": "general",
+"items": [
+{
+"id": "9026b9daaa8bb88553f51e6778d630e9902c996a",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon Autos is coming to the UK—the first country outside the US",
+"url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
+"published_at": "2026-11-25T05:50:05Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "Amazon Autos即将登陆英国——这是美国以外的第一个国家"
+},
+{
+"id": "fb7785ac02651ac26a6a4068c78eb7337e0c7b70",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon Autos is coming to the UK",
+"url": "https://channelx.world/2026/11/amazon-autos-is-coming-to-the-uk",
+"published_at": "2026-11-25T09:44:25Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.71,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [],
+"title_zh": "Amazon Autos即将登陆英国"
+}
+],
+"earliest_time": "2026-11-25T05:50:05Z",
+"latest_time": "2026-11-25T09:44:25Z",
+"hot_score": 8.129999999999999,
+"freshness_bonus": 1.0,
+"age_hours": 15.0,
+"rank": 4
+},
+{
+"story_id": "f569b98d3e91",
+"primary_title": "欧盟零毁林法规强制合规临近，亚马逊催收溯源资料",
+"primary_url": "https://www.amz123.com/kx/w3vwmcNB",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 1.0,
+"category": "policy_update",
+"items": [
+{
+"id": "d1c33fd3a97f70ccf44b37e6fa86d6b32c3e58e5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "欧盟零毁林法规强制合规临近，亚马逊催收溯源资料",
+"url": "https://www.amz123.com/kx/w3vwmcNB",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"合规",
+"法规"
+],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_market_scores": {
+"eu": 0.38
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧盟零毁林法规强制合规临近，亚马逊催收溯源资料"
+}
+],
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 7.5,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 5
 },
 {
-"story_id": "45c5e7c89400",
-"primary_title": "FBM自配送因新账号单量激增权限停用审核 怎么申诉以及资料？广告无欠费，全流程合规。有前辈指导一下申诉的流程吗，以及这个提交之后审核大概的周期是多久",
-"primary_url": "https://www.wearesellers.com/question/126844",
+"story_id": "5e323b1b4a1e",
+"primary_title": "亚马逊斥资1250万欧元在卢森堡启用欧洲首个IT物流中心",
+"primary_url": "https://www.amz123.com/kx/YvYMgVdk",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.93,
+"category": "fee_logistics",
+"items": [
+{
+"id": "10da58e18bdda0401a548fbd2feb3952a469d6d5",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊斥资1250万欧元在卢森堡启用欧洲首个IT物流中心",
+"url": "https://www.amz123.com/kx/YvYMgVdk",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.93,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"物流"
+],
+"cross_why": "FBA/物流动态，影响补货和时效",
+"cross_market_scores": {
+"eu": 0.38
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "亚马逊斥资1250万欧元在卢森堡启用欧洲首个IT物流中心"
+}
+],
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 7.29,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 6
+},
+{
+"story_id": "7fe075b63247",
+"primary_title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
+"primary_url": "https://www.amz123.com/kx/UnaKJA4n",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.83,
+"category": "fee_logistics",
+"items": [
+{
+"id": "75410e493fd62419eb3dfad2ed781da6f909b0ba",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
+"url": "https://www.amz123.com/kx/UnaKJA4n",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_market_scores": {},
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率"
+}
+],
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 6.99,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 7
+},
+{
+"story_id": "82708f4f1063",
+"primary_title": "亚马逊计划2027年初进军英国线上汽车销售，现代汽车率先入驻",
+"primary_url": "https://www.amz123.com/kx/ZmvnTRx4",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.83,
+"category": "general",
+"items": [
+{
+"id": "7833f12d27188b5878c5251f6213d9db93cf3b18",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊计划2027年初进军英国线上汽车销售，现代汽车率先入驻",
+"url": "https://www.amz123.com/kx/ZmvnTRx4",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "UK 市场动态，与英国站业务直接相关",
+"cross_market_scores": {
+"uk": 0.18
+},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "亚马逊计划2027年初进军英国线上汽车销售，现代汽车率先入驻"
+}
+],
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 6.99,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 8
+},
+{
+"story_id": "e999932f3e8e",
+"primary_title": "亚马逊，你到底还打算收多少费用？普通卖家的路又在哪里？",
+"primary_url": "https://www.wearesellers.com/question/126281",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
@@ -368,231 +492,86 @@
 "知无不言"
 ],
 "max_score": 0.83,
-"category": "policy_update",
+"category": "fee_logistics",
 "items": [
 {
-"id": "d152bc2b7549a943d3ac3eef4154361d60f03f87",
+"id": "aced1ac203984c19569c2f4ae232ac5ce17f39f9",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "FBM自配送因新账号单量激增权限停用审核 怎么申诉以及资料？广告无欠费，全流程合规。有前辈指导一下申诉的流程吗，以及这个提交之后审核大概的周期是多久",
-"url": "https://www.wearesellers.com/question/126844",
+"title": "亚马逊，你到底还打算收多少费用？普通卖家的路又在哪里？",
+"url": "https://www.wearesellers.com/question/126281",
 "published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
 "cross_is_related": true,
 "cross_score": 0.83,
-"cross_label": "policy_update",
+"cross_label": "fee_logistics",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"fbm",
-"合规"
+"亚马逊",
+"卖家",
+"卖家"
 ],
-"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_why": "费用调整，直接影响利润率",
 "cross_market_scores": {},
 "cross_platforms": [
-"fbm"
+"亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "FBM自配送因新账号单量激增权限停用审核 怎么申诉以及资料？广告无欠费，全流程合规。有前辈指导一下申诉的流程吗，以及这个提交之后审核大概的周期是多久"
+"title_zh": "亚马逊，你到底还打算收多少费用？普通卖家的路又在哪里？"
 }
 ],
-"earliest_time": "2026-11-25T00:40:04.172939Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
 "hot_score": 6.99,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 6
-},
-{
-"story_id": "e79462289e9c",
-"primary_title": "亚马逊广告开放AMC SQL生成工具，美国封闭测试，2027年初计划扩围",
-"primary_url": "https://www.amz123.com/kx/rn5AY0Vz",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.81,
-"category": "advertising",
-"items": [
-{
-"id": "bee11fed0cdaa12339c9d72c7de87dc88875c7b9",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊广告开放AMC SQL生成工具，美国封闭测试，2027年初计划扩围",
-"url": "https://www.amz123.com/kx/rn5AY0Vz",
-"published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": true,
-"cross_score": 0.81,
-"cross_label": "advertising",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "广告政策/工具变化，影响投放策略",
-"cross_market_scores": {
-"us": 0.36
-},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊广告开放AMC SQL生成工具，美国封闭测试，2027年初计划扩围"
-}
-],
-"earliest_time": "2026-11-25T00:40:04.172939Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
-"hot_score": 6.93,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 7
-},
-{
-"story_id": "7014fd9b93d9",
-"primary_title": "亚马逊美国新进口规则2027 年 1 月 5 日开始生效： 检查您的备案进口商身份",
-"primary_url": "https://www.wearesellers.com/question/126611",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.79,
-"category": "policy_update",
-"items": [
-{
-"id": "e3cea0dbfe297ae11e30fbd02f34c16528ccd52f",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊美国新进口规则2027 年 1 月 5 日开始生效： 检查您的备案进口商身份",
-"url": "https://www.wearesellers.com/question/126611",
-"published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": true,
-"cross_score": 0.79,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "政策相关更新",
-"cross_market_scores": {
-"us": 0.3
-},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"us"
-],
-"title_zh": "亚马逊美国新进口规则2027 年 1 月 5 日开始生效： 检查您的备案进口商身份"
-}
-],
-"earliest_time": "2026-11-25T00:40:04.172939Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
-"hot_score": 6.87,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 8
-},
-{
-"story_id": "eb54ed5936c4",
-"primary_title": "沃尔玛更新假日退货政策 大家电仅2天 多数手机14天",
-"primary_url": "https://www.amz123.com/kx/8XRQc0Ws",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.75,
-"category": "policy_update",
-"items": [
-{
-"id": "154680dee2736001beb10c1cc59577e92e4f7a83",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "沃尔玛更新假日退货政策 大家电仅2天 多数手机14天",
-"url": "https://www.amz123.com/kx/8XRQc0Ws",
-"published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"沃尔玛",
-"退货",
-"政策"
-],
-"cross_why": "平台或监管政策变动，需评估运营影响",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "沃尔玛更新假日退货政策 大家电仅2天 多数手机14天"
-}
-],
-"earliest_time": "2026-11-25T00:40:04.172939Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
-"hot_score": 6.75,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 9
 },
 {
-"story_id": "34e27c8fb81a",
-"primary_title": "评分从4.6跌到4.2后自然位下滑，11月广告单占比70.91%、TACOS 27.35%，亚马逊老链接怎么救流量和核心词排名？",
-"primary_url": "https://www.wearesellers.com/question/126815",
-"primary_site_id": "wearesellers",
+"story_id": "4bfcd12839e8",
+"primary_title": "亚马逊新规解读：2027低库存水平费用怎么算",
+"primary_url": "https://globalselling.amazon.com/news/news-notics-261112",
+"primary_site_id": "gs_amazon",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"知无不言"
+"亚马逊全球开店"
 ],
-"max_score": 0.75,
-"category": "advertising",
+"max_score": 0.78,
+"category": "policy_update",
 "items": [
 {
-"id": "791e02203844cd2f5af4e67b916c43f56bfda516",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "评分从4.6跌到4.2后自然位下滑，11月广告单占比70.91%、TACOS 27.35%，亚马逊老链接怎么救流量和核心词排名？",
-"url": "https://www.wearesellers.com/question/126815",
+"id": "b1643ae94a100916e7a3a1662d5c6861b5e177f9",
+"site_id": "gs_amazon",
+"site_name": "亚马逊全球开店",
+"source": "全球开店公告",
+"title": "亚马逊新规解读：2027低库存水平费用怎么算",
+"url": "https://globalselling.amazon.com/news/news-notics-261112",
 "published_at": null,
-"first_seen_at": "2026-11-25T00:40:04.172939Z",
-"last_seen_at": "2026-11-25T00:40:04.172939Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
 "cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "advertising",
+"cross_score": 0.78,
+"cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
-"流量"
+"库存"
 ],
-"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_why": "费用调整，直接影响利润率",
 "cross_market_scores": {},
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "评分从4.6跌到4.2后自然位下滑，11月广告单占比70.91%、TACOS 27.35%，亚马逊老链接怎么救流量和核心词排名？"
+"title_zh": "亚马逊新规解读：2027低库存水平费用怎么算"
 }
 ],
-"earliest_time": "2026-11-25T00:40:04.172939Z",
-"latest_time": "2026-11-25T00:40:04.172939Z",
-"hot_score": 6.75,
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-26T00:41:07.503965Z",
+"hot_score": 6.84,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 10

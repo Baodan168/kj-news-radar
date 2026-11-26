@@ -1,58 +1,59 @@
 {
-"generated_at": "2026-11-25T00:40:04.172939Z",
+"generated_at": "2026-11-26T00:41:07.503965Z",
 "window_days": 7,
-"total_items": 1193,
+"total_items": 1172,
 "daily_counts": {
-"2026-11-18": 188,
 "2026-11-19": 157,
 "2026-11-20": 202,
 "2026-11-21": 155,
 "2026-11-22": 60,
 "2026-11-23": 67,
 "2026-11-24": 171,
-"2026-11-25": 193
+"2026-11-25": 193,
+"2026-11-26": 167
 },
 "source_counts": {
-"amz123": 291,
+"amz123": 287,
 "retailtimes_uk": 155,
 "ennews": 135,
-"wearesellers": 92,
-"cifnews": 84,
-"hmrc_uk": 76,
+"wearesellers": 95,
+"cifnews": 85,
+"hmrc_uk": 74,
 "pymnts_us": 70,
-"insideretail_au": 52,
+"insideretail_au": 50,
 "smartcompany_au": 38,
-"channelx": 31,
-"tamebay": 31,
-"amzdh": 30,
-"retailbiz_au": 17,
-"amalert": 15,
+"channelx": 29,
+"tamebay": 29,
+"amzdh": 20,
+"retailbiz_au": 19,
 "ecommercemag_fr": 15,
-"modernretail_us": 15,
-"internetretailing_au": 13,
-"amazon_newsroom": 12,
-"jdn_fr": 8,
-"ecommercenews": 5,
+"amalert": 13,
+"modernretail_us": 12,
+"jdn_fr": 12,
+"amazon_newsroom": 11,
+"internetretailing_au": 10,
+"ecommercenews": 4,
 "amazon_seller_blog": 4,
 "ecommercenews_nl": 2,
-"gs_amazon": 1,
+"gs_amazon": 2,
 "sp_api": 1
 },
 "label_counts": {
-"general": 156,
-"not_cross": 777,
-"temu": 9,
+"not_cross": 745,
+"listing_product": 43,
 "policy_update": 43,
-"tiktok": 8,
-"seller_action": 67,
-"platform_trend": 21,
+"seller_action": 70,
+"fee_logistics": 35,
+"general": 157,
+"platform_trend": 18,
 "advertising": 35,
-"listing_product": 39,
-"fee_logistics": 32,
-"compliance_deadline": 1,
-"walmart": 5
+"temu": 6,
+"tiktok": 9,
+"compliance_deadline": 3,
+"walmart": 7,
+"domestic_ecommerce_noise": 1
 },
-"uk_related_count": 290,
+"uk_related_count": 285,
 "top_signals": [
 {
 "title": "亚马逊企业购英国上线采购返点，自有品牌最高返4%",
@@ -61,6 +62,14 @@
 "score": 1.0,
 "label": "listing_product",
 "time": "2026-11-22T00:40:43.881959Z"
+},
+{
+"title": "欧盟零毁林法规强制合规临近，亚马逊催收溯源资料",
+"url": "https://www.amz123.com/kx/w3vwmcNB",
+"site_id": "amz123",
+"score": 1.0,
+"label": "policy_update",
+"time": "2026-11-26T00:41:07.503965Z"
 },
 {
 "title": "亚马逊企业购英国推出积分返利计划，自营品牌最高返现4%",
@@ -79,20 +88,12 @@
 "time": "2026-11-19T00:41:08.923408Z"
 },
 {
-"title": "亚马逊收紧健康类广告规范，背书与比较声明须提供24个月内证据",
-"url": "https://www.amz123.com/kx/6l0uxDrN",
+"title": "亚马逊斥资1250万欧元在卢森堡启用欧洲首个IT物流中心",
+"url": "https://www.amz123.com/kx/YvYMgVdk",
 "site_id": "amz123",
-"score": 0.89,
-"label": "advertising",
-"time": "2026-11-18T00:40:18.389622Z"
-},
-{
-"title": "Pumo brings competitor-led listing optimisation to Amazon and Etsy sellers",
-"url": "https://channelx.world/2026/11/pumo-brings-competitor-led-listing-optimisation-to-amazon-and-etsy-sellers",
-"site_id": "channelx",
-"score": 0.89,
-"label": "listing_product",
-"time": "2026-11-19T00:41:08.923408Z"
+"score": 0.93,
+"label": "fee_logistics",
+"time": "2026-11-26T00:41:07.503965Z"
 }
 ]
 }
