@@ -1,6 +1,254 @@
 {
-"generated_at": "2026-11-26T00:41:07.503965Z",
+"generated_at": "2026-11-27T00:41:03.680826Z",
 "items": [
+{
+"story_id": "47512202e0dc",
+"primary_title": "Amazon Autos is coming to the UK—the first country outside the US",
+"primary_url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
+"primary_site_id": "amazon_newsroom",
+"item_count": 3,
+"source_count": 3,
+"source_names": [
+"Amazon Newsroom",
+"Amalert UK",
+"ChannelX"
+],
+"max_score": 0.66,
+"category": "general",
+"items": [
+{
+"id": "9026b9daaa8bb88553f51e6778d630e9902c996a",
+"site_id": "amazon_newsroom",
+"site_name": "Amazon Newsroom",
+"source": "Amazon官方",
+"title": "Amazon Autos is coming to the UK—the first country outside the US",
+"url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
+"published_at": "2026-11-25T05:50:05Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_sites": [],
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"amazon"
+],
+"title_zh": "Amazon Autos即将登陆英国——这是美国以外的第一个国家"
+},
+{
+"id": "b40ee3d221f1391865b6a51a10e583f795e041bc",
+"site_id": "amalert",
+"site_name": "Amalert UK",
+"source": "Amazon官方聚合",
+"title": "Amazon Autos is coming to the UK—the first country outside the US",
+"url": "https://amalert.co.uk/updates/amazon-autos-is-coming-to-the-uk-the-first-country-outside-the-us-8a6bc880",
+"published_at": "2026-11-25T05:50:05Z",
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {
+"uk": 0.4
+},
+"cross_platforms": [
+"amazon"
+],
+"cross_sites": [
+"uk"
+],
+"title_zh": "Amazon Autos即将登陆英国——这是美国以外的第一个国家"
+},
+{
+"id": "fb7785ac02651ac26a6a4068c78eb7337e0c7b70",
+"site_id": "channelx",
+"site_name": "ChannelX",
+"source": "平台新闻",
+"title": "Amazon Autos is coming to the UK",
+"url": "https://channelx.world/2026/11/amazon-autos-is-coming-to-the-uk",
+"published_at": "2026-11-25T09:44:25Z",
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_sites": [],
+"cross_is_related": true,
+"cross_score": 0.66,
+"cross_label": "general",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"amazon"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [
+"amazon"
+],
+"title_zh": "Amazon Autos即将登陆英国"
+}
+],
+"earliest_time": "2026-11-25T05:50:05Z",
+"latest_time": "2026-11-25T09:44:25Z",
+"hot_score": 9.98,
+"freshness_bonus": 0.5,
+"age_hours": 38.99,
+"rank": 1
+},
+{
+"story_id": "7fe075b63247",
+"primary_title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
+"primary_url": "https://www.amz123.com/kx/UnaKJA4n",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"AMZ123",
+"AMZDH"
+],
+"max_score": 0.83,
+"category": "fee_logistics",
+"items": [
+{
+"id": "75410e493fd62419eb3dfad2ed781da6f909b0ba",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
+"url": "https://www.amz123.com/kx/UnaKJA4n",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_sites": [],
+"cross_is_related": true,
+"cross_score": 0.83,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_market_scores": {},
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"title_zh": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率"
+},
+{
+"id": "b88b5e5220fd5582f95391c2042eb70dc31b7eec",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "亚马逊阿联酋站12月1日起调整佣金及FBA费率",
+"url": "https://www.amzdh.com/kjtt/10713.html",
+"published_at": null,
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_is_related": true,
+"cross_score": 0.68,
+"cross_label": "fee_logistics",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"亚马逊"
+],
+"cross_why": "费用调整，直接影响利润率",
+"cross_market_scores": {},
+"cross_platforms": [
+"fba",
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊阿联酋站12月1日起调整佣金及FBA费率"
+}
+],
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-27T00:41:03.680826Z",
+"hot_score": 9.49,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 2
+},
+{
+"story_id": "f3bc7f878717",
+"primary_title": "南非与赞比亚启动海关报关数据电子互换",
+"primary_url": "https://www.amz123.com/kx/UH6A9nr8",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
+"source_names": [
+"AMZ123",
+"AMZDH"
+],
+"max_score": 0.58,
+"category": "general",
+"items": [
+{
+"id": "596ac921f7aab1ddb58fceeb6f52388306d5cb29",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "南非与赞比亚启动海关报关数据电子互换",
+"url": "https://www.amz123.com/kx/UH6A9nr8",
+"published_at": null,
+"first_seen_at": "2026-11-26T00:41:07.503965Z",
+"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_sites": [],
+"cross_is_related": true,
+"cross_score": 0.58,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"报关",
+"海关",
+"报关"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "南非与赞比亚启动海关报关数据电子互换"
+},
+{
+"id": "96fc6803eaa69cdb65e88bb78c7dfa041ffa566c",
+"site_id": "amzdh",
+"site_name": "AMZDH",
+"source": "跨境头条",
+"title": "南非与赞比亚启动海关数据自动交换",
+"url": "https://www.amzdh.com/kjtt/10710.html",
+"published_at": null,
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_is_related": false,
+"cross_score": 0.0,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [
+"海关"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "南非与赞比亚启动海关数据自动交换"
+}
+],
+"earliest_time": "2026-11-26T00:41:07.503965Z",
+"latest_time": "2026-11-27T00:41:03.680826Z",
+"hot_score": 8.74,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 3
+},
 {
 "story_id": "8d9c2c1ab836",
 "primary_title": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线",
@@ -25,8 +273,9 @@
 "published_at": "2026-11-25T17:12:51Z",
 "first_seen_at": "2026-11-26T00:41:07.503965Z",
 "last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_sites": [],
 "cross_is_related": true,
-"cross_score": 0.57,
+"cross_score": 0.52,
 "cross_label": "general",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
@@ -37,7 +286,6 @@
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "DHL快递开通上海深圳至布鲁塞尔货运航线"
 },
 {
@@ -50,6 +298,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-26T00:41:07.503965Z",
 "last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.58,
 "cross_label": "general",
@@ -61,16 +310,61 @@
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线"
 }
 ],
 "earliest_time": "2026-11-25T17:12:51Z",
 "latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 8.74,
+"hot_score": 7.24,
+"freshness_bonus": 0.5,
+"age_hours": 24.05,
+"rank": 4
+},
+{
+"story_id": "40c7647c7ffa",
+"primary_title": "被亚马逊封号潮逼出来的“工具大卖”，傲基是背后靠山",
+"primary_url": "https://www.cifnews.com/article/190385",
+"primary_site_id": "cifnews",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"雨果跨境"
+],
+"max_score": 0.84,
+"category": "seller_action",
+"items": [
+{
+"id": "4041499df99cbe2da97a3c58cfb9882b795b8e56",
+"site_id": "cifnews",
+"site_name": "雨果跨境",
+"source": "跨境资讯",
+"title": "被亚马逊封号潮逼出来的“工具大卖”，傲基是背后靠山",
+"url": "https://www.cifnews.com/article/190385",
+"published_at": null,
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_is_related": true,
+"cross_score": 0.84,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊"
+],
+"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "被亚马逊封号潮逼出来的“工具大卖”，傲基是背后靠山"
+}
+],
+"earliest_time": "2026-11-27T00:41:03.680826Z",
+"latest_time": "2026-11-27T00:41:03.680826Z",
+"hot_score": 7.02,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
-"rank": 1
+"rank": 5
 },
 {
 "story_id": "738fcf5debb3",
@@ -96,8 +390,9 @@
 "published_at": "2026-11-25T17:21:13Z",
 "first_seen_at": "2026-11-26T00:41:07.503965Z",
 "last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_sites": [],
 "cross_is_related": true,
-"cross_score": 0.44,
+"cross_score": 0.39,
 "cross_label": "seller_action",
 "cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
@@ -106,7 +401,6 @@
 "cross_why": "卖家运营相关信号",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "巴西11.11电商成交38亿雷亚尔 同比增44.9%"
 },
 {
@@ -119,6 +413,7 @@
 "published_at": null,
 "first_seen_at": "2026-11-26T00:41:07.503965Z",
 "last_seen_at": "2026-11-26T00:41:07.503965Z",
+"cross_sites": [],
 "cross_is_related": true,
 "cross_score": 0.49,
 "cross_label": "platform_trend",
@@ -129,449 +424,211 @@
 "cross_why": "行业趋势/大促节点，提前布局参考",
 "cross_market_scores": {},
 "cross_platforms": [],
-"cross_sites": [],
 "title_zh": "巴西双十一电商销售额达38亿雷亚尔，同比增长44.9%"
 }
 ],
 "earliest_time": "2026-11-25T17:21:13Z",
 "latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 8.469999999999999,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 2
-},
-{
-"story_id": "e06c1111c262",
-"primary_title": "俄罗斯邮政全国网点开通数字卢布支付，个人免手续费",
-"primary_url": "https://www.amz123.com/kx/AXuDWDEC",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"亿恩网",
-"AMZ123"
-],
-"max_score": 0.39,
-"category": "general",
-"items": [
-{
-"id": "81c0acc2671b38fc83fff335853789e402686e2c",
-"site_id": "ennews",
-"site_name": "亿恩网",
-"source": "跨境资讯",
-"title": "俄罗斯邮政全国网点开通数字卢布支付",
-"url": "https://www.ennews.com/news-149516.html",
-"published_at": "2026-11-25T17:02:40Z",
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_is_related": true,
-"cross_score": 0.34,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"邮政"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯邮政全国网点开通数字卢布支付"
-},
-{
-"id": "a32cfee944cf85f8a64a15cb4487bc1ce40af8a2",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "俄罗斯邮政全国网点开通数字卢布支付，个人免手续费",
-"url": "https://www.amz123.com/kx/AXuDWDEC",
-"published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"邮政"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"cross_sites": [],
-"title_zh": "俄罗斯邮政全国网点开通数字卢布支付，个人免手续费"
-}
-],
-"earliest_time": "2026-11-25T17:02:40Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 8.17,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 3
-},
-{
-"story_id": "47512202e0dc",
-"primary_title": "Amazon Autos is coming to the UK—the first country outside the US",
-"primary_url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
-"primary_site_id": "amazon_newsroom",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"Amazon Newsroom",
-"ChannelX"
-],
-"max_score": 0.71,
-"category": "general",
-"items": [
-{
-"id": "9026b9daaa8bb88553f51e6778d630e9902c996a",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon Autos is coming to the UK—the first country outside the US",
-"url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
-"published_at": "2026-11-25T05:50:05Z",
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Amazon Autos即将登陆英国——这是美国以外的第一个国家"
-},
-{
-"id": "fb7785ac02651ac26a6a4068c78eb7337e0c7b70",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon Autos is coming to the UK",
-"url": "https://channelx.world/2026/11/amazon-autos-is-coming-to-the-uk",
-"published_at": "2026-11-25T09:44:25Z",
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_is_related": true,
-"cross_score": 0.71,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [],
-"title_zh": "Amazon Autos即将登陆英国"
-}
-],
-"earliest_time": "2026-11-25T05:50:05Z",
-"latest_time": "2026-11-25T09:44:25Z",
-"hot_score": 8.129999999999999,
-"freshness_bonus": 1.0,
-"age_hours": 15.0,
-"rank": 4
-},
-{
-"story_id": "f569b98d3e91",
-"primary_title": "欧盟零毁林法规强制合规临近，亚马逊催收溯源资料",
-"primary_url": "https://www.amz123.com/kx/w3vwmcNB",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 1.0,
-"category": "policy_update",
-"items": [
-{
-"id": "d1c33fd3a97f70ccf44b37e6fa86d6b32c3e58e5",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "欧盟零毁林法规强制合规临近，亚马逊催收溯源资料",
-"url": "https://www.amz123.com/kx/w3vwmcNB",
-"published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_is_related": true,
-"cross_score": 1.0,
-"cross_label": "policy_update",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"合规",
-"法规"
-],
-"cross_why": "平台或监管政策变动，需评估运营影响",
-"cross_market_scores": {
-"eu": 0.38
-},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "欧盟零毁林法规强制合规临近，亚马逊催收溯源资料"
-}
-],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 7.5,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 5
-},
-{
-"story_id": "5e323b1b4a1e",
-"primary_title": "亚马逊斥资1250万欧元在卢森堡启用欧洲首个IT物流中心",
-"primary_url": "https://www.amz123.com/kx/YvYMgVdk",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.93,
-"category": "fee_logistics",
-"items": [
-{
-"id": "10da58e18bdda0401a548fbd2feb3952a469d6d5",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊斥资1250万欧元在卢森堡启用欧洲首个IT物流中心",
-"url": "https://www.amz123.com/kx/YvYMgVdk",
-"published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_is_related": true,
-"cross_score": 0.93,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"物流"
-],
-"cross_why": "FBA/物流动态，影响补货和时效",
-"cross_market_scores": {
-"eu": 0.38
-},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"eu"
-],
-"title_zh": "亚马逊斥资1250万欧元在卢森堡启用欧洲首个IT物流中心"
-}
-],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 7.29,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
+"hot_score": 6.97,
+"freshness_bonus": 0.5,
+"age_hours": 24.05,
 "rank": 6
 },
 {
-"story_id": "7fe075b63247",
-"primary_title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
-"primary_url": "https://www.amz123.com/kx/UnaKJA4n",
+"story_id": "4d5ee3b9422a",
+"primary_title": "TikTok Shop德国站72%卖家已开展跨境销售，成交额预计近翻倍",
+"primary_url": "https://www.amz123.com/kx/KaJVOnRl",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.83,
-"category": "fee_logistics",
+"max_score": 0.75,
+"category": "tiktok",
 "items": [
 {
-"id": "75410e493fd62419eb3dfad2ed781da6f909b0ba",
+"id": "0252189a802fffe1cf6d319d63279514762955f1",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
-"url": "https://www.amz123.com/kx/UnaKJA4n",
+"title": "TikTok Shop德国站72%卖家已开展跨境销售，成交额预计近翻倍",
+"url": "https://www.amz123.com/kx/KaJVOnRl",
 "published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
 "cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "fee_logistics",
+"cross_score": 0.75,
+"cross_label": "tiktok",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"fba",
-"亚马逊"
+"tiktok shop",
+"卖家",
+"跨境",
+"卖家"
 ],
-"cross_why": "费用调整，直接影响利润率",
-"cross_market_scores": {},
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_market_scores": {
+"eu": 0.18
+},
 "cross_platforms": [
-"fba",
-"亚马逊"
+"tiktok shop"
 ],
-"cross_sites": [],
-"title_zh": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率"
+"cross_sites": [
+"eu"
+],
+"title_zh": "TikTok Shop德国站72%卖家已开展跨境销售，成交额预计近翻倍"
 }
 ],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 6.99,
+"earliest_time": "2026-11-27T00:41:03.680826Z",
+"latest_time": "2026-11-27T00:41:03.680826Z",
+"hot_score": 6.75,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 7
 },
 {
-"story_id": "82708f4f1063",
-"primary_title": "亚马逊计划2027年初进军英国线上汽车销售，现代汽车率先入驻",
-"primary_url": "https://www.amz123.com/kx/ZmvnTRx4",
-"primary_site_id": "amz123",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"AMZ123"
-],
-"max_score": 0.83,
-"category": "general",
-"items": [
-{
-"id": "7833f12d27188b5878c5251f6213d9db93cf3b18",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊计划2027年初进军英国线上汽车销售，现代汽车率先入驻",
-"url": "https://www.amz123.com/kx/ZmvnTRx4",
-"published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "UK 市场动态，与英国站业务直接相关",
-"cross_market_scores": {
-"uk": 0.18
-},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "亚马逊计划2027年初进军英国线上汽车销售，现代汽车率先入驻"
-}
-],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 6.99,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 8
-},
-{
-"story_id": "e999932f3e8e",
-"primary_title": "亚马逊，你到底还打算收多少费用？普通卖家的路又在哪里？",
-"primary_url": "https://www.wearesellers.com/question/126281",
+"story_id": "f24d9e364fbf",
+"primary_title": "亚马逊家具选品（下）：除了模仿竞品，我们还有这7种创新思路",
+"primary_url": "https://www.wearesellers.com/question/126885",
 "primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "知无不言"
 ],
-"max_score": 0.83,
-"category": "fee_logistics",
+"max_score": 0.75,
+"category": "listing_product",
 "items": [
 {
-"id": "aced1ac203984c19569c2f4ae232ac5ce17f39f9",
+"id": "87bc6610e3d10ae227539931c002f1665ec476d9",
 "site_id": "wearesellers",
 "site_name": "知无不言",
 "source": "卖家社区",
-"title": "亚马逊，你到底还打算收多少费用？普通卖家的路又在哪里？",
-"url": "https://www.wearesellers.com/question/126281",
+"title": "亚马逊家具选品（下）：除了模仿竞品，我们还有这7种创新思路",
+"url": "https://www.wearesellers.com/question/126885",
 "published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
 "cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "fee_logistics",
+"cross_score": 0.75,
+"cross_label": "listing_product",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"选品"
+],
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊家具选品（下）：除了模仿竞品，我们还有这7种创新思路"
+}
+],
+"earliest_time": "2026-11-27T00:41:03.680826Z",
+"latest_time": "2026-11-27T00:41:03.680826Z",
+"hot_score": 6.75,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 8
+},
+{
+"story_id": "4de2997435ef",
+"primary_title": "8月入局亚马逊美国站车机，两款产品一款断货后转化腰斩、一款广告持续亏损，小卖家还有机会吗 ？",
+"primary_url": "https://www.wearesellers.com/question/126894",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 0.75,
+"category": "advertising",
+"items": [
+{
+"id": "4be543dabede1bebba2692e3a5be145523c8b01b",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "8月入局亚马逊美国站车机，两款产品一款断货后转化腰斩、一款广告持续亏损，小卖家还有机会吗 ？",
+"url": "https://www.wearesellers.com/question/126894",
+"published_at": null,
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
 "卖家",
 "卖家"
 ],
-"cross_why": "费用调整，直接影响利润率",
-"cross_market_scores": {},
+"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_market_scores": {
+"us": 0.28
+},
 "cross_platforms": [
 "亚马逊"
 ],
-"cross_sites": [],
-"title_zh": "亚马逊，你到底还打算收多少费用？普通卖家的路又在哪里？"
+"cross_sites": [
+"us"
+],
+"title_zh": "8月入局亚马逊美国站车机，两款产品一款断货后转化腰斩、一款广告持续亏损，小卖家还有机会吗 ？"
 }
 ],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 6.99,
+"earliest_time": "2026-11-27T00:41:03.680826Z",
+"latest_time": "2026-11-27T00:41:03.680826Z",
+"hot_score": 6.75,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 9
 },
 {
-"story_id": "4bfcd12839e8",
-"primary_title": "亚马逊新规解读：2027低库存水平费用怎么算",
-"primary_url": "https://globalselling.amazon.com/news/news-notics-261112",
-"primary_site_id": "gs_amazon",
+"story_id": "39829a05fd18",
+"primary_title": "这个亚马逊官方页面，能告诉我们不少选品信息，然后如何继续拓展",
+"primary_url": "https://www.wearesellers.com/question/125686",
+"primary_site_id": "wearesellers",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"亚马逊全球开店"
+"知无不言"
 ],
-"max_score": 0.78,
-"category": "policy_update",
+"max_score": 0.75,
+"category": "listing_product",
 "items": [
 {
-"id": "b1643ae94a100916e7a3a1662d5c6861b5e177f9",
-"site_id": "gs_amazon",
-"site_name": "亚马逊全球开店",
-"source": "全球开店公告",
-"title": "亚马逊新规解读：2027低库存水平费用怎么算",
-"url": "https://globalselling.amazon.com/news/news-notics-261112",
+"id": "251127f3b6dd6a01b49e52160bba1a9a2da8085e",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "这个亚马逊官方页面，能告诉我们不少选品信息，然后如何继续拓展",
+"url": "https://www.wearesellers.com/question/125686",
 "published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
+"first_seen_at": "2026-11-27T00:41:03.680826Z",
+"last_seen_at": "2026-11-27T00:41:03.680826Z",
 "cross_is_related": true,
-"cross_score": 0.78,
-"cross_label": "policy_update",
+"cross_score": 0.75,
+"cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
-"库存"
+"选品"
 ],
-"cross_why": "费用调整，直接影响利润率",
+"cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_market_scores": {},
 "cross_platforms": [
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "亚马逊新规解读：2027低库存水平费用怎么算"
+"title_zh": "这个亚马逊官方页面，能告诉我们不少选品信息，然后如何继续拓展"
 }
 ],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 6.84,
+"earliest_time": "2026-11-27T00:41:03.680826Z",
+"latest_time": "2026-11-27T00:41:03.680826Z",
+"hot_score": 6.75,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 10
