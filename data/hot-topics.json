@@ -1,258 +1,202 @@
 {
-"generated_at": "2026-11-27T00:41:03.680826Z",
+"generated_at": "2026-11-28T00:40:32.904831Z",
 "items": [
 {
-"story_id": "47512202e0dc",
-"primary_title": "Amazon Autos is coming to the UK—the first country outside the US",
-"primary_url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
-"primary_site_id": "amazon_newsroom",
-"item_count": 3,
-"source_count": 3,
+"story_id": "d1a160e12591",
+"primary_title": "Wildberries开放个人服务广告，维修类新增16项",
+"primary_url": "https://www.amz123.com/kx/COzIMaM4",
+"primary_site_id": "amz123",
+"item_count": 2,
+"source_count": 2,
 "source_names": [
-"Amazon Newsroom",
-"Amalert UK",
-"ChannelX"
+"亿恩网",
+"AMZ123"
 ],
-"max_score": 0.66,
-"category": "general",
+"max_score": 0.6,
+"category": "advertising",
 "items": [
 {
-"id": "9026b9daaa8bb88553f51e6778d630e9902c996a",
-"site_id": "amazon_newsroom",
-"site_name": "Amazon Newsroom",
-"source": "Amazon官方",
-"title": "Amazon Autos is coming to the UK—the first country outside the US",
-"url": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
-"published_at": "2026-11-25T05:50:05Z",
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
-"cross_sites": [],
+"id": "62c4d005dc0e017d30106d5d706efd412b158a17",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "Wildberries开放个人服务广告发布",
+"url": "https://www.ennews.com/news-149725.html",
+"published_at": "2026-11-27T16:05:50Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
 "cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
+"cross_score": 0.6,
+"cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"amazon"
+"wildberries"
 ],
-"cross_why": "跨境电商行业动态",
+"cross_why": "广告政策/工具变化，影响投放策略",
 "cross_market_scores": {},
 "cross_platforms": [
-"amazon"
+"wildberries"
 ],
-"title_zh": "Amazon Autos即将登陆英国——这是美国以外的第一个国家"
-},
-{
-"id": "b40ee3d221f1391865b6a51a10e583f795e041bc",
-"site_id": "amalert",
-"site_name": "Amalert UK",
-"source": "Amazon官方聚合",
-"title": "Amazon Autos is coming to the UK—the first country outside the US",
-"url": "https://amalert.co.uk/updates/amazon-autos-is-coming-to-the-uk-the-first-country-outside-the-us-8a6bc880",
-"published_at": "2026-11-25T05:50:05Z",
-"first_seen_at": "2026-11-27T00:41:03.680826Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
-"cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"amazon"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {
-"uk": 0.4
-},
-"cross_platforms": [
-"amazon"
-],
-"cross_sites": [
-"uk"
-],
-"title_zh": "Amazon Autos即将登陆英国——这是美国以外的第一个国家"
-},
-{
-"id": "fb7785ac02651ac26a6a4068c78eb7337e0c7b70",
-"site_id": "channelx",
-"site_name": "ChannelX",
-"source": "平台新闻",
-"title": "Amazon Autos is coming to the UK",
-"url": "https://channelx.world/2026/11/amazon-autos-is-coming-to-the-uk",
-"published_at": "2026-11-25T09:44:25Z",
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
 "cross_sites": [],
+"title_zh": "Wildberries开放个人服务广告发布"
+},
+{
+"id": "1a89a70c3a869b5ff548cfc80fc4d65b40297712",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "Wildberries开放个人服务广告，维修类新增16项",
+"url": "https://www.amz123.com/kx/COzIMaM4",
+"published_at": null,
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
 "cross_is_related": true,
-"cross_score": 0.66,
-"cross_label": "general",
+"cross_score": 0.6,
+"cross_label": "advertising",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"amazon"
+"wildberries"
 ],
-"cross_why": "跨境电商行业动态",
+"cross_why": "广告政策/工具变化，影响投放策略",
 "cross_market_scores": {},
 "cross_platforms": [
-"amazon"
+"wildberries"
 ],
-"title_zh": "Amazon Autos即将登陆英国"
+"cross_sites": [],
+"title_zh": "Wildberries开放个人服务广告，维修类新增16项"
 }
 ],
-"earliest_time": "2026-11-25T05:50:05Z",
-"latest_time": "2026-11-25T09:44:25Z",
-"hot_score": 9.98,
-"freshness_bonus": 0.5,
-"age_hours": 38.99,
+"earliest_time": "2026-11-27T16:05:50Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 8.8,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
 "rank": 1
 },
 {
-"story_id": "7fe075b63247",
-"primary_title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
-"primary_url": "https://www.amz123.com/kx/UnaKJA4n",
+"story_id": "c2f5b22d6220",
+"primary_title": "InPost计划两年内在爱尔兰布设逾千个快递柜，首批150个将于2027年1月底前落地",
+"primary_url": "https://www.amz123.com/kx/yBxRu1BA",
 "primary_site_id": "amz123",
 "item_count": 2,
 "source_count": 2,
 "source_names": [
 "AMZ123",
-"AMZDH"
+"亿恩网"
 ],
-"max_score": 0.83,
-"category": "fee_logistics",
-"items": [
-{
-"id": "75410e493fd62419eb3dfad2ed781da6f909b0ba",
-"site_id": "amz123",
-"site_name": "AMZ123",
-"source": "跨境快讯",
-"title": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率",
-"url": "https://www.amz123.com/kx/UnaKJA4n",
-"published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.83,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊"
-],
-"cross_why": "费用调整，直接影响利润率",
-"cross_market_scores": {},
-"cross_platforms": [
-"fba",
-"亚马逊"
-],
-"title_zh": "亚马逊阿联酋站2026年12月1日起调整佣金及FBA费率"
-},
-{
-"id": "b88b5e5220fd5582f95391c2042eb70dc31b7eec",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "亚马逊阿联酋站12月1日起调整佣金及FBA费率",
-"url": "https://www.amzdh.com/kjtt/10713.html",
-"published_at": null,
-"first_seen_at": "2026-11-27T00:41:03.680826Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
-"cross_is_related": true,
-"cross_score": 0.68,
-"cross_label": "fee_logistics",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"fba",
-"亚马逊"
-],
-"cross_why": "费用调整，直接影响利润率",
-"cross_market_scores": {},
-"cross_platforms": [
-"fba",
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊阿联酋站12月1日起调整佣金及FBA费率"
-}
-],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-27T00:41:03.680826Z",
-"hot_score": 9.49,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 2
-},
-{
-"story_id": "f3bc7f878717",
-"primary_title": "南非与赞比亚启动海关报关数据电子互换",
-"primary_url": "https://www.amz123.com/kx/UH6A9nr8",
-"primary_site_id": "amz123",
-"item_count": 2,
-"source_count": 2,
-"source_names": [
-"AMZ123",
-"AMZDH"
-],
-"max_score": 0.58,
+"max_score": 0.54,
 "category": "general",
 "items": [
 {
-"id": "596ac921f7aab1ddb58fceeb6f52388306d5cb29",
+"id": "8bcd6588fd47bc9cfaa764c2bf73ec312d076a9c",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "南非与赞比亚启动海关报关数据电子互换",
-"url": "https://www.amz123.com/kx/UH6A9nr8",
-"published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.58,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"报关",
-"海关",
-"报关"
-],
-"cross_why": "跨境电商行业动态",
-"cross_market_scores": {},
-"cross_platforms": [],
-"title_zh": "南非与赞比亚启动海关报关数据电子互换"
-},
-{
-"id": "96fc6803eaa69cdb65e88bb78c7dfa041ffa566c",
-"site_id": "amzdh",
-"site_name": "AMZDH",
-"source": "跨境头条",
-"title": "南非与赞比亚启动海关数据自动交换",
-"url": "https://www.amzdh.com/kjtt/10710.html",
+"title": "InPost计划两年内在爱尔兰布设逾千个快递柜，首批150个将于2027年1月底前落地",
+"url": "https://www.amz123.com/kx/yBxRu1BA",
 "published_at": null,
 "first_seen_at": "2026-11-27T00:41:03.680826Z",
 "last_seen_at": "2026-11-27T00:41:03.680826Z",
-"cross_is_related": false,
-"cross_score": 0.0,
-"cross_label": "not_cross",
-"cross_relevance_reason": "missing_cross_border_signal",
+"cross_sites": [],
+"cross_is_related": true,
+"cross_score": 0.54,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
 "cross_signals": [
-"海关"
+"快递"
+],
+"cross_why": "跨境电商行业动态",
+"cross_market_scores": {},
+"cross_platforms": [],
+"title_zh": "InPost计划两年内在爱尔兰布设逾千个快递柜，首批150个将于2027年1月底前落地"
+},
+{
+"id": "094109e47135a8653f1d678f7b883a945f86a8cc",
+"site_id": "ennews",
+"site_name": "亿恩网",
+"source": "跨境资讯",
+"title": "InPost 计划两年内在爱尔兰布设逾 1000 个快递柜",
+"url": "https://www.ennews.com/news-149728.html",
+"published_at": "2026-11-27T16:17:54Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": true,
+"cross_score": 0.49,
+"cross_label": "general",
+"cross_relevance_reason": "matched_ecommerce_signal",
+"cross_signals": [
+"快递"
 ],
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
 "cross_platforms": [],
 "cross_sites": [],
-"title_zh": "南非与赞比亚启动海关数据自动交换"
+"title_zh": "InPost 计划两年内在爱尔兰布设逾 1000 个快递柜"
 }
 ],
-"earliest_time": "2026-11-26T00:41:07.503965Z",
-"latest_time": "2026-11-27T00:41:03.680826Z",
-"hot_score": 8.74,
+"earliest_time": "2026-11-27T00:41:03.680826Z",
+"latest_time": "2026-11-27T16:17:54Z",
+"hot_score": 7.62,
+"freshness_bonus": 1.0,
+"age_hours": 8.43,
+"rank": 2
+},
+{
+"story_id": "f7e788952bc1",
+"primary_title": "德国站GPSR合规显示已核准，但前台不可售、建FBA货件报错“禁售/召回”，账户状况仍有未解决记录",
+"primary_url": "https://www.wearesellers.com/question/126921",
+"primary_site_id": "wearesellers",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"知无不言"
+],
+"max_score": 1.0,
+"category": "policy_update",
+"items": [
+{
+"id": "0f4d7320b73c8f8b7316432d2cb11379c0c2eb98",
+"site_id": "wearesellers",
+"site_name": "知无不言",
+"source": "卖家社区",
+"title": "德国站GPSR合规显示已核准，但前台不可售、建FBA货件报错“禁售/召回”，账户状况仍有未解决记录",
+"url": "https://www.wearesellers.com/question/126921",
+"published_at": null,
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": true,
+"cross_score": 1.0,
+"cross_label": "policy_update",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"fba",
+"gpsr",
+"合规"
+],
+"cross_why": "EU/UK 合规要求，影响 UK/EU 站在售产品",
+"cross_market_scores": {
+"eu": 0.3
+},
+"cross_platforms": [
+"fba"
+],
+"cross_sites": [
+"eu"
+],
+"title_zh": "德国站GPSR合规显示已核准，但前台不可售、建FBA货件报错“禁售/召回”，账户状况仍有未解决记录"
+}
+],
+"earliest_time": "2026-11-28T00:40:32.904831Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 7.5,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 3
 },
 {
-"story_id": "8d9c2c1ab836",
-"primary_title": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线",
-"primary_url": "https://www.amz123.com/kx/cidy4Q6E",
+"story_id": "35f983fa97fa",
+"primary_title": "韩国二手平台Karrot季度营收首破千亿韩元",
+"primary_url": "https://www.amz123.com/kx/oaiI3b1C",
 "primary_site_id": "amz123",
 "item_count": 2,
 "source_count": 2,
@@ -260,315 +204,279 @@
 "亿恩网",
 "AMZ123"
 ],
-"max_score": 0.58,
-"category": "general",
+"max_score": 0.15,
+"category": "not_cross",
 "items": [
 {
-"id": "f987f903104e3622c79bd37d143e2b09cbf3d256",
+"id": "abbe430cfcf45e65b57592d67f78dba3486566a4",
 "site_id": "ennews",
 "site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "DHL快递开通上海深圳至布鲁塞尔货运航线",
-"url": "https://www.ennews.com/news-149518.html",
-"published_at": "2026-11-25T17:12:51Z",
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.52,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"dhl",
-"快递",
-"货运"
-],
+"title": "韩国二手平台Karrot季度营收首破千亿韩元",
+"url": "https://www.ennews.com/news-149737.html",
+"published_at": "2026-11-27T17:01:05Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
 "cross_platforms": [],
-"title_zh": "DHL快递开通上海深圳至布鲁塞尔货运航线"
+"cross_sites": [],
+"title_zh": "韩国二手平台Karrot季度营收首破千亿韩元"
 },
 {
-"id": "90c7f1aafe9744fb49e5daf7c068427ad1f15ec2",
+"id": "7d50e8ba87e13a6e8ffddd4cce76b407bb6eb5c8",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线",
-"url": "https://www.amz123.com/kx/cidy4Q6E",
+"title": "韩国二手平台Karrot季度营收首破千亿韩元",
+"url": "https://www.amz123.com/kx/oaiI3b1C",
 "published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.58,
-"cross_label": "general",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"dhl",
-"货运"
-],
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
 "cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
 "cross_platforms": [],
-"title_zh": "DHL与中州航空开通上海、深圳至布鲁塞尔货运航线"
+"cross_sites": [],
+"title_zh": "韩国二手平台Karrot季度营收首破千亿韩元"
 }
 ],
-"earliest_time": "2026-11-25T17:12:51Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 7.24,
-"freshness_bonus": 0.5,
-"age_hours": 24.05,
+"earliest_time": "2026-11-27T17:01:05Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
 "rank": 4
 },
 {
-"story_id": "40c7647c7ffa",
-"primary_title": "被亚马逊封号潮逼出来的“工具大卖”，傲基是背后靠山",
-"primary_url": "https://www.cifnews.com/article/190385",
-"primary_site_id": "cifnews",
-"item_count": 1,
-"source_count": 1,
+"story_id": "eb140882824b",
+"primary_title": "埃及发布\"白色星期五\"促销规则，虚标折扣最高罚 200 万埃镑",
+"primary_url": "https://www.ennews.com/news-149731.html",
+"primary_site_id": "ennews",
+"item_count": 2,
+"source_count": 2,
 "source_names": [
-"雨果跨境"
+"亿恩网",
+"AMZ123"
 ],
-"max_score": 0.84,
-"category": "seller_action",
+"max_score": 0.15,
+"category": "not_cross",
 "items": [
 {
-"id": "4041499df99cbe2da97a3c58cfb9882b795b8e56",
-"site_id": "cifnews",
-"site_name": "雨果跨境",
+"id": "aae70bb471990a70105116695d5c470bf3ef938b",
+"site_id": "ennews",
+"site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "被亚马逊封号潮逼出来的“工具大卖”，傲基是背后靠山",
-"url": "https://www.cifnews.com/article/190385",
-"published_at": null,
-"first_seen_at": "2026-11-27T00:41:03.680826Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
-"cross_is_related": true,
-"cross_score": 0.84,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊"
-],
-"cross_why": "账号安全类信号，涉及封号/申诉风险",
+"title": "埃及发布\"白色星期五\"促销规则，虚标折扣最高罚 200 万埃镑",
+"url": "https://www.ennews.com/news-149731.html",
+"published_at": "2026-11-27T16:29:00Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "跨境电商行业动态",
 "cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
+"cross_platforms": [],
 "cross_sites": [],
-"title_zh": "被亚马逊封号潮逼出来的“工具大卖”，傲基是背后靠山"
+"title_zh": "埃及发布\"白色星期五\"促销规则，虚标折扣最高罚 200 万埃镑"
+},
+{
+"id": "2688c10b8e9fdccc969877190d46dd8271716747",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "埃及白色星期五新规：虚标折扣最高罚200万埃镑",
+"url": "https://www.amz123.com/kx/RP3FxTA5",
+"published_at": null,
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "平台或监管政策变动，需评估运营影响",
+"cross_market_scores": {},
+"cross_platforms": [],
+"cross_sites": [],
+"title_zh": "埃及白色星期五新规：虚标折扣最高罚200万埃镑"
 }
 ],
-"earliest_time": "2026-11-27T00:41:03.680826Z",
-"latest_time": "2026-11-27T00:41:03.680826Z",
-"hot_score": 7.02,
+"earliest_time": "2026-11-27T16:29:00Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 7.45,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 5
 },
 {
-"story_id": "738fcf5debb3",
-"primary_title": "巴西双十一电商销售额达38亿雷亚尔，同比增长44.9%",
-"primary_url": "https://www.amz123.com/kx/4UqPpIpm",
-"primary_site_id": "amz123",
+"story_id": "22bd117c1fa3",
+"primary_title": "欧盟对华贸易逆差三季度升至创纪录的 1139.1 亿欧元",
+"primary_url": "https://www.ennews.com/news-149732.html",
+"primary_site_id": "ennews",
 "item_count": 2,
 "source_count": 2,
 "source_names": [
 "亿恩网",
 "AMZ123"
 ],
-"max_score": 0.49,
-"category": "platform_trend",
+"max_score": 0.15,
+"category": "not_cross",
 "items": [
 {
-"id": "659a278195425973612bdf58340d261324bc2ee5",
+"id": "33e259fb68fa11f8233abf881911cff94cda2c67",
 "site_id": "ennews",
 "site_name": "亿恩网",
 "source": "跨境资讯",
-"title": "巴西11.11电商成交38亿雷亚尔 同比增44.9%",
-"url": "https://www.ennews.com/news-149520.html",
-"published_at": "2026-11-25T17:21:13Z",
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.39,
-"cross_label": "seller_action",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商"
-],
-"cross_why": "卖家运营相关信号",
-"cross_market_scores": {},
+"title": "欧盟对华贸易逆差三季度升至创纪录的 1139.1 亿欧元",
+"url": "https://www.ennews.com/news-149732.html",
+"published_at": "2026-11-27T16:34:40Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": false,
+"cross_score": 0.1,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_market_scores": {
+"eu": 0.18
+},
 "cross_platforms": [],
-"title_zh": "巴西11.11电商成交38亿雷亚尔 同比增44.9%"
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧盟对华贸易逆差三季度升至创纪录的 1139.1 亿欧元"
 },
 {
-"id": "d30b36f9433a0f2c9fc00ef3b34a09a4e1dc5b8c",
+"id": "be9a2721d99190fb1a648c723c1a3b8345db48f6",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "巴西双十一电商销售额达38亿雷亚尔，同比增长44.9%",
-"url": "https://www.amz123.com/kx/4UqPpIpm",
+"title": "欧盟三季度对华贸易逆差创纪录1139.1亿欧元",
+"url": "https://www.amz123.com/kx/hdUCa0DF",
 "published_at": null,
-"first_seen_at": "2026-11-26T00:41:07.503965Z",
-"last_seen_at": "2026-11-26T00:41:07.503965Z",
-"cross_sites": [],
-"cross_is_related": true,
-"cross_score": 0.49,
-"cross_label": "platform_trend",
-"cross_relevance_reason": "matched_ecommerce_signal",
-"cross_signals": [
-"电商"
-],
-"cross_why": "行业趋势/大促节点，提前布局参考",
-"cross_market_scores": {},
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": false,
+"cross_score": 0.15,
+"cross_label": "not_cross",
+"cross_relevance_reason": "missing_cross_border_signal",
+"cross_signals": [],
+"cross_why": "EU 市场动态，欧洲站卖家关注",
+"cross_market_scores": {
+"eu": 0.18
+},
 "cross_platforms": [],
-"title_zh": "巴西双十一电商销售额达38亿雷亚尔，同比增长44.9%"
+"cross_sites": [
+"eu"
+],
+"title_zh": "欧盟三季度对华贸易逆差创纪录1139.1亿欧元"
 }
 ],
-"earliest_time": "2026-11-25T17:21:13Z",
-"latest_time": "2026-11-26T00:41:07.503965Z",
-"hot_score": 6.97,
-"freshness_bonus": 0.5,
-"age_hours": 24.05,
+"earliest_time": "2026-11-27T16:34:40Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 7.45,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
 "rank": 6
 },
 {
-"story_id": "4d5ee3b9422a",
-"primary_title": "TikTok Shop德国站72%卖家已开展跨境销售，成交额预计近翻倍",
-"primary_url": "https://www.amz123.com/kx/KaJVOnRl",
+"story_id": "b79a3f7a19d6",
+"primary_title": "亚马逊12月10日起调整FBM退货规则：拒收将丧失索赔资格",
+"primary_url": "https://www.amz123.com/kx/kEefBhN9",
 "primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
 "AMZ123"
 ],
-"max_score": 0.75,
-"category": "tiktok",
+"max_score": 0.97,
+"category": "policy_update",
 "items": [
 {
-"id": "0252189a802fffe1cf6d319d63279514762955f1",
+"id": "c466ed55d3d17a653067ac6121d30afed2cb8928",
 "site_id": "amz123",
 "site_name": "AMZ123",
 "source": "跨境快讯",
-"title": "TikTok Shop德国站72%卖家已开展跨境销售，成交额预计近翻倍",
-"url": "https://www.amz123.com/kx/KaJVOnRl",
+"title": "亚马逊12月10日起调整FBM退货规则：拒收将丧失索赔资格",
+"url": "https://www.amz123.com/kx/kEefBhN9",
 "published_at": null,
-"first_seen_at": "2026-11-27T00:41:03.680826Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
 "cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "tiktok",
+"cross_score": 0.97,
+"cross_label": "policy_update",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"tiktok shop",
-"卖家",
-"跨境",
-"卖家"
+"fbm",
+"亚马逊",
+"退货"
 ],
-"cross_why": "EU 市场动态，欧洲站卖家关注",
-"cross_market_scores": {
-"eu": 0.18
-},
+"cross_why": "产品/listing 相关变化，关注运营调整",
+"cross_market_scores": {},
 "cross_platforms": [
-"tiktok shop"
+"fbm",
+"亚马逊"
 ],
-"cross_sites": [
-"eu"
-],
-"title_zh": "TikTok Shop德国站72%卖家已开展跨境销售，成交额预计近翻倍"
+"cross_sites": [],
+"title_zh": "亚马逊12月10日起调整FBM退货规则：拒收将丧失索赔资格"
 }
 ],
-"earliest_time": "2026-11-27T00:41:03.680826Z",
-"latest_time": "2026-11-27T00:41:03.680826Z",
-"hot_score": 6.75,
+"earliest_time": "2026-11-28T00:40:32.904831Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 7.41,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
 "rank": 7
 },
 {
-"story_id": "f24d9e364fbf",
-"primary_title": "亚马逊家具选品（下）：除了模仿竞品，我们还有这7种创新思路",
-"primary_url": "https://www.wearesellers.com/question/126885",
-"primary_site_id": "wearesellers",
+"story_id": "f800b43618df",
+"primary_title": "亚马逊美国站W-8税务表格集中到期，卖家须于12月30日前完成更新",
+"primary_url": "https://www.amz123.com/kx/StlVhqv6",
+"primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"知无不言"
+"AMZ123"
 ],
-"max_score": 0.75,
-"category": "listing_product",
+"max_score": 0.85,
+"category": "seller_action",
 "items": [
 {
-"id": "87bc6610e3d10ae227539931c002f1665ec476d9",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "亚马逊家具选品（下）：除了模仿竞品，我们还有这7种创新思路",
-"url": "https://www.wearesellers.com/question/126885",
+"id": "05e805ebb74ac71dcf6a6dabd6a645170b370a87",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊美国站W-8税务表格集中到期，卖家须于12月30日前完成更新",
+"url": "https://www.amz123.com/kx/StlVhqv6",
 "published_at": null,
-"first_seen_at": "2026-11-27T00:41:03.680826Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
 "cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "listing_product",
-"cross_relevance_reason": "matched_cross_border_signal",
-"cross_signals": [
-"亚马逊",
-"选品"
-],
-"cross_why": "产品/listing 相关变化，关注运营调整",
-"cross_market_scores": {},
-"cross_platforms": [
-"亚马逊"
-],
-"cross_sites": [],
-"title_zh": "亚马逊家具选品（下）：除了模仿竞品，我们还有这7种创新思路"
-}
-],
-"earliest_time": "2026-11-27T00:41:03.680826Z",
-"latest_time": "2026-11-27T00:41:03.680826Z",
-"hot_score": 6.75,
-"freshness_bonus": 2.0,
-"age_hours": 0.05,
-"rank": 8
-},
-{
-"story_id": "4de2997435ef",
-"primary_title": "8月入局亚马逊美国站车机，两款产品一款断货后转化腰斩、一款广告持续亏损，小卖家还有机会吗 ？",
-"primary_url": "https://www.wearesellers.com/question/126894",
-"primary_site_id": "wearesellers",
-"item_count": 1,
-"source_count": 1,
-"source_names": [
-"知无不言"
-],
-"max_score": 0.75,
-"category": "advertising",
-"items": [
-{
-"id": "4be543dabede1bebba2692e3a5be145523c8b01b",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "8月入局亚马逊美国站车机，两款产品一款断货后转化腰斩、一款广告持续亏损，小卖家还有机会吗 ？",
-"url": "https://www.wearesellers.com/question/126894",
-"published_at": null,
-"first_seen_at": "2026-11-27T00:41:03.680826Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
-"cross_is_related": true,
-"cross_score": 0.75,
-"cross_label": "advertising",
+"cross_score": 0.85,
+"cross_label": "seller_action",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
 "亚马逊",
 "卖家",
 "卖家"
 ],
-"cross_why": "广告政策/工具变化，影响投放策略",
+"cross_why": "税务/关税变动，影响成本核算",
 "cross_market_scores": {
-"us": 0.28
+"us": 0.23
 },
 "cross_platforms": [
 "亚马逊"
@@ -576,46 +484,45 @@
 "cross_sites": [
 "us"
 ],
-"title_zh": "8月入局亚马逊美国站车机，两款产品一款断货后转化腰斩、一款广告持续亏损，小卖家还有机会吗 ？"
+"title_zh": "亚马逊美国站W-8税务表格集中到期，卖家须于12月30日前完成更新"
 }
 ],
-"earliest_time": "2026-11-27T00:41:03.680826Z",
-"latest_time": "2026-11-27T00:41:03.680826Z",
-"hot_score": 6.75,
+"earliest_time": "2026-11-28T00:40:32.904831Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 7.05,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
-"rank": 9
+"rank": 8
 },
 {
-"story_id": "39829a05fd18",
-"primary_title": "这个亚马逊官方页面，能告诉我们不少选品信息，然后如何继续拓展",
-"primary_url": "https://www.wearesellers.com/question/125686",
-"primary_site_id": "wearesellers",
+"story_id": "3723f23e8ea4",
+"primary_title": "亚马逊10款庭院产品月销过万，中国工具品牌居首",
+"primary_url": "https://www.amz123.com/kx/NsZaJhaw",
+"primary_site_id": "amz123",
 "item_count": 1,
 "source_count": 1,
 "source_names": [
-"知无不言"
+"AMZ123"
 ],
-"max_score": 0.75,
+"max_score": 0.81,
 "category": "listing_product",
 "items": [
 {
-"id": "251127f3b6dd6a01b49e52160bba1a9a2da8085e",
-"site_id": "wearesellers",
-"site_name": "知无不言",
-"source": "卖家社区",
-"title": "这个亚马逊官方页面，能告诉我们不少选品信息，然后如何继续拓展",
-"url": "https://www.wearesellers.com/question/125686",
+"id": "a81cca56c584cfe23699c00279719265620b8044",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊10款庭院产品月销过万，中国工具品牌居首",
+"url": "https://www.amz123.com/kx/NsZaJhaw",
 "published_at": null,
-"first_seen_at": "2026-11-27T00:41:03.680826Z",
-"last_seen_at": "2026-11-27T00:41:03.680826Z",
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
 "cross_is_related": true,
-"cross_score": 0.75,
+"cross_score": 0.81,
 "cross_label": "listing_product",
 "cross_relevance_reason": "matched_cross_border_signal",
 "cross_signals": [
-"亚马逊",
-"选品"
+"亚马逊"
 ],
 "cross_why": "产品/listing 相关变化，关注运营调整",
 "cross_market_scores": {},
@@ -623,11 +530,59 @@
 "亚马逊"
 ],
 "cross_sites": [],
-"title_zh": "这个亚马逊官方页面，能告诉我们不少选品信息，然后如何继续拓展"
+"title_zh": "亚马逊10款庭院产品月销过万，中国工具品牌居首"
 }
 ],
-"earliest_time": "2026-11-27T00:41:03.680826Z",
-"latest_time": "2026-11-27T00:41:03.680826Z",
+"earliest_time": "2026-11-28T00:40:32.904831Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
+"hot_score": 6.93,
+"freshness_bonus": 2.0,
+"age_hours": 0.05,
+"rank": 9
+},
+{
+"story_id": "f5e0e5594928",
+"primary_title": "亚马逊印度卖家累计出口270亿美元，卖家数增至24万",
+"primary_url": "https://www.amz123.com/kx/wEdkQM5G",
+"primary_site_id": "amz123",
+"item_count": 1,
+"source_count": 1,
+"source_names": [
+"AMZ123"
+],
+"max_score": 0.75,
+"category": "seller_action",
+"items": [
+{
+"id": "b48a4393f3cfaf742fbb5223625d473481b6382f",
+"site_id": "amz123",
+"site_name": "AMZ123",
+"source": "跨境快讯",
+"title": "亚马逊印度卖家累计出口270亿美元，卖家数增至24万",
+"url": "https://www.amz123.com/kx/wEdkQM5G",
+"published_at": null,
+"first_seen_at": "2026-11-28T00:40:32.904831Z",
+"last_seen_at": "2026-11-28T00:40:32.904831Z",
+"cross_is_related": true,
+"cross_score": 0.75,
+"cross_label": "seller_action",
+"cross_relevance_reason": "matched_cross_border_signal",
+"cross_signals": [
+"亚马逊",
+"卖家",
+"卖家"
+],
+"cross_why": "卖家运营相关信号",
+"cross_market_scores": {},
+"cross_platforms": [
+"亚马逊"
+],
+"cross_sites": [],
+"title_zh": "亚马逊印度卖家累计出口270亿美元，卖家数增至24万"
+}
+],
+"earliest_time": "2026-11-28T00:40:32.904831Z",
+"latest_time": "2026-11-28T00:40:32.904831Z",
 "hot_score": 6.75,
 "freshness_bonus": 2.0,
 "age_hours": 0.05,
